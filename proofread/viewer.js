@@ -2,11 +2,14 @@ import * as pdfjsLib from "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/build
 import {
   cacheEmail,
   createReportStore,
+  expandReportBlockRanges,
   fetchJson,
   getCachedEmail,
-  groupBy,
   loadIssuesManifest,
   loadRuntimeConfig,
+  reportEndBlockId,
+  reportStartBlockId,
+  reportTouchesBlock,
   viewerUrl,
 } from "./proofread-common.js";
 
@@ -409,7 +412,20 @@ function rebuildTranscript() {
     [...surface.querySelectorAll("[data-block-id]")].map((element) => [element.dataset.blockId, element])
   );
 
-  const groupedReports = groupBy(state.reports, (report) => report.block_id);
+  const groupedReports = new Map();
+  for (const report of state.reports) {
+    for (const range of expandReportBlockRanges(report, state.transcript.block_index)) {
+      if (!groupedReports.has(range.block_id)) {
+        groupedReports.set(range.block_id, []);
+      }
+      groupedReports.get(range.block_id).push({
+        ...report,
+        start_offset: range.start_offset,
+        end_offset: range.end_offset,
+      });
+    }
+  }
+
   for (const [blockId, reports] of groupedReports.entries()) {
     const blockElement = state.blockLookup.get(blockId);
     if (!blockElement) continue;
@@ -439,20 +455,21 @@ function selectionAnchor() {
     ? range.endContainer.closest?.("[data-block-id]")
     : range.endContainer.parentElement?.closest("[data-block-id]");
 
-  if (!startBlock || !endBlock || startBlock.dataset.blockId !== endBlock.dataset.blockId) {
+  if (!startBlock || !endBlock) {
     return null;
   }
 
   const startOffset = measureBlockOffset(startBlock, range.startContainer, range.startOffset);
-  const endOffset = measureBlockOffset(startBlock, range.endContainer, range.endOffset);
+  const endOffset = measureBlockOffset(endBlock, range.endContainer, range.endOffset);
 
   const selectedText = range.toString().trim();
-  if (!selectedText || startOffset === endOffset) {
+  if (!selectedText || (startBlock.dataset.blockId === endBlock.dataset.blockId && startOffset === endOffset)) {
     return null;
   }
 
   return {
     blockId: startBlock.dataset.blockId,
+    endBlockId: endBlock.dataset.blockId,
     selectedText,
     startOffset,
     endOffset,
@@ -473,6 +490,7 @@ function currentReportPayload() {
   return {
     report_kind: state.modalMode,
     block_id: state.selectedAnchor.blockId,
+    end_block_id: state.selectedAnchor.endBlockId,
     start_offset: state.selectedAnchor.startOffset,
     end_offset: state.selectedAnchor.endOffset,
     selected_text: state.selectedAnchor.selectedText,
@@ -576,7 +594,7 @@ async function submitReport(event) {
 function buildReportPopover(reportIds, blockId, targetRect) {
   const popover = byId("report-popover");
   const reports = reportIds.map((reportId) => state.popupReportMap.get(reportId)).filter(Boolean);
-  const blockReports = reports.filter((report) => report.block_id === blockId);
+  const blockReports = reports.filter((report) => reportTouchesBlock(report, blockId, state.transcript.block_index));
   popover.replaceChildren();
 
   const head = document.createElement("div");
@@ -599,7 +617,8 @@ function buildReportPopover(reportIds, blockId, targetRect) {
 
     const meta = document.createElement("p");
     meta.className = "popover-meta";
-    meta.textContent = new Date(report.created_at).toLocaleString();
+    const isMultiBlock = reportStartBlockId(report) !== reportEndBlockId(report);
+    meta.textContent = `${new Date(report.created_at).toLocaleString()}${isMultiBlock ? " \u2022 multi-block" : ""}`;
 
     article.append(kicker, body, meta);
     popover.appendChild(article);

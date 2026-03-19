@@ -139,11 +139,75 @@ function reportSignature(report) {
     report.issue_id,
     report.report_kind,
     report.block_id,
+    report.end_block_id || report.block_id,
     report.start_offset,
     report.end_offset,
     report.selected_text,
     report.report_body,
   ].join("::");
+}
+
+export function reportStartBlockId(report) {
+  return report?.block_id || "";
+}
+
+export function reportEndBlockId(report) {
+  return report?.end_block_id || report?.block_id || "";
+}
+
+export function expandReportBlockRanges(report, blockIndex) {
+  const startBlockId = reportStartBlockId(report);
+  const endBlockId = reportEndBlockId(report);
+  if (!startBlockId || !endBlockId || !Array.isArray(blockIndex) || blockIndex.length === 0) {
+    return [];
+  }
+
+  const positions = new Map(blockIndex.map((block, index) => [block.block_id, index]));
+  let startIndex = positions.get(startBlockId);
+  let endIndex = positions.get(endBlockId);
+  if (startIndex == null || endIndex == null) {
+    return [];
+  }
+
+  let startOffset = Number(report.start_offset);
+  let endOffset = Number(report.end_offset);
+  if (!Number.isFinite(startOffset) || !Number.isFinite(endOffset)) {
+    return [];
+  }
+
+  if (startIndex > endIndex) {
+    [startIndex, endIndex] = [endIndex, startIndex];
+    [startOffset, endOffset] = [endOffset, startOffset];
+  }
+
+  const ranges = [];
+  for (let index = startIndex; index <= endIndex; index += 1) {
+    const block = blockIndex[index];
+    const blockLength = Number(block.text_length || 0);
+    let rangeStart = index === startIndex ? startOffset : 0;
+    let rangeEnd = index === endIndex ? endOffset : blockLength;
+
+    rangeStart = Math.max(0, Math.min(blockLength, rangeStart));
+    rangeEnd = Math.max(0, Math.min(blockLength, rangeEnd));
+    if (index === startIndex && index === endIndex && rangeEnd <= rangeStart) {
+      return [];
+    }
+    if (rangeEnd <= rangeStart) {
+      continue;
+    }
+
+    ranges.push({
+      block_id: block.block_id,
+      start_offset: rangeStart,
+      end_offset: rangeEnd,
+    });
+  }
+
+  return ranges;
+}
+
+export function reportTouchesBlock(report, blockId, blockIndex) {
+  return expandReportBlockRanges(report, blockIndex).some((range) => range.block_id === blockId);
 }
 
 function parseGithubReportMetadata(issue) {
@@ -200,6 +264,7 @@ async function fetchGithubIssueReports(runtimeConfig) {
         issue_id: metadata.issue_id,
         report_kind: metadata.report_kind,
         block_id: metadata.block_id,
+        end_block_id: metadata.end_block_id || metadata.block_id,
         start_offset: metadata.start_offset,
         end_offset: metadata.end_offset,
         selected_text: metadata.selected_text,
@@ -240,6 +305,7 @@ function buildGithubIssueUrl(runtimeConfig, issueId, payload) {
     issue_id: issueId,
     report_kind: payload.report_kind,
     block_id: payload.block_id,
+    end_block_id: payload.end_block_id || payload.block_id,
     start_offset: payload.start_offset,
     end_offset: payload.end_offset,
     selected_text: payload.selected_text,
@@ -427,22 +493,38 @@ export function summarizeReviewedCoverage(issue, reports) {
     return { oneRatio: 0, twoRatio: 0 };
   }
 
-  const grouped = groupBy(
-    reports.filter((report) => report.report_kind === "reviewed_correct"),
-    (report) => report.block_id
-  );
-
   let oneCoverage = 0;
   let twoCoverage = 0;
 
-  for (const blockReports of grouped.values()) {
-    const normalized = blockReports
-      .map((report) => ({
-        start: Number(report.start_offset),
-        end: Number(report.end_offset),
-        identity: proofreaderIdentity(report),
-      }))
-      .filter((report) => Number.isFinite(report.start) && Number.isFinite(report.end) && report.end > report.start && report.identity);
+  const segmentGroups = groupBy(
+    reports.filter((report) => report.report_kind === "reviewed_correct"),
+    (report) => `${reportStartBlockId(report)}::${reportEndBlockId(report)}`
+  );
+
+  for (const reportGroup of segmentGroups.values()) {
+    const normalized = reportGroup
+      .map((report) => {
+        const startBlockId = reportStartBlockId(report);
+        const endBlockId = reportEndBlockId(report);
+        const identity = proofreaderIdentity(report);
+        if (!identity) {
+          return null;
+        }
+        if (startBlockId === endBlockId) {
+          const start = Number(report.start_offset);
+          const end = Number(report.end_offset);
+          if (!Number.isFinite(start) || !Number.isFinite(end) || end <= start) {
+            return null;
+          }
+          return { start, end, identity };
+        }
+        const length = (report.selected_text || "").length;
+        if (!length) {
+          return null;
+        }
+        return { start: 0, end: length, identity };
+      })
+      .filter(Boolean);
 
     if (!normalized.length) {
       continue;

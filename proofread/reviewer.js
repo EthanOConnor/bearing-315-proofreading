@@ -3,10 +3,10 @@ import {
   cacheReviewerEmail,
   cacheReviewerName,
   createReportStore,
+  expandReportBlockRanges,
   fetchJson,
   getCachedReviewerEmail,
   getCachedReviewerName,
-  groupBy,
   loadIssuesManifest,
   loadRuntimeConfig,
   reviewerUrl,
@@ -369,7 +369,20 @@ function rebuildTranscript() {
     [...surface.querySelectorAll("[data-block-id]")].map((element) => [element.dataset.blockId, element])
   );
 
-  const groupedReports = groupBy(state.reports, (report) => report.block_id);
+  const groupedReports = new Map();
+  for (const report of state.reports) {
+    for (const range of expandReportBlockRanges(report, state.transcript.block_index)) {
+      if (!groupedReports.has(range.block_id)) {
+        groupedReports.set(range.block_id, []);
+      }
+      groupedReports.get(range.block_id).push({
+        ...report,
+        start_offset: range.start_offset,
+        end_offset: range.end_offset,
+      });
+    }
+  }
+
   for (const [blockId, reports] of groupedReports.entries()) {
     const blockElement = state.blockLookup.get(blockId);
     if (!blockElement) continue;

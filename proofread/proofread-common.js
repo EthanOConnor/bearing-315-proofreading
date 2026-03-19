@@ -98,6 +98,13 @@ function localStore(runtimeConfig) {
     async listIssueReviews(issueId) {
       return loadLocalReviews(runtimeConfig, issueId);
     },
+    async listAllIssueReports(issueIds) {
+      const grouped = {};
+      for (const issueId of issueIds) {
+        grouped[issueId] = loadLocalReports(runtimeConfig, issueId);
+      }
+      return grouped;
+    },
     async submitIssueReport(issueId, payload) {
       const report = {
         report_id: nextLocalId(runtimeConfig),
@@ -270,6 +277,15 @@ function buildGithubIssueUrl(runtimeConfig, issueId, payload) {
 }
 
 function githubIssueStore(runtimeConfig) {
+  let githubReportsPromise;
+
+  function loadGithubReports() {
+    if (!githubReportsPromise) {
+      githubReportsPromise = fetchGithubIssueReports(runtimeConfig);
+    }
+    return githubReportsPromise;
+  }
+
   return {
     modeLabel: "GitHub issue mode",
     supportsReviewUi: false,
@@ -277,13 +293,25 @@ function githubIssueStore(runtimeConfig) {
     submitButtonLabel: "Continue to GitHub",
     async listIssueReports(issueId) {
       const [githubReports, localReports] = await Promise.all([
-        fetchGithubIssueReports(runtimeConfig),
+        loadGithubReports(),
         Promise.resolve(loadLocalReports(runtimeConfig, issueId)),
       ]);
       const filteredGithub = githubReports.filter((report) => report.issue_id === issueId);
       const githubSignatures = new Set(filteredGithub.map(reportSignature));
       const pendingLocal = localReports.filter((report) => !githubSignatures.has(reportSignature(report)));
       return [...filteredGithub, ...pendingLocal];
+    },
+    async listAllIssueReports(issueIds) {
+      const [githubReports] = await Promise.all([loadGithubReports()]);
+      const grouped = {};
+      for (const issueId of issueIds) {
+        const filteredGithub = githubReports.filter((report) => report.issue_id === issueId);
+        const localReports = loadLocalReports(runtimeConfig, issueId);
+        const githubSignatures = new Set(filteredGithub.map(reportSignature));
+        const pendingLocal = localReports.filter((report) => !githubSignatures.has(reportSignature(report)));
+        grouped[issueId] = [...filteredGithub, ...pendingLocal];
+      }
+      return grouped;
     },
     async listIssueReviews() {
       return [];
@@ -340,6 +368,10 @@ function apiStore(runtimeConfig) {
       const payload = await response.json();
       return payload.reviews || [];
     },
+    async listAllIssueReports(issueIds) {
+      const entries = await Promise.all(issueIds.map(async (issueId) => [issueId, await this.listIssueReports(issueId)]));
+      return Object.fromEntries(entries);
+    },
     async submitIssueReport(issueId, payload) {
       const response = await fetch(`${baseUrl}/issues/${encodeURIComponent(issueId)}/reports`, {
         method: "POST",
@@ -383,6 +415,64 @@ export function createReportStore(runtimeConfig) {
     return githubIssueStore(runtimeConfig);
   }
   return localStore(runtimeConfig);
+}
+
+function proofreaderIdentity(report) {
+  return (report.reporter_name || report.reporter_email || "").trim().toLowerCase();
+}
+
+export function summarizeReviewedCoverage(issue, reports) {
+  const totalLength = Number(issue.transcript_text_length || 0);
+  if (!totalLength || !Array.isArray(reports) || reports.length === 0) {
+    return { oneRatio: 0, twoRatio: 0 };
+  }
+
+  const grouped = groupBy(
+    reports.filter((report) => report.report_kind === "reviewed_correct"),
+    (report) => report.block_id
+  );
+
+  let oneCoverage = 0;
+  let twoCoverage = 0;
+
+  for (const blockReports of grouped.values()) {
+    const normalized = blockReports
+      .map((report) => ({
+        start: Number(report.start_offset),
+        end: Number(report.end_offset),
+        identity: proofreaderIdentity(report),
+      }))
+      .filter((report) => Number.isFinite(report.start) && Number.isFinite(report.end) && report.end > report.start && report.identity);
+
+    if (!normalized.length) {
+      continue;
+    }
+
+    const boundaries = [...new Set(normalized.flatMap((report) => [report.start, report.end]))].sort((a, b) => a - b);
+    for (let index = 0; index < boundaries.length - 1; index += 1) {
+      const start = boundaries[index];
+      const end = boundaries[index + 1];
+      if (end <= start) {
+        continue;
+      }
+      const activeProofreaders = new Set(
+        normalized
+          .filter((report) => report.start < end && report.end > start)
+          .map((report) => report.identity)
+      );
+      if (activeProofreaders.size >= 1) {
+        oneCoverage += end - start;
+      }
+      if (activeProofreaders.size >= 2) {
+        twoCoverage += end - start;
+      }
+    }
+  }
+
+  return {
+    oneRatio: Math.max(0, Math.min(1, oneCoverage / totalLength)),
+    twoRatio: Math.max(0, Math.min(1, twoCoverage / totalLength)),
+  };
 }
 
 export function getCachedEmail(runtimeConfig) {

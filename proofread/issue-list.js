@@ -1,8 +1,16 @@
-import { createReportStore, loadIssuesManifest, loadRuntimeConfig, reviewerUrl, viewerUrl } from "./proofread-common.js";
+import {
+  createReportStore,
+  loadIssuesManifest,
+  loadRuntimeConfig,
+  reviewerUrl,
+  summarizeReviewedCoverage,
+  viewerUrl,
+} from "./proofread-common.js";
 
 function buildIssueTable(issues, { showReviewLinks }) {
   const table = document.createElement("table");
   table.className = "issue-table";
+  const rowMap = new Map();
 
   const thead = document.createElement("thead");
   thead.innerHTML = `
@@ -76,10 +84,22 @@ function buildIssueTable(issues, { showReviewLinks }) {
       window.location.href = row.dataset.viewerUrl;
     });
     tbody.appendChild(row);
+    rowMap.set(issue.issue_id, row);
   }
 
   table.append(thead, tbody);
-  return table;
+  return { table, rowMap };
+}
+
+function applyIssueCoverage(issues, rowMap, reportsByIssue) {
+  for (const issue of issues) {
+    const row = rowMap.get(issue.issue_id);
+    if (!row) continue;
+    const coverage = summarizeReviewedCoverage(issue, reportsByIssue?.[issue.issue_id] || []);
+    row.style.setProperty("--proofread-progress-one", `${(coverage.oneRatio * 100).toFixed(2)}%`);
+    row.style.setProperty("--proofread-progress-two", `${(coverage.twoRatio * 100).toFixed(2)}%`);
+    row.title = `Marked clean: 1 proofreader ${Math.round(coverage.oneRatio * 100)}%, 2 proofreaders ${Math.round(coverage.twoRatio * 100)}%`;
+  }
 }
 
 async function main() {
@@ -96,9 +116,15 @@ async function main() {
     const reportStore = createReportStore(runtimeConfig);
     runtimeMode.textContent = reportStore.modeLabel;
     issueCount.textContent = `${manifest.issue_count} issues currently in scope`;
-    issueTableWrap.replaceChildren(buildIssueTable(manifest.issues, {
+    const { table, rowMap } = buildIssueTable(manifest.issues, {
       showReviewLinks: runtimeConfig.showReviewLinks !== false && reportStore.supportsReviewUi !== false,
-    }));
+    });
+    issueTableWrap.replaceChildren(table);
+
+    if (typeof reportStore.listAllIssueReports === "function") {
+      const reportsByIssue = await reportStore.listAllIssueReports(manifest.issues.map((issue) => issue.issue_id));
+      applyIssueCoverage(manifest.issues, rowMap, reportsByIssue);
+    }
   } catch (error) {
     runtimeMode.textContent = "Manifest unavailable";
     issueCount.textContent = "Could not load proofing issues.";

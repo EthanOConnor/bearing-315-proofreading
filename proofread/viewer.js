@@ -198,6 +198,51 @@ async function refreshPdfViewport() {
   }
 }
 
+function minimumZoomScale() {
+  return Math.max(0.1, state.fitPageScale * 0.6);
+}
+
+function maximumZoomScale() {
+  return Math.max(state.fitWidthScale * 8, state.fitPageScale * 8, 6);
+}
+
+function clampZoomScale(scale) {
+  return Math.min(maximumZoomScale(), Math.max(minimumZoomScale(), scale));
+}
+
+function shouldZoomFromWheel(event) {
+  if (event.ctrlKey || event.metaKey) {
+    return true;
+  }
+  return event.deltaMode === WheelEvent.DOM_DELTA_LINE || event.deltaMode === WheelEvent.DOM_DELTA_PAGE;
+}
+
+function wheelDeltaPixels(event, referenceHeight) {
+  if (event.deltaMode === WheelEvent.DOM_DELTA_LINE) {
+    return event.deltaY * 14;
+  }
+  if (event.deltaMode === WheelEvent.DOM_DELTA_PAGE) {
+    return event.deltaY * Math.max(referenceHeight * 0.85, 240);
+  }
+  return event.deltaY;
+}
+
+async function zoomAroundClientPoint(nextScale, clientX, clientY) {
+  const wrap = byId("scan-stage").parentElement;
+  const rect = wrap.getBoundingClientRect();
+  const referenceScale = state.renderedScale || state.zoomScale || 1;
+  const anchorX = wrap.scrollLeft + (clientX - rect.left);
+  const anchorY = wrap.scrollTop + (clientY - rect.top);
+  const contentX = anchorX / referenceScale;
+  const contentY = anchorY / referenceScale;
+
+  state.zoomScale = clampZoomScale(nextScale);
+  await renderPdfPage();
+
+  wrap.scrollLeft = Math.max(0, contentX * state.zoomScale - (clientX - rect.left));
+  wrap.scrollTop = Math.max(0, contentY * state.zoomScale - (clientY - rect.top));
+}
+
 function reportKindLabel(kind) {
   return kind === "reviewed_correct" ? "Marked Correct" : "Problem Reported";
 }
@@ -659,7 +704,7 @@ function bindScanControls() {
     await renderPdfPage();
   });
   byId("zoom-out").addEventListener("click", async () => {
-    state.zoomScale = Math.max(state.fitPageScale * 0.6, state.zoomScale / 1.2);
+    state.zoomScale = clampZoomScale(state.zoomScale / 1.2);
     await renderPdfPage();
   });
   byId("fit-page").addEventListener("click", async () => {
@@ -675,6 +720,17 @@ function bindScanControls() {
     if (!state.pdf) return;
     await refreshPdfViewport();
   });
+
+  const scanWrap = byId("scan-stage").parentElement;
+  scanWrap.addEventListener("wheel", async (event) => {
+    if (!shouldZoomFromWheel(event)) {
+      return;
+    }
+    event.preventDefault();
+    const delta = wheelDeltaPixels(event, scanWrap.clientHeight);
+    const zoomFactor = Math.exp(-delta * 0.0025);
+    await zoomAroundClientPoint(state.zoomScale * zoomFactor, event.clientX, event.clientY);
+  }, { passive: false });
 }
 
 async function main() {

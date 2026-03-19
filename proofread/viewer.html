@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project77 Proofing Viewer</title>
+    <link rel="stylesheet" href="./proofread.css">
+    <script type="module" src="./viewer.js"></script>
+  </head>
+  <body class="viewer-page">
+    <div class="viewer-shell">
+      <header class="viewer-topbar">
+        <div class="viewer-topbar-main">
+          <div>
+            <p class="eyebrow">Proofing Viewer</p>
+            <h1 id="issue-title">Loading issue…</h1>
+          </div>
+        </div>
+        <div class="viewer-topbar-meta">
+          <div class="hero-pill" id="viewer-runtime-mode">Loading mode…</div>
+          <div class="viewer-nav">
+            <a class="topbar-link" href="./index.html">Issue List</a>
+            <a id="prev-issue" class="ghost-button" href="#">Previous</a>
+            <a id="next-issue" class="ghost-button" href="#">Next</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="pane-tabs" aria-label="Proofing panes">
+        <button type="button" class="pane-tab" data-pane-target="scan" aria-pressed="false">Scan</button>
+        <button type="button" class="pane-tab is-active" data-pane-target="transcript" aria-pressed="true">Transcript</button>
+      </div>
+
+      <div class="viewer-workbench" id="viewer-workbench">
+        <section class="scan-panel">
+          <div class="scan-toolbar">
+            <div class="scan-toolbar-group">
+              <button type="button" class="ghost-button" id="fit-page">Fit Page</button>
+              <button type="button" class="ghost-button" id="fit-width">Fit Width</button>
+              <button type="button" class="ghost-button" id="zoom-out">-</button>
+              <button type="button" class="ghost-button" id="zoom-in">+</button>
+            </div>
+          </div>
+          <div class="scan-stage-wrap">
+            <div class="scan-stage" id="scan-stage">
+              <canvas id="scan-canvas"></canvas>
+            </div>
+          </div>
+          <div class="scan-footer">
+            <span class="scan-status" id="page-status">Page …</span>
+            <div class="scan-toolbar-group scan-page-nav">
+              <button type="button" class="ghost-button" id="prev-page">Prev Page</button>
+              <button type="button" class="ghost-button" id="next-page">Next Page</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="transcript-panel">
+          <div class="transcript-toolbar">
+            <p class="eyebrow transcript-kicker">Transcript</p>
+            <div class="transcript-legend">
+              <span class="legend-item legend-item-issue"><i class="legend-swatch legend-issue"></i><span class="legend-label">Problem Reported</span></span>
+              <span class="legend-item legend-item-correct"><i class="legend-swatch legend-correct"></i><span class="legend-label">Marked Correct</span></span>
+              <span class="legend-item legend-item-mixed"><i class="legend-swatch legend-mixed"></i><span class="legend-label">Mixed</span></span>
+            </div>
+          </div>
+          <div class="transcript-surface" id="transcript-surface"></div>
+        </section>
+      </div>
+
+      <div class="selection-toolbar hidden" id="selection-toolbar" role="toolbar" aria-label="Transcript selection actions">
+        <button type="button" class="action-button action-issue" id="report-issue-action">Report Problem</button>
+        <button type="button" class="action-button action-correct" id="reviewed-correct-action">Mark Correct</button>
+      </div>
+
+      <div class="popover hidden" id="report-popover"></div>
+
+      <div class="modal-backdrop hidden" id="report-modal-backdrop">
+        <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="report-modal-title">
+          <div class="modal-head">
+            <div>
+              <p class="eyebrow" id="modal-mode-label">Report Problem</p>
+              <h2 id="report-modal-title">Selection report</h2>
+            </div>
+            <button type="button" class="icon-button" id="close-modal" aria-label="Close report dialog">×</button>
+          </div>
+          <form id="report-form">
+            <div class="modal-section">
+              <label class="field-label" for="selected-text-preview">Selected transcript text</label>
+              <textarea id="selected-text-preview" readonly></textarea>
+            </div>
+            <div class="modal-section">
+              <label class="field-label" for="report-body" id="report-body-label">What is wrong / what should it say?</label>
+              <textarea id="report-body" placeholder="Describe the issue or correction."></textarea>
+            </div>
+            <div class="modal-grid">
+              <div class="modal-section" id="report-email-wrap">
+                <label class="field-label" for="report-email">Email</label>
+                <input id="report-email" type="email" placeholder="name@example.com">
+                <p class="field-help" id="email-help">Optional for problem reports. Required for Mark Correct.</p>
+              </div>
+            </div>
+            <div class="modal-actions">
+              <button type="button" class="ghost-button" id="cancel-modal">Cancel</button>
+              <button type="submit" class="solid-button" id="submit-report">Submit</button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+      <div class="toast hidden" id="toast"></div>
+    </div>
+  </body>
+</html>

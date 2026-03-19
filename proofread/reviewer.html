@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project77 Proofing Review</title>
+    <link rel="stylesheet" href="./proofread.css">
+    <script type="module" src="./reviewer.js"></script>
+  </head>
+  <body class="viewer-page">
+    <div class="viewer-shell">
+      <header class="viewer-topbar">
+        <div class="viewer-topbar-main">
+          <div>
+            <p class="eyebrow">Review Queue</p>
+            <h1 id="issue-title">Loading issue…</h1>
+          </div>
+        </div>
+        <div class="viewer-topbar-meta">
+          <div class="hero-pill" id="viewer-runtime-mode">Loading mode…</div>
+          <div class="viewer-nav">
+            <a class="topbar-link" href="./index.html">Issue List</a>
+            <a id="proofread-view" class="ghost-button" href="#">Proofread View</a>
+            <a id="prev-issue" class="ghost-button" href="#">Previous</a>
+            <a id="next-issue" class="ghost-button" href="#">Next</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="pane-tabs" aria-label="Proofing panes">
+        <button type="button" class="pane-tab" data-pane-target="scan" aria-pressed="false">Scan</button>
+        <button type="button" class="pane-tab is-active" data-pane-target="transcript" aria-pressed="true">Transcript</button>
+      </div>
+
+      <div class="viewer-workbench" id="viewer-workbench">
+        <section class="scan-panel">
+          <div class="scan-toolbar">
+            <div class="scan-toolbar-group">
+              <button type="button" class="ghost-button" id="fit-page">Fit Page</button>
+              <button type="button" class="ghost-button" id="fit-width">Fit Width</button>
+              <button type="button" class="ghost-button" id="zoom-out">-</button>
+              <button type="button" class="ghost-button" id="zoom-in">+</button>
+            </div>
+          </div>
+          <div class="scan-stage-wrap">
+            <div class="scan-stage" id="scan-stage">
+              <canvas id="scan-canvas"></canvas>
+            </div>
+          </div>
+          <div class="scan-footer">
+            <span class="scan-status" id="page-status">Page …</span>
+            <div class="scan-toolbar-group scan-page-nav">
+              <button type="button" class="ghost-button" id="prev-page">Prev Page</button>
+              <button type="button" class="ghost-button" id="next-page">Next Page</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="transcript-panel">
+          <div class="transcript-toolbar">
+            <p class="eyebrow transcript-kicker">Transcript</p>
+            <div class="transcript-legend">
+              <span class="legend-item legend-item-issue"><i class="legend-swatch legend-issue"></i><span class="legend-label">Problem Reported</span></span>
+              <span class="legend-item legend-item-correct"><i class="legend-swatch legend-correct"></i><span class="legend-label">Marked Correct</span></span>
+              <span class="legend-item legend-item-mixed"><i class="legend-swatch legend-mixed"></i><span class="legend-label">Mixed</span></span>
+            </div>
+          </div>
+          <div class="reviewer-bar">
+            <div class="reviewer-nav">
+              <button type="button" class="ghost-button reviewer-nav-button" id="prev-problem">Previous Problem</button>
+              <button type="button" class="ghost-button reviewer-nav-button" id="next-problem">Next Problem</button>
+              <span class="reviewer-problem-status" id="problem-status">Loading reported problems…</span>
+            </div>
+            <div class="reviewer-report-card">
+              <p class="reviewer-report-kicker" id="active-problem-kind">Problem</p>
+              <p class="reviewer-report-text" id="active-problem-text">Select a reported problem to review.</p>
+              <p class="reviewer-report-meta" id="active-problem-meta"></p>
+            </div>
+            <form class="review-form" id="review-form">
+              <div class="review-form-grid">
+                <div class="modal-section">
+                  <label class="field-label" for="review-status">Review status</label>
+                  <select id="review-status">
+                    <option value="confirmed_problem">Confirmed Problem</option>
+                    <option value="correction_applied">Correction Applied</option>
+                    <option value="dismissed">Dismissed</option>
+                  </select>
+                </div>
+                <div class="modal-section">
+                  <label class="field-label" for="reviewer-name">Reviewer name</label>
+                  <input id="reviewer-name" type="text" placeholder="Reviewer name">
+                </div>
+                <div class="modal-section">
+                  <label class="field-label" for="reviewer-email">Reviewer email</label>
+                  <input id="reviewer-email" type="email" placeholder="reviewer@example.com">
+                </div>
+              </div>
+              <div class="modal-section">
+                <label class="field-label" for="review-note">Review note</label>
+                <textarea id="review-note" placeholder="Record the review decision or correction pipeline note."></textarea>
+              </div>
+              <div class="modal-section">
+                <label class="field-label" for="corrected-text">Corrected text (optional)</label>
+                <textarea id="corrected-text" placeholder="If a transcript correction was applied, record the corrected span here."></textarea>
+              </div>
+              <div class="review-form-actions">
+                <button type="submit" class="solid-button">Record Review</button>
+              </div>
+            </form>
+          </div>
+          <div class="transcript-surface" id="transcript-surface"></div>
+        </section>
+      </div>
+
+      <div class="toast hidden" id="toast"></div>
+    </div>
+  </body>
+</html>

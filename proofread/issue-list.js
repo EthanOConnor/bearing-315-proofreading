@@ -11,7 +11,6 @@ function buildIssueTable(issues, { showReviewLinks }) {
       <th scope="col">Issue</th>
       <th scope="col">Pages</th>
       <th scope="col">Words</th>
-      <th scope="col">Notes</th>
       ${showReviewLinks ? '<th scope="col">Review</th>' : ""}
     </tr>
   `;
@@ -47,11 +46,7 @@ function buildIssueTable(issues, { showReviewLinks }) {
     wordsCell.className = "issue-numeric";
     wordsCell.textContent = issue.transcript_word_count.toLocaleString();
 
-    const notesCell = document.createElement("td");
-    notesCell.className = "issue-notes-cell";
-    notesCell.textContent = issue.notes || "";
-
-    row.append(yearCell, titleCell, pagesCell, wordsCell, notesCell);
+    row.append(yearCell, titleCell, pagesCell, wordsCell);
     if (showReviewLinks) {
       const actionCell = document.createElement("td");
       actionCell.className = "issue-action-cell";

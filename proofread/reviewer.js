@@ -217,13 +217,6 @@ function clampZoomScale(scale) {
   return Math.min(maximumZoomScale(), Math.max(minimumZoomScale(), scale));
 }
 
-function shouldZoomFromWheel(event) {
-  if (event.ctrlKey || event.metaKey) {
-    return true;
-  }
-  return event.deltaMode === WheelEvent.DOM_DELTA_LINE || event.deltaMode === WheelEvent.DOM_DELTA_PAGE;
-}
-
 function wheelDeltaPixels(event, referenceHeight) {
   if (event.deltaMode === WheelEvent.DOM_DELTA_LINE) {
     return event.deltaY * 14;
@@ -561,9 +554,6 @@ function bindScanControls() {
 
   const scanWrap = byId("scan-stage").parentElement;
   scanWrap.addEventListener("wheel", async (event) => {
-    if (!shouldZoomFromWheel(event)) {
-      return;
-    }
     event.preventDefault();
     const delta = wheelDeltaPixels(event, scanWrap.clientHeight);
     const zoomFactor = Math.exp(-delta * 0.0025);

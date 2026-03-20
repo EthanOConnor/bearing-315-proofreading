@@ -2,6 +2,7 @@ import * as pdfjsLib from "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/build
 import {
   cacheReviewerEmail,
   cacheReviewerName,
+  createAuthController,
   createReportStore,
   expandReportBlockRanges,
   fetchJson,
@@ -9,6 +10,7 @@ import {
   getCachedReviewerName,
   loadIssuesManifest,
   loadRuntimeConfig,
+  renderAuthControls,
   reviewerUrl,
   viewerUrl,
 } from "./proofread-common.js";
@@ -17,6 +19,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dis
 
 const state = {
   runtimeConfig: null,
+  authController: null,
   reportStore: null,
   manifest: null,
   issue: null,
@@ -60,6 +63,16 @@ function setToast(message) {
 
 function renderRuntimeMode(label) {
   byId("viewer-runtime-mode").textContent = label;
+}
+
+async function renderAuthPanel() {
+  await renderAuthControls(byId("auth-controls"), state.authController, {
+    compact: true,
+    showHomeLink: true,
+    onError(error) {
+      setToast(error.message);
+    },
+  });
 }
 
 function renderIssueNav(issueId) {
@@ -393,10 +406,50 @@ function rebuildTranscript() {
   }
 }
 
-function reviewStatusLabel(status) {
+function reviewStatusLabel(status, { requestReporterInfo = false } = {}) {
+  if (requestReporterInfo) return "Needs Reporter Follow-Up";
   if (status === "correction_applied") return "Correction Applied";
   if (status === "dismissed") return "Dismissed";
   return "Confirmed Problem";
+}
+
+function canRecordReviews() {
+  return Boolean(state.reportStore?.canReview?.());
+}
+
+function updateReviewerIdentityFields() {
+  const signedInUser = state.authController?.user?.();
+  const identityWrap = byId("reviewer-identity-wrap");
+  const nameWrap = byId("reviewer-name").closest(".modal-section");
+  const emailWrap = byId("reviewer-email").closest(".modal-section");
+  const canReview = canRecordReviews();
+
+  if (signedInUser && canReview) {
+    identityWrap.classList.remove("hidden");
+    byId("reviewer-identity-name").textContent = signedInUser.display_name;
+    byId("reviewer-identity-email").textContent = signedInUser.email;
+    nameWrap.classList.add("hidden");
+    emailWrap.classList.add("hidden");
+  } else {
+    identityWrap.classList.add("hidden");
+    nameWrap.classList.remove("hidden");
+    emailWrap.classList.remove("hidden");
+  }
+}
+
+function setReviewAccessState(message = "") {
+  const reviewForm = byId("review-form");
+  const canReview = canRecordReviews() && Boolean(state.problemReports.length);
+  reviewForm.classList.toggle("is-disabled", !canReview);
+  for (const field of reviewForm.querySelectorAll("input, select, textarea, button")) {
+    if (field.id === "prev-problem" || field.id === "next-problem") {
+      continue;
+    }
+    field.disabled = !canReview;
+  }
+  if (!canRecordReviews() && message) {
+    byId("active-problem-meta").textContent = message;
+  }
 }
 
 function latestReviewForReport(reportId) {
@@ -422,7 +475,7 @@ async function setActiveProblem(index, { scrollIntoView = true } = {}) {
     byId("active-problem-meta").textContent = "";
     byId("prev-problem").disabled = true;
     byId("next-problem").disabled = true;
-    byId("review-form").classList.add("is-disabled");
+    setReviewAccessState();
     return;
   }
 
@@ -432,25 +485,32 @@ async function setActiveProblem(index, { scrollIntoView = true } = {}) {
   const latestReview = latestReviewForReport(report.report_id);
 
   byId("problem-status").textContent = `Problem ${state.activeProblemIndex + 1} of ${state.problemReports.length}`;
-  byId("active-problem-kind").textContent = latestReview ? reviewStatusLabel(latestReview.review_status) : "Reported Problem";
+  byId("active-problem-kind").textContent = latestReview
+    ? reviewStatusLabel(latestReview.review_status, { requestReporterInfo: latestReview.request_reporter_info })
+    : "Reported Problem";
   byId("active-problem-text").textContent = report.report_body || report.selected_text;
   byId("active-problem-meta").textContent = [
     report.scan_page ? `Scan page ${report.scan_page}` : "",
     new Date(report.created_at).toLocaleString(),
-    latestReview ? `Latest review: ${reviewStatusLabel(latestReview.review_status)} by ${latestReview.reviewer_name}` : "No review recorded yet",
+    latestReview
+      ? `Latest review: ${reviewStatusLabel(latestReview.review_status, { requestReporterInfo: latestReview.request_reporter_info })} by ${latestReview.reviewer_name}`
+      : "No review recorded yet",
   ].filter(Boolean).join(" · ");
   byId("prev-problem").disabled = false;
   byId("next-problem").disabled = false;
-  byId("review-form").classList.remove("is-disabled");
 
   const reviewStatus = byId("review-status");
   const reviewNote = byId("review-note");
   const correctedText = byId("corrected-text");
+  const requestReporterInfo = byId("request-reporter-info");
   reviewStatus.value = latestReview?.review_status || "confirmed_problem";
   reviewNote.value = latestReview?.review_note || "";
   correctedText.value = latestReview?.corrected_text || "";
+  requestReporterInfo.checked = Boolean(latestReview?.request_reporter_info);
   byId("reviewer-name").value = getCachedReviewerName(state.runtimeConfig);
   byId("reviewer-email").value = getCachedReviewerEmail(state.runtimeConfig);
+  updateReviewerIdentityFields();
+  setReviewAccessState(canRecordReviews() ? "" : "Sign in as an allowed reviewer to record review decisions.");
 
   if (report.scan_page && state.pdf && state.pageNumber !== report.scan_page) {
     state.pageNumber = Math.max(1, Math.min(state.pdf.numPages, report.scan_page));
@@ -487,12 +547,18 @@ function bindReviewForm() {
     event.preventDefault();
     const report = state.problemReports[state.activeProblemIndex];
     if (!report) return;
+    if (!canRecordReviews()) {
+      setToast("Reviewer authorization is required.");
+      return;
+    }
 
-    const reviewerName = byId("reviewer-name").value.trim();
-    const reviewerEmail = byId("reviewer-email").value.trim();
+    const signedInUser = state.authController?.user?.();
+    const reviewerName = signedInUser?.display_name || byId("reviewer-name").value.trim();
+    const reviewerEmail = signedInUser?.email || byId("reviewer-email").value.trim();
     const reviewStatus = byId("review-status").value;
     const reviewNote = byId("review-note").value.trim();
     const correctedText = byId("corrected-text").value.trim();
+    const requestReporterInfo = byId("request-reporter-info").checked;
 
     if (!reviewerName || !reviewerEmail) {
       setToast("Reviewer name and email are required.");
@@ -508,14 +574,22 @@ function bindReviewForm() {
       const created = await state.reportStore.submitReportReview(report.report_id, {
         issue_id: state.issue.issue_id,
         review_status: reviewStatus,
+        request_reporter_info: requestReporterInfo,
         review_note: reviewNote,
         corrected_text: correctedText,
         reviewer_name: reviewerName,
         reviewer_email: reviewerEmail,
       });
-      state.reviews.push(created);
-      cacheReviewerName(state.runtimeConfig, reviewerName);
-      cacheReviewerEmail(state.runtimeConfig, reviewerEmail);
+      const existingIndex = state.reviews.findIndex((review) => review.review_id === created.review_id);
+      if (existingIndex >= 0) {
+        state.reviews.splice(existingIndex, 1, created);
+      } else {
+        state.reviews.push(created);
+      }
+      if (!signedInUser) {
+        cacheReviewerName(state.runtimeConfig, reviewerName);
+        cacheReviewerEmail(state.runtimeConfig, reviewerEmail);
+      }
       await setActiveProblem(state.activeProblemIndex, { scrollIntoView: false });
       setToast("Review recorded.");
     } catch (error) {
@@ -587,40 +661,61 @@ function bindPaneTabs() {
   }
 }
 
+async function refreshReviews(issueId) {
+  try {
+    state.reviews = await state.reportStore.listIssueReviews(issueId);
+  } catch (error) {
+    if (error.status === 401) {
+      state.reviews = [];
+      return;
+    }
+    throw error;
+  }
+}
+
 async function main() {
   const issueId = queryIssueId();
-  const [runtimeConfig, manifest] = await Promise.all([
-    loadRuntimeConfig(),
-    loadIssuesManifest(),
-  ]);
-
-  state.runtimeConfig = runtimeConfig;
-  state.reportStore = createReportStore(runtimeConfig);
-  state.manifest = manifest;
+  state.runtimeConfig = await loadRuntimeConfig();
+  state.authController = createAuthController(state.runtimeConfig);
+  await state.authController.init();
+  state.reportStore = createReportStore(state.runtimeConfig, state.authController);
+  state.manifest = await loadIssuesManifest();
 
   if (state.reportStore.supportsReviewUi === false) {
     throw new Error("Reviewer workflow is not available in the public GitHub issue deployment.");
   }
 
+  state.authController.onChange(async () => {
+    try {
+      await renderAuthPanel();
+      updateReviewerIdentityFields();
+      await refreshReviews(issueId);
+      await setActiveProblem(state.activeProblemIndex, { scrollIntoView: false });
+    } catch (error) {
+      console.error(error);
+      setToast(error.message);
+    }
+  });
+
+  await renderAuthPanel();
   renderRuntimeMode(`${state.reportStore.modeLabel} · reviewer`);
   renderIssueNav(issueId);
 
-  const issueMeta = manifest.issues.find((issue) => issue.issue_id === issueId);
+  const issueMeta = state.manifest.issues.find((issue) => issue.issue_id === issueId);
   if (!issueMeta) {
     throw new Error(`Issue ${issueId} is not in the published proofing manifest.`);
   }
   state.issue = issueMeta;
 
-  const [meta, transcript, reports, reviews] = await Promise.all([
+  const [meta, transcript, reports] = await Promise.all([
     fetchJson(`./issues/${issueId}/meta.json`),
     fetchJson(`./issues/${issueId}/transcript.json`),
     state.reportStore.listIssueReports(issueId),
-    state.reportStore.listIssueReviews(issueId),
   ]);
+  await refreshReviews(issueId);
 
   state.transcript = transcript;
   state.reports = reports;
-  state.reviews = reviews;
   state.problemReports = reports.filter((report) => report.report_kind === "issue");
 
   byId("issue-title").textContent = meta.issue_title || meta.display_title;

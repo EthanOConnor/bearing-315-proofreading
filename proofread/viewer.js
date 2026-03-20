@@ -1,12 +1,14 @@
 import * as pdfjsLib from "https://cdn.jsdelivr.net/npm/pdfjs-dist@4.10.38/build/pdf.min.mjs";
 import {
   cacheEmail,
+  createAuthController,
   createReportStore,
   expandReportBlockRanges,
   fetchJson,
   getCachedEmail,
   loadIssuesManifest,
   loadRuntimeConfig,
+  renderAuthControls,
   reportEndBlockId,
   reportStartBlockId,
   reportTouchesBlock,
@@ -17,6 +19,7 @@ pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdn.jsdelivr.net/npm/pdfjs-dis
 
 const state = {
   runtimeConfig: null,
+  authController: null,
   reportStore: null,
   manifest: null,
   issue: null,
@@ -59,6 +62,16 @@ function setToast(message) {
 
 function renderRuntimeMode(label) {
   byId("viewer-runtime-mode").textContent = label;
+}
+
+async function renderAuthPanel() {
+  await renderAuthControls(byId("auth-controls"), state.authController, {
+    compact: true,
+    showHomeLink: true,
+    onError(error) {
+      setToast(error.message);
+    },
+  });
 }
 
 function renderIssueNav(issueId) {
@@ -245,6 +258,13 @@ function reportKindLabel(kind) {
 
 function actionKindLabel(kind) {
   return kind === "reviewed_correct" ? "Mark Correct" : "Report Problem";
+}
+
+function reportIdentityMeta(report) {
+  if (report.reporter_name) {
+    return report.reporter_name;
+  }
+  return "";
 }
 
 function reportKindClass(kinds) {
@@ -510,28 +530,38 @@ function openModal(mode) {
   const reportBody = byId("report-body");
   const reportEmail = byId("report-email");
   const reportEmailWrap = byId("report-email-wrap");
+  const reportIdentityWrap = byId("report-identity-wrap");
   const reportBodyLabel = byId("report-body-label");
   const emailHelp = byId("email-help");
   const submitButton = byId("submit-report");
+  const signedInUser = state.authController?.user?.();
+  const useSignedInIdentity = Boolean(signedInUser);
 
   selectedTextPreview.value = state.selectedAnchor.selectedText;
   reportBody.value = mode === "reviewed_correct" ? "Reviewed against the scan; this transcript span appears correct." : "";
   reportEmail.value = getCachedEmail(state.runtimeConfig);
-  reportEmail.required = state.reportStore.supportsPrivateContact !== false && mode === "reviewed_correct";
+  reportEmail.required = !useSignedInIdentity && state.reportStore.supportsPrivateContact !== false && mode === "reviewed_correct";
   modeLabel.textContent = actionKindLabel(mode);
   reportBodyLabel.textContent = mode === "reviewed_correct"
     ? "Notes for this marked-correct confirmation"
     : "What is wrong / what should it say?";
-  reportEmailWrap.classList.toggle("hidden", state.reportStore.supportsPrivateContact === false);
+  reportIdentityWrap.classList.toggle("hidden", !useSignedInIdentity);
+  reportEmailWrap.classList.toggle("hidden", state.reportStore.supportsPrivateContact === false || useSignedInIdentity);
+  if (useSignedInIdentity) {
+    byId("report-identity-name").textContent = signedInUser.display_name;
+    byId("report-identity-email").textContent = signedInUser.email;
+  }
   emailHelp.textContent = state.reportStore.supportsPrivateContact === false
     ? "GitHub issue mode uses your GitHub account as the visible reporter identity."
+    : useSignedInIdentity
+      ? "Your signed-in Google identity will be attached to this report."
     : mode === "reviewed_correct"
       ? "Required for Mark Correct."
       : "Optional for problem reports.";
   submitButton.textContent = state.reportStore.submitButtonLabel || "Submit";
 
   backdrop.classList.remove("hidden");
-  if (state.reportStore.supportsPrivateContact === false) {
+  if (state.reportStore.supportsPrivateContact === false || useSignedInIdentity) {
     reportBody.focus();
   } else if (mode === "reviewed_correct") {
     reportEmail.focus();
@@ -549,12 +579,13 @@ async function submitReport(event) {
 
   const reportBody = byId("report-body").value.trim();
   const reportEmail = byId("report-email").value.trim();
+  const useSignedInIdentity = Boolean(state.authController?.user?.());
 
   if (!state.selectedAnchor) {
     return;
   }
 
-  if (state.reportStore.supportsPrivateContact !== false && state.modalMode === "reviewed_correct" && !reportEmail) {
+  if (!useSignedInIdentity && state.reportStore.supportsPrivateContact !== false && state.modalMode === "reviewed_correct" && !reportEmail) {
     setToast("Email is required for Mark Correct.");
     return;
   }
@@ -567,14 +598,16 @@ async function submitReport(event) {
   const payload = {
     ...currentReportPayload(),
     report_body: reportBody,
-    reporter_email: state.reportStore.supportsPrivateContact === false ? "" : reportEmail,
+    reporter_email: (state.reportStore.supportsPrivateContact === false || useSignedInIdentity) ? "" : reportEmail,
     page_url: window.location.href,
   };
 
   try {
     const created = await state.reportStore.submitIssueReport(state.issue.issue_id, payload);
     state.reports.push(created);
-    cacheEmail(state.runtimeConfig, reportEmail);
+    if (!useSignedInIdentity) {
+      cacheEmail(state.runtimeConfig, reportEmail);
+    }
     rebuildTranscript();
     closeModal();
     window.getSelection()?.removeAllRanges();
@@ -618,7 +651,11 @@ function buildReportPopover(reportIds, blockId, targetRect) {
     const meta = document.createElement("p");
     meta.className = "popover-meta";
     const isMultiBlock = reportStartBlockId(report) !== reportEndBlockId(report);
-    meta.textContent = `${new Date(report.created_at).toLocaleString()}${isMultiBlock ? " \u2022 multi-block" : ""}`;
+    meta.textContent = [
+      reportIdentityMeta(report),
+      new Date(report.created_at).toLocaleString(),
+      isMultiBlock ? "multi-block" : "",
+    ].filter(Boolean).join(" \u2022 ");
 
     article.append(kicker, body, meta);
     popover.appendChild(article);
@@ -744,19 +781,24 @@ function bindScanControls() {
 
 async function main() {
   const issueId = queryIssueId();
-  const [runtimeConfig, manifest] = await Promise.all([
-    loadRuntimeConfig(),
-    loadIssuesManifest(),
-  ]);
+  state.runtimeConfig = await loadRuntimeConfig();
+  state.authController = createAuthController(state.runtimeConfig);
+  await state.authController.init();
+  state.reportStore = createReportStore(state.runtimeConfig, state.authController);
+  state.manifest = await loadIssuesManifest();
 
-  state.runtimeConfig = runtimeConfig;
-  state.reportStore = createReportStore(runtimeConfig);
-  state.manifest = manifest;
+  state.authController.onChange(() => {
+    renderAuthPanel().catch((error) => {
+      console.error(error);
+      setToast(error.message);
+    });
+  });
 
+  await renderAuthPanel();
   renderRuntimeMode(state.reportStore.modeLabel);
   renderIssueNav(issueId);
 
-  const issueMeta = manifest.issues.find((issue) => issue.issue_id === issueId);
+  const issueMeta = state.manifest.issues.find((issue) => issue.issue_id === issueId);
   if (!issueMeta) {
     throw new Error(`Issue ${issueId} is not in the published proofing manifest.`);
   }

@@ -1,11 +1,17 @@
 {
-  "submissionMode": "api",
-  "apiBaseUrl": "https://project77-proofread-api.ethan-1e3.workers.dev",
-  "apiKey": "",
+  "submissionMode": "github_issue",
+  "googleClientId": "",
+  "googleHostedDomain": "",
   "projectLabel": "Bearing 315 Proofreading Project",
   "storageKeyPrefix": "bearing-315-proofread",
   "cacheEmailKey": "bearing-315-proofread-email",
   "cacheReviewerNameKey": "bearing-315-proofread-reviewer-name",
   "cacheReviewerEmailKey": "bearing-315-proofread-reviewer-email",
-  "showReviewLinks": false
+  "cacheSessionKey": "bearing-315-proofread-session",
+  "showReviewLinks": false,
+  "githubRepoOwner": "EthanOConnor",
+  "githubRepoName": "bearing-315-proofreading",
+  "githubIssueLabel": "proofread-report",
+  "githubProblemLabel": "report-problem",
+  "githubCorrectLabel": "mark-correct"
 }

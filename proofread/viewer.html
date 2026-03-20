@@ -18,6 +18,7 @@
         </div>
         <div class="viewer-topbar-meta">
           <div class="hero-pill" id="viewer-runtime-mode">Loading mode…</div>
+          <div id="auth-controls"></div>
           <div class="viewer-nav">
             <a class="topbar-link" href="./index.html">Issue List</a>
             <a id="prev-issue" class="ghost-button" href="#">Previous</a>
@@ -94,6 +95,13 @@
               <textarea id="report-body" placeholder="Describe the issue or correction."></textarea>
             </div>
             <div class="modal-grid">
+              <div class="modal-section hidden" id="report-identity-wrap">
+                <label class="field-label">Submitting as</label>
+                <div class="identity-card" id="report-identity-card">
+                  <strong id="report-identity-name"></strong>
+                  <span id="report-identity-email"></span>
+                </div>
+              </div>
               <div class="modal-section" id="report-email-wrap">
                 <label class="field-label" for="report-email">Email</label>
                 <input id="report-email" type="email" placeholder="name@example.com">

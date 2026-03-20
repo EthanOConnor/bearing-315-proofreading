@@ -14,12 +14,57 @@
           <div class="panel-head">
             <div>
               <h1 class="proofread-index-title">Bearing 315 Proofreading Project</h1>
+              <p class="proofread-index-subcopy">Proofread the newsletter transcripts against the archived scans, and log in to track your contributions.</p>
+              <div class="project-stats" id="project-stats">
+                <span class="project-stat"><strong id="stat-registered-users">0</strong> Registered Volunteers</span>
+                <span class="project-stat"><strong id="stat-reviewed-characters">0</strong> Characters Marked Correct</span>
+                <span class="project-stat"><strong id="stat-project-progress">0%</strong> Project Progress</span>
+              </div>
             </div>
             <div class="panel-head-sidecar">
               <div class="hero-pill" id="runtime-mode">Loading mode…</div>
+              <div id="auth-controls"></div>
               <p id="issue-count">Loading issues…</p>
             </div>
           </div>
+          <section class="dashboard-panel hidden" id="user-dashboard" aria-live="polite">
+            <div class="dashboard-head">
+              <div>
+                <p class="eyebrow">Volunteer Dashboard</p>
+                <h2 id="dashboard-greeting">Welcome back</h2>
+              </div>
+              <p class="dashboard-note" id="dashboard-note">Your signed-in summary will appear here.</p>
+            </div>
+            <div class="dashboard-grid">
+              <article class="dashboard-card">
+                <p class="dashboard-card-label">Reviewed-Correct Characters</p>
+                <strong class="dashboard-card-value" id="dashboard-reviewed-characters">0</strong>
+              </article>
+              <article class="dashboard-card">
+                <p class="dashboard-card-label">Corrections Submitted</p>
+                <strong class="dashboard-card-value" id="dashboard-corrections-submitted">0</strong>
+              </article>
+              <article class="dashboard-card">
+                <p class="dashboard-card-label">Corrections Approved</p>
+                <strong class="dashboard-card-value" id="dashboard-corrections-approved">0</strong>
+              </article>
+              <article class="dashboard-card">
+                <p class="dashboard-card-label">Requests For More Info</p>
+                <strong class="dashboard-card-value" id="dashboard-requests-for-more-info">0</strong>
+              </article>
+              <article class="dashboard-card">
+                <p class="dashboard-card-label">Awaiting Review</p>
+                <strong class="dashboard-card-value" id="dashboard-awaiting-review">0</strong>
+              </article>
+            </div>
+            <div class="dashboard-request-panel">
+              <div class="dashboard-request-head">
+                <h3>Reviewer Follow-Up</h3>
+                <p id="dashboard-request-summary">No reviewer follow-up requests right now.</p>
+              </div>
+              <div class="dashboard-request-list" id="dashboard-request-list"></div>
+            </div>
+          </section>
           <div class="issue-table-wrap" id="issue-table-wrap"></div>
         </section>
       </main>

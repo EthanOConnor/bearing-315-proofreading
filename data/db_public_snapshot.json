@@ -4,37 +4,40 @@
         "teams": 1502,
         "events": 1352,
         "series": 5,
-        "venues": 288,
+        "venues": 271,
         "courses": 881,
         "results": 25937,
         "artifacts": 787,
         "citations": 1377,
         "documents": 586,
-        "individuals": 8794,
+        "individuals": 8665,
         "competitions": 1103,
         "event_groups": 1,
         "access_points": 2,
         "organizations": 39,
-        "unused_venues": 5,
+        "unused_venues": 3,
         "web_snapshots": 427,
         "event_date_max": "2026-03-07",
         "event_date_min": "1978-01-09",
         "page_artifacts": 0,
-        "venue_rows_raw": 428,
-        "mixed_use_venues": 54,
+        "venue_rows_raw": 429,
+        "mixed_use_venues": 52,
         "series_standings": 54,
         "newsletter_issues": 159,
-        "venue_rows_active": 289,
-        "competition_venues": 76,
+        "venue_rows_active": 271,
+        "competition_venues": 69,
+        "individual_rows_raw": 8794,
         "newsletter_date_max": "2009-10-01",
         "newsletter_date_min": "1978-01-01",
         "result_event_date_max": "2026-03-07",
         "result_event_date_min": "1978-05-21",
-        "venue_rows_redirected": 139,
-        "competition_only_venues": 22,
+        "venue_rows_redirected": 158,
+        "individual_rows_active": 8665,
+        "competition_only_venues": 17,
         "competition_event_date_max": "2026-03-07",
         "competition_event_date_min": "1978-01-14",
-        "noncompetition_only_venues": 208
+        "individual_rows_redirected": 129,
+        "noncompetition_only_venues": 199
     },
     "event_kinds": [
         {
@@ -54,7 +57,7 @@
             "event_kind": "aggregate"
         }
     ],
-    "generated_at": "2026-03-20T17:03:08Z",
+    "generated_at": "2026-03-20T18:28:02Z",
     "recent_events": [
         {
             "event_id": "019d03c4-2dde-7f1d-a4d9-7de35b86b286",
@@ -595,10 +598,10 @@
                 },
                 {
                     "event_id": "019b7ae6-8bbb-7521-a9ef-a284873868ff",
-                    "venue_id": "019b7ae2-bef4-7846-b56f-ec3a6dcb028c",
+                    "venue_id": "12dfe181-d53e-5a63-8364-cfb9a2f68214",
                     "event_date": "1978-08-20",
                     "event_name": "Stanley Park X-Co",
-                    "venue_name": "Stanley Park (Vancouver, BC)",
+                    "venue_name": "Stanley Park, Vancouver, B.C.",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Orienteering Association of B.C."
@@ -974,10 +977,10 @@
                 },
                 {
                     "event_id": "019b7df3-3f1b-7593-b0a7-b4a3fe386157",
-                    "venue_id": "019b7df3-3f03-74f2-b3a5-144091a4cfb9",
+                    "venue_id": "451cc9b8-2809-55f3-8908-13aa371f93e6",
                     "event_date": "1979-06-24",
                     "event_name": "Newcastle Island Meet (LGPF) Jun 24 '79",
-                    "venue_name": "Newcastle Island (BC)",
+                    "venue_name": "Newcastle Island, B.C.",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "LGPF"
@@ -1762,10 +1765,10 @@
                 },
                 {
                     "event_id": "10694319-b919-564c-832a-688c22e6d66b",
-                    "venue_id": "019b81e3-a4f7-7553-a895-70cb2638ac20",
+                    "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
                     "event_date": "1981-04-04",
                     "event_name": "St Edward Park Class B Meet",
-                    "venue_name": "St. Edward Park",
+                    "venue_name": "St. Edward State Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -2741,10 +2744,10 @@
                 },
                 {
                     "event_id": "f60dcd8d-1fee-50fe-8938-df25a4a28061",
-                    "venue_id": "14a91580-2e53-5766-befc-884fd003c686",
+                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
                     "event_date": "1982-06-12",
                     "event_name": "FunTrek '82",
-                    "venue_name": "Farrell-McWhirter Park",
+                    "venue_name": "Farrel-McWhirter Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -3150,10 +3153,10 @@
                 },
                 {
                     "event_id": "10b8470c-9134-5471-af8c-cc74381f19e5",
-                    "venue_id": "14a91580-2e53-5766-befc-884fd003c686",
+                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
                     "event_date": "1983-06-25",
                     "event_name": "TEAM SCRAMBLE WOODLAND PARK",
-                    "venue_name": "Farrell-McWhirter Park",
+                    "venue_name": "Farrel-McWhirter Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -3789,10 +3792,10 @@
                 },
                 {
                     "event_id": "10fce9d0-6488-55a6-a82c-986d49aec75b",
-                    "venue_id": "14a91580-2e53-5766-befc-884fd003c686",
+                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
                     "event_date": "1984-06-19",
                     "event_name": "Farrell McWhirter Park 9 84 Meet",
-                    "venue_name": "Farrell-McWhirter Park",
+                    "venue_name": "Farrel-McWhirter Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -3898,10 +3901,10 @@
                 },
                 {
                     "event_id": "cd9b5967-504b-55a9-89f6-c81bf2258a6c",
-                    "venue_id": "14a91580-2e53-5766-befc-884fd003c686",
+                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
                     "event_date": "1985-01-19",
                     "event_name": "Farrel-McWhirter 19 Jan 1985 Club & WIOL practice meet",
-                    "venue_name": "Farrell-McWhirter Park",
+                    "venue_name": "Farrel-McWhirter Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -4067,10 +4070,10 @@
             "events": [
                 {
                     "event_id": "8152a594-029b-5462-b3cf-b2e833e0d7dd",
-                    "venue_id": "14a91580-2e53-5766-befc-884fd003c686",
+                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
                     "event_date": "1986-01-10",
                     "event_name": "Farrel McWhirter Park, Redmond Meet",
-                    "venue_name": "Farrell-McWhirter Park",
+                    "venue_name": "Farrel-McWhirter Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Sammamish Orienteering Club"
@@ -4356,10 +4359,10 @@
                 },
                 {
                     "event_id": "a4ee1551-a153-5897-a37d-c3c9dc5c8959",
-                    "venue_id": "14a91580-2e53-5766-befc-884fd003c686",
+                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
                     "event_date": "1987-01-10",
                     "event_name": "Farrell-McWhirter Park",
-                    "venue_name": "Farrell-McWhirter Park",
+                    "venue_name": "Farrel-McWhirter Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Sammamish Orienteering Club"
@@ -4376,10 +4379,10 @@
                 },
                 {
                     "event_id": "47d9ac6f-a015-5461-926a-ed97fed8c12b",
-                    "venue_id": "14a91580-2e53-5766-befc-884fd003c686",
+                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
                     "event_date": "1987-01-24",
                     "event_name": "Farrell-McWhirter Park",
-                    "venue_name": "Farrell-McWhirter Park",
+                    "venue_name": "Farrel-McWhirter Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -5236,10 +5239,10 @@
                 },
                 {
                     "event_id": "2a652817-8814-54bb-9fb5-cfebb2e125ee",
-                    "venue_id": "14a91580-2e53-5766-befc-884fd003c686",
+                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
                     "event_date": "1987-11-21",
                     "event_name": "Farrell-McWhirter Park",
-                    "venue_name": "Farrell-McWhirter Park",
+                    "venue_name": "Farrel-McWhirter Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -5385,10 +5388,10 @@
                 },
                 {
                     "event_id": "5708973a-aff9-53d7-9ae3-38d50a02e74f",
-                    "venue_id": "14a91580-2e53-5766-befc-884fd003c686",
+                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
                     "event_date": "1988-01-24",
                     "event_name": "Farrell-McWhirter Park",
-                    "venue_name": "Farrell-McWhirter Park",
+                    "venue_name": "Farrel-McWhirter Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -5715,10 +5718,10 @@
                 },
                 {
                     "event_id": "91da9956-cd98-5487-a85a-bd406c50edcd",
-                    "venue_id": "14a91580-2e53-5766-befc-884fd003c686",
+                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
                     "event_date": "1988-06-25",
                     "event_name": "Greater Tacoma Sports Festival orienteering event Pt. Defiance",
-                    "venue_name": "Farrell-McWhirter Park",
+                    "venue_name": "Farrel-McWhirter Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": null
@@ -5985,10 +5988,10 @@
                 },
                 {
                     "event_id": "da388c85-ee36-58b3-b79f-41a9f55b0d85",
-                    "venue_id": "e02efa77-f526-5737-be67-1ab0939a6ee6",
+                    "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
                     "event_date": "1988-10-22",
                     "event_name": "Big Finn Hill, Kirkland LOCATION TENTATIVE Juanita Dr",
-                    "venue_name": "Big Finn Hill, Kirkland",
+                    "venue_name": "Big Finn Hill Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": null
@@ -7262,10 +7265,10 @@
                 },
                 {
                     "event_id": "019b7fff-d9b4-73e4-b799-044d13800900",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2001-01-01",
                     "event_name": "Lord Hill Park - Adventure Run",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 56,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -7910,10 +7913,10 @@
                 },
                 {
                     "event_id": "019b81b3-75e2-730c-8c70-644ed922a8d7",
-                    "venue_id": "019b81b3-75d2-74c7-abd5-03b73e9e58f5",
+                    "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
                     "event_date": "2003-10-05",
                     "event_name": "North Seattle Community College",
-                    "venue_name": "North Seattle Community College",
+                    "venue_name": "North Seattle College",
                     "result_count": 43,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -8348,10 +8351,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50e-731f-b08a-d667b14281d9",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2005-04-30",
                     "event_name": "Ultimate Orienteer #3",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -8388,10 +8391,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50e-79f9-874d-e0bb24a5ebc5",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2005-08-13",
                     "event_name": "Six Degrees of Navigation Adventure Race",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -8547,10 +8550,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50e-75c1-87b2-6f4717a5e645",
-                    "venue_id": "019b81e3-a4f7-75c9-bf69-0cb1329c7b29",
+                    "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
                     "event_date": "2006-02-04",
                     "event_name": "WIOL #7/O' Series #7",
-                    "venue_name": "Bridle Trails Park",
+                    "venue_name": "Bridle Trails State Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -8587,10 +8590,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50e-753a-ba68-2653b49475ec",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2006-04-29",
                     "event_name": "Ultimate Orienteer #3",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -8617,10 +8620,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50e-7db2-9f58-859e032f8c63",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2006-07-29",
                     "event_name": "Six Degrees of Navigation Adventure Race",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -8786,10 +8789,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50e-72af-b1be-52cca8fd72da",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2007-05-12",
                     "event_name": "Ultimate Orienteer #2",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -8965,10 +8968,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50e-79e2-971e-d2588b3f9b95",
-                    "venue_id": "019b81e3-a4f7-70b5-8507-ade872f108b7",
+                    "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
                     "event_date": "2008-02-23",
                     "event_name": "O' Series Champs/WIOL Champs",
-                    "venue_name": "Green River CC",
+                    "venue_name": "Green River College",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9005,20 +9008,20 @@
                 },
                 {
                     "event_id": "019b81e3-a50e-7a3b-8271-1bd555bc8a3b",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2008-06-14",
                     "event_name": "Ultimate Orienteer #4",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
                     "event_id": "019b81e3-a50e-7cc0-aab2-cf080d6419e0",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2008-06-14",
                     "event_name": "Ultimate Orienteer #5",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9115,10 +9118,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50e-7399-8a55-6ab196f668f5",
-                    "venue_id": "019b81e3-a4f7-72d7-bb23-68dd78cd7453",
+                    "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
                     "event_date": "2008-12-06",
                     "event_name": "O' Series #3/WIOL #3",
-                    "venue_name": "Green River Community College",
+                    "venue_name": "Green River College",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9224,10 +9227,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50d-702a-9b46-ae15238c2c8a",
-                    "venue_id": "019b81e3-a4f7-7553-a895-70cb2638ac20",
+                    "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
                     "event_date": "2009-04-11",
                     "event_name": "Ultimate Orienteer #2",
-                    "venue_name": "St. Edward Park",
+                    "venue_name": "St. Edward State Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9364,20 +9367,20 @@
                 },
                 {
                     "event_id": "019b81e3-a50d-7de9-8dd6-1fe441f70888",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2009-07-25",
                     "event_name": "Six Degrees of Navigation Adventure Race",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
                     "event_id": "019b81e3-a50d-7d0a-bf4d-212bacce09a9",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2009-07-26",
                     "event_name": "Ultimate Orienteer #5",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9553,10 +9556,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50f-726c-a3c3-40dc874ac2de",
-                    "venue_id": "019b81e3-a4f7-7d41-995b-f2c467fdd3c6",
+                    "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
                     "event_date": "2010-02-20",
                     "event_name": "O' Series Champs/WIOL Champs",
-                    "venue_name": "Dash Point Park",
+                    "venue_name": "Dash Point State Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9623,10 +9626,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-72cb-b705-6dbdaa04768c",
-                    "venue_id": "019b81f3-1f39-77d0-b491-378c6c63c769",
+                    "venue_id": "019b81f3-1f39-710d-8e0d-1ef8ec0846cd",
                     "event_date": "2010-06-26",
                     "event_name": "US Middle Distance Championships",
-                    "venue_name": "Moses Lake Sand Dunes WA",
+                    "venue_name": "Moses Lake Sand Dunes",
                     "result_count": 332,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9653,10 +9656,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-7f0e-94a5-a94eba387350",
-                    "venue_id": "019b81f3-1f39-7b5a-af13-0e4421b2e965",
+                    "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
                     "event_date": "2010-06-27",
                     "event_name": "US Long Distance Championships",
-                    "venue_name": "Fishtrap Lake WA",
+                    "venue_name": "Fishtrap Lake",
                     "result_count": 345,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9793,10 +9796,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4a-718c-86b9-c4486d2d8496",
-                    "venue_id": "019b81e3-a4f7-75c9-bf69-0cb1329c7b29",
+                    "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
                     "event_date": "2010-12-04",
                     "event_name": "O' Series #3/WIOL #3",
-                    "venue_name": "Bridle Trails Park",
+                    "venue_name": "Bridle Trails State Park",
                     "result_count": 308,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9813,10 +9816,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4e-7448-a29f-c2a52f50f05a",
-                    "venue_id": "019b81e3-a4f7-7553-a895-70cb2638ac20",
+                    "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
                     "event_date": "2010-12-26",
                     "event_name": "Bog Slog 2010",
-                    "venue_name": "St. Edward Park",
+                    "venue_name": "St. Edward State Park",
                     "result_count": 136,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9862,10 +9865,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-7357-b927-2cee44df0924",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2011-02-19",
                     "event_name": "O' Series/WIOL Champs",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 254,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10032,10 +10035,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-74d2-bfc3-3e3874eb76f4",
-                    "venue_id": "019b81f3-1f39-7d0b-8dcb-23e01424fc02",
+                    "venue_id": "019d0c54-0219-70e2-963e-78d72d378fa8",
                     "event_date": "2011-12-31",
                     "event_name": "Bog Slog 2011",
-                    "venue_name": "Kenmore WA",
+                    "venue_name": "Kenmore, Washington",
                     "result_count": 193,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10071,10 +10074,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-72cc-b9fa-1f2a907a4b97",
-                    "venue_id": "019b81e3-a4f7-72d7-bb23-68dd78cd7453",
+                    "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
                     "event_date": "2012-02-04",
                     "event_name": "Winter O' Series #7/WIOL #7",
-                    "venue_name": "Green River Community College",
+                    "venue_name": "Green River College",
                     "result_count": 343,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10131,10 +10134,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-7b05-8d21-7dbbd58c56c9",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2012-04-22",
                     "event_name": "2012 US Interscholastic/Intercollegiate Championships - Day 2",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 605,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10281,10 +10284,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-7098-9333-af222cee808d",
-                    "venue_id": "019b81f3-1f39-7c13-9833-70d535b7940e",
+                    "venue_id": "019d0c54-0219-70e2-963e-78d72d378fa8",
                     "event_date": "2012-12-29",
                     "event_name": "Bog Slog 2012",
-                    "venue_name": "Kenmore, WA",
+                    "venue_name": "Kenmore, Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10380,10 +10383,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-72c5-ada9-ef8a2905b79e",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2013-05-04",
                     "event_name": "Ultimate Orienteer #5 - Score-O'",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10420,10 +10423,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-733a-a452-d52ad2e2c718",
-                    "venue_id": "019b81e3-a4f7-72d7-bb23-68dd78cd7453",
+                    "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
                     "event_date": "2013-08-18",
                     "event_name": "Choose Your Adventure #2: Campus!",
-                    "venue_name": "Green River Community College",
+                    "venue_name": "Green River College",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10510,10 +10513,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-7619-b7d8-f4b61a011d62",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2013-12-28",
                     "event_name": "34th Annual Bog Slog",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10779,10 +10782,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-72a8-8b71-c7b752d0d1a7",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2014-12-27",
                     "event_name": "35th Annual Bog Slog",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10928,10 +10931,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-7725-8dac-98d836ac4d6f",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2015-07-26",
                     "event_name": "Choose Your Adventure - Trail",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -11108,10 +11111,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-7a48-a856-bbb40ba44973",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2015-12-26",
                     "event_name": "36th Annual Bog Slog",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -11297,10 +11300,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-7d99-9f7a-79e8ed184c75",
-                    "venue_id": "019b81f3-1f39-7035-8b5d-c48ce7126e5d",
+                    "venue_id": "019b81f3-1f39-756c-9a1e-ccb8617bf543",
                     "event_date": "2016-06-15",
                     "event_name": "Wednesday Evening Series #2",
-                    "venue_name": "Lake Wilderness",
+                    "venue_name": "Lake Wilderness Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -11507,10 +11510,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-7069-b7ea-d7160df4c081",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2016-12-31",
                     "event_name": "37th Annual Bog Slog",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -11876,10 +11879,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-7f84-9c0c-cd99a0fde461",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2017-12-30",
                     "event_name": "38th Annual Bog Slog",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -12005,10 +12008,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-71db-93c6-2369e6fcdaed",
-                    "venue_id": "019b81f3-1f39-7035-8b5d-c48ce7126e5d",
+                    "venue_id": "019b81f3-1f39-756c-9a1e-ccb8617bf543",
                     "event_date": "2018-05-23",
                     "event_name": "2018-WES #1",
-                    "venue_name": "Lake Wilderness",
+                    "venue_name": "Lake Wilderness Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -12145,10 +12148,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4d-77bb-a7c2-4ada9a065f5c",
-                    "venue_id": "019d0457-2e56-783a-9572-fe10ab073529",
+                    "venue_id": "019b81f3-1f39-7592-9689-d92e7f38f4a5",
                     "event_date": "2018-09-09",
                     "event_name": "SART 2018",
-                    "venue_name": "Shoreline CC",
+                    "venue_name": "Shoreline Community College",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -12742,10 +12745,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-725f-aa53-46248753411b",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2021-03-13",
                     "event_name": "2021 Winter Virtual Series Finale",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -13241,10 +13244,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-7987-b785-16ac1ef30594",
-                    "venue_id": "019b81e3-a4f7-70b5-8507-ade872f108b7",
+                    "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
                     "event_date": "2022-08-24",
                     "event_name": "Wednesday Evening #6",
-                    "venue_name": "Green River CC",
+                    "venue_name": "Green River College",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -13600,10 +13603,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4a-765d-a2c9-369de6ac1c9c",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2023-12-30",
                     "event_name": "2023 Choose Your Adventure #3",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -13909,10 +13912,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f49-759f-8833-4a34dcb3e71b",
-                    "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+                    "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
                     "event_date": "2024-12-29",
                     "event_name": "2024 Choose Your Adventure #6",
-                    "venue_name": "Lord Hill Park",
+                    "venue_name": "Lord Hill Regional Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"

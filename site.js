@@ -106,6 +106,11 @@ function createEventNameNode(row, onToggle) {
 function renderStats(summary) {
   const statsGrid = document.getElementById("stats-grid");
   const cards = [
+    createStatCard(
+      "Competitions",
+      formatNumber(summary.competitions),
+      `${summary.competition_event_date_min} to ${summary.competition_event_date_max}`
+    ),
     createStatCard("Events", formatNumber(summary.events), `${summary.event_date_min} to ${summary.event_date_max}`),
     createStatCard("Results", formatNumber(summary.results), `${summary.result_event_date_min} to ${summary.result_event_date_max}`),
     createStatCard("Documents", formatNumber(summary.documents), `${formatNumber(summary.web_snapshots)} web snapshots`),
@@ -165,7 +170,10 @@ function renderStackList(targetId, rows, labelKey, valueKey) {
 
 function renderCoverage(rows) {
   const target = document.getElementById("coverage-chart");
-  const maxEvents = Math.max(...rows.map((row) => row.event_count), 1);
+  const maxEvents = Math.max(
+    ...rows.map((row) => row.competition_event_count ?? row.event_count ?? 0),
+    1
+  );
   const coverageSections = [
     { key: "coc_competition", label: "COC Competitions" },
     {
@@ -198,23 +206,24 @@ function renderCoverage(rows) {
     bars.className = "coverage-bars";
 
     const events = row.events || [];
-    const eventsWithResultsCount = events.filter(
-      (eventRow) => Number(eventRow.result_count || 0) > 0
-    ).length;
+    const competitionEventCount = row.competition_event_count ?? row.event_count ?? 0;
+    const competitionEventsWithResultsCount =
+      row.competition_result_event_count ??
+      events.filter((eventRow) => Number(eventRow.result_count || 0) > 0).length;
 
     const eventTrack = document.createElement("div");
     eventTrack.className = "bar-track";
     const eventFill = document.createElement("div");
     eventFill.className = "bar-fill events";
-    eventFill.style.width = `${(row.event_count / maxEvents) * 100}%`;
+    eventFill.style.width = `${(competitionEventCount / maxEvents) * 100}%`;
     const resultsFill = document.createElement("div");
     resultsFill.className = "bar-fill results";
-    resultsFill.style.width = `${(eventsWithResultsCount / maxEvents) * 100}%`;
+    resultsFill.style.width = `${(competitionEventsWithResultsCount / maxEvents) * 100}%`;
     eventTrack.append(eventFill, resultsFill);
 
     const meta = document.createElement("div");
     meta.className = "bar-meta";
-    meta.textContent = `Events: ${formatNumber(row.event_count)} ; Events with Results: ${formatNumber(eventsWithResultsCount)} ; Result Count: ${formatNumber(row.result_count)}`;
+    meta.textContent = `Events: ${formatNumber(competitionEventCount)} ; Events with Results: ${formatNumber(competitionEventsWithResultsCount)} ; Result Count: ${formatNumber(row.result_count)}`;
 
     const caret = document.createElement("span");
     caret.className = "coverage-caret";

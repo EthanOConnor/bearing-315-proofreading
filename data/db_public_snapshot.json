@@ -11,6 +11,7 @@
         "citations": 524,
         "documents": 401,
         "individuals": 3610,
+        "competitions": 823,
         "event_groups": 1,
         "access_points": 2,
         "organizations": 24,
@@ -31,6 +32,8 @@
         "result_event_date_min": "1978-05-21",
         "venue_rows_redirected": 139,
         "competition_only_venues": 14,
+        "competition_event_date_max": "2026-03-07",
+        "competition_event_date_min": "1978-01-14",
         "noncompetition_only_venues": 151
     },
     "event_kinds": [
@@ -47,7 +50,7 @@
             "event_kind": "aggregate"
         }
     ],
-    "generated_at": "2026-03-20T01:36:58Z",
+    "generated_at": "2026-03-20T03:08:25Z",
     "recent_events": [
         {
             "event_id": "019d03c4-2dde-7f1d-a4d9-7de35b86b286",
@@ -661,7 +664,9 @@
                 }
             ],
             "event_count": 39,
-            "result_count": 54
+            "result_count": 54,
+            "competition_event_count": 23,
+            "competition_result_event_count": 3
         },
         {
             "year": 1979,
@@ -1010,7 +1015,9 @@
                 }
             ],
             "event_count": 38,
-            "result_count": 140
+            "result_count": 140,
+            "competition_event_count": 25,
+            "competition_result_event_count": 12
         },
         {
             "year": 1980,
@@ -1089,119 +1096,153 @@
                 }
             ],
             "event_count": 8,
-            "result_count": 102
+            "result_count": 102,
+            "competition_event_count": 7,
+            "competition_result_event_count": 4
         },
         {
             "year": 1981,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1982,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1983,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1984,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1985,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1986,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1987,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1988,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1989,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1990,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1991,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1992,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1993,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1994,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1995,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1996,
             "events": [
             ],
             "event_count": 0,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
         },
         {
             "year": 1997,
@@ -1226,7 +1267,9 @@
                 }
             ],
             "event_count": 2,
-            "result_count": 66
+            "result_count": 66,
+            "competition_event_count": 2,
+            "competition_result_event_count": 2
         },
         {
             "year": 1998,
@@ -1278,7 +1321,9 @@
                 }
             ],
             "event_count": 5,
-            "result_count": 301
+            "result_count": 301,
+            "competition_event_count": 5,
+            "competition_result_event_count": 5
         },
         {
             "year": 1999,
@@ -1519,7 +1564,9 @@
                 }
             ],
             "event_count": 26,
-            "result_count": 952
+            "result_count": 952,
+            "competition_event_count": 26,
+            "competition_result_event_count": 13
         },
         {
             "year": 2000,
@@ -1787,7 +1834,9 @@
                 }
             ],
             "event_count": 29,
-            "result_count": 1398
+            "result_count": 1398,
+            "competition_event_count": 29,
+            "competition_result_event_count": 19
         },
         {
             "year": 2001,
@@ -2037,7 +2086,9 @@
                 }
             ],
             "event_count": 27,
-            "result_count": 1414
+            "result_count": 1414,
+            "competition_event_count": 27,
+            "competition_result_event_count": 21
         },
         {
             "year": 2002,
@@ -2251,7 +2302,9 @@
                 }
             ],
             "event_count": 23,
-            "result_count": 1096
+            "result_count": 1096,
+            "competition_event_count": 23,
+            "competition_result_event_count": 19
         },
         {
             "year": 2003,
@@ -2456,7 +2509,9 @@
                 }
             ],
             "event_count": 22,
-            "result_count": 1733
+            "result_count": 1733,
+            "competition_event_count": 22,
+            "competition_result_event_count": 18
         },
         {
             "year": 2004,
@@ -2715,7 +2770,9 @@
                 }
             ],
             "event_count": 28,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 28,
+            "competition_result_event_count": 0
         },
         {
             "year": 2005,
@@ -2929,7 +2986,9 @@
                 }
             ],
             "event_count": 23,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 23,
+            "competition_result_event_count": 0
         },
         {
             "year": 2006,
@@ -3107,7 +3166,9 @@
                 }
             ],
             "event_count": 19,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 19,
+            "competition_result_event_count": 0
         },
         {
             "year": 2007,
@@ -3294,7 +3355,9 @@
                 }
             ],
             "event_count": 20,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 20,
+            "competition_result_event_count": 0
         },
         {
             "year": 2008,
@@ -3490,7 +3553,9 @@
                 }
             ],
             "event_count": 21,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 21,
+            "competition_result_event_count": 0
         },
         {
             "year": 2009,
@@ -3929,7 +3994,9 @@
                 }
             ],
             "event_count": 48,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 48,
+            "competition_result_event_count": 0
         },
         {
             "year": 2010,
@@ -4233,7 +4300,9 @@
                 }
             ],
             "event_count": 33,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 32,
+            "competition_result_event_count": 0
         },
         {
             "year": 2011,
@@ -4429,7 +4498,9 @@
                 }
             ],
             "event_count": 21,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 21,
+            "competition_result_event_count": 0
         },
         {
             "year": 2012,
@@ -4652,7 +4723,9 @@
                 }
             ],
             "event_count": 24,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 24,
+            "competition_result_event_count": 0
         },
         {
             "year": 2013,
@@ -4857,7 +4930,9 @@
                 }
             ],
             "event_count": 22,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 22,
+            "competition_result_event_count": 0
         },
         {
             "year": 2014,
@@ -5125,7 +5200,9 @@
                 }
             ],
             "event_count": 29,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 29,
+            "competition_result_event_count": 0
         },
         {
             "year": 2015,
@@ -5447,7 +5524,9 @@
                 }
             ],
             "event_count": 35,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 35,
+            "competition_result_event_count": 0
         },
         {
             "year": 2016,
@@ -5814,7 +5893,9 @@
                 }
             ],
             "event_count": 40,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 40,
+            "competition_result_event_count": 0
         },
         {
             "year": 2017,
@@ -6145,7 +6226,9 @@
                 }
             ],
             "event_count": 36,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 36,
+            "competition_result_event_count": 0
         },
         {
             "year": 2018,
@@ -6458,7 +6541,9 @@
                 }
             ],
             "event_count": 34,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 34,
+            "competition_result_event_count": 0
         },
         {
             "year": 2019,
@@ -6816,7 +6901,9 @@
                 }
             ],
             "event_count": 39,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 39,
+            "competition_result_event_count": 0
         },
         {
             "year": 2020,
@@ -6886,7 +6973,9 @@
                 }
             ],
             "event_count": 7,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 7,
+            "competition_result_event_count": 0
         },
         {
             "year": 2021,
@@ -7172,7 +7261,9 @@
                 }
             ],
             "event_count": 31,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 31,
+            "competition_result_event_count": 0
         },
         {
             "year": 2022,
@@ -7458,7 +7549,9 @@
                 }
             ],
             "event_count": 31,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 30,
+            "competition_result_event_count": 0
         },
         {
             "year": 2023,
@@ -7726,7 +7819,9 @@
                 }
             ],
             "event_count": 29,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 29,
+            "competition_result_event_count": 0
         },
         {
             "year": 2024,
@@ -8012,7 +8107,9 @@
                 }
             ],
             "event_count": 31,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 31,
+            "competition_result_event_count": 0
         },
         {
             "year": 2025,
@@ -8289,7 +8386,9 @@
                 }
             ],
             "event_count": 30,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 29,
+            "competition_result_event_count": 0
         },
         {
             "year": 2026,
@@ -8350,7 +8449,9 @@
                 }
             ],
             "event_count": 6,
-            "result_count": 0
+            "result_count": 0,
+            "competition_event_count": 6,
+            "competition_result_event_count": 0
         }
     ],
     "source_documents": [

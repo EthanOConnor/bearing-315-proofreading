@@ -1,7 +1,8 @@
-# Bearing 315 Proofreading Project
+# Project '77 Public Site
 
-This repository is the public static deploy target for the Bearing 315 newsletter proofreading site.
+This repository is the public static deploy target for the Project '77 ingest snapshot and the Bearing 315 newsletter proofreading site.
 
-- Site entry point: proofread/index.html
+- Snapshot entry point: index.html
+- Proofreading entry point: proofread/index.html
 - Volunteer submissions open prefilled GitHub issues
 - Published from a private source repository

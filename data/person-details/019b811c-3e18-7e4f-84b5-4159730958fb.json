@@ -71,6 +71,30 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4d-71a8-bf77-6e9314fe05ab",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2010-06-13",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #5 - Long",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 19,
+          "outcome_text": "02:11:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4b-7125-90a4-ea7aa9eae55b",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2010-02-06",
@@ -381,12 +405,135 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b817f-ae12-7069-9a51-f71e4c489207",
+      "venue_id": "019b80fa-1f49-7aac-af1e-a26a076d1964",
+      "event_date": "2003-09-07",
+      "event_kind": "race",
+      "event_name": "Ballard Bike-O",
+      "venue_name": "Ballard",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 3,
+          "outcome_text": "00:39:50",
+          "result_notes": "mode foot",
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b817f-ae12-7f4f-b221-eda1fe60d701",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2003-06-01",
+      "event_kind": "race",
+      "event_name": "Pt. Defiance Park",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": 25,
+          "outcome_text": "01:09:03",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b817f-ae10-786c-badf-aedf0a35b8b2",
+      "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
+      "event_date": "2003-03-08",
+      "event_kind": "race",
+      "event_name": "Seward Park",
+      "venue_name": "Seward Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 30,
+          "outcome_text": "00:37:57",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b817f-ae10-79ec-993f-73ca82a0480d",
+      "venue_id": "019b817f-8f78-7099-8660-e254bf51c248",
+      "event_date": "2003-02-22",
+      "event_kind": "race",
+      "event_name": "Lake Tradition",
+      "venue_name": "Lake Tradition",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 31,
+          "outcome_text": "02:01:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b815d-6fd0-705f-a793-b0893fef3561",
+      "venue_id": "019b80fa-1f49-7aac-af1e-a26a076d1964",
+      "event_date": "2002-07-21",
+      "event_kind": "race",
+      "event_name": "Ballard Bike-O",
+      "venue_name": "Ballard",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 2,
+          "outcome_text": "00:43:26",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "competitive": false,
+          "course_name": "Course 2",
+          "course_rank": null,
+          "outcome_text": "00:38:01",
+          "result_notes": "on foot",
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Kelly, Pat"
+  ],
   "summary": {
     "role_count": 12,
-    "event_count": 16,
+    "event_count": 22,
     "mention_count": 0
   },
   "mentions": [],

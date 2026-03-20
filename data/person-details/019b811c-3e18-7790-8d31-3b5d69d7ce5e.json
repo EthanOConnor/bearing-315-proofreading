@@ -115,6 +115,28 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b817f-ae10-786c-badf-aedf0a35b8b2",
+      "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
+      "event_date": "2003-03-08",
+      "event_kind": "race",
+      "event_name": "Seward Park",
+      "venue_name": "Seward Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 26,
+          "outcome_text": "00:36:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b8118-7680-77bf-ab19-830584a5cd99",
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2002-01-26",
@@ -137,10 +159,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Campbell, Tori"
+  ],
   "summary": {
     "role_count": 5,
-    "event_count": 6,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

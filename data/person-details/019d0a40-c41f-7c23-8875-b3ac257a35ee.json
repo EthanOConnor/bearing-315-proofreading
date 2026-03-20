@@ -23,6 +23,28 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-7768-bc93-e46350aa8c33",
+      "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
+      "event_date": "2010-02-20",
+      "event_kind": "race",
+      "event_name": "Winter O' Series Championships",
+      "venue_name": "Dash Point State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 5",
+          "course_rank": 9,
+          "outcome_text": "00:57:57",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81e3-a50d-7c0d-8e79-e5750a432777",
       "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
       "event_date": "2009-12-19",
@@ -89,10 +111,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Rollins, Sarah"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

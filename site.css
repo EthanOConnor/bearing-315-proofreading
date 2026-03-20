@@ -99,6 +99,10 @@ code {
   min-width: 0;
 }
 
+.hero-detail .hero-layout {
+  grid-template-columns: minmax(0, 1.2fr) minmax(18rem, 24rem);
+}
+
 .hero-subtitle {
   margin: 14px 0 0;
   max-width: 56ch;
@@ -915,6 +919,10 @@ mark {
   }
 
   .hero-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-detail .hero-layout {
     grid-template-columns: 1fr;
   }
 }

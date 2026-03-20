@@ -1,6 +1,28 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-71a8-bf77-6e9314fe05ab",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2010-06-13",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #5 - Long",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 1",
+          "course_rank": 4,
+          "outcome_text": "00:44:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4b-7762-9ce1-9d3fd875658d",
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2010-01-23",
@@ -133,10 +155,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Enger, Otto"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

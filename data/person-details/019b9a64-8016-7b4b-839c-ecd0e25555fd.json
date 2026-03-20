@@ -136,6 +136,30 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-7768-bc93-e46350aa8c33",
+      "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
+      "event_date": "2010-02-20",
+      "event_kind": "race",
+      "event_name": "Winter O' Series Championships",
+      "venue_name": "Dash Point State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 49,
+          "outcome_text": "01:36:06",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81e3-a50e-7cdb-b051-73a84b2f9dd4",
       "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
       "event_date": "2009-01-24",
@@ -228,10 +252,12 @@
       "result_row_count": 3
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Probala, James"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 7,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

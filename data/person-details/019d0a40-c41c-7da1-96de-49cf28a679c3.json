@@ -420,6 +420,30 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-7768-bc93-e46350aa8c33",
+      "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
+      "event_date": "2010-02-20",
+      "event_kind": "race",
+      "event_name": "Winter O' Series Championships",
+      "venue_name": "Dash Point State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 40,
+          "outcome_text": "01:24:09",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4b-7125-90a4-ea7aa9eae55b",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2010-02-06",
@@ -516,6 +540,54 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4d-794f-995e-e1a2ee710652",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-28",
+      "event_kind": "race",
+      "event_name": "PNWOF Long (by class)",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": "M50+",
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7161-b09e-c465b2552750",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-26",
+      "event_kind": "race",
+      "event_name": "PNWOF Sprint",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Sprint",
+          "course_rank": 29,
+          "outcome_text": "00:30:17",
+          "result_notes": "classification M50",
+          "category_name": "M50",
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81e3-a50e-769a-a6f3-02f6f1466540",
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2009-03-14",
@@ -564,10 +636,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Allmaras, Jerry"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 22,
+    "event_count": 25,
     "mention_count": 0
   },
   "mentions": [],

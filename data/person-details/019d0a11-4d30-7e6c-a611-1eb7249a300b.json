@@ -370,6 +370,28 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4d-71a8-bf77-6e9314fe05ab",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2010-06-13",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #5 - Long",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 1",
+          "course_rank": 1,
+          "outcome_text": "00:29:14",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4b-7125-90a4-ea7aa9eae55b",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2010-02-06",
@@ -546,10 +568,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Rogers, Kevin"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 22,
+    "event_count": 23,
     "mention_count": 0
   },
   "mentions": [],

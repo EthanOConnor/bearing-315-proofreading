@@ -73,6 +73,30 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b7fdb-f807-7017-807e-1571b04a0c12",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2000-12-16",
+      "event_kind": "race",
+      "event_name": "Hamlin Park - WIOL 4/O' Series 4",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3M",
+          "course_rank": null,
+          "outcome_text": "01:08:01",
+          "result_notes": null,
+          "category_name": "High School Male",
+          "category_rank": 30,
+          "additional_course": false,
+          "affiliation_labels": [
+            "MPHS"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7fdb-f804-7e8b-8fb2-259c102c8163",
       "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
       "event_date": "2000-11-18",
@@ -119,12 +143,62 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b7dc8-01df-71eb-8f4a-f7f29d974d58",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2000-02-26",
+      "event_kind": "race",
+      "event_name": "WIOL + Winter O' Series Championships",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": null,
+          "outcome_text": "00:58:37",
+          "result_notes": null,
+          "category_name": "High School Men",
+          "category_rank": 28,
+          "additional_course": false,
+          "affiliation_labels": [
+            "MPHS"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b7dc7-9462-7946-8df2-e163f0a3a737",
+      "venue_id": "019b7dc7-07fd-7dfe-9e57-195d624bda14",
+      "event_date": "2000-01-15",
+      "event_kind": "race",
+      "event_name": "O' Series #5 / WIOL #5",
+      "venue_name": "Lake Sammamish State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3M",
+          "course_rank": 22,
+          "outcome_text": "00:55:55",
+          "result_notes": "asterisk",
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "MPHS"
+          ]
+        }
+      ],
+      "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Campen, Richard"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 5,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

@@ -123,6 +123,78 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4d-794f-995e-e1a2ee710652",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-28",
+      "event_kind": "race",
+      "event_name": "PNWOF Long (by class)",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "01:14:06",
+          "result_notes": null,
+          "category_name": "M45+",
+          "category_rank": 1,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CTOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-72b0-bf28-a1df162be8d3",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-27",
+      "event_kind": "race",
+      "event_name": "PNWOF Middle (by class)",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "00:50:47",
+          "result_notes": "us_eligible Y",
+          "category_name": "M45+",
+          "category_rank": 1,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CTOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7161-b09e-c465b2552750",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-26",
+      "event_kind": "race",
+      "event_name": "PNWOF Sprint",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Sprint",
+          "course_rank": 11,
+          "outcome_text": "00:23:20",
+          "result_notes": "classification M45",
+          "category_name": "M45",
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CTOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7b37-b484-7090-8edc-aa2d04dd1232",
       "venue_id": "019b7b37-91fa-7c09-85e4-b2c450e5b444",
       "event_date": "1999-07-24",
@@ -167,10 +239,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Velichko, Sergey"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

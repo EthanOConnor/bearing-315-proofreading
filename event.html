@@ -6,17 +6,38 @@
     <title>Project '77 - Event Detail</title>
     <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" href="./site.css">
+    <script src="./vendor/fuse.min.js" defer></script>
+    <script src="./search.js" defer></script>
     <script src="./event.js" defer></script>
   </head>
   <body>
     <div class="page-shell">
       <header class="hero hero-detail">
-        <div class="hero-copy">
-          <div class="hero-meta" id="event-back-links">
-            <a class="pill pill-link" href="./index.html">Back To Snapshot</a>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <div class="hero-meta" id="event-back-links">
+              <a class="pill pill-link" href="./index.html">Back To Snapshot</a>
+            </div>
+            <h1 id="event-title">Loading Event…</h1>
+            <p class="hero-subtitle" id="event-subtitle">Fetching static event detail export.</p>
           </div>
-          <h1 id="event-title">Loading Event…</h1>
-          <p class="hero-subtitle" id="event-subtitle">Fetching static event detail export.</p>
+
+          <aside class="hero-search" aria-labelledby="hero-search-heading">
+            <p class="search-kicker" id="hero-search-heading">Find People Or Venues</p>
+            <label class="sr-only" for="hero-search-input">Search people or venues</label>
+            <div class="search-input-shell">
+              <input
+                id="hero-search-input"
+                class="search-input"
+                type="search"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="Search Debbie Newell, Ft. Steilacoom Park, Camp Long..."
+              >
+            </div>
+            <p class="search-hint">Jump directly to another person or venue while reviewing this event.</p>
+            <div class="search-results" id="hero-search-results" hidden></div>
+          </aside>
         </div>
       </header>
 

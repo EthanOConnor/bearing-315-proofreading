@@ -431,6 +431,30 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4d-71a8-bf77-6e9314fe05ab",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2010-06-13",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #5 - Long",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 21,
+          "outcome_text": "02:16:46",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Redmond HS"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81e3-a50d-7d2b-b588-fe093ba72b47",
       "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
       "event_date": "2009-08-03",
@@ -451,12 +475,62 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-794f-995e-e1a2ee710652",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-28",
+      "event_kind": "race",
+      "event_name": "PNWOF Long (by class)",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": null,
+          "outcome_text": "01:22:52",
+          "result_notes": null,
+          "category_name": "Recreational",
+          "category_rank": 4,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-72b0-bf28-a1df162be8d3",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-27",
+      "event_kind": "race",
+      "event_name": "PNWOF Middle (by class)",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": null,
+          "outcome_text": "01:46:46",
+          "result_notes": "us_eligible N",
+          "category_name": "F-Orange",
+          "category_rank": 2,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Spencer, Andrew"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 19,
+    "event_count": 22,
     "mention_count": 0
   },
   "mentions": [],

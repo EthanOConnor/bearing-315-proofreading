@@ -137,6 +137,28 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b817f-ae10-786c-badf-aedf0a35b8b2",
+      "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
+      "event_date": "2003-03-08",
+      "event_kind": "race",
+      "event_name": "Seward Park",
+      "venue_name": "Seward Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 16,
+          "outcome_text": "00:33:46",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b817f-ae10-79ec-993f-73ca82a0480d",
       "venue_id": "019b817f-8f78-7099-8660-e254bf51c248",
       "event_date": "2003-02-22",
@@ -361,10 +383,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Clark, Robin"
+  ],
   "summary": {
     "role_count": 1,
-    "event_count": 16,
+    "event_count": 17,
     "mention_count": 0
   },
   "mentions": [],

@@ -25,6 +25,30 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b7fdb-f807-7017-807e-1571b04a0c12",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2000-12-16",
+      "event_kind": "race",
+      "event_name": "Hamlin Park - WIOL 4/O' Series 4",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3M",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": "High School Male",
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BREH"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7fa5-2a99-7226-aa84-60525073c0d6",
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
       "event_date": "2000-11-04",
@@ -47,12 +71,86 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b7dc8-01df-71eb-8f4a-f7f29d974d58",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2000-02-26",
+      "event_kind": "race",
+      "event_name": "WIOL + Winter O' Series Championships",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": null,
+          "outcome_text": "00:29:34",
+          "result_notes": null,
+          "category_name": "High School Men",
+          "category_rank": 10,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BREH"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b7dc7-9462-7946-8df2-e163f0a3a737",
+      "venue_id": "019b7dc7-07fd-7dfe-9e57-195d624bda14",
+      "event_date": "2000-01-15",
+      "event_kind": "race",
+      "event_name": "O' Series #5 / WIOL #5",
+      "venue_name": "Lake Sammamish State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3M",
+          "course_rank": 4,
+          "outcome_text": "00:31:20",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BREH"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b7d9e-8bc7-7908-a067-73c9f8d4a002",
+      "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
+      "event_date": "1999-11-06",
+      "event_kind": "race",
+      "event_name": "O' Series #1 / WIOL #1",
+      "venue_name": "Marymoor Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3M",
+          "course_rank": null,
+          "outcome_text": "00:43:39",
+          "result_notes": null,
+          "category_name": "High School Men",
+          "category_rank": 12,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BREH"
+          ]
+        }
+      ],
+      "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Aho, Zachary"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

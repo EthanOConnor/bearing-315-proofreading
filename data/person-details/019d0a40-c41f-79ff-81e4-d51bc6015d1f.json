@@ -25,6 +25,30 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-7768-bc93-e46350aa8c33",
+      "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
+      "event_date": "2010-02-20",
+      "event_kind": "race",
+      "event_name": "Winter O' Series Championships",
+      "venue_name": "Dash Point State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 7,
+          "outcome_text": "00:46:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4b-7125-90a4-ea7aa9eae55b",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2010-02-06",
@@ -165,10 +189,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Ramey, Theresa"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 7,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

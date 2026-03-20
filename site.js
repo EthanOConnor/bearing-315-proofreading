@@ -1198,13 +1198,7 @@ async function main() {
   const generatedAt = document.getElementById("generated-at");
 
   try {
-    const [data, searchEntries] = await Promise.all([
-      fetchSnapshot(),
-      fetchSearchIndex().catch((error) => {
-        console.error(error);
-        return [];
-      }),
-    ]);
+    const data = await fetchSnapshot();
     generatedAt.textContent = `Snapshot exported ${formatTimestamp(data.generated_at)}`;
 
     renderStats(data.summary);
@@ -1215,7 +1209,7 @@ async function main() {
     renderRecentResultEvents(data.recent_result_events || []);
     renderPipelineSummary(data.newsletter_pipeline_summary);
     renderPipeline(data.newsletter_pipeline);
-    setupHeroSearch(searchEntries);
+    window.Project77Search?.setup();
   } catch (error) {
     generatedAt.textContent = error.message.includes("HTTP(S)")
       ? "Snapshot unavailable on file://"

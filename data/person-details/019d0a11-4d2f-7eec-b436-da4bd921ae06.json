@@ -274,12 +274,62 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-794f-995e-e1a2ee710652",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-28",
+      "event_kind": "race",
+      "event_name": "PNWOF Long (by class)",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "02:53:27",
+          "result_notes": null,
+          "category_name": "M60+",
+          "category_rank": 9,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7161-b09e-c465b2552750",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-26",
+      "event_kind": "race",
+      "event_name": "PNWOF Sprint",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Sprint",
+          "course_rank": 54,
+          "outcome_text": "00:37:36",
+          "result_notes": "classification M60",
+          "category_name": "M60",
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Rogers, David"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 10,
+    "event_count": 12,
     "mention_count": 0
   },
   "mentions": [],

@@ -465,6 +465,8 @@ async function main() {
     return;
   }
 
+  window.Project77Search?.setup();
+
   const params = new URLSearchParams(window.location.search);
   const type = params.get("type");
   const id = params.get("id");

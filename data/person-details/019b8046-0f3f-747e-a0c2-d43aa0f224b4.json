@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7768-bc93-e46350aa8c33",
+      "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
+      "event_date": "2010-02-20",
+      "event_kind": "race",
+      "event_name": "Winter O' Series Championships",
+      "venue_name": "Dash Point State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 1",
+          "course_rank": 8,
+          "outcome_text": "00:42:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7fff-d9b5-755b-92f1-a264833415aa",
       "venue_id": "019b7fff-4c14-7219-87e8-94a6085d84b6",
       "event_date": "2001-01-27",
@@ -25,10 +49,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Liland, Olav"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

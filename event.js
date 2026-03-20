@@ -278,6 +278,8 @@ async function main() {
     return;
   }
 
+  window.Project77Search?.setup();
+
   const params = new URLSearchParams(window.location.search);
   const eventId = params.get("id");
 

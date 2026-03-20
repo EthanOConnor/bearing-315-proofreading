@@ -305,6 +305,30 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-7768-bc93-e46350aa8c33",
+      "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
+      "event_date": "2010-02-20",
+      "event_kind": "race",
+      "event_name": "Winter O' Series Championships",
+      "venue_name": "Dash Point State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 8,
+          "outcome_text": "00:56:43",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81e3-a50f-7017-a33b-7fe143a3bf10",
       "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
       "event_date": "2010-01-09",
@@ -495,10 +519,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Davis, Darian"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 21,
+    "event_count": 22,
     "mention_count": 0
   },
   "mentions": [],

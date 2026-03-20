@@ -23,6 +23,30 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b7dc8-01df-71eb-8f4a-f7f29d974d58",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2000-02-26",
+      "event_kind": "race",
+      "event_name": "WIOL + Winter O' Series Championships",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 1",
+          "course_rank": null,
+          "outcome_text": "00:14:32",
+          "result_notes": null,
+          "category_name": "WIOL - Elementary / Male",
+          "category_rank": 2,
+          "additional_course": false,
+          "affiliation_labels": [
+            "LAKV"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7db7-5efb-7722-9383-46035f2987c4",
       "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
       "event_date": "1999-12-04",
@@ -45,10 +69,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Busch, Walter"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

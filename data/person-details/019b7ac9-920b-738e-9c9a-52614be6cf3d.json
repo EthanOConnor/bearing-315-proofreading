@@ -1086,6 +1086,54 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4d-71a8-bf77-6e9314fe05ab",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2010-06-13",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #5 - Long",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": null,
+          "outcome_text": "02:02:48",
+          "result_notes": null,
+          "category_name": "Women",
+          "category_rank": 4,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7768-bc93-e46350aa8c33",
+      "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
+      "event_date": "2010-02-20",
+      "event_kind": "race",
+      "event_name": "Winter O' Series Championships",
+      "venue_name": "Dash Point State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 35,
+          "outcome_text": "01:17:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4b-7762-9ce1-9d3fd875658d",
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2010-01-23",
@@ -1199,6 +1247,54 @@
           "category_rank": null,
           "additional_course": false,
           "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-794f-995e-e1a2ee710652",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-28",
+      "event_kind": "race",
+      "event_name": "PNWOF Long (by class)",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "01:36:53",
+          "result_notes": null,
+          "category_name": "F45+",
+          "category_rank": 3,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-72b0-bf28-a1df162be8d3",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-27",
+      "event_kind": "race",
+      "event_name": "PNWOF Middle (by class)",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "01:08:15",
+          "result_notes": "us_eligible Y",
+          "category_name": "F45+",
+          "category_rank": 1,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
         }
       ],
       "result_row_count": 1
@@ -1431,6 +1527,28 @@
           "course_rank": 3,
           "outcome_text": "01:06:02",
           "result_notes": "mode bike",
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b817f-ae10-786c-badf-aedf0a35b8b2",
+      "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
+      "event_date": "2003-03-08",
+      "event_kind": "race",
+      "event_name": "Seward Park",
+      "venue_name": "Seward Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 32,
+          "outcome_text": "00:39:18",
+          "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
@@ -2514,10 +2632,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Breseman, Eileen"
+  ],
   "summary": {
     "role_count": 17,
-    "event_count": 104,
+    "event_count": 109,
     "mention_count": 0
   },
   "mentions": [],

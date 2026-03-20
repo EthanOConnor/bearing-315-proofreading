@@ -341,6 +341,28 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b817f-ae10-786c-badf-aedf0a35b8b2",
+      "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
+      "event_date": "2003-03-08",
+      "event_kind": "race",
+      "event_name": "Seward Park",
+      "venue_name": "Seward Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 46,
+          "outcome_text": "00:45:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b815d-6fd1-7372-8f81-75079ee2c0e1",
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "2002-12-28",
@@ -429,10 +451,12 @@
       "result_row_count": 1
     }
   ],
-  "aliases": [],
+  "aliases": [
+    "Haddad-Fonda, Kyle"
+  ],
   "summary": {
     "role_count": 0,
-    "event_count": 19,
+    "event_count": 20,
     "mention_count": 0
   },
   "mentions": [],

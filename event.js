@@ -248,6 +248,30 @@ function renderError(message) {
   document.getElementById("event-results-panel").hidden = true;
 }
 
+function buildEventSubtitle(detail) {
+  const parts = [
+    formatEventPageDate(detail.event_date),
+    detail.event_kind || "unknown kind",
+    detail.venue_name || "Unknown venue",
+  ];
+
+  if (Number(detail.result_count || 0) > 0) {
+    parts.push(`Results from: ${detail.result_source_brief || "source not yet linked"}`);
+  } else {
+    parts.push("No result rows captured yet");
+  }
+
+  return parts.join(" · ");
+}
+
+function buildEventResultsCopy(detail) {
+  if (Number(detail.result_count || 0) > 0) {
+    return "Course-by-course results exported for this event.";
+  }
+
+  return "This event is in inventory, but no result rows are captured in the current snapshot.";
+}
+
 async function main() {
   if (window.location.protocol === "file:") {
     renderError("This static viewer needs HTTP(S). Open it from GitHub Pages or a local web server.");
@@ -268,12 +292,8 @@ async function main() {
     const detail = await fetchEventDetail(eventId);
     document.title = `${detail.event_name || "Event"} · Project '77`;
     document.getElementById("event-title").textContent = detail.event_name || "Untitled event";
-    document.getElementById("event-subtitle").textContent = [
-      formatEventPageDate(detail.event_date),
-      detail.event_kind || "unknown kind",
-      detail.venue_name || "Unknown venue",
-      `Results from: ${detail.result_source_brief || "source not yet linked"}`,
-    ].join(" · ");
+    document.getElementById("event-subtitle").textContent = buildEventSubtitle(detail);
+    document.getElementById("event-results-copy").textContent = buildEventResultsCopy(detail);
 
     const facts = [
       createDetailFact("Date", formatEventPageDate(detail.event_date)),

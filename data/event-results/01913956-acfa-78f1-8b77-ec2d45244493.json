@@ -456,23 +456,6 @@
         },
         {
           "team_id": null,
-          "result_id": "01913981-8090-7a37-9e5a-09126b89cd44",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "DNF",
-          "outcome_text": "DNF",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": "01913974-17a8-72cc-b146-8ae6d371bd70",
-          "competitor_name": "Len Englund",
-          "competitor_type": "individual",
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
-          "team_id": null,
           "result_id": "01913981-8cc6-7155-9c19-0070b6c5af7b",
           "time_text": "01:22:49",
           "competitive": true,
@@ -484,6 +467,23 @@
           "category_rank": null,
           "individual_id": "01913933-5190-7d88-927b-d1bcf4a9ba25",
           "competitor_name": "Stig Anderson",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "team_id": null,
+          "result_id": "01913981-8090-7a37-9e5a-09126b89cd44",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "01913974-17a8-72cc-b146-8ae6d371bd70",
+          "competitor_name": "Len Englund",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": []
@@ -634,7 +634,7 @@
   "venue_name": "Fort Lewis - Burns Woods",
   "course_count": 3,
   "result_count": 35,
-  "citation_count": 0,
-  "result_source_brief": null,
+  "citation_count": 2,
+  "result_source_brief": "Bearing 315, April/May 1980",
   "organizing_club_name": "Cascade Orienteering Club"
 }

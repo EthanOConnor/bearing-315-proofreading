@@ -102,23 +102,23 @@
       "result_rows": [
         {
           "competitive": true,
-          "course_name": "Course 2",
-          "course_rank": 1,
-          "outcome_text": "00:14:06",
-          "result_notes": null,
-          "category_name": "Public",
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
-          "competitive": true,
           "course_name": "Course 4",
           "course_rank": 14,
           "outcome_text": "00:51:12",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": null,
+          "outcome_text": "00:14:06",
+          "result_notes": null,
+          "category_name": "Public",
+          "category_rank": 1,
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -437,7 +437,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 4,
           "outcome_text": "00:28:00",
           "result_notes": null,
           "category_name": null,
@@ -461,10 +461,10 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 8,
           "outcome_text": "00:31:52",
           "result_notes": null,
-          "category_name": "Public",
+          "category_name": null,
           "category_rank": null,
           "additional_course": false,
           "affiliation_labels": [
@@ -513,7 +513,9 @@
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
-          "affiliation_labels": []
+          "affiliation_labels": [
+            "SAMM"
+          ]
         }
       ],
       "result_row_count": 1
@@ -529,13 +531,15 @@
         {
           "competitive": true,
           "course_name": "Course 5",
-          "course_rank": null,
+          "course_rank": 2,
           "outcome_text": "00:38:02",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
-          "affiliation_labels": []
+          "affiliation_labels": [
+            "SAMM"
+          ]
         }
       ],
       "result_row_count": 1
@@ -551,7 +555,7 @@
         {
           "competitive": true,
           "course_name": "Course 6",
-          "course_rank": null,
+          "course_rank": 2,
           "outcome_text": "00:27:14",
           "result_notes": null,
           "category_name": null,
@@ -573,13 +577,15 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 3,
           "outcome_text": "00:32:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
-          "affiliation_labels": []
+          "affiliation_labels": [
+            "SAMM"
+          ]
         }
       ],
       "result_row_count": 1

@@ -1,28 +1,6 @@
 {
   "events": [
     {
-      "event_id": "019b7b16-17b9-778c-b30f-69fa64aceb40",
-      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
-      "event_date": "1999-02-20",
-      "event_kind": "race",
-      "event_name": "Magnuson Park",
-      "venue_name": "Magnuson Park",
-      "result_rows": [
-        {
-          "competitive": true,
-          "course_name": "Course 4",
-          "course_rank": null,
-          "outcome_text": "00:39:06",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        }
-      ],
-      "result_row_count": 1
-    },
-    {
       "event_id": "019b7b12-b408-7e4b-8026-985c12be6cb3",
       "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
       "event_date": "1998-02-21",
@@ -55,13 +33,15 @@
         {
           "competitive": true,
           "course_name": "Course 5",
-          "course_rank": null,
+          "course_rank": 16,
           "outcome_text": "00:47:25",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
-          "affiliation_labels": []
+          "affiliation_labels": [
+            "NISQ"
+          ]
         }
       ],
       "result_row_count": 1
@@ -77,7 +57,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 11,
           "outcome_text": "00:20:26",
           "result_notes": null,
           "category_name": null,
@@ -99,7 +79,7 @@
         {
           "competitive": true,
           "course_name": "Course 5",
-          "course_rank": null,
+          "course_rank": 24,
           "outcome_text": "01:29:57",
           "result_notes": null,
           "category_name": null,
@@ -114,7 +94,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 5,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

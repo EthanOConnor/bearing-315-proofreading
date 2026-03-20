@@ -449,11 +449,11 @@
         {
           "competitive": true,
           "course_name": "10k",
-          "course_rank": 19,
+          "course_rank": null,
           "outcome_text": "00:53:28",
           "result_notes": null,
-          "category_name": "Male 19-39",
-          "category_rank": null,
+          "category_name": "M 19-39",
+          "category_rank": 19,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -483,30 +483,6 @@
       "result_row_count": 1
     },
     {
-      "event_id": "019b7dc8-01df-71eb-8f4a-f7f29d974d58",
-      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
-      "event_date": "2000-02-26",
-      "event_kind": "race",
-      "event_name": "WIOL + Winter O' Series Championships",
-      "venue_name": "Hamlin Park",
-      "result_rows": [
-        {
-          "competitive": true,
-          "course_name": "Course 4",
-          "course_rank": null,
-          "outcome_text": "00:29:29",
-          "result_notes": "WOS Champs place 3",
-          "category_name": "Public",
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        }
-      ],
-      "result_row_count": 1
-    },
-    {
       "event_id": "019b7f6f-5270-7b07-b0c1-429b8c21acd2",
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "2000-02-12",
@@ -517,7 +493,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 33,
           "outcome_text": "00:49:08",
           "result_notes": null,
           "category_name": null,
@@ -541,10 +517,10 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 24,
           "outcome_text": "01:03:32",
           "result_notes": null,
-          "category_name": "Public",
+          "category_name": null,
           "category_rank": null,
           "additional_course": false,
           "affiliation_labels": [
@@ -565,7 +541,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 5,
           "outcome_text": "00:24:33",
           "result_notes": null,
           "category_name": null,
@@ -587,7 +563,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 8,
           "outcome_text": "00:29:16",
           "result_notes": null,
           "category_name": null,
@@ -602,7 +578,7 @@
   "aliases": [],
   "summary": {
     "role_count": 4,
-    "event_count": 26,
+    "event_count": 25,
     "mention_count": 0
   },
   "mentions": [],

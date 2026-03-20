@@ -191,7 +191,7 @@
         {
           "competitive": true,
           "course_name": "Course 3",
-          "course_rank": null,
+          "course_rank": 5,
           "outcome_text": "00:47:12",
           "result_notes": null,
           "category_name": null,
@@ -215,10 +215,10 @@
         {
           "competitive": true,
           "course_name": "Course 2",
-          "course_rank": null,
+          "course_rank": 8,
           "outcome_text": "00:32:52",
           "result_notes": null,
-          "category_name": "Public",
+          "category_name": null,
           "category_rank": null,
           "additional_course": false,
           "affiliation_labels": [
@@ -261,7 +261,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 29,
           "outcome_text": "01:21:20",
           "result_notes": null,
           "category_name": null,
@@ -283,13 +283,15 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 9,
           "outcome_text": "00:55:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
-          "affiliation_labels": []
+          "affiliation_labels": [
+            "SAMM"
+          ]
         }
       ],
       "result_row_count": 1

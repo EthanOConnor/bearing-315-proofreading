@@ -10,12 +10,12 @@
       "result_rows": [
         {
           "competitive": true,
-          "course_name": "Course 3F",
+          "course_name": "Course 2",
           "course_rank": null,
           "outcome_text": "00:53:27",
           "result_notes": null,
-          "category_name": "WIOL - High School Women",
-          "category_rank": null,
+          "category_name": "High School Women",
+          "category_rank": 5,
           "additional_course": false,
           "affiliation_labels": [
             "MPHS"
@@ -38,8 +38,32 @@
           "course_rank": null,
           "outcome_text": "00:40:11",
           "result_notes": null,
-          "category_name": "WIOL - High School Women",
-          "category_rank": null,
+          "category_name": "WIOL - High School Female",
+          "category_rank": 4,
+          "additional_course": false,
+          "affiliation_labels": [
+            "MPHS"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b7da4-a65d-7eb4-a0a7-d4fce04bf452",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "1999-11-20",
+      "event_kind": "race",
+      "event_name": "O' Series #2 / WIOL #2",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3F",
+          "course_rank": null,
+          "outcome_text": "01:23:58",
+          "result_notes": null,
+          "category_name": "Public",
+          "category_rank": 10,
           "additional_course": false,
           "affiliation_labels": [
             "MPHS"
@@ -52,7 +76,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

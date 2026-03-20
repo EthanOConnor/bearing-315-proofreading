@@ -591,10 +591,10 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 26,
           "outcome_text": "00:54:19",
           "result_notes": null,
-          "category_name": "Public",
+          "category_name": null,
           "category_rank": null,
           "additional_course": false,
           "affiliation_labels": []
@@ -613,7 +613,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 38,
           "outcome_text": "01:16:51",
           "result_notes": null,
           "category_name": null,
@@ -635,7 +635,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 25,
           "outcome_text": "01:24:01",
           "result_notes": null,
           "category_name": null,
@@ -659,7 +659,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 33,
           "outcome_text": "00:48:53",
           "result_notes": null,
           "category_name": null,
@@ -703,13 +703,15 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 24,
           "outcome_text": "00:46:47",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
-          "affiliation_labels": []
+          "affiliation_labels": [
+            "NISQ"
+          ]
         }
       ],
       "result_row_count": 1

@@ -11,10 +11,34 @@
         {
           "competitive": true,
           "course_name": "Course 3M",
-          "course_rank": null,
+          "course_rank": 18,
           "outcome_text": "00:45:21",
-          "result_notes": null,
-          "category_name": "WIOL - High School Men",
+          "result_notes": "asterisk",
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "SKHS"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b7da4-a65d-7eb4-a0a7-d4fce04bf452",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "1999-11-20",
+      "event_kind": "race",
+      "event_name": "O' Series #2 / WIOL #2",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3M",
+          "course_rank": 18,
+          "outcome_text": "00:45:29",
+          "result_notes": "asterisk",
+          "category_name": null,
           "category_rank": null,
           "additional_course": false,
           "affiliation_labels": [
@@ -28,7 +52,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

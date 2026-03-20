@@ -375,11 +375,11 @@
         {
           "competitive": true,
           "course_name": "10k",
-          "course_rank": 24,
+          "course_rank": null,
           "outcome_text": "01:07:01",
           "result_notes": null,
-          "category_name": "Male 40+",
-          "category_rank": null,
+          "category_name": "M 40+",
+          "category_rank": 24,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -397,10 +397,10 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 39,
           "outcome_text": "01:08:21",
           "result_notes": null,
-          "category_name": "Public",
+          "category_name": null,
           "category_rank": null,
           "additional_course": false,
           "affiliation_labels": [
@@ -421,7 +421,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 28,
           "outcome_text": "01:31:36",
           "result_notes": null,
           "category_name": null,
@@ -445,7 +445,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 30,
           "outcome_text": "00:40:36",
           "result_notes": null,
           "category_name": null,
@@ -467,10 +467,10 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 13,
           "outcome_text": "00:53:31",
           "result_notes": null,
-          "category_name": "Public",
+          "category_name": null,
           "category_rank": null,
           "additional_course": false,
           "affiliation_labels": [
@@ -493,7 +493,7 @@
           "course_name": "Adventure Run",
           "course_rank": 65,
           "outcome_text": "01:10:09",
-          "result_notes": null,
+          "result_notes": "classification M 40 & Over",
           "category_name": "M 40 & Over",
           "category_rank": null,
           "additional_course": false,
@@ -579,13 +579,15 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 18,
           "outcome_text": "00:39:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
-          "affiliation_labels": []
+          "affiliation_labels": [
+            "COC"
+          ]
         }
       ],
       "result_row_count": 1

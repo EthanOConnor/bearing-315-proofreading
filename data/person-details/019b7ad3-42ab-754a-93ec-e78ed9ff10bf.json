@@ -463,10 +463,10 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 8,
           "outcome_text": "00:48:53",
           "result_notes": null,
-          "category_name": "Public",
+          "category_name": null,
           "category_rank": null,
           "additional_course": false,
           "affiliation_labels": [
@@ -487,7 +487,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 17,
           "outcome_text": "00:32:11",
           "result_notes": null,
           "category_name": null,
@@ -513,7 +513,7 @@
           "course_name": "Adventure Run",
           "course_rank": 68,
           "outcome_text": "01:11:13",
-          "result_notes": null,
+          "result_notes": "classification M 40 & Over",
           "category_name": "M 40 & Over",
           "category_rank": null,
           "additional_course": false,
@@ -533,7 +533,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 24,
           "outcome_text": "00:51:01",
           "result_notes": null,
           "category_name": null,
@@ -599,13 +599,15 @@
         {
           "competitive": true,
           "course_name": "Course 5",
-          "course_rank": null,
+          "course_rank": 5,
           "outcome_text": "00:34:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
-          "affiliation_labels": []
+          "affiliation_labels": [
+            "SAMM"
+          ]
         }
       ],
       "result_row_count": 1
@@ -623,7 +625,7 @@
           "course_name": "Course 6",
           "course_rank": null,
           "outcome_text": "DNF",
-          "result_notes": "DNF (lost punch card)",
+          "result_notes": "(lost punch card)",
           "category_name": null,
           "category_rank": null,
           "additional_course": false,

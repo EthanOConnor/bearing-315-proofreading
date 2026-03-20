@@ -767,11 +767,11 @@
         {
           "competitive": true,
           "course_name": "10k",
-          "course_rank": 5,
+          "course_rank": null,
           "outcome_text": "00:49:42",
           "result_notes": null,
-          "category_name": "Male 40+",
-          "category_rank": null,
+          "category_name": "M 40+",
+          "category_rank": 5,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -857,7 +857,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 5,
           "outcome_text": "00:28:19",
           "result_notes": null,
           "category_name": null,
@@ -881,7 +881,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 8,
           "outcome_text": "00:28:38",
           "result_notes": null,
           "category_name": null,
@@ -905,7 +905,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 3,
           "outcome_text": "00:45:48",
           "result_notes": null,
           "category_name": null,
@@ -929,10 +929,10 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 3,
           "outcome_text": "00:37:59",
           "result_notes": null,
-          "category_name": "Public",
+          "category_name": null,
           "category_rank": null,
           "additional_course": false,
           "affiliation_labels": [
@@ -953,10 +953,10 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 1,
           "outcome_text": "00:39:12",
           "result_notes": null,
-          "category_name": "Public",
+          "category_name": null,
           "category_rank": null,
           "additional_course": false,
           "affiliation_labels": [
@@ -979,7 +979,7 @@
           "course_name": "Adventure Run",
           "course_rank": 14,
           "outcome_text": "00:54:23",
-          "result_notes": null,
+          "result_notes": "classification M 40 & Over",
           "category_name": "M 40 & Over",
           "category_rank": null,
           "additional_course": false,
@@ -999,7 +999,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 4,
           "outcome_text": "00:26:23",
           "result_notes": null,
           "category_name": null,
@@ -1079,28 +1079,6 @@
       "result_row_count": 1
     },
     {
-      "event_id": "019b7b18-7f70-7bc7-a8a9-6ce538d24e37",
-      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
-      "event_date": "1999-05-08",
-      "event_kind": "race",
-      "event_name": "Hamlin Park",
-      "venue_name": "Hamlin Park",
-      "result_rows": [
-        {
-          "competitive": true,
-          "course_name": "Course 4",
-          "course_rank": null,
-          "outcome_text": "00:33:14",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        }
-      ],
-      "result_row_count": 1
-    },
-    {
       "event_id": "019b7b12-b408-7e4b-8026-985c12be6cb3",
       "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
       "event_date": "1998-02-21",
@@ -1133,13 +1111,15 @@
         {
           "competitive": true,
           "course_name": "Course 5",
-          "course_rank": null,
+          "course_rank": 3,
           "outcome_text": "00:30:40",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
-          "affiliation_labels": []
+          "affiliation_labels": [
+            "COC"
+          ]
         }
       ],
       "result_row_count": 1
@@ -1155,13 +1135,15 @@
         {
           "competitive": true,
           "course_name": "Course 5",
-          "course_rank": null,
+          "course_rank": 11,
           "outcome_text": "00:55:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
-          "affiliation_labels": []
+          "affiliation_labels": [
+            "COC"
+          ]
         }
       ],
       "result_row_count": 1
@@ -1177,7 +1159,7 @@
         {
           "competitive": true,
           "course_name": "Course 6",
-          "course_rank": null,
+          "course_rank": 6,
           "outcome_text": "00:33:02",
           "result_notes": null,
           "category_name": null,
@@ -1199,13 +1181,15 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 6,
           "outcome_text": "00:40:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "additional_course": false,
-          "affiliation_labels": []
+          "affiliation_labels": [
+            "COC"
+          ]
         }
       ],
       "result_row_count": 1
@@ -1221,7 +1205,7 @@
         {
           "competitive": true,
           "course_name": "Course 4",
-          "course_rank": null,
+          "course_rank": 2,
           "outcome_text": "00:28:51",
           "result_notes": null,
           "category_name": null,
@@ -1236,7 +1220,7 @@
   "aliases": [],
   "summary": {
     "role_count": 15,
-    "event_count": 54,
+    "event_count": 53,
     "mention_count": 0
   },
   "mentions": [],

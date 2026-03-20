@@ -181,7 +181,7 @@ function renderPerson(detail) {
   const description = document.getElementById("entity-description");
 
   title.textContent = detail.individual_name;
-  subtitle.textContent = "Result-linked events first, volunteer roles next, and direct newsletter / other mentions last.";
+  subtitle.textContent = "Static person detail from the current snapshot export.";
   meta.replaceChildren(
     createStatusChip(`${formatEntityNumber(detail.summary.event_count)} events`),
     createStatusChip(`${formatEntityNumber(detail.summary.role_count)} volunteer roles`),
@@ -221,7 +221,8 @@ function renderPerson(detail) {
     venue.append(createEntityLink("venue", eventRow.venue_id, eventRow.venue_name || "Unknown venue"));
 
     const results = document.createElement("td");
-    results.className = "entity-result-summaries";
+    const resultsWrap = document.createElement("div");
+    resultsWrap.className = "entity-result-summaries";
     (eventRow.result_rows || []).forEach((resultRow) => {
       const summary = document.createElement("div");
       summary.className = "entity-result-summary";
@@ -239,9 +240,10 @@ function renderPerson(detail) {
       if (flags.length) appendTextLine(summary, flags.join(" · "), "muted");
       if (resultRow.result_notes) appendTextLine(summary, resultRow.result_notes, "muted");
 
-      results.append(summary);
+      resultsWrap.append(summary);
     });
 
+    results.append(resultsWrap);
     tr.append(date, eventName, venue, results);
     return tr;
   });
@@ -409,16 +411,12 @@ function renderVenue(detail) {
     date.textContent = formatEntityDate(eventRow.event_date);
 
     const eventName = document.createElement("td");
-    if (Number(eventRow.result_count || 0) > 0) {
-      eventName.append(
-        createEventLink(eventRow.event_id, eventRow.event_name || "Untitled event", {
-          fromType: "venue",
-          fromId: detail.venue_id,
-        })
-      );
-    } else {
-      eventName.textContent = eventRow.event_name || "Untitled event";
-    }
+    eventName.append(
+      createEventLink(eventRow.event_id, eventRow.event_name || "Untitled event", {
+        fromType: "venue",
+        fromId: detail.venue_id,
+      })
+    );
 
     const kind = document.createElement("td");
     kind.append(createStatusChip(eventRow.event_kind || "unknown"));

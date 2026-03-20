@@ -14,8 +14,8 @@
           "course_rank": null,
           "outcome_text": "00:39:33",
           "result_notes": null,
-          "category_name": "WIOL - Junior High Male",
-          "category_rank": null,
+          "category_name": "WIOL - Junior High / Male",
+          "category_rank": 10,
           "additional_course": false,
           "affiliation_labels": [
             "BREJ"
@@ -37,9 +37,33 @@
           "course_name": "Course 2",
           "course_rank": null,
           "outcome_text": "00:38:25",
-          "result_notes": null,
-          "category_name": "WIOL - Junior High Male",
-          "category_rank": null,
+          "result_notes": "asterisk",
+          "category_name": "WIOL - Jr. High / Male",
+          "category_rank": 12,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BREJ"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b7d9e-8bc7-7908-a067-73c9f8d4a002",
+      "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
+      "event_date": "1999-11-06",
+      "event_kind": "race",
+      "event_name": "O' Series #1 / WIOL #1",
+      "venue_name": "Marymoor Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": null,
+          "outcome_text": "01:25:37",
+          "result_notes": "asterisk",
+          "category_name": "WIOL - Junior High / Male",
+          "category_rank": 16,
           "additional_course": false,
           "affiliation_labels": [
             "BREJ"
@@ -52,7 +76,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

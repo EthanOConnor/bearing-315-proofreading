@@ -95,30 +95,6 @@
       "result_row_count": 1
     },
     {
-      "event_id": "019b7fdb-f807-7017-807e-1571b04a0c12",
-      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
-      "event_date": "2000-12-16",
-      "event_kind": "race",
-      "event_name": "Hamlin Park - WIOL 4/O' Series 4",
-      "venue_name": "Hamlin Park",
-      "result_rows": [
-        {
-          "competitive": true,
-          "course_name": "Course 3M",
-          "course_rank": 5,
-          "outcome_text": "00:38:54",
-          "result_notes": "novice",
-          "category_name": "WIOL - High School Male",
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": [
-            "EVRH"
-          ]
-        }
-      ],
-      "result_row_count": 1
-    },
-    {
       "event_id": "019b7fdb-f807-7d6a-8735-5dc36552e9b0",
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "2000-11-19",
@@ -129,11 +105,11 @@
         {
           "competitive": true,
           "course_name": "10k",
-          "course_rank": 1,
+          "course_rank": null,
           "outcome_text": "00:46:26",
           "result_notes": null,
-          "category_name": "Male -18",
-          "category_rank": null,
+          "category_name": "M -18",
+          "category_rank": 1,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -144,7 +120,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

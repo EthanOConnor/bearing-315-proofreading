@@ -8,6 +8,14 @@ const dateFormatter = new Intl.DateTimeFormat("en-US", {
   day: "numeric",
   timeZone: "UTC",
 });
+const timestampFormatter = new Intl.DateTimeFormat(undefined, {
+  year: "numeric",
+  month: "short",
+  day: "numeric",
+  hour: "numeric",
+  minute: "2-digit",
+  timeZoneName: "short",
+});
 const eventDetailCache = new Map();
 const searchIndexCache = {
   entries: null,
@@ -25,6 +33,12 @@ function formatDate(value) {
   if (!value) return "n/a";
   const date = new Date(`${value}T00:00:00Z`);
   return Number.isNaN(date.getTime()) ? value : dateFormatter.format(date);
+}
+
+function formatTimestamp(value) {
+  if (!value) return "n/a";
+  const date = new Date(value);
+  return Number.isNaN(date.getTime()) ? value : timestampFormatter.format(date);
 }
 
 function formatDistanceKm(value) {
@@ -86,8 +100,23 @@ function createStatusChip(label, extraClass = "") {
   return chip;
 }
 
+function getCocCompetitionEvents(events = []) {
+  return events.filter((eventRow) => (eventRow.coverage_section || "non_coc") === "coc_competition");
+}
+
+function getCocCompetitionResultCount(events = []) {
+  return getCocCompetitionEvents(events).reduce(
+    (sum, eventRow) => sum + Number(eventRow.result_count || 0),
+    0
+  );
+}
+
 function getEntityUrl(type, id) {
   return `./entity.html?type=${encodeURIComponent(type)}&id=${encodeURIComponent(id)}`;
+}
+
+function getEventUrl(eventId) {
+  return `./event.html?id=${encodeURIComponent(eventId)}`;
 }
 
 function createEntityLink(type, id, label, className = "entity-link") {
@@ -104,16 +133,24 @@ function createEntityLink(type, id, label, className = "entity-link") {
   return link;
 }
 
-function isEventNavigable(row) {
+function isEventInlineNavigable(row) {
   return Boolean(row?.event_id) && Number(row?.result_count || 0) > 0;
 }
 
 function createEventNameNode(row, onToggle) {
   const label = row.event_name || "Untitled event";
-  if (!isEventNavigable(row)) {
+  if (!row?.event_id) {
     const span = document.createElement("span");
     span.textContent = label;
     return span;
+  }
+
+  if (!isEventInlineNavigable(row)) {
+    const link = document.createElement("a");
+    link.className = "event-link";
+    link.href = getEventUrl(row.event_id);
+    link.textContent = label;
+    return link;
   }
 
   const button = document.createElement("button");
@@ -143,17 +180,10 @@ function renderStats(summary) {
     createStatCard("Newsletter Issues", formatNumber(summary.newsletter_issues), `${summary.newsletter_date_min} to ${summary.newsletter_date_max}`),
     createStatCard("People", formatNumber(summary.individuals), `${formatNumber(summary.teams)} teams`),
     createStatCard(
-      "Unique Venues",
-      formatNumber(summary.venues),
-      `${formatNumber(summary.venue_rows_active)} active rows from ${formatNumber(summary.venue_rows_raw)} raw`
-    ),
-    createStatCard(
       "Competition Venues",
       formatNumber(summary.competition_venues),
       `${formatNumber(summary.competition_only_venues)} competition-only, ${formatNumber(summary.mixed_use_venues)} mixed-use`
     ),
-    createStatCard("Artifacts", formatNumber(summary.artifacts), `${formatNumber(summary.citations)} citations`),
-    createStatCard("Page Artifacts", formatNumber(summary.page_artifacts), "Still effectively unused"),
   ];
 
   statsGrid.replaceChildren(...cards);
@@ -197,7 +227,7 @@ function renderStackList(targetId, rows, labelKey, valueKey) {
 function renderCoverage(rows) {
   const target = document.getElementById("coverage-chart");
   const maxEvents = Math.max(
-    ...rows.map((row) => row.competition_event_count ?? row.event_count ?? 0),
+    ...rows.map((row) => getCocCompetitionEvents(row.events || []).length),
     1
   );
   const coverageSections = [
@@ -232,10 +262,12 @@ function renderCoverage(rows) {
     bars.className = "coverage-bars";
 
     const events = row.events || [];
-    const competitionEventCount = row.competition_event_count ?? row.event_count ?? 0;
-    const competitionEventsWithResultsCount =
-      row.competition_result_event_count ??
-      events.filter((eventRow) => Number(eventRow.result_count || 0) > 0).length;
+    const cocCompetitionEvents = getCocCompetitionEvents(events);
+    const competitionEventCount = cocCompetitionEvents.length;
+    const competitionEventsWithResultsCount = cocCompetitionEvents.filter(
+      (eventRow) => Number(eventRow.result_count || 0) > 0
+    ).length;
+    const cocCompetitionResultCount = getCocCompetitionResultCount(events);
 
     const eventTrack = document.createElement("div");
     eventTrack.className = "bar-track";
@@ -249,7 +281,7 @@ function renderCoverage(rows) {
 
     const meta = document.createElement("div");
     meta.className = "bar-meta";
-    meta.textContent = `Events: ${formatNumber(competitionEventCount)} ; Events with Results: ${formatNumber(competitionEventsWithResultsCount)} ; Result Count: ${formatNumber(row.result_count)}`;
+    meta.textContent = `COC Competitions: ${formatNumber(competitionEventCount)} ; With Results: ${formatNumber(competitionEventsWithResultsCount)} ; Result Count: ${formatNumber(cocCompetitionResultCount)}`;
 
     const caret = document.createElement("span");
     caret.className = "coverage-caret";
@@ -407,8 +439,25 @@ function renderCoverage(rows) {
   target.replaceChildren(...items);
 }
 
-function renderRecentEvents(rows) {
-  const target = document.getElementById("recent-events");
+function createEmptyTableRow(colspan, message) {
+  const tr = document.createElement("tr");
+  const td = document.createElement("td");
+  td.colSpan = colspan;
+  td.className = "muted";
+  td.textContent = message;
+  tr.append(td);
+  return tr;
+}
+
+function renderRecentEventTable(targetId, rows) {
+  const target = document.getElementById(targetId);
+  if (!target) return;
+
+  if (!rows?.length) {
+    target.replaceChildren(createEmptyTableRow(4, "No events in this slice yet."));
+    return;
+  }
+
   const items = rows.map((row) => {
     const tr = document.createElement("tr");
     tr.className = "event-summary-row";
@@ -423,13 +472,10 @@ function renderRecentEvents(rows) {
           button,
           eventId: row.event_id,
           hostRow: tr,
-          colspan: 6,
+          colspan: 4,
         });
       })
     );
-
-    const kind = document.createElement("td");
-    kind.append(createStatusChip(row.event_kind));
 
     const venue = document.createElement("td");
     venue.append(createEntityLink("venue", row.venue_id, row.venue_name || "Unknown venue"));
@@ -437,13 +483,18 @@ function renderRecentEvents(rows) {
     const results = document.createElement("td");
     results.textContent = formatNumber(row.result_count);
 
-    const citations = document.createElement("td");
-    citations.textContent = formatNumber(row.citation_count);
-
-    tr.append(date, eventName, kind, venue, results, citations);
+    tr.append(date, eventName, venue, results);
     return tr;
   });
   target.replaceChildren(...items);
+}
+
+function renderRecentEvents(rows) {
+  renderRecentEventTable("recent-events", rows);
+}
+
+function renderRecentResultEvents(rows) {
+  renderRecentEventTable("recent-result-events", rows);
 }
 
 function renderPipelineSummary(summary) {
@@ -817,7 +868,11 @@ function setupHeroSearch(entries) {
   });
 }
 
-function createInlineDetailShell(titleText, summaryText, { metaNodes = [], bodyNodes = [], bodyText = "", onClose } = {}) {
+function createInlineDetailShell(
+  titleText,
+  summaryText,
+  { metaNodes = [], bodyNodes = [], bodyText = "", onClose, headControls = [] } = {}
+) {
   const shell = document.createElement("section");
   shell.className = "event-inline-shell";
 
@@ -838,13 +893,26 @@ function createInlineDetailShell(titleText, summaryText, { metaNodes = [], bodyN
   heading.append(title, summary);
   head.append(heading);
 
+  const actions = [];
+
+  if (headControls?.length) {
+    actions.push(...headControls);
+  }
+
   if (onClose) {
     const closeButton = document.createElement("button");
     closeButton.type = "button";
     closeButton.className = "ghost-button";
     closeButton.textContent = "Collapse";
     closeButton.addEventListener("click", onClose);
-    head.append(closeButton);
+    actions.push(closeButton);
+  }
+
+  if (actions.length) {
+    const controls = document.createElement("div");
+    controls.className = "event-inline-actions";
+    controls.append(...actions);
+    head.append(controls);
   }
 
   shell.append(head);
@@ -990,6 +1058,10 @@ function buildEventDetailShell(detail, onClose) {
   ];
 
   const courseCards = (detail.courses || []).map(createCourseCard);
+  const openLink = document.createElement("a");
+  openLink.className = "ghost-button ghost-link-button";
+  openLink.href = getEventUrl(detail.event_id);
+  openLink.textContent = "Open Event Page";
 
   return createInlineDetailShell(
     detail.event_name || "Untitled event",
@@ -1002,7 +1074,12 @@ function buildEventDetailShell(detail, onClose) {
     {
       metaNodes: facts,
       bodyNodes: courseCards,
+      bodyText:
+        Number(detail.result_count || 0) > 0
+          ? "No result rows exported for this event."
+          : "This event is in inventory, but no result rows are captured in the current snapshot.",
       onClose,
+      headControls: [openLink],
     }
   );
 }
@@ -1128,13 +1205,14 @@ async function main() {
         return [];
       }),
     ]);
-    generatedAt.textContent = `Snapshot exported ${data.generated_at}`;
+    generatedAt.textContent = `Snapshot exported ${formatTimestamp(data.generated_at)}`;
 
     renderStats(data.summary);
     renderCoverage(data.coverage_by_year);
     renderStackList("source-documents", data.source_documents, "document_type", "count");
     renderStackList("result-statuses", data.result_statuses, "status", "count");
     renderRecentEvents(data.recent_events);
+    renderRecentResultEvents(data.recent_result_events || []);
     renderPipelineSummary(data.newsletter_pipeline_summary);
     renderPipeline(data.newsletter_pipeline);
     setupHeroSearch(searchEntries);

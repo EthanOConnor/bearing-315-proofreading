@@ -1,6 +1,126 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7349-a647-24a02c3b0d0e",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "event_date": "2014-05-10",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #5 (Classic-O)",
+      "venue_name": "Lick Creek",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 8,
+          "outcome_text": "01:08:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7411-96c1-eb3ff75cbdba",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2012-11-03",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P7M",
+          "course_rank": 13,
+          "outcome_text": "00:45:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7357-b927-2cee44df0924",
+      "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+      "event_date": "2011-02-19",
+      "event_kind": "race",
+      "event_name": "O' Series/WIOL Champs",
+      "venue_name": "Lord Hill Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "WIOL 8",
+          "course_rank": 10,
+          "outcome_text": "01:31:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascades"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7d13-9328-a7a823ae1b7c",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2010-11-06",
+      "event_kind": "race",
+      "event_name": "O' Series #1/WIOL #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": null,
+          "outcome_text": "00:42:25",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": 19,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50d-7b7d-9532-76e6ef8acf44",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2009-11-21",
+      "event_kind": "race",
+      "event_name": "O' Series #2/WIOL #2",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 11,
+          "outcome_text": "00:34:57",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-72c2-b8fc-f6a4cb1dcc72",
       "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
       "event_date": "2003-12-20",
@@ -98,7 +218,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

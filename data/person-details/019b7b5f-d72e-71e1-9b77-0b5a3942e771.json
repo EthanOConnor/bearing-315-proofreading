@@ -1,6 +1,889 @@
 {
   "events": [
     {
+      "event_id": "019d03c4-2ddd-7362-9039-bbde451bfbe2",
+      "venue_id": "019b81f3-1f39-72b4-9e1b-2572fc94fa8e",
+      "event_date": "2026-03-01",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League Relay",
+      "venue_name": "Bellevue College",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Regular – Open",
+          "course_rank": null,
+          "outcome_text": "00:28:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-759a-9d96-6eef249a1752",
+      "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
+      "event_date": "2021-09-18",
+      "event_kind": "race",
+      "event_name": "2021 Choose Your Adventure #1: Corn Maze!",
+      "venue_name": "Bob's Corn Maze & Pumpkin Farm",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "2021 Choose Your Adventure #1: Corn Maze!",
+          "course_rank": 23,
+          "outcome_text": "00:45:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7dc9-846a-f3234a1ad6c2",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2020-12-26",
+      "event_kind": "race",
+      "event_name": "2020 Choose Your Adventure: Barebones Bog Slog - Part 1",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Jog",
+          "course_rank": null,
+          "outcome_text": "02:21:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-70c0-aa54-f64ae7a20e09",
+      "venue_id": "019b81f3-1f39-7d9a-9a28-452083a98ee1",
+      "event_date": "2015-09-27",
+      "event_kind": "race",
+      "event_name": "SART 2015 - Round 4",
+      "venue_name": "Shoreview",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "SART 2015 - Round 4",
+          "course_rank": 3,
+          "outcome_text": "DNS",
+          "result_notes": "heat Heat 401",
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-723e-b8da-bffff82a2fc2",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2015-09-26",
+      "event_kind": "race",
+      "event_name": "SART 2015 - Round 1",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "SART 2015 - Round 1",
+          "course_rank": 4,
+          "outcome_text": "00:28:01",
+          "result_notes": "heat Heat 115",
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ee7-8b16-4da50bc83322",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2015-09-26",
+      "event_kind": "race",
+      "event_name": "SART 2015 - Round 2",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "SART 2015 - Round 2",
+          "course_rank": 4,
+          "outcome_text": "00:31:57",
+          "result_notes": "heat Heat 216",
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-72e2-9375-b8c84328623c",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2015-09-26",
+      "event_kind": "race",
+      "event_name": "SART 2015 - Round 3",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "SART 2015 - Round 3",
+          "course_rank": 3,
+          "outcome_text": "00:41:08",
+          "result_notes": "heat Heat 316",
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7093-89c1-89e7073b4ee6",
+      "venue_id": "019b81f3-1f39-7181-bbf7-82a1570ca57c",
+      "event_date": "2015-09-26",
+      "event_kind": "race",
+      "event_name": "SART 2015 - Time Trial",
+      "venue_name": "Greenlake",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "SART 2015 - Time Trial",
+          "course_rank": 70,
+          "outcome_text": "00:09:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-74f2-8888-725754c8c324",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "event_date": "2013-12-21",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #4",
+      "venue_name": "Putney Woods",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P5",
+          "course_rank": 10,
+          "outcome_text": "00:55:20",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7694-a5c4-985efa305e38",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2013-06-30",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #7 - Long O'",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P3F",
+          "course_rank": 5,
+          "outcome_text": "02:50:58",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7e7d-a6bd-af45063ce7e7",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "event_date": "2012-04-21",
+      "event_kind": "race",
+      "event_name": "2012 US Interscholastic/Intercollegiate Championships - Day 1",
+      "venue_name": "Fort Ebey State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "GREEN",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": "F50+",
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        },
+        {
+          "competitive": true,
+          "course_name": "GREEN",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": "F50+",
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-72cc-b9fa-1f2a907a4b97",
+      "venue_id": "019b81e3-a4f7-72d7-bb23-68dd78cd7453",
+      "event_date": "2012-02-04",
+      "event_kind": "race",
+      "event_name": "Winter O' Series #7/WIOL #7",
+      "venue_name": "Green River Community College",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P3",
+          "course_rank": 6,
+          "outcome_text": "00:59:40",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7bcc-98b7-222182012ab5",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
+      "event_date": "2012-01-07",
+      "event_kind": "race",
+      "event_name": "Winter O' Series #5/WIOL #5",
+      "venue_name": "Shoreview Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "WIOL 2011",
+          "course_rank": 2,
+          "outcome_text": "00:43:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-74d2-bfc3-3e3874eb76f4",
+      "venue_id": "019b81f3-1f39-7d0b-8dcb-23e01424fc02",
+      "event_date": "2011-12-31",
+      "event_kind": "race",
+      "event_name": "Bog Slog 2011",
+      "venue_name": "Kenmore WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P2",
+          "course_rank": 7,
+          "outcome_text": "00:59:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7eb2-8220-fa1d182a4cbd",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2011-12-03",
+      "event_kind": "race",
+      "event_name": "Winter O' Series #3/WIOL #3",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P3",
+          "course_rank": 4,
+          "outcome_text": "00:40:16",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7921-bf08-56d0d5e8cd62",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2011-04-02",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #2 - Sprint",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": null,
+          "outcome_text": "MSP",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7357-b927-2cee44df0924",
+      "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+      "event_date": "2011-02-19",
+      "event_kind": "race",
+      "event_name": "O' Series/WIOL Champs",
+      "venue_name": "Lord Hill Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "WIOL 8",
+          "course_rank": 9,
+          "outcome_text": "01:38:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascades"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-7153-bf12-11f11aa1e6e1",
+      "venue_id": "019b81f3-1f39-7545-a8f4-5b831f01346e",
+      "event_date": "2011-02-05",
+      "event_kind": "race",
+      "event_name": "O' Series #7/WIOL #7 - Green River CC",
+      "venue_name": "Auburn, WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "WIOL 7",
+          "course_rank": 15,
+          "outcome_text": "01:36:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7d1e-bb58-50b37c500d46",
+      "venue_id": "019b7f6c-d83a-70e5-a00f-404279e1de11",
+      "event_date": "2011-01-08",
+      "event_kind": "race",
+      "event_name": "O' Series #5/WIOL #5",
+      "venue_name": "Priest Point Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Public 7",
+          "course_rank": null,
+          "outcome_text": "01:47:09",
+          "result_notes": null,
+          "category_name": "Women",
+          "category_rank": 13,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7939-9694-71cdceafa4da",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2010-12-18",
+      "event_kind": "race",
+      "event_name": "O' Series #4/WIOL #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Public 7",
+          "course_rank": null,
+          "outcome_text": "00:46:14",
+          "result_notes": null,
+          "category_name": "Women",
+          "category_rank": 13,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-718c-86b9-c4486d2d8496",
+      "venue_id": "019b81e3-a4f7-75c9-bf69-0cb1329c7b29",
+      "event_date": "2010-12-04",
+      "event_kind": "race",
+      "event_name": "O' Series #3/WIOL #3",
+      "venue_name": "Bridle Trails Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Public 7",
+          "course_rank": null,
+          "outcome_text": "01:09:24",
+          "result_notes": null,
+          "category_name": "Women",
+          "category_rank": 16,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7ec0-a664-39edcefb6592",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2010-11-20",
+      "event_kind": "race",
+      "event_name": "O' Series #2/WIOL #2",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": null,
+          "outcome_text": "00:59:22",
+          "result_notes": null,
+          "category_name": "Women",
+          "category_rank": 18,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7d13-9328-a7a823ae1b7c",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2010-11-06",
+      "event_kind": "race",
+      "event_name": "O' Series #1/WIOL #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": null,
+          "outcome_text": "00:53:16",
+          "result_notes": null,
+          "category_name": "Women",
+          "category_rank": 11,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-79cb-8f91-3f8c5501701b",
+      "venue_id": "019b81f3-1f39-7b80-95ff-211287937388",
+      "event_date": "2010-06-28",
+      "event_kind": "race",
+      "event_name": "US Sprint Championships",
+      "venue_name": "Camp Sekani WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "Blank",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "F20",
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "F50",
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f0e-94a5-a94eba387350",
+      "venue_id": "019b81f3-1f39-7b5a-af13-0e4421b2e965",
+      "event_date": "2010-06-27",
+      "event_kind": "race",
+      "event_name": "US Long Distance Championships",
+      "venue_name": "Fishtrap Lake WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "03:28:17",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "F50",
+          "category_rank": 7,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-72cb-b705-6dbdaa04768c",
+      "venue_id": "019b81f3-1f39-77d0-b491-378c6c63c769",
+      "event_date": "2010-06-26",
+      "event_kind": "race",
+      "event_name": "US Middle Distance Championships",
+      "venue_name": "Moses Lake Sand Dunes WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "01:11:59",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "F50",
+          "category_rank": 4,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7125-90a4-ea7aa9eae55b",
+      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "event_date": "2010-02-06",
+      "event_kind": "race",
+      "event_name": "Winter O' Series #7",
+      "venue_name": "Fire Mountain",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 5",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7762-9ce1-9d3fd875658d",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2010-01-23",
+      "event_kind": "race",
+      "event_name": "Winter O' Series #6",
+      "venue_name": "Ft. Steilacoom Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 1,
+          "outcome_text": "00:44:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        },
+        {
+          "competitive": true,
+          "course_name": "Course 5",
+          "course_rank": 4,
+          "outcome_text": "00:51:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81e3-a50d-7c0d-8e79-e5750a432777",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2009-12-19",
+      "event_kind": "race",
+      "event_name": "O' Series #4/WIOL #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": null,
+          "outcome_text": "00:56:47",
+          "result_notes": null,
+          "category_name": "Women",
+          "category_rank": 15,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7b8b-b6c5-d75b9a901c53",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2009-12-05",
+      "event_kind": "race",
+      "event_name": "Winter O' Series #3",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 5",
+          "course_rank": 3,
+          "outcome_text": "00:36:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50d-7b7d-9532-76e6ef8acf44",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2009-11-21",
+      "event_kind": "race",
+      "event_name": "O' Series #2/WIOL #2",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 5",
+          "course_rank": 1,
+          "outcome_text": "00:40:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50d-7ef3-b930-efe472dbf7b7",
+      "venue_id": "019b7dc7-07fd-7dfe-9e57-195d624bda14",
+      "event_date": "2009-11-07",
+      "event_kind": "race",
+      "event_name": "O' Series #1/WIOL #1",
+      "venue_name": "Lake Sammamish State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 5",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50d-7efa-a8bf-eb3de68ab3b4",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2009-09-19",
+      "event_kind": "race",
+      "event_name": "National Orienteering Day",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": 17,
+          "outcome_text": "00:42:12",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50e-769a-a6f3-02f6f1466540",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2009-03-14",
+      "event_kind": "race",
+      "event_name": "O' Series Champs/WIOL Champs",
+      "venue_name": "Ft. Steilacoom Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
+      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "event_date": "2009-02-07",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #7",
+      "venue_name": "Island Crest",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 7,
+          "outcome_text": "00:50:19",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50e-758e-8621-d1c51d1f4d2e",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
+      "event_date": "2009-01-10",
+      "event_kind": "race",
+      "event_name": "O' Series #4/WIOL #5",
+      "venue_name": "Shoreview Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": 4,
+          "outcome_text": "00:40:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-71eb-848d-ff9aa486916d",
       "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
       "event_date": "2003-11-22",
@@ -120,7 +1003,7 @@
   "aliases": [],
   "summary": {
     "role_count": 5,
-    "event_count": 5,
+    "event_count": 41,
     "mention_count": 0
   },
   "mentions": [],

@@ -1,6 +1,28 @@
 {
   "events": [
     {
+      "event_id": "019b81e3-a50d-7b7d-9532-76e6ef8acf44",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2009-11-21",
+      "event_kind": "race",
+      "event_name": "O' Series #2/WIOL #2",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 1",
+          "course_rank": 2,
+          "outcome_text": "00:33:08",
+          "result_notes": "trailing_paren:2",
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7d9a-2bea-7d8f-bdc2-49cec6190bd7",
       "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
       "event_date": "1999-10-24",
@@ -26,7 +48,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

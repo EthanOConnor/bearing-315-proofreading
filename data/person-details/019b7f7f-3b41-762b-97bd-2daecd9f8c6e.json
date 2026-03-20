@@ -1,6 +1,56 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4a-79cb-8f91-3f8c5501701b",
+      "venue_id": "019b81f3-1f39-7b80-95ff-211287937388",
+      "event_date": "2010-06-28",
+      "event_kind": "race",
+      "event_name": "US Sprint Championships",
+      "venue_name": "Camp Sekani WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "00:33:23",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "F21",
+          "category_rank": 5,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Other"
+          ]
+        },
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "00:33:23",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "F21",
+          "category_rank": 5,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Other"
+          ]
+        },
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "00:33:23",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "F21",
+          "category_rank": 5,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Other"
+          ]
+        }
+      ],
+      "result_row_count": 3
+    },
+    {
       "event_id": "019b817f-ae12-79ee-a697-3f7ff912d8af",
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
       "event_date": "2003-04-19",
@@ -502,7 +552,7 @@
   "aliases": [],
   "summary": {
     "role_count": 2,
-    "event_count": 22,
+    "event_count": 23,
     "mention_count": 0
   },
   "mentions": [],

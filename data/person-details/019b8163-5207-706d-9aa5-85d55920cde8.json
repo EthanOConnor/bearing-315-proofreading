@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-74f2-8888-725754c8c324",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "event_date": "2013-12-21",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #4",
+      "venue_name": "Putney Woods",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P7M",
+          "course_rank": 54,
+          "outcome_text": "02:20:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-7692-8185-05cc0a4eb2bf",
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "2003-12-06",
@@ -472,7 +496,7 @@
   "aliases": [],
   "summary": {
     "role_count": 2,
-    "event_count": 20,
+    "event_count": 21,
     "mention_count": 0
   },
   "mentions": [],

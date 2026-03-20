@@ -1,6 +1,52 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7c1f-b8a9-b6257b6dceaf",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2013-01-05",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #5",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P7F",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
+      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "event_date": "2009-02-07",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #7",
+      "venue_name": "Island Crest",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 3,
+          "outcome_text": "00:42:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7fff-d9b4-73e4-b799-044d13800900",
       "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
       "event_date": "2001-01-01",
@@ -92,7 +138,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

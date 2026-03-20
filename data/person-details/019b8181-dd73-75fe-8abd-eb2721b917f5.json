@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-794f-995e-e1a2ee710652",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-28",
+      "event_kind": "race",
+      "event_name": "PNWOF Long (by class)",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Brown",
+          "course_rank": null,
+          "outcome_text": "02:00:06",
+          "result_notes": null,
+          "category_name": "F65+",
+          "category_rank": 4,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-72b0-bf28-a1df162be8d3",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2009-06-27",
+      "event_kind": "race",
+      "event_name": "PNWOF Middle (by class)",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Brown",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": "us_eligible Y",
+          "category_name": "F65+",
+          "category_rank": 6,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b817f-ae10-786c-badf-aedf0a35b8b2",
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "2003-03-08",
@@ -26,7 +74,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

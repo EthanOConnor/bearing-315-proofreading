@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7f0e-94a5-a94eba387350",
+      "venue_id": "019b81f3-1f39-7b5a-af13-0e4421b2e965",
+      "event_date": "2010-06-27",
+      "event_kind": "race",
+      "event_name": "US Long Distance Championships",
+      "venue_name": "Fishtrap Lake WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "01:40:39",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "M40",
+          "category_rank": 1,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-72cb-b705-6dbdaa04768c",
+      "venue_id": "019b81f3-1f39-77d0-b491-378c6c63c769",
+      "event_date": "2010-06-26",
+      "event_kind": "race",
+      "event_name": "US Middle Distance Championships",
+      "venue_name": "Moses Lake Sand Dunes WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "00:38:46",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "M40",
+          "category_rank": 1,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-758d-a78b-d0a0ddbcb705",
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
       "event_date": "2003-09-20",
@@ -48,7 +96,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "event_id": "019b81e3-a50d-7b7d-9532-76e6ef8acf44",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2009-11-21",
+      "event_kind": "race",
+      "event_name": "O' Series #2/WIOL #2",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 5",
+          "course_rank": 8,
+          "outcome_text": "00:47:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50d-7ef3-b930-efe472dbf7b7",
+      "venue_id": "019b7dc7-07fd-7dfe-9e57-195d624bda14",
+      "event_date": "2009-11-07",
+      "event_kind": "race",
+      "event_name": "O' Series #1/WIOL #1",
+      "venue_name": "Lake Sammamish State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 1",
+          "course_rank": 5,
+          "outcome_text": "00:30:32",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-730c-8c70-644ed922a8d7",
       "venue_id": "019b81b3-75d2-74c7-abd5-03b73e9e58f5",
       "event_date": "2003-10-05",
@@ -232,7 +280,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 10,
+    "event_count": 12,
     "mention_count": 0
   },
   "mentions": [],

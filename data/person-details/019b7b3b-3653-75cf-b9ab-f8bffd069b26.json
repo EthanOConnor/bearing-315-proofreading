@@ -1,6 +1,102 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7e1c-9070-d4de0f8b35fa",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 Marmot O’ Cup (and Western States Championships)",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "outcome_text": "MSP",
+          "result_notes": "ws_eligible Y",
+          "category_name": "F80+",
+          "category_rank": 2,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-79cb-8f91-3f8c5501701b",
+      "venue_id": "019b81f3-1f39-7b80-95ff-211287937388",
+      "event_date": "2010-06-28",
+      "event_kind": "race",
+      "event_name": "US Sprint Championships",
+      "venue_name": "Camp Sekani WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": null,
+          "outcome_text": "00:38:31",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "F65",
+          "category_rank": 5,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f0e-94a5-a94eba387350",
+      "venue_id": "019b81f3-1f39-7b5a-af13-0e4421b2e965",
+      "event_date": "2010-06-27",
+      "event_kind": "race",
+      "event_name": "US Long Distance Championships",
+      "venue_name": "Fishtrap Lake WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Brown",
+          "course_rank": null,
+          "outcome_text": "03:24:03",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "F65",
+          "category_rank": 7,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-72cb-b705-6dbdaa04768c",
+      "venue_id": "019b81f3-1f39-77d0-b491-378c6c63c769",
+      "event_date": "2010-06-26",
+      "event_kind": "race",
+      "event_name": "US Middle Distance Championships",
+      "venue_name": "Moses Lake Sand Dunes WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Brown",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "F65",
+          "category_rank": 7,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7b37-b484-7090-8edc-aa2d04dd1232",
       "venue_id": "019b7b37-91fa-7c09-85e4-b2c450e5b444",
       "event_date": "1999-07-24",
@@ -26,7 +122,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

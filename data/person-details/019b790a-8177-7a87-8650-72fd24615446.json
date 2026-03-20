@@ -1,6 +1,259 @@
 {
   "events": [
     {
+      "event_id": "019d03c4-2ddd-7362-9039-bbde451bfbe2",
+      "venue_id": "019b81f3-1f39-72b4-9e1b-2572fc94fa8e",
+      "event_date": "2026-03-01",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League Relay",
+      "venue_name": "Bellevue College",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Regular – Open",
+          "course_rank": null,
+          "outcome_text": "00:24:09",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019d03c4-2dde-7776-ad36-2cd708c6ae3a",
+      "venue_id": "019b81f3-1f39-78c9-9783-eacb06a64ef9",
+      "event_date": "2026-02-28",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League Championships",
+      "venue_name": "Camp River Ranch",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Long Advanced Open",
+          "course_rank": null,
+          "outcome_text": "01:43:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019d03c4-2dde-7be4-b64e-5809a98290d3",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2026-02-07",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #7",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Long Advanced Open",
+          "course_rank": null,
+          "outcome_text": "00:52:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019d03c4-2dde-7238-bd7f-7127e8476a49",
+      "venue_id": "019b81f3-1f39-757b-84c7-c9e26f0fe3f3",
+      "event_date": "2026-01-10",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #5",
+      "venue_name": "Summit Trails",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Long Advanced Open",
+          "course_rank": null,
+          "outcome_text": "Blank",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e94-91e8-e51b4c02a1d1",
+      "venue_id": "019b81f3-1f39-710d-8e0d-1ef8ec0846cd",
+      "event_date": "2025-06-21",
+      "event_kind": "race",
+      "event_name": "2025 Marmot O’ Cup",
+      "venue_name": "Moses Lake Sand Dunes",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Open 50+ (Short Advanced)",
+          "course_rank": 1,
+          "outcome_text": "01:42:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e1c-9070-d4de0f8b35fa",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 Marmot O’ Cup (and Western States Championships)",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "outcome_text": "DNS",
+          "result_notes": null,
+          "category_name": "M35+",
+          "category_rank": 1,
+          "additional_course": false,
+          "affiliation_labels": [
+            "VICO"
+          ]
+        },
+        {
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "outcome_text": "DNS",
+          "result_notes": null,
+          "category_name": "M60+",
+          "category_rank": 5,
+          "additional_course": false,
+          "affiliation_labels": [
+            "VICO"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4a-79cb-8f91-3f8c5501701b",
+      "venue_id": "019b81f3-1f39-7b80-95ff-211287937388",
+      "event_date": "2010-06-28",
+      "event_kind": "race",
+      "event_name": "US Sprint Championships",
+      "venue_name": "Camp Sekani WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "00:25:28",
+          "result_notes": "nation CAN; us_eligible N",
+          "category_name": "M45",
+          "category_rank": 4,
+          "additional_course": false,
+          "affiliation_labels": [
+            "YOA"
+          ]
+        },
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "00:25:28",
+          "result_notes": "nation CAN; us_eligible N",
+          "category_name": "M45",
+          "category_rank": 4,
+          "additional_course": false,
+          "affiliation_labels": [
+            "YOA"
+          ]
+        },
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "00:25:28",
+          "result_notes": "nation CAN; us_eligible N",
+          "category_name": "M45",
+          "category_rank": 4,
+          "additional_course": false,
+          "affiliation_labels": [
+            "YOA"
+          ]
+        }
+      ],
+      "result_row_count": 3
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f0e-94a5-a94eba387350",
+      "venue_id": "019b81f3-1f39-7b5a-af13-0e4421b2e965",
+      "event_date": "2010-06-27",
+      "event_kind": "race",
+      "event_name": "US Long Distance Championships",
+      "venue_name": "Fishtrap Lake WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "01:51:41",
+          "result_notes": "nation CAN; us_eligible N",
+          "category_name": "M45",
+          "category_rank": 4,
+          "additional_course": false,
+          "affiliation_labels": [
+            "YOA"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-72cb-b705-6dbdaa04768c",
+      "venue_id": "019b81f3-1f39-77d0-b491-378c6c63c769",
+      "event_date": "2010-06-26",
+      "event_kind": "race",
+      "event_name": "US Middle Distance Championships",
+      "venue_name": "Moses Lake Sand Dunes WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "outcome_text": "00:45:54",
+          "result_notes": "nation CAN; us_eligible N",
+          "category_name": "M45",
+          "category_rank": 5,
+          "additional_course": false,
+          "affiliation_labels": [
+            "YOA"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7d8f-1182-7eb4-a9a6-02d7a4f59720",
       "venue_id": "019b7fae-3e8b-72eb-b2b5-9274de895b95",
       "event_date": "1979-09-16",
@@ -50,7 +303,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 11,
     "mention_count": 1
   },
   "mentions": [

@@ -1,6 +1,91 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4a-79cb-8f91-3f8c5501701b",
+      "venue_id": "019b81f3-1f39-7b80-95ff-211287937388",
+      "event_date": "2010-06-28",
+      "event_kind": "race",
+      "event_name": "US Sprint Championships",
+      "venue_name": "Camp Sekani WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "00:21:33",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "F20",
+          "category_rank": 2,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "00:21:33",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "M18",
+          "category_rank": 2,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f0e-94a5-a94eba387350",
+      "venue_id": "019b81f3-1f39-7b5a-af13-0e4421b2e965",
+      "event_date": "2010-06-27",
+      "event_kind": "race",
+      "event_name": "US Long Distance Championships",
+      "venue_name": "Fishtrap Lake WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "02:01:59",
+          "result_notes": "nation US; us_eligible N",
+          "category_name": "M18",
+          "category_rank": 3,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-72cb-b705-6dbdaa04768c",
+      "venue_id": "019b81f3-1f39-77d0-b491-378c6c63c769",
+      "event_date": "2010-06-26",
+      "event_kind": "race",
+      "event_name": "US Middle Distance Championships",
+      "venue_name": "Moses Lake Sand Dunes WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "00:55:00",
+          "result_notes": "nation US; us_eligible Y",
+          "category_name": "M18",
+          "category_rank": 1,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b8118-7681-7769-b9ba-5e19b964653c",
       "venue_id": "019b8117-1480-723e-b743-47304e68c5d4",
       "event_date": "2002-06-15",
@@ -26,7 +111,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

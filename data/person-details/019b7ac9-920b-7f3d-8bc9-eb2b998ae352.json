@@ -1,6 +1,148 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7860-9fb5-262b53288ea4",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2013-12-07",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #3",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P3",
+          "course_rank": 20,
+          "outcome_text": "01:02:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-72cc-b9fa-1f2a907a4b97",
+      "venue_id": "019b81e3-a4f7-72d7-bb23-68dd78cd7453",
+      "event_date": "2012-02-04",
+      "event_kind": "race",
+      "event_name": "Winter O' Series #7/WIOL #7",
+      "venue_name": "Green River Community College",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P2",
+          "course_rank": 9,
+          "outcome_text": "00:36:20",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7eb2-8220-fa1d182a4cbd",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2011-12-03",
+      "event_kind": "race",
+      "event_name": "Winter O' Series #3/WIOL #3",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P2",
+          "course_rank": 8,
+          "outcome_text": "00:21:31",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7d1e-bb58-50b37c500d46",
+      "venue_id": "019b7f6c-d83a-70e5-a00f-404279e1de11",
+      "event_date": "2011-01-08",
+      "event_kind": "race",
+      "event_name": "O' Series #5/WIOL #5",
+      "venue_name": "Priest Point Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Public 2",
+          "course_rank": null,
+          "outcome_text": "MSP",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-718c-86b9-c4486d2d8496",
+      "venue_id": "019b81e3-a4f7-75c9-bf69-0cb1329c7b29",
+      "event_date": "2010-12-04",
+      "event_kind": "race",
+      "event_name": "O' Series #3/WIOL #3",
+      "venue_name": "Bridle Trails Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Public 1",
+          "course_rank": 6,
+          "outcome_text": "00:25:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7d13-9328-a7a823ae1b7c",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2010-11-06",
+      "event_kind": "race",
+      "event_name": "O' Series #1/WIOL #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 1",
+          "course_rank": 5,
+          "outcome_text": "00:21:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7b62-9f5f-728b-9849-a6da5e3d80df",
       "venue_id": "019b7b62-9f59-7108-a468-484c9810028f",
       "event_date": "1999-10-09",
@@ -118,7 +260,7 @@
   "aliases": [],
   "summary": {
     "role_count": 15,
-    "event_count": 5,
+    "event_count": 11,
     "mention_count": 0
   },
   "mentions": [],

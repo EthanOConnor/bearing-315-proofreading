@@ -1,6 +1,126 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7f1d-aa1d-e59d5082f769",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2014-03-29",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #2 (Sprint)",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": 14,
+          "outcome_text": "00:28:45",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-706b-b3a4-fed563f242f6",
+      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "event_date": "2011-01-22",
+      "event_kind": "race",
+      "event_name": "O' Series #6/WIOL #6",
+      "venue_name": "Shoreview Park - Shoreline, WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "WIOL 6",
+          "course_rank": 41,
+          "outcome_text": "00:59:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7b8b-b6c5-d75b9a901c53",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2009-12-05",
+      "event_kind": "race",
+      "event_name": "Winter O' Series #3",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 34,
+          "outcome_text": "00:47:08",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50e-769a-a6f3-02f6f1466540",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2009-03-14",
+      "event_kind": "race",
+      "event_name": "O' Series Champs/WIOL Champs",
+      "venue_name": "Ft. Steilacoom Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 16,
+          "outcome_text": "01:04:57",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
+      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "event_date": "2009-02-07",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #7",
+      "venue_name": "Island Crest",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 28,
+          "outcome_text": "00:47:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-72c2-b8fc-f6a4cb1dcc72",
       "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
       "event_date": "2003-12-20",
@@ -172,7 +292,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 7,
+    "event_count": 12,
     "mention_count": 0
   },
   "mentions": [],

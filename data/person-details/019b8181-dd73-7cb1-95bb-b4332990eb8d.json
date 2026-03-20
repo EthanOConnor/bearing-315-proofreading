@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7d66-9f54-ef8c81a7da91",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2014-03-01",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #1 (Night O')",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 1",
+          "course_rank": 1,
+          "outcome_text": "00:28:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7b8b-b6c5-d75b9a901c53",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2009-12-05",
+      "event_kind": "race",
+      "event_name": "Winter O' Series #3",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 39,
+          "outcome_text": "00:53:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-7692-8185-05cc0a4eb2bf",
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "2003-12-06",
@@ -74,7 +122,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

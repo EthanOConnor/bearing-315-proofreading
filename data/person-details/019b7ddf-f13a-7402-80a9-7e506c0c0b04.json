@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-78fe-abc1-b3daea29d93d",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2013-11-16",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #2",
+      "venue_name": "Ft. Steilacoom Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P7M",
+          "course_rank": 27,
+          "outcome_text": "01:05:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7dc8-01df-71eb-8f4a-f7f29d974d58",
       "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
       "event_date": "2000-02-26",
@@ -26,7 +50,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

@@ -1,6 +1,28 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7f0e-94a5-a94eba387350",
+      "venue_id": "019b81f3-1f39-7b5a-af13-0e4421b2e965",
+      "event_date": "2010-06-27",
+      "event_kind": "race",
+      "event_name": "US Long Distance Championships",
+      "venue_name": "Fishtrap Lake WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": "nation US; us_eligible N",
+          "category_name": "M60",
+          "category_rank": 16,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b817f-ae10-7c66-b9ec-d017f47ad90b",
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2003-01-25",
@@ -50,7 +72,7 @@
   "aliases": [],
   "summary": {
     "role_count": 1,
-    "event_count": 2,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

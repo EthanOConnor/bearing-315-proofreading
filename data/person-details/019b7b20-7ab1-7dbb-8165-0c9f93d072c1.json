@@ -1,6 +1,100 @@
 {
   "events": [
     {
+      "event_id": "019b81e3-a50d-7c0d-8e79-e5750a432777",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2009-12-19",
+      "event_kind": "race",
+      "event_name": "O' Series #4/WIOL #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": null,
+          "outcome_text": "00:36:08",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": 7,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50d-7efa-a8bf-eb3de68ab3b4",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2009-09-19",
+      "event_kind": "race",
+      "event_name": "National Orienteering Day",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": 2,
+          "outcome_text": "00:22:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50e-769a-a6f3-02f6f1466540",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2009-03-14",
+      "event_kind": "race",
+      "event_name": "O' Series Champs/WIOL Champs",
+      "venue_name": "Ft. Steilacoom Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 5,
+          "outcome_text": "00:47:34",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
+      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "event_date": "2009-02-07",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #7",
+      "venue_name": "Island Crest",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": 3,
+          "outcome_text": "00:28:47",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-72c2-b8fc-f6a4cb1dcc72",
       "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
       "event_date": "2003-12-20",
@@ -681,7 +775,7 @@
   "aliases": [],
   "summary": {
     "role_count": 20,
-    "event_count": 29,
+    "event_count": 33,
     "mention_count": 0
   },
   "mentions": [],

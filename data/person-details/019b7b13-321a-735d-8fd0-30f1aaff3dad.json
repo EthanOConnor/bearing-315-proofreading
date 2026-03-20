@@ -1,6 +1,122 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-74f2-8888-725754c8c324",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "event_date": "2013-12-21",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #4",
+      "venue_name": "Putney Woods",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P7F",
+          "course_rank": 11,
+          "outcome_text": "01:24:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7c1f-b8a9-b6257b6dceaf",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2013-01-05",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #5",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P7F",
+          "course_rank": 17,
+          "outcome_text": "01:26:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-74d2-bfc3-3e3874eb76f4",
+      "venue_id": "019b81f3-1f39-7d0b-8dcb-23e01424fc02",
+      "event_date": "2011-12-31",
+      "event_kind": "race",
+      "event_name": "Bog Slog 2011",
+      "venue_name": "Kenmore WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P3",
+          "course_rank": 29,
+          "outcome_text": "01:21:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50d-73d7-b21f-502123720690",
+      "venue_id": "019b7f6c-d843-7b47-977b-d4a69ef90e9b",
+      "event_date": "2009-08-04",
+      "event_kind": "race",
+      "event_name": "Urban O' Week",
+      "venue_name": "Lynndale Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 23,
+          "outcome_text": "01:07:52",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50d-7d2b-b588-fe093ba72b47",
+      "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
+      "event_date": "2009-08-03",
+      "event_kind": "race",
+      "event_name": "Urban O' Week",
+      "venue_name": "Farrel-McWhirter Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": 24,
+          "outcome_text": "00:45:40",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-7692-8185-05cc0a4eb2bf",
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "2003-12-06",
@@ -94,7 +210,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

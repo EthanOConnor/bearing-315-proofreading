@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7e2f-b437-5b0055e9fc2e",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2014-08-23",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #2 (Campus)",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Choose Your Adventure #2 (Campus)",
+          "course_rank": 51,
+          "outcome_text": "01:07:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-730c-8c70-644ed922a8d7",
       "venue_id": "019b81b3-75d2-74c7-abd5-03b73e9e58f5",
       "event_date": "2003-10-05",
@@ -26,7 +50,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

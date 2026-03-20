@@ -1,6 +1,52 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7c1f-b8a9-b6257b6dceaf",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2013-01-05",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #5",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P5",
+          "course_rank": 15,
+          "outcome_text": "00:59:09",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7357-b927-2cee44df0924",
+      "venue_id": "019b7fff-4c14-7024-b70f-e9ad20fdd07a",
+      "event_date": "2011-02-19",
+      "event_kind": "race",
+      "event_name": "O' Series/WIOL Champs",
+      "venue_name": "Lord Hill Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "WIOL 8",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascades"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b8118-767d-77cb-9b13-fde2b517a677",
       "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
       "event_date": "2002-02-09",
@@ -81,7 +127,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

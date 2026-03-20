@@ -1,6 +1,52 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-71fb-a118-9fac72d34825",
+      "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
+      "event_date": "2013-11-02",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #1",
+      "venue_name": "St. Edward State Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P7M",
+          "course_rank": 4,
+          "outcome_text": "00:50:33",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7939-9694-71cdceafa4da",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2010-12-18",
+      "event_kind": "race",
+      "event_name": "O' Series #4/WIOL #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Public 7",
+          "course_rank": null,
+          "outcome_text": "00:31:02",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": 5,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-72c2-b8fc-f6a4cb1dcc72",
       "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
       "event_date": "2003-12-20",
@@ -458,7 +504,7 @@
   "aliases": [],
   "summary": {
     "role_count": 16,
-    "event_count": 20,
+    "event_count": 22,
     "mention_count": 0
   },
   "mentions": [],

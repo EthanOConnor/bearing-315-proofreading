@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "event_id": "019d03c4-2dde-7776-ad36-2cd708c6ae3a",
+      "venue_id": "019b81f3-1f39-78c9-9783-eacb06a64ef9",
+      "event_date": "2026-02-28",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League Championships",
+      "venue_name": "Camp River Ranch",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Long Advanced Open",
+          "course_rank": null,
+          "outcome_text": "02:36:52",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e94-91e8-e51b4c02a1d1",
+      "venue_id": "019b81f3-1f39-710d-8e0d-1ef8ec0846cd",
+      "event_date": "2025-06-21",
+      "event_kind": "race",
+      "event_name": "2025 Marmot O’ Cup",
+      "venue_name": "Moses Lake Sand Dunes",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Medium Advanced Rec",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b817f-ae10-77c3-9d19-76c4aaf8c1fc",
       "venue_id": "019b7f6c-d843-7b47-977b-d4a69ef90e9b",
       "event_date": "2003-03-29",
@@ -26,7 +74,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

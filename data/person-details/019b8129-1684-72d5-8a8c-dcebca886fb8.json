@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-75b7-a784-9c4b4b752056",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2018-12-29",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #6: The Bog Slog! - Slog/Jog Course Results",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Bog Jog",
+          "course_rank": null,
+          "outcome_text": "MSP",
+          "result_notes": "160:41",
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b8118-7681-7613-8c3b-25bc7a143653",
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "2001-12-29",
@@ -26,7 +50,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

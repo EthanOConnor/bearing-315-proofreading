@@ -1,6 +1,72 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4a-7153-bf12-11f11aa1e6e1",
+      "venue_id": "019b81f3-1f39-7545-a8f4-5b831f01346e",
+      "event_date": "2011-02-05",
+      "event_kind": "race",
+      "event_name": "O' Series #7/WIOL #7 - Green River CC",
+      "venue_name": "Auburn, WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "WIOL 7",
+          "course_rank": 39,
+          "outcome_text": "01:20:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-706b-b3a4-fed563f242f6",
+      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "event_date": "2011-01-22",
+      "event_kind": "race",
+      "event_name": "O' Series #6/WIOL #6",
+      "venue_name": "Shoreview Park - Shoreline, WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "WIOL 6",
+          "course_rank": 34,
+          "outcome_text": "00:55:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-718c-86b9-c4486d2d8496",
+      "venue_id": "019b81e3-a4f7-75c9-bf69-0cb1329c7b29",
+      "event_date": "2010-12-04",
+      "event_kind": "race",
+      "event_name": "O' Series #3/WIOL #3",
+      "venue_name": "Bridle Trails Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Public 7",
+          "course_rank": null,
+          "outcome_text": "01:16:44",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": 46,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7fff-d9b5-75da-8ca8-0ab50ff52892",
       "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
       "event_date": "2001-03-17",
@@ -26,7 +92,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

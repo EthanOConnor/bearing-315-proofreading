@@ -1,6 +1,28 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
+      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "event_date": "2009-02-07",
+      "event_kind": "race",
+      "event_name": "Winter O' Series/WIOL #7",
+      "venue_name": "Island Crest",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": 4,
+          "outcome_text": "00:42:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7b37-b484-7090-8edc-aa2d04dd1232",
       "venue_id": "019b7b37-91fa-7c09-85e4-b2c450e5b444",
       "event_date": "1999-07-24",
@@ -26,7 +48,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

@@ -1,6 +1,54 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-74d2-bfc3-3e3874eb76f4",
+      "venue_id": "019b81f3-1f39-7d0b-8dcb-23e01424fc02",
+      "event_date": "2011-12-31",
+      "event_kind": "race",
+      "event_name": "Bog Slog 2011",
+      "venue_name": "Kenmore WA",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "P3",
+          "course_rank": 57,
+          "outcome_text": "02:20:42",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81e3-a50d-7c0d-8e79-e5750a432777",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2009-12-19",
+      "event_kind": "race",
+      "event_name": "O' Series #4/WIOL #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 7",
+          "course_rank": null,
+          "outcome_text": "00:49:14",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": 33,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-72c2-b8fc-f6a4cb1dcc72",
       "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
       "event_date": "2003-12-20",
@@ -144,7 +192,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

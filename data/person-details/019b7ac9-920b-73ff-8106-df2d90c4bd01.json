@@ -1,6 +1,30 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7f1d-aa1d-e59d5082f769",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2014-03-29",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #2 (Sprint)",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": null,
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "SAMM"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-758d-a78b-d0a0ddbcb705",
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
       "event_date": "2003-09-20",
@@ -300,7 +324,7 @@
   "aliases": [],
   "summary": {
     "role_count": 10,
-    "event_count": 13,
+    "event_count": 14,
     "mention_count": 0
   },
   "mentions": [],

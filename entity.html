@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project '77 - Directory Detail</title>
+    <link rel="stylesheet" href="./site.css">
+    <script src="./entity.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero hero-detail">
+        <div class="hero-copy">
+          <div class="hero-meta">
+            <a class="pill pill-link" href="./index.html">Back To Snapshot</a>
+          </div>
+          <h1 id="entity-title">Loading…</h1>
+          <p class="hero-subtitle" id="entity-subtitle">Fetching static person or venue detail.</p>
+          <div class="hero-meta" id="entity-meta"></div>
+        </div>
+      </header>
+
+      <main class="layout" id="entity-layout">
+        <section class="panel panel-wide" id="entity-summary-panel">
+          <div class="panel-head">
+            <h2>Summary</h2>
+            <p>Aliases and topline coverage.</p>
+          </div>
+          <div class="stats-grid compact" id="entity-summary-stats"></div>
+          <div class="chip-wrap" id="entity-aliases" hidden></div>
+          <p class="muted" id="entity-description" hidden></p>
+        </section>
+
+        <section class="panel panel-wide" id="entity-events-panel">
+          <div class="panel-head">
+            <h2 id="entity-events-heading">Events</h2>
+            <p id="entity-events-copy">Event coverage tied to this entity.</p>
+          </div>
+          <div class="table-wrap" id="entity-events-wrap">
+            <table>
+              <thead id="entity-events-head"></thead>
+              <tbody id="entity-events-body"></tbody>
+            </table>
+          </div>
+          <p class="muted" id="entity-events-empty" hidden>No events exported for this record.</p>
+        </section>
+
+        <section class="panel panel-wide" id="entity-roles-panel" hidden>
+          <div class="panel-head">
+            <h2>Volunteer Roles</h2>
+            <p>Event volunteer assignments exported for this person.</p>
+          </div>
+          <div class="table-wrap" id="entity-roles-wrap">
+            <table>
+              <thead id="entity-roles-head"></thead>
+              <tbody id="entity-roles-body"></tbody>
+            </table>
+          </div>
+          <p class="muted" id="entity-roles-empty" hidden>No volunteer roles exported for this person.</p>
+        </section>
+
+        <section class="panel panel-wide" id="entity-mentions-panel" hidden>
+          <div class="panel-head">
+            <h2>Newsletter / Other Mentions</h2>
+            <p>Direct citation-backed mentions exported for this person.</p>
+          </div>
+          <div class="table-wrap" id="entity-mentions-wrap">
+            <table>
+              <thead id="entity-mentions-head"></thead>
+              <tbody id="entity-mentions-body"></tbody>
+            </table>
+          </div>
+          <p class="muted" id="entity-mentions-empty" hidden>No direct mentions exported for this person.</p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

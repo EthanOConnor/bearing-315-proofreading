@@ -1,0 +1,83 @@
+{
+  "events": [
+    {
+      "event_id": "01913956-acfa-78f1-8b77-ec2d45244493",
+      "venue_id": "01913952-64fe-7779-b894-b7b1219c93c2",
+      "event_date": "1980-05-11",
+      "event_kind": "race",
+      "event_name": "Burns Wood May 11 '80",
+      "venue_name": "Fort Lewis - Burns Woods",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Red Course",
+          "course_rank": 9,
+          "outcome_text": "01:06:43",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b78ad-e7c2-715a-9c5b-6d99ab391996",
+      "venue_id": "019b78ba-b062-7bb0-9b39-131064ea0d9e",
+      "event_date": "1978-05-21",
+      "event_kind": "race",
+      "event_name": "Lingering Lodestone and Compass Carnival",
+      "venue_name": "Snoqualmie Falls - East Area",
+      "result_rows": [
+        {
+          "competitive": true,
+          "course_name": "Red Course",
+          "course_rank": 5,
+          "outcome_text": "02:08:30",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 1,
+    "event_count": 2,
+    "mention_count": 1
+  },
+  "mentions": [
+    {
+      "excerpt": "Results listing for May 21 Lingering Lodestone & Compass Carnival (White/Yellow/Orange/Red).",
+      "mention_type": "listed",
+      "source_brief": "Bearing 315, June 1978 · p. 1",
+      "document_type": "newsletter_issue",
+      "mention_notes": "Listed in results (ranked or also-ran).",
+      "date_published": "1978-06-01"
+    }
+  ],
+  "individual_id": "01913973-b5c8-772e-9eea-eb704b243b41",
+  "individual_name": "Rob Corkran",
+  "volunteer_roles": [
+    {
+      "event_id": "019b7fb0-2990-791c-b8a3-33faddb051b9",
+      "venue_id": "019b7c7f-9974-7b15-bf51-7dc77e27f27e",
+      "role_name": "Speaker",
+      "event_date": "1979-10-08",
+      "event_kind": "session",
+      "event_name": "COC Club Meeting Oct 8 '79",
+      "venue_name": "Greenlake Library",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Bearing 315, October/November 1979"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
+}

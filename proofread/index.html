@@ -22,6 +22,7 @@
               </div>
             </div>
             <div class="panel-head-sidecar">
+              <a class="hero-pill proofread-nav-link" href="../index.html">Back To Snapshot</a>
               <div class="hero-pill" id="runtime-mode">Loading mode…</div>
               <div id="auth-controls"></div>
               <p id="issue-count">Loading issues…</p>
@@ -68,6 +69,28 @@
           <div class="issue-table-wrap" id="issue-table-wrap"></div>
         </section>
       </main>
+    </div>
+    <div class="modal-backdrop hidden" id="announcement-modal-backdrop">
+      <div class="modal-card modal-card-compact" role="dialog" aria-modal="true" aria-labelledby="announcement-modal-title">
+        <div class="modal-head">
+          <div>
+            <p class="eyebrow">Heads Up</p>
+            <h2 id="announcement-modal-title">Proofread reports are not live yet</h2>
+          </div>
+          <button type="button" class="icon-button" id="close-announcement-modal" aria-label="Close announcement dialog">×</button>
+        </div>
+        <div class="modal-section">
+          <p class="proofread-announcement-copy">
+            This proofreading workspace is still being tuned. Duplicates, rough edges, and missing wiring are expected, and report submission is not ready yet.
+          </p>
+          <p class="proofread-announcement-copy">
+            Check back in a few days before using it for real report submission.
+          </p>
+        </div>
+        <div class="modal-actions">
+          <button type="button" class="solid-button" id="dismiss-announcement-modal">Okay</button>
+        </div>
+      </div>
     </div>
   </body>
 </html>

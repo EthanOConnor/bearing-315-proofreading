@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project '77 - Event Detail</title>
+    <link rel="stylesheet" href="./site.css">
+    <script src="./event.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero hero-detail">
+        <div class="hero-copy">
+          <div class="hero-meta" id="event-back-links">
+            <a class="pill pill-link" href="./index.html">Back To Snapshot</a>
+          </div>
+          <h1 id="event-title">Loading Event…</h1>
+          <p class="hero-subtitle" id="event-subtitle">Fetching static event detail export.</p>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel panel-wide" id="event-summary-panel">
+          <div class="panel-head">
+            <h2>Event Overview</h2>
+            <p>Static event details and exported results.</p>
+          </div>
+          <div class="event-detail-meta" id="event-summary-facts"></div>
+        </section>
+
+        <section class="panel panel-wide" id="event-results-panel">
+          <div class="panel-head">
+            <h2>Courses And Results</h2>
+            <p id="event-results-copy">Course-by-course results exported for this event.</p>
+          </div>
+          <div class="event-detail-body" id="event-course-list"></div>
+          <p class="muted" id="event-results-empty" hidden>No result rows exported for this event.</p>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

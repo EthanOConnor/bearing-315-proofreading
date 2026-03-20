@@ -5,15 +5,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Project '77 - Database Ingest Progress Snapshot</title>
     <link rel="stylesheet" href="./site.css">
+    <script src="./vendor/fuse.min.js" defer></script>
     <script src="./site.js" defer></script>
   </head>
   <body>
     <div class="page-shell">
       <header class="hero">
-        <h1>Project '77 - Database Ingest Progress Snapshot</h1>
-        <div class="hero-meta">
-          <span class="pill" id="generated-at">Loading snapshot…</span>
-          <a class="pill pill-link" href="./proofread/index.html">Open Proofreading Site</a>
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <div class="hero-title-stack">
+              <h1 class="hero-title-primary">Project '77</h1>
+              <p class="hero-title-secondary">Database Ingest Progress Snapshot</p>
+              <p class="hero-disclaimer">Work in progress. Duplicates, errors, and missing entries are expected.</p>
+            </div>
+            <div class="hero-meta">
+              <span class="pill" id="generated-at">Loading snapshot…</span>
+              <a class="pill pill-link" href="./proofread/index.html">Open Proofreading Site</a>
+            </div>
+          </div>
+
+          <aside class="hero-search" aria-labelledby="hero-search-heading">
+            <p class="search-kicker" id="hero-search-heading">Find People Or Venues</p>
+            <label class="sr-only" for="hero-search-input">Search people or venues</label>
+            <div class="search-input-shell">
+              <input
+                id="hero-search-input"
+                class="search-input"
+                type="search"
+                autocomplete="off"
+                spellcheck="false"
+                placeholder="Search Debbie Newell, Ft. Steilacoom Park, Camp Long..."
+              >
+            </div>
+            <p class="search-hint">Fuzzy search matches names, aliases, and venue variants as you type.</p>
+            <div class="search-results" id="hero-search-results" hidden></div>
+          </aside>
         </div>
       </header>
 

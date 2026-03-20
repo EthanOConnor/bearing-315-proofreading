@@ -19,8 +19,40 @@ const state = {
   reportsByIssue: {},
 };
 
+const ANNOUNCEMENT_STORAGE_KEY = "project77-proofread-announcement-2026-03-20";
+
 function byId(id) {
   return document.getElementById(id);
+}
+
+function bindAnnouncementModal() {
+  const backdrop = byId("announcement-modal-backdrop");
+  const closeButton = byId("close-announcement-modal");
+  const dismissButton = byId("dismiss-announcement-modal");
+
+  if (!backdrop || localStorage.getItem(ANNOUNCEMENT_STORAGE_KEY)) {
+    return;
+  }
+
+  const close = () => {
+    backdrop.classList.add("hidden");
+    localStorage.setItem(ANNOUNCEMENT_STORAGE_KEY, "dismissed");
+  };
+
+  closeButton?.addEventListener("click", close);
+  dismissButton?.addEventListener("click", close);
+  backdrop.addEventListener("click", (event) => {
+    if (event.target === backdrop) {
+      close();
+    }
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && !backdrop.classList.contains("hidden")) {
+      close();
+    }
+  });
+
+  backdrop.classList.remove("hidden");
 }
 
 function buildIssueTable(issues, { showReviewLinks }) {
@@ -231,6 +263,7 @@ async function main() {
   const issueTableWrap = byId("issue-table-wrap");
 
   try {
+    bindAnnouncementModal();
     state.runtimeConfig = await loadRuntimeConfig();
     state.authController = createAuthController(state.runtimeConfig);
     await state.authController.init();

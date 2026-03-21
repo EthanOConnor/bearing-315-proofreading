@@ -2,38 +2,38 @@
     "summary": {
         "pages": 1628,
         "teams": 1502,
-        "events": 1862,
+        "events": 1871,
         "series": 5,
-        "venues": 464,
+        "venues": 469,
         "courses": 881,
         "results": 25937,
         "artifacts": 787,
-        "citations": 1970,
+        "citations": 2007,
         "documents": 586,
-        "individuals": 8038,
-        "competitions": 1501,
+        "individuals": 8040,
+        "competitions": 1503,
         "event_groups": 1,
         "access_points": 2,
-        "organizations": 39,
-        "unused_venues": 3,
+        "organizations": 43,
+        "unused_venues": 8,
         "web_snapshots": 427,
         "event_date_max": "2026-03-07",
         "event_date_min": "1978-01-09",
         "page_artifacts": 0,
-        "venue_rows_raw": 633,
-        "mixed_use_venues": 53,
+        "venue_rows_raw": 638,
+        "mixed_use_venues": 54,
         "series_standings": 54,
         "newsletter_issues": 159,
-        "venue_rows_active": 475,
+        "venue_rows_active": 480,
         "competition_venues": 69,
-        "individual_rows_raw": 8794,
+        "individual_rows_raw": 8796,
         "newsletter_date_max": "2009-10-01",
         "newsletter_date_min": "1978-01-01",
         "result_event_date_max": "2026-03-07",
         "result_event_date_min": "1978-05-21",
         "venue_rows_redirected": 158,
-        "individual_rows_active": 8038,
-        "competition_only_venues": 16,
+        "individual_rows_active": 8040,
+        "competition_only_venues": 15,
         "competition_event_date_max": "2026-03-07",
         "competition_event_date_min": "1978-01-14",
         "individual_rows_redirected": 756,
@@ -41,15 +41,15 @@
     },
     "event_kinds": [
         {
-            "count": 1501,
+            "count": 1503,
             "event_kind": "race"
         },
         {
-            "count": 201,
+            "count": 207,
             "event_kind": "meet"
         },
         {
-            "count": 159,
+            "count": 160,
             "event_kind": "session"
         },
         {
@@ -57,7 +57,7 @@
             "event_kind": "aggregate"
         }
     ],
-    "generated_at": "2026-03-20T23:34:22Z",
+    "generated_at": "2026-03-21T00:16:45Z",
     "recent_events": [
         {
             "event_id": "019d03c4-2dde-7f1d-a4d9-7de35b86b286",
@@ -302,7 +302,7 @@
     ],
     "result_statuses": [
         {
-            "count": 18083,
+            "count": 18079,
             "status": "OK"
         },
         {
@@ -310,7 +310,7 @@
             "status": "(unmapped)"
         },
         {
-            "count": 1427,
+            "count": 1421,
             "status": "Blank"
         },
         {
@@ -318,7 +318,7 @@
             "status": "DNF"
         },
         {
-            "count": 1034,
+            "count": 1040,
             "status": "MSP"
         },
         {
@@ -326,7 +326,7 @@
             "status": "DNS"
         },
         {
-            "count": 75,
+            "count": 79,
             "status": "NC"
         },
         {
@@ -7113,10 +7113,10 @@
                 },
                 {
                     "event_id": "4708985e-a451-56d5-b66d-3538b56b6378",
-                    "venue_id": "13359569-c157-563a-827c-715e63e9d072",
+                    "venue_id": "019b815a-c660-757c-b8f5-99824d27cce5",
                     "event_date": "1993-01-09",
-                    "event_name": "NAD Park, Bremerton. Includes WIOL 3. SR 304 from ferry to SR3",
-                    "venue_name": "Kitsap Way exit, park on north",
+                    "event_name": "NAD Park",
+                    "venue_name": "NAD Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Nisqually Orienteers"
@@ -7193,10 +7193,10 @@
                 },
                 {
                     "event_id": "b8e35f53-ba96-5277-bdc7-172a26001e23",
-                    "venue_id": null,
+                    "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
                     "event_date": "1993-02-13",
-                    "event_name": "Bridle Trails St. Park, Bellevue. Includes WIOL Championships. Exit 17 on I 405 at NE 70th/NE 68th",
-                    "venue_name": "Unknown venue",
+                    "event_name": "Bridle Trails State Park",
+                    "venue_name": "Bridle Trails State Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Sammamish Orienteering Club"
@@ -7452,20 +7452,10 @@
                     "organizing_club_name": null
                 },
                 {
-                    "event_id": "307c5ab6-060c-521c-b62f-b3aed70a620c",
-                    "venue_id": "019b7ac6-ee5e-70d9-b10c-6b7226ca847c",
-                    "event_date": "1993-05-05",
-                    "event_name": "Kelsey Creek Park",
-                    "venue_name": "Kelsey Creek Park",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
                     "event_id": "2dd4d127-7c3d-5465-a747-785d7cd5a869",
                     "venue_id": "019b7ac6-ee5e-70d9-b10c-6b7226ca847c",
                     "event_date": "1993-05-05",
-                    "event_name": "Kelsey Creek Park, Bellevue",
+                    "event_name": "Kelsey Creek Park",
                     "venue_name": "Kelsey Creek Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -7492,20 +7482,10 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "b4556e7d-41b4-566d-a890-69a3537ca85e",
-                    "venue_id": "5e629868-db6b-53d5-8fa0-fe77e770ad1a",
-                    "event_date": "1993-05-16",
-                    "event_name": "Moran State Park",
-                    "venue_name": "Moran State Park, Orcas Island",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
                     "event_id": "982ff943-96c6-52c2-b356-4a4a50a2fbab",
                     "venue_id": "5e629868-db6b-53d5-8fa0-fe77e770ad1a",
                     "event_date": "1993-05-16",
-                    "event_name": "Moran State Park, Orcas Island",
+                    "event_name": "Moran State Park",
                     "venue_name": "Moran State Park, Orcas Island",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
@@ -7605,7 +7585,7 @@
                     "event_id": "a83cd7da-6f1a-5764-875d-207cf58cd2d9",
                     "venue_id": "bc66a5f5-51bc-50d9-af08-0ce8f63c23f8",
                     "event_date": "1993-06-12",
-                    "event_name": "Drunken Charlie Lake",
+                    "event_name": "Drunken Charlie Lake Rogaine",
                     "venue_name": "Drunken Charlie Lake",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
@@ -7630,26 +7610,6 @@
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": null
-                },
-                {
-                    "event_id": "e90e7758-4361-56d6-95d9-6a09ec93c779",
-                    "venue_id": "bc66a5f5-51bc-50d9-af08-0ce8f63c23f8",
-                    "event_date": "1993-06-12",
-                    "event_name": "hr. mini Rogaine/Score O, Duvall, WA. Mass start",
-                    "venue_name": "Drunken Charlie Lake",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
-                    "event_id": "7ed81e99-cf3d-5705-aac1-15ed5e892076",
-                    "venue_id": "bc66a5f5-51bc-50d9-af08-0ce8f63c23f8",
-                    "event_date": "1993-06-12",
-                    "event_name": "hr. mini Rogaine/Score O, Duvall, WA. Mass start; 2+ person teams. See article this issue for directions/information",
-                    "venue_name": "Drunken Charlie Lake",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
                     "event_id": "a2cd759e-f61c-5448-adfb-5fbfcdca2cf6",
@@ -7932,16 +7892,6 @@
                     "organizing_club_name": "Sammamish Orienteering Club"
                 },
                 {
-                    "event_id": "9a949e13-cc29-5aa4-b915-ed9d25ebe5f8",
-                    "venue_id": null,
-                    "event_date": "1993-08-14",
-                    "event_name": "Table Mountain Rogaine",
-                    "venue_name": "Unknown venue",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
                     "event_id": "409be54d-0151-5b9d-a6fc-9c6488cc1d22",
                     "venue_id": "187fc0ae-134f-5c33-8e9e-23cd3093bd26",
                     "event_date": "1993-08-18",
@@ -8002,20 +7952,10 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "912634b4-2cdd-51e1-bfc3-e00749ce4fa5",
-                    "venue_id": "019b7f6c-d840-7c4d-9264-e33e771b68d8",
-                    "event_date": "1993-08-29",
-                    "event_name": "Cle Elum Ridge",
-                    "venue_name": "Cle Elum Ridge",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
                     "event_id": "2996ce60-9e10-5fc5-aeb1-232985a6e5f9",
                     "venue_id": "019b7f6c-d840-7c4d-9264-e33e771b68d8",
                     "event_date": "1993-08-29",
-                    "event_name": "Long O",
+                    "event_name": "Cle Elum Ridge Long-O",
                     "venue_name": "Cle Elum Ridge",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -8032,14 +7972,14 @@
                     "organizing_club_name": null
                 },
                 {
-                    "event_id": "a6c7a0e7-8f0c-58d1-8685-98261e16f5db",
+                    "event_id": "0ddf9aa5-963d-589e-abc9-b0b78f7a42ef",
                     "venue_id": "41335881-b127-51fb-beea-d5fc7a52678f",
                     "event_date": "1993-09-11",
-                    "event_name": "Inland Empire Cup and Washington State Championship",
+                    "event_name": "Inland Empire Cup and Washington State Championships",
                     "venue_name": "Riverside State Park, Spokane",
                     "result_count": 0,
                     "coverage_section": "non_coc",
-                    "organizing_club_name": null
+                    "organizing_club_name": "Eastern Washington Orienteering Club"
                 },
                 {
                     "event_id": "54bda691-ed30-5a6b-8433-d031c207c9ca",
@@ -8062,6 +8002,16 @@
                     "organizing_club_name": null
                 },
                 {
+                    "event_id": "c808e7df-6ad9-5193-aba4-fa0e38dca191",
+                    "venue_id": "019b7dc7-07fd-7dfe-9e57-195d624bda14",
+                    "event_date": "1993-09-26",
+                    "event_name": "Lake Sammamish State Park",
+                    "venue_name": "Lake Sammamish State Park",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Sammamish Orienteering Club"
+                },
+                {
                     "event_id": "d6f3dcc2-55fc-5041-9e8a-17e9802752c7",
                     "venue_id": "7fdfb790-662f-558a-a259-ea25af2f270e",
                     "event_date": "1993-09-26",
@@ -8080,6 +8030,16 @@
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": null
+                },
+                {
+                    "event_id": "25a5cf3d-8e0a-580f-a2bd-560141098136",
+                    "venue_id": "019b7b62-9f59-7108-a468-484c9810028f",
+                    "event_date": "1993-10-03",
+                    "event_name": "Fort Casey State Park",
+                    "venue_name": "Fort Casey State Park",
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
                     "event_id": "8e480e62-9e85-5850-bb6f-ed97f6b08b5c",
@@ -8102,6 +8062,36 @@
                     "organizing_club_name": null
                 },
                 {
+                    "event_id": "86d0796b-c6e8-5458-b594-40a6357e3175",
+                    "venue_id": "2c941de1-8e43-5c40-9e07-dcf4fdd50712",
+                    "event_date": "1993-10-09",
+                    "event_name": "World Orienteering Championships",
+                    "venue_name": "Harriman Park, New York",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": null
+                },
+                {
+                    "event_id": "a4015458-b5c5-5a63-b57d-02168c970924",
+                    "venue_id": "2c941de1-8e43-5c40-9e07-dcf4fdd50712",
+                    "event_date": "1993-10-16",
+                    "event_name": "U.S. Orienteering Championships",
+                    "venue_name": "Harriman Park, New York",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": null
+                },
+                {
+                    "event_id": "81b8f20b-cd31-544f-9ebf-c79ff5ccf26a",
+                    "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+                    "event_date": "1993-10-23",
+                    "event_name": "Bridle Trails State Park",
+                    "venue_name": "Bridle Trails State Park",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Sammamish Orienteering Club"
+                },
+                {
                     "event_id": "ad7c9d9f-0895-50db-b808-6cb4f5bb590a",
                     "venue_id": null,
                     "event_date": "1993-10-23",
@@ -8113,10 +8103,20 @@
                 },
                 {
                     "event_id": "2c0b613b-dd8c-5e87-92e5-e1d13fd8c769",
-                    "venue_id": "f3e8db73-bd9e-5090-8294-9f10c2bc6267",
+                    "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
                     "event_date": "1993-10-24",
-                    "event_name": "Hamlin Park Vampire O, North Seattle. Halloween Orienteering at night: bring flashlight! Exit I 5 at NE 145th",
-                    "venue_name": "NE, N to 160th",
+                    "event_name": "Hamlin Park Vampire-O",
+                    "venue_name": "Hamlin Park",
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "38a8f185-8ad8-5930-bcaa-1c4b4835075d",
+                    "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+                    "event_date": "1993-10-24",
+                    "event_name": "Vampire-O",
+                    "venue_name": "Hamlin Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -8172,6 +8172,16 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
+                    "event_id": "09eacd8e-ad06-58f8-bede-ec1a7fc8b7b6",
+                    "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+                    "event_date": "1993-11-21",
+                    "event_name": "WIOL Warm-up Relay",
+                    "venue_name": "Lincoln Park",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Husky Orienteering Club"
+                },
+                {
                     "event_id": "ba99055d-c25a-5dd5-92ce-c51ddb0d20e1",
                     "venue_id": null,
                     "event_date": "1993-11-27",
@@ -8180,11 +8190,21 @@
                     "result_count": 0,
                     "coverage_section": "coc_noncompetition",
                     "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "01ff64f6-007c-582d-b2ae-d41b30d9ab00",
+                    "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+                    "event_date": "1993-12-11",
+                    "event_name": "Woodland Park WIOL Meet",
+                    "venue_name": "Woodland Park",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Husky Orienteering Club"
                 }
             ],
-            "event_count": 108,
+            "event_count": 110,
             "result_count": 0,
-            "competition_event_count": 84,
+            "competition_event_count": 85,
             "competition_result_event_count": 0
         },
         {
@@ -8241,6 +8261,16 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
+                    "event_id": "dd33eafc-3149-5559-abca-15db2078baa6",
+                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "event_date": "1994-01-30",
+                    "event_name": "WIOL Relay Championships",
+                    "venue_name": "University of Washington Campus",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Husky Orienteering Club"
+                },
+                {
                     "event_id": "3e5ca95c-cc1a-57e9-9745-58335dec376e",
                     "venue_id": null,
                     "event_date": "1994-02-05",
@@ -8259,6 +8289,16 @@
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "d24f9b54-a830-5670-871e-e83b8ea92b78",
+                    "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+                    "event_date": "1994-02-26",
+                    "event_name": "WIOL Wind-up Trivia-O",
+                    "venue_name": "Lincoln Park",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Husky Orienteering Club"
                 },
                 {
                     "event_id": "1a669aca-3dca-55f1-a955-c1275df245fc",
@@ -8281,20 +8321,10 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "b26d9284-fd90-55d1-94f9-f1683a576e39",
-                    "venue_id": "019b7ac6-ee5e-70d9-b10c-6b7226ca847c",
-                    "event_date": "1994-03-20",
-                    "event_name": "Kelsey Creek Park",
-                    "venue_name": "Kelsey Creek Park",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
                     "event_id": "a8883fb0-d201-5ecc-85a6-26e0d2706dcb",
                     "venue_id": "019b7ac6-ee5e-70d9-b10c-6b7226ca847c",
                     "event_date": "1994-03-20",
-                    "event_name": "Kelsey Creek Park, Bellevue",
+                    "event_name": "Kelsey Creek Park",
                     "venue_name": "Kelsey Creek Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -8304,17 +8334,7 @@
                     "event_id": "60993784-0760-54c2-b772-6cfc458afa17",
                     "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
                     "event_date": "1994-03-27",
-                    "event_name": "Farrel McWhirter Park, Redmond",
-                    "venue_name": "Farrel-McWhirter Park",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
-                    "event_id": "7ec7a520-ba5a-5e49-8be7-58a4d1d460be",
-                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
-                    "event_date": "1994-03-27",
-                    "event_name": "Farrel-Mcwhirter Park",
+                    "event_name": "Farrel-McWhirter Park",
                     "venue_name": "Farrel-McWhirter Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
@@ -8561,16 +8581,6 @@
                     "organizing_club_name": null
                 },
                 {
-                    "event_id": "df0d8e22-a2c4-5af4-b7bb-a5e7a4b2aa06",
-                    "venue_id": "50772dde-1b64-5332-bb7d-b11d3c70706f",
-                    "event_date": "1994-05-21",
-                    "event_name": "Sage Stomp, Kamloops, BC",
-                    "venue_name": "Sage Stomp, Kamloops, BC",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": null
-                },
-                {
                     "event_id": "afb6109c-2fce-54f3-8c41-d78e1aa1cec5",
                     "venue_id": "b6e7dc18-0d1f-5cec-9fe4-869ed37f5b9f",
                     "event_date": "1994-05-22",
@@ -8579,16 +8589,6 @@
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Ellensburg Orienteering Club"
-                },
-                {
-                    "event_id": "0424e794-3e38-5dae-b681-69ea84f09b99",
-                    "venue_id": "019b7dc7-07fd-7dfe-9e57-195d624bda14",
-                    "event_date": "1994-05-25",
-                    "event_name": "Lake Sammamish State Park",
-                    "venue_name": "Lake Sammamish State Park",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": "Sammamish Orienteering Club"
                 },
                 {
                     "event_id": "427dfb5f-78d1-5ede-bc3a-a329c91fbfa7",
@@ -9011,6 +9011,16 @@
                     "organizing_club_name": null
                 },
                 {
+                    "event_id": "46f079a1-7f55-5832-bae9-516df4c63a6f",
+                    "venue_id": "019b7f6c-d840-7c4d-9264-e33e771b68d8",
+                    "event_date": "1994-09-10",
+                    "event_name": "U.S. Short Course Championships",
+                    "venue_name": "Cle Elum Ridge",
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
                     "event_id": "55dab0e4-3535-53d3-8b5b-f8a67ed78880",
                     "venue_id": "019b7f6c-d840-7c4d-9264-e33e771b68d8",
                     "event_date": "1994-09-10",
@@ -9026,6 +9036,16 @@
                     "event_date": "1994-09-10",
                     "event_name": "USOF Sprint Champs, Individual \"A\", Cle Elum Ridge, Cle Elum, WA",
                     "venue_name": "USOF Sprint Champs, Individual \"A\", Cle Elum Ridge, Cle Elum, WA",
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "c1bc3237-c992-58cf-9dca-e72027cc9e32",
+                    "venue_id": "019b7f6c-d840-7c4d-9264-e33e771b68d8",
+                    "event_date": "1994-09-11",
+                    "event_name": "Cle Elum Ridge-O",
+                    "venue_name": "Cle Elum Ridge",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9051,6 +9071,16 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
+                    "event_id": "09a19dfc-e4f3-5034-8d1f-3b44b6c95384",
+                    "venue_id": "019b7f6c-d840-7c4d-9264-e33e771b68d8",
+                    "event_date": "1994-09-17",
+                    "event_name": "Cle Elum Score-O",
+                    "venue_name": "Cle Elum Ridge",
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
                     "event_id": "59792cc2-bd92-535d-ab8e-710678fe4fbd",
                     "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
                     "event_date": "1994-09-24",
@@ -9071,24 +9101,24 @@
                     "organizing_club_name": null
                 },
                 {
-                    "event_id": "dfe3c048-3d73-5420-abcc-977afd062de9",
-                    "venue_id": "8950c5bf-2d77-59e9-ba1b-678781e133db",
+                    "event_id": "cf1f81a3-2f7a-5efb-947c-7e55aeec57ec",
+                    "venue_id": null,
                     "event_date": "1994-09-24",
-                    "event_name": "hour Rogaine, Stage Lake/Lac La Jeune campground, Kamloops, BC",
-                    "venue_name": "person teams, 30 controls, 15.5km²",
+                    "event_name": "Stake Lake Six Hour Rogaine",
+                    "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": null
                 },
                 {
-                    "event_id": "cf1f81a3-2f7a-5efb-947c-7e55aeec57ec",
-                    "venue_id": "8950c5bf-2d77-59e9-ba1b-678781e133db",
-                    "event_date": "1994-09-24",
-                    "event_name": "hour Rogaine, Stake Lake/Lac La Jeune campground, Kamloops, BC",
-                    "venue_name": "person teams, 30 controls, 15.5km²",
+                    "event_id": "b58a921c-b202-562c-8c78-90972785b2ca",
+                    "venue_id": "019b7dc7-07fd-7dfe-9e57-195d624bda14",
+                    "event_date": "1994-09-25",
+                    "event_name": "Lake Sammamish State Park",
+                    "venue_name": "Lake Sammamish State Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
-                    "organizing_club_name": null
+                    "organizing_club_name": "Sammamish Orienteering Club"
                 },
                 {
                     "event_id": "01a65b70-8254-5c7c-884a-4916b523a051",
@@ -9111,14 +9141,24 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "43c1d8de-dd57-5b52-aecf-d55397412f6f",
+                    "event_id": "95f042cd-49e7-5b6e-9918-db7fcec239e7",
                     "venue_id": "41335881-b127-51fb-beea-d5fc7a52678f",
                     "event_date": "1994-10-01",
-                    "event_name": "Inland Empire Cup and Washington State Championship",
+                    "event_name": "Inland Empire Cup and Washington State Championships",
                     "venue_name": "Riverside State Park, Spokane",
                     "result_count": 0,
                     "coverage_section": "non_coc",
-                    "organizing_club_name": null
+                    "organizing_club_name": "Eastern Washington Orienteering Club"
+                },
+                {
+                    "event_id": "0916d713-5663-55f2-b51c-7190e690d52b",
+                    "venue_id": "019b7b62-9f59-7108-a468-484c9810028f",
+                    "event_date": "1994-10-08",
+                    "event_name": "Fort Casey State Park",
+                    "venue_name": "Fort Casey State Park",
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
                     "event_id": "b669507e-9955-5dda-905b-187677429114",
@@ -9129,6 +9169,16 @@
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "3024259d-99b2-58de-9a50-bfb46fabd5e3",
+                    "venue_id": "019b7fdb-8765-7c4c-a2aa-e0d03ce6b7c7",
+                    "event_date": "1994-10-09",
+                    "event_name": "Washington Park",
+                    "venue_name": "Washington Park",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Chuckanut Orienteering Club"
                 },
                 {
                     "event_id": "4d0f3108-6a28-513b-8c31-83a09ad3f848",
@@ -9188,7 +9238,17 @@
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
-                    "organizing_club_name": null
+                    "organizing_club_name": "Chuckanut Orienteering Club"
+                },
+                {
+                    "event_id": "7dddc807-c3a0-5c47-870b-78ff66570fbf",
+                    "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+                    "event_date": "1994-10-23",
+                    "event_name": "Bridle Trails State Park",
+                    "venue_name": "Bridle Trails State Park",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Sammamish Orienteering Club"
                 },
                 {
                     "event_id": "add580ad-46b2-551b-9db3-c771204ce0c4",
@@ -9226,6 +9286,16 @@
                     "event_date": "1994-10-30",
                     "event_name": "Halloween Vampire O. Bring flashlight for night orienteering. Mass Start 6pm. Hamlin Park",
                     "venue_name": "Unknown venue",
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "548a6631-5a0d-5005-b176-fda172ce285c",
+                    "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+                    "event_date": "1994-10-30",
+                    "event_name": "Vampire-O",
+                    "venue_name": "Hamlin Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9281,26 +9351,6 @@
                     "organizing_club_name": "Sammamish Orienteering Club"
                 },
                 {
-                    "event_id": "830c515d-1adc-538a-948c-621af926b95a",
-                    "venue_id": null,
-                    "event_date": "1994-11-13",
-                    "event_name": "Husky",
-                    "venue_name": "Unknown venue",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": null
-                },
-                {
-                    "event_id": "69f223d5-4559-5a83-8e15-76ececda0b9f",
-                    "venue_id": null,
-                    "event_date": "1994-11-13",
-                    "event_name": "Husky Orienteering and Running Club",
-                    "venue_name": "Unknown venue",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
                     "event_id": "77472694-5c01-5a05-96d2-99cc17b5e0cf",
                     "venue_id": "afdcfcba-13bd-5ec5-ab6b-556f6eda199a",
                     "event_date": "1994-11-13",
@@ -9309,6 +9359,16 @@
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": null
+                },
+                {
+                    "event_id": "69f223d5-4559-5a83-8e15-76ececda0b9f",
+                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "event_date": "1994-11-13",
+                    "event_name": "University of Washington Campus",
+                    "venue_name": "University of Washington Campus",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Husky Orienteering Club"
                 },
                 {
                     "event_id": "9f9bd488-44e0-58be-8e60-d3b8e53b2f24",
@@ -9351,6 +9411,16 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
+                    "event_id": "c5ad4898-dd7a-561a-acfb-7e2b94849a52",
+                    "venue_id": "184cae02-568f-5454-a094-f2291f8a12b9",
+                    "event_date": "1994-11-29",
+                    "event_name": "End-of-Year Celebration",
+                    "venue_name": "Coco's Restaurant, Lake Forest Park Towne Centre",
+                    "result_count": 0,
+                    "coverage_section": "coc_noncompetition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
                     "event_id": "a9f1c679-bbf7-59be-80b6-3aa0775dfecf",
                     "venue_id": null,
                     "event_date": "1994-12-03",
@@ -9367,8 +9437,8 @@
                     "event_name": "Horn Rapids County Park",
                     "venue_name": "Horn Rapids County Park",
                     "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Sacajawea Orienteering Club"
                 },
                 {
                     "event_id": "f44494a6-019b-59ac-bee2-8ec3ed99eeda",
@@ -9391,6 +9461,16 @@
                     "organizing_club_name": "Nisqually Orienteers"
                 },
                 {
+                    "event_id": "e88db2e6-52a9-5914-b23b-742db04a98c6",
+                    "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
+                    "event_date": "1994-12-31",
+                    "event_name": "St. Edward Park Midwinter Event",
+                    "venue_name": "St. Edward State Park",
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
                     "event_id": "c23d7b82-5832-57ec-95ce-bba8692fb5cb",
                     "venue_id": null,
                     "event_date": "1994-12-31",
@@ -9401,24 +9481,14 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 }
             ],
-            "event_count": 121,
+            "event_count": 127,
             "result_count": 0,
-            "competition_event_count": 88,
+            "competition_event_count": 92,
             "competition_result_event_count": 0
         },
         {
             "year": 1995,
             "events": [
-                {
-                    "event_id": "d86ad881-a804-5a6c-b4c5-3e70b4f401b5",
-                    "venue_id": "de3bc46f-4929-5bad-8aef-5281e226664d",
-                    "event_date": "1995-01-06",
-                    "event_name": "Ft. Steilacoom Park, Tacoma. WIOL #1. I 5 exit 129 of I 5 onto 72nd W. This becomes Custer",
-                    "venue_name": "right onto 88th SW, becomes Steilacoom to park",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": "Nisqually Orienteers"
-                },
                 {
                     "event_id": "12d51122-822c-50cc-b704-f07c76b6091f",
                     "venue_id": null,
@@ -9450,16 +9520,6 @@
                     "organizing_club_name": "Sammamish Orienteering Club"
                 },
                 {
-                    "event_id": "e7ff87bf-f03c-5e9d-b43b-7ff178bab439",
-                    "venue_id": null,
-                    "event_date": "1995-01-14",
-                    "event_name": "Marymoor Park, Redmond. WIOL Event #2. Take SR 520 east",
-                    "venue_name": "Unknown venue",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": "Sammamish Orienteering Club"
-                },
-                {
                     "event_id": "13b8e581-4176-54c4-a2f8-9302f1443e06",
                     "venue_id": "af1ebbe7-9886-598d-970d-20e0cf11e0eb",
                     "event_date": "1995-01-15",
@@ -9468,26 +9528,6 @@
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Nisqually Orienteers"
-                },
-                {
-                    "event_id": "dd3a0b2a-4a1c-589c-a4ef-31b14f813d16",
-                    "venue_id": "af1ebbe7-9886-598d-970d-20e0cf11e0eb",
-                    "event_date": "1995-01-20",
-                    "event_name": "Rambo! Pt",
-                    "venue_name": "Defiance Park, Tacoma",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": "Nisqually Orienteers"
-                },
-                {
-                    "event_id": "100732c6-a15f-585f-9bd3-b4cfcabbf703",
-                    "venue_id": "a0a93734-26f5-5624-94f0-df9b50d0cb84",
-                    "event_date": "1995-01-20",
-                    "event_name": "Riverside School, Chattaroy",
-                    "venue_name": "Riverside School, Chattaroy",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": null
                 },
                 {
                     "event_id": "acc563dd-90b3-55a2-bf2d-d62dfea83c1d",
@@ -9505,16 +9545,6 @@
                     "event_date": "1995-01-22",
                     "event_name": "Magnuson Park, Seattle. WIOL Relay. E on NE 45th from I 5 to Sand Point",
                     "venue_name": "Way, follow north to park",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
-                    "event_id": "30b537a9-4ec9-5acc-8766-237f3461eba7",
-                    "venue_id": "eb9ed005-5e10-5460-b774-9451d1d13932",
-                    "event_date": "1995-01-27",
-                    "event_name": "Carkeek Park, Seattle. WIOL #3. From I 5, west on Northgate Way/105th St, turn north on 3rd Ave. NW",
-                    "venue_name": "into park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9550,16 +9580,6 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "a32e3893-97d0-58a7-ba89-b472fbedc558",
-                    "venue_id": "91489aa7-0057-5316-839d-9aa9756d1098",
-                    "event_date": "1995-02-03",
-                    "event_name": "N.A.D. Park, Bremerton. WIOL Relay. N on SR 304 from ferry to West SR3",
-                    "venue_name": "Kitsap Way exit, north to park",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": null
-                },
-                {
                     "event_id": "76cdf430-d288-546b-b63e-ca63d138482b",
                     "venue_id": "831b3cde-bb0d-502c-8a8e-624ac34e2077",
                     "event_date": "1995-02-04",
@@ -9568,16 +9588,6 @@
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Nisqually Orienteers"
-                },
-                {
-                    "event_id": "0e75ea04-22a9-535a-8647-b05459d05124",
-                    "venue_id": null,
-                    "event_date": "1995-02-10",
-                    "event_name": "Bridle Trails State Park, Bellevue. WIOL #4. Take NE 70th St. exit from I 405",
-                    "venue_name": "Unknown venue",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": "Sammamish Orienteering Club"
                 },
                 {
                     "event_id": "df9479e0-cd3a-5843-bba2-08b7b23b34ec",
@@ -9600,16 +9610,6 @@
                     "organizing_club_name": null
                 },
                 {
-                    "event_id": "d3742db9-9c98-56cd-91f4-010f0ee0836a",
-                    "venue_id": "41335881-b127-51fb-beea-d5fc7a52678f",
-                    "event_date": "1995-02-18",
-                    "event_name": "Riverside State Park, Spokane",
-                    "venue_name": "Riverside State Park, Spokane",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": null
-                },
-                {
                     "event_id": "38501189-e0a0-5014-9f74-c242e06b0bec",
                     "venue_id": "8af1c472-78dc-5abe-b84e-81f0117f2c39",
                     "event_date": "1995-02-19",
@@ -9625,16 +9625,6 @@
                     "event_date": "1995-02-19",
                     "event_name": "Washington Park, Anacortes",
                     "venue_name": "Washington Park, Anacortes",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
-                    "event_id": "c6c80d22-c4de-5952-8afd-7dbe11149c8b",
-                    "venue_id": "ef80e76d-7270-50bf-9ae3-6c8f96fdf0b6",
-                    "event_date": "1995-02-24",
-                    "event_name": "Seward Park, Seattle. WIOL Champs",
-                    "venue_name": "Lake Washington Blvd",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10110,6 +10100,16 @@
                     "organizing_club_name": null
                 },
                 {
+                    "event_id": "acb64afa-e08f-5886-8b9c-b4a24e9a472d",
+                    "venue_id": "fe655119-e92d-5b0c-ac30-0330ce9e8058",
+                    "event_date": "1995-06-25",
+                    "event_name": "Durr Road, Ellensburg",
+                    "venue_name": "Durr Road, Ellensburg",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Ellensburg Orienteering Club"
+                },
+                {
                     "event_id": "3f57a688-e59d-53d2-bcc7-3fb411cafe5b",
                     "venue_id": "5c6302f9-5fe8-5a39-a66a-569a12b49337",
                     "event_date": "1995-06-25",
@@ -10180,6 +10180,36 @@
                     "organizing_club_name": null
                 },
                 {
+                    "event_id": "483ddb4b-f959-52d3-9ca7-44c0e6908e1d",
+                    "venue_id": "6d824d06-609e-5023-afff-eec859a4ef03",
+                    "event_date": "1995-07-17",
+                    "event_name": "Canadian Short Distance Championships",
+                    "venue_name": "Smoky Lake, Alberta",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": null
+                },
+                {
+                    "event_id": "0d718f0e-cea3-5e6a-88a8-266b68893048",
+                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "event_date": "1995-07-23",
+                    "event_name": "University of Washington Beginners Meet",
+                    "venue_name": "University of Washington Campus",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": null
+                },
+                {
+                    "event_id": "b12cae0e-34f5-52af-8fe9-09b4161d129c",
+                    "venue_id": "477fbdfc-0d2a-5dc5-84e1-7945af8f304e",
+                    "event_date": "1995-07-26",
+                    "event_name": "Howarth Park",
+                    "venue_name": "Howarth Park",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Sammamish Orienteering Club"
+                },
+                {
                     "event_id": "0b45a77a-9257-5b86-8974-1483c5f2226e",
                     "venue_id": "4b344521-c37e-5e36-9663-178007046b1d",
                     "event_date": "1995-07-26",
@@ -10210,6 +10240,16 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
+                    "event_id": "81cfa1a4-4438-500c-95af-3efd2c5296ec",
+                    "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
+                    "event_date": "1995-08-05",
+                    "event_name": "Fun Run & Picnic",
+                    "venue_name": "St. Edward State Park",
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
                     "event_id": "3ce3b14d-8a36-598a-bf0e-7cee5b3eba25",
                     "venue_id": "95eb066e-d594-55da-acbd-774c40a79c19",
                     "event_date": "1995-08-10",
@@ -10218,6 +10258,16 @@
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Ellensburg Orienteering Club"
+                },
+                {
+                    "event_id": "a6488a1e-cc89-526f-a5f3-245bc2bbbf6a",
+                    "venue_id": null,
+                    "event_date": "1995-08-12",
+                    "event_name": "1995 Western States Orienteering Championship",
+                    "venue_name": "Unknown venue",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Sammamish Orienteering Club"
                 },
                 {
                     "event_id": "d422c6dc-184d-5473-a061-134f1e32b02d",
@@ -10248,6 +10298,16 @@
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Sammamish Orienteering Club"
+                },
+                {
+                    "event_id": "c0cbdcc9-4525-5d9c-9a2e-f103335533cf",
+                    "venue_id": "adc07bce-8447-5d74-85d0-d6996b3bb688",
+                    "event_date": "1995-08-19",
+                    "event_name": "Bald Mountain Rogaine",
+                    "venue_name": "Bald Mountain",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": null
                 },
                 {
                     "event_id": "fdccf03d-549d-5f3a-90c3-a647497be57e",
@@ -10290,10 +10350,10 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "2aa99e6e-000e-5faf-9e53-52429ebcb7b4",
+                    "event_id": "585fc1d9-a06b-5d91-98d8-182a116f2e8c",
                     "venue_id": "019b7f6c-d840-7c4d-9264-e33e771b68d8",
                     "event_date": "1995-09-23",
-                    "event_name": "Cle Elum Ridge Nisqually Orienteers",
+                    "event_name": "Washington State Orienteering Championships",
                     "venue_name": "Cle Elum Ridge",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -10311,20 +10371,20 @@
                 },
                 {
                     "event_id": "a9640169-04d6-5eac-be94-d01790a62bff",
-                    "venue_id": "d6ef152e-5910-57ad-8036-6843719b8735",
+                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
                     "event_date": "1995-11-05",
-                    "event_name": "UW Campus",
-                    "venue_name": "UW Campus",
+                    "event_name": "University of Washington Campus",
+                    "venue_name": "University of Washington Campus",
                     "result_count": 0,
                     "coverage_section": "non_coc",
-                    "organizing_club_name": null
+                    "organizing_club_name": "Husky Orienteering Club"
                 },
                 {
                     "event_id": "71c83637-880c-5aa9-bc46-8503230e919b",
-                    "venue_id": "278a3e4b-8951-5260-be04-d97bd1fc7840",
+                    "venue_id": "184cae02-568f-5454-a094-f2291f8a12b9",
                     "event_date": "1995-11-12",
-                    "event_name": "Cascade O.C. Annual General Meeting and Social. Coco's in Forest Park: I 5 exit #177",
-                    "venue_name": "E to the bottom of hill, into Lake Forest Park Town Center",
+                    "event_name": "Cascade O.C. Annual General Meeting and Social",
+                    "venue_name": "Coco's Restaurant, Lake Forest Park Towne Centre",
                     "result_count": 0,
                     "coverage_section": "coc_noncompetition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10333,7 +10393,7 @@
                     "event_id": "5e80d909-a182-522a-a169-e8c51f60c0f1",
                     "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
                     "event_date": "1995-11-12",
-                    "event_name": "Island Crest Park, Mercer Island",
+                    "event_name": "Island Crest Park",
                     "venue_name": "Island Crest Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -10360,24 +10420,24 @@
                     "organizing_club_name": null
                 },
                 {
+                    "event_id": "843f8c76-a2b4-5f6b-858c-b9697b51fd80",
+                    "venue_id": "c757dfbd-4bae-5e70-b084-77b193dfabaa",
+                    "event_date": "1995-11-18",
+                    "event_name": "U.S. Long Course Championship and Two-Day 'A'-Meet",
+                    "venue_name": "Joseph Grant Park, San Jose, CA",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": null
+                },
+                {
                     "event_id": "41679571-d284-5b3b-aae4-daffeb389e99",
                     "venue_id": null,
                     "event_date": "1995-11-18",
-                    "event_name": "US Long Course Championship and Two-Day 'A'-Meet, Joseph Grant Park, San Jose, CA",
+                    "event_name": "U.S. Long Course Championship and Two-Day A-Meet",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Bay Area Orienteering Club"
-                },
-                {
-                    "event_id": "23e4fd7d-ddf8-533d-9044-5e014a2780ad",
-                    "venue_id": null,
-                    "event_date": "1995-11-18",
-                    "event_name": "invites you to attend The U. S. Long Course Championships and USOF Two Day \"A\" Meet th & 19th",
-                    "venue_name": "Unknown venue",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": null
                 },
                 {
                     "event_id": "ae0a1274-a763-5c9d-86c2-eea99ba2be39",
@@ -10393,7 +10453,7 @@
                     "event_id": "f910a9a6-0953-5c00-af46-2647b700895a",
                     "venue_id": "019b7ac6-ee5e-70d9-b10c-6b7226ca847c",
                     "event_date": "1995-12-02",
-                    "event_name": "Kelsey Creek Park, Bellevue",
+                    "event_name": "Kelsey Creek Park",
                     "venue_name": "Kelsey Creek Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -10421,18 +10481,18 @@
                 },
                 {
                     "event_id": "a06900be-f11f-55ff-88b2-15f7be61278c",
-                    "venue_id": "03894630-9ff6-533e-9969-a02b694f4431",
+                    "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
                     "event_date": "1995-12-30",
-                    "event_name": "Park, Bothell",
-                    "venue_name": "Park, Bothell",
+                    "event_name": "O' Lang Syne",
+                    "venue_name": "St. Edward State Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 }
             ],
-            "event_count": 102,
+            "event_count": 100,
             "result_count": 0,
-            "competition_event_count": 81,
+            "competition_event_count": 76,
             "competition_result_event_count": 0
         },
         {
@@ -10449,6 +10509,16 @@
                     "organizing_club_name": "Sammamish Orienteering Club"
                 },
                 {
+                    "event_id": "d86ad881-a804-5a6c-b4c5-3e70b4f401b5",
+                    "venue_id": "019b81f3-1f39-77c2-b7d0-67a21ccb95ac",
+                    "event_date": "1996-01-06",
+                    "event_name": "Fort Steilacoom County Park",
+                    "venue_name": "Fort Steilacoom County Park",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Nisqually Orienteers"
+                },
+                {
                     "event_id": "81cb8ff7-d214-5d42-922d-3206371a2d08",
                     "venue_id": "91489aa7-0057-5316-839d-9aa9756d1098",
                     "event_date": "1996-01-11",
@@ -10460,10 +10530,10 @@
                 },
                 {
                     "event_id": "8a82e0b5-12c9-5036-bbb4-9c596fe5b42a",
-                    "venue_id": null,
+                    "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
                     "event_date": "1996-01-14",
-                    "event_name": "Marymoor Park, Redmond. WIOL Event #2. Take SR 520 east",
-                    "venue_name": "Unknown venue",
+                    "event_name": "Marymoor Park",
+                    "venue_name": "Marymoor Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Sammamish Orienteering Club"
@@ -10490,10 +10560,10 @@
                 },
                 {
                     "event_id": "c92767bf-5a72-582e-9661-f63fe6c4f88c",
-                    "venue_id": "af1ebbe7-9886-598d-970d-20e0cf11e0eb",
+                    "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
                     "event_date": "1996-01-20",
-                    "event_name": "Rambo! Pt",
-                    "venue_name": "Defiance Park, Tacoma",
+                    "event_name": "Rambo! Point Defiance Park",
+                    "venue_name": "Point Defiance Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Nisqually Orienteers"
@@ -10506,7 +10576,7 @@
                     "venue_name": "Riverside School, Chattaroy",
                     "result_count": 0,
                     "coverage_section": "non_coc",
-                    "organizing_club_name": null
+                    "organizing_club_name": "Eastern Washington Orienteering Club"
                 },
                 {
                     "event_id": "a83c4f55-50fb-5ec2-80c2-80bb59b52d65",
@@ -10520,10 +10590,10 @@
                 },
                 {
                     "event_id": "31b57dc0-3e41-573f-9c24-5a9be04f1172",
-                    "venue_id": "eb9ed005-5e10-5460-b774-9451d1d13932",
+                    "venue_id": "01913927-5a14-7bdb-8b3c-b840c25c4d0c",
                     "event_date": "1996-01-27",
-                    "event_name": "Carkeek Park, Seattle. WIOL #3. From I 5 exit 173, west on Northgate Way/105th St, north on 3rd Ave. NW",
-                    "venue_name": "into park",
+                    "event_name": "Carkeek Park",
+                    "venue_name": "Carkeek Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -10540,13 +10610,13 @@
                 },
                 {
                     "event_id": "14f6a061-5be5-5240-bf70-e5ae6c1f67c4",
-                    "venue_id": "91489aa7-0057-5316-839d-9aa9756d1098",
+                    "venue_id": "019b815a-c660-757c-b8f5-99824d27cce5",
                     "event_date": "1996-02-03",
-                    "event_name": "N.A.D. Park, Bremerton. WIOL Relay. N on SR 304 from ferry to West SR3",
-                    "venue_name": "Kitsap Way exit, north to park",
+                    "event_name": "NAD Park",
+                    "venue_name": "NAD Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
-                    "organizing_club_name": null
+                    "organizing_club_name": "Husky Orienteering Club"
                 },
                 {
                     "event_id": "6d40688d-4c0d-5508-b659-df6e84135d52",
@@ -10570,10 +10640,10 @@
                 },
                 {
                     "event_id": "97117d9c-0f3e-5f30-a69d-0071506e234c",
-                    "venue_id": null,
+                    "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
                     "event_date": "1996-02-10",
-                    "event_name": "Bridle Trails State Park, Bellevue. WIOL #4. Take NE 70th St. exit from I 405",
-                    "venue_name": "Unknown venue",
+                    "event_name": "Bridle Trails State Park",
+                    "venue_name": "Bridle Trails State Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Sammamish Orienteering Club"
@@ -10619,6 +10689,16 @@
                     "organizing_club_name": null
                 },
                 {
+                    "event_id": "d3742db9-9c98-56cd-91f4-010f0ee0836a",
+                    "venue_id": "41335881-b127-51fb-beea-d5fc7a52678f",
+                    "event_date": "1996-02-18",
+                    "event_name": "Riverside State Park",
+                    "venue_name": "Riverside State Park, Spokane",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Eastern Washington Orienteering Club"
+                },
+                {
                     "event_id": "1a79b9af-c573-5259-989b-d2fd26fafaac",
                     "venue_id": "f3e8db73-bd9e-5090-8294-9f10c2bc6267",
                     "event_date": "1996-02-22",
@@ -10630,10 +10710,10 @@
                 },
                 {
                     "event_id": "fd1c87a2-629c-5697-8f33-a3a41da3e153",
-                    "venue_id": "ef80e76d-7270-50bf-9ae3-6c8f96fdf0b6",
+                    "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
                     "event_date": "1996-02-24",
-                    "event_name": "Seward Park, Seattle. WIOL Champs. Take Orcas St. East from Martin Luther King Jr. Way to",
-                    "venue_name": "Lake Washington Blvd",
+                    "event_name": "Seward Park",
+                    "venue_name": "Seward Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -11239,10 +11319,10 @@
                     "organizing_club_name": null
                 },
                 {
-                    "event_id": "d7edb91f-ae56-57f6-9ca8-948dddf4bcc2",
+                    "event_id": "19fa3aed-38e3-5f27-af2a-2ffc58cd5ac4",
                     "venue_id": null,
                     "event_date": "1996-08-17",
-                    "event_name": "Unknown Event",
+                    "event_name": "Old Man Pass Six Hour Rogaine",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
@@ -11309,21 +11389,21 @@
                     "organizing_club_name": null
                 },
                 {
-                    "event_id": "7ced9ea1-db34-5775-a9fb-602fa69822aa",
-                    "venue_id": null,
-                    "event_date": "1996-09-21",
-                    "event_name": "Cle Elum, WA Cascade Orienteering Club",
-                    "venue_name": "Unknown venue",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
                     "event_id": "ed8f3798-2b82-5e43-b246-e31a27b12c9e",
                     "venue_id": "163fe167-553c-5367-a84a-65afb9389033",
                     "event_date": "1996-09-21",
                     "event_name": "NEW Ros Elum Ridge, Cle Elum",
                     "venue_name": "NEW Ros Elum Ridge, Cle Elum",
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "13da7361-ca10-5bf9-b06c-4c822267ebae",
+                    "venue_id": "be850eea-6d0f-5fcd-8f7e-fbae2a050c3e",
+                    "event_date": "1996-09-21",
+                    "event_name": "Ros-Elum Ridge",
+                    "venue_name": "Ros-Elum Ridge",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -11337,6 +11417,16 @@
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": null
+                },
+                {
+                    "event_id": "ae689d22-ee70-577e-beaa-99d0ac40ac64",
+                    "venue_id": "019b7f6c-d840-7c4d-9264-e33e771b68d8",
+                    "event_date": "1996-09-22",
+                    "event_name": "Cle Elum Ridge Score-O",
+                    "venue_name": "Cle Elum Ridge",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": "Ellensburg Orienteering Club"
                 },
                 {
                     "event_id": "689cd538-c141-5d31-8fa9-0bcb8df44072",
@@ -11427,6 +11517,16 @@
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": null
+                },
+                {
+                    "event_id": "1a01fae8-fbd1-5342-b2cc-22be9500d68d",
+                    "venue_id": "019b7b62-9f59-7108-a468-484c9810028f",
+                    "event_date": "1996-10-13",
+                    "event_name": "Fort Casey State Park",
+                    "venue_name": "Fort Casey State Park",
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
                     "event_id": "c6604b68-dfcc-5205-9dd3-8b16011b42a8",
@@ -11629,20 +11729,10 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "66e74e31-cbb0-51e8-9efb-d6db185098af",
-                    "venue_id": "019b7ac6-ee5e-70d9-b10c-6b7226ca847c",
-                    "event_date": "1996-12-07",
-                    "event_name": "Kelsey Creek Park, Bellevue",
-                    "venue_name": "Kelsey Creek Park",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": "Sammamish Orienteering Club"
-                },
-                {
                     "event_id": "a09e08d7-2403-50d3-b381-85c4b24958aa",
                     "venue_id": "019b7ac6-ee5e-70d9-b10c-6b7226ca847c",
                     "event_date": "1996-12-07",
-                    "event_name": "Kelsey Creek Park, Bellevue",
+                    "event_name": "Kelsey Creek Park",
                     "venue_name": "Kelsey Creek Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -11689,9 +11779,9 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 }
             ],
-            "event_count": 125,
+            "event_count": 128,
             "result_count": 0,
-            "competition_event_count": 106,
+            "competition_event_count": 108,
             "competition_result_event_count": 0
         },
         {
@@ -16838,11 +16928,11 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "019b81f3-1f4d-782a-9abd-7416b174625d",
-                    "venue_id": "019b81f3-1f39-74f3-8714-f78123563aa8",
+                    "event_id": "019b81f3-1f4d-78ab-8ad2-4eff70f3f100",
+                    "venue_id": "019b81f3-1f39-7c27-a803-505c13916b6a",
                     "event_date": "2017-09-09",
                     "event_name": "SART 2017",
-                    "venue_name": "Edmonds Community College",
+                    "venue_name": "Lynnwood Golf Course",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -16858,11 +16948,11 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "019b81f3-1f4d-78ab-8ad2-4eff70f3f100",
-                    "venue_id": "019b81f3-1f39-7c27-a803-505c13916b6a",
+                    "event_id": "019b81f3-1f4d-782a-9abd-7416b174625d",
+                    "venue_id": "019b81f3-1f39-74f3-8714-f78123563aa8",
                     "event_date": "2017-09-09",
                     "event_name": "SART 2017",
-                    "venue_name": "Lynnwood Golf Course",
+                    "venue_name": "Edmonds Community College",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -17187,11 +17277,11 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "019b81f3-1f4d-7dcb-a66c-8a256bd28059",
-                    "venue_id": "019d0457-2e55-707d-b824-f82712da23b3",
+                    "event_id": "019b81f3-1f4d-7968-989e-0888396c5f73",
+                    "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
                     "event_date": "2018-09-08",
                     "event_name": "SART 2018",
-                    "venue_name": "Hamlin Park & Kellogg MS",
+                    "venue_name": "North Seattle College",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -17207,11 +17297,11 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "019b81f3-1f4d-7968-989e-0888396c5f73",
-                    "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+                    "event_id": "019b81f3-1f4d-7dcb-a66c-8a256bd28059",
+                    "venue_id": "019d0457-2e55-707d-b824-f82712da23b3",
                     "event_date": "2018-09-08",
                     "event_name": "SART 2018",
-                    "venue_name": "North Seattle College",
+                    "venue_name": "Hamlin Park & Kellogg MS",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -21156,9 +21246,9 @@
             "issue_registry_status": "done",
             "db_full_capture_status": "",
             "db_full_results_status": "",
-            "db_existence_pass_status": "",
-            "pipeline_last_updated_at": "2026-03-19T23:41:17Z",
-            "db_events_metadata_status": "",
+            "db_existence_pass_status": "done",
+            "pipeline_last_updated_at": "2026-03-20T23:40:24Z",
+            "db_events_metadata_status": "done",
             "db_issue_provenance_status": "done",
             "db_notable_mentions_status": ""
         },
@@ -21264,9 +21354,9 @@
             "issue_registry_status": "done",
             "db_full_capture_status": "",
             "db_full_results_status": "",
-            "db_existence_pass_status": "",
-            "pipeline_last_updated_at": "2026-03-19T23:41:17Z",
-            "db_events_metadata_status": "",
+            "db_existence_pass_status": "done",
+            "pipeline_last_updated_at": "2026-03-20T23:40:24Z",
+            "db_events_metadata_status": "done",
             "db_issue_provenance_status": "done",
             "db_notable_mentions_status": ""
         },
@@ -21354,9 +21444,9 @@
             "issue_registry_status": "done",
             "db_full_capture_status": "",
             "db_full_results_status": "",
-            "db_existence_pass_status": "",
-            "pipeline_last_updated_at": "2026-03-19T23:41:17Z",
-            "db_events_metadata_status": "",
+            "db_existence_pass_status": "done",
+            "pipeline_last_updated_at": "2026-03-20T23:40:24Z",
+            "db_events_metadata_status": "done",
             "db_issue_provenance_status": "done",
             "db_notable_mentions_status": ""
         },
@@ -21462,9 +21552,9 @@
             "issue_registry_status": "done",
             "db_full_capture_status": "",
             "db_full_results_status": "",
-            "db_existence_pass_status": "",
-            "pipeline_last_updated_at": "2026-03-19T23:41:17Z",
-            "db_events_metadata_status": "",
+            "db_existence_pass_status": "done",
+            "pipeline_last_updated_at": "2026-03-20T23:40:24Z",
+            "db_events_metadata_status": "done",
             "db_issue_provenance_status": "done",
             "db_notable_mentions_status": ""
         },
@@ -22531,8 +22621,8 @@
         "issue_registry_done": 159,
         "db_full_capture_done": 0,
         "db_full_results_done": 0,
-        "db_existence_pass_done": 98,
-        "db_events_metadata_done": 98,
+        "db_existence_pass_done": 102,
+        "db_events_metadata_done": 102,
         "db_issue_provenance_done": 159,
         "db_notable_mentions_done": 0
     }

@@ -2,16 +2,16 @@
     "summary": {
         "pages": 1628,
         "teams": 2197,
-        "events": 2107,
-        "series": 8,
+        "events": 2104,
+        "series": 11,
         "venues": 521,
-        "courses": 1952,
-        "results": 51354,
+        "courses": 2179,
+        "results": 52579,
         "artifacts": 1327,
         "citations": 2865,
         "documents": 1095,
-        "individuals": 9512,
-        "competitions": 1685,
+        "individuals": 9530,
+        "competitions": 1684,
         "event_groups": 6,
         "access_points": 2,
         "organizations": 57,
@@ -21,31 +21,31 @@
         "event_date_min": "1978-01-09",
         "page_artifacts": 0,
         "venue_rows_raw": 691,
-        "mixed_use_venues": 64,
+        "mixed_use_venues": 63,
         "series_standings": 54,
         "newsletter_issues": 159,
         "venue_rows_active": 533,
-        "competition_venues": 98,
-        "individual_rows_raw": 10268,
+        "competition_venues": 103,
+        "individual_rows_raw": 10286,
         "newsletter_date_max": "2009-10-01",
         "newsletter_date_min": "1978-01-01",
         "result_event_date_max": "2026-03-07",
         "result_event_date_min": "1978-05-21",
         "venue_rows_redirected": 158,
-        "individual_rows_active": 9512,
-        "competition_only_venues": 34,
+        "individual_rows_active": 9530,
+        "competition_only_venues": 40,
         "competition_event_date_max": "2026-05-17",
         "competition_event_date_min": "1978-01-14",
         "individual_rows_redirected": 756,
-        "noncompetition_only_venues": 426
+        "noncompetition_only_venues": 421
     },
     "event_kinds": [
         {
-            "count": 1685,
+            "count": 1684,
             "event_kind": "race"
         },
         {
-            "count": 235,
+            "count": 233,
             "event_kind": "meet"
         },
         {
@@ -53,7 +53,7 @@
             "event_kind": "session"
         }
     ],
-    "generated_at": "2026-03-21T05:33:26Z",
+    "generated_at": "2026-03-21T06:04:58Z",
     "recent_events": [
         {
             "event_id": "019d0ed4-1271-7332-b2b7-8c813ff32598",
@@ -298,7 +298,7 @@
     ],
     "result_statuses": [
         {
-            "count": 37670,
+            "count": 38840,
             "status": "OK"
         },
         {
@@ -306,15 +306,15 @@
             "status": "(unmapped)"
         },
         {
-            "count": 2464,
+            "count": 2474,
             "status": "Blank"
         },
         {
-            "count": 2149,
+            "count": 2188,
             "status": "MSP"
         },
         {
-            "count": 2046,
+            "count": 2051,
             "status": "DNF"
         },
         {
@@ -326,7 +326,7 @@
             "status": "DNS"
         },
         {
-            "count": 53,
+            "count": 54,
             "status": "DQ"
         },
         {
@@ -5106,7 +5106,7 @@
                     "event_id": "63abe80f-7144-5432-9c84-39a025e474c4",
                     "venue_id": null,
                     "event_date": "1988-01-05",
-                    "event_name": "Board Meeting 1706 N.W. 57th #3",
+                    "event_name": "Board Meeting",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "coc_noncompetition",
@@ -5186,7 +5186,7 @@
                     "event_id": "27083ed8-f433-5d88-b028-67cd5054b841",
                     "venue_id": null,
                     "event_date": "1988-02-21",
-                    "event_name": "WIOL Championships Spanaway Park",
+                    "event_name": "WIOL Championships",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -5216,7 +5216,7 @@
                     "event_id": "cbcd7b0c-eba2-5a18-85fa-fa17ac72e521",
                     "venue_id": null,
                     "event_date": "1988-03-12",
-                    "event_name": "Pot O Luck & Goal setting Meeting 10559 41st Pl",
+                    "event_name": "Potluck and Goal-Setting Meeting",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -5236,7 +5236,7 @@
                     "event_id": "5cf58328-afad-56de-b1d1-299cae4947ca",
                     "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
                     "event_date": "1988-03-19",
-                    "event_name": "Island Crest, Mercer Island Island Crest Way & S.E. 58th Meet",
+                    "event_name": "Island Crest Park",
                     "venue_name": "Island Crest Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -5266,7 +5266,7 @@
                     "event_id": "b65ad3a4-3d00-512e-afcb-a9aad662d0bb",
                     "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
                     "event_date": "1988-03-26",
-                    "event_name": "Island Crest, Mercer Island Island Crest Way & S.E. 58th Meet",
+                    "event_name": "Island Crest Park",
                     "venue_name": "Island Crest Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -5346,7 +5346,7 @@
                     "event_id": "0156e05a-8723-5a60-84cb-671de5e1211c",
                     "venue_id": null,
                     "event_date": "1988-05-01",
-                    "event_name": "Ballard Bike O TENTATIVE!!",
+                    "event_name": "Ballard Bike-O",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
@@ -5393,6 +5393,16 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
+                    "event_id": "683d14ea-9334-5333-8001-f71584dbe2f8",
+                    "venue_id": null,
+                    "event_date": "1988-05-21",
+                    "event_name": "Kamloops Rogaine",
+                    "venue_name": "Unknown venue",
+                    "result_count": 0,
+                    "coverage_section": "non_coc",
+                    "organizing_club_name": null
+                },
+                {
                     "event_id": "6995ba04-1704-535e-8325-048758fe88fc",
                     "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
                     "event_date": "1988-05-21",
@@ -5401,16 +5411,6 @@
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
-                    "event_id": "683d14ea-9334-5333-8001-f71584dbe2f8",
-                    "venue_id": null,
-                    "event_date": "1988-05-21",
-                    "event_name": "ROGAINE Rugged Outdoor Group Activity Involving Navigation Endurance, Kamloops, B.C",
-                    "venue_name": "Unknown venue",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": null
                 },
                 {
                     "event_id": "2c3cfc5c-00fb-5034-a15c-7e2d8e8b8b19",
@@ -5456,7 +5456,7 @@
                     "event_id": "143366a1-cf30-5d0a-a403-8a994837ca9f",
                     "venue_id": null,
                     "event_date": "1988-06-18",
-                    "event_name": "ROGAINE Rugged Outdoor Group Activity Involving Navigation & Endurance, Calgary, Alberta",
+                    "event_name": "Calgary Rogaine",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -5474,10 +5474,10 @@
                 },
                 {
                     "event_id": "91da9956-cd98-5487-a85a-bd406c50edcd",
-                    "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
+                    "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
                     "event_date": "1988-06-25",
-                    "event_name": "Greater Tacoma Sports Festival orienteering event Pt. Defiance",
-                    "venue_name": "Farrel-McWhirter Park",
+                    "event_name": "Greater Tacoma Sports Festival Orienteering Event",
+                    "venue_name": "Point Defiance Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": null
@@ -5486,7 +5486,7 @@
                     "event_id": "1655f05a-25cd-51e8-a3a8-e8af0c48cd0c",
                     "venue_id": null,
                     "event_date": "1988-06-25",
-                    "event_name": "U.S. Orienteering Federation Annual Convention meet (Troll Cup",
+                    "event_name": "U.S. Orienteering Federation Annual Convention Meet (Troll Cup)",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -5566,7 +5566,7 @@
                     "event_id": "058acd97-1749-56a0-82f1-8283c2904d2e",
                     "venue_id": null,
                     "event_date": "1988-07-24",
-                    "event_name": "Ferry & Island O, Vashon Island meet at Burton",
+                    "event_name": "Ferry & Island O",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -5606,7 +5606,7 @@
                     "event_id": "7141bdc9-80ff-5f5f-b7a9-9937140c2a38",
                     "venue_id": null,
                     "event_date": "1988-08-07",
-                    "event_name": "Board Meeting 10559 41st Pl. N.E",
+                    "event_name": "Board Meeting",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "coc_noncompetition",
@@ -5616,7 +5616,7 @@
                     "event_id": "e767c580-edcf-5777-bde4-de04d921fd36",
                     "venue_id": null,
                     "event_date": "1988-08-07",
-                    "event_name": "Manitoba 5 Days, Hartney, Brandon, Carberry includes Transatlantic Cup & Canadian Champs",
+                    "event_name": "Manitoba 5 Days",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -5696,7 +5696,7 @@
                     "event_id": "a9a9d714-291c-54d5-86f0-67831ca20a2c",
                     "venue_id": null,
                     "event_date": "1988-09-13",
-                    "event_name": "Board Meeting 6216 N.E. 154th St",
+                    "event_name": "Board Meeting",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "coc_noncompetition",
@@ -5746,7 +5746,7 @@
                     "event_id": "da388c85-ee36-58b3-b79f-41a9f55b0d85",
                     "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
                     "event_date": "1988-10-22",
-                    "event_name": "Big Finn Hill, Kirkland LOCATION TENTATIVE Juanita Dr",
+                    "event_name": "Big Finn Hill Park",
                     "venue_name": "Big Finn Hill Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -5922,16 +5922,6 @@
                     "organizing_club_name": "Ellensburg Orienteering Club"
                 },
                 {
-                    "event_id": "a07bef44-6d1a-5efe-b5ee-9aa71e55e5b6",
-                    "venue_id": null,
-                    "event_date": "1989-11-18",
-                    "event_name": "Washington State Open Relay Championships Entry Form fill out and return before",
-                    "venue_name": "Unknown venue",
-                    "result_count": 0,
-                    "coverage_section": "non_coc",
-                    "organizing_club_name": "Nisqually Orienteers"
-                },
-                {
                     "event_id": "b7bc74fb-b822-5ac3-b757-cc9b69bcd722",
                     "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
                     "event_date": "1989-11-20",
@@ -5945,7 +5935,7 @@
                     "event_id": "cb4fe111-322d-5fde-940c-475e98431528",
                     "venue_id": "626253fe-00f1-54c3-b49d-d8b7a77c0b95",
                     "event_date": "1989-11-26",
-                    "event_name": "EVERGREEN O’ CUP Tenalquot, Lacey Nisqually Orienteers",
+                    "event_name": "Evergreen O' Cup",
                     "venue_name": "Tenalquot, Fort Lewis",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -5972,7 +5962,7 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 }
             ],
-            "event_count": 18,
+            "event_count": 17,
             "result_count": 0,
             "competition_event_count": 11,
             "competition_result_event_count": 0
@@ -6144,7 +6134,7 @@
                     "event_id": "59e1200a-43db-571b-81dc-b82aee2cd2f5",
                     "venue_id": null,
                     "event_date": "1990-08-06",
-                    "event_name": "APOC/Canadian Relay Championships Kamloops",
+                    "event_name": "APOC / Canadian Relay Championships",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -6154,7 +6144,7 @@
                     "event_id": "f238b2e3-37a0-5a18-b2af-ca6b3630e706",
                     "venue_id": null,
                     "event_date": "1990-08-08",
-                    "event_name": "Asia Pacific Orienteering Championships Kamloops",
+                    "event_name": "Asia-Pacific Orienteering Championships",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -6164,7 +6154,7 @@
                     "event_id": "e8629408-d834-5be9-bc49-cc3fd5c043c5",
                     "venue_id": null,
                     "event_date": "1990-08-11",
-                    "event_name": "North American Orienteering Championships & World Cup event",
+                    "event_name": "North American Orienteering Championships and World Cup Event",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -6174,7 +6164,7 @@
                     "event_id": "6d81e394-e7d4-5442-934e-335e4ed7b417",
                     "venue_id": null,
                     "event_date": "1990-08-12",
-                    "event_name": "North American Orienteering Championships Innisfail",
+                    "event_name": "North American Orienteering Championships",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -6194,7 +6184,7 @@
                     "event_id": "c1c86cc5-cb86-5ea6-8baa-6e3e9f66b671",
                     "venue_id": null,
                     "event_date": "1990-08-15",
-                    "event_name": "Orienteering Skills Clinic conducted by the Norwegian National Orienteering Team",
+                    "event_name": "Orienteering Skills Clinic",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -6224,7 +6214,7 @@
                     "event_id": "a3e7ce32-56c1-58de-9da9-0df1a462f909",
                     "venue_id": null,
                     "event_date": "1990-08-18",
-                    "event_name": "Pacific Northwest O' Festival & World Cup event Cle Elum",
+                    "event_name": "Pacific Northwest O' Festival and World Cup Event",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -6234,7 +6224,7 @@
                     "event_id": "8dabcff9-fd1b-5881-9aec-cc2718916560",
                     "venue_id": null,
                     "event_date": "1990-08-19",
-                    "event_name": "Pacific Northwest O' Festival Cle Elum",
+                    "event_name": "Pacific Northwest O' Festival",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "non_coc",
@@ -6489,16 +6479,6 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "d1ee8322-0fa0-56b9-918d-e52dbf5ca5c3",
-                    "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
-                    "event_date": "1992-01-04",
-                    "event_name": "Seward Park",
-                    "venue_name": "Seward Park",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
                     "event_id": "8143335a-a885-53ee-91b0-b00484f772cb",
                     "venue_id": "f2b27872-f00b-5d36-846c-372bc22aefee",
                     "event_date": "1992-01-11",
@@ -6592,7 +6572,7 @@
                     "event_id": "8e1b55ce-958f-5628-a79c-3f739c3acdd0",
                     "venue_id": null,
                     "event_date": "1992-03-04",
-                    "event_name": "The March meeting will be held Wednesday",
+                    "event_name": "Club Meeting",
                     "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "coc_noncompetition",
@@ -6782,18 +6762,8 @@
                     "event_id": "180972b4-a2d3-5da1-80e3-6de19fd228d2",
                     "venue_id": "019b7f6c-d840-7c4d-9264-e33e771b68d8",
                     "event_date": "1992-09-19",
-                    "event_name": "State Championships at",
+                    "event_name": "Washington State Orienteering Championships",
                     "venue_name": "Cle Elum Ridge",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
-                    "event_id": "6371a2af-1e58-5176-b3d3-b3aa6ee5bb1d",
-                    "venue_id": null,
-                    "event_date": "1992-09-19",
-                    "event_name": "Washington State Championship Cle Elum Ridge",
-                    "venue_name": "Unknown venue",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -6840,10 +6810,10 @@
                 },
                 {
                     "event_id": "0835f3aa-6be6-5c8f-8dfb-12a18f482425",
-                    "venue_id": null,
+                    "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
                     "event_date": "1992-10-28",
-                    "event_name": "Cascade Orienteering Club . Night",
-                    "venue_name": "Unknown venue",
+                    "event_name": "Vampire O",
+                    "venue_name": "Hamlin Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -6869,9 +6839,9 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 }
             ],
-            "event_count": 39,
+            "event_count": 37,
             "result_count": 0,
-            "competition_event_count": 25,
+            "competition_event_count": 24,
             "competition_result_event_count": 0
         },
         {
@@ -18840,7 +18810,7 @@
                     "event_date": "2016-09-10",
                     "event_name": "SART 2016 Round 1",
                     "venue_name": "Woodland Park",
-                    "result_count": 0,
+                    "result_count": 74,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -18850,7 +18820,7 @@
                     "event_date": "2016-09-10",
                     "event_name": "SART 2016 Round 2",
                     "venue_name": "Carkeek Park",
-                    "result_count": 0,
+                    "result_count": 75,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -18860,7 +18830,7 @@
                     "event_date": "2016-09-10",
                     "event_name": "SART 2016 Round 3",
                     "venue_name": "Seattle Pacific University",
-                    "result_count": 0,
+                    "result_count": 72,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -18870,7 +18840,7 @@
                     "event_date": "2016-09-10",
                     "event_name": "SART 2016 Time Trial",
                     "venue_name": "Gasworks Park",
-                    "result_count": 0,
+                    "result_count": 76,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -18890,7 +18860,7 @@
                     "event_date": "2016-09-11",
                     "event_name": "SART 2016 Round 4",
                     "venue_name": "University of Washington",
-                    "result_count": 0,
+                    "result_count": 74,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -18900,7 +18870,7 @@
                     "event_date": "2016-09-11",
                     "event_name": "SART 2016 Round 5",
                     "venue_name": "University of Washington",
-                    "result_count": 0,
+                    "result_count": 74,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -18986,9 +18956,9 @@
                 }
             ],
             "event_count": 39,
-            "result_count": 0,
+            "result_count": 445,
             "competition_event_count": 39,
-            "competition_result_event_count": 0
+            "competition_result_event_count": 6
         },
         {
             "year": 2017,
@@ -19209,7 +19179,7 @@
                     "event_date": "2017-09-09",
                     "event_name": "SART 2017 - Round 2, Edmonds Community College",
                     "venue_name": "Edmonds Community College",
-                    "result_count": 0,
+                    "result_count": 76,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19219,7 +19189,7 @@
                     "event_date": "2017-09-09",
                     "event_name": "SART 2017 - Round 3, Lynnwood Golf Course",
                     "venue_name": "Lynnwood Golf Course",
-                    "result_count": 0,
+                    "result_count": 76,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19229,7 +19199,7 @@
                     "event_date": "2017-09-09",
                     "event_name": "SART 2017 - Time Trial, College Place Middle",
                     "venue_name": "College Place Middle",
-                    "result_count": 0,
+                    "result_count": 74,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19239,7 +19209,7 @@
                     "event_date": "2017-09-09",
                     "event_name": "SART 2017 Round 1",
                     "venue_name": "Lynndale Park",
-                    "result_count": 0,
+                    "result_count": 76,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19259,7 +19229,7 @@
                     "event_date": "2017-09-10",
                     "event_name": "SART 2017 - Round 4, South Seattle College",
                     "venue_name": "South Seattle College",
-                    "result_count": 0,
+                    "result_count": 77,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19269,7 +19239,7 @@
                     "event_date": "2017-09-10",
                     "event_name": "SART 2017 - Round 5, Champs",
                     "venue_name": "South Seattle College",
-                    "result_count": 0,
+                    "result_count": 72,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19355,9 +19325,9 @@
                 }
             ],
             "event_count": 36,
-            "result_count": 0,
+            "result_count": 451,
             "competition_event_count": 36,
-            "competition_result_event_count": 0
+            "competition_result_event_count": 6
         },
         {
             "year": 2018,
@@ -19558,7 +19528,7 @@
                     "event_date": "2018-09-08",
                     "event_name": "SART 2018 - Round 0 Time Trial, Licton Springs",
                     "venue_name": "Licton Springs",
-                    "result_count": 0,
+                    "result_count": 54,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19568,7 +19538,7 @@
                     "event_date": "2018-09-08",
                     "event_name": "SART 2018 - Round 1, North Seattle College",
                     "venue_name": "North Seattle College",
-                    "result_count": 0,
+                    "result_count": 55,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19578,7 +19548,7 @@
                     "event_date": "2018-09-08",
                     "event_name": "SART 2018 - Round 2, South Woods Park & Shorecrest HS",
                     "venue_name": "South Woods Park & Shorecrest HS",
-                    "result_count": 0,
+                    "result_count": 56,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19588,7 +19558,7 @@
                     "event_date": "2018-09-08",
                     "event_name": "SART 2018 - Round 3, Hamlin Park & Kellogg MS",
                     "venue_name": "Hamlin Park & Kellogg MS",
-                    "result_count": 0,
+                    "result_count": 56,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19608,7 +19578,7 @@
                     "event_date": "2018-09-09",
                     "event_name": "SART 2018 - Round 4, Shoreview Park",
                     "venue_name": "Shoreview Park",
-                    "result_count": 0,
+                    "result_count": 54,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19618,7 +19588,7 @@
                     "event_date": "2018-09-09",
                     "event_name": "SART 2018 - Round 5, Shoreline CC",
                     "venue_name": "Shoreline Community College",
-                    "result_count": 0,
+                    "result_count": 54,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19704,9 +19674,9 @@
                 }
             ],
             "event_count": 34,
-            "result_count": 394,
+            "result_count": 723,
             "competition_event_count": 34,
-            "competition_result_event_count": 3
+            "competition_result_event_count": 9
         },
         {
             "year": 2019,

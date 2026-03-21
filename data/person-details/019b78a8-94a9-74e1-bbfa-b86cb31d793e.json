@@ -1,9 +1,80 @@
 {
-  "events": [],
+  "events": [
+    {
+      "event_id": "0f5c0a92-6e0e-5ed4-b6c0-c81c8f545cb7",
+      "venue_id": null,
+      "event_date": "1982-10-02",
+      "event_kind": "race",
+      "event_name": "First Cascade Mountain Marathon",
+      "venue_name": "Unknown venue",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "raw_time_text",
+              "metric_text": "DNF + DNS"
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Recreational Course",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Raw Time Text DNF + DNS",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Raw Time Text DNF + DNS",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "1ed777a3-3973-5d58-b862-2019d800c0db",
+      "venue_id": "1c566800-1b8f-5324-8dfb-c9083830b773",
+      "event_date": "1982-05-08",
+      "event_kind": "race",
+      "event_name": "Cow Creek, Oregon Meet",
+      "venue_name": "Cow Creek Homestead, central Oregon",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "00:44:20"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "00:56:45"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "01:41:05"
+            }
+          ],
+          "time_text": "01:41:05",
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "01:41:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Day 1 Time 00:44:20; Day 2 Time 00:56:45; Total Time 01:41:05",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    }
+  ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 0,
+    "event_count": 2,
     "mention_count": 2
   },
   "mentions": [

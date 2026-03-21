@@ -1,6 +1,32 @@
 {
   "events": [
     {
+      "event_id": "cf725cbf-5a8f-521e-98bf-cac046b7996a",
+      "venue_id": "01913927-5a14-7bdb-8b3c-b840c25c4d0c",
+      "event_date": "1980-07-12",
+      "event_kind": "race",
+      "event_name": "Carkeek Park Meet",
+      "venue_name": "Carkeek Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:03:30",
+          "competitive": true,
+          "course_name": "Yellow",
+          "course_rank": 5,
+          "status_code": null,
+          "outcome_text": "01:03:30",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "01913926-c44c-706a-95f2-97360c957d41",
       "venue_id": "01913927-5a14-7bdb-8b3c-b840c25c4d0c",
       "event_date": "1980-04-19",
@@ -33,7 +59,7 @@
   ],
   "summary": {
     "role_count": 1,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

@@ -482,11 +482,11 @@
     },
     {
       "event_id": "019b81f3-1f4e-7e91-9747-42d7aeb9c29d",
-      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
       "event_date": "2025-02-08",
       "event_kind": "race",
       "event_name": "2024 Winter League 07 - Fire Mountain",
-      "venue_name": "Fire Mountain",
+      "venue_name": "Fire Mountain Scout Camp",
       "result_rows": [
         {
           "metrics": [
@@ -924,11 +924,11 @@
     },
     {
       "event_id": "019b81f3-1f4b-7266-a5da-0e61dbb38087",
-      "venue_id": "019b81f3-1f39-7521-b3fd-22e65018c621",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
       "event_date": "2024-06-21",
       "event_kind": "race",
       "event_name": "2024 PNWOF Day 1",
-      "venue_name": "Fishtrap Lake Middle",
+      "venue_name": "Fishtrap Lake",
       "result_rows": [
         {
           "metrics": [],
@@ -3368,11 +3368,11 @@
     },
     {
       "event_id": "019b81f3-1f4e-7573-8ad9-30f8abdbaa5a",
-      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
       "event_date": "2018-09-22",
       "event_kind": "race",
       "event_name": "Choose Your Adventure #3: Corn Maze! - Bob’s Corn Maze, Snohomish",
-      "venue_name": "Bob's Corn Maze",
+      "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
           "metrics": [
@@ -3953,11 +3953,11 @@
     },
     {
       "event_id": "019b81f3-1f4e-7e3f-92ed-63f73f4b22e3",
-      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
       "event_date": "2017-10-01",
       "event_kind": "race",
       "event_name": "Choose Your Adventure #5: Corn Maze! - Bob’s Corn Maze",
-      "venue_name": "Bob's Corn Maze",
+      "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
           "metrics": [
@@ -4417,11 +4417,11 @@
     },
     {
       "event_id": "019b81f3-1f4e-7cc6-956a-57225fb0cd6b",
-      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
       "event_date": "2016-10-02",
       "event_kind": "race",
       "event_name": "Choose Your Adventure: Corn Maze! - Bob’s Corn Maze",
-      "venue_name": "Bob's Corn Maze",
+      "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
           "metrics": [
@@ -4938,11 +4938,11 @@
     },
     {
       "event_id": "019b81f3-1f4d-706b-b3a4-fed563f242f6",
-      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
       "event_date": "2011-01-22",
       "event_kind": "race",
       "event_name": "O' Series #6/WIOL #6",
-      "venue_name": "Shoreview Park - Shoreline, WA",
+      "venue_name": "Shoreview Park",
       "result_rows": [
         {
           "metrics": [
@@ -6276,6 +6276,88 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "1932b161-ffb5-5098-898d-c7ee83765131",
+      "venue_id": "956d66e6-387c-52e6-8d83-ff5ed8c7d8b9",
+      "event_date": "1982-05-23",
+      "event_kind": "race",
+      "event_name": "Greendale",
+      "venue_name": "Greendale, Fort Lewis",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:37:46",
+          "competitive": true,
+          "course_name": "Novice",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "00:37:46",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "01:28:14",
+          "competitive": true,
+          "course_name": "Intermediate A",
+          "course_rank": 6,
+          "status_code": null,
+          "outcome_text": "01:28:14",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "f7f31eed-84db-5fd8-8911-19a8f169c646",
+      "venue_id": "0191398c-e5cc-74d1-bc68-11d65f6da46f",
+      "event_date": "1982-04-10",
+      "event_kind": "race",
+      "event_name": "Discovery Park",
+      "venue_name": "Discovery Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:11:36",
+          "competitive": true,
+          "course_name": "Novice",
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "00:11:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:46:10",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 14,
+          "status_code": null,
+          "outcome_text": "00:46:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [
@@ -6283,7 +6365,7 @@
   ],
   "summary": {
     "role_count": 58,
-    "event_count": 185,
+    "event_count": 187,
     "mention_count": 0
   },
   "mentions": [],
@@ -6397,12 +6479,12 @@
     },
     {
       "event_id": "019b81f3-1f4b-7266-a5da-0e61dbb38087",
-      "venue_id": "019b81f3-1f39-7521-b3fd-22e65018c621",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
       "role_name": "First aid assistance",
       "event_date": "2024-06-21",
       "event_kind": "race",
       "event_name": "2024 PNWOF Day 1",
-      "venue_name": "Fishtrap Lake Middle",
+      "venue_name": "Fishtrap Lake",
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://cascadeoc.org/result/2024-marmot-cup-warmup-fishtrap-lake/"
@@ -6412,12 +6494,12 @@
     },
     {
       "event_id": "019b81f3-1f4b-7266-a5da-0e61dbb38087",
-      "venue_id": "019b81f3-1f39-7521-b3fd-22e65018c621",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
       "role_name": "Start",
       "event_date": "2024-06-21",
       "event_kind": "race",
       "event_name": "2024 PNWOF Day 1",
-      "venue_name": "Fishtrap Lake Middle",
+      "venue_name": "Fishtrap Lake",
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://cascadeoc.org/result/2024-marmot-cup-warmup-fishtrap-lake/"
@@ -6712,12 +6794,12 @@
     },
     {
       "event_id": "019b81f3-1f4d-7a06-89bf-987aa49c3788",
-      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
       "role_name": "Course Designer",
       "event_date": "2018-12-01",
       "event_kind": "race",
       "event_name": "Winter League #3",
-      "venue_name": "Shoreview Park - Shoreline, WA",
+      "venue_name": "Shoreview Park",
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://www.cascadeoc.org/event/winter-series-wiol-3-2/"
@@ -6727,12 +6809,12 @@
     },
     {
       "event_id": "019b81f3-1f4d-7a06-89bf-987aa49c3788",
-      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
       "role_name": "Course Designers",
       "event_date": "2018-12-01",
       "event_kind": "race",
       "event_name": "Winter League #3",
-      "venue_name": "Shoreview Park - Shoreline, WA",
+      "venue_name": "Shoreview Park",
       "citation_count": 1,
       "citation_briefs": [
         "Web Snapshot: https://cocwebsite.azurewebsites.net/result/winter-league-3-shoreline/"
@@ -6742,12 +6824,12 @@
     },
     {
       "event_id": "019b81f3-1f4b-7b95-b2cf-d1dbb5597928",
-      "venue_id": "019b81f3-1f39-79e9-aa13-5640f3576e4f",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
       "role_name": "Course Designer",
       "event_date": "2018-05-13",
       "event_kind": "race",
       "event_name": "Ultimate Orienteer #4 and #5",
-      "venue_name": "Fishtrap Lake 2-day Results",
+      "venue_name": "Fishtrap Lake",
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://www.cascadeoc.org/event/ultimate-orienteer-4-classic/"

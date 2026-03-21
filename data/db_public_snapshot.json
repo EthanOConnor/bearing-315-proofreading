@@ -1,21 +1,21 @@
 {
     "summary": {
         "pages": 1628,
-        "teams": 2964,
-        "events": 2026,
+        "teams": 3227,
+        "events": 2024,
         "series": 11,
-        "venues": 518,
-        "courses": 3049,
-        "results": 82893,
+        "venues": 504,
+        "courses": 3198,
+        "results": 84334,
         "artifacts": 1327,
-        "citations": 2865,
+        "citations": 5353,
         "documents": 1095,
-        "individuals": 10828,
-        "competitions": 1608,
+        "individuals": 11704,
+        "competitions": 1610,
         "event_groups": 6,
         "access_points": 2,
-        "organizations": 57,
-        "unused_venues": 45,
+        "organizations": 67,
+        "unused_venues": 44,
         "web_snapshots": 936,
         "event_date_max": "2026-05-17",
         "event_date_min": "1978-01-09",
@@ -24,36 +24,36 @@
         "mixed_use_venues": 62,
         "series_standings": 54,
         "newsletter_issues": 159,
-        "venue_rows_active": 530,
-        "competition_venues": 115,
-        "individual_rows_raw": 11614,
+        "venue_rows_active": 515,
+        "competition_venues": 112,
+        "individual_rows_raw": 12490,
         "newsletter_date_max": "2009-10-01",
         "newsletter_date_min": "1978-01-01",
         "result_event_date_max": "2026-03-07",
         "result_event_date_min": "1978-05-21",
-        "venue_rows_redirected": 161,
-        "individual_rows_active": 10828,
-        "competition_only_venues": 53,
+        "venue_rows_redirected": 176,
+        "individual_rows_active": 11704,
+        "competition_only_venues": 50,
         "competition_event_date_max": "2026-05-17",
         "competition_event_date_min": "1978-01-14",
         "individual_rows_redirected": 786,
-        "noncompetition_only_venues": 370
+        "noncompetition_only_venues": 359
     },
     "event_kinds": [
         {
-            "count": 1608,
+            "count": 1610,
             "event_kind": "race"
         },
         {
-            "count": 231,
+            "count": 228,
             "event_kind": "meet"
         },
         {
-            "count": 187,
+            "count": 186,
             "event_kind": "session"
         }
     ],
-    "generated_at": "2026-03-21T08:41:26Z",
+    "generated_at": "2026-03-21T09:21:58Z",
     "recent_events": [
         {
             "event_id": "019d0ed4-1271-7332-b2b7-8c813ff32598",
@@ -302,7 +302,7 @@
             "status": "OK"
         },
         {
-            "count": 6609,
+            "count": 7940,
             "status": "(unmapped)"
         },
         {
@@ -310,23 +310,23 @@
             "status": "MSP"
         },
         {
-            "count": 3259,
-            "status": "Blank"
+            "count": 3281,
+            "status": "DNF"
         },
         {
-            "count": 3186,
-            "status": "DNF"
+            "count": 3259,
+            "status": "Blank"
         },
         {
             "count": 243,
             "status": "NC"
         },
         {
-            "count": 124,
+            "count": 127,
             "status": "DNS"
         },
         {
-            "count": 102,
+            "count": 110,
             "status": "DQ"
         },
         {
@@ -334,7 +334,7 @@
             "status": "Wayfinder"
         },
         {
-            "count": 4,
+            "count": 8,
             "status": "Not Complete"
         }
     ],
@@ -1136,7 +1136,7 @@
                     "event_date": "1980-01-19",
                     "event_name": "Lower Woodland Park Meet Jan 19 '80",
                     "venue_name": "Woodland Park",
-                    "result_count": 0,
+                    "result_count": 31,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1186,7 +1186,7 @@
                     "event_date": "1980-04-26",
                     "event_name": "University of Nevada at Reno National Event",
                     "venue_name": "Unknown venue",
-                    "result_count": 0,
+                    "result_count": 6,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "University of Nevada at Reno Orienteering Club"
                 },
@@ -1246,7 +1246,7 @@
                     "event_date": "1980-05-18",
                     "event_name": "Discovery Park",
                     "venue_name": "Discovery Park",
-                    "result_count": 0,
+                    "result_count": 30,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1336,7 +1336,7 @@
                     "event_date": "1980-07-12",
                     "event_name": "Carkeek Park Meet",
                     "venue_name": "Carkeek Park",
-                    "result_count": 0,
+                    "result_count": 21,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1356,7 +1356,7 @@
                     "event_date": "1980-07-27",
                     "event_name": "Fort Lewis Meet",
                     "venue_name": "Fort Lewis - Unspecified Area",
-                    "result_count": 0,
+                    "result_count": 22,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1386,7 +1386,7 @@
                     "event_date": "1980-08-09",
                     "event_name": "Seward Park",
                     "venue_name": "Seward Park",
-                    "result_count": 0,
+                    "result_count": 45,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1466,7 +1466,7 @@
                     "event_date": "1980-10-05",
                     "event_name": "Fort Lewis Class B Meet",
                     "venue_name": "Fort Lewis - Unspecified Area",
-                    "result_count": 0,
+                    "result_count": 55,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1516,8 +1516,8 @@
                     "event_date": "1980-10-19",
                     "event_name": "Stevens Pass Ski Patrol Workshop and Course",
                     "venue_name": "Unknown venue",
-                    "result_count": 0,
-                    "coverage_section": "coc_noncompetition",
+                    "result_count": 3,
+                    "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
@@ -1556,7 +1556,7 @@
                     "event_date": "1980-11-08",
                     "event_name": "Carkeek Park",
                     "venue_name": "Carkeek Park",
-                    "result_count": 0,
+                    "result_count": 35,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1566,7 +1566,7 @@
                     "event_date": "1980-11-22",
                     "event_name": "Woodland Park Night Meet",
                     "venue_name": "Woodland Park",
-                    "result_count": 0,
+                    "result_count": 29,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1606,15 +1606,15 @@
                     "event_date": "1980-12-27",
                     "event_name": "St. Edwards Park Meet",
                     "venue_name": "St. Edward State Park",
-                    "result_count": 0,
+                    "result_count": 38,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 }
             ],
             "event_count": 48,
-            "result_count": 102,
-            "competition_event_count": 23,
-            "competition_result_event_count": 4
+            "result_count": 417,
+            "competition_event_count": 25,
+            "competition_result_event_count": 15
         },
         {
             "year": 1981,
@@ -1625,7 +1625,7 @@
                     "event_date": "1981-01-17",
                     "event_name": "Woodland Park",
                     "venue_name": "Woodland Park",
-                    "result_count": 0,
+                    "result_count": 89,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1635,7 +1635,7 @@
                     "event_date": "1981-02-01",
                     "event_name": "Lincoln Park",
                     "venue_name": "Lincoln Park",
-                    "result_count": 0,
+                    "result_count": 37,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1655,7 +1655,7 @@
                     "event_date": "1981-02-15",
                     "event_name": "Greendale",
                     "venue_name": "Fort Lewis - Unspecified Area",
-                    "result_count": 0,
+                    "result_count": 42,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1675,7 +1675,7 @@
                     "event_date": "1981-02-28",
                     "event_name": "Farrel-McWhirter Park",
                     "venue_name": "Farrel-McWhirter Park",
-                    "result_count": 0,
+                    "result_count": 45,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1685,7 +1685,7 @@
                     "event_date": "1981-03-08",
                     "event_name": "Seward Park",
                     "venue_name": "Seward Park",
-                    "result_count": 0,
+                    "result_count": 59,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1705,7 +1705,7 @@
                     "event_date": "1981-03-21",
                     "event_name": "Carkeek Park",
                     "venue_name": "Carkeek Park",
-                    "result_count": 0,
+                    "result_count": 81,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1715,7 +1715,7 @@
                     "event_date": "1981-04-04",
                     "event_name": "St. Edward State Park",
                     "venue_name": "St. Edward State Park",
-                    "result_count": 0,
+                    "result_count": 26,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1755,7 +1755,7 @@
                     "event_date": "1981-04-18",
                     "event_name": "Farrel-McWhirter Park Relay Meet",
                     "venue_name": "Farrel-McWhirter Park",
-                    "result_count": 0,
+                    "result_count": 21,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1775,7 +1775,7 @@
                     "event_date": "1981-05-03",
                     "event_name": "Ft. Lewis Greendale Meet",
                     "venue_name": "Fort Lewis - Unspecified Area",
-                    "result_count": 0,
+                    "result_count": 46,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1845,7 +1845,7 @@
                     "event_date": "1981-05-30",
                     "event_name": "Seward Park Memory Course",
                     "venue_name": "Seward Park",
-                    "result_count": 0,
+                    "result_count": 33,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1925,7 +1925,7 @@
                     "event_date": "1981-06-20",
                     "event_name": "Fun Trek 81 at Farrel-McWhirter Park",
                     "venue_name": "Farrel-McWhirter Park",
-                    "result_count": 0,
+                    "result_count": 64,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1941,11 +1941,11 @@
                 },
                 {
                     "event_id": "fd5557a7-c8d4-54d5-b93e-8005d782d8e5",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1981-07-12",
                     "event_name": "University of Washington Urban Orienteering Meet",
-                    "venue_name": "University of Washington Campus",
-                    "result_count": 0,
+                    "venue_name": "University of Washington",
+                    "result_count": 51,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -1975,7 +1975,7 @@
                     "event_date": "1981-07-26",
                     "event_name": "Crystal Springs",
                     "venue_name": "Crystal Springs",
-                    "result_count": 0,
+                    "result_count": 17,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2185,7 +2185,7 @@
                     "event_date": "1981-11-21",
                     "event_name": "Woodland Park Night Meet",
                     "venue_name": "Woodland Park",
-                    "result_count": 0,
+                    "result_count": 30,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2195,15 +2195,15 @@
                     "event_date": "1981-12-27",
                     "event_name": "St. Edward State Park",
                     "venue_name": "St. Edward State Park",
-                    "result_count": 0,
+                    "result_count": 39,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 }
             ],
             "event_count": 58,
-            "result_count": 0,
+            "result_count": 680,
             "competition_event_count": 30,
-            "competition_result_event_count": 0
+            "competition_result_event_count": 15
         },
         {
             "year": 1982,
@@ -2214,7 +2214,7 @@
                     "event_date": "1982-01-17",
                     "event_name": "World O Tour Meet",
                     "venue_name": "Woodland Park",
-                    "result_count": 0,
+                    "result_count": 50,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2234,7 +2234,7 @@
                     "event_date": "1982-02-06",
                     "event_name": "Lincoln Park Come-And-Try-It Meet",
                     "venue_name": "Lincoln Park",
-                    "result_count": 0,
+                    "result_count": 29,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2254,7 +2254,7 @@
                     "event_date": "1982-02-20",
                     "event_name": "Crystal Springs Ski-O Meet",
                     "venue_name": "Crystal Springs",
-                    "result_count": 0,
+                    "result_count": 5,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2264,7 +2264,7 @@
                     "event_date": "1982-02-27",
                     "event_name": "Carkeek Park Class C Meet",
                     "venue_name": "Carkeek Park",
-                    "result_count": 0,
+                    "result_count": 17,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2284,7 +2284,7 @@
                     "event_date": "1982-03-14",
                     "event_name": "Camp Long",
                     "venue_name": "Camp Long",
-                    "result_count": 0,
+                    "result_count": 30,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2364,7 +2364,7 @@
                     "event_date": "1982-03-28",
                     "event_name": "Seward Park",
                     "venue_name": "Seward Park",
-                    "result_count": 0,
+                    "result_count": 31,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2384,7 +2384,7 @@
                     "event_date": "1982-04-10",
                     "event_name": "Discovery Park",
                     "venue_name": "Discovery Park",
-                    "result_count": 0,
+                    "result_count": 37,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2414,7 +2414,7 @@
                     "event_date": "1982-04-17",
                     "event_name": "Wonderwood Park",
                     "venue_name": "Wonderwood Park",
-                    "result_count": 0,
+                    "result_count": 29,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Nisqually Orienteers"
                 },
@@ -2450,10 +2450,10 @@
                 },
                 {
                     "event_id": "23984c7a-856e-544b-b24e-9ed080fe076e",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1982-05-02",
                     "event_name": "University of Washington Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -2464,7 +2464,7 @@
                     "event_date": "1982-05-08",
                     "event_name": "Cow Creek, Oregon Meet",
                     "venue_name": "Cow Creek Homestead, central Oregon",
-                    "result_count": 0,
+                    "result_count": 14,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Orienteering Club of Corvallis"
                 },
@@ -2494,7 +2494,7 @@
                     "event_date": "1982-05-16",
                     "event_name": "Canoe/Kayak Orienteering",
                     "venue_name": "Foster Island area",
-                    "result_count": 0,
+                    "result_count": 34,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2544,7 +2544,7 @@
                     "event_date": "1982-05-23",
                     "event_name": "Greendale",
                     "venue_name": "Greendale, Fort Lewis",
-                    "result_count": 0,
+                    "result_count": 30,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2564,7 +2564,7 @@
                     "event_date": "1982-06-12",
                     "event_name": "FunTrek '82",
                     "venue_name": "Farrel-McWhirter Park",
-                    "result_count": 0,
+                    "result_count": 21,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2594,7 +2594,7 @@
                     "event_date": "1982-06-26",
                     "event_name": "Woodland Park Summer Park Series",
                     "venue_name": "Woodland Park",
-                    "result_count": 0,
+                    "result_count": 21,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2624,7 +2624,7 @@
                     "event_date": "1982-07-10",
                     "event_name": "Volunteer Park Summer Park Series",
                     "venue_name": "Volunteer Park",
-                    "result_count": 0,
+                    "result_count": 39,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2644,7 +2644,7 @@
                     "event_date": "1982-08-15",
                     "event_name": "canoe/kayak meet",
                     "venue_name": "Foster Island area",
-                    "result_count": 0,
+                    "result_count": 34,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2684,7 +2684,7 @@
                     "event_date": "1982-10-02",
                     "event_name": "First Cascade Mountain Marathon",
                     "venue_name": "Unknown venue",
-                    "result_count": 0,
+                    "result_count": 25,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -2720,9 +2720,9 @@
                 }
             ],
             "event_count": 51,
-            "result_count": 0,
-            "competition_event_count": 26,
-            "competition_result_event_count": 0
+            "result_count": 446,
+            "competition_event_count": 28,
+            "competition_result_event_count": 16
         },
         {
             "year": 1983,
@@ -2879,10 +2879,10 @@
                 },
                 {
                     "event_id": "9d39866f-0f1c-55cd-b967-f70c2c1cd220",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1983-04-10",
                     "event_name": "University of Washington campus Seattle, WA Meet",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -3677,10 +3677,10 @@
                 },
                 {
                     "event_id": "b1c97923-911f-58e3-8d0f-a14cbd847a84",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1985-01-12",
                     "event_name": "University of Washington Campus Club & WIOL Meet",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -4245,10 +4245,10 @@
                 },
                 {
                     "event_id": "f1b5c60d-898c-5bde-8613-52a2f4a9ec4f",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1987-02-13",
                     "event_name": "University of Washington Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -4935,10 +4935,10 @@
                 },
                 {
                     "event_id": "e231bf30-7db5-59a2-ac92-b12fb256adf8",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1987-10-24",
                     "event_name": "University of Washington Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -5174,10 +5174,10 @@
                 },
                 {
                     "event_id": "b595c370-2ff3-5c24-a5ce-5226a903efea",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1988-02-13",
                     "event_name": "University of Washington Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -5823,10 +5823,10 @@
                 },
                 {
                     "event_id": "2986008d-595a-532c-8da4-70813af64dcd",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1989-02-12",
                     "event_name": "University of Washington Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -5923,10 +5923,10 @@
                 },
                 {
                     "event_id": "b7bc74fb-b822-5ac3-b757-cc9b69bcd722",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1989-11-20",
                     "event_name": "University of Washington Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -6252,10 +6252,10 @@
                 },
                 {
                     "event_id": "6cbf568d-db22-5857-8646-03732d2edaec",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1990-10-21",
                     "event_name": "University of Washington Campus Meet",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -6610,10 +6610,10 @@
                 },
                 {
                     "event_id": "f41f9373-a76a-5732-91ea-a6d72b4d2c20",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1992-04-05",
                     "event_name": "University of Washington Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -7898,10 +7898,10 @@
                 },
                 {
                     "event_id": "dd33eafc-3149-5559-abca-15db2078baa6",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1994-01-30",
                     "event_name": "WIOL Relay Championships",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Husky Orienteering Club"
@@ -8047,21 +8047,11 @@
                     "organizing_club_name": null
                 },
                 {
-                    "event_id": "e79d0904-8b97-58c9-af5a-98db7f833602",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
-                    "event_date": "1994-04-16",
-                    "event_name": "Fire Mountain",
-                    "venue_name": "Fire Mountain",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
                     "event_id": "ecc794bc-587d-5747-836c-d75316fda467",
-                    "venue_id": "dcb49274-a664-56dd-b688-b15d26c44bd1",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "1994-04-16",
-                    "event_name": "Fire Mountain Scout Camp, Mt",
-                    "venue_name": "Fire Mountain Scout Camp, Mt",
+                    "event_name": "Fire Mountain Scout Camp",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -8928,10 +8918,10 @@
                 },
                 {
                     "event_id": "69f223d5-4559-5a83-8e15-76ececda0b9f",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1994-11-13",
                     "event_name": "University of Washington Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Husky Orienteering Club"
@@ -9027,9 +9017,9 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 }
             ],
-            "event_count": 117,
+            "event_count": 116,
             "result_count": 0,
-            "competition_event_count": 85,
+            "competition_event_count": 84,
             "competition_result_event_count": 0
         },
         {
@@ -9307,10 +9297,10 @@
                 },
                 {
                     "event_id": "e2446010-05f9-50dc-a09e-3055e205e79c",
-                    "venue_id": "d02eb1dd-bf77-5c49-a8d9-fdbe2c49b9cd",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "1995-04-08",
                     "event_name": "Fire Mountain Scout Reservation, Mt",
-                    "venue_name": "Fire Mountain Scout Reservation, Mt",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -9697,10 +9687,10 @@
                 },
                 {
                     "event_id": "0d718f0e-cea3-5e6a-88a8-266b68893048",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1995-07-23",
                     "event_name": "University of Washington Beginners Meet",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": null
@@ -9867,10 +9857,10 @@
                 },
                 {
                     "event_id": "a9640169-04d6-5eac-be94-d01790a62bff",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1995-11-05",
                     "event_name": "University of Washington Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Husky Orienteering Club"
@@ -10206,10 +10196,10 @@
                 },
                 {
                     "event_id": "2ff25533-64d7-536f-8c93-f35295ab2047",
-                    "venue_id": "d02eb1dd-bf77-5c49-a8d9-fdbe2c49b9cd",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "1996-03-01",
                     "event_name": "Fire Mountain Scout Reservation, Mt",
-                    "venue_name": "Fire Mountain Scout Reservation, Mt",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -11016,10 +11006,10 @@
                 },
                 {
                     "event_id": "74c7bb45-1aa1-5260-ac83-e509da2a8c6d",
-                    "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+                    "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
                     "event_date": "1996-10-20",
                     "event_name": "Shoreview Park, Shoreline",
-                    "venue_name": "Shoreview Park - Shoreline, WA",
+                    "venue_name": "Shoreview Park",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Sammamish Orienteering Club"
@@ -11076,10 +11066,10 @@
                 },
                 {
                     "event_id": "613982da-1c47-5a74-b9e4-7455bac77ea0",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1996-11-03",
                     "event_name": "UW Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Husky Orienteering and Running Club"
@@ -11295,10 +11285,10 @@
                 },
                 {
                     "event_id": "a110bcf5-8301-5677-bf59-9e74d5d6d6ea",
-                    "venue_id": "b2be361b-4157-5aa2-a3e8-9b7068cc7943",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "1997-03-01",
                     "event_name": "Washington State Intercollegiate Championships",
-                    "venue_name": "Fire Mountain Scout Reservation",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -11595,10 +11585,10 @@
                 },
                 {
                     "event_id": "a2be7093-ebef-589f-9f3e-d756784f7be3",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1997-07-12",
                     "event_name": "UW Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -11955,10 +11945,10 @@
                 },
                 {
                     "event_id": "7036987e-d213-571d-a7b9-1afecfdee9db",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1997-11-30",
                     "event_name": "UW Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Husky Orienteering & Running Club"
@@ -12444,10 +12434,10 @@
                 },
                 {
                     "event_id": "f768d47f-3101-53b7-81fd-333a1f35d91e",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1998-07-12",
                     "event_name": "UW Canoe and Foot O'",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -12874,10 +12864,10 @@
                 },
                 {
                     "event_id": "4ef1da59-7320-5795-b3f2-c7b7831f9028",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1998-11-29",
                     "event_name": "UW Campus",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "non_coc",
                     "organizing_club_name": "Husky Orienteering & Running Club"
@@ -13533,10 +13523,10 @@
                 },
                 {
                     "event_id": "019b7b43-b196-7359-9c0f-a1ca5e55d775",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "1999-08-15",
                     "event_name": "UW Canoe and Foot O'",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 11,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -14231,10 +14221,10 @@
                 },
                 {
                     "event_id": "019b7fff-d9b5-72ba-92f2-d2f81b3abdba",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2001-04-07",
                     "event_name": "Fire Mountain Classic-O - The Ultimate Orienteer 3",
-                    "venue_name": "Fire Mountain",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 66,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -14868,10 +14858,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50f-7597-a6e2-64328105998b",
-                    "venue_id": "019b81e3-a4f7-72b8-bab3-cc921c912d68",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2004-04-17",
                     "event_name": "Ultimate Orienteer #2",
-                    "venue_name": "Fire Mt. Scout Reservation",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -15525,10 +15515,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50e-781a-8b40-5cb7cba8b522",
-                    "venue_id": "019b81b3-75d2-7fcb-bb1d-d799822ad5f1",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2007-02-03",
                     "event_name": "WIOL #7/O' Series #7",
-                    "venue_name": "Fire Mt.",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -15724,10 +15714,10 @@
                 },
                 {
                     "event_id": "019b81e3-a50e-7b8e-9e3e-9955ee8c35e3",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2008-02-02",
                     "event_name": "O' Series #7/WIOL #7",
-                    "venue_name": "Fire Mountain",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -16201,21 +16191,11 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "019b81e3-a50f-756d-a97b-b5444d166464",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
-                    "event_date": "2010-02-06",
-                    "event_name": "O' Series #7/WIOL #7",
-                    "venue_name": "Fire Mountain",
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
                     "event_id": "019b81f3-1f4b-7125-90a4-ea7aa9eae55b",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2010-02-06",
-                    "event_name": "Winter O' Series #7",
-                    "venue_name": "Fire Mountain",
+                    "event_name": "Winter O' Series #7 / WIOL #7",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 135,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -16491,9 +16471,9 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 }
             ],
-            "event_count": 32,
+            "event_count": 31,
             "result_count": 2995,
-            "competition_event_count": 31,
+            "competition_event_count": 30,
             "competition_result_event_count": 13
         },
         {
@@ -16511,20 +16491,20 @@
                 },
                 {
                     "event_id": "019b81f3-1f4d-706b-b3a4-fed563f242f6",
-                    "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+                    "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
                     "event_date": "2011-01-22",
                     "event_name": "O' Series #6/WIOL #6",
-                    "venue_name": "Shoreview Park - Shoreline, WA",
+                    "venue_name": "Shoreview Park",
                     "result_count": 305,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
                     "event_id": "019b81f3-1f4a-7153-bf12-11f11aa1e6e1",
-                    "venue_id": "019b81f3-1f39-7545-a8f4-5b831f01346e",
+                    "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
                     "event_date": "2011-02-05",
                     "event_name": "O' Series #7/WIOL #7 - Green River CC",
-                    "venue_name": "Auburn, WA",
+                    "venue_name": "Green River College",
                     "result_count": 324,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -16701,10 +16681,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-74d2-bfc3-3e3874eb76f4",
-                    "venue_id": "019d0c54-0219-70e2-963e-78d72d378fa8",
+                    "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
                     "event_date": "2011-12-31",
                     "event_name": "Bog Slog 2011",
-                    "venue_name": "Kenmore, Washington",
+                    "venue_name": "St. Edward State Park",
                     "result_count": 193,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -16750,10 +16730,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-74ca-af78-52509bb30a3f",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2012-02-18",
                     "event_name": "Winter O' Series/WIOL 2011-12 Championship",
-                    "venue_name": "Fire Mountain",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -16850,10 +16830,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4e-766e-a806-7b09705036dc",
-                    "venue_id": "019b81f3-1f39-73c2-a25c-d6ccee7e8e32",
+                    "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
                     "event_date": "2012-07-22",
                     "event_name": "Choose Your Adventure #1",
-                    "venue_name": "University of Washington Campus",
+                    "venue_name": "University of Washington",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -16890,10 +16870,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4a-7747-874f-d3a8518d0ef7",
-                    "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+                    "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
                     "event_date": "2012-10-14",
                     "event_name": "Choose Your Adventure #5",
-                    "venue_name": "Bob's Corn Maze",
+                    "venue_name": "Bob's Corn Maze & Pumpkin Farm",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -16950,10 +16930,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4c-7098-9333-af222cee808d",
-                    "venue_id": "019d0c54-0219-70e2-963e-78d72d378fa8",
+                    "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
                     "event_date": "2012-12-29",
                     "event_name": "Bog Slog 2012",
-                    "venue_name": "Kenmore, Washington",
+                    "venue_name": "St. Edward State Park",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -16989,10 +16969,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-7cd3-9afe-3454f5e1c6ff",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2013-02-02",
                     "event_name": "Winter O' Series/WIOL #7",
-                    "venue_name": "Fire Mountain",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 320,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -17119,10 +17099,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4a-7836-82e7-f1308eaefa5c",
-                    "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+                    "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
                     "event_date": "2013-10-13",
                     "event_name": "Choose Your Adventure #5: Corn Maze!",
-                    "venue_name": "Bob's Corn Maze",
+                    "venue_name": "Bob's Corn Maze & Pumpkin Farm",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -17218,10 +17198,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-7cab-a174-15d25337fc22",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2014-02-01",
                     "event_name": "Winter O' Series/WIOL #7",
-                    "venue_name": "Fire Mountain",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -17816,10 +17796,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-7f5d-be55-704b4dda5392",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2016-02-06",
                     "event_name": "Winter O' Series/ WIOL #7",
-                    "venue_name": "Fire Mountain",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 0,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -17966,10 +17946,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-78d1-b6c9-6f87e57f7907",
-                    "venue_id": "019b81f3-1f39-7af1-97bb-74df5a9f4fa9",
+                    "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
                     "event_date": "2016-06-25",
                     "event_name": "2017 Ultimate Orienteer #9",
-                    "venue_name": "Goat (Fishtrap Lake)",
+                    "venue_name": "Fishtrap Lake",
                     "result_count": 52,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -18106,10 +18086,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4e-7cc6-956a-57225fb0cd6b",
-                    "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+                    "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
                     "event_date": "2016-10-02",
                     "event_name": "Choose Your Adventure: Corn Maze! - Bob’s Corn Maze",
-                    "venue_name": "Bob's Corn Maze",
+                    "venue_name": "Bob's Corn Maze & Pumpkin Farm",
                     "result_count": 74,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -18475,10 +18455,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4e-7e3f-92ed-63f73f4b22e3",
-                    "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+                    "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
                     "event_date": "2017-10-01",
                     "event_name": "Choose Your Adventure #5: Corn Maze! - Bob’s Corn Maze",
-                    "venue_name": "Bob's Corn Maze",
+                    "venue_name": "Bob's Corn Maze & Pumpkin Farm",
                     "result_count": 196,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -18584,10 +18564,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4e-7efc-9a48-43ee67f98d99",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2018-02-17",
                     "event_name": "Winter O / WIOL Championships",
-                    "venue_name": "Fire Mountain",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 292,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -18644,10 +18624,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-7b95-b2cf-d1dbb5597928",
-                    "venue_id": "019b81f3-1f39-79e9-aa13-5640f3576e4f",
+                    "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
                     "event_date": "2018-05-13",
                     "event_name": "Ultimate Orienteer #4 and #5",
-                    "venue_name": "Fishtrap Lake 2-day Results",
+                    "venue_name": "Fishtrap Lake",
                     "result_count": 46,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -18814,10 +18794,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4e-7573-8ad9-30f8abdbaa5a",
-                    "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+                    "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
                     "event_date": "2018-09-22",
                     "event_name": "Choose Your Adventure #3: Corn Maze! - Bob’s Corn Maze, Snohomish",
-                    "venue_name": "Bob's Corn Maze",
+                    "venue_name": "Bob's Corn Maze & Pumpkin Farm",
                     "result_count": 103,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -18854,10 +18834,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4d-7a06-89bf-987aa49c3788",
-                    "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+                    "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
                     "event_date": "2018-12-01",
                     "event_name": "Winter League #3",
-                    "venue_name": "Shoreview Park - Shoreline, WA",
+                    "venue_name": "Shoreview Park",
                     "result_count": 786,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -18983,10 +18963,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4a-7f5b-9154-0b97756fd753",
-                    "venue_id": "019b81f3-1f39-71a0-9515-e830ba81c0ef",
+                    "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
                     "event_date": "2019-04-06",
                     "event_name": "2019 Ultimate Orienteer #4",
-                    "venue_name": "Bridle Trails (Score)",
+                    "venue_name": "Bridle Trails State Park",
                     "result_count": 176,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -19292,10 +19272,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4e-742f-aaf6-b63f3d7ea58c",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2020-02-08",
                     "event_name": "2019-2020 Winter League #7 - Fire Mountain",
-                    "venue_name": "Fire Mountain",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 490,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -20029,20 +20009,20 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-7ebc-92c6-b9785594331e",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2023-02-18",
                     "event_name": "2022-23 Winter League Championships",
-                    "venue_name": "Fire Mountain",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 289,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
                     "event_id": "019b81f3-1f4b-7c12-aefb-9a1cc667df06",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2023-02-18",
                     "event_name": "2023 Fire Mountain NRE",
-                    "venue_name": "Fire Mountain",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 288,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -20418,10 +20398,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4b-7266-a5da-0e61dbb38087",
-                    "venue_id": "019b81f3-1f39-7521-b3fd-22e65018c621",
+                    "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
                     "event_date": "2024-06-21",
                     "event_name": "2024 PNWOF Day 1",
-                    "venue_name": "Fishtrap Lake Middle",
+                    "venue_name": "Fishtrap Lake",
                     "result_count": 103,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
@@ -20637,10 +20617,10 @@
                 },
                 {
                     "event_id": "019b81f3-1f4e-7e91-9747-42d7aeb9c29d",
-                    "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+                    "venue_id": "019b81f3-1f39-7612-aba8-dee6a7efdace",
                     "event_date": "2025-02-08",
                     "event_name": "2024 Winter League 07 - Fire Mountain",
-                    "venue_name": "Fire Mountain",
+                    "venue_name": "Fire Mountain Scout Camp",
                     "result_count": 492,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"

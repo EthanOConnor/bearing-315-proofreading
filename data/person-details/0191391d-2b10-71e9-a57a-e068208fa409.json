@@ -1,6 +1,34 @@
 {
   "events": [
     {
+      "event_id": "f8b2cdbf-82fa-53cb-a7a3-68a4bbe791ab",
+      "venue_id": null,
+      "event_date": "1980-04-26",
+      "event_kind": "race",
+      "event_name": "University of Nevada at Reno National Event",
+      "venue_name": "Unknown venue",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Blue",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "01913926-c44c-706a-95f2-97360c957d41",
       "venue_id": "01913927-5a14-7bdb-8b3c-b840c25c4d0c",
       "event_date": "1980-04-19",
@@ -176,7 +204,7 @@
   ],
   "summary": {
     "role_count": 2,
-    "event_count": 6,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

@@ -1,0 +1,71 @@
+{
+  "events": [
+    {
+      "event_id": "1932b161-ffb5-5098-898d-c7ee83765131",
+      "venue_id": "956d66e6-387c-52e6-8d83-ff5ed8c7d8b9",
+      "event_date": "1982-05-23",
+      "event_kind": "race",
+      "event_name": "Greendale",
+      "venue_name": "Greendale, Fort Lewis",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:37:57",
+          "competitive": true,
+          "course_name": "Intermediate B",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "01:37:57",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "fd5557a7-c8d4-54d5-b93e-8005d782d8e5",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "1981-07-12",
+      "event_kind": "race",
+      "event_name": "University of Washington Urban Orienteering Meet",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "raw_time_text",
+              "metric_text": "DNF"
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Raw Time Text DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Raw Time Text DNF",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 2,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0fb1-221c-7d4f-8108-27ecc43e61ee",
+  "individual_name": "Will Sperry",
+  "volunteer_roles": []
+}

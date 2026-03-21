@@ -1,6 +1,32 @@
 {
   "events": [
     {
+      "event_id": "1932b161-ffb5-5098-898d-c7ee83765131",
+      "venue_id": "956d66e6-387c-52e6-8d83-ff5ed8c7d8b9",
+      "event_date": "1982-05-23",
+      "event_kind": "race",
+      "event_name": "Greendale",
+      "venue_name": "Greendale, Fort Lewis",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:21:23",
+          "competitive": true,
+          "course_name": "Intermediate B",
+          "course_rank": 6,
+          "status_code": null,
+          "outcome_text": "02:21:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019143ce-bcee-7997-83f6-fa3ad1a11c03",
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "1980-10-26",
@@ -29,12 +55,28 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
-    "event_count": 1,
+    "role_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "7e88ce4a-84aa-4fcc-bd39-b56970524ada",
   "individual_name": "Pat Malloy",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "94a4f328-f3f1-5514-98a0-83184d8a621f",
+      "venue_id": "7ad51ba8-9daa-5b56-bc33-6ad8411704d3",
+      "role_name": "Meet Director",
+      "event_date": "1982-04-17",
+      "event_kind": "race",
+      "event_name": "Wonderwood Park",
+      "venue_name": "Wonderwood Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Bearing 315, March/April 1982"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

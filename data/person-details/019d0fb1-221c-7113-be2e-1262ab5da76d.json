@@ -1,0 +1,75 @@
+{
+  "events": [
+    {
+      "event_id": "1ed777a3-3973-5d58-b862-2019d800c0db",
+      "venue_id": "1c566800-1b8f-5324-8dfb-c9083830b773",
+      "event_date": "1982-05-08",
+      "event_kind": "race",
+      "event_name": "Cow Creek, Oregon Meet",
+      "venue_name": "Cow Creek Homestead, central Oregon",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_text": "DNS"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_text": "DNB"
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": 5,
+          "status_code": "DNS",
+          "outcome_text": "Day 1 Time DNS; Day 2 Time DNB",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Day 1 Time DNS; Day 2 Time DNB",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "28236c0f-8d14-56cf-96e9-601bf9d54699",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "1981-11-21",
+      "event_kind": "race",
+      "event_name": "Woodland Park Night Meet",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:46:00",
+          "competitive": true,
+          "course_name": "Yellow",
+          "course_rank": 10,
+          "status_code": null,
+          "outcome_text": "00:46:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 2,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0fb1-221c-7113-be2e-1262ab5da76d",
+  "individual_name": "Sharon Hagedorn",
+  "volunteer_roles": []
+}

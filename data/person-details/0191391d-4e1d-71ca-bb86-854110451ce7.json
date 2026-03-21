@@ -1,6 +1,86 @@
 {
   "events": [
     {
+      "event_id": "cb7c088f-18ff-5f46-87bf-f31e2b70ced7",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "1981-01-17",
+      "event_kind": "race",
+      "event_name": "Woodland Park",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:30:00",
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": 3,
+          "status_code": null,
+          "outcome_text": "00:30:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "32c8496a-5704-5bc6-ba4f-1a9a125fae65",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "1980-11-22",
+      "event_kind": "race",
+      "event_name": "Woodland Park Night Meet",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:36:05",
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "00:36:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "f8b2cdbf-82fa-53cb-a7a3-68a4bbe791ab",
+      "venue_id": null,
+      "event_date": "1980-04-26",
+      "event_kind": "race",
+      "event_name": "University of Nevada at Reno National Event",
+      "venue_name": "Unknown venue",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Women's Div.",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "01913926-c44c-706a-95f2-97360c957d41",
       "venue_id": "01913927-5a14-7bdb-8b3c-b840c25c4d0c",
       "event_date": "1980-04-19",
@@ -167,7 +247,7 @@
   "aliases": [],
   "summary": {
     "role_count": 1,
-    "event_count": 6,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

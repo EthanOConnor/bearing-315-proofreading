@@ -1,6 +1,32 @@
 {
   "events": [
     {
+      "event_id": "cf725cbf-5a8f-521e-98bf-cac046b7996a",
+      "venue_id": "01913927-5a14-7bdb-8b3c-b840c25c4d0c",
+      "event_date": "1980-07-12",
+      "event_kind": "race",
+      "event_name": "Carkeek Park Meet",
+      "venue_name": "Carkeek Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:45:43",
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": 6,
+          "status_code": null,
+          "outcome_text": "01:45:43",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7c88-e180-7483-8b6f-def3da4ec1ba",
       "venue_id": "019b7af7-a551-71f2-a306-c05975cb541e",
       "event_date": "1979-07-15",
@@ -37,8 +63,8 @@
     "Elnar Storakers"
   ],
   "summary": {
-    "role_count": 3,
-    "event_count": 1,
+    "role_count": 4,
+    "event_count": 2,
     "mention_count": 1
   },
   "mentions": [
@@ -62,7 +88,7 @@
       "event_kind": "race",
       "event_name": "Fort Lewis Area 33 Meet Sep 16 '79",
       "venue_name": "Fort Lewis - Area 33",
-      "citation_count": 1,
+      "citation_count": 2,
       "citation_briefs": [
         "Bearing 315, October/November 1979"
       ],
@@ -77,7 +103,7 @@
       "event_kind": "race",
       "event_name": "Fort Lewis Area 33 Meet Sep 16 '79",
       "venue_name": "Fort Lewis - Area 33",
-      "citation_count": 1,
+      "citation_count": 2,
       "citation_briefs": [
         "Bearing 315, August/September 1979"
       ],
@@ -94,6 +120,22 @@
       "venue_name": "Bellevue Square",
       "citation_count": 1,
       "citation_briefs": [
+        "Bearing 315, June/July 1979"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b7d8e-80bd-7ef0-aade-c99e2482669d",
+      "venue_id": "019b7d8d-b8b3-7a46-b3f4-012f01dc5f56",
+      "role_name": "Organizer",
+      "event_date": "1979-06-23",
+      "event_kind": "race",
+      "event_name": "Eddie Bauer Outdoor Awareness Fair (COC booth)",
+      "venue_name": "Bellevue Square",
+      "citation_count": 2,
+      "citation_briefs": [
+        "Bearing 315, August/September 1979",
         "Bearing 315, June/July 1979"
       ],
       "volunteer_hours": null,

@@ -648,12 +648,143 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "aa587bcb-45d2-505f-92fb-b2963d0c5bfe",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "1982-06-26",
+      "event_kind": "race",
+      "event_name": "Woodland Park Summer Park Series",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:33:44",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "00:33:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:23:36",
+          "competitive": true,
+          "course_name": "Contour Only",
+          "course_rank": 4,
+          "status_code": null,
+          "outcome_text": "00:23:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "fd5557a7-c8d4-54d5-b93e-8005d782d8e5",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "1981-07-12",
+      "event_kind": "race",
+      "event_name": "University of Washington Urban Orienteering Meet",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "raw_time_text",
+              "metric_text": "DNF"
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Raw Time Text DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Raw Time Text DNF",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "cb7c088f-18ff-5f46-87bf-f31e2b70ced7",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "1981-01-17",
+      "event_kind": "race",
+      "event_name": "Woodland Park",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "raw_time_text",
+              "metric_text": "40 (37)"
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Red Score",
+          "course_rank": 5,
+          "status_code": null,
+          "outcome_text": "Raw Time Text 40 (37)",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Raw Time Text 40 (37)",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "8c866505-8d35-5172-816e-fb88a5ca5214",
+      "venue_id": "01913927-5a14-7bdb-8b3c-b840c25c4d0c",
+      "event_date": "1980-11-08",
+      "event_kind": "race",
+      "event_name": "Carkeek Park",
+      "venue_name": "Carkeek Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:13:57",
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": 4,
+          "status_code": null,
+          "outcome_text": "01:13:57",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "Seattle"
+          ]
+        }
+      ],
+      "result_row_count": 1
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 2,
-    "event_count": 22,
+    "event_count": 26,
     "mention_count": 0
   },
   "mentions": [],

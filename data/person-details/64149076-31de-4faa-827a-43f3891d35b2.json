@@ -1,6 +1,32 @@
 {
   "events": [
     {
+      "event_id": "1932b161-ffb5-5098-898d-c7ee83765131",
+      "venue_id": "956d66e6-387c-52e6-8d83-ff5ed8c7d8b9",
+      "event_date": "1982-05-23",
+      "event_kind": "race",
+      "event_name": "Greendale",
+      "venue_name": "Greendale, Fort Lewis",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:30:14",
+          "competitive": true,
+          "course_name": "Intermediate A",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "00:30:14",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019143ce-bcee-7997-83f6-fa3ad1a11c03",
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "1980-10-26",
@@ -30,7 +56,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

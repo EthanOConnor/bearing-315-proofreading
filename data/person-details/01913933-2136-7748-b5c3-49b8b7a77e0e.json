@@ -1,6 +1,86 @@
 {
   "events": [
     {
+      "event_id": "2cd0e305-5f40-5d20-a317-a0f21379cdf9",
+      "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
+      "event_date": "1981-06-20",
+      "event_kind": "race",
+      "event_name": "Fun Trek 81 at Farrel-McWhirter Park",
+      "venue_name": "Farrel-McWhirter Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:46:41",
+          "competitive": true,
+          "course_name": "Freestyle",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "00:46:41",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "4233d20a-58f6-53d8-8e66-6fff3ee34683",
+      "venue_id": "01913a4a-787e-7b0f-8dc3-521bdc074b30",
+      "event_date": "1981-02-15",
+      "event_kind": "race",
+      "event_name": "Greendale",
+      "venue_name": "Fort Lewis - Unspecified Area",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:39:48",
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": 8,
+          "status_code": null,
+          "outcome_text": "00:39:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "8c866505-8d35-5172-816e-fb88a5ca5214",
+      "venue_id": "01913927-5a14-7bdb-8b3c-b840c25c4d0c",
+      "event_date": "1980-11-08",
+      "event_kind": "race",
+      "event_name": "Carkeek Park",
+      "venue_name": "Carkeek Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:36:40",
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": 9,
+          "status_code": null,
+          "outcome_text": "02:36:40",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "01913956-acfa-78f1-8b77-ec2d45244493",
       "venue_id": "01913952-64fe-7779-b894-b7b1219c93c2",
       "event_date": "1980-05-11",
@@ -51,12 +131,38 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b8156-60bd-7fea-b11b-d471da605408",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "1980-01-19",
+      "event_kind": "race",
+      "event_name": "Lower Woodland Park Meet Jan 19 '80",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:48:00",
+          "competitive": true,
+          "course_name": "White",
+          "course_rank": 6,
+          "status_code": null,
+          "outcome_text": "00:48:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

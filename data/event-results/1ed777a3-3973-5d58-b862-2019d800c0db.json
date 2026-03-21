@@ -1,18 +1,487 @@
 {
-  "courses": [],
+  "courses": [
+    {
+      "results": [
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:16:29"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:19:56"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "02:36:25"
+            }
+          ],
+          "team_id": null,
+          "result_id": "e49573a0-e1c7-55a9-b981-588b10572ac7",
+          "time_text": "02:36:25",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "02:36:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "da7d71a4-12e1-433c-8539-92f3b7452612",
+          "metric_summary": "Day 1 Time 01:16:29; Day 2 Time 01:19:56; Total Time 02:36:25",
+          "competitor_name": "Jeff Lewis",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:35:22"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:33:48"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "03:09:10"
+            }
+          ],
+          "team_id": null,
+          "result_id": "3b368327-cad0-5f71-abd0-585cc6bf63b6",
+          "time_text": "03:09:10",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "03:09:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "0191394f-d748-7189-887f-793488143b6d",
+          "metric_summary": "Day 1 Time 01:35:22; Day 2 Time 01:33:48; Total Time 03:09:10",
+          "competitor_name": "Mike Schuh",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "02:01:21"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:36:08"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "03:37:29"
+            }
+          ],
+          "team_id": null,
+          "result_id": "dd5e9b72-f9db-5051-8273-8477862d843f",
+          "time_text": "03:37:29",
+          "competitive": true,
+          "course_rank": 3,
+          "status_code": null,
+          "outcome_text": "03:37:29",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0fb1-221d-7d7c-9a05-0e93914c254a",
+          "metric_summary": "Day 1 Time 02:01:21; Day 2 Time 01:36:08; Total Time 03:37:29",
+          "competitor_name": "Eva Diener",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:24:26"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "02:17:24"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "03:41:50"
+            }
+          ],
+          "team_id": null,
+          "result_id": "db6f2f68-ea22-5954-8082-6129883e1ba6",
+          "time_text": "03:41:50",
+          "competitive": true,
+          "course_rank": 4,
+          "status_code": null,
+          "outcome_text": "03:41:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "0191391d-36c8-7efb-902e-0defd7a1317e",
+          "metric_summary": "Day 1 Time 01:24:26; Day 2 Time 02:17:24; Total Time 03:41:50",
+          "competitor_name": "Dave Enger",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "course_id": "019d0fb1-229a-7a28-a2ba-28755302b50a",
+      "course_name": "Blue",
+      "distance_km": null,
+      "result_count": 4,
+      "control_count": null,
+      "course_climb_m": null
+    },
+    {
+      "results": [
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "00:44:20"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "00:56:45"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "01:41:05"
+            }
+          ],
+          "team_id": null,
+          "result_id": "e5c8d23e-19b9-5576-bbab-0f755e7da588",
+          "time_text": "01:41:05",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "01:41:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b78a8-94a9-74e1-bbfa-b86cb31d793e",
+          "metric_summary": "Day 1 Time 00:44:20; Day 2 Time 00:56:45; Total Time 01:41:05",
+          "competitor_name": "Gregg Ferry",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:15:48"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:39:56"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "02:55:44"
+            }
+          ],
+          "team_id": null,
+          "result_id": "d8113d37-c246-5392-8166-dad0777cd5ba",
+          "time_text": "02:55:44",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "02:55:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0fb1-221c-792e-b275-826f36e398bc",
+          "metric_summary": "Day 1 Time 01:15:48; Day 2 Time 01:39:56; Total Time 02:55:44",
+          "competitor_name": "Tom Lewis",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "raw_time_text",
+              "metric_text": "DNF"
+            }
+          ],
+          "team_id": null,
+          "result_id": "4da56345-2c7f-5abb-9910-0d63744b1514",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": 3,
+          "status_code": "DNF",
+          "outcome_text": "Raw Time Text DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b8163-5204-757f-889d-4e0cd497f294",
+          "metric_summary": "Raw Time Text DNF",
+          "competitor_name": "Harvey Friedman",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "course_id": "019d0fb1-229f-7d61-84a4-ce4d7192ba17",
+      "course_name": "Green",
+      "distance_km": null,
+      "result_count": 3,
+      "control_count": null,
+      "course_climb_m": null
+    },
+    {
+      "results": [
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:13:13"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:11:10"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "02:24:23"
+            }
+          ],
+          "team_id": null,
+          "result_id": "b0a493ad-383c-5b16-8dfb-3a3ce135e2a8",
+          "time_text": "02:24:23",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "02:24:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0fb1-221d-7039-acaa-9ba24a2b33d8",
+          "metric_summary": "Day 1 Time 01:13:13; Day 2 Time 01:11:10; Total Time 02:24:23",
+          "competitor_name": "Steve Hawkins",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:43:52"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:47:24"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "03:17:40"
+            }
+          ],
+          "team_id": null,
+          "result_id": "40fce354-42a3-50fa-8a56-5eaa5849c88a",
+          "time_text": "03:17:40",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "03:17:40",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0fb1-221c-7a87-afcc-0e8d1b8443a3",
+          "metric_summary": "Day 1 Time 01:43:52; Day 2 Time 01:47:24; Total Time 03:17:40",
+          "competitor_name": "Giorgio Caravatti",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:41:52"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:47:24"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "03:31:16"
+            }
+          ],
+          "team_id": null,
+          "result_id": "7f895161-fb0e-5fb7-9199-0d0ca6450428",
+          "time_text": "03:31:16",
+          "competitive": true,
+          "course_rank": 3,
+          "status_code": null,
+          "outcome_text": "03:31:16",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0fb1-221d-798e-8b08-9cc65266d67e",
+          "metric_summary": "Day 1 Time 01:41:52; Day 2 Time 01:47:24; Total Time 03:31:16",
+          "competitor_name": "Pat Megowan",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_text": "DNF"
+            }
+          ],
+          "team_id": null,
+          "result_id": "fd146551-79e1-5417-a661-573e4c69dad6",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": 4,
+          "status_code": "DNF",
+          "outcome_text": "Day 1 Time DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "0191440d-18ba-7f9e-a3d0-4169e8651785",
+          "metric_summary": "Day 1 Time DNF",
+          "competitor_name": "Nancy Lewis",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_text": "DNS"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_text": "DNB"
+            }
+          ],
+          "team_id": null,
+          "result_id": "f9566e40-12ea-5c50-899d-cbc7441abb63",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": 5,
+          "status_code": "DNS",
+          "outcome_text": "Day 1 Time DNS; Day 2 Time DNB",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0fb1-221c-7113-be2e-1262ab5da76d",
+          "metric_summary": "Day 1 Time DNS; Day 2 Time DNB",
+          "competitor_name": "Sharon Hagedorn",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "course_id": "019d0fb1-229a-7681-b0db-754a7aebd30a",
+      "course_name": "Orange",
+      "distance_km": null,
+      "result_count": 5,
+      "control_count": null,
+      "course_climb_m": null
+    },
+    {
+      "results": [
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "02:13:46"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "02:22:59"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "04:36:35"
+            }
+          ],
+          "team_id": null,
+          "result_id": "8143b772-49cf-5dcb-81c6-826cbe41be6c",
+          "time_text": "04:36:35",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "04:36:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0fb1-221c-7369-bc04-3450a06a69bf",
+          "metric_summary": "Day 1 Time 02:13:46; Day 2 Time 02:22:59; Total Time 04:36:35",
+          "competitor_name": "Silvo Decurtins",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "03:02:15"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "02:41:05"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_time_text": "05:43:20"
+            }
+          ],
+          "team_id": null,
+          "result_id": "bee4b669-d5fe-5064-bdf1-e647b7637edf",
+          "time_text": "05:43:20",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "05:43:20",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b8163-5203-7382-9b96-3cde35888399",
+          "metric_summary": "Day 1 Time 03:02:15; Day 2 Time 02:41:05; Total Time 05:43:20",
+          "competitor_name": "Anne York",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "course_id": "019d0fb1-229a-7cfa-bcca-71d86a1ae9bf",
+      "course_name": "Red",
+      "distance_km": null,
+      "result_count": 2,
+      "control_count": null,
+      "course_climb_m": null
+    }
+  ],
   "event_id": "1ed777a3-3973-5d58-b862-2019d800c0db",
   "venue_id": "1c566800-1b8f-5324-8dfb-c9083830b773",
   "event_date": "1982-05-08",
-  "event_kind": "meet",
+  "event_kind": "race",
   "event_name": "Cow Creek, Oregon Meet",
   "venue_name": "Cow Creek Homestead, central Oregon",
   "event_notes": null,
-  "course_count": 0,
-  "result_count": 0,
+  "course_count": 4,
+  "result_count": 14,
   "citation_count": 4,
   "event_comments": "Reviewed newsletter canonicalization wave 2026-03-21 (1978-1982) merged duplicate event 9406b744-8242-5f7d-a23b-d56603968952 (\"OSUOC Class B Meet at Cow Creek\"). Reason: schedule duplicate. Notes: The OSUOC wording and later Cow Creek listing describe the same May 8-9, 1982 Corvallis-area meet.",
   "external_links": [],
   "volunteer_roles": [],
-  "result_source_brief": "Bearing 315, January/February 1982",
+  "result_source_brief": "Bearing 315, July/August 1982",
   "organizing_club_name": "Orienteering Club of Corvallis"
 }

@@ -1,18 +1,103 @@
 {
-  "courses": [],
+  "courses": [
+    {
+      "results": [
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "8ddd95b6-efbd-5b1e-a747-e4230bb79fa7",
+          "time_text": "00:19:15",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "00:19:15",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7fc3-dca1-7449-8f48-eb882a618018",
+          "metric_summary": null,
+          "competitor_name": "Ed",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "32f9e39b-f188-53a4-9c76-03fd9a4c79ee",
+          "time_text": "00:22:35",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "00:22:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b8046-0f3f-7884-bbc0-3462017e8674",
+          "metric_summary": null,
+          "competitor_name": "Mike",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0fb1-22bd-75ae-8874-04bc048fea00",
+          "result_id": "9fde233d-65ec-5f2f-a7b1-bf7ad1c48e48",
+          "time_text": "00:39:00",
+          "competitive": true,
+          "course_rank": 3,
+          "status_code": null,
+          "outcome_text": "00:39:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "Sally & Doris",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "course_id": "019d0fb1-229b-7ef2-8f02-daee0315d10d",
+      "course_name": "Yellow Open",
+      "distance_km": 1.4,
+      "result_count": 3,
+      "control_count": 8,
+      "course_climb_m": null
+    }
+  ],
   "event_id": "5d76349d-5ebc-5d74-bd5f-2efb863fbba0",
   "venue_id": null,
   "event_date": "1980-10-19",
-  "event_kind": "session",
+  "event_kind": "race",
   "event_name": "Stevens Pass Ski Patrol Workshop and Course",
   "venue_name": "Unknown venue",
   "event_notes": "Training-weekend workshop plus short course rather than a standard public club meet.\n\nSource venue label: Stevens Pass.",
-  "course_count": 0,
-  "result_count": 0,
+  "course_count": 1,
+  "result_count": 3,
   "citation_count": 1,
   "event_comments": null,
   "external_links": [],
-  "volunteer_roles": [],
+  "volunteer_roles": [
+    {
+      "role_name": "Presented workshop / set course",
+      "individual_id": "01913933-c1e8-793d-9cc4-727a55e72f82",
+      "citation_count": 1,
+      "individual_name": "Gary MacDonald",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Presented workshop / set course",
+      "individual_id": "0191394f-d748-7189-887f-793488143b6d",
+      "citation_count": 1,
+      "individual_name": "Mike Schuh",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ],
   "result_source_brief": "Bearing 315, November/December 1980",
   "organizing_club_name": "Cascade Orienteering Club"
 }

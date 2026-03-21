@@ -1,0 +1,82 @@
+{
+  "events": [
+    {
+      "event_id": "da73ddd8-62c3-5b2b-b852-29739bbd7b08",
+      "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
+      "event_date": "1981-02-28",
+      "event_kind": "race",
+      "event_name": "Farrel-McWhirter Park",
+      "venue_name": "Farrel-McWhirter Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:38:45",
+          "competitive": true,
+          "course_name": "Yellow",
+          "course_rank": 4,
+          "status_code": null,
+          "outcome_text": "00:38:45",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "dce5a411-89db-5472-a2f5-496397635bb1",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "1981-02-01",
+      "event_kind": "race",
+      "event_name": "Lincoln Park",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:50:40",
+          "competitive": true,
+          "course_name": "White",
+          "course_rank": 8,
+          "status_code": null,
+          "outcome_text": "00:50:40",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 1,
+    "event_count": 2,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0fb1-221d-7b7a-ba9b-52a2378b1426",
+  "individual_name": "Billie Butterfield",
+  "volunteer_roles": [
+    {
+      "event_id": "dce5a411-89db-5472-a2f5-496397635bb1",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "role_name": "Timer",
+      "event_date": "1981-02-01",
+      "event_kind": "race",
+      "event_name": "Lincoln Park",
+      "venue_name": "Lincoln Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Bearing 315, April/May 1981"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
+}

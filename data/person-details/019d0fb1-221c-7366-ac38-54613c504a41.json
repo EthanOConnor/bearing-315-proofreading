@@ -1,0 +1,71 @@
+{
+  "events": [
+    {
+      "event_id": "4737053b-bfca-52fa-9e4f-169f9a4dfec4",
+      "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
+      "event_date": "1982-03-28",
+      "event_kind": "race",
+      "event_name": "Seward Park",
+      "venue_name": "Seward Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "raw_time_text",
+              "metric_text": "DNF"
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Red",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Raw Time Text DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Raw Time Text DNF",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "fe8c8d21-ce9c-54f1-bbfa-5257c5a4ac05",
+      "venue_id": "019b7afc-8b91-7f5e-b41b-ce3fe5b672cf",
+      "event_date": "1982-03-14",
+      "event_kind": "race",
+      "event_name": "Camp Long",
+      "venue_name": "Camp Long",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:20:19",
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": 9,
+          "status_code": null,
+          "outcome_text": "01:20:19",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 2,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0fb1-221c-7366-ac38-54613c504a41",
+  "individual_name": "Jim Golden",
+  "volunteer_roles": []
+}

@@ -89,12 +89,229 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "aa587bcb-45d2-505f-92fb-b2963d0c5bfe",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "1982-06-26",
+      "event_kind": "race",
+      "event_name": "Woodland Park Summer Park Series",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:18:00",
+          "competitive": true,
+          "course_name": "Contour Only",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "00:18:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:34:26",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "00:34:26",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "94a4f328-f3f1-5514-98a0-83184d8a621f",
+      "venue_id": "7ad51ba8-9daa-5b56-bc33-6ad8411704d3",
+      "event_date": "1982-04-17",
+      "event_kind": "race",
+      "event_name": "Wonderwood Park",
+      "venue_name": "Wonderwood Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:19:30",
+          "competitive": true,
+          "course_name": "Score Course",
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "00:19:30",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "f7f31eed-84db-5fd8-8911-19a8f169c646",
+      "venue_id": "0191398c-e5cc-74d1-bc68-11d65f6da46f",
+      "event_date": "1982-04-10",
+      "event_kind": "race",
+      "event_name": "Discovery Park",
+      "venue_name": "Discovery Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "raw_time_text",
+              "metric_text": "26 points"
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Score",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "Raw Time Text 26 points",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Raw Time Text 26 points",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "4737053b-bfca-52fa-9e4f-169f9a4dfec4",
+      "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
+      "event_date": "1982-03-28",
+      "event_kind": "race",
+      "event_name": "Seward Park",
+      "venue_name": "Seward Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:47:25",
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "00:47:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "fe8c8d21-ce9c-54f1-bbfa-5257c5a4ac05",
+      "venue_id": "019b7afc-8b91-7f5e-b41b-ce3fe5b672cf",
+      "event_date": "1982-03-14",
+      "event_kind": "race",
+      "event_name": "Camp Long",
+      "venue_name": "Camp Long",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:42:08",
+          "competitive": true,
+          "course_name": "Yellow",
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "00:42:08",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "01:02:00",
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": 4,
+          "status_code": null,
+          "outcome_text": "01:02:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "b3e01f31-4409-522a-ad6a-976a577b6253",
+      "venue_id": "d20e6549-e67d-5c0d-99f9-1347a632ee0a",
+      "event_date": "1982-02-20",
+      "event_kind": "race",
+      "event_name": "Crystal Springs Ski-O Meet",
+      "venue_name": "Crystal Springs",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:29:00",
+          "competitive": true,
+          "course_name": "Long",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "01:29:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "ce8b40b9-119c-5491-b85f-88182a183831",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "1982-02-06",
+      "event_kind": "race",
+      "event_name": "Lincoln Park Come-And-Try-It Meet",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:24:16",
+          "competitive": true,
+          "course_name": "Yellow",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "00:24:16",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
     }
   ],
   "aliases": [],
   "summary": {
-    "role_count": 2,
-    "event_count": 3,
+    "role_count": 4,
+    "event_count": 10,
     "mention_count": 0
   },
   "mentions": [],
@@ -127,6 +344,36 @@
       "citation_count": 1,
       "citation_briefs": [
         "Older COC Results Website: http://www.old.cascadeoc.org/Results1999/Vampire.html"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "0f5c0a92-6e0e-5ed4-b6c0-c81c8f545cb7",
+      "venue_id": null,
+      "role_name": "registration and starting assistance",
+      "event_date": "1982-10-02",
+      "event_kind": "race",
+      "event_name": "First Cascade Mountain Marathon",
+      "venue_name": "Unknown venue",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Bearing 315, November/December 1982"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "f60dcd8d-1fee-50fe-8938-df25a4a28061",
+      "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
+      "role_name": "designed a blank map course / special line O course",
+      "event_date": "1982-06-12",
+      "event_kind": "race",
+      "event_name": "FunTrek '82",
+      "venue_name": "Farrel-McWhirter Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Bearing 315, July/August 1982"
       ],
       "volunteer_hours": null,
       "volunteer_points": null

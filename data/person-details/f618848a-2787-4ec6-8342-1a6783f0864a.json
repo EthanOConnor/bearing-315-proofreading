@@ -1,6 +1,112 @@
 {
   "events": [
     {
+      "event_id": "fd5557a7-c8d4-54d5-b93e-8005d782d8e5",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "1981-07-12",
+      "event_kind": "race",
+      "event_name": "University of Washington Urban Orienteering Meet",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:24:00",
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": 5,
+          "status_code": null,
+          "outcome_text": "01:24:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "2cd0e305-5f40-5d20-a317-a0f21379cdf9",
+      "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
+      "event_date": "1981-06-20",
+      "event_kind": "race",
+      "event_name": "Fun Trek 81 at Farrel-McWhirter Park",
+      "venue_name": "Farrel-McWhirter Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:28:59",
+          "competitive": true,
+          "course_name": "Yellow",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "01:28:59",
+          "result_notes": null,
+          "category_name": "Women",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "2d021202-2a28-5483-8924-66696d2b485b",
+      "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
+      "event_date": "1981-03-08",
+      "event_kind": "race",
+      "event_name": "Seward Park",
+      "venue_name": "Seward Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "03:14:00",
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": 12,
+          "status_code": null,
+          "outcome_text": "03:14:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "8c866505-8d35-5172-816e-fb88a5ca5214",
+      "venue_id": "01913927-5a14-7bdb-8b3c-b840c25c4d0c",
+      "event_date": "1980-11-08",
+      "event_kind": "race",
+      "event_name": "Carkeek Park",
+      "venue_name": "Carkeek Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:57:01",
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": 9,
+          "status_code": null,
+          "outcome_text": "01:57:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019143ce-bcee-7997-83f6-fa3ad1a11c03",
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "1980-10-26",
@@ -25,16 +131,58 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "8a12ecce-8d3e-5b6a-81c5-e0a26108e42a",
+      "venue_id": "01913a4a-787e-7b0f-8dc3-521bdc074b30",
+      "event_date": "1980-10-05",
+      "event_kind": "race",
+      "event_name": "Fort Lewis Class B Meet",
+      "venue_name": "Fort Lewis - Unspecified Area",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "03:39:17",
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": 5,
+          "status_code": null,
+          "outcome_text": "03:39:17",
+          "result_notes": null,
+          "category_name": "Women's Class",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
     }
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
-    "event_count": 1,
+    "role_count": 1,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "f618848a-2787-4ec6-8342-1a6783f0864a",
   "individual_name": "Mabel Moy",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "f794019e-68c6-51cc-8e7d-587576eb6951",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "role_name": "Registrar",
+      "event_date": "1982-01-17",
+      "event_kind": "race",
+      "event_name": "World O Tour Meet",
+      "venue_name": "Woodland Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Bearing 315, January/February 1982"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

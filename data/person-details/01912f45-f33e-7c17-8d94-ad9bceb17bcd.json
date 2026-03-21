@@ -1,11 +1,116 @@
 {
-  "events": [],
+  "events": [
+    {
+      "event_id": "2cd0e305-5f40-5d20-a317-a0f21379cdf9",
+      "venue_id": "019b7fff-4c14-7fd9-8016-5922d0d46b65",
+      "event_date": "1981-06-20",
+      "event_kind": "race",
+      "event_name": "Fun Trek 81 at Farrel-McWhirter Park",
+      "venue_name": "Farrel-McWhirter Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:56:22",
+          "competitive": true,
+          "course_name": "Yellow",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "00:56:22",
+          "result_notes": null,
+          "category_name": "Women",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "2d021202-2a28-5483-8924-66696d2b485b",
+      "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
+      "event_date": "1981-03-08",
+      "event_kind": "race",
+      "event_name": "Seward Park",
+      "venue_name": "Seward Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:17:54",
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": 8,
+          "status_code": null,
+          "outcome_text": "02:17:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "8c010564-eb92-5c56-beaf-5b712c183736",
+      "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
+      "event_date": "1980-08-09",
+      "event_kind": "race",
+      "event_name": "Seward Park",
+      "venue_name": "Seward Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:02:01",
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": 15,
+          "status_code": null,
+          "outcome_text": "00:02:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b8156-60bd-7fea-b11b-d471da605408",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "1980-01-19",
+      "event_kind": "race",
+      "event_name": "Lower Woodland Park Meet Jan 19 '80",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:02:00",
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": 6,
+          "status_code": null,
+          "outcome_text": "01:02:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    }
+  ],
   "aliases": [
     "Debbie MacDonald"
   ],
   "summary": {
     "role_count": 1,
-    "event_count": 0,
+    "event_count": 4,
     "mention_count": 1
   },
   "mentions": [
@@ -29,8 +134,10 @@
       "event_kind": "race",
       "event_name": "St. Edward State Park",
       "venue_name": "St. Edward State Park",
-      "citation_count": 0,
-      "citation_briefs": [],
+      "citation_count": 1,
+      "citation_briefs": [
+        "Bearing 315, June 1980"
+      ],
       "volunteer_hours": null,
       "volunteer_points": null
     }

@@ -400,6 +400,47 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4e-7c5d-8b9a-1504cafd02ff",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2018-06-27",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #3 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:42:37",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:42:37",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:42:37",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:42:37",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7349-a647-24a02c3b0d0e",
       "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
       "event_date": "2014-05-10",
@@ -489,7 +530,7 @@
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -738,8 +779,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2010-01-23",
       "event_kind": "race",
-      "event_name": "Winter O' Series #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Winter O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -771,7 +812,7 @@
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2009-12-05",
       "event_kind": "race",
-      "event_name": "Winter O' Series #3",
+      "event_name": "Winter O' Series #3 / WIOL #3",
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
@@ -804,7 +845,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-26",
       "event_kind": "race",
-      "event_name": "PNWOF Sprint",
+      "event_name": "PNWOF 2009 Sprint",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -833,7 +874,7 @@
   ],
   "summary": {
     "role_count": 3,
-    "event_count": 27,
+    "event_count": 28,
     "mention_count": 0
   },
   "mentions": [],

@@ -1,12 +1,53 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7c94-b11b-91b83ff047da",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2017-01-07",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #5",
+      "venue_name": "Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:01:18",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "01:01:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "01:01:18",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "01:01:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4b-78fe-abc1-b3daea29d93d",
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -143,7 +184,7 @@
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2009-12-05",
       "event_kind": "race",
-      "event_name": "Winter O' Series #3",
+      "event_name": "Winter O' Series #3 / WIOL #3",
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
@@ -296,7 +337,7 @@
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "2003-11-08",
       "event_kind": "race",
-      "event_name": "WIOL 1/ O' Series 1 - Seward Park, Seattle",
+      "event_name": "WIOL 1 / O' Series 1",
       "venue_name": "Seward Park",
       "result_rows": [
         {
@@ -385,7 +426,7 @@
       "event_date": "2003-01-25",
       "event_kind": "race",
       "event_name": "Ft. Steilacoom",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -742,7 +783,7 @@
       "event_date": "2001-02-17",
       "event_kind": "race",
       "event_name": "Ft. Steilacoom Park - WIOL & Winter O' Series Championships",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -950,7 +991,7 @@
       "venue_id": "019b7f6c-d83a-70e5-a00f-404279e1de11",
       "event_date": "2000-04-22",
       "event_kind": "race",
-      "event_name": "Priest Point Park",
+      "event_name": "Priest Point Park - The Ultimate Orienteer 3",
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
@@ -983,7 +1024,7 @@
       "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
       "event_date": "2000-02-26",
       "event_kind": "race",
-      "event_name": "WIOL + Winter O' Series Championships",
+      "event_name": "Hamlin Park - Winter O' Series Championships",
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
@@ -1009,7 +1050,7 @@
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "2000-02-12",
       "event_kind": "race",
-      "event_name": "O' Series #7 / WIOL #7",
+      "event_name": "Lincoln Park - O' Series #7 / WIOL #7",
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
@@ -1035,8 +1076,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2000-01-29",
       "event_kind": "race",
-      "event_name": "O' Series #6 / WIOL #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Fort Steilacoom Park - O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -1063,7 +1104,7 @@
       "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
       "event_date": "1999-12-04",
       "event_kind": "race",
-      "event_name": "O' Series #3 / WIOL #3",
+      "event_name": "Magnuson Park - O' Series #3 / WIOL #3",
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
@@ -1089,7 +1130,7 @@
       "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
       "event_date": "1999-11-06",
       "event_kind": "race",
-      "event_name": "O' Series #1 / WIOL #1",
+      "event_name": "Marymoor Park - O' Series #1 / WIOL #1",
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
@@ -1173,7 +1214,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 40,
+    "event_count": 41,
     "mention_count": 0
   },
   "mentions": [],

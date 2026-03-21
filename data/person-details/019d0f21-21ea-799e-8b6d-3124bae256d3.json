@@ -1,0 +1,108 @@
+{
+  "events": [
+    {
+      "event_id": "019b81f3-1f4e-77df-adf3-7b2c0f2f8249",
+      "venue_id": "019b7b2f-bf4b-7d04-bb73-a3e7756e878a",
+      "event_date": "2017-05-14",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #7 - Score O",
+      "venue_name": "Teanaway Forks",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 930
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 930
+            }
+          ],
+          "time_text": "02:55:55",
+          "competitive": true,
+          "course_name": "Open Men (3hr)",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "02:55:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 930; Total Time 930",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7609-b0d0-a246e761e733",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "event_date": "2017-05-13",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #6 (Pig War) - Classic",
+      "venue_name": "Lick Creek",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 496
+            }
+          ],
+          "time_text": "01:20:23",
+          "competitive": true,
+          "course_name": "Open Men",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "01:20:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 496",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 496
+            }
+          ],
+          "time_text": "01:20:23",
+          "competitive": true,
+          "course_name": "Open Men",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "01:20:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 496",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 2,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0f21-21ea-799e-8b6d-3124bae256d3",
+  "individual_name": "Scott Muma",
+  "volunteer_roles": []
+}

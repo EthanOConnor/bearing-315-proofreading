@@ -1,11 +1,158 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4a-7f5b-9154-0b97756fd753",
+      "venue_id": "019b81f3-1f39-71a0-9515-e830ba81c0ef",
+      "event_date": "2019-04-06",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #4",
+      "venue_name": "Bridle Trails (Score)",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 60
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 1120
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 1060
+            }
+          ],
+          "time_text": "01:02:38",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "01:02:38",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 11,
+          "metric_summary": "Penalty 60; Points 1120; Total Time 1060",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1120
+            }
+          ],
+          "time_text": "01:02:38",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "01:02:38",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 11,
+          "metric_summary": "Points 1120",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7143-987a-e7258339bad4",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2019-01-12",
+      "event_kind": "race",
+      "event_name": "Winter League #5",
+      "venue_name": "Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:52:49",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "00:52:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:52:49",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "00:52:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7f84-9c0c-cd99a0fde461",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2017-12-30",
+      "event_kind": "race",
+      "event_name": "38th Annual Bog Slog",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Long Advanced",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": "–:–",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Long Advanced",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": "–:–",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b8118-7681-7c71-b932-54eaf25e939d",
       "venue_id": "019b7f6c-d83a-70e5-a00f-404279e1de11",
       "event_date": "2002-03-02",
       "event_kind": "race",
-      "event_name": "Priest Point Park - Ultimate Orienteer",
+      "event_name": "Priest Point Park - The Ultimate Orienteer",
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
@@ -30,7 +177,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

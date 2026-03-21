@@ -1,6 +1,49 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-70f7-b304-3aaa938f0076",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2018-03-10",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #1 - Night O",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:52:12",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:52:12",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:52:12",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:52:12",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4e-7efc-9a48-43ee67f98d99",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2018-02-17",
@@ -34,12 +77,155 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f49-b51e-10516ab69c87",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2018-02-03",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series / WIOL #7",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:31:54",
+          "competitive": true,
+          "course_name": "Jr. Varsity Boys (N)",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "00:31:54",
+          "result_notes": "school BED",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 85",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:31:54",
+          "competitive": true,
+          "course_name": "Jr. Varsity Boys (N)",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "00:31:54",
+          "result_notes": "school BED",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 85",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7b01-8411-7e73e80a4ade",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "event_date": "2018-01-06",
+      "event_kind": "race",
+      "event_name": "Winter O Series / WIOL #5",
+      "venue_name": "Putney Woods",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Jr. Varsity Boys (N)",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": "38:05; school BED",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Jr. Varsity Boys (N)",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": "38:05; school BED",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

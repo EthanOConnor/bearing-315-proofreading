@@ -1,6 +1,59 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7c94-b11b-91b83ff047da",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2017-01-07",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #5",
+      "venue_name": "Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "00:53:10",
+          "competitive": true,
+          "course_name": "Varsity Boys",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "00:53:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 74",
+          "additional_course": false,
+          "affiliation_labels": [
+            "OAK"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "00:53:10",
+          "competitive": true,
+          "course_name": "Varsity Boys",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "00:53:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 74",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-713d-a61d-55eafed36318",
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "2015-12-05",
@@ -52,7 +105,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

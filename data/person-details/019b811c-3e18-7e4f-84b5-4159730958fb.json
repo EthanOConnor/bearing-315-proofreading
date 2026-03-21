@@ -34,6 +34,47 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-7143-987a-e7258339bad4",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2019-01-12",
+      "event_kind": "race",
+      "event_name": "Winter League #5",
+      "venue_name": "Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "72:13",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "72:13",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4e-7939-9694-71cdceafa4da",
       "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
       "event_date": "2010-12-18",
@@ -196,8 +237,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2010-01-23",
       "event_kind": "race",
-      "event_name": "Winter O' Series #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Winter O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -290,7 +331,7 @@
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2009-12-05",
       "event_kind": "race",
-      "event_name": "Winter O' Series #3",
+      "event_name": "Winter O' Series #3 / WIOL #3",
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
@@ -357,7 +398,7 @@
       "event_date": "2009-03-14",
       "event_kind": "race",
       "event_name": "O' Series Champs/WIOL Champs",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -381,11 +422,11 @@
     },
     {
       "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
-      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
       "event_date": "2009-02-07",
       "event_kind": "race",
-      "event_name": "Winter O' Series/WIOL #7",
-      "venue_name": "Island Crest",
+      "event_name": "Winter O' Series #7 / WIOL #7",
+      "venue_name": "Island Crest Park",
       "result_rows": [
         {
           "metrics": [
@@ -544,7 +585,7 @@
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "2003-11-08",
       "event_kind": "race",
-      "event_name": "WIOL 1/ O' Series 1 - Seward Park, Seattle",
+      "event_name": "WIOL 1 / O' Series 1",
       "venue_name": "Seward Park",
       "result_rows": [
         {
@@ -727,8 +768,8 @@
     "Kelly, Pat"
   ],
   "summary": {
-    "role_count": 26,
-    "event_count": 23,
+    "role_count": 35,
+    "event_count": 24,
     "mention_count": 0
   },
   "mentions": [],
@@ -946,6 +987,141 @@
       "volunteer_points": null
     },
     {
+      "event_id": "019b81f3-1f4c-7ab2-a1a3-f647300968af",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "role_name": "Course Designer",
+      "event_date": "2019-11-02",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #1",
+      "venue_name": "Magnuson Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/event/winter-league-1-magnuson-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7ab2-a1a3-f647300968af",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "role_name": "Course Designer(s)",
+      "event_date": "2019-11-02",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #1",
+      "venue_name": "Magnuson Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/2019-2020-winter-league-1-magnuson-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7298-bda3-5710a5c8bb9a",
+      "venue_id": "019b81f3-1f39-7ebd-a0fb-e8fd4d874a89",
+      "role_name": "Start",
+      "event_date": "2019-09-28",
+      "event_kind": "race",
+      "event_name": "Baltic Cup at Teanaway Day 1",
+      "venue_name": "Jack Creek",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/result/teanaway-cup-day-1-jack-creek/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7feb-a4ff-80650c182366",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "role_name": "Course Designer",
+      "event_date": "2019-05-11",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #6",
+      "venue_name": "Lick Creek",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/event/2019-ultimate-orienteer-6-lick-creek-long/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7064-b09c-b82e4395ce4a",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "role_name": "Course Designer",
+      "event_date": "2018-11-03",
+      "event_kind": "race",
+      "event_name": "Winter League #1",
+      "venue_name": "Lincoln Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/event/winter-series-wiol-1-2/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7064-b09c-b82e4395ce4a",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "role_name": "Course Designer(s)",
+      "event_date": "2018-11-03",
+      "event_kind": "race",
+      "event_name": "Winter League #1",
+      "venue_name": "Lincoln Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/winter-league-1-lincoln-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-7b7b-b371-c266daa4f1ef",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "role_name": "Start",
+      "event_date": "2018-06-10",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #7 - Goat - Salmon La Sac",
+      "venue_name": "Salmon La Sac",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/ultimate-orienteer-7-goat-salmon-la-sac/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-7709-a6e5-9c5a02b44584",
+      "venue_id": "019b820a-0440-79c9-a2de-f6a11d17ad0f",
+      "role_name": "Start",
+      "event_date": "2018-06-09",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #6 - Middle - Jack & Indian",
+      "venue_name": "Jack & Indian",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/ultimate-orienteer-6-middle-jack-indian-creeks/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7d99-9f7a-79e8ed184c75",
+      "venue_id": "019b81f3-1f39-756c-9a1e-ccb8617bf543",
+      "role_name": "Course Designer",
+      "event_date": "2016-06-15",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #2",
+      "venue_name": "Lake Wilderness Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/event/wednesday-evening-2/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
       "event_id": "019b81b3-75e2-7de0-952e-580e1c292d9a",
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
       "role_name": "Meet Director",
@@ -1102,7 +1278,7 @@
       "event_date": "2003-01-25",
       "event_kind": "race",
       "event_name": "Ft. Steilacoom",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "Older COC Results Website: http://www.old.cascadeoc.org/Results2003/FtSteilacoom.html"

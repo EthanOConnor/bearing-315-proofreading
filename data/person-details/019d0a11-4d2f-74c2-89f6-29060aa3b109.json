@@ -290,6 +290,112 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-7e47-b652-bd63ad7abe60",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2017-06-18",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #9 - Goat",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 413
+            }
+          ],
+          "time_text": "04:09:04",
+          "competitive": true,
+          "course_name": "Ultimate Masters Men / Kid",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "04:09:04",
+          "result_notes": "skips 11, 12",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 413",
+          "additional_course": false,
+          "affiliation_labels": [
+            "EOOC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 413
+            }
+          ],
+          "time_text": "04:09:04",
+          "competitive": true,
+          "course_name": "Ultimate Masters Men / Kid",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "04:09:04",
+          "result_notes": "skips 11, 12",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 413",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7838-861a-0e29a62d9b23",
+      "venue_id": "019b81f3-1f39-710d-8e0d-1ef8ec0846cd",
+      "event_date": "2017-06-17",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #8 - Middle",
+      "venue_name": "Moses Lake Sand Dunes",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 386
+            }
+          ],
+          "time_text": "01:32:30",
+          "competitive": true,
+          "course_name": "Masters Men",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:32:30",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 386",
+          "additional_course": false,
+          "affiliation_labels": [
+            "EOOC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 386
+            }
+          ],
+          "time_text": "01:32:30",
+          "competitive": true,
+          "course_name": "Masters Men",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:32:30",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 386",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4b-7f0e-94a5-a94eba387350",
       "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
       "event_date": "2010-06-27",
@@ -349,7 +455,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 11,
+    "event_count": 13,
     "mention_count": 0
   },
   "mentions": [],

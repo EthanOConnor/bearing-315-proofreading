@@ -65,6 +65,112 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4a-73ed-98f2-9007c8736ce2",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2019-12-21",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "01:00:54",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "01:00:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 75",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "01:00:54",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "01:00:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 75",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "00:55:24",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "00:55:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 76",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "00:55:24",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "00:55:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 76",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-7694-a5c4-985efa305e38",
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2013-06-30",
@@ -721,8 +827,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2010-01-23",
       "event_kind": "race",
-      "event_name": "Winter O' Series #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Winter O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -820,7 +926,7 @@
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2009-12-05",
       "event_kind": "race",
-      "event_name": "Winter O' Series #3",
+      "event_name": "Winter O' Series #3 / WIOL #3",
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
@@ -916,11 +1022,11 @@
     },
     {
       "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
-      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
       "event_date": "2009-02-07",
       "event_kind": "race",
-      "event_name": "Winter O' Series/WIOL #7",
-      "venue_name": "Island Crest",
+      "event_name": "Winter O' Series #7 / WIOL #7",
+      "venue_name": "Island Crest Park",
       "result_rows": [
         {
           "metrics": [
@@ -986,7 +1092,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 30,
+    "event_count": 32,
     "mention_count": 0
   },
   "mentions": [],

@@ -1,6 +1,59 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7064-b09c-b82e4395ce4a",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2018-11-03",
+      "event_kind": "race",
+      "event_name": "Winter League #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:45:23",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:45:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 87",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:45:23",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:45:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 87",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-74f2-8888-725754c8c324",
       "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
       "event_date": "2013-12-21",
@@ -97,7 +150,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-28",
       "event_kind": "race",
-      "event_name": "PNWOF Long (by class)",
+      "event_name": "PNWOF 2009 Long",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -125,7 +178,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -153,7 +206,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-26",
       "event_kind": "race",
-      "event_name": "PNWOF Sprint",
+      "event_name": "PNWOF 2009 Sprint",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -182,7 +235,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

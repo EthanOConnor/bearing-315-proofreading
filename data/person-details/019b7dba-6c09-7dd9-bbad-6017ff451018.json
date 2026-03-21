@@ -1,6 +1,57 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 48
+            }
+          ],
+          "time_text": "02:39:26",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 46,
+          "status_code": "OK",
+          "outcome_text": "02:39:26",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 48",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 48
+            }
+          ],
+          "time_text": "02:39:26",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 46,
+          "status_code": "OK",
+          "outcome_text": "02:39:26",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 48",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b817f-ae10-786c-badf-aedf0a35b8b2",
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "2003-03-08",
@@ -152,7 +203,7 @@
       "venue_id": "019b7f6c-d83a-70e5-a00f-404279e1de11",
       "event_date": "2000-04-22",
       "event_kind": "race",
-      "event_name": "Priest Point Park",
+      "event_name": "Priest Point Park - The Ultimate Orienteer 3",
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
@@ -180,7 +231,7 @@
       "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
       "event_date": "1999-12-04",
       "event_kind": "race",
-      "event_name": "O' Series #3 / WIOL #3",
+      "event_name": "Magnuson Park - O' Series #3 / WIOL #3",
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
@@ -207,7 +258,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 7,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

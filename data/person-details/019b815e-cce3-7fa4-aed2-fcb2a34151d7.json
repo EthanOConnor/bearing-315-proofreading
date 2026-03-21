@@ -29,6 +29,102 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "01:16:54",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:16:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 79",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "01:16:54",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:16:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 79",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7069-b7ea-d7160df4c081",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2016-12-31",
+      "event_kind": "race",
+      "event_name": "37th Annual Bog Slog",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:53:31",
+          "competitive": true,
+          "course_name": "ShortAdvanced",
+          "course_rank": 23,
+          "status_code": "OK",
+          "outcome_text": "01:53:31",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:53:31",
+          "competitive": true,
+          "course_name": "ShortAdvanced",
+          "course_rank": 23,
+          "status_code": "OK",
+          "outcome_text": "01:53:31",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-74d2-bfc3-3e3874eb76f4",
       "venue_id": "019d0c54-0219-70e2-963e-78d72d378fa8",
       "event_date": "2011-12-31",
@@ -222,7 +318,7 @@
       "event_date": "2003-01-25",
       "event_kind": "race",
       "event_name": "Ft. Steilacoom",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -300,7 +396,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 10,
+    "event_count": 12,
     "mention_count": 0
   },
   "mentions": [],

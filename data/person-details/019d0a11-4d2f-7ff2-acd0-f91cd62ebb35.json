@@ -335,6 +335,92 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-74c3-b4ee-fe02e2b80fa5",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2018-11-17",
+      "event_kind": "race",
+      "event_name": "Winter League #2",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": "92:47",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": "92:47",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-738c-825c-14607d5f9f0f",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2016-11-05",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:49:17",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "00:49:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:49:17",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "00:49:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7d66-9f54-ef8c81a7da91",
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "2014-03-01",
@@ -419,8 +505,8 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 16,
-    "event_count": 15,
+    "role_count": 18,
+    "event_count": 17,
     "mention_count": 0
   },
   "mentions": [],
@@ -569,7 +655,7 @@
       "event_date": "2022-04-23",
       "event_kind": "race",
       "event_name": "2022 Ultimate Orienteer #3",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://cascadeoc.org/result/2022-ultimate-orienteer-3-individual-relay-ft-steilacoom/"
@@ -614,7 +700,7 @@
       "event_date": "2021-04-17",
       "event_kind": "race",
       "event_name": "2021 Winter League #4",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "Web Snapshot: https://modern.cascadeoc.org/result/2021-winter-league-4-ft-steilacoom/"
@@ -663,6 +749,36 @@
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://www.cascadeoc.org/result/2021-winter-league-1-bridle-trails-state-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-791e-b09d-dc0c7f3ca261",
+      "venue_id": "019b7f6c-d843-7b47-977b-d4a69ef90e9b",
+      "role_name": "Newcomer Instruction",
+      "event_date": "2020-03-07",
+      "event_kind": "race",
+      "event_name": "2020 Ultimate Orienteer #1",
+      "venue_name": "Lynndale Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/2020-ultimate-orienteer-1-lynndale-park-night-o/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-791e-b09d-dc0c7f3ca261",
+      "venue_id": "019b7f6c-d843-7b47-977b-d4a69ef90e9b",
+      "role_name": "Registration",
+      "event_date": "2020-03-07",
+      "event_kind": "race",
+      "event_name": "2020 Ultimate Orienteer #1",
+      "venue_name": "Lynndale Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/2020-ultimate-orienteer-1-lynndale-park-night-o/"
       ],
       "volunteer_hours": null,
       "volunteer_points": null

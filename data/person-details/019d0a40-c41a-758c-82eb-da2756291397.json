@@ -987,6 +987,37 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-72d5-902b-a7baaa91dcf5",
+      "venue_id": "019b7b62-9f59-7108-a468-484c9810028f",
+      "event_date": "2016-07-17",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure: Whidbey!",
+      "venue_name": "Fort Casey State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:52:15",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "00:52:15",
+          "result_notes": null,
+          "category_name": "Choose Your Adventu 24 C 24 Pts 1:15:00",
+          "category_rank": 15,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-7e2f-b437-5b0055e9fc2e",
       "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
       "event_date": "2014-08-23",
@@ -1037,7 +1068,7 @@
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -1454,7 +1485,7 @@
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2009-12-05",
       "event_kind": "race",
-      "event_name": "Winter O' Series #3",
+      "event_name": "Winter O' Series #3 / WIOL #3",
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
@@ -1481,7 +1512,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 45,
+    "event_count": 46,
     "mention_count": 0
   },
   "mentions": [],

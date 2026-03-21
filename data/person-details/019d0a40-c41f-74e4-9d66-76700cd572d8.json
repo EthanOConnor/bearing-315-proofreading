@@ -1,6 +1,47 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7edf-820f-7d76dd51f5f1",
+      "venue_id": "019b81f3-1f39-771c-b188-7405b0c44c91",
+      "event_date": "2018-01-20",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #6",
+      "venue_name": "Lincoln Tree Farm",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:20:25",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "02:20:25",
+          "result_notes": null,
+          "category_name": "Long Adv Group",
+          "category_rank": 2,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "02:20:25",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "02:20:25",
+          "result_notes": null,
+          "category_name": "Long Adv Group",
+          "category_rank": 2,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7349-a647-24a02c3b0d0e",
       "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
       "event_date": "2014-05-10",
@@ -88,8 +129,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2010-01-23",
       "event_kind": "race",
-      "event_name": "Winter O' Series #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Winter O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -120,7 +161,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

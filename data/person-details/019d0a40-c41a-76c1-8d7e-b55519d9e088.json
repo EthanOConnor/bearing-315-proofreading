@@ -1,6 +1,90 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7873-994a-99b0227a19f9",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2019-07-17",
+      "event_kind": "race",
+      "event_name": "2019 Wednesday Evening #4",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:20:00",
+          "competitive": true,
+          "course_name": "Course3",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "01:20:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:20:00",
+          "competitive": true,
+          "course_name": "Course3",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "01:20:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7064-b09c-b82e4395ce4a",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2018-11-03",
+      "event_kind": "race",
+      "event_name": "Winter League #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:04:35",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 25,
+          "status_code": "OK",
+          "outcome_text": "01:04:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "01:04:35",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 25,
+          "status_code": "OK",
+          "outcome_text": "01:04:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-7472-98ea-730a7a7e6cc6",
       "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
       "event_date": "2011-12-17",
@@ -83,7 +167,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

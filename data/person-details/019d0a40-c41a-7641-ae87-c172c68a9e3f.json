@@ -1,6 +1,110 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7b01-8411-7e73e80a4ade",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "event_date": "2018-01-06",
+      "event_kind": "race",
+      "event_name": "Winter O Series / WIOL #5",
+      "venue_name": "Putney Woods",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Jr. Varsity Girls",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": "107:48; school OAK",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Jr. Varsity Girls",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": "107:48; school OAK",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-744a-b234-bab405244656",
+      "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
+      "event_date": "2017-12-02",
+      "event_kind": "race",
+      "event_name": "Winter O-Series / WIOL #3",
+      "venue_name": "St. Edward State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "01:08:05",
+          "competitive": true,
+          "course_name": "Jr. Varsity Girls",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:08:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 86",
+          "additional_course": false,
+          "affiliation_labels": [
+            "OAK"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "01:08:05",
+          "competitive": true,
+          "course_name": "Jr. Varsity Girls",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:08:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 86",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-713d-a61d-55eafed36318",
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "2015-12-05",
@@ -35,7 +139,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

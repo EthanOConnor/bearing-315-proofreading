@@ -1,6 +1,49 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7459-9a51-b1bc5e3ede27",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2016-12-03",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Varsity Boys",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "LAK"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Varsity Boys",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-74f2-8888-725754c8c324",
       "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
       "event_date": "2013-12-21",
@@ -62,7 +105,7 @@
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -116,7 +159,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

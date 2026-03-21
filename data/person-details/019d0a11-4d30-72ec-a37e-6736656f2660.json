@@ -1,6 +1,59 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7298-bda3-5710a5c8bb9a",
+      "venue_id": "019b81f3-1f39-7ebd-a0fb-e8fd4d874a89",
+      "event_date": "2019-09-28",
+      "event_kind": "race",
+      "event_name": "Baltic Cup at Teanaway Day 1",
+      "venue_name": "Jack Creek",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Female 21+",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Female 21+",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4e-7b88-9ee5-a3a281f4db62",
       "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
       "event_date": "2019-09-21",
@@ -44,6 +97,264 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e27-92b0-315199040bfb",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2019-09-15",
+      "event_kind": "race",
+      "event_name": "2019 SART Championship Round",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:25:47",
+          "competitive": true,
+          "course_name": "Heat 504",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:25:47",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:25:47",
+          "competitive": true,
+          "course_name": "Heat 504",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:25:47",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7a36-99a0-a187445c3587",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2019-09-15",
+      "event_kind": "race",
+      "event_name": "2019 SART Round 4",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:27:28",
+          "competitive": true,
+          "course_name": "Heat 404",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:27:28",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:27:28",
+          "competitive": true,
+          "course_name": "Heat 404",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:27:28",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7cef-9043-2d6bf09cd5a7",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2019-09-14",
+      "event_kind": "race",
+      "event_name": "2019 SART Round 1",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:23:38",
+          "competitive": true,
+          "course_name": "Heat 105",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:23:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:23:38",
+          "competitive": true,
+          "course_name": "Heat 105",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:23:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7f41-b96d-1877f7615402",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2019-09-14",
+      "event_kind": "race",
+      "event_name": "2019 SART Round 2",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:24:26",
+          "competitive": true,
+          "course_name": "Heat 206",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:24:26",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:24:26",
+          "competitive": true,
+          "course_name": "Heat 206",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:24:26",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ec3-83b0-188cc6787a05",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "event_date": "2019-09-14",
+      "event_kind": "race",
+      "event_name": "2019 SART Round 3",
+      "venue_name": "Seattle Pacific University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:23:50",
+          "competitive": true,
+          "course_name": "Heat 308",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:23:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:23:50",
+          "competitive": true,
+          "course_name": "Heat 308",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:23:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-73f2-b29c-53c599612d1e",
+      "venue_id": "019b81f3-1f39-7bb0-bdd1-b2629ddc8c5c",
+      "event_date": "2019-09-14",
+      "event_kind": "race",
+      "event_name": "2019 SART Time Trial",
+      "venue_name": "Gasworks Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Time Trial",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "11:28",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Time Trial",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "11:28",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     },
     {
       "event_id": "019b81f3-1f4c-7b05-8d21-7dbbd58c56c9",
@@ -156,7 +467,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 10,
     "mention_count": 0
   },
   "mentions": [],

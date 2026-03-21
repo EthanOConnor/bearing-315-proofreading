@@ -1,6 +1,39 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7cc6-956a-57225fb0cd6b",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "event_date": "2016-10-02",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure: Corn Maze! - Bob’s Corn Maze",
+      "venue_name": "Bob's Corn Maze",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:32:44",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:32:44",
+          "result_notes": null,
+          "category_name": "24 Controls, 75 Minutes 24 C 24 Pts 1:15:00",
+          "category_rank": 10,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4c-7ffe-adbd-446d2288a79e",
       "venue_id": "019b7f6c-d843-7b47-977b-d4a69ef90e9b",
       "event_date": "2015-10-24",
@@ -73,7 +106,7 @@
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -618,7 +651,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 18,
+    "event_count": 19,
     "mention_count": 0
   },
   "mentions": [],

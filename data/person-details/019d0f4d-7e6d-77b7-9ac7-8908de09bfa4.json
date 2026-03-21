@@ -1,0 +1,80 @@
+{
+  "events": [
+    {
+      "event_id": "019b81f3-1f4d-7e1c-9375-4789231c0f54",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2017-09-10",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3: Campus!",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:01:33",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "00:01:33",
+          "result_notes": null,
+          "category_name": "24 C 24 Pts Time limit 75 minutes",
+          "category_rank": 2,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_time_text": "00:06:29"
+            }
+          ],
+          "time_text": "00:01:32",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "00:01:32",
+          "result_notes": null,
+          "category_name": "24 C 24 Pts Time limit 75 minutes",
+          "category_rank": 9,
+          "metric_summary": "Penalty 00:06:29",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_time_text": "00:48:42"
+            }
+          ],
+          "time_text": "00:46:31",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "00:46:31",
+          "result_notes": null,
+          "category_name": "24 C 24 Pts Time limit 75 minutes",
+          "category_rank": 43,
+          "metric_summary": "Penalty 00:48:42",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 3
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 1,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0f4d-7e6d-77b7-9ac7-8908de09bfa4",
+  "individual_name": ":40",
+  "volunteer_roles": []
+}

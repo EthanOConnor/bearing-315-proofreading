@@ -1,6 +1,57 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:56:39",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "00:56:39",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 75",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:56:39",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "00:56:39",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 75",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-74f2-8888-725754c8c324",
       "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
       "event_date": "2013-12-21",
@@ -361,7 +412,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 10,
+    "event_count": 11,
     "mention_count": 0
   },
   "mentions": [],

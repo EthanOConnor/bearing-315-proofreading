@@ -63,6 +63,59 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4e-742f-aaf6-b63f3d7ea58c",
+      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "event_date": "2020-02-08",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #7 - Fire Mountain",
+      "venue_name": "Fire Mountain",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "02:04:30",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "02:04:30",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 74",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "02:04:30",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "02:04:30",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 74",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7357-b927-2cee44df0924",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2011-02-19",
@@ -100,7 +153,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-28",
       "event_kind": "race",
-      "event_name": "PNWOF Long (by class)",
+      "event_name": "PNWOF 2009 Long",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -128,7 +181,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -241,7 +294,7 @@
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2001-04-07",
       "event_kind": "race",
-      "event_name": "Fire Mountain Classic-O - Ultimate Orienteer 3",
+      "event_name": "Fire Mountain Classic-O - The Ultimate Orienteer 3",
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
@@ -300,7 +353,7 @@
       "venue_id": "019b7f6c-d840-7c4d-9264-e33e771b68d8",
       "event_date": "2000-05-13",
       "event_kind": "race",
-      "event_name": "Cle Elum Ridge Long-O",
+      "event_name": "Cle Elum Ridge Long-O - The Ultimate Orienteer 4",
       "venue_name": "Cle Elum Ridge",
       "result_rows": [
         {
@@ -334,7 +387,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 11,
+    "event_count": 12,
     "mention_count": 0
   },
   "mentions": [],

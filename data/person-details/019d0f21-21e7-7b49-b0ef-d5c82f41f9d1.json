@@ -1,0 +1,75 @@
+{
+  "events": [
+    {
+      "event_id": "019b81f3-1f4e-7fd0-b114-79dd6682eb03",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2017-09-30",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #4: City Park!",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 8
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 11
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 3
+            }
+          ],
+          "time_text": "01:22:15",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 52,
+          "status_code": "OK",
+          "outcome_text": "01:22:15",
+          "result_notes": "pt_1_time ?",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 8; Points 11; Total Time 3",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 11
+            }
+          ],
+          "time_text": "01:22:15",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 52,
+          "status_code": "OK",
+          "outcome_text": "01:22:15",
+          "result_notes": "pt_1_time ?",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 11",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 1,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0f21-21e7-7b49-b0ef-d5c82f41f9d1",
+  "individual_name": "Amanda Dabbs_2",
+  "volunteer_roles": []
+}

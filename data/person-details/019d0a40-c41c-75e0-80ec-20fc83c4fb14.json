@@ -34,6 +34,78 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4e-7642-bb2e-1a7a4e81d224",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2019-04-20",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #5 - Big Finn Hill (Individual Relay)",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 851
+            }
+          ],
+          "time_text": "01:27:52",
+          "competitive": true,
+          "course_name": "Advanced (3 relay legs, 6.2k)",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:27:52",
+          "result_notes": null,
+          "category_name": "Ultimate Open Female",
+          "category_rank": 8,
+          "metric_summary": "Uo Points 851",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7fd4-be35-23de9ea19bf9",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2017-04-08",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #4 - Sprint",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4e-7939-9694-71cdceafa4da",
       "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
       "event_date": "2010-12-18",
@@ -99,7 +171,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

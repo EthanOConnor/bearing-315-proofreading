@@ -1,6 +1,554 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7064-b09c-b82e4395ce4a",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2018-11-03",
+      "event_kind": "race",
+      "event_name": "Winter League #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "01:22:41",
+          "competitive": true,
+          "course_name": "Intercollegiate Women",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "01:22:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 92",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "01:22:41",
+          "competitive": true,
+          "course_name": "Intercollegiate Women",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "01:22:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 92",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7573-8ad9-30f8abdbaa5a",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "event_date": "2018-09-22",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3: Corn Maze! - Bob’s Corn Maze, Snohomish",
+      "venue_name": "Bob's Corn Maze",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 23
+            }
+          ],
+          "time_text": "00:55:27",
+          "competitive": true,
+          "course_name": "Choose Your Adventure #3: Corn Maze! – Bob’s Corn Maze, Snohomish",
+          "course_rank": 63,
+          "status_code": "OK",
+          "outcome_text": "00:55:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 23",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7d74-90c1-66a74dfd6b06",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2018-09-05",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #6",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:47:59",
+          "competitive": true,
+          "course_name": "Course4",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "00:47:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:47:59",
+          "competitive": true,
+          "course_name": "Course4",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "00:47:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-70f7-b459-3f9d317151d5",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "event_date": "2018-08-15",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #5",
+      "venue_name": "Seattle Pacific University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:44:17",
+          "competitive": true,
+          "course_name": "Course4",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "00:44:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:44:17",
+          "competitive": true,
+          "course_name": "Course4",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "00:44:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c5d-8b9a-1504cafd02ff",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2018-06-27",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #3 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:12:33",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "01:12:33",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:12:33",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "01:12:33",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-76ea-898d-1bd4ce34e6d2",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2018-06-06",
+      "event_kind": "race",
+      "event_name": "2018-WES #2",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:03:35",
+          "competitive": true,
+          "course_name": "Course4",
+          "course_rank": 26,
+          "status_code": "OK",
+          "outcome_text": "01:03:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:03:35",
+          "competitive": true,
+          "course_name": "Course4",
+          "course_rank": 26,
+          "status_code": "OK",
+          "outcome_text": "01:03:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-71db-93c6-2369e6fcdaed",
+      "venue_id": "019b81f3-1f39-756c-9a1e-ccb8617bf543",
+      "event_date": "2018-05-23",
+      "event_kind": "race",
+      "event_name": "2018-WES #1",
+      "venue_name": "Lake Wilderness Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:08:53",
+          "competitive": true,
+          "course_name": "Course4",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "01:08:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:08:53",
+          "competitive": true,
+          "course_name": "Course4",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "01:08:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7c94-b11b-91b83ff047da",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2017-01-07",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #5",
+      "venue_name": "Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "01:06:32",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "01:06:32",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 83",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "01:06:32",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "01:06:32",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 83",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ff6-9251-ac5a0db930d2",
+      "venue_id": "019b81f3-1f39-74dd-96ff-12787b9d1ea3",
+      "event_date": "2016-12-17",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Shorecrest/Hamlin",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "01:10:46",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:10:46",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 79",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "01:10:46",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:10:46",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 79",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7459-9a51-b1bc5e3ede27",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2016-12-03",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "01:08:54",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "01:08:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 82",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "01:08:54",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "01:08:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 82",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7343-9a8a-e14bd95d1944",
+      "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
+      "event_date": "2016-11-19",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #2",
+      "venue_name": "Dash Point State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "01:13:59",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "01:13:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 82",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "01:13:59",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "01:13:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 82",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-738c-825c-14607d5f9f0f",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2016-11-05",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:11:36",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:11:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:11:36",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:11:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-713d-a61d-55eafed36318",
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "2015-12-05",
@@ -39,7 +587,7 @@
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -63,7 +611,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 14,
     "mention_count": 0
   },
   "mentions": [],

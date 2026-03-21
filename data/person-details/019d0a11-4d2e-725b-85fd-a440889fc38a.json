@@ -29,6 +29,125 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4d-7b01-8411-7e73e80a4ade",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "event_date": "2018-01-06",
+      "event_kind": "race",
+      "event_name": "Winter O Series / WIOL #5",
+      "venue_name": "Putney Woods",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:37:24",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:37:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:37:24",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:37:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:53:36",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:53:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:53:36",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:53:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-78c4-8e6c-365a86f03b4c",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2016-10-01",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure: City Park!",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:59:23",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": 45,
+          "status_code": "OK",
+          "outcome_text": "00:59:23",
+          "result_notes": null,
+          "category_name": "24 C 24 Pts 75:00 time limit (1pt/minute penalty for overtime)",
+          "category_rank": 45,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-7c1f-b8a9-b6257b6dceaf",
       "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
       "event_date": "2013-01-05",
@@ -415,8 +534,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2010-01-23",
       "event_kind": "race",
-      "event_name": "Winter O' Series #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Winter O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -502,11 +621,11 @@
     },
     {
       "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
-      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
       "event_date": "2009-02-07",
       "event_kind": "race",
-      "event_name": "Winter O' Series/WIOL #7",
-      "venue_name": "Island Crest",
+      "event_name": "Winter O' Series #7 / WIOL #7",
+      "venue_name": "Island Crest Park",
       "result_rows": [
         {
           "metrics": [
@@ -535,7 +654,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 16,
+    "event_count": 19,
     "mention_count": 0
   },
   "mentions": [],

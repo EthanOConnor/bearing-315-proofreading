@@ -784,7 +784,7 @@
       "event_date": "2023-01-07",
       "event_kind": "race",
       "event_name": "2022 Winter League 05",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -1408,6 +1408,63 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-7f14-8ad5-c132007876e3",
+      "venue_id": "019b81f3-1f39-74f3-8714-f78123563aa8",
+      "event_date": "2019-10-26",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3 - Dog Bones!",
+      "venue_name": "Edmonds Community College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 21
+            }
+          ],
+          "time_text": "00:53:28",
+          "competitive": true,
+          "course_name": "Choose Your Adventure #3 – Dog Bones! – Edmonds Community College",
+          "course_rank": 42,
+          "status_code": "OK",
+          "outcome_text": "00:53:28",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 21",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 21
+            }
+          ],
+          "time_text": "00:53:28",
+          "competitive": true,
+          "course_name": "Choose Your Adventure #3 – Dog Bones! – Edmonds Community College",
+          "course_rank": 42,
+          "status_code": "OK",
+          "outcome_text": "00:53:28",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 21",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4e-7b88-9ee5-a3a281f4db62",
       "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
       "event_date": "2019-09-21",
@@ -1451,6 +1508,1596 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7fd8-abb0-adc704a5f6bf",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2019-08-28",
+      "event_kind": "race",
+      "event_name": "2019 Wednesday Evening #6",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:49:17",
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "00:49:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:49:17",
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "00:49:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7642-bb2e-1a7a4e81d224",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2019-04-20",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #5 - Big Finn Hill (Individual Relay)",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Advanced (3 relay legs, 6.2k)",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Uo Points 0",
+          "result_notes": null,
+          "category_name": "Ultimate Masters Female",
+          "category_rank": null,
+          "metric_summary": "Uo Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-7f5b-9154-0b97756fd753",
+      "venue_id": "019b81f3-1f39-71a0-9515-e830ba81c0ef",
+      "event_date": "2019-04-06",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #4",
+      "venue_name": "Bridle Trails (Score)",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 120
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 750
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 630
+            }
+          ],
+          "time_text": "01:05:11",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "01:05:11",
+          "result_notes": null,
+          "category_name": "Masters Female",
+          "category_rank": 4,
+          "metric_summary": "Penalty 120; Points 750; Total Time 630",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 750
+            }
+          ],
+          "time_text": "01:05:11",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "01:05:11",
+          "result_notes": null,
+          "category_name": "Masters Female",
+          "category_rank": 4,
+          "metric_summary": "Points 750",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4a-7cd4-983b-4944ec6a98ba",
+      "venue_id": "019b81f3-1f39-78c9-9783-eacb06a64ef9",
+      "event_date": "2019-02-23",
+      "event_kind": "race",
+      "event_name": "2018-19 Winter League Championship",
+      "venue_name": "Camp River Ranch",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:35:30",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:35:30",
+          "result_notes": null,
+          "category_name": "Short Advanced Female",
+          "category_rank": 3,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:35:30",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:35:30",
+          "result_notes": null,
+          "category_name": "Short Advanced Female",
+          "category_rank": 3,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7143-987a-e7258339bad4",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2019-01-12",
+      "event_kind": "race",
+      "event_name": "Winter League #5",
+      "venue_name": "Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:46:06",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "00:46:06",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:46:06",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "00:46:06",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e20-bf35-b9b574dddd07",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2018-12-15",
+      "event_kind": "race",
+      "event_name": "Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:07:51",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 32,
+          "status_code": "OK",
+          "outcome_text": "01:07:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:07:51",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 32,
+          "status_code": "OK",
+          "outcome_text": "01:07:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-74c3-b4ee-fe02e2b80fa5",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2018-11-17",
+      "event_kind": "race",
+      "event_name": "Winter League #2",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:08:41",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "01:08:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:08:41",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "01:08:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7064-b09c-b82e4395ce4a",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2018-11-03",
+      "event_kind": "race",
+      "event_name": "Winter League #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:48:45",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "00:48:45",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:48:45",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "00:48:45",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7143-b931-5dfa77966f25",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2018-10-14",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #4: Founders’ Day!",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 7
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 21
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 14
+            }
+          ],
+          "time_text": "01:05:22",
+          "competitive": true,
+          "course_name": "CYA",
+          "course_rank": 57,
+          "status_code": "OK",
+          "outcome_text": "01:05:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 7; Points 21; Total Time 14",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 21
+            }
+          ],
+          "time_text": "01:05:22",
+          "competitive": true,
+          "course_name": "CYA",
+          "course_rank": 57,
+          "status_code": "OK",
+          "outcome_text": "01:05:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 21",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7573-8ad9-30f8abdbaa5a",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "event_date": "2018-09-22",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3: Corn Maze! - Bob’s Corn Maze, Snohomish",
+      "venue_name": "Bob's Corn Maze",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:06:32",
+          "competitive": true,
+          "course_name": "Choose Your Adventure #3: Corn Maze! – Bob’s Corn Maze, Snohomish",
+          "course_rank": 49,
+          "status_code": "OK",
+          "outcome_text": "01:06:32",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-736e-b8ec-6c1a61348f2d",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2018-09-09",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #2: Back to School!",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 1
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 22
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 21
+            }
+          ],
+          "time_text": "01:12:24",
+          "competitive": true,
+          "course_name": "Choose Your Adventure",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "01:12:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 1; Points 22; Total Time 21",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f49-b51e-10516ab69c87",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2018-02-03",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series / WIOL #7",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:45:48",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "00:45:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:45:48",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "00:45:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7edf-820f-7d76dd51f5f1",
+      "venue_id": "019b81f3-1f39-771c-b188-7405b0c44c91",
+      "event_date": "2018-01-20",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #6",
+      "venue_name": "Lincoln Tree Farm",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:46:51",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 39,
+          "status_code": "OK",
+          "outcome_text": "01:46:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:46:51",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 39,
+          "status_code": "OK",
+          "outcome_text": "01:46:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7f84-9c0c-cd99a0fde461",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2017-12-30",
+      "event_kind": "race",
+      "event_name": "38th Annual Bog Slog",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:32:18",
+          "competitive": true,
+          "course_name": "Short Advanced",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "01:32:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:32:18",
+          "competitive": true,
+          "course_name": "Short Advanced",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "01:32:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "01:23:59",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "01:23:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 75",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "01:23:59",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "01:23:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 75",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-744a-b234-bab405244656",
+      "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
+      "event_date": "2017-12-02",
+      "event_kind": "race",
+      "event_name": "Winter O-Series / WIOL #3",
+      "venue_name": "St. Edward State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "01:36:44",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "01:36:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 85",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "01:36:44",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "01:36:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 85",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7c79-8039-8b10b340666f",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2017-11-18",
+      "event_kind": "race",
+      "event_name": "Winter O-Series / WIOL #2",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "01:08:27",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "01:08:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 81",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "01:08:27",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "01:08:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 81",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e3f-92ed-63f73f4b22e3",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "event_date": "2017-10-01",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #5: Corn Maze! - Bob’s Corn Maze",
+      "venue_name": "Bob's Corn Maze",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:54:41",
+          "competitive": true,
+          "course_name": "Choose Your Adventure",
+          "course_rank": 37,
+          "status_code": "OK",
+          "outcome_text": "00:54:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24; Total Time 24",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:54:41",
+          "competitive": true,
+          "course_name": "Choose Your Adventure",
+          "course_rank": 37,
+          "status_code": "OK",
+          "outcome_text": "00:54:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7fd0-b114-79dd6682eb03",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2017-09-30",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #4: City Park!",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "pt_1_time",
+              "metric_time_text": "00:42:15"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:04:06",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "01:04:06",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24; Pt 1 Time 00:42:15; Total Time 24",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:04:06",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "01:04:06",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7d26-b002-92f518f8849a",
+      "venue_id": "01913927-5a14-7bdb-8b3c-b840c25c4d0c",
+      "event_date": "2017-09-06",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #5",
+      "venue_name": "Carkeek Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:39:47",
+          "competitive": true,
+          "course_name": "C3",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:39:47",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:39:47",
+          "competitive": true,
+          "course_name": "C3",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:39:47",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-768e-a223-021ace577b05",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "event_date": "2017-08-16",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #4",
+      "venue_name": "Seattle Pacific University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:04:23",
+          "competitive": true,
+          "course_name": "C4",
+          "course_rank": 29,
+          "status_code": "OK",
+          "outcome_text": "01:04:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:04:23",
+          "competitive": true,
+          "course_name": "C4",
+          "course_rank": 29,
+          "status_code": "OK",
+          "outcome_text": "01:04:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7e47-b652-bd63ad7abe60",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2017-06-18",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #9 - Goat",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 770
+            }
+          ],
+          "time_text": "02:42:22",
+          "competitive": true,
+          "course_name": "Ultimate Masters Women / Kid",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "02:42:22",
+          "result_notes": "skips 14, 17",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 770",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 770
+            }
+          ],
+          "time_text": "02:42:22",
+          "competitive": true,
+          "course_name": "Ultimate Masters Women / Kid",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "02:42:22",
+          "result_notes": "skips 14, 17",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 770",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7838-861a-0e29a62d9b23",
+      "venue_id": "019b81f3-1f39-710d-8e0d-1ef8ec0846cd",
+      "event_date": "2017-06-17",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #8 - Middle",
+      "venue_name": "Moses Lake Sand Dunes",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 974
+            }
+          ],
+          "time_text": "00:47:56",
+          "competitive": true,
+          "course_name": "Masters Women",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:47:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 974",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 974
+            }
+          ],
+          "time_text": "00:47:56",
+          "competitive": true,
+          "course_name": "Masters Women",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:47:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 974",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-77df-adf3-7b2c0f2f8249",
+      "venue_id": "019b7b2f-bf4b-7d04-bb73-a3e7756e878a",
+      "event_date": "2017-05-14",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #7 - Score O",
+      "venue_name": "Teanaway Forks",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 80
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 980
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 900
+            }
+          ],
+          "time_text": "02:04:00",
+          "competitive": true,
+          "course_name": "Masters Women (2hr)",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "02:04:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 80; Points 980; Total Time 900",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7609-b0d0-a246e761e733",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "event_date": "2017-05-13",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #6 (Pig War) - Classic",
+      "venue_name": "Lick Creek",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 909
+            }
+          ],
+          "time_text": "01:09:36",
+          "competitive": true,
+          "course_name": "Masters Women",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "01:09:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 909",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 909
+            }
+          ],
+          "time_text": "01:09:36",
+          "competitive": true,
+          "course_name": "Masters Women",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "01:09:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 909",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-753d-8ffe-99736343f1f2",
+      "venue_id": "019b78aa-5904-76b8-89ba-741c8d8c7e21",
+      "event_date": "2017-03-11",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #3 - Night - Luther Burbank",
+      "venue_name": "Luther Burbank Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 875
+            }
+          ],
+          "time_text": "00:40:16",
+          "competitive": true,
+          "course_name": "Masters Women",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:40:16",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 875",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 875
+            }
+          ],
+          "time_text": "00:40:16",
+          "competitive": true,
+          "course_name": "Masters Women",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:40:16",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 875",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7069-b7ea-d7160df4c081",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2016-12-31",
+      "event_kind": "race",
+      "event_name": "37th Annual Bog Slog",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:52:22",
+          "competitive": true,
+          "course_name": "ShortAdvanced",
+          "course_rank": 22,
+          "status_code": "OK",
+          "outcome_text": "01:52:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:52:22",
+          "competitive": true,
+          "course_name": "ShortAdvanced",
+          "course_rank": 22,
+          "status_code": "OK",
+          "outcome_text": "01:52:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ff6-9251-ac5a0db930d2",
+      "venue_id": "019b81f3-1f39-74dd-96ff-12787b9d1ea3",
+      "event_date": "2016-12-17",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Shorecrest/Hamlin",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:59:17",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:59:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:59:17",
+          "competitive": true,
+          "course_name": "Long Adv Women",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:59:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7459-9a51-b1bc5e3ede27",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2016-12-03",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:56:11",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:56:11",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:56:11",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:56:11",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-711c-865e-82b638ebc0fe",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2016-09-07",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #5",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:51:41",
+          "competitive": true,
+          "course_name": "Long Advanced",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "00:51:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:51:41",
+          "competitive": true,
+          "course_name": "Long Advanced",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "00:51:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-720e-b924-c916cf575bd2",
+      "venue_id": "019b81f3-1f39-716d-9fd5-fb4510ea0605",
+      "event_date": "2016-06-26",
+      "event_kind": "race",
+      "event_name": "2016 Ultimate Orienteer #10",
+      "venue_name": "Classic (Riverside State Park)",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 768
+            }
+          ],
+          "time_text": "01:14:30",
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:14:30",
+          "result_notes": null,
+          "category_name": "Masters Women",
+          "category_rank": 4,
+          "metric_summary": "Uo Points 768",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-78d1-b6c9-6f87e57f7907",
+      "venue_id": "019b81f3-1f39-7af1-97bb-74df5a9f4fa9",
+      "event_date": "2016-06-25",
+      "event_kind": "race",
+      "event_name": "2017 Ultimate Orienteer #9",
+      "venue_name": "Goat (Fishtrap Lake)",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "ultimate_pts",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "01:54:29",
+          "competitive": true,
+          "course_name": "Kid (8.5 km, 260 m climb, 19 controls on course, 2 skips allowed)",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:54:29",
+          "result_notes": "skips 13,14",
+          "category_name": "Masters Women",
+          "category_rank": 1,
+          "metric_summary": "Ultimate Pts 1000",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7444-922c-2001513525fe",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2016-06-12",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #8 (Ultralong) - Salmon La Sac",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 966
+            }
+          ],
+          "time_text": "02:35:11",
+          "competitive": true,
+          "course_name": "Masters Women",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "02:35:11",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 966",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 966
+            }
+          ],
+          "time_text": "02:35:11",
+          "competitive": true,
+          "course_name": "Masters Women",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "02:35:11",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 966",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e16-9117-f51d777bd6f0",
+      "venue_id": "019b7b2f-bf4b-7d04-bb73-a3e7756e878a",
+      "event_date": "2016-05-14",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #6 (Classic)",
+      "venue_name": "Teanaway Forks",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 743
+            }
+          ],
+          "time_text": "01:09:19",
+          "competitive": true,
+          "course_name": "Masters Women",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:09:19",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 743",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 743
+            }
+          ],
+          "time_text": "01:09:19",
+          "competitive": true,
+          "course_name": "Masters Women",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:09:19",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 743",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     },
     {
       "event_id": "019b81f3-1f4d-713d-a61d-55eafed36318",
@@ -1776,7 +3423,7 @@
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -2642,8 +4289,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2010-01-23",
       "event_kind": "race",
-      "event_name": "Winter O' Series #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Winter O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -2708,7 +4355,7 @@
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2009-12-05",
       "event_kind": "race",
-      "event_name": "Winter O' Series #3",
+      "event_name": "Winter O' Series #3 / WIOL #3",
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
@@ -2800,7 +4447,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-28",
       "event_kind": "race",
-      "event_name": "PNWOF Long (by class)",
+      "event_name": "PNWOF 2009 Long",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -2828,7 +4475,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -2857,7 +4504,7 @@
       "event_date": "2009-03-14",
       "event_kind": "race",
       "event_name": "O' Series Champs/WIOL Champs",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -2881,11 +4528,11 @@
     },
     {
       "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
-      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
       "event_date": "2009-02-07",
       "event_kind": "race",
-      "event_name": "Winter O' Series/WIOL #7",
-      "venue_name": "Island Crest",
+      "event_name": "Winter O' Series #7 / WIOL #7",
+      "venue_name": "Island Crest Park",
       "result_rows": [
         {
           "metrics": [
@@ -3082,7 +4729,7 @@
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "2003-11-08",
       "event_kind": "race",
-      "event_name": "WIOL 1/ O' Series 1 - Seward Park, Seattle",
+      "event_name": "WIOL 1 / O' Series 1",
       "venue_name": "Seward Park",
       "result_rows": [
         {
@@ -3468,7 +5115,7 @@
       "venue_id": "019b7b62-9f59-7108-a468-484c9810028f",
       "event_date": "2002-04-06",
       "event_kind": "race",
-      "event_name": "Ft. Casey State Park Score-O - Ultimate Orienteer",
+      "event_name": "Fort Casey State Park Score-O - The Ultimate Orienteer",
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
@@ -3788,11 +5435,11 @@
     },
     {
       "event_id": "019b7fff-d9b5-780d-b550-31223b1168a5",
-      "venue_id": "019b7b2f-bf4b-7d04-bb73-a3e7756e878a",
+      "venue_id": "019b81b3-75d3-7f26-a595-23c39e730ac3",
       "event_date": "2001-04-28",
       "event_kind": "race",
-      "event_name": "Teanaway West Long-O - Ultimate Orienteer 4",
-      "venue_name": "Teanaway Forks",
+      "event_name": "Teanaway West Long-O - The Ultimate Orienteer 4",
+      "venue_name": "Teanaway West",
       "result_rows": [
         {
           "metrics": [],
@@ -3817,7 +5464,7 @@
       "venue_id": "019b7f6c-d83a-70e5-a00f-404279e1de11",
       "event_date": "2001-03-31",
       "event_kind": "race",
-      "event_name": "Priest Point Park Score-O - Ultimate Orienteer 2",
+      "event_name": "Priest Point Park Score-O - The Ultimate Orienteer 2",
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
@@ -3888,7 +5535,7 @@
       "event_date": "2001-02-17",
       "event_kind": "race",
       "event_name": "Ft. Steilacoom Park - WIOL & Winter O' Series Championships",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -4208,7 +5855,7 @@
       "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
       "event_date": "2000-04-01",
       "event_kind": "race",
-      "event_name": "Shoreview Park",
+      "event_name": "Shoreview Park - The Ultimate Orienteer 2",
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
@@ -4245,7 +5892,7 @@
       "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
       "event_date": "2000-03-18",
       "event_kind": "race",
-      "event_name": "Magnuson Park",
+      "event_name": "Magnuson Park - The Ultimate Orienteer 1",
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
@@ -4278,7 +5925,7 @@
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "2000-02-12",
       "event_kind": "race",
-      "event_name": "O' Series #7 / WIOL #7",
+      "event_name": "Lincoln Park - O' Series #7 / WIOL #7",
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
@@ -4306,8 +5953,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2000-01-29",
       "event_kind": "race",
-      "event_name": "O' Series #6 / WIOL #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Fort Steilacoom Park - O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -4334,7 +5981,7 @@
       "venue_id": "019b7dc7-07fd-7dfe-9e57-195d624bda14",
       "event_date": "2000-01-15",
       "event_kind": "race",
-      "event_name": "O' Series #5 / WIOL #5",
+      "event_name": "Lake Sammamish State Park - O' Series #5 / WIOL #5",
       "venue_name": "Lake Sammamish State Park",
       "result_rows": [
         {
@@ -4362,7 +6009,7 @@
       "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
       "event_date": "1999-12-04",
       "event_kind": "race",
-      "event_name": "O' Series #3 / WIOL #3",
+      "event_name": "Magnuson Park - O' Series #3 / WIOL #3",
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
@@ -4390,7 +6037,7 @@
       "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
       "event_date": "1999-11-06",
       "event_kind": "race",
-      "event_name": "O' Series #1 / WIOL #1",
+      "event_name": "Marymoor Park - O' Series #1 / WIOL #1",
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
@@ -4598,8 +6245,8 @@
     "Breseman, Eileen"
   ],
   "summary": {
-    "role_count": 57,
-    "event_count": 145,
+    "role_count": 77,
+    "event_count": 180,
     "mention_count": 0
   },
   "mentions": [],
@@ -4899,7 +6546,7 @@
       "event_date": "2023-01-07",
       "event_kind": "race",
       "event_name": "2022 Winter League 05",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://cascadeoc.org/result/2022-winter-league-05-ft-steilacoom/"
@@ -5154,7 +6801,7 @@
       "event_date": "2021-04-17",
       "event_kind": "race",
       "event_name": "2021 Winter League #4",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "Web Snapshot: https://modern.cascadeoc.org/result/2021-winter-league-4-ft-steilacoom/"
@@ -5203,6 +6850,306 @@
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://www.cascadeoc.org/result/2021-winter-league-1-bridle-trails-state-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-797c-b1a4-b54ca757b673",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "role_name": "Registration",
+      "event_date": "2020-02-22",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League Championships",
+      "venue_name": "Point Defiance Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2019-2020-winter-league-championships-pt-defiance-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7189-80bb-f99e65abe9e4",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "role_name": "Registration",
+      "event_date": "2019-11-16",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #2",
+      "venue_name": "North Seatac Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/2019-2020-winter-league-2-north-seatac-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7ab2-a1a3-f647300968af",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "role_name": "Registration",
+      "event_date": "2019-11-02",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #1",
+      "venue_name": "Magnuson Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/2019-2020-winter-league-1-magnuson-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-7642-bb2e-1a7a4e81d224",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "role_name": "Registration",
+      "event_date": "2019-04-20",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #5 - Big Finn Hill (Individual Relay)",
+      "venue_name": "Big Finn Hill Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/2019-ultimate-orienteer-5-big-finn-hill-individual-relay/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4a-7cd4-983b-4944ec6a98ba",
+      "venue_id": "019b81f3-1f39-78c9-9783-eacb06a64ef9",
+      "role_name": "Registration/Info",
+      "event_date": "2019-02-23",
+      "event_kind": "race",
+      "event_name": "2018-19 Winter League Championship",
+      "venue_name": "Camp River Ranch",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/result/2018-19-winter-league-championship/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-7143-987a-e7258339bad4",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "role_name": "Newcomer Instruction",
+      "event_date": "2019-01-12",
+      "event_kind": "race",
+      "event_name": "Winter League #5",
+      "venue_name": "Fort Steilacoom Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/winter-league-5-ft-steilacoom-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e20-bf35-b9b574dddd07",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "role_name": "Registration",
+      "event_date": "2018-12-15",
+      "event_kind": "race",
+      "event_name": "Winter League #4",
+      "venue_name": "University of Washington",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/winter-league-4-university-washington-seattle/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7a06-89bf-987aa49c3788",
+      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "role_name": "Registration",
+      "event_date": "2018-12-01",
+      "event_kind": "race",
+      "event_name": "Winter League #3",
+      "venue_name": "Shoreview Park - Shoreline, WA",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/winter-league-3-shoreline/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-74c3-b4ee-fe02e2b80fa5",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "role_name": "Registration",
+      "event_date": "2018-11-17",
+      "event_kind": "race",
+      "event_name": "Winter League #2",
+      "venue_name": "Hamlin Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/winter-league-2-hamlin-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7143-b931-5dfa77966f25",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "role_name": "Registration",
+      "event_date": "2018-10-14",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #4: Founders’ Day!",
+      "venue_name": "North Seattle College",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/choose-adventure-4-founders-day-north-seattle-college/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-7573-8ad9-30f8abdbaa5a",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "role_name": "Registration",
+      "event_date": "2018-09-22",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3: Corn Maze! - Bob’s Corn Maze, Snohomish",
+      "venue_name": "Bob's Corn Maze",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/result/choose-adventure-3-corn-maze-bobs-corn-maze-snohomish/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7d05-8238-bcaea300d5a4",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
+      "role_name": "Control Setting / Pickup",
+      "event_date": "2018-09-09",
+      "event_kind": "race",
+      "event_name": "SART 2018 - Round 4, Shoreview Park",
+      "venue_name": "Shoreview Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/result/sart-2018-round-4-shoreview-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-77bb-a7c2-4ada9a065f5c",
+      "venue_id": "019b81f3-1f39-7592-9689-d92e7f38f4a5",
+      "role_name": "Control Setting / Pickup",
+      "event_date": "2018-09-09",
+      "event_kind": "race",
+      "event_name": "SART 2018 - Round 5, Shoreline CC",
+      "venue_name": "Shoreline Community College",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/sart-2018-round-5-shoreline-cc/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-70e7-8da5-266aaa299bbd",
+      "venue_id": "019b820a-0441-7fd5-892a-e4f6a357beca",
+      "role_name": "Control Setting / Pickup",
+      "event_date": "2018-09-08",
+      "event_kind": "race",
+      "event_name": "SART 2018 - Round 0 Time Trial, Licton Springs",
+      "venue_name": "Licton Springs",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/sart-2018-round-0-time-trial-licton-springs/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7968-989e-0888396c5f73",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "role_name": "Control Setting / Pickup",
+      "event_date": "2018-09-08",
+      "event_kind": "race",
+      "event_name": "SART 2018 - Round 1, North Seattle College",
+      "venue_name": "North Seattle College",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/sart-2018-round-1-north-seattle-college/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-77ab-9876-e9fea0dfb530",
+      "venue_id": "019d0457-2e57-76bd-8380-74697c05df51",
+      "role_name": "Control Setting / Pickup",
+      "event_date": "2018-09-08",
+      "event_kind": "race",
+      "event_name": "SART 2018 - Round 2, South Woods Park & Shorecrest HS",
+      "venue_name": "South Woods Park & Shorecrest HS",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/sart-2018-round-2-south-woods-park-shorecrest-hs/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7dcb-a66c-8a256bd28059",
+      "venue_id": "019d0457-2e55-707d-b824-f82712da23b3",
+      "role_name": "Control Setting / Pickup",
+      "event_date": "2018-09-08",
+      "event_kind": "race",
+      "event_name": "SART 2018 - Round 3, Hamlin Park & Kellogg MS",
+      "venue_name": "Hamlin Park & Kellogg MS",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/sart-2018-round-3-hamlin-park-kellogg-ms/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-70f7-b459-3f9d317151d5",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "role_name": "Newcomer Instruction",
+      "event_date": "2018-08-15",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #5",
+      "venue_name": "Seattle Pacific University",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/wednesday-evening-series-5-seattle-pacific-university/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-70f7-b459-3f9d317151d5",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "role_name": "Registration",
+      "event_date": "2018-08-15",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #5",
+      "venue_name": "Seattle Pacific University",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/wednesday-evening-series-5-seattle-pacific-university/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-706d-8b35-a83fb8ca0cb0",
+      "venue_id": "019b7fff-4c14-7219-87e8-94a6085d84b6",
+      "role_name": "Finish",
+      "event_date": "2018-07-18",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #4",
+      "venue_name": "Forest Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/result/wednesday-evening-series-4-forest-park/"
       ],
       "volunteer_hours": null,
       "volunteer_points": null
@@ -5393,7 +7340,7 @@
       "role_name": "Start",
       "event_date": "2000-03-18",
       "event_kind": "race",
-      "event_name": "Magnuson Park",
+      "event_name": "Magnuson Park - The Ultimate Orienteer 1",
       "venue_name": "Magnuson Park",
       "citation_count": 1,
       "citation_briefs": [
@@ -5408,7 +7355,7 @@
       "role_name": "Timing",
       "event_date": "2000-02-12",
       "event_kind": "race",
-      "event_name": "O' Series #7 / WIOL #7",
+      "event_name": "Lincoln Park - O' Series #7 / WIOL #7",
       "venue_name": "Lincoln Park",
       "citation_count": 1,
       "citation_briefs": [
@@ -5423,7 +7370,7 @@
       "role_name": "Control Pickup",
       "event_date": "1999-12-04",
       "event_kind": "race",
-      "event_name": "O' Series #3 / WIOL #3",
+      "event_name": "Magnuson Park - O' Series #3 / WIOL #3",
       "venue_name": "Magnuson Park",
       "citation_count": 1,
       "citation_briefs": [
@@ -5453,7 +7400,7 @@
       "role_name": "Finish",
       "event_date": "1999-11-06",
       "event_kind": "race",
-      "event_name": "O' Series #1 / WIOL #1",
+      "event_name": "Marymoor Park - O' Series #1 / WIOL #1",
       "venue_name": "Marymoor Park",
       "citation_count": 1,
       "citation_briefs": [

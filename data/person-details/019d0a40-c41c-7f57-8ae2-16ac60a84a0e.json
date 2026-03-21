@@ -1,6 +1,92 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7ff6-9251-ac5a0db930d2",
+      "venue_id": "019b81f3-1f39-74dd-96ff-12787b9d1ea3",
+      "event_date": "2016-12-17",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Shorecrest/Hamlin",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:02:47",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "01:02:47",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:02:47",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "01:02:47",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7459-9a51-b1bc5e3ede27",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2016-12-03",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:54:58",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:54:58",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:54:58",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:54:58",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4e-71fb-a118-9fac72d34825",
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "2013-11-02",
@@ -110,7 +196,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

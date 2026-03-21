@@ -34,7 +34,7 @@
       "event_date": "2024-04-13",
       "event_kind": "race",
       "event_name": "2024 Ultimate Orienteer #5",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -55,12 +55,184 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ec9-988d-ced0baa8b8f9",
+      "venue_id": "019b81f3-1f39-7d5c-8907-0993cebc5fd1",
+      "event_date": "2019-06-15",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #8",
+      "venue_name": "Riverside State Park (Classic)",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": "–:–",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Orange",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": "–:–",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-797f-8ae4-0678513a6daa",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "event_date": "2019-01-26",
+      "event_kind": "race",
+      "event_name": "Winter League #6",
+      "venue_name": "Fort Ebey State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:26:44",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:26:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:26:44",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:26:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f49-b51e-10516ab69c87",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2018-02-03",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series / WIOL #7",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:38:24",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:38:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:38:24",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:38:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7b01-8411-7e73e80a4ade",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "event_date": "2018-01-06",
+      "event_kind": "race",
+      "event_name": "Winter O Series / WIOL #5",
+      "venue_name": "Putney Woods",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:03:00",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "01:03:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:03:00",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "01:03:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

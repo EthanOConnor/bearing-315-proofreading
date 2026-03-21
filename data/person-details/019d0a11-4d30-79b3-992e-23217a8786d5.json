@@ -754,7 +754,7 @@
       "event_date": "2023-01-07",
       "event_kind": "race",
       "event_name": "2022 Winter League 05",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -996,6 +996,49 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4c-7c4f-b328-fa8d97060264",
+      "venue_id": "019b81f3-1f39-771c-b188-7405b0c44c91",
+      "event_date": "2020-01-25",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #6",
+      "venue_name": "Lincoln Tree Farm",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:27:05",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:27:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:27:05",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:27:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4e-737a-bc39-fb0baf22cbab",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2019-12-29",
@@ -1022,6 +1065,211 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7fd8-abb0-adc704a5f6bf",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2019-08-28",
+      "event_kind": "race",
+      "event_name": "2019 Wednesday Evening #6",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:35:49",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:35:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:35:49",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:35:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7752-b37d-6e6913d38903",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "event_date": "2018-04-14",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #3 - Individual Relay",
+      "venue_name": "Wilburton Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:12:51",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "01:12:51",
+          "result_notes": "perm AEBF",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:12:51",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "01:12:51",
+          "result_notes": "perm AEBF",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-759e-a587-599d1b75f09a",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2016-09-11",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure: Campus!",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:03:19",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:03:19",
+          "result_notes": null,
+          "category_name": "Choose Your Adventure! (28/36) 24 C 24 Pts 1:15:00",
+          "category_rank": 8,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7444-922c-2001513525fe",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2016-06-12",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #8 (Ultralong) - Salmon La Sac",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:58:17",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "02:58:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "02:58:17",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "02:58:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7055-81ea-a16d1f424d58",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
+      "event_date": "2016-04-16",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #4 (Sprint)",
+      "venue_name": "Shoreview Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Jr. Women",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Jr. Women",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     },
     {
       "event_id": "019b81f3-1f4c-7411-96c1-eb3ff75cbdba",
@@ -1080,8 +1328,8 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 41,
-    "event_count": 35,
+    "role_count": 46,
+    "event_count": 41,
     "mention_count": 0
   },
   "mentions": [],
@@ -1455,7 +1703,7 @@
       "event_date": "2022-04-23",
       "event_kind": "race",
       "event_name": "2022 Ultimate Orienteer #3",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://cascadeoc.org/result/2022-ultimate-orienteer-3-individual-relay-ft-steilacoom/"
@@ -1470,7 +1718,7 @@
       "event_date": "2022-04-23",
       "event_kind": "race",
       "event_name": "2022 Ultimate Orienteer #3",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://cascadeoc.org/result/2022-ultimate-orienteer-3-individual-relay-ft-steilacoom/"
@@ -1699,6 +1947,81 @@
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://www.cascadeoc.org/result/2021-winter-league-1-bridle-trails-state-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4a-73ed-98f2-9007c8736ce2",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "role_name": "Newcomer Instruction",
+      "event_date": "2019-12-21",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #4",
+      "venue_name": "Bridle Trails State Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/2019-2020-winter-league-4-bridle-trails-state-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7189-80bb-f99e65abe9e4",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "role_name": "Start",
+      "event_date": "2019-11-16",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #2",
+      "venue_name": "North Seatac Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/2019-2020-winter-league-2-north-seatac-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f14-8ad5-c132007876e3",
+      "venue_id": "019b81f3-1f39-74f3-8714-f78123563aa8",
+      "role_name": "Newcomer Instruction",
+      "event_date": "2019-10-26",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3 - Dog Bones!",
+      "venue_name": "Edmonds Community College",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/result/choose-adventure-3-dog-bones/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e20-bf35-b9b574dddd07",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "role_name": "Newcomer Instruction",
+      "event_date": "2018-12-15",
+      "event_kind": "race",
+      "event_name": "Winter League #4",
+      "venue_name": "University of Washington",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/winter-league-4-university-washington-seattle/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7a06-89bf-987aa49c3788",
+      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "role_name": "Newcomer Instruction",
+      "event_date": "2018-12-01",
+      "event_kind": "race",
+      "event_name": "Winter League #3",
+      "venue_name": "Shoreview Park - Shoreline, WA",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/winter-league-3-shoreline/"
       ],
       "volunteer_hours": null,
       "volunteer_points": null

@@ -57,6 +57,37 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-78d1-b6c9-6f87e57f7907",
+      "venue_id": "019b81f3-1f39-7af1-97bb-74df5a9f4fa9",
+      "event_date": "2016-06-25",
+      "event_kind": "race",
+      "event_name": "2017 Ultimate Orienteer #9",
+      "venue_name": "Goat (Fishtrap Lake)",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "skips",
+              "metric_numeric": 7
+            }
+          ],
+          "time_text": "01:23:57",
+          "competitive": true,
+          "course_name": "Zygoat (5.0 km, 155 m climb, 10 controls on course, 1 skip allowed)",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "01:23:57",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Skips 7",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4c-7411-96c1-eb3ff75cbdba",
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "2012-11-03",
@@ -409,8 +440,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2010-01-23",
       "event_kind": "race",
-      "event_name": "Winter O' Series #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Winter O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -503,7 +534,7 @@
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2009-12-05",
       "event_kind": "race",
-      "event_name": "Winter O' Series #3",
+      "event_name": "Winter O' Series #3 / WIOL #3",
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
@@ -622,7 +653,7 @@
       "event_date": "2009-03-14",
       "event_kind": "race",
       "event_name": "O' Series Champs/WIOL Champs",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -646,11 +677,11 @@
     },
     {
       "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
-      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
       "event_date": "2009-02-07",
       "event_kind": "race",
-      "event_name": "Winter O' Series/WIOL #7",
-      "venue_name": "Island Crest",
+      "event_name": "Winter O' Series #7 / WIOL #7",
+      "venue_name": "Island Crest Park",
       "result_rows": [
         {
           "metrics": [
@@ -814,7 +845,7 @@
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "2003-11-08",
       "event_kind": "race",
-      "event_name": "WIOL 1/ O' Series 1 - Seward Park, Seattle",
+      "event_name": "WIOL 1 / O' Series 1",
       "venue_name": "Seward Park",
       "result_rows": [
         {
@@ -967,7 +998,7 @@
       "event_date": "2003-01-25",
       "event_kind": "race",
       "event_name": "Ft. Steilacoom",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -1149,7 +1180,7 @@
       "venue_id": "019b7b62-9f59-7108-a468-484c9810028f",
       "event_date": "2002-04-06",
       "event_kind": "race",
-      "event_name": "Ft. Casey State Park Score-O - Ultimate Orienteer",
+      "event_name": "Fort Casey State Park Score-O - The Ultimate Orienteer",
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
@@ -1180,8 +1211,8 @@
     "Whitmyre, Chris"
   ],
   "summary": {
-    "role_count": 21,
-    "event_count": 38,
+    "role_count": 33,
+    "event_count": 39,
     "mention_count": 0
   },
   "mentions": [],
@@ -1500,6 +1531,186 @@
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://cascadeoc.org/result/2021-winter-league-5-summit-trails/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4a-73ed-98f2-9007c8736ce2",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "role_name": "Start",
+      "event_date": "2019-12-21",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #4",
+      "venue_name": "Bridle Trails State Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/2019-2020-winter-league-4-bridle-trails-state-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7ab2-a1a3-f647300968af",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "role_name": "Course Designer",
+      "event_date": "2019-11-02",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #1",
+      "venue_name": "Magnuson Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/event/winter-league-1-magnuson-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7ab2-a1a3-f647300968af",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "role_name": "Course Designer(s)",
+      "event_date": "2019-11-02",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #1",
+      "venue_name": "Magnuson Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/2019-2020-winter-league-1-magnuson-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7789-8c65-340311a6b83e",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "role_name": "Control Pickup",
+      "event_date": "2019-08-07",
+      "event_kind": "race",
+      "event_name": "2019 Wednesday Evening #5",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/result/2019-wednesday-evening-5-shorelineshoreview/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-74eb-899a-0fda9e1e5b6e",
+      "venue_id": "019b81f3-1f39-756c-9a1e-ccb8617bf543",
+      "role_name": "Registration",
+      "event_date": "2019-06-26",
+      "event_kind": "race",
+      "event_name": "2019 Wednesday Evening Series #3",
+      "venue_name": "Lake Wilderness Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2019-wednesday-evening-series-3-lake-wilderness-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7feb-a4ff-80650c182366",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "role_name": "Course Designer",
+      "event_date": "2019-05-11",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #6",
+      "venue_name": "Lick Creek",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/event/2019-ultimate-orienteer-6-lick-creek-long/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7feb-a4ff-80650c182366",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "role_name": "Course Designer(s)",
+      "event_date": "2019-05-11",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #6",
+      "venue_name": "Lick Creek",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2019-ultimate-orienteer-6-lick-creek-long/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7a06-89bf-987aa49c3788",
+      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "role_name": "Course Designer",
+      "event_date": "2018-12-01",
+      "event_kind": "race",
+      "event_name": "Winter League #3",
+      "venue_name": "Shoreview Park - Shoreline, WA",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/event/winter-series-wiol-3-2/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7a06-89bf-987aa49c3788",
+      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "role_name": "Course Designers",
+      "event_date": "2018-12-01",
+      "event_kind": "race",
+      "event_name": "Winter League #3",
+      "venue_name": "Shoreview Park - Shoreline, WA",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/winter-league-3-shoreline/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-7752-b37d-6e6913d38903",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "role_name": "Cleanup",
+      "event_date": "2018-04-14",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #3 - Individual Relay",
+      "venue_name": "Wilburton Hill Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/ultimate-orienteer-3/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-7752-b37d-6e6913d38903",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "role_name": "Control Pickup",
+      "event_date": "2018-04-14",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #3 - Individual Relay",
+      "venue_name": "Wilburton Hill Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/ultimate-orienteer-3/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-738c-825c-14607d5f9f0f",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "role_name": "Course Designer",
+      "event_date": "2016-11-05",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #1",
+      "venue_name": "Lincoln Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/event/winter-series-wiol-1/"
       ],
       "volunteer_hours": null,
       "volunteer_points": null

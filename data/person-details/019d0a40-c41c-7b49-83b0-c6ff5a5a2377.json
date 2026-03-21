@@ -1,6 +1,233 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7e20-bf35-b9b574dddd07",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2018-12-15",
+      "event_kind": "race",
+      "event_name": "Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:46:48",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:46:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:46:48",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:46:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7064-b09c-b82e4395ce4a",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2018-11-03",
+      "event_kind": "race",
+      "event_name": "Winter League #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:33:53",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:33:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:33:53",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:33:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f49-b51e-10516ab69c87",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2018-02-03",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series / WIOL #7",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:43:55",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "00:43:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:43:55",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "00:43:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7fd0-b114-79dd6682eb03",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2017-09-30",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #4: City Park!",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "pt_1_time",
+              "metric_time_text": "00:46:48"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:08:51",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "01:08:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24; Pt 1 Time 00:46:48; Total Time 24",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:08:51",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "01:08:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-759e-a587-599d1b75f09a",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2016-09-11",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure: Campus!",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 22
+            }
+          ],
+          "time_text": "00:45:27",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "00:45:27",
+          "result_notes": null,
+          "category_name": "Choose Your Adventure! (28/36) 24 C 24 Pts 1:15:00",
+          "category_rank": 16,
+          "metric_summary": "Points 22",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-7061-b582-95ffadea8170",
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2014-06-29",
@@ -646,7 +873,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-28",
       "event_kind": "race",
-      "event_name": "PNWOF Long (by class)",
+      "event_name": "PNWOF 2009 Long",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -674,7 +901,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -702,7 +929,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-26",
       "event_kind": "race",
-      "event_name": "PNWOF Sprint",
+      "event_name": "PNWOF 2009 Sprint",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -731,7 +958,7 @@
       "event_date": "2009-03-14",
       "event_kind": "race",
       "event_name": "O' Series Champs/WIOL Champs",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -759,7 +986,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 23,
+    "event_count": 28,
     "mention_count": 0
   },
   "mentions": [],

@@ -310,7 +310,7 @@
       "event_date": "2023-01-07",
       "event_kind": "race",
       "event_name": "2022 Winter League 05",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -665,12 +665,182 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7c4f-b328-fa8d97060264",
+      "venue_id": "019b81f3-1f39-771c-b188-7405b0c44c91",
+      "event_date": "2020-01-25",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #6",
+      "venue_name": "Lincoln Tree Farm",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:13:53",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:13:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:13:53",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:13:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7dd1-ab76-e7934a31d3c1",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2020-01-11",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #5",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:43:08",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:43:08",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:43:08",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:43:08",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7189-80bb-f99e65abe9e4",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2019-11-16",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #2",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:21:05",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:21:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:21:05",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:21:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e20-bf35-b9b574dddd07",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2018-12-15",
+      "event_kind": "race",
+      "event_name": "Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:44:39",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "00:44:39",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:44:39",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "00:44:39",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 22,
+    "event_count": 26,
     "mention_count": 0
   },
   "mentions": [],

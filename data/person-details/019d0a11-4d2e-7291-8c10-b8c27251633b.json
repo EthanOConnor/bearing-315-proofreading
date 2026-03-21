@@ -932,7 +932,7 @@
       "event_date": "2021-04-17",
       "event_kind": "race",
       "event_name": "2021 Winter League #4",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -1127,12 +1127,558 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-7f5b-9154-0b97756fd753",
+      "venue_id": "019b81f3-1f39-71a0-9515-e830ba81c0ef",
+      "event_date": "2019-04-06",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #4",
+      "venue_name": "Bridle Trails (Score)",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 620
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 1670
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 1050
+            }
+          ],
+          "time_text": "01:30:13",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "01:30:13",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 12,
+          "metric_summary": "Penalty 620; Points 1670; Total Time 1050",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1670
+            }
+          ],
+          "time_text": "01:30:13",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "01:30:13",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 12,
+          "metric_summary": "Points 1670",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-71c8-8c42-07dc968085e9",
+      "venue_id": "019b820a-043e-79df-b7ed-b880aaadb7c9",
+      "event_date": "2019-03-24",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #3 - Frenchman Spring (Long)",
+      "venue_name": "Frenchman Spring",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 594
+            }
+          ],
+          "time_text": "02:24:28",
+          "competitive": true,
+          "course_name": "Ultimate Open Men",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "02:24:28",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 594",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 594
+            }
+          ],
+          "time_text": "02:24:28",
+          "competitive": true,
+          "course_name": "Ultimate Open Men",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "02:24:28",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 594",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e63-9a34-644d72da0bde",
+      "venue_id": "019b820a-043e-79df-b7ed-b880aaadb7c9",
+      "event_date": "2019-03-23",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #2 - Frenchman Spring (Middle) and Pig War!",
+      "venue_name": "Frenchman Spring",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 518
+            }
+          ],
+          "time_text": "01:05:29",
+          "competitive": true,
+          "course_name": "Ultimate Open Men",
+          "course_rank": 22,
+          "status_code": "OK",
+          "outcome_text": "01:05:29",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 518",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 518
+            }
+          ],
+          "time_text": "01:05:29",
+          "competitive": true,
+          "course_name": "Ultimate Open Men",
+          "course_rank": 22,
+          "status_code": "OK",
+          "outcome_text": "01:05:29",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 518",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7856-9481-4ccecd8681d7",
+      "venue_id": "019b7f6c-d843-7b47-977b-d4a69ef90e9b",
+      "event_date": "2019-03-09",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #1",
+      "venue_name": "Lynndale Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 538
+            }
+          ],
+          "time_text": "00:47:41",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "00:47:41",
+          "result_notes": null,
+          "category_name": "Ultimate Open Male",
+          "category_rank": 13,
+          "metric_summary": "Points 538",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 538
+            }
+          ],
+          "time_text": "00:47:41",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "00:47:41",
+          "result_notes": null,
+          "category_name": "Ultimate Open Male",
+          "category_rank": 13,
+          "metric_summary": "Points 538",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-797f-8ae4-0678513a6daa",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "event_date": "2019-01-26",
+      "event_kind": "race",
+      "event_name": "Winter League #6",
+      "venue_name": "Fort Ebey State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "01:39:38",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "01:39:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 74",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "01:39:38",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "01:39:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 74",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7143-987a-e7258339bad4",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2019-01-12",
+      "event_kind": "race",
+      "event_name": "Winter League #5",
+      "venue_name": "Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 65
+            }
+          ],
+          "time_text": "01:01:33",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 29,
+          "status_code": "OK",
+          "outcome_text": "01:01:33",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 65",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 65
+            }
+          ],
+          "time_text": "01:01:33",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 29,
+          "status_code": "OK",
+          "outcome_text": "01:01:33",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 65",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e20-bf35-b9b574dddd07",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2018-12-15",
+      "event_kind": "race",
+      "event_name": "Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "00:59:50",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 23,
+          "status_code": "OK",
+          "outcome_text": "00:59:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 71",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "00:59:50",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 23,
+          "status_code": "OK",
+          "outcome_text": "00:59:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 71",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7a06-89bf-987aa49c3788",
+      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "event_date": "2018-12-01",
+      "event_kind": "race",
+      "event_name": "Winter League #3",
+      "venue_name": "Shoreview Park - Shoreline, WA",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 62
+            }
+          ],
+          "time_text": "01:16:55",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 32,
+          "status_code": "OK",
+          "outcome_text": "01:16:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 62",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 62
+            }
+          ],
+          "time_text": "01:16:55",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 32,
+          "status_code": "OK",
+          "outcome_text": "01:16:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 62",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7297-b7ca-57b7119ed81a",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2018-03-31",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #2 - Score O",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": -400
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 1370
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 970
+            }
+          ],
+          "time_text": "01:49:42",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "01:49:42",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 14,
+          "metric_summary": "Penalty -400; Points 1370; Total Time 970",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1370
+            }
+          ],
+          "time_text": "01:49:42",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "01:49:42",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 14,
+          "metric_summary": "Points 1370",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-70f7-b304-3aaa938f0076",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2018-03-10",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #1 - Night O",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 440
+            }
+          ],
+          "time_text": "00:57:19",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "00:57:19",
+          "result_notes": null,
+          "category_name": "Ultimate O Male",
+          "category_rank": 11,
+          "metric_summary": "Points 440",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 440
+            }
+          ],
+          "time_text": "00:57:19",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "00:57:19",
+          "result_notes": null,
+          "category_name": "Ultimate O Male",
+          "category_rank": 11,
+          "metric_summary": "Points 440",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 2,
-    "event_count": 33,
+    "event_count": 43,
     "mention_count": 0
   },
   "mentions": [],

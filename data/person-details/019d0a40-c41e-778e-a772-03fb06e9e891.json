@@ -1,6 +1,112 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7b7b-b371-c266daa4f1ef",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2018-06-10",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #7 - Goat - Salmon La Sac",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 876
+            }
+          ],
+          "time_text": "02:00:01",
+          "competitive": true,
+          "course_name": "Ultimate Open Male / Goat",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "02:00:01",
+          "result_notes": "skipped #3, #24",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 876",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 876
+            }
+          ],
+          "time_text": "02:00:01",
+          "competitive": true,
+          "course_name": "Ultimate Open Male / Goat",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "02:00:01",
+          "result_notes": "skipped #3, #24",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 876",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7709-a6e5-9c5a02b44584",
+      "venue_id": "019b820a-0440-79c9-a2de-f6a11d17ad0f",
+      "event_date": "2018-06-09",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #6 - Middle - Jack & Indian",
+      "venue_name": "Jack & Indian",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 755
+            }
+          ],
+          "time_text": "01:16:07",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "01:16:07",
+          "result_notes": null,
+          "category_name": "Ultimate O Male",
+          "category_rank": 6,
+          "metric_summary": "Points 755",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 755
+            }
+          ],
+          "time_text": "01:16:07",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "01:16:07",
+          "result_notes": null,
+          "category_name": "Ultimate O Male",
+          "category_rank": 6,
+          "metric_summary": "Points 755",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-70c0-aa54-f64ae7a20e09",
       "venue_id": "019b81f3-1f39-7d9a-9a28-452083a98ee1",
       "event_date": "2015-09-27",
@@ -165,7 +271,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

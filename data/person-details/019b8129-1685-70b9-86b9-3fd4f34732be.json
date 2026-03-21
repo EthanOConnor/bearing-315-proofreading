@@ -1,6 +1,253 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7d74-90c1-66a74dfd6b06",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2018-09-05",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #6",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Course4",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "45:40",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Course4",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "45:40",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7069-b7ea-d7160df4c081",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2016-12-31",
+      "event_kind": "race",
+      "event_name": "37th Annual Bog Slog",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:34:51",
+          "competitive": true,
+          "course_name": "ShortAdvanced",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "01:34:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:34:51",
+          "competitive": true,
+          "course_name": "ShortAdvanced",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "01:34:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7444-922c-2001513525fe",
+      "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
+      "event_date": "2016-06-12",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #8 (Ultralong) - Salmon La Sac",
+      "venue_name": "Salmon La Sac",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 580
+            }
+          ],
+          "time_text": "03:28:02",
+          "competitive": true,
+          "course_name": "Open Men",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "03:28:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 580",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 580
+            }
+          ],
+          "time_text": "03:28:02",
+          "competitive": true,
+          "course_name": "Open Men",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "03:28:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 580",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7d4a-8ab2-1d09277f154c",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "event_date": "2016-05-15",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #7 (Score O)",
+      "venue_name": "Lick Creek",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 850
+            }
+          ],
+          "time_text": "01:25:07",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:25:07",
+          "result_notes": null,
+          "category_name": "Ultimate Open Male 30 C 1600 Pts 1:30:00",
+          "category_rank": 8,
+          "metric_summary": "Points 850",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 850
+            }
+          ],
+          "time_text": "01:25:07",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": 74,
+          "status_code": "OK",
+          "outcome_text": "01:25:07",
+          "result_notes": null,
+          "category_name": "Ultimate Open Male (23) 30 C 1600 Pts 1:30:00",
+          "category_rank": 8,
+          "metric_summary": "Points 850",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e16-9117-f51d777bd6f0",
+      "venue_id": "019b7b2f-bf4b-7d04-bb73-a3e7756e878a",
+      "event_date": "2016-05-14",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #6 (Classic)",
+      "venue_name": "Teanaway Forks",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 543
+            }
+          ],
+          "time_text": "01:20:35",
+          "competitive": true,
+          "course_name": "Open Men",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "01:20:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 543",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 543
+            }
+          ],
+          "time_text": "01:20:35",
+          "competitive": true,
+          "course_name": "Open Men",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "01:20:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 543",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7349-a647-24a02c3b0d0e",
       "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
       "event_date": "2014-05-10",
@@ -272,7 +519,7 @@
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "2003-11-08",
       "event_kind": "race",
-      "event_name": "WIOL 1/ O' Series 1 - Seward Park, Seattle",
+      "event_name": "WIOL 1 / O' Series 1",
       "venue_name": "Seward Park",
       "result_rows": [
         {
@@ -382,7 +629,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 13,
+    "event_count": 18,
     "mention_count": 0
   },
   "mentions": [],

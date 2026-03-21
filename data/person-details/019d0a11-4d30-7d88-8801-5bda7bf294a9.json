@@ -1,6 +1,272 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7143-987a-e7258339bad4",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2019-01-12",
+      "event_kind": "race",
+      "event_name": "Winter League #5",
+      "venue_name": "Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:08:35",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "02:08:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "02:08:35",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "02:08:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7a06-89bf-987aa49c3788",
+      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "event_date": "2018-12-01",
+      "event_kind": "race",
+      "event_name": "Winter League #3",
+      "venue_name": "Shoreview Park - Shoreline, WA",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:41:51",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 31,
+          "status_code": "OK",
+          "outcome_text": "01:41:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:41:51",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 31,
+          "status_code": "OK",
+          "outcome_text": "01:41:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-74c3-b4ee-fe02e2b80fa5",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2018-11-17",
+      "event_kind": "race",
+      "event_name": "Winter League #2",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:05:29",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 37,
+          "status_code": "OK",
+          "outcome_text": "02:05:29",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "02:05:29",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 37,
+          "status_code": "OK",
+          "outcome_text": "02:05:29",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7143-b931-5dfa77966f25",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2018-10-14",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #4: Founders’ Day!",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 1
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 9
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 8
+            }
+          ],
+          "time_text": "01:15:17",
+          "competitive": true,
+          "course_name": "CYA",
+          "course_rank": 63,
+          "status_code": "OK",
+          "outcome_text": "01:15:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 1; Points 9; Total Time 8",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 9
+            }
+          ],
+          "time_text": "01:15:17",
+          "competitive": true,
+          "course_name": "CYA",
+          "course_rank": 63,
+          "status_code": "OK",
+          "outcome_text": "01:15:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 9",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7573-8ad9-30f8abdbaa5a",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "event_date": "2018-09-22",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3: Corn Maze! - Bob’s Corn Maze, Snohomish",
+      "venue_name": "Bob's Corn Maze",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 14
+            }
+          ],
+          "time_text": "01:06:38",
+          "competitive": true,
+          "course_name": "Choose Your Adventure #3: Corn Maze! – Bob’s Corn Maze, Snohomish",
+          "course_rank": 87,
+          "status_code": "OK",
+          "outcome_text": "01:06:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 14",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-71db-93c6-2369e6fcdaed",
+      "venue_id": "019b81f3-1f39-756c-9a1e-ccb8617bf543",
+      "event_date": "2018-05-23",
+      "event_kind": "race",
+      "event_name": "2018-WES #1",
+      "venue_name": "Lake Wilderness Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:07:25",
+          "competitive": true,
+          "course_name": "Course3",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "01:07:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:07:25",
+          "competitive": true,
+          "course_name": "Course3",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "01:07:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4e-7efc-9a48-43ee67f98d99",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2018-02-17",
@@ -27,12 +293,270 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f49-b51e-10516ab69c87",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2018-02-03",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series / WIOL #7",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:09:12",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "01:09:12",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:09:12",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "01:09:12",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7edf-820f-7d76dd51f5f1",
+      "venue_id": "019b81f3-1f39-771c-b188-7405b0c44c91",
+      "event_date": "2018-01-20",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #6",
+      "venue_name": "Lincoln Tree Farm",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:35:10",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "02:35:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "02:35:10",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "02:35:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7b01-8411-7e73e80a4ade",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "event_date": "2018-01-06",
+      "event_kind": "race",
+      "event_name": "Winter O Series / WIOL #5",
+      "venue_name": "Putney Woods",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:55:43",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 27,
+          "status_code": "OK",
+          "outcome_text": "01:55:43",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:55:43",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 27,
+          "status_code": "OK",
+          "outcome_text": "01:55:43",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:00:36",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 28,
+          "status_code": "OK",
+          "outcome_text": "01:00:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:00:36",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 28,
+          "status_code": "OK",
+          "outcome_text": "01:00:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-744a-b234-bab405244656",
+      "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
+      "event_date": "2017-12-02",
+      "event_kind": "race",
+      "event_name": "Winter O-Series / WIOL #3",
+      "venue_name": "St. Edward State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:50:55",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 35,
+          "status_code": "OK",
+          "outcome_text": "01:50:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:50:55",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 35,
+          "status_code": "OK",
+          "outcome_text": "01:50:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7c79-8039-8b10b340666f",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2017-11-18",
+      "event_kind": "race",
+      "event_name": "Winter O-Series / WIOL #2",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:43:51",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 32,
+          "status_code": "OK",
+          "outcome_text": "01:43:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:43:51",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 32,
+          "status_code": "OK",
+          "outcome_text": "01:43:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 13,
     "mention_count": 0
   },
   "mentions": [],

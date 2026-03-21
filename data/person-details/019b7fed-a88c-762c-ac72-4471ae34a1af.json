@@ -1,6 +1,49 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7e20-bf35-b9b574dddd07",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2018-12-15",
+      "event_kind": "race",
+      "event_name": "Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:08:17",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 33,
+          "status_code": "OK",
+          "outcome_text": "01:08:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:08:17",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 33,
+          "status_code": "OK",
+          "outcome_text": "01:08:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-74d2-bfc3-3e3874eb76f4",
       "venue_id": "019d0c54-0219-70e2-963e-78d72d378fa8",
       "event_date": "2011-12-31",
@@ -150,7 +193,7 @@
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "2003-11-08",
       "event_kind": "race",
-      "event_name": "WIOL 1/ O' Series 1 - Seward Park, Seattle",
+      "event_name": "WIOL 1 / O' Series 1",
       "venue_name": "Seward Park",
       "result_rows": [
         {
@@ -229,7 +272,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 8,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

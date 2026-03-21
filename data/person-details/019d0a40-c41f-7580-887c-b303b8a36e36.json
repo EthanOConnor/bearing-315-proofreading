@@ -1,6 +1,98 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7189-80bb-f99e65abe9e4",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2019-11-16",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #2",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 59
+            }
+          ],
+          "time_text": "01:12:48",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 35,
+          "status_code": "OK",
+          "outcome_text": "01:12:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 59",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 59
+            }
+          ],
+          "time_text": "01:12:48",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 35,
+          "status_code": "OK",
+          "outcome_text": "01:12:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 59",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:21:01",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 26,
+          "status_code": "OK",
+          "outcome_text": "01:21:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "01:21:01",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 26,
+          "status_code": "OK",
+          "outcome_text": "01:21:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-7c1f-b8a9-b6257b6dceaf",
       "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
       "event_date": "2013-01-05",
@@ -184,7 +276,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

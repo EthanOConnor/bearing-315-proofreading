@@ -1,6 +1,47 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7c94-b11b-91b83ff047da",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2017-01-07",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #5",
+      "venue_name": "Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:40:56",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:40:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:40:56",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:40:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-74f2-8888-725754c8c324",
       "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
       "event_date": "2013-12-21",
@@ -62,7 +103,7 @@
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -116,7 +157,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

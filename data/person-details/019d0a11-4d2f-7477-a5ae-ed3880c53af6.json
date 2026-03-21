@@ -6,7 +6,7 @@
       "event_date": "2021-10-10",
       "event_kind": "race",
       "event_name": "2021 Choose Your Adventure #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -120,6 +120,163 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4c-74eb-899a-0fda9e1e5b6e",
+      "venue_id": "019b81f3-1f39-756c-9a1e-ccb8617bf543",
+      "event_date": "2019-06-26",
+      "event_kind": "race",
+      "event_name": "2019 Wednesday Evening Series #3",
+      "venue_name": "Lake Wilderness Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:21:25",
+          "competitive": true,
+          "course_name": "Course1",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:21:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:21:25",
+          "competitive": true,
+          "course_name": "Course1",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:21:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b11-86b3-ae432c9dd8f2",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2019-06-16",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #9",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:01:02",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "01:01:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:01:02",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "01:01:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7feb-a4ff-80650c182366",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "event_date": "2019-05-11",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #6",
+      "venue_name": "Lick Creek",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:58:49",
+          "competitive": true,
+          "course_name": "Intermediate (3.2k, 8 controls, 80m climb)",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:58:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:58:49",
+          "competitive": true,
+          "course_name": "Intermediate (3.2k, 8 controls, 80m climb)",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:58:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7642-bb2e-1a7a4e81d224",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2019-04-20",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #5 - Big Finn Hill (Individual Relay)",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:28:39",
+          "competitive": true,
+          "course_name": "Intermediate (2 relay legs, 4.1k)",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "01:28:39",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-75b7-a784-9c4b4b752056",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2018-12-29",
@@ -151,12 +308,184 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7a06-89bf-987aa49c3788",
+      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "event_date": "2018-12-01",
+      "event_kind": "race",
+      "event_name": "Winter League #3",
+      "venue_name": "Shoreview Park - Shoreline, WA",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:49:00",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "00:49:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:49:00",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "00:49:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-74c3-b4ee-fe02e2b80fa5",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2018-11-17",
+      "event_kind": "race",
+      "event_name": "Winter League #2",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:55:09",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "00:55:09",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:55:09",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "00:55:09",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7064-b09c-b82e4395ce4a",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2018-11-03",
+      "event_kind": "race",
+      "event_name": "Winter League #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 51
+            }
+          ],
+          "time_text": "01:30:20",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 43,
+          "status_code": "OK",
+          "outcome_text": "01:30:20",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 51",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 51
+            }
+          ],
+          "time_text": "01:30:20",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 43,
+          "status_code": "OK",
+          "outcome_text": "01:30:20",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 51",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7573-8ad9-30f8abdbaa5a",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "event_date": "2018-09-22",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3: Corn Maze! - Bob’s Corn Maze, Snohomish",
+      "venue_name": "Bob's Corn Maze",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:00:19",
+          "competitive": true,
+          "course_name": "Choose Your Adventure #3: Corn Maze! – Bob’s Corn Maze, Snohomish",
+          "course_rank": 45,
+          "status_code": "OK",
+          "outcome_text": "01:00:19",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 12,
     "mention_count": 0
   },
   "mentions": [],

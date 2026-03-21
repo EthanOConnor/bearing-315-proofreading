@@ -67,6 +67,59 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4d-7459-9a51-b1bc5e3ede27",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2016-12-03",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:51:13",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "00:51:13",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 80",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:51:13",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "00:51:13",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 80",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-74f2-8888-725754c8c324",
       "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
       "event_date": "2013-12-21",
@@ -718,8 +771,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2010-01-23",
       "event_kind": "race",
-      "event_name": "Winter O' Series #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Winter O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -812,7 +865,7 @@
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2009-12-05",
       "event_kind": "race",
-      "event_name": "Winter O' Series #3",
+      "event_name": "Winter O' Series #3 / WIOL #3",
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
@@ -878,7 +931,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-26",
       "event_kind": "race",
-      "event_name": "PNWOF Sprint",
+      "event_name": "PNWOF 2009 Sprint",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -907,7 +960,7 @@
       "event_date": "2009-03-14",
       "event_kind": "race",
       "event_name": "O' Series Champs/WIOL Champs",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -1000,12 +1053,88 @@
     "Frank, Alex"
   ],
   "summary": {
-    "role_count": 0,
-    "event_count": 29,
+    "role_count": 5,
+    "event_count": 30,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a40-c418-715d-a9f3-070ab7d96c7b",
   "individual_name": "Alex Frank",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4e-742f-aaf6-b63f3d7ea58c",
+      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "role_name": "Course Designer",
+      "event_date": "2020-02-08",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #7 - Fire Mountain",
+      "venue_name": "Fire Mountain",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/event/winter-league-7-location-tba-awaiting-permit/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-742f-aaf6-b63f3d7ea58c",
+      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "role_name": "Course Designer(s)",
+      "event_date": "2020-02-08",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #7 - Fire Mountain",
+      "venue_name": "Fire Mountain",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/2019-2020-winter-league-7-fire-mountain/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-797f-8ae4-0678513a6daa",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "role_name": "Course Designer",
+      "event_date": "2019-01-26",
+      "event_kind": "race",
+      "event_name": "Winter League #6",
+      "venue_name": "Fort Ebey State Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/event/winter-series-wiol-6-3/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-797f-8ae4-0678513a6daa",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "role_name": "Course Designers",
+      "event_date": "2019-01-26",
+      "event_kind": "race",
+      "event_name": "Winter League #6",
+      "venue_name": "Fort Ebey State Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/result/winter-league-6-ft-ebey/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-7c41-bb53-153f89eba712",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "role_name": "Course Designer",
+      "event_date": "2017-01-21",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #6",
+      "venue_name": "Fort Ebey State Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/event/winter-series-wiol-6/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

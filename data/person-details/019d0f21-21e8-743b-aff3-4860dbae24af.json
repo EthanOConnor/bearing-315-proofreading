@@ -1,0 +1,75 @@
+{
+  "events": [
+    {
+      "event_id": "019b81f3-1f4b-7fa9-921f-0c5882e908fe",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "event_date": "2017-08-05",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #2: Whidbey!",
+      "venue_name": "Fort Ebey State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 4
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 13
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 9
+            }
+          ],
+          "time_text": "02:03:07",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "02:03:07",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 4; Points 13; Total Time 9",
+          "additional_course": false,
+          "affiliation_labels": [
+            "OCIN"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 13
+            }
+          ],
+          "time_text": "02:03:07",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "02:03:07",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 13",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 1,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0f21-21e8-743b-aff3-4860dbae24af",
+  "individual_name": "Bill Garman",
+  "volunteer_roles": []
+}

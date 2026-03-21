@@ -1,6 +1,57 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-797f-8ae4-0678513a6daa",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "event_date": "2019-01-26",
+      "event_kind": "race",
+      "event_name": "Winter League #6",
+      "venue_name": "Fort Ebey State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 70
+            }
+          ],
+          "time_text": "02:29:22",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "02:29:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 70",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 70
+            }
+          ],
+          "time_text": "02:29:22",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "02:29:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 70",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-7eb2-8220-fa1d182a4cbd",
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2011-12-03",
@@ -30,7 +81,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

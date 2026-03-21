@@ -1,6 +1,49 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7b01-8411-7e73e80a4ade",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "event_date": "2018-01-06",
+      "event_kind": "race",
+      "event_name": "Winter O Series / WIOL #5",
+      "venue_name": "Putney Woods",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:03:24",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:03:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:03:24",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:03:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4b-7cd3-9afe-3454f5e1c6ff",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2013-02-02",
@@ -702,7 +745,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 18,
+    "event_count": 19,
     "mention_count": 0
   },
   "mentions": [],

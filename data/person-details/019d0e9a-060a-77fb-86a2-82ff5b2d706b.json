@@ -353,12 +353,98 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7feb-a4ff-80650c182366",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "event_date": "2019-05-11",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #6",
+      "venue_name": "Lick Creek",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "–:–",
+          "category_name": "Solo/Group",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "–:–",
+          "category_name": "Solo/Group",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-744a-b234-bab405244656",
+      "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
+      "event_date": "2017-12-02",
+      "event_kind": "race",
+      "event_name": "Winter O-Series / WIOL #3",
+      "venue_name": "St. Edward State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:10:38",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:10:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:10:38",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:10:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 12,
+    "event_count": 14,
     "mention_count": 0
   },
   "mentions": [],

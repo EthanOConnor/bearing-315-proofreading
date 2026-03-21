@@ -1,6 +1,92 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:50:58",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "00:50:58",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:50:58",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "00:50:58",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7343-9a8a-e14bd95d1944",
+      "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
+      "event_date": "2016-11-19",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #2",
+      "venue_name": "Dash Point State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:49:14",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 28,
+          "status_code": "OK",
+          "outcome_text": "01:49:14",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:49:14",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 28,
+          "status_code": "OK",
+          "outcome_text": "01:49:14",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-7860-9fb5-262b53288ea4",
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2013-12-07",
@@ -142,11 +228,11 @@
     },
     {
       "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
-      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
       "event_date": "2009-02-07",
       "event_kind": "race",
-      "event_name": "Winter O' Series/WIOL #7",
-      "venue_name": "Island Crest",
+      "event_name": "Winter O' Series #7 / WIOL #7",
+      "venue_name": "Island Crest Park",
       "result_rows": [
         {
           "metrics": [],
@@ -205,7 +291,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 7,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

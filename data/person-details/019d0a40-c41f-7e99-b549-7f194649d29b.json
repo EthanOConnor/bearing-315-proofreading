@@ -1,6 +1,47 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:48:42",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:48:42",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:48:42",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:48:42",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7349-a647-24a02c3b0d0e",
       "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
       "event_date": "2014-05-10",
@@ -62,7 +103,7 @@
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -116,7 +157,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

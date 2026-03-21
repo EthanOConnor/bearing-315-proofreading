@@ -1,6 +1,47 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7ff6-9251-ac5a0db930d2",
+      "venue_id": "019b81f3-1f39-74dd-96ff-12787b9d1ea3",
+      "event_date": "2016-12-17",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Shorecrest/Hamlin",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:21:34",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:21:34",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:21:34",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:21:34",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81e3-a50e-758e-8621-d1c51d1f4d2e",
       "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
       "event_date": "2009-01-10",
@@ -32,7 +73,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

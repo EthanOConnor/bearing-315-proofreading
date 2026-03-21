@@ -63,11 +63,134 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4c-7feb-a4ff-80650c182366",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "event_date": "2019-05-11",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #6",
+      "venue_name": "Lick Creek",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 718
+            }
+          ],
+          "time_text": "01:47:55",
+          "competitive": true,
+          "course_name": "Ultimate Masters Men",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:47:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 718",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 718
+            }
+          ],
+          "time_text": "01:47:55",
+          "competitive": true,
+          "course_name": "Ultimate Masters Men",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:47:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 718",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7e47-b652-bd63ad7abe60",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2017-06-18",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #9 - Goat",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Zygoat / Intermediate",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "65:04",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Zygoat / Intermediate",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "65:04",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-78d1-b6c9-6f87e57f7907",
+      "venue_id": "019b81f3-1f39-7af1-97bb-74df5a9f4fa9",
+      "event_date": "2016-06-25",
+      "event_kind": "race",
+      "event_name": "2017 Ultimate Orienteer #9",
+      "venue_name": "Goat (Fishtrap Lake)",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "skips",
+              "metric_numeric": 1
+            }
+          ],
+          "time_text": "01:19:28",
+          "competitive": true,
+          "course_name": "Zygoat (5.0 km, 155 m climb, 10 controls on course, 1 skip allowed)",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "01:19:28",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Skips 1",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-794f-995e-e1a2ee710652",
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-28",
       "event_kind": "race",
-      "event_name": "PNWOF Long (by class)",
+      "event_name": "PNWOF 2009 Long",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -95,7 +218,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -123,7 +246,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-26",
       "event_kind": "race",
-      "event_name": "PNWOF Sprint",
+      "event_name": "PNWOF 2009 Sprint",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -209,7 +332,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 7,
+    "event_count": 10,
     "mention_count": 0
   },
   "mentions": [],

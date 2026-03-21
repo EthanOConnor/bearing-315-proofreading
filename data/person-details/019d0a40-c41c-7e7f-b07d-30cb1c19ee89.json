@@ -1,6 +1,159 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7ff6-9251-ac5a0db930d2",
+      "venue_id": "019b81f3-1f39-74dd-96ff-12787b9d1ea3",
+      "event_date": "2016-12-17",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Shorecrest/Hamlin",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 68
+            }
+          ],
+          "time_text": "00:49:41",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 26,
+          "status_code": "OK",
+          "outcome_text": "00:49:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 68",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 68
+            }
+          ],
+          "time_text": "00:49:41",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 26,
+          "status_code": "OK",
+          "outcome_text": "00:49:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 68",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7459-9a51-b1bc5e3ede27",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2016-12-03",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 67
+            }
+          ],
+          "time_text": "00:59:22",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 27,
+          "status_code": "OK",
+          "outcome_text": "00:59:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 67",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 67
+            }
+          ],
+          "time_text": "00:59:22",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 27,
+          "status_code": "OK",
+          "outcome_text": "00:59:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 67",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7343-9a8a-e14bd95d1944",
+      "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
+      "event_date": "2016-11-19",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #2",
+      "venue_name": "Dash Point State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 60
+            }
+          ],
+          "time_text": "01:26:50",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 34,
+          "status_code": "OK",
+          "outcome_text": "01:26:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 60",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 60
+            }
+          ],
+          "time_text": "01:26:50",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 34,
+          "status_code": "OK",
+          "outcome_text": "01:26:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 60",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7357-b927-2cee44df0924",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2011-02-19",
@@ -230,7 +383,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 7,
+    "event_count": 10,
     "mention_count": 0
   },
   "mentions": [],

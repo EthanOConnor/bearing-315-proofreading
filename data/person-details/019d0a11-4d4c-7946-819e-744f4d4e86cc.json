@@ -834,7 +834,7 @@
       "event_date": "2023-01-07",
       "event_kind": "race",
       "event_name": "2022 Winter League 05",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -1287,7 +1287,7 @@
       "event_date": "2021-04-17",
       "event_kind": "race",
       "event_name": "2021 Winter League #4",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -1496,12 +1496,214 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7573-8ad9-30f8abdbaa5a",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "event_date": "2018-09-22",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3: Corn Maze! - Bob’s Corn Maze, Snohomish",
+      "venue_name": "Bob's Corn Maze",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:12:05",
+          "competitive": true,
+          "course_name": "Choose Your Adventure #3: Corn Maze! – Bob’s Corn Maze, Snohomish",
+          "course_rank": 58,
+          "status_code": "OK",
+          "outcome_text": "01:12:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7d74-90c1-66a74dfd6b06",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2018-09-05",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #6",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:42:19",
+          "competitive": true,
+          "course_name": "Course2",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:42:19",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:42:19",
+          "competitive": true,
+          "course_name": "Course2",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:42:19",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e3f-92ed-63f73f4b22e3",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "event_date": "2017-10-01",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #5: Corn Maze! - Bob’s Corn Maze",
+      "venue_name": "Bob's Corn Maze",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 21
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 21
+            }
+          ],
+          "time_text": "01:07:00",
+          "competitive": true,
+          "course_name": "Choose Your Adventure",
+          "course_rank": 68,
+          "status_code": "OK",
+          "outcome_text": "01:07:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 21; Total Time 21",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 21
+            }
+          ],
+          "time_text": "01:07:00",
+          "competitive": true,
+          "course_name": "Choose Your Adventure",
+          "course_rank": 68,
+          "status_code": "OK",
+          "outcome_text": "01:07:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 21",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7fd0-b114-79dd6682eb03",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2017-09-30",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #4: City Park!",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 19
+            },
+            {
+              "metric_key": "pt_1_time",
+              "metric_time_text": "00:58:30"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 19
+            }
+          ],
+          "time_text": "01:14:01",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 35,
+          "status_code": "OK",
+          "outcome_text": "01:14:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 19; Pt 1 Time 00:58:30; Total Time 19",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 19
+            }
+          ],
+          "time_text": "01:14:01",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 35,
+          "status_code": "OK",
+          "outcome_text": "01:14:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 19",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
-    "role_count": 106,
-    "event_count": 52,
+    "role_count": 108,
+    "event_count": 56,
     "mention_count": 0
   },
   "mentions": [],
@@ -2715,7 +2917,7 @@
       "event_date": "2023-01-07",
       "event_kind": "race",
       "event_name": "2022 Winter League 05",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://cascadeoc.org/result/2022-winter-league-05-ft-steilacoom/"
@@ -3015,7 +3217,7 @@
       "event_date": "2021-04-17",
       "event_kind": "race",
       "event_name": "2021 Winter League #4",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "Web Snapshot: https://modern.cascadeoc.org/result/2021-winter-league-4-ft-steilacoom/"
@@ -3094,6 +3296,36 @@
       "citation_count": 1,
       "citation_briefs": [
         "CascadeOC Website: https://www.cascadeoc.org/result/2021-winter-league-1-bridle-trails-state-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-71c8-8c42-07dc968085e9",
+      "venue_id": "019b820a-043e-79df-b7ed-b880aaadb7c9",
+      "role_name": "Registration",
+      "event_date": "2019-03-24",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #3 - Frenchman Spring (Long)",
+      "venue_name": "Frenchman Spring",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2019-ultimate-orienteer-3-frenchman-spring-long/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e63-9a34-644d72da0bde",
+      "venue_id": "019b820a-043e-79df-b7ed-b880aaadb7c9",
+      "role_name": "Start",
+      "event_date": "2019-03-23",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #2 - Frenchman Spring (Middle) and Pig War!",
+      "venue_name": "Frenchman Spring",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/2019-ultimate-orienteer-2-frenchman-spring-middle-pig-war/"
       ],
       "volunteer_hours": null,
       "volunteer_points": null

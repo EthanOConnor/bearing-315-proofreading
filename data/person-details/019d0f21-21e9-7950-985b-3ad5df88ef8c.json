@@ -1,0 +1,77 @@
+{
+  "events": [
+    {
+      "event_id": "019b81f3-1f4e-7fd0-b114-79dd6682eb03",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2017-09-30",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #4: City Park!",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 11
+            },
+            {
+              "metric_key": "pt_1_time",
+              "metric_time_text": "01:03:15"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 11
+            }
+          ],
+          "time_text": "01:03:15",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 51,
+          "status_code": "OK",
+          "outcome_text": "01:03:15",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 11; Pt 1 Time 01:03:15; Total Time 11",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 11
+            }
+          ],
+          "time_text": "01:03:15",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 51,
+          "status_code": "OK",
+          "outcome_text": "01:03:15",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 11",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 1,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0f21-21e9-7950-985b-3ad5df88ef8c",
+  "individual_name": "Joel Goh",
+  "volunteer_roles": []
+}

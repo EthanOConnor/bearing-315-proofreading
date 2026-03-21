@@ -134,12 +134,148 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-791e-b09d-dc0c7f3ca261",
+      "venue_id": "019b7f6c-d843-7b47-977b-d4a69ef90e9b",
+      "event_date": "2020-03-07",
+      "event_kind": "race",
+      "event_name": "2020 Ultimate Orienteer #1",
+      "venue_name": "Lynndale Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 401
+            }
+          ],
+          "time_text": "01:08:05",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:08:05",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 15,
+          "metric_summary": "Points 401",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 401
+            }
+          ],
+          "time_text": "01:08:05",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:08:05",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 15,
+          "metric_summary": "Points 401",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7573-8ad9-30f8abdbaa5a",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "event_date": "2018-09-22",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3: Corn Maze! - Bob’s Corn Maze, Snohomish",
+      "venue_name": "Bob's Corn Maze",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 22
+            }
+          ],
+          "time_text": "01:15:02",
+          "competitive": true,
+          "course_name": "Choose Your Adventure #3: Corn Maze! – Bob’s Corn Maze, Snohomish",
+          "course_rank": 76,
+          "status_code": "OK",
+          "outcome_text": "01:15:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 22",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7e1c-9375-4789231c0f54",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2017-09-10",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3: Campus!",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 23
+            }
+          ],
+          "time_text": "01:09:49",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "01:09:49",
+          "result_notes": null,
+          "category_name": "24 C 24 Pts Time limit 75 minutes",
+          "category_rank": 13,
+          "metric_summary": "Points 23",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "OK",
+          "result_notes": null,
+          "category_name": "24 C 24 Pts Time limit 75 minutes",
+          "category_rank": 13,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 1,
-    "event_count": 4,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

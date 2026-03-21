@@ -1,6 +1,59 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7e47-b652-bd63ad7abe60",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2017-06-18",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #9 - Goat",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Ultimate Masters Men / Kid",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": "–:–",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Ultimate Masters Men / Kid",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": "–:–",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7349-a647-24a02c3b0d0e",
       "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
       "event_date": "2014-05-10",
@@ -117,7 +170,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-28",
       "event_kind": "race",
-      "event_name": "PNWOF Long (by class)",
+      "event_name": "PNWOF 2009 Long",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -145,7 +198,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -173,7 +226,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-26",
       "event_kind": "race",
-      "event_name": "PNWOF Sprint",
+      "event_name": "PNWOF 2009 Sprint",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -201,7 +254,7 @@
       "venue_id": "019b7f6c-d840-7c4d-9264-e33e771b68d8",
       "event_date": "2000-05-13",
       "event_kind": "race",
-      "event_name": "Cle Elum Ridge Long-O",
+      "event_name": "Cle Elum Ridge Long-O - The Ultimate Orienteer 4",
       "venue_name": "Cle Elum Ridge",
       "result_rows": [
         {
@@ -229,7 +282,7 @@
       "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
       "event_date": "2000-02-26",
       "event_kind": "race",
-      "event_name": "WIOL + Winter O' Series Championships",
+      "event_name": "Hamlin Park - Winter O' Series Championships",
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
@@ -257,7 +310,7 @@
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "2000-02-12",
       "event_kind": "race",
-      "event_name": "O' Series #7 / WIOL #7",
+      "event_name": "Lincoln Park - O' Series #7 / WIOL #7",
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
@@ -285,8 +338,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2000-01-29",
       "event_kind": "race",
-      "event_name": "O' Series #6 / WIOL #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Fort Steilacoom Park - O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -313,7 +366,7 @@
       "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
       "event_date": "1999-12-04",
       "event_kind": "race",
-      "event_name": "O' Series #3 / WIOL #3",
+      "event_name": "Magnuson Park - O' Series #3 / WIOL #3",
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
@@ -341,7 +394,7 @@
       "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
       "event_date": "1999-11-06",
       "event_kind": "race",
-      "event_name": "O' Series #1 / WIOL #1",
+      "event_name": "Marymoor Park - O' Series #1 / WIOL #1",
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
@@ -543,7 +596,7 @@
   ],
   "summary": {
     "role_count": 5,
-    "event_count": 19,
+    "event_count": 20,
     "mention_count": 0
   },
   "mentions": [],
@@ -556,7 +609,7 @@
       "role_name": "Course Setter",
       "event_date": "1999-11-20",
       "event_kind": "race",
-      "event_name": "O' Series #2 / WIOL #2",
+      "event_name": "Point Defiance Park - O' Series #2 / WIOL #2",
       "venue_name": "Point Defiance Park",
       "citation_count": 1,
       "citation_briefs": [
@@ -571,7 +624,7 @@
       "role_name": "Meet Staff",
       "event_date": "1999-11-20",
       "event_kind": "race",
-      "event_name": "O' Series #2 / WIOL #2",
+      "event_name": "Point Defiance Park - O' Series #2 / WIOL #2",
       "venue_name": "Point Defiance Park",
       "citation_count": 1,
       "citation_briefs": [
@@ -586,8 +639,8 @@
       "role_name": "Control Pickup",
       "event_date": "1998-01-17",
       "event_kind": "race",
-      "event_name": "O' Series #4 / WIOL #4",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Fort Steilacoom Park - O' Series #4 / WIOL #4",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "Older COC Results Website: http://www.old.cascadeoc.org/Results1998/19980117.html"
@@ -601,8 +654,8 @@
       "role_name": "Course Setter",
       "event_date": "1998-01-17",
       "event_kind": "race",
-      "event_name": "O' Series #4 / WIOL #4",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Fort Steilacoom Park - O' Series #4 / WIOL #4",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "Older COC Results Website: http://www.old.cascadeoc.org/Results1998/19980117.html"
@@ -616,8 +669,8 @@
       "role_name": "Meet Director",
       "event_date": "1998-01-17",
       "event_kind": "race",
-      "event_name": "O' Series #4 / WIOL #4",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Fort Steilacoom Park - O' Series #4 / WIOL #4",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "Older COC Results Website: http://www.old.cascadeoc.org/Results1998/19980117.html"

@@ -201,6 +201,120 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4d-7143-b931-5dfa77966f25",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2018-10-14",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #4: Founders’ Day!",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:47:34",
+          "competitive": true,
+          "course_name": "CYA",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "00:47:34",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24; Total Time 24",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:47:34",
+          "competitive": true,
+          "course_name": "CYA",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "00:47:34",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ff6-9251-ac5a0db930d2",
+      "venue_id": "019b81f3-1f39-74dd-96ff-12787b9d1ea3",
+      "event_date": "2016-12-17",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Shorecrest/Hamlin",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 66
+            }
+          ],
+          "time_text": "00:55:18",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 28,
+          "status_code": "OK",
+          "outcome_text": "00:55:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 66",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 66
+            }
+          ],
+          "time_text": "00:55:18",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 28,
+          "status_code": "OK",
+          "outcome_text": "00:55:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 66",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7ffe-adbd-446d2288a79e",
       "venue_id": "019b7f6c-d843-7b47-977b-d4a69ef90e9b",
       "event_date": "2015-10-24",
@@ -273,7 +387,7 @@
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -510,7 +624,7 @@
   ],
   "summary": {
     "role_count": 2,
-    "event_count": 16,
+    "event_count": 18,
     "mention_count": 0
   },
   "mentions": [],

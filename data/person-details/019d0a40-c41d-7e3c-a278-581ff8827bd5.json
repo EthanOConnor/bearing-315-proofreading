@@ -1,6 +1,49 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7e7e-8363-ae057fe7ae92",
+      "venue_id": "019b820a-0433-7989-b481-2d59be81507f",
+      "event_date": "2017-02-26",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #2 - Long - Frenchman Coulee",
+      "venue_name": "Frenchman Coulee",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:05:01",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "02:05:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "02:05:01",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "02:05:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-7061-b582-95ffadea8170",
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2014-06-29",
@@ -584,7 +627,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 17,
+    "event_count": 18,
     "mention_count": 0
   },
   "mentions": [],

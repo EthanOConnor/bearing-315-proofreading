@@ -1,6 +1,106 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7f14-8ad5-c132007876e3",
+      "venue_id": "019b81f3-1f39-74f3-8714-f78123563aa8",
+      "event_date": "2019-10-26",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3 - Dog Bones!",
+      "venue_name": "Edmonds Community College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:00:03",
+          "competitive": true,
+          "course_name": "Choose Your Adventure #3 – Dog Bones! – Edmonds Community College",
+          "course_rank": 27,
+          "status_code": "OK",
+          "outcome_text": "01:00:03",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:00:03",
+          "competitive": true,
+          "course_name": "Choose Your Adventure #3 – Dog Bones! – Edmonds Community College",
+          "course_rank": 27,
+          "status_code": "OK",
+          "outcome_text": "01:00:03",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ff6-9251-ac5a0db930d2",
+      "venue_id": "019b81f3-1f39-74dd-96ff-12787b9d1ea3",
+      "event_date": "2016-12-17",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Shorecrest/Hamlin",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:57:12",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "00:57:12",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:57:12",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "00:57:12",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-7c1f-b8a9-b6257b6dceaf",
       "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
       "event_date": "2013-01-05",
@@ -171,7 +271,7 @@
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2009-12-05",
       "event_kind": "race",
-      "event_name": "Winter O' Series #3",
+      "event_name": "Winter O' Series #3 / WIOL #3",
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
@@ -200,7 +300,7 @@
       "event_date": "2009-03-14",
       "event_kind": "race",
       "event_name": "O' Series Champs/WIOL Champs",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -224,11 +324,11 @@
     },
     {
       "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
-      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
       "event_date": "2009-02-07",
       "event_kind": "race",
-      "event_name": "Winter O' Series/WIOL #7",
-      "venue_name": "Island Crest",
+      "event_name": "Winter O' Series #7 / WIOL #7",
+      "venue_name": "Island Crest Park",
       "result_rows": [
         {
           "metrics": [],
@@ -390,7 +490,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 14,
+    "event_count": 16,
     "mention_count": 0
   },
   "mentions": [],

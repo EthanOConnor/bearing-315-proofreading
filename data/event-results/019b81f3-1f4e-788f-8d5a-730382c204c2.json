@@ -1,5 +1,552 @@
 {
-  "courses": [],
+  "courses": [
+    {
+      "results": [
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:23:45"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:20:05"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:17:28"
+            }
+          ],
+          "team_id": "019d0a11-4d4f-7679-8ff9-88654241fd6d",
+          "result_id": "019d0f4d-7e36-788f-a485-4730ed915d04",
+          "time_text": "01:01:18",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:01:18",
+          "result_notes": "team_code 115; leg_1 route_code ADFG; leg_2 route_code L2; leg_3 route_code BCEH",
+          "category_name": "Open",
+          "category_rank": 1,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:23:45; Leg 2 Time 00:20:05; Leg 3 Time 00:17:28",
+          "competitor_name": "Himalayan Blackberries",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:24:10"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:15:20"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:26:23"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-7774-97f4-44697d8759b0",
+          "result_id": "019d0f4d-7e36-7f67-922b-6b9df417e818",
+          "time_text": "01:05:53",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:05:53",
+          "result_notes": "team_code 103; leg_1 route_code BDEH; leg_2 route_code L2; leg_3 route_code ACFG",
+          "category_name": "Junior",
+          "category_rank": 1,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:24:10; Leg 2 Time 00:15:20; Leg 3 Time 00:26:23",
+          "competitor_name": "Three Fast Women",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:25:06"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:14:40"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:21:40"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-77dc-86ff-0320b1a0f1e7",
+          "result_id": "019d0f4d-7e36-710f-9ca1-c5f3fcd23341",
+          "time_text": "01:01:26",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:01:26",
+          "result_notes": "team_code 111; leg_1 route_code ADEG; leg_2 route_code L2; leg_3 route_code BCFH",
+          "category_name": "Open",
+          "category_rank": 2,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:25:06; Leg 2 Time 00:14:40; Leg 3 Time 00:21:40",
+          "competitor_name": "NDN",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:30:01"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:21:05"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:21:34"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-75a4-8dd1-9438eefe925e",
+          "result_id": "019d0f4d-7e36-770c-a797-c9f99bf39861",
+          "time_text": "01:12:40",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:12:40",
+          "result_notes": "team_code 101; leg_1 route_code BDEG; leg_2 route_code L2; leg_3 route_code ACFH",
+          "category_name": "Junior",
+          "category_rank": 2,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:30:01; Leg 2 Time 00:21:05; Leg 3 Time 00:21:34",
+          "competitor_name": "Map Compass Whistle",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:20:38"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:15:58"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:27:20"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-7050-9080-ef1eba9e7aee",
+          "result_id": "019d0f4d-7e36-7364-bc81-56511220665f",
+          "time_text": "01:03:56",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:03:56",
+          "result_notes": "team_code 110; leg_1 route_code ACFH; leg_2 route_code L2; leg_3 route_code BDEG",
+          "category_name": "Open",
+          "category_rank": 3,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:20:38; Leg 2 Time 00:15:58; Leg 3 Time 00:27:20",
+          "competitor_name": "SGLRG Krakens",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:24:58"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:18:35"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:20:55"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-7a61-a204-c849baceb7ce",
+          "result_id": "019d0f4d-7e36-7328-83d0-e00b929e4d74",
+          "time_text": "01:04:28",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:04:28",
+          "result_notes": "team_code 104; leg_1 route_code ACEG; leg_2 route_code L2; leg_3 route_code BDFH",
+          "category_name": "Open",
+          "category_rank": 4,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:24:58; Leg 2 Time 00:18:35; Leg 3 Time 00:20:55",
+          "competitor_name": "Turkish Air",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:23:54"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:17:10"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:25:21"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-7880-a18f-0734f1974ea3",
+          "result_id": "019d0f4d-7e36-7d29-bbc8-41db1f428577",
+          "time_text": "01:06:25",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:06:25",
+          "result_notes": "team_code 107; leg_1 route_code BCFG; leg_2 route_code L2; leg_3 route_code ADEH",
+          "category_name": "Open",
+          "category_rank": 5,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:23:54; Leg 2 Time 00:17:10; Leg 3 Time 00:25:21",
+          "competitor_name": "Sundodgers",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:25:02"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:14:30"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:27:42"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-73e4-99a3-9dccbaa462ba",
+          "result_id": "019d0f4d-7e37-76c8-a172-d734db388862",
+          "time_text": "01:07:14",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:07:14",
+          "result_notes": "team_code 116; leg_1 route_code BCEH; leg_2 route_code L2; leg_3 route_code ADFG",
+          "category_name": "Open",
+          "category_rank": 6,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:25:02; Leg 2 Time 00:14:30; Leg 3 Time 00:27:42",
+          "competitor_name": "Team Ihku",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:26:36"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:18:57"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:27:58"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-7c40-a127-dd6341e6d152",
+          "result_id": "019d0f4d-7e37-718c-8900-c50e67a04515",
+          "time_text": "01:13:31",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:13:31",
+          "result_notes": "team_code 108; leg_1 route_code BDFG; leg_2 route_code L2; leg_3 route_code ACEH",
+          "category_name": "Open",
+          "category_rank": 7,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:26:36; Leg 2 Time 00:18:57; Leg 3 Time 00:27:58",
+          "competitor_name": "Team RySKy",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:25:45"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:18:30"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:32:13"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-7f93-8e03-4c9634d454e3",
+          "result_id": "019d0f4d-7e37-72e3-8782-2d535fb683b8",
+          "time_text": "01:16:28",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:16:28",
+          "result_notes": "team_code 109; leg_1 route_code ADFH; leg_2 route_code L2; leg_3 route_code BCEG",
+          "category_name": "Open",
+          "category_rank": 8,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:25:45; Leg 2 Time 00:18:30; Leg 3 Time 00:32:13",
+          "competitor_name": "Team EAT",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:26:18"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:19:14"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:35:14"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-7f19-9833-7ef9ee913c3d",
+          "result_id": "019d0f4d-7e37-7100-9712-96396f6245f6",
+          "time_text": "01:20:46",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:20:46",
+          "result_notes": "team_code 114; leg_1 route_code ACEH; leg_2 route_code L2; leg_3 route_code BDFG",
+          "category_name": "Open",
+          "category_rank": 9,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:26:18; Leg 2 Time 00:19:14; Leg 3 Time 00:35:14",
+          "competitor_name": "Three Musketeers",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:45:44"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:24:41"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:18:52"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-7c40-8299-776c17e778d8",
+          "result_id": "019d0f4d-7e37-76fd-8cd1-a806860174f6",
+          "time_text": "01:29:17",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:29:17",
+          "result_notes": "team_code 105; leg_1 route_code ADEH; leg_2 route_code L2; leg_3 route_code BCFG",
+          "category_name": "Open",
+          "category_rank": 10,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:45:44; Leg 2 Time 00:24:41; Leg 3 Time 00:18:52",
+          "competitor_name": "Bulgaria Canada Latvia",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:31:11"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:21:17"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:39:11"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-7a90-a59a-c2a62c8a1c58",
+          "result_id": "019d0f4d-7e37-7b40-9473-8ecc0ad1e628",
+          "time_text": "01:31:39",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:31:39",
+          "result_notes": "team_code 113; leg_1 route_code ACFG; leg_2 route_code L2; leg_3 route_code BDEH",
+          "category_name": "Open",
+          "category_rank": 11,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:31:11; Leg 2 Time 00:21:17; Leg 3 Time 00:39:11",
+          "competitor_name": "Kernal's Kids",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:29:59"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:26:22"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:40:16"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-7caf-99b0-a042cd42a5d0",
+          "result_id": "019d0f4d-7e37-7a5f-9797-841d32e6412a",
+          "time_text": "01:36:37",
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:36:37",
+          "result_notes": "team_code 106; leg_1 route_code BCFH; leg_2 route_code L2; leg_3 route_code ADEG",
+          "category_name": "Open",
+          "category_rank": 12,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:29:59; Leg 2 Time 00:26:22; Leg 3 Time 00:40:16",
+          "competitor_name": "Two Talls and a Small",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:30:59"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:32:16"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-7ed6-a979-2f807bd23131",
+          "result_id": "019d0f4d-7e36-76f2-94b9-f55358d11f98",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Leg 1 Time 00:30:59; Leg 3 Time 00:32:16",
+          "result_notes": "leg_1 route_code BDFH; leg_2 MP; leg_2 route_code L2; leg_3 route_code ACEG",
+          "category_name": "Junior",
+          "category_rank": 102,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:30:59; Leg 3 Time 00:32:16",
+          "competitor_name": "Flaming Compasses",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:23:21"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:37:20"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-714c-90db-63125d38c7b9",
+          "result_id": "019d0f4d-7e37-73bb-b754-9583dfd933b2",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Leg 1 Time 00:23:21; Leg 3 Time 00:37:20",
+          "result_notes": "leg_1 route_code BCEG; leg_2 MP; leg_2 route_code L2; leg_3 route_code ADFH",
+          "category_name": "Open",
+          "category_rank": 112,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:23:21; Leg 3 Time 00:37:20",
+          "competitor_name": "Buchholz Family",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "leg_1_time",
+              "metric_time_text": "00:19:18"
+            },
+            {
+              "metric_key": "leg_2_time",
+              "metric_time_text": "00:13:13"
+            },
+            {
+              "metric_key": "leg_3_time",
+              "metric_time_text": "00:23:57"
+            }
+          ],
+          "team_id": "019d0f4d-7e79-76bc-9bf6-bcf8176834c8",
+          "result_id": "019d0f4d-7e37-7cae-b6dc-d625106c93e4",
+          "time_text": "00:56:28",
+          "competitive": false,
+          "course_rank": null,
+          "status_code": "NC",
+          "outcome_text": "00:56:28",
+          "result_notes": "team_code 117; non-competitive relay team; leg_1 route_code BCEG; leg_2 route_code L2; leg_3 route_code ADFH",
+          "category_name": "Open",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": "Leg 1 Time 00:19:18; Leg 2 Time 00:13:13; Leg 3 Time 00:23:57",
+          "competitor_name": "Just Eric",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "course_id": "019d0f4d-7e57-765a-88ce-b9fe91854336",
+      "course_name": "Relay",
+      "distance_km": null,
+      "result_count": 17,
+      "control_count": null,
+      "course_climb_m": null
+    }
+  ],
   "event_id": "019b81f3-1f4e-788f-8d5a-730382c204c2",
   "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
   "event_date": "2017-02-19",
@@ -7,12 +554,58 @@
   "event_name": "Winter Series/WIOL Bonus Relay",
   "venue_name": "Woodland Park",
   "event_notes": null,
-  "course_count": 0,
-  "result_count": 0,
+  "course_count": 1,
+  "result_count": 17,
   "citation_count": 3,
-  "event_comments": null,
-  "external_links": [],
-  "volunteer_roles": [],
-  "result_source_brief": "CascadeOC Results Website: https://cascadeoc.org/results/",
+  "event_comments": "This year we’re introducing an exciting way to end the winter season: a 3-person relay! There are two classes, Junior and Open. Juniors are 20-years old and younger, and Junior teams consist of all Juniors, so line up your WIOL buddies and enter a team. Open teams can have a mixture of Juniors and non-Juniors. There are no rules for gender makeup of the teams, meaning a team can be all females, all males, or a mixture. This event is not part of the WIOL season, and there are no restrictions on who may be on your team – same school, different schools, not in school, whatever.\nLegs 1 and 3 will be similar in distance and difficulty. They will both have forking, so don’t assume that anybody else has the same order of the controls as you have. It will be very important to check both control codes and control descriptions! Leg 2 will have the difficulty of Advanced Beginner with no forking and will be suitable for those with less navigation experience and/or physical endurance. When you have finished your leg, leave the map at the Download, and please do not cheat and talk with your teammates about the courses to make it fair play for everybody.\nThis is a new event format for Cascade OC and we are trying out our software for this format so we strongly encourage everybody to pre-register (did I say STRONGLY?). To show that we mean it, the pre-registration fee is $2, that is right, less than a cup of coffee. We will have a limited number of maps available on the day of the event and it is first come, first serve. And a higher entry fee for the day-of registration.\nEvery participant has to register individually. When you register, please enter the names of the three team members. We need to know in which order the team members are running since everybody on the team has a different map.\nOnline pre-registration closes: 8:00 am, Friday, February 17\nCheck back later for special notes from the Course Designer(s).",
+  "external_links": [
+    {
+      "link_url": "https://goo.gl/maps/VNDSERob35D2",
+      "link_type": "directions"
+    },
+    {
+      "link_url": "https://cascadeoc.org/event/winter-series-wiol-relay/",
+      "link_type": "event_page"
+    },
+    {
+      "link_url": "https://cascadeoc.org/map/woodland-park/",
+      "link_type": "map"
+    },
+    {
+      "link_url": "http://cascadeoc.org/series/school-league-wiol/",
+      "link_type": "series"
+    },
+    {
+      "link_url": "https://cascadeoc.org/series/school-league-wiol/",
+      "link_type": "series"
+    }
+  ],
+  "volunteer_roles": [
+    {
+      "role_name": "Course Designer",
+      "individual_id": "019b7ac9-920b-7530-b85a-103e52302ff8",
+      "citation_count": 1,
+      "individual_name": "Will Enger",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Epunch Coordinator",
+      "individual_id": "01913919-da03-757e-b829-aa2bdc684400",
+      "citation_count": 1,
+      "individual_name": "Debbie Newell",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Meet Director",
+      "individual_id": "0191394f-d748-7189-887f-793488143b6d",
+      "citation_count": 1,
+      "individual_name": "Mike Schuh",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ],
+  "result_source_brief": "Web Snapshot: https://modern.cascadeoc.org/result/winter-serieswiol-bonus-relay-woodland-park/",
   "organizing_club_name": "Cascade Orienteering Club"
 }

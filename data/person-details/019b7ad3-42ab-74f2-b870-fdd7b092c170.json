@@ -1,6 +1,358 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4a-7cd4-983b-4944ec6a98ba",
+      "venue_id": "019b81f3-1f39-78c9-9783-eacb06a64ef9",
+      "event_date": "2019-02-23",
+      "event_kind": "race",
+      "event_name": "2018-19 Winter League Championship",
+      "venue_name": "Camp River Ranch",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "93:50",
+          "category_name": "Intermediate Male",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "93:50",
+          "category_name": "Intermediate Male",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7573-8ad9-30f8abdbaa5a",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "event_date": "2018-09-22",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #3: Corn Maze! - Bob’s Corn Maze, Snohomish",
+      "venue_name": "Bob's Corn Maze",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Choose Your Adventure #3: Corn Maze! – Bob’s Corn Maze, Snohomish",
+          "course_rank": null,
+          "status_code": "DQ",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c5d-8b9a-1504cafd02ff",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2018-06-27",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #3 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:39:23",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "00:39:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:39:23",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "00:39:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4a-7cc1-8ac1-c2842202c76b",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2017-12-16",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series/WIOL #4",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:09:19",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 31,
+          "status_code": "OK",
+          "outcome_text": "01:09:19",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:09:19",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 31,
+          "status_code": "OK",
+          "outcome_text": "01:09:19",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e3f-92ed-63f73f4b22e3",
+      "venue_id": "019b81f3-1f39-7ee1-b1b3-f80197211784",
+      "event_date": "2017-10-01",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #5: Corn Maze! - Bob’s Corn Maze",
+      "venue_name": "Bob's Corn Maze",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 11
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 11
+            }
+          ],
+          "time_text": "01:03:51",
+          "competitive": true,
+          "course_name": "Choose Your Adventure",
+          "course_rank": 87,
+          "status_code": "OK",
+          "outcome_text": "01:03:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 11; Total Time 11",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 11
+            }
+          ],
+          "time_text": "01:03:51",
+          "competitive": true,
+          "course_name": "Choose Your Adventure",
+          "course_rank": 87,
+          "status_code": "OK",
+          "outcome_text": "01:03:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 11",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7069-b7ea-d7160df4c081",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2016-12-31",
+      "event_kind": "race",
+      "event_name": "37th Annual Bog Slog",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:33:25",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "01:33:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:33:25",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "01:33:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7459-9a51-b1bc5e3ede27",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2016-12-03",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:54:50",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "00:54:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:54:50",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "00:54:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-711c-865e-82b638ebc0fe",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2016-09-07",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #5",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:12:34",
+          "competitive": true,
+          "course_name": "Short Advanced",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "01:12:34",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:12:34",
+          "competitive": true,
+          "course_name": "Short Advanced",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "01:12:34",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-7e2f-b437-5b0055e9fc2e",
       "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
       "event_date": "2014-08-23",
@@ -893,7 +1245,7 @@
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2009-12-05",
       "event_kind": "race",
-      "event_name": "Winter O' Series #3",
+      "event_name": "Winter O' Series #3 / WIOL #3",
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
@@ -980,7 +1332,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -1009,7 +1361,7 @@
       "event_date": "2009-03-14",
       "event_kind": "race",
       "event_name": "O' Series Champs/WIOL Champs",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -1033,11 +1385,11 @@
     },
     {
       "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
-      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
       "event_date": "2009-02-07",
       "event_kind": "race",
-      "event_name": "Winter O' Series/WIOL #7",
-      "venue_name": "Island Crest",
+      "event_name": "Winter O' Series #7 / WIOL #7",
+      "venue_name": "Island Crest Park",
       "result_rows": [
         {
           "metrics": [],
@@ -1186,7 +1538,7 @@
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "2003-11-08",
       "event_kind": "race",
-      "event_name": "WIOL 1/ O' Series 1 - Seward Park, Seattle",
+      "event_name": "WIOL 1 / O' Series 1",
       "venue_name": "Seward Park",
       "result_rows": [
         {
@@ -1303,7 +1655,7 @@
       "event_date": "2003-01-25",
       "event_kind": "race",
       "event_name": "Ft. Steilacoom",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -1485,7 +1837,7 @@
       "event_date": "2002-09-07",
       "event_kind": "race",
       "event_name": "Bo Powell Memorial - Ft. Steilacoom Park",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -1538,7 +1890,7 @@
       "venue_id": "019b7b62-9f59-7108-a468-484c9810028f",
       "event_date": "2002-04-06",
       "event_kind": "race",
-      "event_name": "Ft. Casey State Park Score-O - Ultimate Orienteer",
+      "event_name": "Fort Casey State Park Score-O - The Ultimate Orienteer",
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
@@ -1659,8 +2011,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2002-01-26",
       "event_kind": "race",
-      "event_name": "Ft. Steilacoom Park",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Fort Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -1884,11 +2236,11 @@
     },
     {
       "event_id": "019b7fff-d9b5-780d-b550-31223b1168a5",
-      "venue_id": "019b7b2f-bf4b-7d04-bb73-a3e7756e878a",
+      "venue_id": "019b81b3-75d3-7f26-a595-23c39e730ac3",
       "event_date": "2001-04-28",
       "event_kind": "race",
-      "event_name": "Teanaway West Long-O - Ultimate Orienteer 4",
-      "venue_name": "Teanaway Forks",
+      "event_name": "Teanaway West Long-O - The Ultimate Orienteer 4",
+      "venue_name": "Teanaway West",
       "result_rows": [
         {
           "metrics": [],
@@ -1913,7 +2265,7 @@
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2001-04-07",
       "event_kind": "race",
-      "event_name": "Fire Mountain Classic-O - Ultimate Orienteer 3",
+      "event_name": "Fire Mountain Classic-O - The Ultimate Orienteer 3",
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
@@ -1980,7 +2332,7 @@
       "event_date": "2001-02-17",
       "event_kind": "race",
       "event_name": "Ft. Steilacoom Park - WIOL & Winter O' Series Championships",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -2182,7 +2534,7 @@
       "venue_id": "019b7f6c-d83a-70e5-a00f-404279e1de11",
       "event_date": "2000-04-22",
       "event_kind": "race",
-      "event_name": "Priest Point Park",
+      "event_name": "Priest Point Park - The Ultimate Orienteer 3",
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
@@ -2215,7 +2567,7 @@
       "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
       "event_date": "2000-03-18",
       "event_kind": "race",
-      "event_name": "Magnuson Park",
+      "event_name": "Magnuson Park - The Ultimate Orienteer 1",
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
@@ -2243,7 +2595,7 @@
       "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
       "event_date": "2000-02-26",
       "event_kind": "race",
-      "event_name": "WIOL + Winter O' Series Championships",
+      "event_name": "Hamlin Park - Winter O' Series Championships",
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
@@ -2271,8 +2623,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2000-01-29",
       "event_kind": "race",
-      "event_name": "O' Series #6 / WIOL #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Fort Steilacoom Park - O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -2299,7 +2651,7 @@
       "venue_id": "019b7dc7-07fd-7dfe-9e57-195d624bda14",
       "event_date": "2000-01-15",
       "event_kind": "race",
-      "event_name": "O' Series #5 / WIOL #5",
+      "event_name": "Lake Sammamish State Park - O' Series #5 / WIOL #5",
       "venue_name": "Lake Sammamish State Park",
       "result_rows": [
         {
@@ -2327,7 +2679,7 @@
       "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
       "event_date": "1999-12-04",
       "event_kind": "race",
-      "event_name": "O' Series #3 / WIOL #3",
+      "event_name": "Magnuson Park - O' Series #3 / WIOL #3",
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
@@ -2381,7 +2733,7 @@
       "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
       "event_date": "1999-11-06",
       "event_kind": "race",
-      "event_name": "O' Series #1 / WIOL #1",
+      "event_name": "Marymoor Park - O' Series #1 / WIOL #1",
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
@@ -2518,7 +2870,7 @@
   ],
   "summary": {
     "role_count": 16,
-    "event_count": 85,
+    "event_count": 93,
     "mention_count": 0
   },
   "mentions": [],
@@ -2592,7 +2944,7 @@
       "event_date": "2002-09-07",
       "event_kind": "race",
       "event_name": "Bo Powell Memorial - Ft. Steilacoom Park",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "Older COC Results Website: http://www.old.cascadeoc.org/Results2002/bopowell.html"
@@ -2636,8 +2988,8 @@
       "role_name": "Marker Pickup",
       "event_date": "2002-01-26",
       "event_kind": "race",
-      "event_name": "Ft. Steilacoom Park",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Fort Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "citation_count": 1,
       "citation_briefs": [
         "Older COC Results Website: http://www.old.cascadeoc.org/Results2002/steilacoom.html"
@@ -2677,12 +3029,12 @@
     },
     {
       "event_id": "019b7fff-d9b5-780d-b550-31223b1168a5",
-      "venue_id": "019b7b2f-bf4b-7d04-bb73-a3e7756e878a",
+      "venue_id": "019b81b3-75d3-7f26-a595-23c39e730ac3",
       "role_name": "Registration",
       "event_date": "2001-04-28",
       "event_kind": "race",
-      "event_name": "Teanaway West Long-O - Ultimate Orienteer 4",
-      "venue_name": "Teanaway Forks",
+      "event_name": "Teanaway West Long-O - The Ultimate Orienteer 4",
+      "venue_name": "Teanaway West",
       "citation_count": 1,
       "citation_briefs": [
         "Older COC Results Website: http://www.old.cascadeoc.org/Results2001/Teanaway.html"

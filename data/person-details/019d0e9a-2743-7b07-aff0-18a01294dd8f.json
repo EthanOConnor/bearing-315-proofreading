@@ -1,9 +1,53 @@
 {
-  "events": [],
+  "events": [
+    {
+      "event_id": "019b81f3-1f4e-7c5d-8b9a-1504cafd02ff",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2018-06-27",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #3 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    }
+  ],
   "aliases": [],
   "summary": {
-    "role_count": 2,
-    "event_count": 0,
+    "role_count": 3,
+    "event_count": 1,
     "mention_count": 0
   },
   "mentions": [],
@@ -36,6 +80,21 @@
       "citation_count": 1,
       "citation_briefs": [
         "Web Snapshot: https://cocwebsite.azurewebsites.net/result/2021-wednesday-evening-2-big-finn-hill-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c5d-8b9a-1504cafd02ff",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "role_name": "Course Designer(s)",
+      "event_date": "2018-06-27",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #3 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/wednesday-evening-series-3-big-finn-hill-3/"
       ],
       "volunteer_hours": null,
       "volunteer_points": null

@@ -148,7 +148,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-28",
       "event_kind": "race",
-      "event_name": "PNWOF Long (by class)",
+      "event_name": "PNWOF 2009 Long",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -176,7 +176,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -204,7 +204,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-26",
       "event_kind": "race",
-      "event_name": "PNWOF Sprint",
+      "event_name": "PNWOF 2009 Sprint",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -310,12 +310,104 @@
     "Beck, John"
   ],
   "summary": {
-    "role_count": 0,
+    "role_count": 6,
     "event_count": 10,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019b7b32-2a92-7792-8e86-329f13550cde",
   "individual_name": "John Beck",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4d-7ec9-988d-ced0baa8b8f9",
+      "venue_id": "019b81f3-1f39-7d5c-8907-0993cebc5fd1",
+      "role_name": "Control Pickup",
+      "event_date": "2019-06-15",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #8",
+      "venue_name": "Riverside State Park (Classic)",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2019-ultimate-orienteer-8-riverside-state-park-classic/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ec9-988d-ced0baa8b8f9",
+      "venue_id": "019b81f3-1f39-7d5c-8907-0993cebc5fd1",
+      "role_name": "Meet Director",
+      "event_date": "2019-06-15",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #8",
+      "venue_name": "Riverside State Park (Classic)",
+      "citation_count": 2,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/event/2019-ultimate-orienteer-8/",
+        "CascadeOC Website: https://cascadeoc.org/result/2019-ultimate-orienteer-8-riverside-state-park-classic/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ec9-988d-ced0baa8b8f9",
+      "venue_id": "019b81f3-1f39-7d5c-8907-0993cebc5fd1",
+      "role_name": "Registration",
+      "event_date": "2019-06-15",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #8",
+      "venue_name": "Riverside State Park (Classic)",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2019-ultimate-orienteer-8-riverside-state-park-classic/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-720e-b924-c916cf575bd2",
+      "venue_id": "019b81f3-1f39-716d-9fd5-fb4510ea0605",
+      "role_name": "Control Pickup",
+      "event_date": "2016-06-26",
+      "event_kind": "race",
+      "event_name": "2016 Ultimate Orienteer #10",
+      "venue_name": "Classic (Riverside State Park)",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/ultimate-orienteer-10-classic-riverside-state-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-720e-b924-c916cf575bd2",
+      "venue_id": "019b81f3-1f39-716d-9fd5-fb4510ea0605",
+      "role_name": "Course Setting and Registration",
+      "event_date": "2016-06-26",
+      "event_kind": "race",
+      "event_name": "2016 Ultimate Orienteer #10",
+      "venue_name": "Classic (Riverside State Park)",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/ultimate-orienteer-10-classic-riverside-state-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-78d1-b6c9-6f87e57f7907",
+      "venue_id": "019b81f3-1f39-7af1-97bb-74df5a9f4fa9",
+      "role_name": "Road Signs and Registration",
+      "event_date": "2016-06-25",
+      "event_kind": "race",
+      "event_name": "2017 Ultimate Orienteer #9",
+      "venue_name": "Goat (Fishtrap Lake)",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/ultimate-orienteer-9-goat-fishtrap-lake/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

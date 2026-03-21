@@ -1,6 +1,90 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7298-bda3-5710a5c8bb9a",
+      "venue_id": "019b81f3-1f39-7ebd-a0fb-e8fd4d874a89",
+      "event_date": "2019-09-28",
+      "event_kind": "race",
+      "event_name": "Baltic Cup at Teanaway Day 1",
+      "venue_name": "Jack Creek",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:21:44",
+          "competitive": true,
+          "course_name": "Open White",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:21:44",
+          "result_notes": "school COC",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:21:44",
+          "competitive": true,
+          "course_name": "Open White",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:21:44",
+          "result_notes": "school COC",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f49-b51e-10516ab69c87",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2018-02-03",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series / WIOL #7",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:31:50",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:31:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:31:50",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:31:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7ffe-adbd-446d2288a79e",
       "venue_id": "019b7f6c-d843-7b47-977b-d4a69ef90e9b",
       "event_date": "2015-10-24",
@@ -538,7 +622,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 15,
+    "event_count": 17,
     "mention_count": 0
   },
   "mentions": [],

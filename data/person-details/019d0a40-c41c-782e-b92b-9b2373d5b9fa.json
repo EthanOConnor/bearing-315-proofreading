@@ -1,6 +1,47 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7f84-9c0c-cd99a0fde461",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2017-12-30",
+      "event_kind": "race",
+      "event_name": "38th Annual Bog Slog",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "03:37:56",
+          "competitive": true,
+          "course_name": "Long Advanced",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "03:37:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "03:37:56",
+          "competitive": true,
+          "course_name": "Long Advanced",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "03:37:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81e3-a50f-7017-a33b-7fe143a3bf10",
       "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
       "event_date": "2010-01-09",
@@ -37,7 +78,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

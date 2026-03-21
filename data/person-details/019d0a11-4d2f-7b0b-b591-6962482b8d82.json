@@ -236,12 +236,63 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7609-b0d0-a246e761e733",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "event_date": "2017-05-13",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #6 (Pig War) - Classic",
+      "venue_name": "Lick Creek",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 470
+            }
+          ],
+          "time_text": "01:24:46",
+          "competitive": true,
+          "course_name": "Open Men",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "01:24:46",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 470",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 470
+            }
+          ],
+          "time_text": "01:24:46",
+          "competitive": true,
+          "course_name": "Open Men",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "01:24:46",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 470",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 8,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

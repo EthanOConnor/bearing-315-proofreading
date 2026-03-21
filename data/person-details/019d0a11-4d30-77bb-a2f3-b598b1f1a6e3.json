@@ -740,7 +740,7 @@
       "event_date": "2023-01-07",
       "event_kind": "race",
       "event_name": "2022 Winter League 05",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -933,7 +933,7 @@
       "event_date": "2022-04-23",
       "event_kind": "race",
       "event_name": "2022 Ultimate Orienteer #3",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -1355,12 +1355,147 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-791e-b09d-dc0c7f3ca261",
+      "venue_id": "019b7f6c-d843-7b47-977b-d4a69ef90e9b",
+      "event_date": "2020-03-07",
+      "event_kind": "race",
+      "event_name": "2020 Ultimate Orienteer #1",
+      "venue_name": "Lynndale Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 938
+            }
+          ],
+          "time_text": "00:35:51",
+          "competitive": true,
+          "course_name": "Male 50+",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:35:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 938",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 938
+            }
+          ],
+          "time_text": "00:35:51",
+          "competitive": true,
+          "course_name": "Male 50+",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:35:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 938",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-797c-b1a4-b54ca757b673",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2020-02-22",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League Championships",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:01:31",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 30,
+          "status_code": "OK",
+          "outcome_text": "02:01:31",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "02:01:31",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 30,
+          "status_code": "OK",
+          "outcome_text": "02:01:31",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7c4f-b328-fa8d97060264",
+      "venue_id": "019b81f3-1f39-771c-b188-7405b0c44c91",
+      "event_date": "2020-01-25",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #6",
+      "venue_name": "Lincoln Tree Farm",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:11:44",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:11:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "01:11:44",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:11:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 1,
-    "event_count": 42,
+    "event_count": 45,
     "mention_count": 0
   },
   "mentions": [],

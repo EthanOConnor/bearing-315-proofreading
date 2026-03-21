@@ -1,6 +1,49 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-74c3-b4ee-fe02e2b80fa5",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2018-11-17",
+      "event_kind": "race",
+      "event_name": "Winter League #2",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:33:56",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "00:33:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "OAKH"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:33:56",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "00:33:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4e-7efc-9a48-43ee67f98d99",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2018-02-17",
@@ -30,12 +73,55 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7c79-8039-8b10b340666f",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2017-11-18",
+      "event_kind": "race",
+      "event_name": "Winter O-Series / WIOL #2",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:26:44",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:26:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "OHHS"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:26:44",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:26:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

@@ -246,6 +246,157 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-70f7-b304-3aaa938f0076",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2018-03-10",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #1 - Night O",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:28:18",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "01:28:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:28:18",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "01:28:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7fd0-b114-79dd6682eb03",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2017-09-30",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #4: City Park!",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 14
+            },
+            {
+              "metric_key": "pt_1_time",
+              "metric_time_text": "01:07:58"
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 14
+            }
+          ],
+          "time_text": "01:14:33",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 45,
+          "status_code": "OK",
+          "outcome_text": "01:14:33",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 14; Pt 1 Time 01:07:58; Total Time 14",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 14
+            }
+          ],
+          "time_text": "01:14:33",
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": 45,
+          "status_code": "OK",
+          "outcome_text": "01:14:33",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 14",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7069-b7ea-d7160df4c081",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2016-12-31",
+      "event_kind": "race",
+      "event_name": "37th Annual Bog Slog",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:26:28",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "02:26:28",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "02:26:28",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "02:26:28",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-7694-a5c4-985efa305e38",
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2013-06-30",
@@ -415,7 +566,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 12,
+    "event_count": 15,
     "mention_count": 0
   },
   "mentions": [],

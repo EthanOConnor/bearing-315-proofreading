@@ -1,6 +1,159 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4a-7cd4-983b-4944ec6a98ba",
+      "venue_id": "019b81f3-1f39-78c9-9783-eacb06a64ef9",
+      "event_date": "2019-02-23",
+      "event_kind": "race",
+      "event_name": "2018-19 Winter League Championship",
+      "venue_name": "Camp River Ranch",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "01:49:53",
+          "competitive": true,
+          "course_name": "Varsity Girls",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:49:53",
+          "result_notes": "school LIB",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "01:49:53",
+          "competitive": true,
+          "course_name": "Varsity Girls",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:49:53",
+          "result_notes": "school LIB",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e20-bf35-b9b574dddd07",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2018-12-15",
+      "event_kind": "race",
+      "event_name": "Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:51:38",
+          "competitive": true,
+          "course_name": "Varsity Girls",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:51:38",
+          "result_notes": "school LIB",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:51:38",
+          "competitive": true,
+          "course_name": "Varsity Girls",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:51:38",
+          "result_notes": "school LIB",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7a06-89bf-987aa49c3788",
+      "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
+      "event_date": "2018-12-01",
+      "event_kind": "race",
+      "event_name": "Winter League #3",
+      "venue_name": "Shoreview Park - Shoreline, WA",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:40:31",
+          "competitive": true,
+          "course_name": "Jr. Varsity Girls",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:40:31",
+          "result_notes": "school LIB",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 87",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:40:31",
+          "competitive": true,
+          "course_name": "Jr. Varsity Girls",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:40:31",
+          "result_notes": "school LIB",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 87",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4e-7efc-9a48-43ee67f98d99",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2018-02-17",
@@ -25,12 +178,53 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f49-b51e-10516ab69c87",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2018-02-03",
+      "event_kind": "race",
+      "event_name": "Winter O’ Series / WIOL #7",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:22:22",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:22:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:22:22",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:22:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

@@ -213,7 +213,7 @@
       "event_date": "2021-04-17",
       "event_kind": "race",
       "event_name": "2021 Winter League #4",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -272,12 +272,53 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7dd1-ab76-e7934a31d3c1",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2020-01-11",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League #5",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:36:39",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 34,
+          "status_code": "OK",
+          "outcome_text": "01:36:39",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "01:36:39",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 34,
+          "status_code": "OK",
+          "outcome_text": "01:36:39",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 9,
+    "event_count": 10,
     "mention_count": 0
   },
   "mentions": [],

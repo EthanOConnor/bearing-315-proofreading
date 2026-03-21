@@ -1,6 +1,112 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7298-bda3-5710a5c8bb9a",
+      "venue_id": "019b81f3-1f39-7ebd-a0fb-e8fd4d874a89",
+      "event_date": "2019-09-28",
+      "event_kind": "race",
+      "event_name": "Baltic Cup at Teanaway Day 1",
+      "venue_name": "Jack Creek",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "01:18:54",
+          "competitive": true,
+          "course_name": "Male 70+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:18:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 1000",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "01:18:54",
+          "competitive": true,
+          "course_name": "Male 70+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:18:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 1000",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7609-b0d0-a246e761e733",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "event_date": "2017-05-13",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #6 (Pig War) - Classic",
+      "venue_name": "Lick Creek",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 858
+            }
+          ],
+          "time_text": "00:56:36",
+          "competitive": true,
+          "course_name": "Masters Men",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:56:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 858",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 858
+            }
+          ],
+          "time_text": "00:56:36",
+          "competitive": true,
+          "course_name": "Masters Men",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:56:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 858",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7b05-8d21-7dbbd58c56c9",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2012-04-22",
@@ -112,7 +218,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-28",
       "event_kind": "race",
-      "event_name": "PNWOF Long (by class)",
+      "event_name": "PNWOF 2009 Long",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -140,7 +246,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -221,7 +327,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

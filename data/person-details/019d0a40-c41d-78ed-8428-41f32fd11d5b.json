@@ -67,6 +67,59 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4c-7064-b09c-b82e4395ce4a",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2018-11-03",
+      "event_kind": "race",
+      "event_name": "Winter League #1",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 63
+            }
+          ],
+          "time_text": "01:04:12",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 31,
+          "status_code": "OK",
+          "outcome_text": "01:04:12",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 63",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 63
+            }
+          ],
+          "time_text": "01:04:12",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 31,
+          "status_code": "OK",
+          "outcome_text": "01:04:12",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 63",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-7c1f-b8a9-b6257b6dceaf",
       "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
       "event_date": "2013-01-05",
@@ -319,7 +372,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-28",
       "event_kind": "race",
-      "event_name": "PNWOF Long (by class)",
+      "event_name": "PNWOF 2009 Long",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -348,7 +401,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 11,
+    "event_count": 12,
     "mention_count": 0
   },
   "mentions": [],

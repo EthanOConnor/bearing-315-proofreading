@@ -310,7 +310,7 @@
       "event_date": "2021-04-17",
       "event_kind": "race",
       "event_name": "2021 Winter League #4",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -465,12 +465,241 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4d-797c-b1a4-b54ca757b673",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2020-02-22",
+      "event_kind": "race",
+      "event_name": "2019-2020 Winter League Championships",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:58:44",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:58:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:58:44",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:58:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b95-b2cf-d1dbb5597928",
+      "venue_id": "019b81f3-1f39-79e9-aa13-5640f3576e4f",
+      "event_date": "2018-05-13",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #4 and #5",
+      "venue_name": "Fishtrap Lake 2-day Results",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "aux_place_4",
+              "metric_numeric": 3
+            },
+            {
+              "metric_key": "time",
+              "metric_text": "DNS"
+            }
+          ],
+          "time_text": "01:14:54",
+          "competitive": true,
+          "course_name": "Ultimate Open Male (12)",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:14:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Aux Place 4 3; Time DNS",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7fc6-9af1-658712472fdc",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2018-05-12",
+      "event_kind": "race",
+      "event_name": "Ultimate Orienteer #4 - Classic",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 743
+            }
+          ],
+          "time_text": "01:14:54",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "01:14:54",
+          "result_notes": null,
+          "category_name": "Ultimate Open Male",
+          "category_rank": 3,
+          "metric_summary": "Points 743",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 743
+            }
+          ],
+          "time_text": "01:14:54",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "01:14:54",
+          "result_notes": null,
+          "category_name": "Ultimate Open Male",
+          "category_rank": 3,
+          "metric_summary": "Points 743",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7609-b0d0-a246e761e733",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "event_date": "2017-05-13",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #6 (Pig War) - Classic",
+      "venue_name": "Lick Creek",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:00:52",
+          "competitive": true,
+          "course_name": "Short Adv.",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "01:00:52",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:00:52",
+          "competitive": true,
+          "course_name": "Short Adv.",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "01:00:52",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7055-81ea-a16d1f424d58",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
+      "event_date": "2016-04-16",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #4 (Sprint)",
+      "venue_name": "Shoreview Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 777
+            }
+          ],
+          "time_text": "00:23:29",
+          "competitive": true,
+          "course_name": "Open Men",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:23:29",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 777",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 777
+            }
+          ],
+          "time_text": "00:23:29",
+          "competitive": true,
+          "course_name": "Open Men",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:23:29",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 777",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4b-78fe-abc1-b3daea29d93d",
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -968,7 +1197,7 @@
   "aliases": [],
   "summary": {
     "role_count": 3,
-    "event_count": 27,
+    "event_count": 32,
     "mention_count": 0
   },
   "mentions": [],

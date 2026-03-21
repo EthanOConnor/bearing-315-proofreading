@@ -1,6 +1,112 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7b11-86b3-ae432c9dd8f2",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2019-06-16",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #9",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Ultimate Masters Women",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": "155:23",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Ultimate Masters Women",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": "155:23",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ec9-988d-ced0baa8b8f9",
+      "venue_id": "019b81f3-1f39-7d5c-8907-0993cebc5fd1",
+      "event_date": "2019-06-15",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #8",
+      "venue_name": "Riverside State Park (Classic)",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 358
+            }
+          ],
+          "time_text": "02:35:10",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "02:35:10",
+          "result_notes": null,
+          "category_name": "Ultimate Masters Female",
+          "category_rank": 7,
+          "metric_summary": "Points 358",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 358
+            }
+          ],
+          "time_text": "02:35:10",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "02:35:10",
+          "result_notes": null,
+          "category_name": "Ultimate Masters Female",
+          "category_rank": 7,
+          "metric_summary": "Points 358",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7b05-8d21-7dbbd58c56c9",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2012-04-22",
@@ -167,7 +273,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

@@ -1,6 +1,237 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-706d-8b35-a83fb8ca0cb0",
+      "venue_id": "019b7fff-4c14-7219-87e8-94a6085d84b6",
+      "event_date": "2018-07-18",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #4",
+      "venue_name": "Forest Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:56:14",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "01:56:14",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:56:14",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "01:56:14",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-73ce-828f-606359b4b8e5",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "event_date": "2017-05-24",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #1",
+      "venue_name": "Wilburton Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "C4",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": "101:56",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "C4",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": "101:56",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7f15-9fdd-b5415ded17cd",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2016-07-20",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #3 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:02:29",
+          "competitive": true,
+          "course_name": "Long Advanced",
+          "course_rank": 33,
+          "status_code": "OK",
+          "outcome_text": "02:02:29",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "02:02:29",
+          "competitive": true,
+          "course_name": "Long Advanced",
+          "course_rank": 33,
+          "status_code": "OK",
+          "outcome_text": "02:02:29",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-72d5-902b-a7baaa91dcf5",
+      "venue_id": "019b7b62-9f59-7108-a468-484c9810028f",
+      "event_date": "2016-07-17",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure: Whidbey!",
+      "venue_name": "Fort Casey State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 17
+            }
+          ],
+          "time_text": "01:12:19",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": 33,
+          "status_code": "OK",
+          "outcome_text": "01:12:19",
+          "result_notes": null,
+          "category_name": "Choose Your Adventu 24 C 24 Pts 1:15:00",
+          "category_rank": 33,
+          "metric_summary": "Points 17",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7d99-9f7a-79e8ed184c75",
+      "venue_id": "019b81f3-1f39-756c-9a1e-ccb8617bf543",
+      "event_date": "2016-06-15",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #2",
+      "venue_name": "Lake Wilderness Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:43:16",
+          "competitive": true,
+          "course_name": "Long Advanced",
+          "course_rank": 26,
+          "status_code": "OK",
+          "outcome_text": "01:43:16",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:43:16",
+          "competitive": true,
+          "course_name": "Long Advanced",
+          "course_rank": 26,
+          "status_code": "OK",
+          "outcome_text": "01:43:16",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7803-a5f3-5f0bdc3f3f88",
+      "venue_id": "019b81f3-1f39-7989-a3d1-6c58d89f120d",
+      "event_date": "2016-05-25",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening Series #1",
+      "venue_name": "Robinswood Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:27:03",
+          "competitive": true,
+          "course_name": "Long",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "01:27:03",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4c-7349-a647-24a02c3b0d0e",
       "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
       "event_date": "2014-05-10",
@@ -216,8 +447,8 @@
       "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
       "event_date": "2010-01-23",
       "event_kind": "race",
-      "event_name": "Winter O' Series #6",
-      "venue_name": "Ft. Steilacoom Park",
+      "event_name": "Winter O' Series #6 / WIOL #6",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -381,7 +612,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -406,11 +637,11 @@
     },
     {
       "event_id": "019b81f3-1f4b-734e-88f7-e820bdbce4c9",
-      "venue_id": "019b81f3-1f39-7c32-bc58-2a197eb7495f",
+      "venue_id": "019b81e3-a4f7-7dc6-a68a-bfdd9bd7f3dd",
       "event_date": "2009-02-07",
       "event_kind": "race",
-      "event_name": "Winter O' Series/WIOL #7",
-      "venue_name": "Island Crest",
+      "event_name": "Winter O' Series #7 / WIOL #7",
+      "venue_name": "Island Crest Park",
       "result_rows": [
         {
           "metrics": [],
@@ -471,7 +702,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 15,
+    "event_count": 21,
     "mention_count": 0
   },
   "mentions": [],

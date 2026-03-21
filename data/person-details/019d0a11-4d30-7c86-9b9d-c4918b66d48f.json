@@ -338,6 +338,145 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-7b11-86b3-ae432c9dd8f2",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2019-06-16",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #9",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:40:02",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "01:40:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:40:02",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "01:40:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ec9-988d-ced0baa8b8f9",
+      "venue_id": "019b81f3-1f39-7d5c-8907-0993cebc5fd1",
+      "event_date": "2019-06-15",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #8",
+      "venue_name": "Riverside State Park (Classic)",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 390
+            }
+          ],
+          "time_text": "02:22:20",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "02:22:20",
+          "result_notes": null,
+          "category_name": "Ultimate Masters Female",
+          "category_rank": 6,
+          "metric_summary": "Points 390",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 390
+            }
+          ],
+          "time_text": "02:22:20",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "02:22:20",
+          "result_notes": null,
+          "category_name": "Ultimate Masters Female",
+          "category_rank": 6,
+          "metric_summary": "Points 390",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7c79-8039-8b10b340666f",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2017-11-18",
+      "event_kind": "race",
+      "event_name": "Winter O-Series / WIOL #2",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:43:48",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 39,
+          "status_code": "OK",
+          "outcome_text": "01:43:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:43:48",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 39,
+          "status_code": "OK",
+          "outcome_text": "01:43:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7b05-8d21-7dbbd58c56c9",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2012-04-22",
@@ -505,7 +644,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-28",
       "event_kind": "race",
-      "event_name": "PNWOF Long (by class)",
+      "event_name": "PNWOF 2009 Long",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -533,7 +672,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -561,7 +700,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-26",
       "event_kind": "race",
-      "event_name": "PNWOF Sprint",
+      "event_name": "PNWOF 2009 Sprint",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -590,7 +729,7 @@
   ],
   "summary": {
     "role_count": 2,
-    "event_count": 16,
+    "event_count": 19,
     "mention_count": 0
   },
   "mentions": [],

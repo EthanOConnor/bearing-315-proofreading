@@ -1,6 +1,112 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7459-9a51-b1bc5e3ede27",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2016-12-03",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 64
+            }
+          ],
+          "time_text": "01:11:46",
+          "competitive": true,
+          "course_name": "Jr. Varsity Boys (S)",
+          "course_rank": 30,
+          "status_code": "OK",
+          "outcome_text": "01:11:46",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 64",
+          "additional_course": false,
+          "affiliation_labels": [
+            "LIB"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 64
+            }
+          ],
+          "time_text": "01:11:46",
+          "competitive": true,
+          "course_name": "Jr. Varsity Boys (S)",
+          "course_rank": 30,
+          "status_code": "OK",
+          "outcome_text": "01:11:46",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 64",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7343-9a8a-e14bd95d1944",
+      "venue_id": "019b81f3-1f39-7ad7-97db-5be7553ab6a1",
+      "event_date": "2016-11-19",
+      "event_kind": "race",
+      "event_name": "Winter Series / WIOL #2",
+      "venue_name": "Dash Point State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 57
+            }
+          ],
+          "time_text": "01:13:44",
+          "competitive": true,
+          "course_name": "Jr. Varsity Boys (S)",
+          "course_rank": 37,
+          "status_code": "OK",
+          "outcome_text": "01:13:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 57",
+          "additional_course": false,
+          "affiliation_labels": [
+            "LIB"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 57
+            }
+          ],
+          "time_text": "01:13:44",
+          "competitive": true,
+          "course_name": "Jr. Varsity Boys (S)",
+          "course_rank": 37,
+          "status_code": "OK",
+          "outcome_text": "01:13:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 57",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-713d-a61d-55eafed36318",
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "2015-12-05",
@@ -35,7 +141,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

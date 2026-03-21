@@ -196,11 +196,107 @@
       "result_row_count": 1
     },
     {
+      "event_id": "019b81f3-1f4b-7e47-b652-bd63ad7abe60",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2017-06-18",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #9 - Goat",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 507
+            }
+          ],
+          "time_text": "04:06:33",
+          "competitive": true,
+          "course_name": "Ultimate Masters Women / Kid",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "04:06:33",
+          "result_notes": "skips 10, 11",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 507",
+          "additional_course": false,
+          "affiliation_labels": [
+            "TSN"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 507
+            }
+          ],
+          "time_text": "04:06:33",
+          "competitive": true,
+          "course_name": "Ultimate Masters Women / Kid",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "04:06:33",
+          "result_notes": "skips 10, 11",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 507",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7838-861a-0e29a62d9b23",
+      "venue_id": "019b81f3-1f39-710d-8e0d-1ef8ec0846cd",
+      "event_date": "2017-06-17",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #8 - Middle",
+      "venue_name": "Moses Lake Sand Dunes",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:10:08",
+          "competitive": true,
+          "course_name": "Short Adv.",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:10:08",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "TSN"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "01:10:08",
+          "competitive": true,
+          "course_name": "Short Adv.",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:10:08",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b7dc8-01df-71eb-8f4a-f7f29d974d58",
       "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
       "event_date": "2000-02-26",
       "event_kind": "race",
-      "event_name": "WIOL + Winter O' Series Championships",
+      "event_name": "Hamlin Park - Winter O' Series Championships",
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
@@ -227,7 +323,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 7,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

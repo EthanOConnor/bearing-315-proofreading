@@ -1,6 +1,65 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7d4a-8ab2-1d09277f154c",
+      "venue_id": "019b81e3-a4f7-7d56-b445-4a418836c068",
+      "event_date": "2016-05-15",
+      "event_kind": "race",
+      "event_name": "Ultimate Series #7 (Score O)",
+      "venue_name": "Lick Creek",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": -40
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 290
+            }
+          ],
+          "time_text": "01:31:05",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:31:05",
+          "result_notes": null,
+          "category_name": "Open 90 Minutes 30 C 1600 Pts 1:30:00",
+          "category_rank": 5,
+          "metric_summary": "Penalty -40; Points 290",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": -40
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 290
+            }
+          ],
+          "time_text": "01:31:05",
+          "competitive": true,
+          "course_name": "Score-O",
+          "course_rank": 23,
+          "status_code": "OK",
+          "outcome_text": "01:31:05",
+          "result_notes": null,
+          "category_name": "Groups 90 Minutes (5) 30 C 1600 Pts 1:30:00",
+          "category_rank": 5,
+          "metric_summary": "Penalty -40; Points 290",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4c-7357-b927-2cee44df0924",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2011-02-19",
@@ -131,7 +190,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

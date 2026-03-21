@@ -1,6 +1,67 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7fd0-b114-79dd6682eb03",
+      "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
+      "event_date": "2017-09-30",
+      "event_kind": "race",
+      "event_name": "Choose Your Adventure #4: City Park!",
+      "venue_name": "Woodland Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 12
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Penalty 0; Points 12; Total Time 12",
+          "result_notes": "pt_1_time ?",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 12; Total Time 12",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 12
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Choose Your Adventure!",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 12",
+          "result_notes": "pt_1_time ?",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 12",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81e3-a50e-7cdb-b051-73a84b2f9dd4",
       "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
       "event_date": "2009-01-24",
@@ -99,7 +160,7 @@
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "2003-11-08",
       "event_kind": "race",
-      "event_name": "WIOL 1/ O' Series 1 - Seward Park, Seattle",
+      "event_name": "WIOL 1 / O' Series 1",
       "venue_name": "Seward Park",
       "result_rows": [
         {
@@ -203,7 +264,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

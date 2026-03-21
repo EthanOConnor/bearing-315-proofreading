@@ -1,6 +1,47 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7069-b7ea-d7160df4c081",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2016-12-31",
+      "event_kind": "race",
+      "event_name": "37th Annual Bog Slog",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:05:27",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "01:05:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "01:05:27",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "01:05:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4d-70c0-aa54-f64ae7a20e09",
       "venue_id": "019b81f3-1f39-7d9a-9a28-452083a98ee1",
       "event_date": "2015-09-27",
@@ -279,7 +320,7 @@
       "event_date": "2013-11-16",
       "event_kind": "race",
       "event_name": "Winter O' Series/WIOL #2",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [],
@@ -303,7 +344,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 11,
+    "event_count": 12,
     "mention_count": 0
   },
   "mentions": [],

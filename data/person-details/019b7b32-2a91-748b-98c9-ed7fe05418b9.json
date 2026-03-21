@@ -1,6 +1,88 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-720e-b924-c916cf575bd2",
+      "venue_id": "019b81f3-1f39-716d-9fd5-fb4510ea0605",
+      "event_date": "2016-06-26",
+      "event_kind": "race",
+      "event_name": "2016 Ultimate Orienteer #10",
+      "venue_name": "Classic (Riverside State Park)",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 477
+            }
+          ],
+          "time_text": "02:00:02",
+          "competitive": true,
+          "course_name": "Green",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "02:00:02",
+          "result_notes": null,
+          "category_name": "Masters Women",
+          "category_rank": 7,
+          "metric_summary": "Uo Points 477",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-78d1-b6c9-6f87e57f7907",
+      "venue_id": "019b81f3-1f39-7af1-97bb-74df5a9f4fa9",
+      "event_date": "2016-06-25",
+      "event_kind": "race",
+      "event_name": "2017 Ultimate Orienteer #9",
+      "venue_name": "Goat (Fishtrap Lake)",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "ultimate_pts",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Kid (8.5 km, 260 m climb, 19 controls on course, 2 skips allowed)",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Ultimate Pts 0",
+          "result_notes": null,
+          "category_name": "Masters Men",
+          "category_rank": null,
+          "metric_summary": "Ultimate Pts 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "ultimate_pts",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Kid (8.5 km, 260 m climb, 19 controls on course, 2 skips allowed)",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Ultimate Pts 0",
+          "result_notes": null,
+          "category_name": "Masters Women",
+          "category_rank": null,
+          "metric_summary": "Ultimate Pts 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
       "event_id": "019b81f3-1f4a-79cb-8f91-3f8c5501701b",
       "venue_id": "019b81f3-1f39-7b80-95ff-211287937388",
       "event_date": "2010-06-28",
@@ -89,7 +171,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-28",
       "event_kind": "race",
-      "event_name": "PNWOF Long (by class)",
+      "event_name": "PNWOF 2009 Long",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -117,7 +199,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-27",
       "event_kind": "race",
-      "event_name": "PNWOF Middle (by class)",
+      "event_name": "PNWOF 2009 Middle - U.S. Middle Distance Championships",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -145,7 +227,7 @@
       "venue_id": "019b815a-c65f-738f-ae32-10c7219d7c56",
       "event_date": "2009-06-26",
       "event_kind": "race",
-      "event_name": "PNWOF Sprint",
+      "event_name": "PNWOF 2009 Sprint",
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
@@ -200,7 +282,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 7,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

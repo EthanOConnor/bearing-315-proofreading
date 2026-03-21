@@ -236,7 +236,7 @@
       "event_date": "2023-01-07",
       "event_kind": "race",
       "event_name": "2022 Winter League 05",
-      "venue_name": "Ft. Steilacoom Park",
+      "venue_name": "Fort Steilacoom Park",
       "result_rows": [
         {
           "metrics": [
@@ -301,12 +301,159 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-791e-b09d-dc0c7f3ca261",
+      "venue_id": "019b7f6c-d843-7b47-977b-d4a69ef90e9b",
+      "event_date": "2020-03-07",
+      "event_kind": "race",
+      "event_name": "2020 Ultimate Orienteer #1",
+      "venue_name": "Lynndale Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:39:35",
+          "competitive": true,
+          "course_name": "Short Advanced – 2.2k, 15 controls",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:39:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": "00:39:35",
+          "competitive": true,
+          "course_name": "Short Advanced – 2.2k, 15 controls",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:39:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7642-bb2e-1a7a4e81d224",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2019-04-20",
+      "event_kind": "race",
+      "event_name": "2019 Ultimate Orienteer #5 - Big Finn Hill (Individual Relay)",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 389
+            }
+          ],
+          "time_text": "02:05:57",
+          "competitive": true,
+          "course_name": "Advanced (3 relay legs, 6.2k)",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "02:05:57",
+          "result_notes": null,
+          "category_name": "Ultimate Open Male",
+          "category_rank": 16,
+          "metric_summary": "Uo Points 389",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-74c3-b4ee-fe02e2b80fa5",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2018-11-17",
+      "event_kind": "race",
+      "event_name": "Winter League #2",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:49:06",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "00:49:06",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:49:06",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "00:49:06",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:25:18",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:25:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:25:18",
+          "competitive": true,
+          "course_name": "Beginner",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:25:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 4
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 9,
+    "event_count": 12,
     "mention_count": 0
   },
   "mentions": [],

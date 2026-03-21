@@ -9,13 +9,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 345
+            }
+          ],
+          "time_text": "01:04:28",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 60,
+          "status_code": null,
           "outcome_text": "01:04:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 345",
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 3
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:24:25",
           "competitive": true,
           "course_name": "Middle School Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:24:25",
           "result_notes": "school MVM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 3; Score 92",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +44,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 73
+            }
+          ],
+          "time_text": "00:16:58",
           "competitive": true,
           "course_name": "Middle School Boys",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "00:16:58",
           "result_notes": "school Cedar River Middle School",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 73",
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:45:19",
           "competitive": true,
           "course_name": "Brown",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:45:19",
           "result_notes": null,
           "category_name": "F55+",
           "category_rank": 8,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SAMM"
@@ -33,13 +37,17 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:46:28",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:46:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SAMM"
@@ -53,12 +61,133 @@
     "Enger, Valerie"
   ],
   "summary": {
-    "role_count": 0,
+    "role_count": 8,
     "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019b815e-cce2-77d7-a0ca-1fa877e27dcf",
   "individual_name": "Valerie Enger",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4c-79e8-8398-8ba5098a9cf0",
+      "venue_id": "019b81f3-1f39-7d8e-86af-e3c3f9173365",
+      "role_name": "Barbeque",
+      "event_date": "2025-07-09",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #4",
+      "venue_name": "Meadowbrook Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2025-wednesday-evening-4-meadowbrook-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7c71-8fec-340e7fdd32eb",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "role_name": "BBQ",
+      "event_date": "2025-06-25",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #3",
+      "venue_name": "North Seattle College",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2025-wednesday-evening-3-north-seattle-college/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-735f-818e-236ce563821e",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "role_name": "Barbeque",
+      "event_date": "2025-05-21",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #1",
+      "venue_name": "Wilburton Hill Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2025-wednesday-evening-1-wilburton-hill-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-7987-b785-16ac1ef30594",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "role_name": "Food",
+      "event_date": "2022-08-24",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening #6",
+      "venue_name": "Green River College",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/wednesday-evening-6-green-river-cc/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4a-7b84-ad29-b7bcfcc2d50d",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "role_name": "Food",
+      "event_date": "2022-07-27",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening #4",
+      "venue_name": "Big Finn Hill Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://modern.cascadeoc.org/result/wednesday-evening-4-big-finn-hill-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4e-7ce1-bea0-7f47407e4eac",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "role_name": "Food",
+      "event_date": "2022-07-13",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening #3",
+      "venue_name": "Wilburton Hill Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/result/wednesday-evening-3-wilburton-hill-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4a-7335-acf3-d37ef98b7df8",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "role_name": "BBQ",
+      "event_date": "2021-07-28",
+      "event_kind": "race",
+      "event_name": "2021 Wednesday Evening #2",
+      "venue_name": "Big Finn Hill Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/2021-wednesday-evening-2-big-finn-hill-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-73e3-9737-07da8d00b576",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "role_name": "BBQ",
+      "event_date": "2021-07-14",
+      "event_kind": "race",
+      "event_name": "2021 Wednesday Evening #1",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "citation_count": 1,
+      "citation_briefs": [
+        "Web Snapshot: https://cocwebsite.azurewebsites.net/result/2021-wednesday-evening-1-shoreview-park-shoreline-cc/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

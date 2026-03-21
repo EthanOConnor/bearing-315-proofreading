@@ -9,13 +9,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 67
+            }
+          ],
+          "time_text": "00:45:06",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 30,
+          "status_code": "OK",
           "outcome_text": "00:45:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 67",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:41:32",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:41:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -55,13 +73,17 @@
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:56:08",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:56:08",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -77,13 +99,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 518
+            }
+          ],
+          "time_text": "00:34:45",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 27,
+          "status_code": null,
           "outcome_text": "00:34:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 518",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -99,13 +130,22 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 738
+            }
+          ],
+          "time_text": "00:27:15",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 9,
+          "status_code": null,
           "outcome_text": "00:27:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 738",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -123,13 +163,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 443
+            }
+          ],
+          "time_text": "00:50:07",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 50,
+          "status_code": null,
           "outcome_text": "00:50:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 443",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -145,13 +194,17 @@
       "venue_name": "Washington Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:39",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 1,
+          "status_code": null,
           "outcome_text": "00:25:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -167,13 +220,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:16:36",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 1,
+          "status_code": null,
           "outcome_text": "00:16:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

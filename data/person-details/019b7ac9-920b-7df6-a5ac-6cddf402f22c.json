@@ -9,13 +9,17 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Intermediate",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": "–:–",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,17 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:36:51",
           "competitive": true,
           "course_name": "Intermediate",
-          "course_rank": null,
+          "course_rank": 22,
+          "status_code": "OK",
           "outcome_text": "01:36:51",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +65,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:36:46",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:36:46",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +91,17 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -97,17 +113,26 @@
       "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
       "event_date": "1998-02-21",
       "event_kind": "race",
-      "event_name": "O' Series #7 / WIOL #7",
+      "event_name": "Marymoor Park",
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 77
+            }
+          ],
+          "time_text": "01:05:18",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "01:05:18",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 77",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -117,12 +142,43 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
+    "role_count": 2,
     "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019b7ac9-920b-7df6-a5ac-6cddf402f22c",
   "individual_name": "Michael Corey",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019d03c4-2dde-7238-bd7f-7127e8476a49",
+      "venue_id": "019b81f3-1f39-757b-84c7-c9e26f0fe3f3",
+      "role_name": "Start",
+      "event_date": "2026-01-10",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #5",
+      "venue_name": "Summit Trails",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2025-26-winter-league-5-summit-trail-rock-creek-natural-area/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "role_name": "Control Setting, Vetting, and Pickup",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2025-26-winter-league-3-shoreline-college-shoreview-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

@@ -9,13 +9,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 56
+            }
+          ],
+          "time_text": "00:57:35",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:57:35",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 38,
+          "metric_summary": "Points 56",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,17 @@
       "venue_name": "Lake Sammamish State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:55:36",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:55:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

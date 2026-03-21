@@ -9,13 +9,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:50:20",
           "competitive": true,
           "course_name": "Public 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:50:20",
           "result_notes": null,
           "category_name": "Women",
           "category_rank": 14,
+          "metric_summary": "Points 80",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:25:29",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "01:25:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

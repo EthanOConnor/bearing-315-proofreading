@@ -9,13 +9,17 @@
       "venue_name": "Lynnwood Golf Course",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:26:22",
           "competitive": true,
           "course_name": "Short Advanced",
-          "course_rank": null,
+          "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:26:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 77
+            }
+          ],
+          "time_text": "02:12:01",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 17,
+          "status_code": "OK",
           "outcome_text": "02:12:01",
           "result_notes": null,
           "category_name": "Short Advanced Female",
-          "category_rank": null,
+          "category_rank": 17,
+          "metric_summary": "Points 77",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +70,17 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:52:24",
           "competitive": true,
           "course_name": "Intermediate",
-          "course_rank": null,
+          "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:52:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -81,13 +98,45 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:22:20",
           "competitive": true,
           "course_name": "Intermediate",
-          "course_rank": null,
+          "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "01:22:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:47:03",
+          "competitive": true,
+          "course_name": "Advanced Beginner",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:47:03",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -105,13 +154,26 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:10:41",
           "competitive": true,
           "course_name": "Final scores with only completed bones of controls",
-          "course_rank": null,
+          "course_rank": 53,
+          "status_code": "OK",
           "outcome_text": "01:10:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -124,7 +186,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 5,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

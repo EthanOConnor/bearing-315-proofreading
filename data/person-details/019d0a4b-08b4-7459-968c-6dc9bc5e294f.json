@@ -9,13 +9,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:39:08",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:39:08",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 6,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": [
             "TYE"
@@ -33,26 +42,39 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:20:30",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "00:20:30",
           "result_notes": null,
-          "category_name": "High School JV Male",
-          "category_rank": null,
+          "category_name": "Middle School Male",
+          "category_rank": 12,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "TYE"
           ]
         },
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
-          "outcome_text": "00:20:30",
+          "status_code": null,
+          "outcome_text": "",
           "result_notes": null,
-          "category_name": "Middle School Male",
+          "category_name": "High School JV Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "TYE"
@@ -70,13 +92,22 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:23:27",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:23:27",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 12,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "TYE"
@@ -94,13 +125,155 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:26:31",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:26:31",
           "result_notes": null,
           "category_name": "Middle School Male",
+          "category_rank": 10,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": [
+            "TYE"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "00:25:34",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "00:25:34",
+          "result_notes": null,
+          "category_name": "Middle School Male",
+          "category_rank": 20,
+          "metric_summary": "Points 74",
+          "additional_course": false,
+          "affiliation_labels": [
+            "TYE"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "High School JV Male",
           "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "TYE"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "00:18:50",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "00:18:50",
+          "result_notes": null,
+          "category_name": "Middle School Male",
+          "category_rank": 18,
+          "metric_summary": "Points 76",
+          "additional_course": false,
+          "affiliation_labels": [
+            "TYE"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "High School JV Male",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "TYE"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:14:45",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:14:45",
+          "result_notes": null,
+          "category_name": "Middle School Male",
+          "category_rank": 10,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": [
             "TYE"
@@ -113,7 +286,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

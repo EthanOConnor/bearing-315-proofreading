@@ -9,13 +9,90 @@
       "venue_name": "Fisk State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "00:54:02"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:12:09"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 597
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 1146
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 3,
+          "status_code": null,
+          "outcome_text": "Day 1 Time 00:54:02; Day 2 Time 01:12:09; Points 597; Total Time 1146",
           "result_notes": "ws_eligible Y",
           "category_name": "F40+",
           "category_rank": 3,
+          "metric_summary": "Day 1 Time 00:54:02; Day 2 Time 01:12:09; Points 597; Total Time 1146",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-79ea-a620-43ca77d41a38",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 3 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:12:09",
+          "competitive": true,
+          "course_name": "Female 40+",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "01:12:09",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7466-a28e-8013795e821c",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 2 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:54:02",
+          "competitive": true,
+          "course_name": "Female 40+",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:54:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +110,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:28:59",
           "competitive": true,
           "course_name": "Short Advanced",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "01:28:59",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -57,13 +138,17 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:33:32",
           "competitive": true,
           "course_name": "SART 2015 - Round 4",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:33:32",
           "result_notes": "heat Heat 406",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +164,22 @@
       "venue_name": "Shoreline Community College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_rank",
+              "metric_numeric": 58
+            }
+          ],
+          "time_text": "00:29:59",
           "competitive": true,
           "course_name": "SART 2015 - Round 5",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:29:59",
           "result_notes": "heat Heat 505",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Rank 58",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -101,13 +195,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:24:33",
           "competitive": true,
           "course_name": "SART 2015 - Round 1",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:24:33",
           "result_notes": "heat Heat 107",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -123,13 +221,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:26:11",
           "competitive": true,
           "course_name": "SART 2015 - Round 2",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:26:11",
           "result_notes": "heat Heat 208",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -145,13 +247,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:31:00",
           "competitive": true,
           "course_name": "SART 2015 - Round 3",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:31:00",
           "result_notes": "heat Heat 307",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -167,13 +273,17 @@
       "venue_name": "Greenlake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:08:39",
           "competitive": true,
           "course_name": "SART 2015 - Time Trial",
           "course_rank": 60,
+          "status_code": "OK",
           "outcome_text": "00:08:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -189,13 +299,34 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "controls_found",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "map_1_skips",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "mins_late",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "total_score",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:46:39",
           "competitive": true,
           "course_name": "Choose Your Adventure #2 (Campus)",
           "course_rank": 25,
+          "status_code": "OK",
           "outcome_text": "00:46:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Controls Found 24; Map 1 Skips 0; Mins Late 0; Total Score 24",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -213,13 +344,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": null,
+          "status_code": "DQ",
           "outcome_text": "DQ",
           "result_notes": "*",
           "category_name": "Groups",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -237,13 +372,17 @@
       "venue_name": "Lick Creek",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:26:42",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "01:26:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -261,13 +400,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -285,13 +428,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:20:11",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 20,
+          "status_code": "OK",
           "outcome_text": "01:20:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -309,13 +456,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:22",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "01:00:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -333,13 +484,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P5",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -357,13 +512,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:16:20",
           "competitive": true,
           "course_name": "P2",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "01:16:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -375,12 +534,43 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
-    "event_count": 16,
+    "role_count": 2,
+    "event_count": 18,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a11-4d30-7501-b90e-0beb7cb865cc",
   "individual_name": "Kate Byers",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4d-78fc-ace3-5e6c9d35b9d2",
+      "venue_id": "019b81f3-1f39-74dd-96ff-12787b9d1ea3",
+      "role_name": "Control Pickup",
+      "event_date": "2022-12-17",
+      "event_kind": "race",
+      "event_name": "2022 Winter League 04",
+      "venue_name": "Shorecrest/Hamlin",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2022-winter-league-04-shorecrest-hamlin/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-78fc-ace3-5e6c9d35b9d2",
+      "venue_id": "019b81f3-1f39-74dd-96ff-12787b9d1ea3",
+      "role_name": "Finish/Results",
+      "event_date": "2022-12-17",
+      "event_kind": "race",
+      "event_name": "2022 Winter League 04",
+      "venue_name": "Shorecrest/Hamlin",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2022-winter-league-04-shorecrest-hamlin/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:56:05",
           "competitive": true,
           "course_name": "ORANGE",
           "course_rank": 46,
+          "status_code": "OK",
           "outcome_text": "02:56:05",
           "result_notes": "classification ISJVM",
           "category_name": "ISJVM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Curtis HS"
@@ -33,13 +37,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "ORANGE",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": "ISJVM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Curtis HS"
@@ -57,13 +65,17 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P7M",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Curtis"
@@ -81,13 +93,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 39
+            }
+          ],
+          "time_text": "00:59:55",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 55,
+          "status_code": "OK",
           "outcome_text": "00:59:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 39",
           "additional_course": false,
           "affiliation_labels": [
             "Curtis"

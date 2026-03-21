@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "01:01:36",
           "competitive": true,
           "course_name": "Jr. Varsity Boys (N)",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:01:36",
           "result_notes": "school JUA",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 12; Score 82",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +44,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:11:38",
           "competitive": true,
           "course_name": "Middle School Boys",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:11:38",
           "result_notes": "school Environmental & Adventure School",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +75,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:41",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 26,
+          "status_code": "OK",
           "outcome_text": "00:35:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "EAS"
@@ -77,13 +103,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:28:54",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 22,
+          "status_code": "OK",
           "outcome_text": "00:28:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "EAS"
@@ -101,13 +131,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P7M",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "EAS"

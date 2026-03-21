@@ -9,13 +9,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": false,
           "course_name": "Course 1",
           "course_rank": 5,
-          "outcome_text": "Blank",
+          "status_code": null,
+          "outcome_text": "",
           "result_notes": "no time listed",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:43:31",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 26,
+          "status_code": null,
           "outcome_text": "00:43:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -55,13 +68,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:17:18",
           "competitive": true,
           "course_name": "Course One",
           "course_rank": 6,
+          "status_code": null,
           "outcome_text": "00:17:18",
           "result_notes": null,
           "category_name": "Public",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

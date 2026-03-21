@@ -9,13 +9,22 @@
       "venue_name": "Volunteer Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 782
+            }
+          ],
+          "time_text": "00:24:44",
           "competitive": true,
           "course_name": "Course 2 - Sprint",
           "course_rank": 4,
+          "status_code": null,
           "outcome_text": "00:24:44",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 782",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 43,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": "MSP (#3)",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

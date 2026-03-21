@@ -1,0 +1,71 @@
+{
+  "events": [
+    {
+      "event_id": "019b81f3-1f4d-70a9-9074-713ce4d9681d",
+      "venue_id": "019b81f3-1f39-7681-bca4-ff664fce647b",
+      "event_date": "2024-12-07",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 03",
+      "venue_name": "Pierce College/Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:24:13",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:24:13",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 7,
+          "metric_summary": "Points 87",
+          "additional_course": false,
+          "affiliation_labels": [
+            "OAK"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:24:13"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School Rookie Teams",
+          "course_rank": 15,
+          "status_code": null,
+          "outcome_text": "Finish 00:24:13; Points 87",
+          "result_notes": "trailing_paren:OAK",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:24:13; Points 87",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 1,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0e9a-0609-79e7-8e23-8b5d0a749bbc",
+  "individual_name": "Leo Lundy",
+  "volunteer_roles": []
+}

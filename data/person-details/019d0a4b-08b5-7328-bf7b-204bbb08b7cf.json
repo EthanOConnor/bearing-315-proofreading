@@ -9,13 +9,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
-          "outcome_text": "DNF",
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
           "result_notes": "134:36",
           "category_name": "Short Advanced Female",
           "category_rank": null,
+          "metric_summary": "Points 0",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,55 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "01:53:21",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 19,
+          "status_code": "OK",
           "outcome_text": "01:53:21",
           "result_notes": null,
           "category_name": "Short Advanced Female",
-          "category_rank": null,
+          "category_rank": 19,
+          "metric_summary": "Points 75",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:46:20",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:46:20",
+          "result_notes": null,
+          "category_name": "Short Advanced Female",
+          "category_rank": 10,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -52,7 +103,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

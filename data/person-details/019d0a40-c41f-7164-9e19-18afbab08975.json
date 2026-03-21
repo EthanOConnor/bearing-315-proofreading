@@ -9,13 +9,17 @@
       "venue_name": "Dash Point State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 73
+            }
+          ],
+          "time_text": "02:29:14",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "02:29:14",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 73",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +66,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +92,22 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 73
+            }
+          ],
+          "time_text": "00:53:39",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "00:53:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 73",
           "additional_course": false,
           "affiliation_labels": [
             "North Kitsap HS"
@@ -99,13 +125,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 63
+            }
+          ],
+          "time_text": "00:48:47",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:48:47",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 31,
+          "metric_summary": "Points 63",
           "additional_course": false,
           "affiliation_labels": [
             "North Kitsap HS"
@@ -123,13 +158,22 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 69
+            }
+          ],
+          "time_text": "00:49:37",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 25,
+          "status_code": "OK",
           "outcome_text": "00:49:37",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 69",
           "additional_course": false,
           "affiliation_labels": [
             "North Kitsap HS"

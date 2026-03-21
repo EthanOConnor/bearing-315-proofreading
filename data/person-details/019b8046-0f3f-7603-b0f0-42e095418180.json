@@ -9,13 +9,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:27:42",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 16,
+          "status_code": null,
           "outcome_text": "01:27:42",
           "result_notes": null,
           "category_name": "WIOL - High School Female",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "MPHS"
@@ -33,13 +37,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:41:30",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 12,
+          "status_code": null,
           "outcome_text": "00:41:30",
           "result_notes": "novice",
           "category_name": "WIOL - High School Female",
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "MPHS"

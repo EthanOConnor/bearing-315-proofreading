@@ -9,13 +9,17 @@
       "venue_name": "Bellevue College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:24:10",
           "competitive": true,
           "course_name": "Regular – WIOL",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:24:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,28 +35,50 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "High School Rookie Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:BRE",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:35:53",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:35:53",
           "result_notes": null,
           "category_name": "High School Rookie Male",
-          "category_rank": null,
+          "category_rank": 6,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": [
             "BRE"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:35:53"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School Rookie Teams",
+          "course_rank": 8,
+          "status_code": null,
+          "outcome_text": "Finish 00:35:53; Points 88",
+          "result_notes": "trailing_paren:BRE",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:35:53; Points 88",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -66,28 +92,50 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "High School Rookie Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:BRE",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:23:12",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:23:12",
           "result_notes": null,
           "category_name": "High School Rookie Male",
-          "category_rank": null,
+          "category_rank": 4,
+          "metric_summary": "Points 90",
           "additional_course": false,
           "affiliation_labels": [
             "BRE"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:23:12"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School Rookie Teams",
+          "course_rank": 8,
+          "status_code": null,
+          "outcome_text": "Finish 00:23:12; Points 90",
+          "result_notes": "trailing_paren:BRE",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:23:12; Points 90",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -101,28 +149,50 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "High School Rookie Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:BRE",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:38:59",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:38:59",
           "result_notes": null,
           "category_name": "High School Rookie Male",
-          "category_rank": null,
+          "category_rank": 3,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "BRE"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:38:59"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School Rookie Teams",
+          "course_rank": 7,
+          "status_code": null,
+          "outcome_text": "Finish 00:38:59; Points 92",
+          "result_notes": "trailing_paren:BRE",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:38:59; Points 92",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -136,13 +206,22 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:44:54",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:44:54",
           "result_notes": null,
           "category_name": "High School Rookie Male",
-          "category_rank": null,
+          "category_rank": 10,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": [
             "BRE"
@@ -150,12 +229,102 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:28:26",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "00:28:26",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 16,
+          "metric_summary": "Points 78",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BRE"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:42:44",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:42:44",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 6,
+          "metric_summary": "Points 88",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BRE"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:42:44"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School Rookie Teams",
+          "course_rank": 12,
+          "status_code": null,
+          "outcome_text": "Finish 00:42:44; Points 88",
+          "result_notes": "trailing_paren:BRE",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:42:44; Points 88",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 5,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

@@ -9,13 +9,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:19:46",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 38,
+          "status_code": null,
           "outcome_text": "01:19:46",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "MARH"
@@ -33,13 +37,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 54
+            }
+          ],
+          "time_text": "01:10:53",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 40,
+          "status_code": null,
           "outcome_text": "01:10:53",
           "result_notes": "novice",
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 54",
           "additional_course": false,
           "affiliation_labels": [
             "MARH"
@@ -57,13 +70,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 56
+            }
+          ],
+          "time_text": "00:50:45",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 38,
+          "status_code": null,
           "outcome_text": "00:50:45",
           "result_notes": "novice",
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 56",
           "additional_course": false,
           "affiliation_labels": [
             "MARH"
@@ -81,13 +103,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 32,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": "novice",
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "MARH"

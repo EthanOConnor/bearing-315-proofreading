@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 4
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:49:05",
           "competitive": true,
           "course_name": "Varsity Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:49:05",
           "result_notes": "school LWA",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 4; Score 90",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +44,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "00:41:32",
           "competitive": true,
           "course_name": "High School JV Boys North",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:41:32",
           "result_notes": "school Lake Washington",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 79",
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,26 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pnlty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 16
+            }
+          ],
+          "time_text": "01:10:38",
           "competitive": true,
           "course_name": "Choose Your Adventure - Campus",
           "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "01:10:38",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pnlty 0; Points 16",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

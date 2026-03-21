@@ -9,13 +9,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Intermediate",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -27,12 +31,28 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
+    "role_count": 1,
     "event_count": 1,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a40-c418-7f2e-8cdc-7dad6b4509bb",
   "individual_name": "Alissa Osborne",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4d-7bb4-858e-90c2e2f2e08e",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "role_name": "Greeter, Info Tent, Form & Coat Check Runners",
+      "event_date": "2023-01-28",
+      "event_kind": "race",
+      "event_name": "2022 Winter League 03",
+      "venue_name": "South Seattle College",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2022-winter-league-03-south-seattle-college/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

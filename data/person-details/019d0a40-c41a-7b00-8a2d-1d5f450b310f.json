@@ -9,13 +9,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "01:21:42",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 22,
+          "status_code": "OK",
           "outcome_text": "01:21:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 72",
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"
@@ -33,13 +42,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "01:13:09",
           "competitive": true,
           "course_name": "WIOL 3",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "01:13:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"
@@ -57,13 +75,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 3",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"
@@ -81,13 +103,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "01:08:47",
           "competitive": true,
           "course_name": "WIOL Course #3",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:08:47",
           "result_notes": "type S",
           "category_name": "Girls",
           "category_rank": 11,
+          "metric_summary": "Points 83",
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"

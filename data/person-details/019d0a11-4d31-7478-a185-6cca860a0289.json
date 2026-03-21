@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Bog Slog – Women",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": "243:21",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,34 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "pos",
+              "metric_numeric": 27
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:56:01",
           "competitive": true,
           "course_name": "CYA",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:56:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24; Pos 27; Total Time 24",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

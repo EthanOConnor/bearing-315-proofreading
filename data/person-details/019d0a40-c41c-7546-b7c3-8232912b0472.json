@@ -9,13 +9,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 261,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SKT"
@@ -33,13 +37,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:50:20",
           "competitive": true,
           "course_name": "WIOL 6M",
           "course_rank": 24,
+          "status_code": "OK",
           "outcome_text": "00:50:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SKT"
@@ -57,13 +65,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:03:19",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 34,
+          "status_code": "OK",
           "outcome_text": "01:03:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SKT"
@@ -81,13 +93,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 63
+            }
+          ],
+          "time_text": "01:01:57",
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": 31,
+          "status_code": "OK",
           "outcome_text": "01:01:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 63",
           "additional_course": false,
           "affiliation_labels": [
             "South Kitsap"
@@ -105,13 +126,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL Course #4",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": "type S",
           "category_name": "Boys",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "South Kitsap"

@@ -9,13 +9,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:32:52",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 15,
+          "status_code": null,
           "outcome_text": "01:32:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 258
+            }
+          ],
+          "time_text": "01:27:37",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 46,
+          "status_code": null,
           "outcome_text": "01:27:37",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 258",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +70,17 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:55",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 6,
+          "status_code": null,
           "outcome_text": "00:35:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

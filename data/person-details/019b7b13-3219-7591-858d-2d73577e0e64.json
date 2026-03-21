@@ -9,13 +9,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:40:27",
           "competitive": true,
           "course_name": "Public 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:40:27",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 7,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -33,13 +42,22 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:31:02",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:31:02",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 5,
+          "metric_summary": "Points 89",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -51,17 +69,21 @@
       "venue_id": "019b7b12-9a83-750f-81c9-1610ca27d3fd",
       "event_date": "1998-02-21",
       "event_kind": "race",
-      "event_name": "O' Series #7 / WIOL #7",
+      "event_name": "Marymoor Park",
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:23:02",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "00:23:02",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -71,7 +93,7 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 1,
+    "role_count": 2,
     "event_count": 3,
     "mention_count": 0
   },
@@ -79,6 +101,21 @@
   "individual_id": "019b7b13-3219-7591-858d-2d73577e0e64",
   "individual_name": "John Campbell",
   "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4e-79ea-a620-43ca77d41a38",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "role_name": "Start",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 3 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2024-pnwof-day-3-fisk-middle-nre/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
     {
       "event_id": "019b815d-6fd1-7723-96bd-b624b39b1aa6",
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",

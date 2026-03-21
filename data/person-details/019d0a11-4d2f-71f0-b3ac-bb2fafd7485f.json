@@ -1,6 +1,58 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7c71-8fec-340e7fdd32eb",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2025-06-25",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #3",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:47:06",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "00:47:06",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-76ea-b530-bf775e3d110a",
+      "venue_id": "019b81f3-1f39-7f9a-83d1-24d51d1366af",
+      "event_date": "2024-07-10",
+      "event_kind": "race",
+      "event_name": "2024 Wednesday Evening #2",
+      "venue_name": "Shoreline CC/Boeing Creek Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:18:08",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:18:08",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7e40-89db-990ffef92c4b",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2022-12-31",
@@ -9,17 +61,19 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:23:06",
           "competitive": true,
           "course_name": "Bog Jog – Men",
-          "course_rank": null,
+          "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "01:23:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1
@@ -33,13 +87,34 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "pos",
+              "metric_numeric": 7
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:40:05",
           "competitive": true,
           "course_name": "CYA",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:40:05",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24; Pos 7; Total Time 24",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +132,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 73
+            }
+          ],
+          "time_text": "01:39:16",
           "competitive": true,
           "course_name": "Long Advanced Men",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "01:39:16",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 73",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -81,13 +165,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:11:22",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 25,
+          "status_code": "OK",
           "outcome_text": "01:11:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -105,13 +193,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:56:41",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 28,
+          "status_code": "OK",
           "outcome_text": "00:56:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -129,13 +221,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:25:27",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 43,
+          "status_code": "OK",
           "outcome_text": "01:25:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -153,13 +249,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:02:18",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "01:02:18",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -177,13 +277,17 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:57:14",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:57:14",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -201,13 +305,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:17:38",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "01:17:38",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -225,46 +333,62 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:50:27",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "01:50:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "01:50:27",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "01:50:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "01:50:27",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "01:50:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "01:50:27",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "01:50:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -275,7 +399,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 10,
+    "event_count": 12,
     "mention_count": 0
   },
   "mentions": [],

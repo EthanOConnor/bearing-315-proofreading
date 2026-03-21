@@ -9,13 +9,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
-          "outcome_text": "MSP",
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
           "result_notes": "20:53",
           "category_name": "Elementary Male",
           "category_rank": null,
+          "metric_summary": "Points 0",
           "additional_course": false,
           "affiliation_labels": [
             "WMS"
@@ -33,28 +42,50 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "Elementary Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:WMS",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:12:22",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:12:22",
           "result_notes": null,
           "category_name": "Elementary Male",
-          "category_rank": null,
+          "category_rank": 9,
+          "metric_summary": "Points 85",
           "additional_course": false,
           "affiliation_labels": [
             "WMS"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:12:22"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Elementary Teams",
+          "course_rank": 11,
+          "status_code": null,
+          "outcome_text": "Finish 00:12:22; Points 85",
+          "result_notes": "trailing_paren:WMS",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:12:22; Points 85",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -68,37 +99,344 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "Elementary Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:WMS",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:13:04",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:13:04",
           "result_notes": null,
           "category_name": "Elementary Male",
+          "category_rank": 5,
+          "metric_summary": "Points 89",
+          "additional_course": false,
+          "affiliation_labels": [
+            "WMS"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:13:04"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Elementary Teams",
+          "course_rank": 11,
+          "status_code": null,
+          "outcome_text": "Finish 00:13:04; Points 89",
+          "result_notes": "trailing_paren:WMS",
+          "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 00:13:04; Points 89",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": "24:35",
+          "category_name": "Elementary Male",
+          "category_rank": null,
+          "metric_summary": "Points 0",
           "additional_course": false,
           "affiliation_labels": [
             "WMS"
           ]
         }
       ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:12:55",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:12:55",
+          "result_notes": null,
+          "category_name": "Elementary Male",
+          "category_rank": 6,
+          "metric_summary": "Points 88",
+          "additional_course": false,
+          "affiliation_labels": [
+            "WMS"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:12:55"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Elementary Teams",
+          "course_rank": 6,
+          "status_code": null,
+          "outcome_text": "Finish 00:12:55; Points 88",
+          "result_notes": "trailing_paren:WMS",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:12:55; Points 88",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
       "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:09:59",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:09:59",
+          "result_notes": null,
+          "category_name": "Elementary Male",
+          "category_rank": 7,
+          "metric_summary": "Points 87",
+          "additional_course": false,
+          "affiliation_labels": [
+            "WMS"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:09:59"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Elementary Teams",
+          "course_rank": 7,
+          "status_code": null,
+          "outcome_text": "Finish 00:09:59; Points 87",
+          "result_notes": "trailing_paren:WMS",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:09:59; Points 87",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e91-9747-42d7aeb9c29d",
+      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "event_date": "2025-02-08",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 07 - Fire Mountain",
+      "venue_name": "Fire Mountain",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Elementary Male",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "WMS"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-717b-bb86-32fd30609463",
+      "venue_id": "019b820a-0447-7e9e-9f43-543265489e73",
+      "event_date": "2025-02-01",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 02 (Rescheduled) - Soaring Eagle",
+      "venue_name": "Soaring Eagle",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Elementary Male",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "WMS"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e1b-992b-88c8bd7bebc9",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2025-01-11",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 05 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": "school WMS",
+          "category_name": "Elementary Male",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b9a-8941-88a84e57746f",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2024-12-21",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 04",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Elementary Male",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "WMS"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-70a9-9074-713ce4d9681d",
+      "venue_id": "019b81f3-1f39-7681-bca4-ff664fce647b",
+      "event_date": "2024-12-07",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 03",
+      "venue_name": "Pierce College/Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Elementary Male",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "WMS"
+          ]
+        }
+      ],
+      "result_row_count": 1
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 11,
     "mention_count": 0
   },
   "mentions": [],

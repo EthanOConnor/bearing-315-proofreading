@@ -9,13 +9,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 50
+            }
+          ],
+          "time_text": "00:51:41",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 44,
+          "status_code": "OK",
           "outcome_text": "00:51:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 50",
           "additional_course": false,
           "affiliation_labels": [
             "Issaquah"

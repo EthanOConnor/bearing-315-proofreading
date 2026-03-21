@@ -9,13 +9,118 @@
       "venue_name": "Fisk State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "00:31:14"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "00:39:54"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 2000
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "Day 1 Time 00:31:14; Day 2 Time 00:39:54; Points 1000; Total Time 2000",
           "result_notes": null,
           "category_name": "M45+",
           "category_rank": 1,
+          "metric_summary": "Day 1 Time 00:31:14; Day 2 Time 00:39:54; Points 1000; Total Time 2000",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SMOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-79ea-a620-43ca77d41a38",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 3 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:39:54",
+          "competitive": true,
+          "course_name": "Male 45+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:39:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "SMOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7466-a28e-8013795e821c",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 2 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:31:14",
+          "competitive": true,
+          "course_name": "Male 45+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:31:14",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "SMOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7266-a5da-0e61dbb38087",
+      "venue_id": "019b81f3-1f39-7521-b3fd-22e65018c621",
+      "event_date": "2024-06-21",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 1",
+      "venue_name": "Fishtrap Lake Middle",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:46:32",
+          "competitive": true,
+          "course_name": "Short Advanced",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "00:46:32",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SMOC"
@@ -28,7 +133,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

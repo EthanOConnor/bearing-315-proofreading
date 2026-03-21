@@ -1,6 +1,32 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7791-b808-56329af3f891",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2021-04-03",
+      "event_kind": "race",
+      "event_name": "2021 Winter League #3",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:46:05",
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:46:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4b-7cd3-9afe-3454f5e1c6ff",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2013-02-02",
@@ -9,13 +35,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:52:44",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:52:44",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CSL"
@@ -33,13 +63,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:06:51",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "01:06:51",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CSL"
@@ -57,13 +91,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:54",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:47:54",
           "result_notes": "classification ISIF",
           "category_name": "ISIF",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Denny International MS"
@@ -81,13 +119,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:26",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:35:26",
           "result_notes": null,
           "category_name": "ISIF",
           "category_rank": 4,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Denny International MS"
@@ -105,13 +147,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:49:04",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:49:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "Denny MS"
@@ -129,13 +180,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:48:22",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:48:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 90",
           "additional_course": false,
           "affiliation_labels": [
             "Denny MS"
@@ -153,52 +213,88 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:50:27",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:50:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 90",
           "additional_course": false,
           "affiliation_labels": [
             "Denny MS"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:50:27",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:50:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 90",
           "additional_course": false,
           "affiliation_labels": [
             "Denny MS"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:50:27",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:50:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 90",
           "additional_course": false,
           "affiliation_labels": [
             "Denny MS"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:50:27",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:50:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 90",
           "additional_course": false,
           "affiliation_labels": [
             "Denny MS"
@@ -216,13 +312,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:34:13",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:34:13",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Denny MS"
@@ -240,13 +345,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:39:18",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:39:18",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Denny MS"
@@ -264,13 +373,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:33:33",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:33:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "Denny Middle"
@@ -288,13 +406,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:42:05",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:42:05",
           "result_notes": null,
           "category_name": "Girls",
           "category_rank": 2,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Denny Middle"
@@ -312,13 +439,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:35:00",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:35:00",
           "result_notes": null,
           "category_name": "Girls",
           "category_rank": 4,
+          "metric_summary": "Points 90",
           "additional_course": false,
           "affiliation_labels": [
             "Denny Middle"
@@ -336,13 +472,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": "Girls",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Denny Middle"
@@ -360,13 +500,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:44:27",
           "competitive": true,
           "course_name": "WIOL Course #2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:44:27",
           "result_notes": "type S",
           "category_name": "Girls",
           "category_rank": 8,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": [
             "Denny Middle"
@@ -379,7 +528,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 14,
+    "event_count": 15,
     "mention_count": 0
   },
   "mentions": [],

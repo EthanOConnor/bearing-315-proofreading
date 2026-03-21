@@ -9,13 +9,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:37:44",
           "competitive": true,
           "course_name": "WIOL Course #4",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:37:44",
           "result_notes": "type DOM",
           "category_name": "Boys",
           "category_rank": 19,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": [
             "Spanaway"

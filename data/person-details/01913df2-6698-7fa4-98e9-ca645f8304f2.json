@@ -9,13 +9,17 @@
       "venue_name": "Fort Lewis - Area 33",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:44:50",
           "competitive": true,
           "course_name": "Red Course",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "01:44:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,23 @@
       "venue_name": "Fort Lewis - Chambers Lake Area",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "notes": "Score-O points as published.",
+              "metric_key": "points",
+              "metric_numeric": 150
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 4,
-          "outcome_text": "OK",
+          "status_code": "OK",
+          "outcome_text": "Points 150",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 150",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +69,23 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "notes": "Score-O points as published.",
+              "metric_key": "points",
+              "metric_numeric": 11
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 3,
-          "outcome_text": "OK",
+          "status_code": "OK",
+          "outcome_text": "Points 11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 11",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -77,13 +101,17 @@
       "venue_name": "Fort Lewis - Rainier Area",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:13:00",
           "competitive": true,
           "course_name": "Red",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "01:13:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -99,13 +127,17 @@
       "venue_name": "Fort Lewis - Area CTA-A",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:18:00",
           "competitive": true,
           "course_name": "Red Course",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "01:18:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -121,13 +153,17 @@
       "venue_name": "Discovery Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:06:00",
           "competitive": true,
           "course_name": "Yellow Course",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "01:06:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,146 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 175
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Elementary Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 5,
+          "status_code": null,
+          "outcome_text": "Points 175",
           "result_notes": "trailing_paren:BES; finish 100% (2 of 2)",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 175",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 175
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Elementary Teams",
+          "course_rank": 4,
+          "status_code": null,
+          "outcome_text": "Points 175",
+          "result_notes": "trailing_paren:BES; finish 100% (2 of 2)",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 175",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 172
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Elementary Teams",
+          "course_rank": 5,
+          "status_code": null,
+          "outcome_text": "Points 172",
+          "result_notes": "trailing_paren:BES; finish 100% (2 of 2)",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 172",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-717b-bb86-32fd30609463",
+      "venue_id": "019b820a-0447-7e9e-9f43-543265489e73",
+      "event_date": "2025-02-01",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 02 (Rescheduled) - Soaring Eagle",
+      "venue_name": "Soaring Eagle",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 174
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Elementary Teams",
+          "course_rank": 5,
+          "status_code": null,
+          "outcome_text": "Points 174",
+          "result_notes": "trailing_paren:BES; finish 100% (2 of 2)",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 174",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7bb9-9c29-5091a99edbae",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "event_date": "2025-01-25",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 06",
+      "venue_name": "Fort Ebey State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 172
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Elementary Teams",
+          "course_rank": 5,
+          "status_code": null,
+          "outcome_text": "Points 172",
+          "result_notes": "trailing_paren:BES; finish 100% (2 of 2)",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 172",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -26,7 +159,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

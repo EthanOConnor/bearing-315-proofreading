@@ -9,13 +9,30 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "minutes_late",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "punches",
+              "metric_numeric": 10
+            },
+            {
+              "metric_key": "total_score",
+              "metric_numeric": -2
+            }
+          ],
+          "time_text": "01:11:50",
           "competitive": true,
           "course_name": "Choose Your Adventure - Vampire",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:11:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Minutes Late 12; Punches 10; Total Score -2",
           "additional_course": false,
           "affiliation_labels": []
         }

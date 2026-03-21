@@ -9,13 +9,22 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 77
+            }
+          ],
+          "time_text": "01:45:49",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 17,
+          "status_code": "OK",
           "outcome_text": "01:45:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 77",
           "additional_course": false,
           "affiliation_labels": [
             "Cascades"
@@ -33,13 +42,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "00:57:39",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "00:57:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 71",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -57,13 +75,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:35:12",
           "competitive": true,
           "course_name": "Public 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:35:12",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 19,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,17 +102,21 @@
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "1998-02-07",
       "event_kind": "race",
-      "event_name": "O' Series #6 / WIOL #6",
+      "event_name": "Lincoln Park",
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:44:08",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:44:08",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -99,17 +130,26 @@
       "venue_id": "019b7ac6-ee5e-70d9-b10c-6b7226ca847c",
       "event_date": "1997-12-13",
       "event_kind": "race",
-      "event_name": "O' Series #1 / WIOL #1",
+      "event_name": "Kelsey Creek Park",
       "venue_name": "Kelsey Creek Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:34:31",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:34:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 90",
           "additional_course": false,
           "affiliation_labels": []
         }

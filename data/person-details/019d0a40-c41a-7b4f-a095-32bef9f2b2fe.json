@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:18:18",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "01:18:18",
           "result_notes": "classification ISIF",
           "category_name": "ISIF",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
@@ -33,13 +37,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:33:02",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:33:02",
           "result_notes": null,
           "category_name": "ISIF",
           "category_rank": 20,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
@@ -57,13 +65,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:58:47",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:58:47",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 83",
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
@@ -81,52 +98,68 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
           ]
         },
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
           ]
         },
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
           ]
         },
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
@@ -144,13 +177,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:18:25",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:18:25",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"

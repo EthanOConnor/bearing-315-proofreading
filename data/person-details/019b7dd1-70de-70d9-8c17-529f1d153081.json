@@ -9,13 +9,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:39:19",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 17,
+          "status_code": "OK",
           "outcome_text": "00:39:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:48:15",
           "competitive": true,
           "course_name": "10k",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:48:15",
           "result_notes": null,
           "category_name": "M 19-39",
           "category_rank": 11,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +68,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 18
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Vampire-O",
           "course_rank": 1,
-          "outcome_text": "",
+          "status_code": null,
+          "outcome_text": "Points 18",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 18",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -77,13 +99,22 @@
       "venue_name": "Cle Elum Ridge",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 487
+            }
+          ],
+          "time_text": "02:23:15",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "02:23:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 487",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -101,13 +132,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 589
+            }
+          ],
+          "time_text": "01:04:32",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "01:04:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 589",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -125,13 +165,26 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 2850
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 690
+            }
+          ],
+          "time_text": "00:59:23",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:59:23",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 2850; Uo Points 690",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -149,13 +202,22 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 634
+            }
+          ],
+          "time_text": "00:40:37",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "00:40:37",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 634",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -173,13 +235,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:22",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 28,
+          "status_code": "OK",
           "outcome_text": "00:47:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -197,26 +263,34 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:31:28",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:31:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "00:57:51",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:57:51",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

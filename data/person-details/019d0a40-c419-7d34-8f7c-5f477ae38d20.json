@@ -1,6 +1,39 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7a2b-bb77-a81717d60d0d",
+      "venue_id": "019b820a-0433-7989-b481-2d59be81507f",
+      "event_date": "2024-03-22",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #2 - Middle, Frenchman Coulee",
+      "venue_name": "Frenchman Coulee",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 677
+            }
+          ],
+          "time_text": "00:41:15",
+          "competitive": true,
+          "course_name": "Open",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "00:41:15",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 677",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SDO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4c-7b05-8d21-7dbbd58c56c9",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2012-04-22",
@@ -9,26 +42,34 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:22:35",
           "competitive": true,
           "course_name": "RED",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "01:22:35",
           "result_notes": "classification ICVM",
           "category_name": "ICVM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "US Mil Acad"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "01:22:35",
           "competitive": true,
           "course_name": "RED",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "01:22:35",
           "result_notes": "classification ICVM",
           "category_name": "ICVM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "US Mil Acad"
@@ -46,26 +87,34 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:22:05",
           "competitive": true,
           "course_name": "RED",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:22:05",
           "result_notes": null,
           "category_name": "ICVM",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "US Mil Acad"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "01:22:05",
           "competitive": true,
           "course_name": "RED",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:22:05",
           "result_notes": null,
           "category_name": "ICVM",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "US Mil Acad"
@@ -78,7 +127,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

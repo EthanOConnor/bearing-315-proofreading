@@ -9,13 +9,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:08:32",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 17,
+          "status_code": "OK",
           "outcome_text": "01:08:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BET"
@@ -33,13 +37,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:46:24",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 20,
+          "status_code": "OK",
           "outcome_text": "00:46:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BET"
@@ -57,13 +65,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:23",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:47:23",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BET"
@@ -81,13 +93,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:51:30",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:51:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BET"
@@ -105,13 +121,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:37:37",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:37:37",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -127,13 +147,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:50:00",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:50:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BET"
@@ -151,13 +175,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:04:11",
           "competitive": true,
           "course_name": "WIOL 3F",
           "course_rank": 20,
+          "status_code": "OK",
           "outcome_text": "01:04:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BET"
@@ -175,13 +203,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:48:28",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:48:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BET"
@@ -199,13 +231,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:07:29",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "01:07:29",
           "result_notes": "classification ISIM",
           "category_name": "ISIM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
@@ -223,13 +259,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:03:48",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:03:48",
           "result_notes": null,
           "category_name": "ISIM",
           "category_rank": 17,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
@@ -247,13 +287,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "00:36:10",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 20,
+          "status_code": "OK",
           "outcome_text": "00:36:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 74",
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
@@ -271,13 +320,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:37:43",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "00:37:43",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 80",
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
@@ -295,52 +353,88 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:32:10",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:32:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:32:10",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:32:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:32:10",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:32:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:32:10",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:32:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"
@@ -358,13 +452,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "00:29:15",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 22,
+          "status_code": "OK",
           "outcome_text": "00:29:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 72",
           "additional_course": false,
           "affiliation_labels": [
             "Bethel MS"

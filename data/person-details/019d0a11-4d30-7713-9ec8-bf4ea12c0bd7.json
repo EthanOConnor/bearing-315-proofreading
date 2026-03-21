@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 8
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:31:24",
           "competitive": true,
           "course_name": "Middle School Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:31:24",
           "result_notes": "school BWW",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 8; Score 86",
           "additional_course": false,
           "affiliation_labels": []
         }

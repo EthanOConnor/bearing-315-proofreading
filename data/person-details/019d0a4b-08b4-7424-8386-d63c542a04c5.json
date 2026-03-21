@@ -9,13 +9,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "00:51:54",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:51:54",
           "result_notes": null,
           "category_name": "High School Rookie Female",
-          "category_rank": null,
+          "category_rank": 13,
+          "metric_summary": "Points 81",
           "additional_course": false,
           "affiliation_labels": [
             "PEN"
@@ -33,24 +42,46 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:38:52"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "High School Rookie Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 4,
+          "status_code": null,
+          "outcome_text": "Finish 00:38:52; Points 88",
           "result_notes": "trailing_paren:PEN",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 00:38:52; Points 88",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:38:52",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:38:52",
           "result_notes": null,
           "category_name": "High School Rookie Female",
-          "category_rank": null,
+          "category_rank": 6,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": [
             "PEN"
@@ -68,13 +99,22 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "01:19:16",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "01:19:16",
           "result_notes": null,
           "category_name": "High School Rookie Female",
-          "category_rank": null,
+          "category_rank": 18,
+          "metric_summary": "Points 76",
           "additional_course": false,
           "affiliation_labels": [
             "PEN"
@@ -82,12 +122,135 @@
         }
       ],
       "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "01:41:07",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:41:07",
+          "result_notes": null,
+          "category_name": "High School Rookie Female",
+          "category_rank": 15,
+          "metric_summary": "Points 79",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 70
+            }
+          ],
+          "time_text": "01:12:50",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "01:12:50",
+          "result_notes": null,
+          "category_name": "High School Rookie Female",
+          "category_rank": 24,
+          "metric_summary": "Points 70",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:49:27",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:49:27",
+          "result_notes": null,
+          "category_name": "High School Rookie Female",
+          "category_rank": 5,
+          "metric_summary": "Points 89",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:49:27"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School Rookie Teams",
+          "course_rank": 8,
+          "status_code": null,
+          "outcome_text": "Finish 00:49:27; Points 89",
+          "result_notes": "trailing_paren:PEN",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:49:27; Points 89",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

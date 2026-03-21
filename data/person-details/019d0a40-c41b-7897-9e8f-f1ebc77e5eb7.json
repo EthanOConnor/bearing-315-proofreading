@@ -9,13 +9,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 69
+            }
+          ],
+          "time_text": "00:38:31",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 25,
+          "status_code": "OK",
           "outcome_text": "00:38:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 69",
           "additional_course": false,
           "affiliation_labels": [
             "Liberty"
@@ -33,13 +42,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 45
+            }
+          ],
+          "time_text": "01:43:07",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:43:07",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 49,
+          "metric_summary": "Points 45",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +75,17 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:40:11",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:40:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

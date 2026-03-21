@@ -9,13 +9,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:54:40",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 34,
+          "status_code": null,
           "outcome_text": "00:54:40",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BURH"
@@ -33,13 +37,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "00:34:40",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 20,
+          "status_code": null,
           "outcome_text": "00:34:40",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 74",
           "additional_course": false,
           "affiliation_labels": [
             "BURH"
@@ -57,13 +70,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 70
+            }
+          ],
+          "time_text": "00:37:43",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 24,
+          "status_code": null,
           "outcome_text": "00:37:43",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 70",
           "additional_course": false,
           "affiliation_labels": [
             "BURH"
@@ -81,13 +103,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:48:11",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 17,
+          "status_code": null,
           "outcome_text": "01:48:11",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BURH"
@@ -105,13 +131,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:37:56",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 19,
+          "status_code": null,
           "outcome_text": "00:37:56",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": [
             "BURH"
@@ -129,13 +164,17 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:40:26",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:40:26",
           "result_notes": null,
           "category_name": "High School Men",
           "category_rank": 20,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BURH"
@@ -153,13 +192,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:13:55",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:13:55",
           "result_notes": "asterisk",
           "category_name": "High School Men",
           "category_rank": 26,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BURH"
@@ -173,17 +216,21 @@
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
       "event_date": "1999-09-11",
       "event_kind": "race",
-      "event_name": "Bo Powell Memorial - Woodland Park",
+      "event_name": "Bo Powell Memorial O' Meet",
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:42:36",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 9,
+          "status_code": null,
           "outcome_text": "00:42:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

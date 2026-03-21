@@ -1,6 +1,133 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4a-7024-bc5d-02026fbe65d5",
+      "venue_id": "019b81f3-1f39-72b4-9e1b-2572fc94fa8e",
+      "event_date": "2024-06-12",
+      "event_kind": "race",
+      "event_name": "2024 Wednesday Evening #1",
+      "venue_name": "Bellevue College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:39:58",
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "00:39:58",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-758d-8010-ca701b5bcf92",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2021-02-06",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #3",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:33:24",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:33:24",
+          "result_notes": null,
+          "category_name": "Female",
+          "category_rank": 10,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7a49-8d0a-7425384b86de",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2021-01-22",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #2",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:18:47",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:18:47",
+          "result_notes": null,
+          "category_name": "Female",
+          "category_rank": 4,
+          "metric_summary": "Points 90",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-79ed-8fcd-e1b4fc2fcbd4",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
+      "event_date": "2021-01-09",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #1",
+      "venue_name": "Shoreview Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:43:38",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "00:43:38",
+          "result_notes": null,
+          "category_name": "Female",
+          "category_rank": 8,
+          "metric_summary": "Points 86",
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7b88-9ee5-a3a281f4db62",
       "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
       "event_date": "2019-09-21",
@@ -9,13 +136,34 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "pos",
+              "metric_numeric": 13
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:45:33",
           "competitive": true,
           "course_name": "CYA",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:45:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24; Pos 13; Total Time 24",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,17 +181,19 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:27:00",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:27:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
-          "affiliation_labels": [
-            "none"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1
@@ -57,13 +207,17 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:01:40",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "01:01:40",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -74,7 +228,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

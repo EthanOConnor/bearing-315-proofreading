@@ -9,13 +9,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:41:30",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:41:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": [
             "North Kitsap"
@@ -33,13 +42,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 62
+            }
+          ],
+          "time_text": "00:42:01",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 32,
+          "status_code": "OK",
           "outcome_text": "00:42:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 62",
           "additional_course": false,
           "affiliation_labels": [
             "North Kitsap"
@@ -57,13 +75,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P7M",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "North Kitsap"

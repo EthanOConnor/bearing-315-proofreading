@@ -9,13 +9,22 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 51
+            }
+          ],
+          "time_text": "01:28:06",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 43,
+          "status_code": "OK",
           "outcome_text": "01:28:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 51",
           "additional_course": false,
           "affiliation_labels": []
         }

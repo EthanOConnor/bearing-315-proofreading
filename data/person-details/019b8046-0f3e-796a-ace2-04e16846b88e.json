@@ -9,13 +9,17 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:14:31",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 3,
+          "status_code": null,
           "outcome_text": "02:14:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,26 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 470
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 810
+            }
+          ],
+          "time_text": "00:59:57",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 3,
+          "status_code": null,
           "outcome_text": "00:59:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 470; Uo Points 810",
           "additional_course": false,
           "affiliation_labels": [
             "UNO"
@@ -55,13 +72,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 977
+            }
+          ],
+          "time_text": "00:23:08",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 3,
+          "status_code": null,
           "outcome_text": "00:23:08",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 977",
           "additional_course": false,
           "affiliation_labels": [
             "UNO"

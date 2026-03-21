@@ -1,6 +1,210 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7b71-9b72-f2e594a33cf9",
+      "venue_id": "019b81f3-1f39-74f3-8714-f78123563aa8",
+      "event_date": "2023-10-28",
+      "event_kind": "race",
+      "event_name": "2023 Choose Your Adventure #1",
+      "venue_name": "Edmonds Community College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 16
+            }
+          ],
+          "time_text": "01:11:11",
+          "competitive": true,
+          "course_name": "2023 Choose Your Adventure #1 – Skeleton Bones, Edmonds College",
+          "course_rank": 68,
+          "status_code": "OK",
+          "outcome_text": "01:11:11",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Final Score 16",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7f88-9ee4-8515aa976e30",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "event_date": "2023-08-23",
+      "event_kind": "race",
+      "event_name": "2023 Wednesday Evening #6",
+      "venue_name": "Seattle Pacific University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:49:49",
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": 29,
+          "status_code": "OK",
+          "outcome_text": "01:49:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-74ef-aa2c-84326ce1b2c7",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2022-11-19",
+      "event_kind": "race",
+      "event_name": "2022 Winter League 02",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "02:30:26",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "02:30:26",
+          "result_notes": null,
+          "category_name": "Short Adv Female",
+          "category_rank": 20,
+          "metric_summary": "Points 74",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7ce1-bea0-7f47407e4eac",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "event_date": "2022-07-13",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening #3",
+      "venue_name": "Wilburton Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:16:38",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "01:16:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-74b8-8566-1a90736ae71d",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "event_date": "2021-08-25",
+      "event_kind": "race",
+      "event_name": "2021 Wednesday Evening #4",
+      "venue_name": "Wilburton Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:02:58",
+          "competitive": true,
+          "course_name": "Intermediate (2.9k, 14 controls)",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "02:02:58",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-7335-acf3-d37ef98b7df8",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2021-07-28",
+      "event_kind": "race",
+      "event_name": "2021 Wednesday Evening #2",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:00:45",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "01:00:45",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-73e3-9737-07da8d00b576",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2021-07-14",
+      "event_kind": "race",
+      "event_name": "2021 Wednesday Evening #1",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Course 3",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "155:13",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7b88-9ee5-a3a281f4db62",
       "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
       "event_date": "2019-09-21",
@@ -9,13 +213,34 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 6
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 20
+            },
+            {
+              "metric_key": "pos",
+              "metric_numeric": 75
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 14
+            }
+          ],
+          "time_text": "01:20:41",
           "competitive": true,
           "course_name": "CYA",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:20:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 6; Points 20; Pos 75; Total Time 14",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +258,26 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pnlty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 12
+            }
+          ],
+          "time_text": "59:12:00",
           "competitive": true,
           "course_name": "Choose Your Adventure - Campus",
           "course_rank": 32,
+          "status_code": "OK",
           "outcome_text": "59:12:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pnlty 0; Points 12",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +295,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:05",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 48,
+          "status_code": "OK",
           "outcome_text": "00:47:05",
           "result_notes": "controls 8",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +321,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:30:32",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 33,
+          "status_code": "OK",
           "outcome_text": "01:30:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -96,7 +342,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 11,
     "mention_count": 0
   },
   "mentions": [],

@@ -1,6 +1,39 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7a2b-bb77-a81717d60d0d",
+      "venue_id": "019b820a-0433-7989-b481-2d59be81507f",
+      "event_date": "2024-03-22",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #2 - Middle, Frenchman Coulee",
+      "venue_name": "Frenchman Coulee",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 647
+            }
+          ],
+          "time_text": "00:43:10",
+          "competitive": true,
+          "course_name": "Open",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "00:43:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 647",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4b-7125-90a4-ea7aa9eae55b",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2010-02-06",
@@ -9,13 +42,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +68,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:59:03",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:59:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -48,7 +89,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

@@ -9,13 +9,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 56
+            }
+          ],
+          "time_text": "01:02:02",
           "competitive": true,
           "course_name": "Public 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:02:02",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 39,
+          "metric_summary": "Points 56",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -33,13 +42,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 55
+            }
+          ],
+          "time_text": "00:56:34",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:56:34",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 39,
+          "metric_summary": "Points 55",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +73,22 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 47
+            }
+          ],
+          "time_text": "01:02:49",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 47,
+          "status_code": "OK",
           "outcome_text": "01:02:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 47",
           "additional_course": false,
           "affiliation_labels": []
         }

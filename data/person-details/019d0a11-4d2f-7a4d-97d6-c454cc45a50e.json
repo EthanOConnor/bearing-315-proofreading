@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 7
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:49:02",
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:49:02",
           "result_notes": "school HOM",
           "category_name": "Elementary Boys",
           "category_rank": null,
+          "metric_summary": "Pos 7; Score 87",
           "additional_course": false,
           "affiliation_labels": []
         }

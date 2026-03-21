@@ -1,6 +1,32 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7682-bd6d-dc459f9e0314",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2024-03-02",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #1",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:59:40",
+          "competitive": true,
+          "course_name": "Short Advanced",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:59:40",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4c-74d2-bfc3-3e3874eb76f4",
       "venue_id": "019d0c54-0219-70e2-963e-78d72d378fa8",
       "event_date": "2011-12-31",
@@ -9,13 +35,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:14:48",
           "competitive": true,
           "course_name": "P2",
           "course_rank": 26,
+          "status_code": "OK",
           "outcome_text": "01:14:48",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -28,7 +58,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

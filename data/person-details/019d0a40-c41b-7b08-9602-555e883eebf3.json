@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:43:34",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 26,
+          "status_code": "OK",
           "outcome_text": "01:43:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Burlington-Edison"
@@ -33,13 +37,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 57
+            }
+          ],
+          "time_text": "01:22:21",
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": 37,
+          "status_code": "OK",
           "outcome_text": "01:22:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 57",
           "additional_course": false,
           "affiliation_labels": [
             "Burlington-Edison"
@@ -57,13 +70,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 65
+            }
+          ],
+          "time_text": "00:51:13",
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "00:51:13",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 65",
           "additional_course": false,
           "affiliation_labels": [
             "Burlington-Edison"

@@ -9,13 +9,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": "00:36:10",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 33,
+          "status_code": "OK",
           "outcome_text": "00:36:10",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 33,
+          "metric_summary": "Points 61",
           "additional_course": false,
           "affiliation_labels": [
             "SCD"
@@ -33,13 +42,22 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 65
+            }
+          ],
+          "time_text": "00:46:40",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "00:46:40",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 29,
+          "metric_summary": "Points 65",
           "additional_course": false,
           "affiliation_labels": [
             "SCD"
@@ -57,13 +75,50 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": "00:58:10",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 33,
+          "status_code": "OK",
           "outcome_text": "00:58:10",
           "result_notes": null,
           "category_name": "Middle School Male",
+          "category_rank": 33,
+          "metric_summary": "Points 61",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SCD"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Middle School Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SCD"
@@ -76,7 +131,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

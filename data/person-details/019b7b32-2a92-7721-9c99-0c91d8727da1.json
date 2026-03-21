@@ -1,6 +1,184 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7845-952f-5b03fd59d301",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2023-12-16",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 04",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 70
+            }
+          ],
+          "time_text": "00:48:11",
+          "competitive": true,
+          "course_name": "Long Adv Open",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "00:48:11",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 70",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-7b84-ad29-b7bcfcc2d50d",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2022-07-27",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening #4",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:11:37",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "01:11:37",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7ce1-bea0-7f47407e4eac",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "event_date": "2022-07-13",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening #3",
+      "venue_name": "Wilburton Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:55:05",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:55:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-791e-a5bd-a9d5d86f1caf",
+      "venue_id": "019b81f3-1f39-757b-84c7-c9e26f0fe3f3",
+      "event_date": "2022-02-05",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 7",
+      "venue_name": "Summit Trails",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 69
+            }
+          ],
+          "time_text": "01:34:00",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 25,
+          "status_code": "OK",
+          "outcome_text": "01:34:00",
+          "result_notes": null,
+          "category_name": "Long Adv Male",
+          "category_rank": 25,
+          "metric_summary": "Points 69",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-74b8-8566-1a90736ae71d",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "event_date": "2021-08-25",
+      "event_kind": "race",
+      "event_name": "2021 Wednesday Evening #4",
+      "venue_name": "Wilburton Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:04:23",
+          "competitive": true,
+          "course_name": "Advanced (4.9k, 24 controls)",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "01:04:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-73e3-9737-07da8d00b576",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2021-07-14",
+      "event_kind": "race",
+      "event_name": "2021 Wednesday Evening #1",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:21:01",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "01:21:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b8118-7681-7769-b9ba-5e19b964653c",
       "venue_id": "019b8117-1480-723e-b743-47304e68c5d4",
       "event_date": "2002-06-15",
@@ -9,13 +187,22 @@
       "venue_name": "St. Edward/O.O. Denny Parks",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 3 - Ultimate Orienteer #5",
           "course_rank": null,
-          "outcome_text": "DNF",
+          "status_code": "DNF",
+          "outcome_text": "Uo Points 0",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 0",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +218,17 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:26:39",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "01:26:39",
           "result_notes": null,
           "category_name": "M Open",
           "category_rank": 4,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -48,7 +239,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

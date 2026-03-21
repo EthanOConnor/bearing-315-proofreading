@@ -9,13 +9,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:05:00",
           "competitive": true,
           "course_name": "P7F",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "01:05:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P4F",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +65,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:08:50",
           "competitive": true,
           "course_name": "P7G",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "01:08:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -81,13 +93,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:49:13",
           "competitive": true,
           "course_name": "P7F",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:49:13",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -105,39 +121,51 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "RED",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": "classification F-21+",
           "category_name": "F-21+",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "RED",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": "classification F-21+",
           "category_name": "F-21+",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "RED",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": "classification F-21+",
           "category_name": "F-21+",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -155,26 +183,34 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:08:05",
           "competitive": true,
           "course_name": "RED",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:08:05",
           "result_notes": null,
           "category_name": "F-21+",
           "category_rank": 8,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "02:08:05",
           "competitive": true,
           "course_name": "RED",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:08:05",
           "result_notes": null,
           "category_name": "F-21+",
           "category_rank": 8,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -192,13 +228,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "01:16:04",
           "competitive": true,
           "course_name": "P7F",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "01:16:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -216,13 +261,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "01:21:19",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "01:21:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 81",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"

@@ -9,13 +9,22 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 725
+            }
+          ],
+          "time_text": "02:13:55",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 31,
+          "status_code": "OK",
           "outcome_text": "02:13:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 725",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

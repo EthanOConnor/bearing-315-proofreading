@@ -3,6 +3,7 @@
     {
       "results": [
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "019d0a40-c360-71b7-a979-9e7dcc266f93",
           "time_text": "00:00:00",
@@ -14,6 +15,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a40-c417-7b27-b538-55c8b2d61514",
+          "metric_summary": null,
           "competitor_name": "1 Dagmar Cernin",
           "competitor_type": "individual",
           "additional_course": false,
@@ -22,6 +24,7 @@
           ]
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "019d0a40-c360-7695-b692-42bc60d127f9",
           "time_text": "00:09:08",
@@ -33,6 +36,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a40-c417-71c6-9e19-ce20e48bd799",
+          "metric_summary": null,
           "competitor_name": "2 Ondrej Cernin",
           "competitor_type": "individual",
           "additional_course": false,
@@ -41,6 +45,7 @@
           ]
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "019d0a40-c360-7294-91e3-0686c4075e73",
           "time_text": "00:40:50",
@@ -52,6 +57,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7acf-182c-7246-8568-d9388f2eea90",
+          "metric_summary": null,
           "competitor_name": "Jim Siscel",
           "competitor_type": "individual",
           "additional_course": false,
@@ -60,6 +66,7 @@
           ]
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "019d0a40-c360-7ad9-a565-d16c916727c4",
           "time_text": "00:43:17",
@@ -71,6 +78,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a40-c417-7d67-a12a-0849070c0b9a",
+          "metric_summary": null,
           "competitor_name": "4 Don_Emily_Chris",
           "competitor_type": "individual",
           "additional_course": false,
@@ -79,17 +87,19 @@
           ]
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "019d0a40-c360-7d7f-a67b-eec74e297dfd",
           "time_text": null,
           "competitive": true,
           "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
+          "status_code": null,
+          "outcome_text": "",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a40-c417-7331-9281-82b37fe2b11a",
+          "metric_summary": null,
           "competitor_name": "5 Harvey Friedman",
           "competitor_type": "individual",
           "additional_course": false,
@@ -98,6 +108,7 @@
           ]
         },
         {
+          "metrics": [],
           "team_id": "019d0a40-c4ba-781e-84db-161087628970",
           "result_id": "019d0a40-c360-75af-87e7-42d277b78615",
           "time_text": null,
@@ -109,6 +120,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": null,
           "competitor_name": "Wilkinson group",
           "competitor_type": "team",
           "additional_course": false,
@@ -125,6 +137,12 @@
     {
       "results": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 1000
+            }
+          ],
           "team_id": null,
           "result_id": "019d0a40-c360-7a4a-b925-327bac7a8c53",
           "time_text": "00:00:00",
@@ -136,6 +154,7 @@
           "category_name": "Women",
           "category_rank": null,
           "individual_id": "019d0a40-c420-78f6-864d-a80971a9058a",
+          "metric_summary": "Uo Points 1000",
           "competitor_name": "Ult. Pts. 1 Marissa Roecks",
           "competitor_type": "individual",
           "additional_course": false,
@@ -144,6 +163,12 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 919
+            }
+          ],
           "team_id": null,
           "result_id": "019d0a40-c360-7cf3-bc3a-91eec618e92a",
           "time_text": "00:06:10",
@@ -155,6 +180,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "01913919-da03-757e-b829-aa2bdc684400",
+          "metric_summary": "Uo Points 919",
           "competitor_name": "Debbie Newell",
           "competitor_type": "individual",
           "additional_course": false,
@@ -163,6 +189,12 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 1000
+            }
+          ],
           "team_id": null,
           "result_id": "019d0a40-c360-78a6-b687-c5a46326367b",
           "time_text": "00:00:00",
@@ -174,6 +206,7 @@
           "category_name": "Men",
           "category_rank": 1,
           "individual_id": "019d0a40-c417-7393-8d56-b3bd00c5c64d",
+          "metric_summary": "Uo Points 1000",
           "competitor_name": "1 Nikolay Nachev",
           "competitor_type": "individual",
           "additional_course": false,
@@ -182,6 +215,12 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 898
+            }
+          ],
           "team_id": null,
           "result_id": "019d0a40-c360-76b9-a2f1-330b5bd2f7b4",
           "time_text": "00:05:05",
@@ -193,6 +232,7 @@
           "category_name": "Men",
           "category_rank": 2,
           "individual_id": "019d0a40-c417-7325-ad3d-cbc019ba6bb7",
+          "metric_summary": "Uo Points 898",
           "competitor_name": "2 Eric Bone",
           "competitor_type": "individual",
           "additional_course": false,
@@ -201,112 +241,19 @@
           ]
         },
         {
-          "team_id": "019d0a40-c4ba-7823-b109-4f6326e12699",
-          "result_id": "019d0a40-c360-7dc2-be4a-8260f03a2cc9",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "10 James Southwell 82.59 + 38.20",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "538"
-          ]
-        },
-        {
-          "team_id": "019d0a40-c4ba-7948-aad9-f7f6fa78655e",
-          "result_id": "019d0a40-c360-7026-9f1d-c1575da57167",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "11 Chris Whitmyre 85.49 + 41.10",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "520"
-          ]
-        },
-        {
-          "team_id": "019d0a40-c4bb-71b9-af10-248d3c9a7c30",
-          "result_id": "019d0a40-c360-7240-b1b2-3fdf6c6b5a65",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "12 Jan Urban 87.04 + 42.25",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "513"
-          ]
-        },
-        {
-          "team_id": "019d0a40-c4ba-74e9-b458-7b7b7384a95a",
-          "result_id": "019d0a40-c360-71dc-b4f3-d5bc19daf1df",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "13 David Parsons 87.59 + 43.20",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "507"
-          ]
-        },
-        {
-          "team_id": null,
-          "result_id": "019d0a40-c360-7e52-874f-cbdd78f8d88e",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": "019d0a40-c417-7346-9031-c5c7b7eee562",
-          "competitor_name": "14 Issaquaff (Trent Tsuchikawa/",
-          "competitor_type": "individual",
-          "additional_course": false,
-          "affiliation_labels": [
-            "Peter Dauenhauer/James Lee) 101.48 + 57.09"
-          ]
-        },
-        {
+          "metrics": [],
           "team_id": "019d0a40-c4ba-7646-97d2-f3a3f46e089c",
           "result_id": "019d0a40-c360-7010-bfc5-3f89b5fa4e68",
           "time_text": null,
           "competitive": true,
           "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
+          "status_code": null,
+          "outcome_text": "",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": null,
           "competitor_name": "3 Anna Urbanova 88.18 + 18.42",
           "competitor_type": "team",
           "additional_course": false,
@@ -315,36 +262,19 @@
           ]
         },
         {
-          "team_id": "019d0a40-c4ba-7ded-b98a-f7ec639c3a4d",
-          "result_id": "019d0a40-c360-7a1d-b779-27164028830e",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "3 Zbynek Cernin 59.43 + 15.04",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "748"
-          ]
-        },
-        {
+          "metrics": [],
           "team_id": "019d0a40-c4ba-7a4c-8155-75e44edaed32",
           "result_id": "019d0a40-c360-708c-a226-f5ff89e9139f",
           "time_text": null,
           "competitive": true,
           "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
+          "status_code": null,
+          "outcome_text": "",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": null,
           "competitor_name": "4 Eileen Breseman 94.21 + 24.45",
           "competitor_type": "team",
           "additional_course": false,
@@ -353,55 +283,19 @@
           ]
         },
         {
-          "team_id": "019d0a40-c4ba-778f-8600-852de5e1f9b0",
-          "result_id": "019d0a40-c360-7355-bcb3-9f50f605a28a",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "4 Patrick Nuss 59.47 + 15.08",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "747"
-          ]
-        },
-        {
-          "team_id": "019d0a40-c4ba-72f8-930c-94ec143f87e4",
-          "result_id": "019d0a40-c360-7fd3-a587-d379534aac0e",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "5 Dave Enger 60.07 + 15.28",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "743"
-          ]
-        },
-        {
+          "metrics": [],
           "team_id": "019d0a40-c4bb-7c8e-834d-4d6c5fdfdf45",
           "result_id": "019d0a40-c360-797d-93d2-596b494f6b57",
           "time_text": null,
           "competitive": true,
           "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
+          "status_code": null,
+          "outcome_text": "",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": null,
           "competitor_name": "5 Sue Kuestner 104.57 + 35.21",
           "competitor_type": "team",
           "additional_course": false,
@@ -410,36 +304,19 @@
           ]
         },
         {
-          "team_id": "019d0a40-c4ba-712e-a4a7-8c8a2722cf84",
-          "result_id": "019d0a40-c360-716d-8103-0db27e775327",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "6 Rick Breseman 62.19 + 17.40",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "717"
-          ]
-        },
-        {
+          "metrics": [],
           "team_id": "019d0a40-c4bb-713f-af54-757b2963ceba",
           "result_id": "019d0a40-c360-7d1a-a7f2-3f3efe6128cd",
           "time_text": null,
           "competitive": true,
           "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
+          "status_code": null,
+          "outcome_text": "",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": null,
           "competitor_name": "6 Terry Farrah 128.36 + 59.00",
           "competitor_type": "team",
           "additional_course": false,
@@ -448,63 +325,7 @@
           ]
         },
         {
-          "team_id": "019d0a40-c4ba-7c5f-946f-64b4ddbbf5dc",
-          "result_id": "019d0a40-c360-73be-bcc4-d4a9c4dddba7",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "7 Laszlo Kolyvek 64.54 + 20.15",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "688"
-          ]
-        },
-        {
-          "team_id": "019d0a40-c4ba-7f78-bdf1-42cb263ac987",
-          "result_id": "019d0a40-c360-7478-86e2-0196206b03ba",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "8 Kean Williams 72.35 + 27.56",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "615"
-          ]
-        },
-        {
-          "team_id": "019d0a40-c4ba-7fd6-a59d-c71af1b24c33",
-          "result_id": "019d0a40-c360-71a0-9ab4-2581da4e2b23",
-          "time_text": null,
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "Blank",
-          "outcome_text": "Blank",
-          "result_notes": null,
-          "category_name": "Men",
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "9 Alan Sauvage 79.37 + 34.58",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "561"
-          ]
-        },
-        {
+          "metrics": [],
           "team_id": null,
           "result_id": "019d0a40-c360-7fe1-b117-5a04d7c4377b",
           "time_text": null,
@@ -516,10 +337,263 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a11-4d2e-7aa6-9a1c-02de3bbaba70",
+          "metric_summary": null,
           "competitor_name": "Anne Wilkinson",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a40-c4ba-7ded-b98a-f7ec639c3a4d",
+          "result_id": "019d0a40-c360-7a1d-b779-27164028830e",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "3 Zbynek Cernin 59.43 + 15.04",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "748"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a40-c4ba-778f-8600-852de5e1f9b0",
+          "result_id": "019d0a40-c360-7355-bcb3-9f50f605a28a",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "4 Patrick Nuss 59.47 + 15.08",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "747"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a40-c4ba-72f8-930c-94ec143f87e4",
+          "result_id": "019d0a40-c360-7fd3-a587-d379534aac0e",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "5 Dave Enger 60.07 + 15.28",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "743"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a40-c4ba-712e-a4a7-8c8a2722cf84",
+          "result_id": "019d0a40-c360-716d-8103-0db27e775327",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "6 Rick Breseman 62.19 + 17.40",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "717"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a40-c4ba-7c5f-946f-64b4ddbbf5dc",
+          "result_id": "019d0a40-c360-73be-bcc4-d4a9c4dddba7",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "7 Laszlo Kolyvek 64.54 + 20.15",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "688"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a40-c4ba-7f78-bdf1-42cb263ac987",
+          "result_id": "019d0a40-c360-7478-86e2-0196206b03ba",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "8 Kean Williams 72.35 + 27.56",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "615"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a40-c4ba-7fd6-a59d-c71af1b24c33",
+          "result_id": "019d0a40-c360-71a0-9ab4-2581da4e2b23",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "9 Alan Sauvage 79.37 + 34.58",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "561"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a40-c4ba-7823-b109-4f6326e12699",
+          "result_id": "019d0a40-c360-7dc2-be4a-8260f03a2cc9",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "10 James Southwell 82.59 + 38.20",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "538"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a40-c4ba-7948-aad9-f7f6fa78655e",
+          "result_id": "019d0a40-c360-7026-9f1d-c1575da57167",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "11 Chris Whitmyre 85.49 + 41.10",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "520"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a40-c4bb-71b9-af10-248d3c9a7c30",
+          "result_id": "019d0a40-c360-7240-b1b2-3fdf6c6b5a65",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "12 Jan Urban 87.04 + 42.25",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "513"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a40-c4ba-74e9-b458-7b7b7384a95a",
+          "result_id": "019d0a40-c360-71dc-b4f3-d5bc19daf1df",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "13 David Parsons 87.59 + 43.20",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "507"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0a40-c360-7e52-874f-cbdd78f8d88e",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Men",
+          "category_rank": null,
+          "individual_id": "019d0a40-c417-7346-9031-c5c7b7eee562",
+          "metric_summary": null,
+          "competitor_name": "14 Issaquaff (Trent Tsuchikawa/",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "Peter Dauenhauer/James Lee) 101.48 + 57.09"
+          ]
         }
       ],
       "course_id": "019d0a40-c3e0-7745-99ed-d1c0822b9ba9",
@@ -536,9 +610,13 @@
   "event_kind": "race",
   "event_name": "Ultimate Orienteer #5 - Long-O'",
   "venue_name": "Moses Lake Sand Dunes",
+  "event_notes": null,
   "course_count": 2,
   "result_count": 27,
   "citation_count": 2,
+  "event_comments": null,
+  "external_links": [],
+  "volunteer_roles": [],
   "result_source_brief": "Older COC Results Website: https://oldresults.cascadeoc.org/results/2011/ultimate-orienteer-5-long-o.html",
   "organizing_club_name": "Cascade Orienteering Club"
 }

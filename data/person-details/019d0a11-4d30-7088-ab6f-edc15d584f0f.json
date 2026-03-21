@@ -1,6 +1,166 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:41:30",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:41:30",
+          "result_notes": null,
+          "category_name": "Long Advanced Female",
+          "category_rank": 3,
+          "metric_summary": "Points 92",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GrizO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-73ce-9a94-d24f7fe127e9",
+      "venue_id": "019b820a-0443-7dfd-95ed-ab080bf13d30",
+      "event_date": "2024-03-24",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #4 - Classic, Bishops Land",
+      "venue_name": "Bishop's Land",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "01:14:16",
+          "competitive": true,
+          "course_name": "Female Open",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:14:16",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 1000",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GrizO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-76d2-b1bc-9675f56a53fd",
+      "venue_id": "019d0435-7eca-76c2-b1dd-7af78ff1b3c5",
+      "event_date": "2024-03-23",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #3",
+      "venue_name": "South Quincy Lakes",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "01:14:55",
+          "competitive": true,
+          "course_name": "Female Open",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:14:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 1000",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GrizO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7a2b-bb77-a81717d60d0d",
+      "venue_id": "019b820a-0433-7989-b481-2d59be81507f",
+      "event_date": "2024-03-22",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #2 - Middle, Frenchman Coulee",
+      "venue_name": "Frenchman Coulee",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 864
+            }
+          ],
+          "time_text": "00:37:11",
+          "competitive": true,
+          "course_name": "Female Open",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:37:11",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 864",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GrizO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-765d-a2c9-369de6ac1c9c",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2023-12-30",
+      "event_kind": "race",
+      "event_name": "2023 Choose Your Adventure #3",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:12:48",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:12:48",
+          "result_notes": null,
+          "category_name": "Female",
+          "category_rank": 3,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GrizO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7dc9-846a-f3234a1ad6c2",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2020-12-26",
@@ -9,13 +169,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Slog",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": "–:–",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +197,22 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 1
+            }
+          ],
+          "time_text": "01:21:45",
           "competitive": true,
           "course_name": "Bog Jog",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:21:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 1",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +230,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 2
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:52:37",
           "competitive": true,
           "course_name": "Varsity Girls",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:52:37",
           "result_notes": "school LIB",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 2; Score 95",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +265,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:40:31",
           "competitive": true,
           "course_name": "High School Varsity Girls",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:40:31",
           "result_notes": "school Liberty",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -101,13 +296,17 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:20:50",
           "competitive": true,
           "course_name": "SART 2015 - Round 4",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:20:50",
           "result_notes": "heat Heat 411",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -123,13 +322,22 @@
       "venue_name": "Shoreline Community College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_rank",
+              "metric_numeric": 22
+            }
+          ],
+          "time_text": "00:19:35",
           "competitive": true,
           "course_name": "SART 2015 - Round 5",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:19:35",
           "result_notes": "heat Heat 512",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Rank 22",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -145,13 +353,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:17:05",
           "competitive": true,
           "course_name": "SART 2015 - Round 1",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:17:05",
           "result_notes": "heat Heat 111",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -167,13 +379,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:20:42",
           "competitive": true,
           "course_name": "SART 2015 - Round 2",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:20:42",
           "result_notes": "heat Heat 211",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -189,13 +405,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:18:21",
           "competitive": true,
           "course_name": "SART 2015 - Round 3",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:18:21",
           "result_notes": "heat Heat 310",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -211,13 +431,17 @@
       "venue_name": "Greenlake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:06:53",
           "competitive": true,
           "course_name": "SART 2015 - Time Trial",
           "course_rank": 26,
+          "status_code": "OK",
           "outcome_text": "00:06:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -233,13 +457,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:31:54",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:31:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -257,13 +485,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:52:23",
           "competitive": true,
           "course_name": "P7F",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:52:23",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -281,13 +513,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:50:11",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:50:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -300,7 +536,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 13,
+    "event_count": 18,
     "mention_count": 0
   },
   "mentions": [],

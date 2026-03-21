@@ -1,6 +1,32 @@
 {
   "events": [
     {
+      "event_id": "019d0e99-de7a-79c0-8bb3-b4bdbf3b5261",
+      "venue_id": "019d0457-2e4f-7b66-a748-3d987136f984",
+      "event_date": "2025-05-11",
+      "event_kind": "race",
+      "event_name": "2025 Forest O Training Camp Relay",
+      "venue_name": "Brooks Memorial State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Leg 3 (Intermediate: 1.3k, 5 controls, 25m climb)",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": "team CROC-o-diles",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-70c0-aa54-f64ae7a20e09",
       "venue_id": "019b81f3-1f39-7d9a-9a28-452083a98ee1",
       "event_date": "2015-09-27",
@@ -9,13 +35,17 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:24:13",
           "competitive": true,
           "course_name": "SART 2015 - Round 4",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:24:13",
           "result_notes": "heat Heat 408",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +61,22 @@
       "venue_name": "Shoreline Community College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_rank",
+              "metric_numeric": 41
+            }
+          ],
+          "time_text": "00:22:46",
           "competitive": true,
           "course_name": "SART 2015 - Round 5",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:22:46",
           "result_notes": "heat Heat 508",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Rank 41",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +92,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:19:29",
           "competitive": true,
           "course_name": "SART 2015 - Round 1",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:19:29",
           "result_notes": "heat Heat 102",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +118,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:20:33",
           "competitive": true,
           "course_name": "SART 2015 - Round 2",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:20:33",
           "result_notes": "heat Heat 202",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -97,13 +144,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:22:30",
           "competitive": true,
           "course_name": "SART 2015 - Round 3",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:22:30",
           "result_notes": "heat Heat 303",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -119,13 +170,17 @@
       "venue_name": "Greenlake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:08:01",
           "competitive": true,
           "course_name": "SART 2015 - Time Trial",
           "course_rank": 48,
+          "status_code": "OK",
           "outcome_text": "00:08:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -136,7 +191,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

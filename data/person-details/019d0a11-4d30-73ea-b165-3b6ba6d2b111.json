@@ -9,13 +9,30 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "controls",
+              "metric_numeric": 19
+            },
+            {
+              "metric_key": "penalty",
+              "metric_numeric": -10
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 9
+            }
+          ],
+          "time_text": "01:24:15",
           "competitive": true,
-          "course_name": "Choose Your Adventure Course 24 Controls, 75-minute Time Limit (1 point penalty per minute late)",
-          "course_rank": null,
+          "course_name": "Choose Your Adventure Course",
+          "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "01:24:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Controls 19; Penalty -10; Points 9",
           "additional_course": false,
           "affiliation_labels": []
         }

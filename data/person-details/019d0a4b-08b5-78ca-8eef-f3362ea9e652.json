@@ -9,28 +9,50 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "Elementary Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:STT",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "01:18:42",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "01:18:42",
           "result_notes": null,
           "category_name": "Elementary Female",
-          "category_rank": null,
+          "category_rank": 13,
+          "metric_summary": "Points 81",
           "additional_course": false,
           "affiliation_labels": [
             "STT"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "01:18:42"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Elementary Teams",
+          "course_rank": 15,
+          "status_code": null,
+          "outcome_text": "Finish 01:18:42; Points 81",
+          "result_notes": "trailing_paren:STT",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 01:18:42; Points 81",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -44,37 +66,120 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "Elementary Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:STT",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:25:58",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:25:58",
           "result_notes": null,
           "category_name": "Elementary Female",
+          "category_rank": 10,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STT"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:25:58"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Elementary Teams",
+          "course_rank": 24,
+          "status_code": null,
+          "outcome_text": "Finish 00:25:58; Points 84",
+          "result_notes": "trailing_paren:STT",
+          "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 00:25:58; Points 84",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:28:34",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:28:34",
+          "result_notes": null,
+          "category_name": "Elementary Female",
+          "category_rank": 10,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": [
             "STT"
           ]
         }
       ],
-      "result_row_count": 2
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Elementary Female",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "STT"
+          ]
+        }
+      ],
+      "result_row_count": 1
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

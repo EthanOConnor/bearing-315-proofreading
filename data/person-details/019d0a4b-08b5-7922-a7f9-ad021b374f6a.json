@@ -9,28 +9,51 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "High School JV Female Teams",
-          "course_rank": null,
-          "outcome_text": "MSP",
-          "result_notes": "trailing_paren:SPA",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
-          "outcome_text": "MSP",
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
           "result_notes": "108:01",
           "category_name": "High School JV Female",
           "category_rank": null,
+          "metric_summary": "Points 0",
           "additional_course": false,
           "affiliation_labels": [
             "SPA"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "notes": "108:01",
+              "metric_key": "finish",
+              "metric_text": "MSP"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School JV Female Teams",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Finish MSP; Points 0",
+          "result_notes": "trailing_paren:SPA",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish MSP; Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -44,24 +67,104 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": "150:02",
+          "category_name": "High School JV Female",
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SPA"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "notes": "150:02",
+              "metric_key": "finish",
+              "metric_text": "MSP"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "High School JV Female Teams",
           "course_rank": null,
-          "outcome_text": "MSP",
+          "status_code": "MSP",
+          "outcome_text": "Finish MSP; Points 0",
           "result_notes": "trailing_paren:SPA",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish MSP; Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:57:51"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 69
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School JV Female Teams",
+          "course_rank": 19,
+          "status_code": null,
+          "outcome_text": "Finish 00:57:51; Points 69",
+          "result_notes": "trailing_paren:SPA",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:57:51; Points 69",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 69
+            }
+          ],
+          "time_text": "00:57:51",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
-          "outcome_text": "MSP",
-          "result_notes": "150:02",
+          "course_rank": 25,
+          "status_code": "OK",
+          "outcome_text": "00:57:51",
+          "result_notes": null,
           "category_name": "High School JV Female",
-          "category_rank": null,
+          "category_rank": 25,
+          "metric_summary": "Points 69",
           "additional_course": false,
           "affiliation_labels": [
             "SPA"
@@ -69,12 +172,256 @@
         }
       ],
       "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "01:35:49",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 23,
+          "status_code": "OK",
+          "outcome_text": "01:35:49",
+          "result_notes": null,
+          "category_name": "High School JV Female",
+          "category_rank": 23,
+          "metric_summary": "Points 71",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SPA"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e91-9747-42d7aeb9c29d",
+      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "event_date": "2025-02-08",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 07 - Fire Mountain",
+      "venue_name": "Fire Mountain",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "01:10:37"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 77
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School JV Female Teams",
+          "course_rank": 11,
+          "status_code": null,
+          "outcome_text": "Finish 01:10:37; Points 77",
+          "result_notes": "trailing_paren:SPA",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 01:10:37; Points 77",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 77
+            }
+          ],
+          "time_text": "01:10:37",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "01:10:37",
+          "result_notes": null,
+          "category_name": "High School JV Female",
+          "category_rank": 17,
+          "metric_summary": "Points 77",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SPA"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e1b-992b-88c8bd7bebc9",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2025-01-11",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 05 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": "128:27; school SPA",
+          "category_name": "HS JV Female",
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b9a-8941-88a84e57746f",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2024-12-21",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 04",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "01:35:34"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 70
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School JV Female Teams",
+          "course_rank": 12,
+          "status_code": null,
+          "outcome_text": "Finish 01:35:34; Points 70",
+          "result_notes": "trailing_paren:SPA",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 01:35:34; Points 70",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 70
+            }
+          ],
+          "time_text": "01:35:34",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "01:35:34",
+          "result_notes": null,
+          "category_name": "High School JV Female",
+          "category_rank": 24,
+          "metric_summary": "Points 70",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SPA"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-70a9-9074-713ce4d9681d",
+      "venue_id": "019b81f3-1f39-7681-bca4-ff664fce647b",
+      "event_date": "2024-12-07",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 03",
+      "venue_name": "Pierce College/Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 66
+            }
+          ],
+          "time_text": "00:47:19",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 28,
+          "status_code": "OK",
+          "outcome_text": "00:47:19",
+          "result_notes": null,
+          "category_name": "High School JV Female",
+          "category_rank": 28,
+          "metric_summary": "Points 66",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SPA"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-70ae-af21-b44b23f1b394",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2024-11-09",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 01",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 62
+            }
+          ],
+          "time_text": "01:03:39",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 32,
+          "status_code": "OK",
+          "outcome_text": "01:03:39",
+          "result_notes": null,
+          "category_name": "High School JV Female",
+          "category_rank": 32,
+          "metric_summary": "Points 62",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SPA"
+          ]
+        }
+      ],
+      "result_row_count": 1
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

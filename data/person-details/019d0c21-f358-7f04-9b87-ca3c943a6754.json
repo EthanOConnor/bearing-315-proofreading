@@ -1,6 +1,37 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f49-759f-8833-4a34dcb3e71b",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2024-12-29",
+      "event_kind": "race",
+      "event_name": "2024 Choose Your Adventure #6",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 11
+            }
+          ],
+          "time_text": "01:58:23",
+          "competitive": true,
+          "course_name": "24 controls/points maximum",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "01:58:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 11",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4b-7f0e-94a5-a94eba387350",
       "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
       "event_date": "2010-06-27",
@@ -9,13 +40,17 @@
       "venue_name": "Fishtrap Lake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "F35",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CROC"
@@ -33,13 +68,17 @@
       "venue_name": "Moses Lake Sand Dunes",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:27:34",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:27:34",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "F35",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CROC"
@@ -57,13 +96,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:22:34",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:22:34",
           "result_notes": null,
           "category_name": "F35+",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CROC"
@@ -81,13 +124,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:41:47",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:41:47",
           "result_notes": "us_eligible N",
           "category_name": "F35+",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CROC"
@@ -102,7 +149,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

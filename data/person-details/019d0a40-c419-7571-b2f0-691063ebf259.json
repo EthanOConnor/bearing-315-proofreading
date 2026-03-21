@@ -9,13 +9,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:55:39",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:55:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "01:03:51",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "01:03:51",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 81",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +66,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:30",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:35:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

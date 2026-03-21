@@ -1,6 +1,67 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7308-b1b6-bc1c3542da65",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "2022 Ultimate Orienteer #6",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 487
+            }
+          ],
+          "time_text": "01:32:15",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "01:32:15",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 487",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7980-92be-eddefbcc04b4",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "PNWOF2022: Middle NRE, Fishtrap Lake",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:32:15",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:32:15",
+          "result_notes": null,
+          "category_name": "F60+",
+          "category_rank": 4,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-7bcc-98b7-222182012ab5",
       "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
       "event_date": "2012-01-07",
@@ -9,13 +70,17 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:27:03",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 27,
+          "status_code": "OK",
           "outcome_text": "01:27:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +96,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:44:52",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:44:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Other"
@@ -55,13 +124,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:18:50",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "02:18:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascades"
@@ -79,13 +152,17 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:24:40",
           "competitive": true,
           "course_name": "Public 5",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "01:24:40",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CROC"
@@ -103,13 +180,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:04:15",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "01:04:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -120,7 +201,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 5,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

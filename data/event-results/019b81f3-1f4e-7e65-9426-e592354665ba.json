@@ -1,14 +1,2081 @@
 {
-  "courses": [],
+  "courses": [
+    {
+      "results": [
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-79c0-850b-7eeb3e31eee6",
+          "time_text": "00:38:31",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:38:31",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0e9a-0608-77b7-9142-70d8935684db",
+          "metric_summary": null,
+          "competitor_name": "Emily Ledina",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0e9a-0645-72ab-b67b-98283a4b9cd5",
+          "result_id": "019d0e99-fa49-7da7-809e-792ae21b56a7",
+          "time_text": "00:49:17",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:49:17",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "Allie Ferguson_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GRZ"
+          ]
+        }
+      ],
+      "course_id": "019d0e9a-017d-7357-9f5d-168000315dba",
+      "course_name": "Beginner",
+      "distance_km": null,
+      "result_count": 2,
+      "control_count": null,
+      "course_climb_m": null
+    },
+    {
+      "results": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7e71-992e-15a2d3aa8a35",
+          "time_text": "01:53:45",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:53:45",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d2f-736d-863f-5e546e61e969",
+          "metric_summary": "Points 1000",
+          "competitor_name": "Ing Uhlin",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 785
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-761d-8f7f-d5e8299769ec",
+          "time_text": "02:24:50",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "02:24:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "01913919-da03-757e-b829-aa2bdc684400",
+          "metric_summary": "Points 785",
+          "competitor_name": "Debbie Newell",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 657
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-75fd-821a-d69c899e95cd",
+          "time_text": "02:53:04",
+          "competitive": true,
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "02:53:04",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7b13-3219-7a2c-93f7-0d0d45e15e8e",
+          "metric_summary": "Points 657",
+          "competitor_name": "Sue Kuestner",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 551
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7516-88f8-6f687f01dfb2",
+          "time_text": "03:26:22",
+          "competitive": true,
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "03:26:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7112-ab4b-561aafee688a",
+          "metric_summary": "Points 551",
+          "competitor_name": "Jennifer Castelluccio",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 543
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7ca5-9292-e8786a246e93",
+          "time_text": "03:29:29",
+          "competitive": true,
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "03:29:29",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7ac9-920b-738e-9c9a-52614be6cf3d",
+          "metric_summary": "Points 543",
+          "competitor_name": "Eileen Breseman",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-714e-8ff0-5ccb993bb1b8",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7ac9-920b-70bb-8a36-b4b700fb52d4",
+          "metric_summary": "Points 0",
+          "competitor_name": "Ardis Dull",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "course_id": "019d0e9a-017e-7c50-a1d9-05d34b3fede9",
+      "course_name": "Female 50+",
+      "distance_km": null,
+      "result_count": 6,
+      "control_count": null,
+      "course_climb_m": null
+    },
+    {
+      "results": [
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7ead-8caa-5fbf2f5eee6f",
+          "time_text": "01:13:18",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:13:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0e9a-0607-7fc9-8601-422fa1542071",
+          "metric_summary": null,
+          "competitor_name": "Celeste Drury",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-71a2-aadf-d28059c6afab",
+          "time_text": "01:21:49",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "01:21:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7fed-a88b-74d0-b276-0964d9c2cf12",
+          "metric_summary": null,
+          "competitor_name": "Brett Aniballi",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0e9a-0645-763a-ba4e-4d0611ca4fe2",
+          "result_id": "019d0e99-fa49-755d-988e-af5974af3785",
+          "time_text": "01:26:43",
+          "competitive": true,
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "01:26:43",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "Brendan Thompson_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-763e-9b6e-5fdbd8336441",
+          "time_text": "01:31:47",
+          "competitive": true,
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "01:31:47",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7ad9-433c-7a83-bfd4-280755f780ed",
+          "metric_summary": null,
+          "competitor_name": "Stuart Bradshaw",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7791-a22e-9beb98843a5f",
+          "time_text": "01:43:41",
+          "competitive": true,
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:43:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-72da-898b-1b08823beb79",
+          "metric_summary": null,
+          "competitor_name": "Melanie Davis",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-769d-9e8c-27419711e4ae",
+          "time_text": "01:46:22",
+          "competitive": true,
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "01:46:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0e9a-0608-7242-a3f8-71d09b9e8712",
+          "metric_summary": null,
+          "competitor_name": "Harvey Tang",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7761-902f-6a02da7e1493",
+          "time_text": "01:53:36",
+          "competitive": true,
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "01:53:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d31-771f-a5c3-6120714cda20",
+          "metric_summary": null,
+          "competitor_name": "Victoria Morrella",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7abc-a6f5-31c42dcc0360",
+          "time_text": "02:27:15",
+          "competitive": true,
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "02:27:15",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7fed-a88a-7e76-b17a-062d4b2ada0c",
+          "metric_summary": null,
+          "competitor_name": "Rolf Kuestner",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0e9a-0645-7bca-b06f-543d3cc8c6e0",
+          "result_id": "019d0e99-fa49-7ad4-91b1-3c973301c29e",
+          "time_text": "03:05:41",
+          "competitive": true,
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "03:05:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "Neil Rosewell_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7a35-81db-729f799ea42e",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0e9a-0607-7991-96a0-e19dacea4b89",
+          "metric_summary": null,
+          "competitor_name": "Austin Fisher",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "course_id": "019d0e9a-017f-7fc3-a47e-f812770d104f",
+      "course_name": "Intermediate",
+      "distance_km": null,
+      "result_count": 10,
+      "control_count": null,
+      "course_climb_m": null
+    },
+    {
+      "results": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7f03-9511-fc8715ca8a67",
+          "time_text": "01:45:13",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:45:13",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7ab9-a7a9-45ac713fe7db",
+          "metric_summary": "Points 1000",
+          "competitor_name": "Laszlo Kolyvek",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 900
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7d79-a425-f55e9d106dd1",
+          "time_text": "01:56:55",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "01:56:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7ac9-920b-7101-929d-c931532d6e97",
+          "metric_summary": "Points 900",
+          "competitor_name": "Rick Breseman",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 884
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7987-84fd-3c92fd958bb6",
+          "time_text": "01:59:01",
+          "competitive": true,
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "01:59:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7888-bc68-b6a3773270d9",
+          "metric_summary": "Points 884",
+          "competitor_name": "John Harbuck",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "EWOC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 840
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7ab5-90c5-d6398af39d9b",
+          "time_text": "02:05:13",
+          "competitive": true,
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "02:05:13",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d2f-7d39-8ef5-a7ebd3031d1b",
+          "metric_summary": "Points 840",
+          "competitor_name": "David Enger",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 688
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7931-8e35-4ff687ddc10c",
+          "time_text": "02:32:55",
+          "competitive": true,
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "02:32:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7f81-30a1-7250-9398-27e394e33c60",
+          "metric_summary": "Points 688",
+          "competitor_name": "Bill Green",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 620
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-76d1-8662-2f9f11ba15ce",
+          "time_text": "02:49:44",
+          "competitive": true,
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "02:49:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7acf-182c-705a-a8fe-e71bcacc38a6",
+          "metric_summary": "Points 620",
+          "competitor_name": "Kean Williams",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 612
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7108-b96c-f151c64e2e68",
+          "time_text": "02:51:54",
+          "competitive": true,
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "02:51:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d2f-76f4-9e8f-86cdb3a40f35",
+          "metric_summary": "Points 612",
+          "competitor_name": "Christian Whitmyre",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-753c-8b1d-de703741c408",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7227-b115-86d182309ecf",
+          "metric_summary": "Points 0",
+          "competitor_name": "Richard Pleiss",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "course_id": "019d0e9a-017f-76fc-899f-f3b028c01949",
+      "course_name": "Male 50+",
+      "distance_km": null,
+      "result_count": 8,
+      "control_count": null,
+      "course_climb_m": null
+    },
+    {
+      "results": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7b3e-a976-93db77e8c7d7",
+          "time_text": "01:39:46",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:39:46",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7db5-c8ed-7798-a865-4dd96dc1579c",
+          "metric_summary": "Points 1000",
+          "competitor_name": "David Tallent",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "course_id": "019d0e9a-017f-773c-9c6a-90b5d9cc464c",
+      "course_name": "Male 70+",
+      "distance_km": null,
+      "result_count": 1,
+      "control_count": null,
+      "course_climb_m": null
+    },
+    {
+      "results": [
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7416-bd72-a35b82380c9a",
+          "time_text": "03:52:48",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "03:52:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d2e-7688-ab1d-58a33a6cdbe4",
+          "metric_summary": null,
+          "competitor_name": "Alexander Myachin",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-704d-bbc7-643f28b97cc3",
+          "time_text": "04:12:14",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "04:12:14",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7de7-0e3a-7b92-b77c-4baa2a289c20",
+          "metric_summary": null,
+          "competitor_name": "Oyvind Naess",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7a08-a61c-adff6a668cae",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b810b-3de4-77ae-b6ca-9be5cb889772",
+          "metric_summary": null,
+          "competitor_name": "Tom Clymer",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7e35-b550-4410281dfbc9",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b810b-3de3-7b31-a4c6-3221eaa84e1a",
+          "metric_summary": null,
+          "competitor_name": "Rob Knudsen",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "course_id": "019d0e9a-0180-725e-9390-e10219970536",
+      "course_name": "Medium Advanced",
+      "distance_km": null,
+      "result_count": 4,
+      "control_count": null,
+      "course_climb_m": null
+    },
+    {
+      "results": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-79a4-a7b6-a5635a5cca52",
+          "time_text": "02:16:05",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "02:16:05",
+          "result_notes": null,
+          "category_name": "18 under Male",
+          "category_rank": 1,
+          "individual_id": "019d0a11-4d2e-7aca-9e95-24d0ff8bcc9d",
+          "metric_summary": "Points 1000",
+          "competitor_name": "Aiden Morrella",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7a2e-b1cd-890c0ec8ec03",
+          "time_text": "02:34:08",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "02:34:08",
+          "result_notes": null,
+          "category_name": "20 under Female",
+          "category_rank": 1,
+          "individual_id": "019d0a11-4d30-71f2-91bd-b17abd2efef6",
+          "metric_summary": "Points 1000",
+          "competitor_name": "Jessica Colleran",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-798c-a096-308dfd24f125",
+          "time_text": "02:40:58",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "02:40:58",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 1,
+          "individual_id": "019b7acf-182c-7c41-bf38-2f166390b465",
+          "metric_summary": "Points 1000",
+          "competitor_name": "Eric Bone",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-736c-bc05-e424f6643ac5",
+          "time_text": "03:23:54",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "03:23:54",
+          "result_notes": null,
+          "category_name": "20 under Male",
+          "category_rank": 1,
+          "individual_id": "019d0a11-4d30-7295-a4da-abdb8e4778bb",
+          "metric_summary": "Points 1000",
+          "competitor_name": "Shane Conley",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 973
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7793-9870-5b24214563be",
+          "time_text": "02:45:22",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "02:45:22",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 2,
+          "individual_id": "019d0a11-4d30-76ee-9a0d-1d875a72b54f",
+          "metric_summary": "Points 973",
+          "competitor_name": "Peteris Ledins",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "FRR"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 765
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7803-a9b9-abe07fc9fd59",
+          "time_text": "03:30:26",
+          "competitive": true,
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "03:30:26",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 3,
+          "individual_id": "019d0a40-c41c-7a52-b827-d9860d8b9f95",
+          "metric_summary": "Points 765",
+          "competitor_name": "Jourdan Harvey",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 681
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7834-b638-6c597400291c",
+          "time_text": "03:56:12",
+          "competitive": true,
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "03:56:12",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 4,
+          "individual_id": "019d0a11-4d30-78bf-9b71-1a6fcec84519",
+          "metric_summary": "Points 681",
+          "competitor_name": "Nina Potrebich",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 677
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7854-8576-b0842ac1b246",
+          "time_text": "03:57:45",
+          "competitive": true,
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "03:57:45",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 5,
+          "individual_id": "019d0e9a-0608-7411-9466-2ff507fece16",
+          "metric_summary": "Points 677",
+          "competitor_name": "Greg Khanlarov",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-75df-8927-3272a69c39d2",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": "Long Advanced Group",
+          "category_rank": null,
+          "individual_id": "019d0a11-4d2f-78c3-88fd-5de7f2a5a7e2",
+          "metric_summary": null,
+          "competitor_name": "Glenn Rogers",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7aa8-97f0-9429f45cc8ca",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": "20 under Male",
+          "category_rank": null,
+          "individual_id": "019d0a11-4d2e-7563-8115-80b6dd7ab1d9",
+          "metric_summary": "Points 0",
+          "competitor_name": "Andrew Schwans",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7a9c-b11a-533f0fc755cb",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": "Open Female",
+          "category_rank": null,
+          "individual_id": "019d0a11-4d2f-7ca3-bac0-7b273197ba3f",
+          "metric_summary": "Points 0",
+          "competitor_name": "Bethany Rentz",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7c1a-bb2c-ef9a9d6377c2",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": null,
+          "individual_id": "019b7ac9-920b-7530-b85a-103e52302ff8",
+          "metric_summary": "Points 0",
+          "competitor_name": "Will Enger",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-789d-98ec-97a0c287cc9c",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": null,
+          "individual_id": "019b810b-3de4-7760-bd76-4f54f49f7d7c",
+          "metric_summary": "Points 0",
+          "competitor_name": "Brian Gruber",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7a82-a848-d693e1d4976b",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": null,
+          "individual_id": "019b7fed-a88a-793a-93fe-92fdcebd84c4",
+          "metric_summary": "Points 0",
+          "competitor_name": "Bruce Christopherson",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-740e-acbe-de1d1200bbe7",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7bb4-9ef1-5b9711d308a6",
+          "metric_summary": "Points 0",
+          "competitor_name": "Olivier Baxa",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-70d2-bbd1-cc8ff576dc4a",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": null,
+          "individual_id": "019d0e9a-0609-7c53-9c06-f629db7fc457",
+          "metric_summary": "Points 0",
+          "competitor_name": "Kent Kuntz",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7275-8036-a0e4eb24ff53",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7cb9-a9dc-b1b603d4cfbb",
+          "metric_summary": "Points 0",
+          "competitor_name": "Serge Smirnov",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7e3a-b29f-07b8832ca20b",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7881-8c58-d383f8b132a0",
+          "metric_summary": "Points 0",
+          "competitor_name": "Lizzie Rosewell",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "course_id": "019d0e9a-0181-781c-bc70-ffc18d9f9cfa",
+      "course_name": "Overall",
+      "distance_km": null,
+      "result_count": 18,
+      "control_count": null,
+      "course_climb_m": null
+    },
+    {
+      "results": [
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7aba-b46d-ff2d3aff93b0",
+          "time_text": "02:34:00",
+          "competitive": true,
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "02:34:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7fed-a889-76a4-82da-6018aade123a",
+          "metric_summary": null,
+          "competitor_name": "Holly Kuestner",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a11-4d50-75ac-9537-8d437aca8491",
+          "result_id": "019d0e99-fa49-714d-9c92-1462d3540839",
+          "time_text": "02:37:34",
+          "competitive": true,
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "02:37:34",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "Jonathan Olson_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-72f9-a6c5-bc6a65358231",
+          "time_text": "02:37:39",
+          "competitive": true,
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "02:37:39",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7324-93c0-9bbb71d5ef2c",
+          "metric_summary": null,
+          "competitor_name": "Rebecca Jensen",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-75e1-a98e-3add4855394b",
+          "time_text": "03:13:15",
+          "competitive": true,
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "03:13:15",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7a2e-b2ef-c1c2d9d62189",
+          "metric_summary": null,
+          "competitor_name": "Michal Furmanczyk",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a11-4d50-7f09-bb52-d01e7c5b3998",
+          "result_id": "019d0e99-fa49-75f9-9c8e-3b012c1ef7ef",
+          "time_text": "03:15:21",
+          "competitive": true,
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "03:15:21",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "Richard Infusino_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-7ad8-8975-5c357a87c938",
+          "time_text": "03:27:02",
+          "competitive": true,
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "03:27:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0e9a-0607-7fa4-bc3a-fc9eda16d57d",
+          "metric_summary": null,
+          "competitor_name": "Bryan Gaston",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a11-4d4e-74db-aa3e-7394e9074deb",
+          "result_id": "019d0e99-fa49-792e-8f29-e2f01f87924d",
+          "time_text": "03:32:10",
+          "competitive": true,
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "03:32:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "Susan Luedeke_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": null,
+          "result_id": "019d0e99-fa49-736c-b29d-c33e35282e2a",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7772-9a5d-f571fe0c3aca",
+          "metric_summary": null,
+          "competitor_name": "Kate Byers-Jensen",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [],
+          "team_id": "019d0a11-4d4f-703a-b25e-b4a5a1a87d38",
+          "result_id": "019d0e99-fa49-7214-b079-3abeb9144aa9",
+          "time_text": null,
+          "competitive": true,
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": null,
+          "competitor_name": "Ben Brumback_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "course_id": "019d0e9a-0181-73dc-90f0-320dce839f4f",
+      "course_name": "Short Advanced",
+      "distance_km": null,
+      "result_count": 9,
+      "control_count": null,
+      "course_climb_m": null
+    }
+  ],
   "event_id": "019b81f3-1f4e-7e65-9426-e592354665ba",
   "venue_id": "019b7b2f-bf4b-7d04-bb73-a3e7756e878a",
   "event_date": "2021-06-12",
   "event_kind": "race",
   "event_name": "2021 Ultimate Orienteer #5",
   "venue_name": "Teanaway Forks",
-  "course_count": 0,
-  "result_count": 0,
-  "citation_count": 1,
-  "result_source_brief": "CascadeOC Results Website: https://cascadeoc.org/results/",
+  "event_notes": "Source venue label preserved during 2026-03-18 Wave 4 venue canonicalization: Teanaway Forks Ultralong.",
+  "course_count": 8,
+  "result_count": 58,
+  "citation_count": 3,
+  "event_comments": "Event Classes\nBeginner\nIntermediate\nShort Advanced\nMedium Advanced\nLong Advanced Group\n18 under Male\n20 under Female\n20 under Male\nFemale 50+\nMale 50+\nMale 70+\nOpen Female\nOpen Male\nPos.\nName\nClub\nTime\n1\nEmily Ledina\nCOC\n2\nAllie Ferguson_Group\nGRZ\nMenu\nCeleste Drury\nNone\nBrett Aniballi\n3\nBrendan Thompson_Group\n4\nStuart Bradshaw\n5\nMelanie Davis\n6\nHarvey Tang\n7\nVictoria Morrella\n8\nRolf Kuestner\n9\nNeil Rosewell_Group\nAustin Fisher\nmsp\nHolly Kuestner\nJonathan Olson_Group\nRebecca Jensen\nMichal Furmanczyk\nRichard Infusino_Group\nBryan Gaston\nBAOC\nSusan Luedeke_Group\nKate Byers-Jensen\nBen Brumback_Group\nAlexander Myachin\nCROC\nOyvind Naess\nTom Clymer\nRob Knudsen\nGlenn Rogers\ndnf\nScore\nAiden Morrella\n1000\nJessica Colleran\nShane Conley\nAndrew Schwans\n0\nIng Uhlin\nDebbie Newell\n785\nSue Kuestner\n657\nJennifer Castelluccio\n551\nEileen Breseman\n543\nArdis Dull\nLaszlo Kolyvek\nRick Breseman\n900\nJohn Harbuck\nEWOC\n884\nDavid Enger\n840\nBill Green\n688\nKean Williams\n620\nChristian Whitmyre\n612\nRichard Pleiss\nDavid Tallent\nBethany Rentz\nEric Bone\nPeteris Ledins\nFRR\n973\nJourdan Harvey\n765\nNina Potrebich\n681\nGreg Khanlarov\n677\nWill Enger\nBrian Gruber\nBruce Christopherson\nOlivier Baxa\nKent Kuntz\nSerge Smirnov\nLizzie Rosewell\nResult Status Codes\na control was skipped or taken out of order\na control or set of controls at the end of the course were skipped\nthe competitor is not eligible for standings, such as when running a second course\nbreaking competition rules, such as conferring with another competitor or entering an out of bounds area\nreturning after the course closure time\nthe competitor did not start\n<time>*\nthe star indicates course completion status was not reported and may be valid, msp, or dnf\nABOUT\nCONTACT\nREGISTRATION\nWIOL REGISTRATION\nDocument Library\nDocument Library (Old)\nOld website '09-16\nOlder website '00-09\nCOC is a non-profit\nMember of Orienteering USA\nMember of International Orienteering Federation\nDesign by Rebecca Jensen\nof Fox Jump Design\n© Cascade Orienteering 2026\nAdmin log in",
+  "external_links": [
+    {
+      "link_url": "https://www.attackpoint.org/eventdetail.jsp/event_51671",
+      "link_type": "attackpoint"
+    },
+    {
+      "link_url": "https://cascadeoc.org/event/2020-ultimate-orienteer-7-teanaway-ultralong/",
+      "link_type": "event_page"
+    },
+    {
+      "link_url": "http://rg.cascadeoc.org/rg2/#296",
+      "link_type": "routegadget"
+    },
+    {
+      "link_url": "https://cascadeoc.org/series/ultimate-orienteer/",
+      "link_type": "series"
+    },
+    {
+      "link_url": "http://obasen.orientering.se/winsplits/online/en/default.asp?page=classes&databaseId=75295",
+      "link_type": "splits"
+    },
+    {
+      "link_url": "https://cascadeoc.org/season/ultimate-series-2021/",
+      "link_type": "standings"
+    }
+  ],
+  "volunteer_roles": [
+    {
+      "role_name": "103",
+      "individual_id": "019d0e9a-2743-7e0f-883d-08bac499af7f",
+      "citation_count": 1,
+      "individual_name": "41",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "105",
+      "individual_id": "019d0e9a-273f-78ea-9672-5d535aa02e07",
+      "citation_count": 1,
+      "individual_name": "13",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "106",
+      "individual_id": "019d0e9a-2742-7767-b018-7982437d38b1",
+      "citation_count": 1,
+      "individual_name": "22",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "113",
+      "individual_id": "019d0e9a-2742-7bae-b4c2-8797892fb913",
+      "citation_count": 1,
+      "individual_name": "36",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "113",
+      "individual_id": "019d0e9a-2742-785e-8946-8d1893341c8b",
+      "citation_count": 1,
+      "individual_name": "45",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "116",
+      "individual_id": "019d0e9a-2743-70ec-ae60-508fd566f5a4",
+      "citation_count": 1,
+      "individual_name": "55",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "119",
+      "individual_id": "019d0e9a-2743-7689-9c8d-5db64cd1b653",
+      "citation_count": 1,
+      "individual_name": "01",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "125",
+      "individual_id": "019d0e9a-273f-78ea-9672-5d535aa02e07",
+      "citation_count": 1,
+      "individual_name": "13",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "136",
+      "individual_id": "019d0e9a-2743-7698-b895-b9a22fec137b",
+      "citation_count": 1,
+      "individual_name": "05",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "144",
+      "individual_id": "019d0e9a-2743-70bb-a971-c6bd2ca5f988",
+      "citation_count": 1,
+      "individual_name": "50",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "147",
+      "individual_id": "019d0e9a-2742-78e6-a7f3-89b4cfdb2b88",
+      "citation_count": 1,
+      "individual_name": "15",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "152",
+      "individual_id": "019d0e9a-2743-70ec-ae60-508fd566f5a4",
+      "citation_count": 1,
+      "individual_name": "55",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "154",
+      "individual_id": "019d0e9a-2742-7a8b-a7a7-7b5fb74c7260",
+      "citation_count": 1,
+      "individual_name": "00",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "154",
+      "individual_id": "019d0e9a-2742-7f4e-9421-114c224a4750",
+      "citation_count": 1,
+      "individual_name": "08",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "157",
+      "individual_id": "019d0e9a-273f-704a-88d9-92d061a4415d",
+      "citation_count": 1,
+      "individual_name": "34",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "157",
+      "individual_id": "019d0e9a-2743-75e8-b8cc-0113768a6072",
+      "citation_count": 1,
+      "individual_name": "39",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "160",
+      "individual_id": "019d0e9a-2743-7fa1-8460-442772352f7a",
+      "citation_count": 1,
+      "individual_name": "58",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "165",
+      "individual_id": "019d0e9a-2742-7767-b018-7982437d38b1",
+      "citation_count": 1,
+      "individual_name": "22",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "169",
+      "individual_id": "019d0e9a-2743-73bd-8ea1-d360948b801e",
+      "citation_count": 1,
+      "individual_name": "44",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "171",
+      "individual_id": "019d0e9a-2742-764c-adcc-12fa012c975b",
+      "citation_count": 1,
+      "individual_name": "54",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "173",
+      "individual_id": "019d0e9a-2742-7ff0-8d6c-c1768cde36e1",
+      "citation_count": 1,
+      "individual_name": "04",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "185",
+      "individual_id": "019d0e9a-2743-7e0f-883d-08bac499af7f",
+      "citation_count": 1,
+      "individual_name": "41",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "193",
+      "individual_id": "019d0e9a-2742-78e6-a7f3-89b4cfdb2b88",
+      "citation_count": 1,
+      "individual_name": "15",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "195",
+      "individual_id": "019d0e9a-2742-798c-82c0-71aa455a33dd",
+      "citation_count": 1,
+      "individual_name": "21",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "203",
+      "individual_id": "019d0e9a-2742-764c-adcc-12fa012c975b",
+      "citation_count": 1,
+      "individual_name": "54",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "206",
+      "individual_id": "019d0e9a-2742-7767-b018-7982437d38b1",
+      "citation_count": 1,
+      "individual_name": "22",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "207",
+      "individual_id": "019d0e9a-2743-7ae7-b761-e82ac4901244",
+      "citation_count": 1,
+      "individual_name": "02",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "209",
+      "individual_id": "019d0e9a-2742-7b76-995c-348b511bacc5",
+      "citation_count": 1,
+      "individual_name": "29",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "210",
+      "individual_id": "019d0e9a-2743-7ce3-9555-86b6bc203b7c",
+      "citation_count": 1,
+      "individual_name": "26",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "212",
+      "individual_id": "019d0e9a-2742-74c0-b08b-da2e7704b32a",
+      "citation_count": 1,
+      "individual_name": "10",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "232",
+      "individual_id": "019d0e9a-2743-7e0a-aba0-46abfc21c74a",
+      "citation_count": 1,
+      "individual_name": "48",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "236",
+      "individual_id": "019d0e9a-2742-75f4-b57d-82f90d3dfd9b",
+      "citation_count": 1,
+      "individual_name": "12",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "237",
+      "individual_id": "019d0e9a-2742-785e-8946-8d1893341c8b",
+      "citation_count": 1,
+      "individual_name": "45",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "252",
+      "individual_id": "019d0e9a-2743-7eea-bc04-e69581c99b57",
+      "citation_count": 1,
+      "individual_name": "14",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "38",
+      "individual_id": "019d0e9a-2742-7b43-a632-2d90406cbc9f",
+      "citation_count": 1,
+      "individual_name": "31",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "49",
+      "individual_id": "019d0e9a-2742-7868-bd81-550802f8838b",
+      "citation_count": 1,
+      "individual_name": "17",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "73",
+      "individual_id": "019d0e9a-2742-7088-a765-114bc8475a51",
+      "citation_count": 1,
+      "individual_name": "18",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "81",
+      "individual_id": "019d0e9a-2742-7004-a673-91307f44600f",
+      "citation_count": 1,
+      "individual_name": "49",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "86",
+      "individual_id": "019d0e9a-2742-7b50-b7ab-63ebac730feb",
+      "citation_count": 1,
+      "individual_name": "43",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "91",
+      "individual_id": "019d0e9a-2743-7a1b-a059-6b799baff726",
+      "citation_count": 1,
+      "individual_name": "47",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "99",
+      "individual_id": "019d0e9a-2743-7012-94f2-c881a08541ab",
+      "citation_count": 1,
+      "individual_name": "46",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Check-in",
+      "individual_id": "019d0a11-4d2f-7bd2-9195-69486afb3aad",
+      "citation_count": 1,
+      "individual_name": "Dan Thrush",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Check-in",
+      "individual_id": "01913919-da03-757e-b829-aa2bdc684400",
+      "citation_count": 1,
+      "individual_name": "Debbie Newell",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Check-in",
+      "individual_id": "019d0a11-4d4c-7946-819e-744f4d4e86cc",
+      "citation_count": 1,
+      "individual_name": "Michelle Kastner",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019d0e9a-0607-7fa4-bc3a-fc9eda16d57d",
+      "citation_count": 1,
+      "individual_name": "Bryan Gaston",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019b7db5-c8ed-7798-a865-4dd96dc1579c",
+      "citation_count": 1,
+      "individual_name": "David Tallent",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019d0a11-4d2f-7fcf-828a-8cac2f9c5293",
+      "citation_count": 1,
+      "individual_name": "David Vaisar",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019d0e9a-2743-7dac-9e3c-820e3e9d3703",
+      "citation_count": 1,
+      "individual_name": "Holly Gaston",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019d0e9a-2742-703f-b983-58548a31578f",
+      "citation_count": 1,
+      "individual_name": "Olvier Baxa",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019b7fed-a88a-7e76-b17a-062d4b2ada0c",
+      "citation_count": 1,
+      "individual_name": "Rolf Kuestner",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019b7b13-3219-7a2c-93f7-0d0d45e15e8e",
+      "citation_count": 1,
+      "individual_name": "Sue Kuestner",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019d0a11-4d31-7579-aaa8-34aa739264b8",
+      "citation_count": 1,
+      "individual_name": "Tim Potter",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019d0a11-4d31-755a-bbc0-8f4a0b1f49c6",
+      "citation_count": 1,
+      "individual_name": "Tomas Vaisar",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Placement",
+      "individual_id": "019d0a11-4d2f-7ca3-bac0-7b273197ba3f",
+      "citation_count": 1,
+      "individual_name": "Bethany Rentz",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Placement",
+      "individual_id": "019d0a11-4d2f-7bd2-9195-69486afb3aad",
+      "citation_count": 1,
+      "individual_name": "Dan Thrush",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Placement",
+      "individual_id": "019d0a11-4d2f-7fcf-828a-8cac2f9c5293",
+      "citation_count": 1,
+      "individual_name": "David Vaisar",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Placement",
+      "individual_id": "019d0a11-4d30-710f-b42f-ecba537a7836",
+      "citation_count": 1,
+      "individual_name": "Ott Toomet",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Placement",
+      "individual_id": "019d0a11-4d31-7579-aaa8-34aa739264b8",
+      "citation_count": 1,
+      "individual_name": "Tim Potter",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Placement",
+      "individual_id": "019d0a11-4d31-755a-bbc0-8f4a0b1f49c6",
+      "citation_count": 1,
+      "individual_name": "Tomas Vaisar",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Course Designer(s)",
+      "individual_id": "019d0a11-4d2f-7fcf-828a-8cac2f9c5293",
+      "citation_count": 1,
+      "individual_name": "David Vaisar",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Epunch",
+      "individual_id": "019d0a11-4d2f-7bd2-9195-69486afb3aad",
+      "citation_count": 1,
+      "individual_name": "Dan Thrush",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Epunch",
+      "individual_id": "01913919-da03-757e-b829-aa2bdc684400",
+      "citation_count": 1,
+      "individual_name": "Debbie Newell",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Epunch",
+      "individual_id": "019d0a11-4d2f-736d-863f-5e546e61e969",
+      "citation_count": 1,
+      "individual_name": "Ing Uhlin",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Epunch Coordinator",
+      "individual_id": "01913919-da03-757e-b829-aa2bdc684400",
+      "citation_count": 1,
+      "individual_name": "Debbie Newell",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Meet Director",
+      "individual_id": "019d0a11-4d2f-736d-863f-5e546e61e969",
+      "citation_count": 1,
+      "individual_name": "Ing Uhlin",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Start",
+      "individual_id": "019d0a11-4d2f-7fcf-828a-8cac2f9c5293",
+      "citation_count": 1,
+      "individual_name": "David Vaisar",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Start",
+      "individual_id": "019d0a11-4d31-755a-bbc0-8f4a0b1f49c6",
+      "citation_count": 1,
+      "individual_name": "Tomas Vaisar",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Vetting",
+      "individual_id": "019d0a11-4d30-7bb4-9ef1-5b9711d308a6",
+      "citation_count": 1,
+      "individual_name": "Olivier Baxa",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "dnf",
+      "individual_id": "019d0e9a-2743-7997-9ec7-e7822531d402",
+      "citation_count": 1,
+      "individual_name": "did not finish",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "dns",
+      "individual_id": "019d0e9a-2743-7e51-a73a-fd78fbbd40f4",
+      "citation_count": 1,
+      "individual_name": "did not start",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "dq",
+      "individual_id": "019d0e9a-2743-73b2-a7a1-8c4bd04aee23",
+      "citation_count": 1,
+      "individual_name": "disqualified",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "msp",
+      "individual_id": "019d0e9a-2742-78af-bf3a-6708642283d1",
+      "citation_count": 1,
+      "individual_name": "missing punch",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "nc",
+      "individual_id": "019d0e9a-2742-72f9-91a4-e89ac5ae82a9",
+      "citation_count": 1,
+      "individual_name": "not competing",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "ovt",
+      "individual_id": "019d0e9a-2743-704d-88f7-a3916e227080",
+      "citation_count": 1,
+      "individual_name": "overtime",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ],
+  "result_source_brief": "CascadeOC Results Website: https://cascadeoc.org/result/2021-ultimate-orienteer-5-teanaway-forks-ultralong/",
   "organizing_club_name": "Cascade Orienteering Club"
 }

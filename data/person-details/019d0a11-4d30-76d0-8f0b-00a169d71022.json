@@ -9,13 +9,34 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 8
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 16
+            },
+            {
+              "metric_key": "pos",
+              "metric_numeric": 26
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 8
+            }
+          ],
+          "time_text": "03:37:57",
           "competitive": true,
           "course_name": "CYA",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "03:37:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 8; Points 16; Pos 26; Total Time 8",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,17 +54,24 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 2
+            }
+          ],
+          "time_text": "00:36:31",
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:36:31",
           "result_notes": null,
           "category_name": "Beginner Male",
           "category_rank": null,
+          "metric_summary": "Pos 2",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1

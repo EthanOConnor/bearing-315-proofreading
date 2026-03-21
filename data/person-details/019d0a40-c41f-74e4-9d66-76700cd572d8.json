@@ -9,13 +9,17 @@
       "venue_name": "Lick Creek",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 45
+            }
+          ],
+          "time_text": "01:20:23",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:20:23",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 49,
+          "metric_summary": "Points 45",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +66,17 @@
       "venue_name": "Dash Point State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:54:02",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 54,
+          "status_code": "OK",
           "outcome_text": "01:54:02",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +92,22 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 52
+            }
+          ],
+          "time_text": "01:39:13",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 42,
+          "status_code": "OK",
           "outcome_text": "01:39:13",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 52",
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 51
+            }
+          ],
+          "time_text": "01:11:42",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 43,
+          "status_code": null,
           "outcome_text": "01:11:42",
           "result_notes": "novice",
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 51",
           "additional_course": false,
           "affiliation_labels": [
             "MARH"

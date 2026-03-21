@@ -1,6 +1,72 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7a49-8d0a-7425384b86de",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2021-01-22",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #2",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:26:43",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "00:26:43",
+          "result_notes": null,
+          "category_name": "Female",
+          "category_rank": 14,
+          "metric_summary": "Points 80",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-79ed-8fcd-e1b4fc2fcbd4",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
+      "event_date": "2021-01-09",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #1",
+      "venue_name": "Shoreview Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:47:39",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "00:47:39",
+          "result_notes": null,
+          "category_name": "Female",
+          "category_rank": 11,
+          "metric_summary": "Points 83",
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7b88-9ee5-a3a281f4db62",
       "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
       "event_date": "2019-09-21",
@@ -9,13 +75,34 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "pos",
+              "metric_numeric": 11
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:45:03",
           "competitive": true,
           "course_name": "CYA",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:45:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24; Pos 11; Total Time 24",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +120,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 2
+            }
+          ],
+          "time_text": "01:20:25",
           "competitive": true,
           "course_name": "Long Adv Women",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:20:25",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 2",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +153,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:07:34",
           "competitive": true,
           "course_name": "P7F",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "01:07:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -81,13 +181,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:07:59",
           "competitive": true,
           "course_name": "P7F",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "01:07:59",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -105,13 +209,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "01:09:35",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "01:09:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -129,13 +242,22 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "01:09:42",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "01:09:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -153,13 +275,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:43:50",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:43:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville Mont."
@@ -177,13 +303,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:31:41",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:31:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville Mont."
@@ -201,13 +331,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:50:42",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "00:50:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville Mont."
@@ -225,13 +359,17 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:43:29",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:43:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville Mont."
@@ -249,13 +387,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:53:30",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 28,
+          "status_code": "OK",
           "outcome_text": "00:53:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -271,13 +413,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:15:48",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 1,
+          "status_code": null,
           "outcome_text": "00:15:48",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -293,13 +439,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 382
+            }
+          ],
+          "time_text": "00:58:08",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 57,
+          "status_code": null,
           "outcome_text": "00:58:08",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 382",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -315,13 +470,17 @@
       "venue_name": "St. Edward/O.O. Denny Parks",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:32",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 10,
+          "status_code": null,
           "outcome_text": "01:00:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -337,13 +496,17 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:27:38",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 2,
+          "status_code": null,
           "outcome_text": "00:27:38",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -359,13 +522,17 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:43",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 3,
+          "status_code": null,
           "outcome_text": "00:35:43",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -381,13 +548,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:21:15",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 4,
+          "status_code": null,
           "outcome_text": "00:21:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -403,13 +574,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:13:44",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 1,
+          "status_code": null,
           "outcome_text": "00:13:44",
           "result_notes": null,
           "category_name": "WIOL - Elementary Female",
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "WDMT"
@@ -427,13 +607,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:16:25",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 1,
+          "status_code": null,
           "outcome_text": "00:16:25",
           "result_notes": null,
           "category_name": "WIOL - Elementary Female",
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "WDMT"
@@ -451,13 +640,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:15",
           "competitive": true,
           "course_name": "Short Course",
           "course_rank": 2,
+          "status_code": null,
           "outcome_text": "00:32:15",
           "result_notes": null,
           "category_name": "Female",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -473,13 +666,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:34:21",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 4,
+          "status_code": null,
           "outcome_text": "00:34:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -497,13 +694,22 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:37:55",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 1,
+          "status_code": null,
           "outcome_text": "00:37:55",
           "result_notes": null,
           "category_name": "WIOL - Elementary Female",
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "WDMT"
@@ -521,13 +727,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:30",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:35:30",
           "result_notes": null,
           "category_name": "WIOL - Elementary / Female",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "WDMT"
@@ -545,13 +755,17 @@
       "venue_name": "Lick Creek/Bullfrog Pond",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:01:03",
           "competitive": true,
           "course_name": "White",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "01:01:03",
           "result_notes": null,
           "category_name": "F10",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -567,13 +781,17 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:14:19",
           "competitive": true,
           "course_name": "White",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "01:14:19",
           "result_notes": null,
           "category_name": "F10",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -586,7 +804,7 @@
   ],
   "summary": {
     "role_count": 2,
-    "event_count": 25,
+    "event_count": 27,
     "mention_count": 0
   },
   "mentions": [],

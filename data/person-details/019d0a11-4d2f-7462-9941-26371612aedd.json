@@ -9,13 +9,184 @@
       "venue_name": "Fisk State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:03:25"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:37:45"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 581
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 1045
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 6,
+          "status_code": null,
+          "outcome_text": "Day 1 Time 01:03:25; Day 2 Time 01:37:45; Points 581; Total Time 1045",
           "result_notes": null,
           "category_name": "M70+",
           "category_rank": 6,
+          "metric_summary": "Day 1 Time 01:03:25; Day 2 Time 01:37:45; Points 581; Total Time 1045",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-79ea-a620-43ca77d41a38",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 3 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:37:45",
+          "competitive": true,
+          "course_name": "Male 70+",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "01:37:45",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-720f-967f-6530c455dbe4",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #9",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 464
+            }
+          ],
+          "time_text": "01:37:45",
+          "competitive": true,
+          "course_name": "Open 70+",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:37:45",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 464",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7466-a28e-8013795e821c",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 2 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:03:25",
+          "competitive": true,
+          "course_name": "Male 70+",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:03:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-784b-929c-d3d1c963bef1",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #8",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 581
+            }
+          ],
+          "time_text": "01:03:25",
+          "competitive": true,
+          "course_name": "Open 70+",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "01:03:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 581",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7266-a5da-0e61dbb38087",
+      "venue_id": "019b81f3-1f39-7521-b3fd-22e65018c621",
+      "event_date": "2024-06-21",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 1",
+      "venue_name": "Fishtrap Lake Middle",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:03:23",
+          "competitive": true,
+          "course_name": "Short Advanced",
+          "course_rank": 34,
+          "status_code": "OK",
+          "outcome_text": "01:03:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CAOC"
@@ -33,13 +204,17 @@
       "venue_name": "Fishtrap Lake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:22:29",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:22:29",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "M55",
           "category_rank": 7,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CAOC"
@@ -57,13 +232,17 @@
       "venue_name": "Moses Lake Sand Dunes",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:04",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:47:04",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "M55",
           "category_rank": 5,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CAOC"
@@ -81,13 +260,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:04:06",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:04:06",
           "result_notes": null,
           "category_name": "M55+",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CAOC"
@@ -105,13 +288,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:56:08",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:56:08",
           "result_notes": "us_eligible Y",
           "category_name": "M55+",
           "category_rank": 3,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CAOC"
@@ -129,13 +316,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:19:57",
           "competitive": true,
           "course_name": "Sprint",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:19:57",
           "result_notes": "classification M55",
           "category_name": "M55",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CAOC"
@@ -150,7 +341,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 11,
     "mention_count": 0
   },
   "mentions": [],

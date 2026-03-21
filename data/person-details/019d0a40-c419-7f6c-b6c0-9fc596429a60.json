@@ -1,6 +1,34 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7c1c-92e2-e4858dd50024",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2024-04-13",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #5",
+      "venue_name": "Ft. Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:29:56",
+          "competitive": true,
+          "course_name": "Short",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "02:29:56",
+          "result_notes": "var BA",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-7472-98ea-730a7a7e6cc6",
       "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
       "event_date": "2011-12-17",
@@ -9,52 +37,68 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:08:15",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "02:08:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "02:08:15",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "02:08:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "02:08:15",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "02:08:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "02:08:15",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "02:08:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -72,13 +116,17 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Public 3",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -96,13 +144,17 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -115,7 +167,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

@@ -9,13 +9,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "score",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Jr. Varsity Boys (N)",
           "course_rank": null,
-          "outcome_text": "DNF",
+          "status_code": "DNF",
+          "outcome_text": "Score 0",
           "result_notes": "101:56; school SPA",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Score 0",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 62
+            }
+          ],
+          "time_text": "00:28:05",
           "competitive": true,
           "course_name": "Middle School Boys",
           "course_rank": 32,
+          "status_code": "OK",
           "outcome_text": "00:28:05",
           "result_notes": "school Spanaway",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 62",
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 15
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "01:11:41",
           "competitive": true,
           "course_name": "Varsity Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:11:41",
           "result_notes": "school KAM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 15; Score 79",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +44,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 65
+            }
+          ],
+          "time_text": "00:57:16",
           "competitive": true,
           "course_name": "High School JV Boys North",
           "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "00:57:16",
           "result_notes": "school Kamiak",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 65",
           "additional_course": false,
           "affiliation_labels": []
         }

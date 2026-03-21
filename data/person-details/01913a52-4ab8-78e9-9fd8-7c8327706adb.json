@@ -5,17 +5,21 @@
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "1980-10-26",
       "event_kind": "race",
-      "event_name": "Seward Park Meet",
+      "event_name": "Seward Park",
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:54:57",
           "competitive": true,
           "course_name": "Red Course",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:54:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,23 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "notes": "Score-O points as published.",
+              "metric_key": "points",
+              "metric_numeric": 40
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 1,
-          "outcome_text": "OK",
+          "status_code": "OK",
+          "outcome_text": "Points 40",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 40",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +67,17 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:52:00",
           "competitive": true,
           "course_name": "Intermediate",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:52:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +93,17 @@
       "venue_name": "Fort Lewis - Area CTA-A",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:38:00",
           "competitive": true,
           "course_name": "Red Course",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "01:38:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -97,13 +119,17 @@
       "venue_name": "Fort Lewis - Unspecified Area",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Red Course",
           "course_rank": 3,
+          "status_code": "Not Complete",
           "outcome_text": "Not Complete",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -119,13 +145,17 @@
       "venue_name": "Snoqualmie Falls - East Area",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:05:00",
           "competitive": true,
           "course_name": "Orange Course",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "02:05:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

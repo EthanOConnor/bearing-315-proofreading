@@ -9,13 +9,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:33:59",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 12,
+          "status_code": null,
           "outcome_text": "00:33:59",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SKHS"
@@ -33,13 +37,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:33:06",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 16,
+          "status_code": null,
           "outcome_text": "00:33:06",
           "result_notes": "novice",
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "SKHS"
@@ -57,13 +70,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:26:20",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 9,
+          "status_code": null,
           "outcome_text": "01:26:20",
           "result_notes": "novice",
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SKHS"
@@ -81,13 +98,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 40,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": "novice; MSP (#11)",
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SKHS"

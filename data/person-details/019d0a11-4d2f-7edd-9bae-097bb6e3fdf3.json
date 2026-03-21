@@ -9,13 +9,273 @@
       "venue_name": "Fisk State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "02:32:31"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_text": "MSP"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 279
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 279
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
-          "outcome_text": "MSP",
+          "status_code": "MSP",
+          "outcome_text": "Day 1 Time 02:32:31; Day 2 Time MSP; Points 279; Total Time 279",
           "result_notes": null,
           "category_name": "M75+",
           "category_rank": 11,
+          "metric_summary": "Day 1 Time 02:32:31; Day 2 Time MSP; Points 279; Total Time 279",
+          "additional_course": false,
+          "affiliation_labels": [
+            "VOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-79ea-a620-43ca77d41a38",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 3 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Male 75+",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "181:41",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "VOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-720f-967f-6530c455dbe4",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #9",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Open 70+",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": "181:41",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "VOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7466-a28e-8013795e821c",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 2 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:32:31",
+          "competitive": true,
+          "course_name": "Male 75+",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "02:32:31",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "VOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-784b-929c-d3d1c963bef1",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #8",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 242
+            }
+          ],
+          "time_text": "02:32:31",
+          "competitive": true,
+          "course_name": "Open 70+",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "02:32:31",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 242",
+          "additional_course": false,
+          "affiliation_labels": [
+            "VOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7266-a5da-0e61dbb38087",
+      "venue_id": "019b81f3-1f39-7521-b3fd-22e65018c621",
+      "event_date": "2024-06-21",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 1",
+      "venue_name": "Fishtrap Lake Middle",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:05:13",
+          "competitive": true,
+          "course_name": "Short Advanced",
+          "course_rank": 51,
+          "status_code": "OK",
+          "outcome_text": "02:05:13",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "VOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7e01-93e8-91103e62ff17",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-12",
+      "event_kind": "race",
+      "event_name": "PNWOF2022: 2022 Ultimate Orienteer #7",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Male 70+",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": "204:24",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "VOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7308-b1b6-bc1c3542da65",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "2022 Ultimate Orienteer #6",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": "112:34",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "VOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7980-92be-eddefbcc04b4",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "PNWOF2022: Middle NRE, Fishtrap Lake",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": false,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": "M-Orange",
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "VOC"
@@ -28,7 +288,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

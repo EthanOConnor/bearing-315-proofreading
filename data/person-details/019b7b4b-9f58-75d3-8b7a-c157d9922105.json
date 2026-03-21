@@ -9,13 +9,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 8
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Vampire O'",
           "course_rank": null,
-          "outcome_text": "",
+          "status_code": null,
+          "outcome_text": "Points 8",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 8",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -27,17 +36,21 @@
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
       "event_date": "1999-09-11",
       "event_kind": "race",
-      "event_name": "Bo Powell Memorial - Woodland Park",
+      "event_name": "Bo Powell Memorial O' Meet",
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:10:31",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 17,
+          "status_code": null,
           "outcome_text": "01:10:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

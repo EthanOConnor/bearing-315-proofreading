@@ -9,13 +9,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:18:38",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 56,
+          "status_code": "OK",
           "outcome_text": "02:18:38",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -33,13 +37,17 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -57,13 +65,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +91,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:50:09",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:50:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -103,13 +119,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 47
+            }
+          ],
+          "time_text": "01:10:31",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 47,
+          "status_code": "OK",
           "outcome_text": "01:10:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 47",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -127,13 +152,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -151,13 +180,17 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:03",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 19,
+          "status_code": "OK",
           "outcome_text": "01:00:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -175,13 +208,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 57
+            }
+          ],
+          "time_text": "00:59:55",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 38,
+          "status_code": "OK",
           "outcome_text": "00:59:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 57",
           "additional_course": false,
           "affiliation_labels": []
         }

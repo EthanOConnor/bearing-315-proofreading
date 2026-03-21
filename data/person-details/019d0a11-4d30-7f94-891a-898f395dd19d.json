@@ -9,13 +9,171 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "03:08:55",
           "competitive": true,
           "course_name": "Bog Slog – Men",
-          "course_rank": null,
+          "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "03:08:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 18
+            }
+          ],
+          "time_text": "03:08:55",
+          "competitive": true,
+          "course_name": "Bog Slog – Men",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "03:08:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Pos 18",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-74dc-a8fe-738945f87160",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2022-01-08",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 05",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "01:14:14",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 22,
+          "status_code": "OK",
+          "outcome_text": "01:14:14",
+          "result_notes": null,
+          "category_name": "Long Adv Male",
+          "category_rank": 22,
+          "metric_summary": "Points 72",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7ce3-86ab-9eb2847664fa",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2021-12-04",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 03",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": "80:47",
+          "category_name": "Long Adv Male",
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-78e2-9ed1-6c744b73bf3f",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2021-11-20",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 02",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": "00:53:52",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 33,
+          "status_code": "OK",
+          "outcome_text": "00:53:52",
+          "result_notes": null,
+          "category_name": "Long Adv Male",
+          "category_rank": 33,
+          "metric_summary": "Points 61",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-74bc-9b52-63710942c69e",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2021-11-06",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "01:11:06",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "01:11:06",
+          "result_notes": null,
+          "category_name": "Long Adv Male",
+          "category_rank": 18,
+          "metric_summary": "Points 76",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +191,34 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "pos",
+              "metric_numeric": 4
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "02:33:15",
           "competitive": true,
           "course_name": "CYA",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:33:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24; Pos 4; Total Time 24",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -52,7 +231,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

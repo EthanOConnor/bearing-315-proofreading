@@ -9,13 +9,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:30:48",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 8,
+          "status_code": null,
           "outcome_text": "00:30:48",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "EVRH"
@@ -33,13 +37,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:26:45",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 8,
+          "status_code": null,
           "outcome_text": "00:26:45",
           "result_notes": "novice",
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": [
             "EVRH"
@@ -57,13 +70,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:22:38",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 5,
+          "status_code": null,
           "outcome_text": "00:22:38",
           "result_notes": "novice",
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 89",
           "additional_course": false,
           "affiliation_labels": [
             "EVRH"
@@ -81,13 +103,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:43",
           "competitive": true,
           "course_name": "10k",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:47:43",
           "result_notes": null,
           "category_name": "M -18",
           "category_rank": 3,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

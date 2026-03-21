@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 18
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "01:38:28",
           "competitive": true,
           "course_name": "Varsity Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:38:28",
           "result_notes": "school TAH",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 18; Score 76",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +44,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "01:23:45",
           "competitive": true,
           "course_name": "High School JV Boys South",
           "course_rank": 19,
+          "status_code": "OK",
           "outcome_text": "01:23:45",
           "result_notes": "school Tahoma",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": []
         }

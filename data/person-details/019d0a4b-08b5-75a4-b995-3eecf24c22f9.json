@@ -9,13 +9,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "01:19:05",
           "competitive": true,
           "course_name": "Short Advanced Open",
-          "course_rank": null,
+          "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "01:19:05",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": [
             "FinHill"
@@ -33,17 +42,24 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:53:46",
           "competitive": true,
           "course_name": "Short Advanced Open",
-          "course_rank": null,
+          "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:53:46",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 83",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1
@@ -57,17 +73,24 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "01:03:53",
           "competitive": true,
           "course_name": "Short Advanced Open",
-          "course_rank": null,
+          "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "01:03:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 81",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1

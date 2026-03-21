@@ -9,13 +9,55 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:59:46",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 19,
+          "status_code": "OK",
           "outcome_text": "00:59:46",
           "result_notes": null,
           "category_name": "High School Rookie Male",
-          "category_rank": null,
+          "category_rank": 19,
+          "metric_summary": "Points 75",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:21:15",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:21:15",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 10,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": [
             "PEN"
@@ -28,7 +70,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

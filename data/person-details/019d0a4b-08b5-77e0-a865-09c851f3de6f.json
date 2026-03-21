@@ -9,13 +9,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
-          "outcome_text": "MSP",
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
           "result_notes": "87:38",
           "category_name": "Middle School Male",
           "category_rank": null,
+          "metric_summary": "Points 0",
           "additional_course": false,
           "affiliation_labels": [
             "STT"
@@ -33,28 +42,50 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "Middle School Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:STT",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "00:22:07",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:22:07",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 13,
+          "metric_summary": "Points 81",
           "additional_course": false,
           "affiliation_labels": [
             "STT"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:22:07"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 42,
+          "status_code": null,
+          "outcome_text": "Finish 00:22:07; Points 81",
+          "result_notes": "trailing_paren:STT",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:22:07; Points 81",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -68,13 +99,107 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "00:32:55",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "00:32:55",
           "result_notes": null,
           "category_name": "Middle School Male",
+          "category_rank": 18,
+          "metric_summary": "Points 76",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STT"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 70
+            }
+          ],
+          "time_text": "00:27:43",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "00:27:43",
+          "result_notes": null,
+          "category_name": "Middle School Male",
+          "category_rank": 24,
+          "metric_summary": "Points 70",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STT"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:27:43"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 70
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 24,
+          "status_code": null,
+          "outcome_text": "Finish 00:27:43; Points 70",
+          "result_notes": "trailing_paren:STT",
+          "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 00:27:43; Points 70",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Middle School Male",
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STT"
@@ -87,7 +212,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

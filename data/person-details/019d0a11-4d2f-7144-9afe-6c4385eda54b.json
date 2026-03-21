@@ -1,6 +1,90 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-717b-bb86-32fd30609463",
+      "venue_id": "019b820a-0447-7e9e-9f43-543265489e73",
+      "event_date": "2025-02-01",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 02 (Rescheduled) - Soaring Eagle",
+      "venue_name": "Soaring Eagle",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:00:19",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "01:00:19",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7bb9-9c29-5091a99edbae",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "event_date": "2025-01-25",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 06",
+      "venue_name": "Fort Ebey State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:26:39",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 22,
+          "status_code": "OK",
+          "outcome_text": "01:26:39",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-70ae-af21-b44b23f1b394",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2024-11-09",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 01",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:52:37",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 29,
+          "status_code": "OK",
+          "outcome_text": "00:52:37",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7350-9c7e-8ffc90f7b0de",
       "venue_id": "019b81f3-1f39-72b4-9e1b-2572fc94fa8e",
       "event_date": "2024-10-19",
@@ -9,15 +93,152 @@
       "venue_name": "Bellevue College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 19
+            }
+          ],
+          "time_text": "01:15:15",
           "competitive": true,
           "course_name": "2024 Choose Your Adventure #4 – Skeleton Bones!",
           "course_rank": 55,
+          "status_code": "OK",
           "outcome_text": "01:15:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Score 19",
           "additional_course": false,
           "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7039-b91c-501a674b8988",
+      "venue_id": "019b81f3-1f39-757b-84c7-c9e26f0fe3f3",
+      "event_date": "2024-01-20",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 06",
+      "venue_name": "Summit Trails",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:29:30",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 25,
+          "status_code": "OK",
+          "outcome_text": "01:29:30",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7845-952f-5b03fd59d301",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2023-12-16",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 04",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:42:48",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "00:42:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7b71-9b72-f2e594a33cf9",
+      "venue_id": "019b81f3-1f39-74f3-8714-f78123563aa8",
+      "event_date": "2023-10-28",
+      "event_kind": "race",
+      "event_name": "2023 Choose Your Adventure #1",
+      "venue_name": "Edmonds Community College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:10:13",
+          "competitive": true,
+          "course_name": "2023 Choose Your Adventure #1 – Skeleton Bones, Edmonds College",
+          "course_rank": 49,
+          "status_code": "OK",
+          "outcome_text": "01:10:13",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Final Score 24",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-74c2-96be-6b67c48aa2f6",
+      "venue_id": "019b820a-0445-7248-b6aa-8e224eff8787",
+      "event_date": "2022-10-29",
+      "event_kind": "race",
+      "event_name": "2022 Choose Your Adventure #3 - Skeleton Bones, Olson Mansion",
+      "venue_name": "Olson Mansion",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "bones_pts",
+              "metric_numeric": 14
+            },
+            {
+              "metric_key": "ot_penalty",
+              "metric_numeric": -1
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 13
+            }
+          ],
+          "time_text": "01:00:16",
+          "competitive": true,
+          "course_name": "2022 Choose Your Adventure #3 – Skeleton Bones, Olson Mansion",
+          "course_rank": 51,
+          "status_code": "OK",
+          "outcome_text": "01:00:16",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Bones Pts 14; Ot Penalty -1; Total Time 13",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
         }
       ],
       "result_row_count": 1
@@ -31,13 +252,89 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:12:07",
           "competitive": true,
           "course_name": "2022 Choose Your Adventure #2 – Corn Maze!",
           "course_rank": 57,
+          "status_code": "OK",
           "outcome_text": "01:12:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 24",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-74dc-a8fe-738945f87160",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2022-01-08",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 05",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:57:12",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "01:57:12",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7721-b0f7-e56356eb8189",
+      "venue_id": "019b81f3-1f39-7989-a3d1-6c58d89f120d",
+      "event_date": "2021-10-30",
+      "event_kind": "race",
+      "event_name": "2021 Choose Your Adventure #3",
+      "venue_name": "Robinswood Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": -6
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 18
+            }
+          ],
+          "time_text": "01:20:30",
+          "competitive": true,
+          "course_name": "75 min time limit, 1 pt/minute penalty if late. Must visit pairs of checkpoints for points.",
+          "course_rank": 73,
+          "status_code": "OK",
+          "outcome_text": "01:20:30",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty -6; Points 24; Total Time 18",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -47,12 +344,43 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
-    "event_count": 2,
+    "role_count": 2,
+    "event_count": 11,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a11-4d2f-7144-9afe-6c4385eda54b",
   "individual_name": "Gwen Gutow",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4e-717b-bb86-32fd30609463",
+      "venue_id": "019b820a-0447-7e9e-9f43-543265489e73",
+      "role_name": "Start",
+      "event_date": "2025-02-01",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 02 (Rescheduled) - Soaring Eagle",
+      "venue_name": "Soaring Eagle",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2024-winter-league-02-rescheduled-soaring-eagle/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-7bb9-9c29-5091a99edbae",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "role_name": "Form/Coat Runner",
+      "event_date": "2025-01-25",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 06",
+      "venue_name": "Fort Ebey State Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2024-winter-league-06-ft-ebey-state-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

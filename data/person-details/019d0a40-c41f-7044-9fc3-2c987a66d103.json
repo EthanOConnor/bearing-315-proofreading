@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": "classification ISIM",
           "category_name": "ISIM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville Montessori"
@@ -33,13 +37,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:34:27",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:34:27",
           "result_notes": null,
           "category_name": "ISIM",
           "category_rank": 4,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville Montessori"
@@ -57,13 +65,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:22:12",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:22:12",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
@@ -81,13 +98,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:20:30",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:20:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
@@ -105,52 +131,88 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:42:35",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:42:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:42:35",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:42:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:42:35",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:42:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:42:35",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:42:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"

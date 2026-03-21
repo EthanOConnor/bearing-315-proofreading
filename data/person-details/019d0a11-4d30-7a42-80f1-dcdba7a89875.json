@@ -9,13 +9,17 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:15:02",
           "competitive": true,
           "course_name": "Intermediate",
-          "course_rank": null,
+          "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "01:15:02",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,17 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:52:49",
           "competitive": true,
           "course_name": "Intermediate",
-          "course_rank": null,
+          "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:52:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +65,129 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Intermediate",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": "73:36",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:20:53",
+          "competitive": true,
+          "course_name": "Advanced Beginner",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:20:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:29:18",
+          "competitive": true,
+          "course_name": "Advanced Beginner",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:29:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:26:11",
+          "competitive": true,
+          "course_name": "Advanced Beginner",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:26:11",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:39:31",
+          "competitive": true,
+          "course_name": "Advanced Beginner",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:39:31",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -81,13 +205,26 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 20
+            }
+          ],
+          "time_text": "01:00:34",
           "competitive": true,
           "course_name": "Final scores with only completed bones of controls",
-          "course_rank": null,
+          "course_rank": 67,
+          "status_code": "OK",
           "outcome_text": "01:00:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 20",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -105,13 +242,123 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 20
+            }
+          ],
+          "time_text": "01:11:07",
           "competitive": true,
           "course_name": "CYA",
-          "course_rank": null,
+          "course_rank": 88,
+          "status_code": "OK",
           "outcome_text": "01:11:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 20",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7c71-8fec-340e7fdd32eb",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2025-06-25",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #3",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:27:41",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:27:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7037-8dcd-4d50bc85a95f",
+      "venue_id": "019b81f3-1f39-757b-84c7-c9e26f0fe3f3",
+      "event_date": "2025-03-29",
+      "event_kind": "race",
+      "event_name": "2025 Ultimate Orienteer #2",
+      "venue_name": "Summit Trails",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 420
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 420
+            }
+          ],
+          "time_text": "00:58:05",
+          "competitive": true,
+          "course_name": "Short (60 min time limit, 1240 points max)",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:58:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 420; Total Time 420",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-750d-85e5-15eb198b4193",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2025-02-22",
+      "event_kind": "race",
+      "event_name": "2024-25 Winter League Championships",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:53:48",
+          "competitive": true,
+          "course_name": "Advanced Beginner",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:53:48",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -124,7 +371,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 5,
+    "event_count": 12,
     "mention_count": 0
   },
   "mentions": [],

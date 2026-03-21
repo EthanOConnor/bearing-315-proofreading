@@ -9,13 +9,17 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:18:15",
           "competitive": true,
           "course_name": "SART 2015 - Round 4",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:18:15",
           "result_notes": "heat Heat 416",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Shoreline Community College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_rank",
+              "metric_numeric": 10
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "SART 2015 - Round 5",
           "course_rank": 5,
-          "outcome_text": "DNS",
+          "status_code": "DNS",
+          "outcome_text": "Final Rank 10",
           "result_notes": "heat Heat 515",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Rank 10",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +66,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:14:20",
           "competitive": true,
           "course_name": "SART 2015 - Round 1",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:14:20",
           "result_notes": "heat Heat 103",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +92,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:14:53",
           "competitive": true,
           "course_name": "SART 2015 - Round 2",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:14:53",
           "result_notes": "heat Heat 203",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -97,13 +118,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:15:45",
           "competitive": true,
           "course_name": "SART 2015 - Round 3",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:15:45",
           "result_notes": "heat Heat 301",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -119,13 +144,17 @@
       "venue_name": "Greenlake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:05:47",
           "competitive": true,
           "course_name": "SART 2015 - Time Trial",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:05:47",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

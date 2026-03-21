@@ -1,6 +1,70 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f49-759f-8833-4a34dcb3e71b",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2024-12-29",
+      "event_kind": "race",
+      "event_name": "2024 Choose Your Adventure #6",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 21
+            }
+          ],
+          "time_text": "02:55:27",
+          "competitive": true,
+          "course_name": "24 controls/points maximum",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "02:55:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 21",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7a49-8d0a-7425384b86de",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2021-01-22",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #2",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "01:16:43",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 23,
+          "status_code": "OK",
+          "outcome_text": "01:16:43",
+          "result_notes": null,
+          "category_name": "Female",
+          "category_rank": 23,
+          "metric_summary": "Points 71",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-737a-bc39-fb0baf22cbab",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2019-12-29",
@@ -9,13 +73,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Bog Slog – Women",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": "238:03",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -28,7 +96,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

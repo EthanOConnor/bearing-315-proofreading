@@ -1,6 +1,32 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7d88-9239-0514a07ddc1e",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2023-06-25",
+      "event_kind": "race",
+      "event_name": "2023 Ultimate Orienteer #8",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:33:27",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:33:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-776d-98c0-006294168ff2",
       "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
       "event_date": "2023-06-24",
@@ -9,16 +35,411 @@
       "venue_name": "Fishtrap Lake",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:02:18"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "00:33:27"
+            }
+          ],
+          "time_text": "01:35:45",
           "competitive": true,
           "course_name": "Intermediate Rec",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "01:35:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Day 1 Time 01:02:18; Day 2 Time 00:33:27",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7656-b27c-6ee5fa722c9e",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2023-06-24",
+      "event_kind": "race",
+      "event_name": "2023 Ultimate Orienteer #7",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:02:18",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:02:18",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-76d3-81aa-9fc381107fb6",
+      "venue_id": "019b7b62-9f59-7108-a468-484c9810028f",
+      "event_date": "2022-02-20",
+      "event_kind": "race",
+      "event_name": "2021-22 Winter League Championships",
+      "venue_name": "Fort Casey State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Varsity Girls",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7466-9012-160a8fe85944",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "event_date": "2022-02-19",
+      "event_kind": "race",
+      "event_name": "2021-22 Winter League Championships",
+      "venue_name": "Fort Ebey State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_score",
+              "metric_numeric": 88.93
+            },
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:41:59"
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "Day 1 Score 89; Day 1 Time 01:41:59",
+          "result_notes": null,
+          "category_name": "Varsity Female",
+          "category_rank": 8,
+          "metric_summary": "Day 1 Score 89; Day 1 Time 01:41:59",
           "additional_course": false,
           "affiliation_labels": [
-            "None"
+            "RAV"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_score",
+              "metric_numeric": 88.93
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Varsity Girls",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "Day 1 Score 89",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Day 1 Score 89",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7047-ae3d-09dc9a1ddc77",
+      "venue_id": null,
+      "event_date": "2022-02-19",
+      "event_kind": "race",
+      "event_name": "2021-22 Winter League Championships - 2-day Results",
+      "venue_name": "Unknown venue",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_score",
+              "metric_numeric": 88.93
+            },
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:41:59"
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "Day 1 Score 89; Day 1 Time 01:41:59",
+          "result_notes": null,
+          "category_name": "Varsity Female",
+          "category_rank": 11,
+          "metric_summary": "Day 1 Score 89; Day 1 Time 01:41:59",
+          "additional_course": false,
+          "affiliation_labels": [
+            "RAV"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_score",
+              "metric_numeric": 88.93
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Varsity Girls",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "Day 1 Score 89",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Day 1 Score 89",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b54-b7f7-ca80b15d10eb",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "event_date": "2022-02-19",
+      "event_kind": "race",
+      "event_name": "2022 Lighthouse Middle NRE",
+      "venue_name": "Fort Ebey State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:41:59",
+          "competitive": true,
+          "course_name": "Female 20 and Under",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "01:41:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "RAV"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-791e-a5bd-a9d5d86f1caf",
+      "venue_id": "019b81f3-1f39-757b-84c7-c9e26f0fe3f3",
+      "event_date": "2022-02-05",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 7",
+      "venue_name": "Summit Trails",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "01:14:20",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:14:20",
+          "result_notes": "school RAV",
+          "category_name": "HS Varsity Female",
+          "category_rank": 8,
+          "metric_summary": "Points 86",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7ad7-a374-3c14192ffb44",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2022-01-22",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 06 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "01:02:45",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "01:02:45",
+          "result_notes": "school RAV",
+          "category_name": "HS Varsity Female",
+          "category_rank": 6,
+          "metric_summary": "Points 88",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-74dc-a8fe-738945f87160",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2022-01-08",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 05",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "01:03:23",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "01:03:23",
+          "result_notes": "school RAV",
+          "category_name": "HS Varsity Female",
+          "category_rank": 7,
+          "metric_summary": "Points 87",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-78e2-9ed1-6c744b73bf3f",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2021-11-20",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 02",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:38:31",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "00:38:31",
+          "result_notes": "school RAV",
+          "category_name": "HS Varsity Female",
+          "category_rank": 8,
+          "metric_summary": "Points 86",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7646-a12e-e19320fb5540",
+      "venue_id": "019b820a-0444-7304-97d4-7674fd313a2f",
+      "event_date": "2021-04-12",
+      "event_kind": "race",
+      "event_name": "2021 Desert Run (Ultimate Orienteer #1 and #2) - Quincy",
+      "venue_name": "Quincy",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_text": "DNS"
+            }
+          ],
+          "time_text": "01:30:07",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "01:30:07",
+          "result_notes": null,
+          "category_name": "F-18",
+          "category_rank": null,
+          "metric_summary": "Day 1 Time DNS",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7329-a9a4-ce4442764501",
+      "venue_id": "019b81f3-1f39-7974-b1e6-37def8e76df3",
+      "event_date": "2021-04-11",
+      "event_kind": "race",
+      "event_name": "2021 Ultimate Orienteer #2",
+      "venue_name": "Quincy Lakes South Classic",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "01:30:07",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:30:07",
+          "result_notes": null,
+          "category_name": "F-18",
+          "category_rank": 1,
+          "metric_summary": "Points 1000",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
           ]
         }
       ],
@@ -27,12 +448,28 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
-    "event_count": 1,
+    "role_count": 1,
+    "event_count": 13,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a11-4d30-7da4-a71b-14a5287c6948",
   "individual_name": "Sophia Shomper",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4b-73a0-b17f-7fe2f64ece49",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "role_name": "Start",
+      "event_date": "2023-01-07",
+      "event_kind": "race",
+      "event_name": "2022 Winter League 05",
+      "venue_name": "Ft. Steilacoom Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2022-winter-league-05-ft-steilacoom/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

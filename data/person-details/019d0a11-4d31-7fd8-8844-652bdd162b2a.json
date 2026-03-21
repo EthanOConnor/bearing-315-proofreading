@@ -9,13 +9,90 @@
       "venue_name": "Fisk State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:10:13"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:13:58"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 445
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 984
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 4,
+          "status_code": null,
+          "outcome_text": "Day 1 Time 01:10:13; Day 2 Time 01:13:58; Points 445; Total Time 984",
           "result_notes": "ws_eligible Y",
           "category_name": "M45+",
           "category_rank": 4,
+          "metric_summary": "Day 1 Time 01:10:13; Day 2 Time 01:13:58; Points 445; Total Time 984",
+          "additional_course": false,
+          "affiliation_labels": [
+            "OCIN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-79ea-a620-43ca77d41a38",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 3 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:13:58",
+          "competitive": true,
+          "course_name": "Male 45+",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "01:13:58",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "OCIN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7466-a28e-8013795e821c",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 2 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:10:13",
+          "competitive": true,
+          "course_name": "Male 45+",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "01:10:13",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "OCIN"
@@ -33,13 +110,17 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:20:28",
           "competitive": true,
           "course_name": "SART 2015 - Round 4",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:20:28",
           "result_notes": "heat Heat 412",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +136,22 @@
       "venue_name": "Shoreline Community College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_rank",
+              "metric_numeric": 23
+            }
+          ],
+          "time_text": "00:21:45",
           "competitive": true,
           "course_name": "SART 2015 - Round 5",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:21:45",
           "result_notes": "heat Heat 512",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Rank 23",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -77,13 +167,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:16:28",
           "competitive": true,
           "course_name": "SART 2015 - Round 1",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:16:28",
           "result_notes": "heat Heat 101",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -99,13 +193,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:19:30",
           "competitive": true,
           "course_name": "SART 2015 - Round 2",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:19:30",
           "result_notes": "heat Heat 201",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -121,13 +219,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:19:21",
           "competitive": true,
           "course_name": "SART 2015 - Round 3",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:19:21",
           "result_notes": "heat Heat 302",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -143,13 +245,17 @@
       "venue_name": "Greenlake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:07:21",
           "competitive": true,
           "course_name": "SART 2015 - Time Trial",
           "course_rank": 33,
+          "status_code": "OK",
           "outcome_text": "00:07:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -165,39 +271,51 @@
       "venue_name": "Camp Sekani WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:22:05",
           "competitive": true,
           "course_name": "Blue",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:22:05",
           "result_notes": "nation US; us_eligible N",
           "category_name": "M21",
           "category_rank": 9,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "OCIN"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "00:22:05",
           "competitive": true,
           "course_name": "Blue",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:22:05",
           "result_notes": "nation US; us_eligible N",
           "category_name": "M21",
           "category_rank": 9,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "OCIN"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "00:22:05",
           "competitive": true,
           "course_name": "Blue",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:22:05",
           "result_notes": "nation US; us_eligible N",
           "category_name": "M21",
           "category_rank": 9,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "OCIN"
@@ -210,7 +328,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 8,
+    "event_count": 10,
     "mention_count": 0
   },
   "mentions": [],

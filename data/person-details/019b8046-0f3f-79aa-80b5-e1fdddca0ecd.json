@@ -9,13 +9,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:15:44",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 36,
+          "status_code": null,
           "outcome_text": "01:15:44",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "MPHS"
@@ -33,13 +37,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 56
+            }
+          ],
+          "time_text": "00:55:42",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 38,
+          "status_code": null,
           "outcome_text": "00:55:42",
           "result_notes": "novice",
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 56",
           "additional_course": false,
           "affiliation_labels": [
             "MPHS"

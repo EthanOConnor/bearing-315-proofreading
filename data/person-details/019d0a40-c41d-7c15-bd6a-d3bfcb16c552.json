@@ -9,13 +9,34 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "controls_found",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "map_1_skips",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "mins_late",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "total_score",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:47:50",
           "competitive": true,
           "course_name": "Choose Your Adventure #2 (Campus)",
           "course_rank": 26,
+          "status_code": "OK",
           "outcome_text": "00:47:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Controls Found 24; Map 1 Skips 0; Mins Late 0; Total Score 24",
           "additional_course": false,
           "affiliation_labels": [
             "OK"

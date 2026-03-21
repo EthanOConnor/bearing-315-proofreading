@@ -9,17 +9,55 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 73
+            }
+          ],
+          "time_text": "01:15:13",
           "competitive": true,
           "course_name": "Long Advanced Open",
-          "course_rank": null,
+          "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "01:15:13",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 73",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7640-9995-0065f809b0d4",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "event_date": "2025-04-19",
+      "event_kind": "race",
+      "event_name": "2025 Ultimate Orienteer #4",
+      "venue_name": "Putney Woods",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 552
+            }
+          ],
+          "time_text": "01:47:57",
+          "competitive": true,
+          "course_name": "Open",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "01:47:57",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 552",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1
@@ -28,7 +66,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

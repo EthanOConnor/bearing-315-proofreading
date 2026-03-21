@@ -1,6 +1,68 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7d26-b685-4390bf857238",
+      "venue_id": "019b81f3-1f39-731b-92c2-66617be76e85",
+      "event_date": "2021-06-13",
+      "event_kind": "race",
+      "event_name": "2021 Ultimate Orienteer #6",
+      "venue_name": "Jack Creek Middle",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 526
+            }
+          ],
+          "time_text": "01:28:24",
+          "competitive": true,
+          "course_name": "Male 50+",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:28:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 526",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e65-9426-e592354665ba",
+      "venue_id": "019b7b2f-bf4b-7d04-bb73-a3e7756e878a",
+      "event_date": "2021-06-12",
+      "event_kind": "race",
+      "event_name": "2021 Ultimate Orienteer #5",
+      "venue_name": "Teanaway Forks",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 688
+            }
+          ],
+          "time_text": "02:32:55",
+          "competitive": true,
+          "course_name": "Male 50+",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "02:32:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 688",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4c-7357-b927-2cee44df0924",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2011-02-19",
@@ -9,13 +71,22 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "01:45:36",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "01:45:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "Cascades"
@@ -33,13 +104,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:49:26",
           "competitive": true,
           "course_name": "Red",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:49:26",
           "result_notes": null,
           "category_name": "M45+",
           "category_rank": 6,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "NA"
@@ -57,13 +132,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:31:28",
           "competitive": true,
           "course_name": "Red",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:31:28",
           "result_notes": "us_eligible N",
           "category_name": "M45+",
           "category_rank": 7,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "NA"
@@ -81,13 +160,22 @@
       "venue_name": "Washington Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "00:48:30",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 17,
+          "status_code": null,
           "outcome_text": "00:48:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 79",
           "additional_course": false,
           "affiliation_labels": [
             "CHUCKO"
@@ -105,13 +193,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:11:18",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 11,
+          "status_code": null,
           "outcome_text": "01:11:18",
           "result_notes": "did not punch marker #1 (misplaced)",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -127,13 +219,17 @@
       "venue_name": "Cle Elum Ridge",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:35:32",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 2,
+          "status_code": null,
           "outcome_text": "01:35:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -149,13 +245,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 748
+            }
+          ],
+          "time_text": "01:25:37",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 6,
+          "status_code": null,
           "outcome_text": "01:25:37",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 748",
           "additional_course": false,
           "affiliation_labels": [
             "CHUCKO"
@@ -173,13 +278,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:04:39",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 5,
+          "status_code": null,
           "outcome_text": "01:04:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -195,13 +304,22 @@
       "venue_name": "Cle Elum Ridge",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 616
+            }
+          ],
+          "time_text": "01:53:21",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "01:53:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 616",
           "additional_course": false,
           "affiliation_labels": [
             "CHUCKO"
@@ -216,7 +334,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 9,
+    "event_count": 11,
     "mention_count": 0
   },
   "mentions": [],

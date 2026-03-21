@@ -9,13 +9,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 62
+            }
+          ],
+          "time_text": "02:14:06",
           "competitive": true,
           "course_name": "Long Advanced Open",
-          "course_rank": null,
+          "course_rank": 32,
+          "status_code": "OK",
           "outcome_text": "02:14:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 62",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "01:01:28",
           "competitive": true,
           "course_name": "Short Advanced Open",
-          "course_rank": null,
+          "course_rank": 19,
+          "status_code": "OK",
           "outcome_text": "01:01:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +75,88 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "02:53:14",
           "competitive": true,
           "course_name": "Long Advanced Open",
-          "course_rank": null,
+          "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "02:53:14",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 76",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 54
+            }
+          ],
+          "time_text": "01:37:34",
+          "competitive": true,
+          "course_name": "Long Advanced Open",
+          "course_rank": 40,
+          "status_code": "OK",
+          "outcome_text": "01:37:34",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 54",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 57
+            }
+          ],
+          "time_text": "00:57:34",
+          "competitive": true,
+          "course_name": "Long Advanced Open",
+          "course_rank": 37,
+          "status_code": "OK",
+          "outcome_text": "00:57:34",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 57",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -81,13 +174,26 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:48:14",
           "competitive": true,
           "course_name": "CYA",
-          "course_rank": null,
+          "course_rank": 39,
+          "status_code": "OK",
           "outcome_text": "00:48:14",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -100,7 +206,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

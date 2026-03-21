@@ -12,6 +12,7 @@
     {
       "results": [
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "01913f3d-79d8-7740-a488-edae8345dff9",
           "time_text": "01:02:30",
@@ -23,12 +24,14 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "0191391d-2b10-71e9-a57a-e068208fa409",
+          "metric_summary": null,
           "competitor_name": "Göran Larsson",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "01913f3d-79d9-7fb2-8895-8bb462c5aa8f",
           "time_text": "01:17:30",
@@ -40,12 +43,14 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "0191391d-36c8-7efb-902e-0defd7a1317e",
+          "metric_summary": null,
           "competitor_name": "Dave Enger",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "01913f3d-79da-76f0-836f-70e60b68e32a",
           "time_text": "01:54:30",
@@ -57,12 +62,14 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "590b73ca-93d8-45e3-a464-4a005ab13147",
+          "metric_summary": null,
           "competitor_name": "J. Roubal",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "01913f3d-79da-7079-99c2-edb16f39da5f",
           "time_text": "02:34:00",
@@ -74,6 +81,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "91975e9a-ea20-4754-848a-6389f2d02ac0",
+          "metric_summary": null,
           "competitor_name": "Tony Paulson",
           "competitor_type": "individual",
           "additional_course": false,
@@ -103,9 +111,22 @@
   "event_kind": "race",
   "event_name": "St Ed Nov 17 '79",
   "venue_name": "St. Edward State Park",
+  "event_notes": "On November 17, 1979, Charlie Bock set up three challenging courses at the St. Edwards State Park in Kirkland.\n",
   "course_count": 3,
   "result_count": 4,
   "citation_count": 3,
+  "event_comments": null,
+  "external_links": [],
+  "volunteer_roles": [
+    {
+      "role_name": "Meet Director",
+      "individual_id": "01913972-bac3-7889-82cd-f7ea819b9813",
+      "citation_count": 0,
+      "individual_name": "Charlie Bock",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ],
   "result_source_brief": "Bearing 315, October/November 1979",
   "organizing_club_name": "Cascade Orienteering Club"
 }

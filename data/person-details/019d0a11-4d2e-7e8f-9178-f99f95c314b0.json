@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 2
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:20:17",
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:20:17",
           "result_notes": "school STT",
           "category_name": "Elementary Boys",
           "category_rank": null,
+          "metric_summary": "Pos 2; Score 95",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +44,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:39:03",
           "competitive": true,
           "course_name": "Elementary School Boys",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:39:03",
           "result_notes": "school St. Thomas",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": []
         }

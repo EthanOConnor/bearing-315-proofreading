@@ -9,13 +9,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:10:04",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 1,
+          "status_code": null,
           "outcome_text": "00:10:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:26:49",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 3,
+          "status_code": null,
           "outcome_text": "00:26:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -55,13 +68,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:24:27",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 6,
+          "status_code": null,
           "outcome_text": "00:24:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 89",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -79,13 +101,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:21:18",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:21:18",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

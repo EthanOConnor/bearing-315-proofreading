@@ -1,6 +1,37 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-79ed-8fcd-e1b4fc2fcbd4",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
+      "event_date": "2021-01-09",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #1",
+      "venue_name": "Shoreview Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:46:21",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:46:21",
+          "result_notes": null,
+          "category_name": "Female",
+          "category_rank": 1,
+          "metric_summary": "Points 100",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7efc-9a48-43ee67f98d99",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2018-02-17",
@@ -9,13 +40,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 4
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:58:05",
           "competitive": true,
           "course_name": "Jr. Varsity Girls",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:58:05",
           "result_notes": "school BBL",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 4; Score 90",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +75,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:03:14",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "01:03:14",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STL"
@@ -55,13 +103,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:08:46",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 20,
+          "status_code": "OK",
           "outcome_text": "01:08:46",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STL"
@@ -79,13 +131,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:24:59",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:24:59",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STL"
@@ -103,13 +159,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:26:41",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:26:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STL"
@@ -127,13 +187,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:24:25",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:24:25",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -149,13 +213,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:09",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:32:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STL"
@@ -168,7 +236,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 7,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

@@ -9,13 +9,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:48:50",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 41,
+          "status_code": "OK",
           "outcome_text": "00:48:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:21:49",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 49,
+          "status_code": "OK",
           "outcome_text": "01:21:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

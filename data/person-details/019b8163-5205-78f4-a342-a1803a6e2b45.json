@@ -9,13 +9,17 @@
       "venue_name": "Lake Tradition",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:33:00",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 13,
+          "status_code": null,
           "outcome_text": "01:33:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Forest Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": "01:27:15",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 42,
+          "status_code": null,
           "outcome_text": "01:27:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 61",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +66,22 @@
       "venue_name": "Kelsey Creek Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 67
+            }
+          ],
+          "time_text": "00:36:43",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 33,
+          "status_code": null,
           "outcome_text": "00:36:43",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 67",
           "additional_course": false,
           "affiliation_labels": []
         }

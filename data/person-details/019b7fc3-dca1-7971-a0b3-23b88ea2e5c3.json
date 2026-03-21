@@ -9,13 +9,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "01:17:10",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 14,
+          "status_code": null,
           "outcome_text": "01:17:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 81",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +66,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:21:03",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 15,
+          "status_code": null,
           "outcome_text": "00:21:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +97,17 @@
       "venue_name": "Cle Elum Ridge",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "04:08:49",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 9,
+          "status_code": null,
           "outcome_text": "04:08:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -97,13 +123,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 607
+            }
+          ],
+          "time_text": "01:45:35",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 11,
+          "status_code": null,
           "outcome_text": "01:45:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 607",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -121,13 +156,26 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 260
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 448
+            }
+          ],
+          "time_text": "00:58:22",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 21,
+          "status_code": null,
           "outcome_text": "00:58:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 260; Uo Points 448",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -145,13 +193,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:39:22",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 15,
+          "status_code": null,
           "outcome_text": "00:39:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 83",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -169,13 +226,22 @@
       "venue_name": "Forest Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:54:45",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 15,
+          "status_code": null,
           "outcome_text": "00:54:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 80",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -193,13 +259,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:34:28",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 15,
+          "status_code": null,
           "outcome_text": "00:34:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 83",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -217,13 +292,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "01:01:06",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 30,
+          "status_code": "OK",
           "outcome_text": "01:01:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 71",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -241,13 +325,22 @@
       "venue_name": "Washington Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:46:03",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:46:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 85",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -263,13 +356,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:31:55",
           "competitive": true,
           "course_name": "Course Four",
           "course_rank": 21,
+          "status_code": null,
           "outcome_text": "00:31:55",
           "result_notes": null,
           "category_name": "Winter O' Series",
           "category_rank": null,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 53
+            }
+          ],
+          "time_text": "01:38:59",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 41,
+          "status_code": "OK",
           "outcome_text": "01:38:59",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 53",
           "additional_course": false,
           "affiliation_labels": [
             "Juanita"
@@ -33,13 +42,17 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Juanita"
@@ -57,13 +70,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 47
+            }
+          ],
+          "time_text": "01:53:55",
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": 47,
+          "status_code": "OK",
           "outcome_text": "01:53:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 47",
           "additional_course": false,
           "affiliation_labels": [
             "Juanita"

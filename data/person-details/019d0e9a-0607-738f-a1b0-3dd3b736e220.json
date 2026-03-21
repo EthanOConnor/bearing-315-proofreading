@@ -1,0 +1,71 @@
+{
+  "events": [
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:32:27",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:32:27",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 6,
+          "metric_summary": "Points 88",
+          "additional_course": false,
+          "affiliation_labels": [
+            "LIB"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:32:27"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School Rookie Teams",
+          "course_rank": 14,
+          "status_code": null,
+          "outcome_text": "Finish 00:32:27; Points 88",
+          "result_notes": "trailing_paren:LIB",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:32:27; Points 88",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 1,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0e9a-0607-738f-a1b0-3dd3b736e220",
+  "individual_name": "Brendan McNeill",
+  "volunteer_roles": []
+}

@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:40:42",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:40:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -33,13 +37,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:30:46",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:30:46",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 89",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -57,13 +70,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:35:49",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:35:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -81,13 +103,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "00:36:04",
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:36:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 81",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"

@@ -9,13 +9,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 63
+            }
+          ],
+          "time_text": "00:33:25",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 36,
+          "status_code": null,
           "outcome_text": "00:33:25",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 63",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,17 @@
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:05:48",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 21,
+          "status_code": null,
           "outcome_text": "01:05:48",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +66,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:20:01",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 8,
+          "status_code": null,
           "outcome_text": "01:20:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +92,17 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:22:52",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:22:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

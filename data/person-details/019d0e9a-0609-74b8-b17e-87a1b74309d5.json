@@ -1,0 +1,80 @@
+{
+  "events": [
+    {
+      "event_id": "019b81f3-1f4c-7a49-8d0a-7425384b86de",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2021-01-22",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #2",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:30:41",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:30:41",
+          "result_notes": null,
+          "category_name": "Female",
+          "category_rank": 3,
+          "metric_summary": "Points 92",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-79ed-8fcd-e1b4fc2fcbd4",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
+      "event_date": "2021-01-09",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #1",
+      "venue_name": "Shoreview Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:34:40",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:34:40",
+          "result_notes": null,
+          "category_name": "Female",
+          "category_rank": 2,
+          "metric_summary": "Points 95",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CascadeOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 2,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0e9a-0609-74b8-b17e-87a1b74309d5",
+  "individual_name": "Jo Etter",
+  "volunteer_roles": []
+}

@@ -9,26 +9,39 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:37:11",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:37:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "NISQ"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "01:05:58",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 17,
+          "status_code": "OK",
           "outcome_text": "01:05:58",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": []
         }

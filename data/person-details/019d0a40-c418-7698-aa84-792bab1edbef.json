@@ -9,13 +9,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "02:08:01",
           "competitive": true,
           "course_name": "WIOL Course #3",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:08:01",
           "result_notes": "type DOM",
           "category_name": "Girls",
           "category_rank": 16,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "Burlington-Edison"

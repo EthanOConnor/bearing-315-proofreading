@@ -1,6 +1,410 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7ce1-bea0-7f47407e4eac",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "event_date": "2022-07-13",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening #3",
+      "venue_name": "Wilburton Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:48:15",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:48:15",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7d5c-af4d-a9be5bb44670",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2022-06-22",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening #2",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:43:24",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:43:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7162-b730-27f262865f09",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2022-05-18",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening #1",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:40:56",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:40:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-74dc-a8fe-738945f87160",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2022-01-08",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 05",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "01:03:08",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:03:08",
+          "result_notes": null,
+          "category_name": "Long Adv Male",
+          "category_rank": 15,
+          "metric_summary": "Points 79",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-78e2-9ed1-6c744b73bf3f",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "event_date": "2021-11-20",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 02",
+      "venue_name": "North Seatac Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "00:41:29",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "00:41:29",
+          "result_notes": null,
+          "category_name": "Long Adv Male",
+          "category_rank": 18,
+          "metric_summary": "Points 76",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-74bc-9b52-63710942c69e",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2021-11-06",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "01:06:32",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "01:06:32",
+          "result_notes": null,
+          "category_name": "Long Adv Male",
+          "category_rank": 15,
+          "metric_summary": "Points 79",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-70fd-9800-ac7856b7bacb",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "event_date": "2021-08-11",
+      "event_kind": "race",
+      "event_name": "2021 Wednesday Evening #3",
+      "venue_name": "Seattle Pacific University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:42:04",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:42:04",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-73e3-9737-07da8d00b576",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2021-07-14",
+      "event_kind": "race",
+      "event_name": "2021 Wednesday Evening #1",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:09:49",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "01:09:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-7c38-889f-bd8f1cec6f1e",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2021-03-06",
+      "event_kind": "race",
+      "event_name": "2021 Winter League #1",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "01:28:01",
+          "competitive": true,
+          "course_name": "Long Adv Men",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "01:28:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 85",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b23-9c71-9520d8995c2b",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2021-02-20",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #4",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:29:04",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:29:04",
+          "result_notes": null,
+          "category_name": "Male",
+          "category_rank": 10,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-758d-8010-ca701b5bcf92",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2021-02-06",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #3",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:28:05",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "00:28:05",
+          "result_notes": null,
+          "category_name": "Male",
+          "category_rank": 9,
+          "metric_summary": "Points 85",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7a49-8d0a-7425384b86de",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2021-01-22",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #2",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 77
+            }
+          ],
+          "time_text": "00:27:06",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "00:27:06",
+          "result_notes": null,
+          "category_name": "Male",
+          "category_rank": 17,
+          "metric_summary": "Points 77",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-79ed-8fcd-e1b4fc2fcbd4",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
+      "event_date": "2021-01-09",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #1",
+      "venue_name": "Shoreview Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:46:51",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "00:46:51",
+          "result_notes": null,
+          "category_name": "Male",
+          "category_rank": 16,
+          "metric_summary": "Points 78",
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-737a-bc39-fb0baf22cbab",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2019-12-29",
@@ -9,13 +413,22 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 13
+            }
+          ],
+          "time_text": "03:03:35",
           "competitive": true,
           "course_name": "Bog Slog – Men",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "03:03:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 13",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +446,22 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 5
+            }
+          ],
+          "time_text": "01:26:35",
           "competitive": true,
           "course_name": "Bog Jog",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:26:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 5",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -52,7 +474,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 15,
     "mention_count": 0
   },
   "mentions": [],

@@ -9,13 +9,22 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 67
+            }
+          ],
+          "time_text": "00:43:22",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 27,
+          "status_code": "OK",
           "outcome_text": "00:43:22",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 27,
+          "metric_summary": "Points 67",
           "additional_course": false,
           "affiliation_labels": [
             "MTM"

@@ -9,13 +9,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "01:29:39",
           "competitive": true,
           "course_name": "High School Varsity Girls",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "01:29:39",
           "result_notes": "school Curtis",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:01:28",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "01:01:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CUR"
@@ -55,13 +68,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:39:33",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:39:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CUR"
@@ -79,13 +96,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P7M",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CUR"

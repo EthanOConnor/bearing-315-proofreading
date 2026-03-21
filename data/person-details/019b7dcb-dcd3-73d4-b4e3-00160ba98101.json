@@ -9,13 +9,22 @@
       "venue_name": "Cle Elum Ridge",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 611
+            }
+          ],
+          "time_text": "01:54:15",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "01:54:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 611",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,17 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:29:54",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:29:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "HUSKY"
@@ -55,13 +68,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:23:20",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:23:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "HUSKY"
@@ -162,7 +179,7 @@
       "role_name": "Course Pickup",
       "event_date": "1999-11-13",
       "event_kind": "race",
-      "event_name": "Adventure Run",
+      "event_name": "St. Edward Adventure Run",
       "venue_name": "St. Edward State Park",
       "citation_count": 0,
       "citation_briefs": [],
@@ -175,7 +192,7 @@
       "role_name": "Set-up",
       "event_date": "1999-11-13",
       "event_kind": "race",
-      "event_name": "Adventure Run",
+      "event_name": "St. Edward Adventure Run",
       "venue_name": "St. Edward State Park",
       "citation_count": 0,
       "citation_briefs": [],

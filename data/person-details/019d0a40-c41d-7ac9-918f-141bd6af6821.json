@@ -9,13 +9,30 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "minutes_late",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "punches",
+              "metric_numeric": 14
+            },
+            {
+              "metric_key": "total_score",
+              "metric_numeric": 14
+            }
+          ],
+          "time_text": "00:50:35",
           "competitive": true,
           "course_name": "Choose Your Adventure - Vampire",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:50:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Minutes Late 0; Punches 14; Total Score 14",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +48,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:39",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:35:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

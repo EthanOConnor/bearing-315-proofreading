@@ -9,13 +9,83 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 60
+            }
+          ],
+          "time_text": "02:36:52",
           "competitive": true,
           "course_name": "Long Advanced Open",
-          "course_rank": null,
+          "course_rank": 34,
+          "status_code": "OK",
           "outcome_text": "02:36:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 60",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 54
+            }
+          ],
+          "time_text": "01:04:44",
+          "competitive": true,
+          "course_name": "Long Advanced Open",
+          "course_rank": 40,
+          "status_code": "OK",
+          "outcome_text": "01:04:44",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 54",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7606-897c-064bbbab0623",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2025-06-22",
+      "event_kind": "race",
+      "event_name": "2025 Ultimate Orienteer #8",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Medium Adv Rec",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CROC"
@@ -33,13 +103,91 @@
       "venue_name": "Moses Lake Sand Dunes",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_place",
+              "metric_numeric": 2
+            },
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:52:33"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_text": "DNF"
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Medium Advanced Rec",
           "course_rank": null,
-          "outcome_text": "DNF",
+          "status_code": "DNF",
+          "outcome_text": "Day 1 Time 01:52:33; Day 2 Time DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Day 1 Time 01:52:33; Day 2 Time DNF",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7fbb-b8cb-9b5f0b277c63",
+      "venue_id": "019b81f3-1f39-710d-8e0d-1ef8ec0846cd",
+      "event_date": "2025-06-21",
+      "event_kind": "race",
+      "event_name": "2025 Ultimate Orienteer #7",
+      "venue_name": "Moses Lake Sand Dunes",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:52:33",
+          "competitive": true,
+          "course_name": "Medium Adv Rec",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "01:52:33",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "CROC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-750d-85e5-15eb198b4193",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2025-02-22",
+      "event_kind": "race",
+      "event_name": "2024-25 Winter League Championships",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 64
+            }
+          ],
+          "time_text": "02:29:53",
+          "competitive": true,
+          "course_name": "Long Advanced Open",
+          "course_rank": 30,
+          "status_code": "OK",
+          "outcome_text": "02:29:53",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 64",
           "additional_course": false,
           "affiliation_labels": [
             "CROC"
@@ -57,13 +205,22 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 452
+            }
+          ],
+          "time_text": "00:44:33",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 27,
+          "status_code": null,
           "outcome_text": "00:44:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 452",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -73,12 +230,28 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
-    "event_count": 3,
+    "role_count": 1,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019b817f-ae31-7288-90d0-32da9fe237c4",
   "individual_name": "Bjorn Freeman-Benson",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4c-7fbb-b8cb-9b5f0b277c63",
+      "venue_id": "019b81f3-1f39-710d-8e0d-1ef8ec0846cd",
+      "role_name": "Parking",
+      "event_date": "2025-06-21",
+      "event_kind": "race",
+      "event_name": "2025 Ultimate Orienteer #7",
+      "venue_name": "Moses Lake Sand Dunes",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2025-ultimate-orienteer-7-middle-moses-lake-sand-dunes/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

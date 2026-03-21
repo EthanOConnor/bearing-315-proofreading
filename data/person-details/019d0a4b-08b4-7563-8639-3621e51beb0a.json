@@ -9,13 +9,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "01:36:05",
           "competitive": true,
           "course_name": "Short Advanced Open",
-          "course_rank": null,
+          "course_rank": 22,
+          "status_code": "OK",
           "outcome_text": "01:36:05",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 72",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,22 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Short Advanced Open",
           "course_rank": null,
-          "outcome_text": "DNF",
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
           "result_notes": "–:–",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 0",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +75,50 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 60
+            }
+          ],
+          "time_text": "01:33:15",
           "competitive": true,
           "course_name": "Short Advanced Open",
-          "course_rank": null,
+          "course_rank": 34,
+          "status_code": "OK",
           "outcome_text": "01:33:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 60",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:34:50",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "00:34:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -76,7 +131,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

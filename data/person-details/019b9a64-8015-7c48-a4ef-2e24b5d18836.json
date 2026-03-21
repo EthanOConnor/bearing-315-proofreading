@@ -9,13 +9,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 59
+            }
+          ],
+          "time_text": "00:50:20",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 43,
+          "status_code": "OK",
           "outcome_text": "00:50:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 59",
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -5,17 +5,21 @@
       "venue_id": "01913927-5a14-7bdb-8b3c-b840c25c4d0c",
       "event_date": "1980-04-19",
       "event_kind": "race",
-      "event_name": "Carkeek Park Meet",
+      "event_name": "Carkeek Park",
       "venue_name": "Carkeek Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:30:00",
           "competitive": true,
           "course_name": "Red Course",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "01:30:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -27,17 +31,21 @@
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "1980-04-05",
       "event_kind": "race",
-      "event_name": "St. Edwards State Park Meet",
+      "event_name": "St. Edward State Park",
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Red Course",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +61,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 52
+            }
+          ],
+          "time_text": "00:57:15",
           "competitive": true,
           "course_name": "Orange Course",
           "course_rank": 4,
+          "status_code": null,
           "outcome_text": "00:57:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 52",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +92,17 @@
       "venue_name": "Fort Lewis - Area 33",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:34:10",
           "competitive": true,
           "course_name": "Yellow Course",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:34:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -99,13 +120,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:30:00",
           "competitive": true,
           "course_name": "Training Course",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:30:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -121,13 +146,17 @@
       "venue_name": "Fort Lewis - Chambers Lake Area",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:00",
           "competitive": true,
           "course_name": "White",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "01:00:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -151,7 +180,7 @@
       "role_name": "Volunteer Help",
       "event_date": "1980-10-26",
       "event_kind": "race",
-      "event_name": "Seward Park Meet",
+      "event_name": "Seward Park",
       "venue_name": "Seward Park",
       "citation_count": 0,
       "citation_briefs": [],

@@ -9,13 +9,26 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1450
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 351
+            }
+          ],
+          "time_text": "00:58:56",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:58:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 1450; Uo Points 351",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -29,17 +42,26 @@
       "venue_id": "019b7ac6-ee5e-70d9-b10c-6b7226ca847c",
       "event_date": "1997-12-13",
       "event_kind": "race",
-      "event_name": "O' Series #1 / WIOL #1",
+      "event_name": "Kelsey Creek Park",
       "venue_name": "Kelsey Creek Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:46:17",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:46:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 7
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:45:29",
           "competitive": true,
           "course_name": "Jr. Varsity Boys (N)",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:45:29",
           "result_notes": "school JUA",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 7; Score 87",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +44,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 73
+            }
+          ],
+          "time_text": "00:47:38",
           "competitive": true,
           "course_name": "High School JV Boys North",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "00:47:38",
           "result_notes": "school Juanita",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 73",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +75,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:48:56",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "00:48:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "FIN"
@@ -77,13 +103,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:36",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 25,
+          "status_code": "OK",
           "outcome_text": "00:35:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "FIN"

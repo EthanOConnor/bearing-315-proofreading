@@ -9,13 +9,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 222
+            }
+          ],
+          "time_text": "00:41:21",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 41,
+          "status_code": null,
           "outcome_text": "00:41:21",
           "result_notes": "controls 10",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 222",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,24 +40,32 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:12:34",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 5,
+          "status_code": null,
           "outcome_text": "00:12:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "00:28:10",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 11,
+          "status_code": null,
           "outcome_text": "00:28:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

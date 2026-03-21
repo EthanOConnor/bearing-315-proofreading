@@ -9,13 +9,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 68
+            }
+          ],
+          "time_text": "00:36:28",
           "competitive": true,
           "course_name": "Public 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:36:28",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 26,
+          "metric_summary": "Points 68",
           "additional_course": false,
           "affiliation_labels": []
         }

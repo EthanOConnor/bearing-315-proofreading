@@ -1,6 +1,32 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-76be-8790-c670a0e74776",
+      "venue_id": "019d0457-2e53-789d-9356-adf97a2668d5",
+      "event_date": "2023-04-22",
+      "event_kind": "race",
+      "event_name": "2023 Ultimate Orienteer #4",
+      "venue_name": "Camp Hamilton",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:50:23",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:50:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-713d-a61d-55eafed36318",
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "2015-12-05",
@@ -9,13 +35,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 59
+            }
+          ],
+          "time_text": "00:38:53",
           "competitive": true,
           "course_name": "Middle School Boys",
           "course_rank": 35,
+          "status_code": "OK",
           "outcome_text": "00:38:53",
           "result_notes": "school St. Thomas",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 59",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -26,7 +61,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

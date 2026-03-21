@@ -9,13 +9,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:39:48",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:39:48",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "ING"
@@ -33,13 +37,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:39:43",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:39:43",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "ING"
@@ -57,13 +65,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:33:49",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:33:49",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 14,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -81,13 +93,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:57:36",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 22,
+          "status_code": "OK",
           "outcome_text": "00:57:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "ING"
@@ -105,13 +121,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:37:28",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:37:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -127,13 +147,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:54:32",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:54:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "ING"
@@ -151,13 +175,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:38:14",
           "competitive": true,
           "course_name": "WIOL 6M",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:38:14",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "ING"
@@ -175,13 +203,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:48:49",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 27,
+          "status_code": "OK",
           "outcome_text": "00:48:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "ING"
@@ -199,13 +231,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:35:11",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:35:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
@@ -223,13 +264,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:34:42",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:34:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 83",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
@@ -247,52 +297,88 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:35:24",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:35:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:35:24",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:35:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:35:24",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:35:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:35:24",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:35:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
@@ -310,13 +396,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:19:29",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:19:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
@@ -334,13 +429,17 @@
       "venue_name": "Teanaway - Cle Elum WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -356,13 +455,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:52:20",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 17,
+          "status_code": "OK",
           "outcome_text": "00:52:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessor"
@@ -380,13 +483,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:18:09",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:18:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Wood-Mont"
@@ -404,13 +516,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:30:21",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:30:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Wood-Mont"
@@ -428,13 +549,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:33:21",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:33:21",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": 5,
+          "metric_summary": "Points 89",
           "additional_course": false,
           "affiliation_labels": [
             "Wood-Mont"
@@ -452,13 +582,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:25:31",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:25:31",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": 4,
+          "metric_summary": "Points 90",
           "additional_course": false,
           "affiliation_labels": [
             "Wood-Mont"
@@ -476,13 +615,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:22:43",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:22:43",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": 2,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Wood-Mont"
@@ -500,13 +648,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:16:59",
           "competitive": true,
           "course_name": "WIOL Course #2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:16:59",
           "result_notes": "type S",
           "category_name": "Boys",
           "category_rank": 5,
+          "metric_summary": "Points 89",
           "additional_course": false,
           "affiliation_labels": [
             "Wood-Mont"
@@ -524,13 +681,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:21:27",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:21:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

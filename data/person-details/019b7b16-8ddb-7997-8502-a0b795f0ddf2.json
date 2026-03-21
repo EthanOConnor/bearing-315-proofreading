@@ -1,6 +1,58 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-79da-a571-925b42f2b68c",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "event_date": "2025-08-13",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #6",
+      "venue_name": "Seattle Pacific University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:03:55",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 46,
+          "status_code": "OK",
+          "outcome_text": "01:03:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-735f-818e-236ce563821e",
+      "venue_id": "019b81f3-1f39-7301-84db-3b91ea010d02",
+      "event_date": "2025-05-21",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #1",
+      "venue_name": "Wilburton Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:20:02",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 40,
+          "status_code": "OK",
+          "outcome_text": "01:20:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4c-7411-96c1-eb3ff75cbdba",
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "2012-11-03",
@@ -9,13 +61,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:59:57",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 30,
+          "status_code": "OK",
           "outcome_text": "00:59:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,52 +89,68 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -96,13 +168,17 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -118,13 +194,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 54
+            }
+          ],
+          "time_text": "00:58:38",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 40,
+          "status_code": "OK",
           "outcome_text": "00:58:38",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 54",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -142,13 +227,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 46
+            }
+          ],
+          "time_text": "00:49:00",
           "competitive": true,
           "course_name": "Public 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:49:00",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 48,
+          "metric_summary": "Points 46",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -164,13 +258,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Public 7",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -188,13 +286,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 73
+            }
+          ],
+          "time_text": "00:42:53",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:42:53",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 22,
+          "metric_summary": "Points 73",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -212,13 +319,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -236,13 +347,22 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "00:58:37",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 22,
+          "status_code": "OK",
           "outcome_text": "00:58:37",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 72",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -260,13 +380,22 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 59
+            }
+          ],
+          "time_text": "01:08:11",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 35,
+          "status_code": "OK",
           "outcome_text": "01:08:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 59",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -284,13 +413,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 55
+            }
+          ],
+          "time_text": "00:57:42",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:57:42",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 39,
+          "metric_summary": "Points 55",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -308,13 +446,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:35:40",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "00:35:40",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 80",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -332,13 +479,22 @@
       "venue_name": "Lake Sammamish State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "01:04:17",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "01:04:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -356,13 +512,22 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "00:42:21",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 22,
+          "status_code": "OK",
           "outcome_text": "00:42:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 72",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -380,13 +545,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "00:46:57",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "00:46:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 74",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -404,13 +578,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 62
+            }
+          ],
+          "time_text": "00:48:12",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 37,
+          "status_code": "OK",
           "outcome_text": "00:48:12",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 62",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -428,13 +611,22 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:40:34",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "00:40:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -452,13 +644,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "00:41:13",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:41:13",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 79",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -476,13 +677,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:27:03",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:27:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -498,13 +703,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:55:40",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 17,
+          "status_code": null,
           "outcome_text": "00:55:40",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -520,13 +729,22 @@
       "venue_name": "Cle Elum Ridge",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 497
+            }
+          ],
+          "time_text": "01:49:41",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 22,
+          "status_code": null,
           "outcome_text": "01:49:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 497",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -542,13 +760,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 751
+            }
+          ],
+          "time_text": "00:23:59",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 9,
+          "status_code": null,
           "outcome_text": "00:23:59",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 751",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -564,13 +791,22 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 584
+            }
+          ],
+          "time_text": "00:34:27",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 19,
+          "status_code": null,
           "outcome_text": "00:34:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 584",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -588,13 +824,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 712
+            }
+          ],
+          "time_text": "00:31:13",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 12,
+          "status_code": null,
           "outcome_text": "00:31:13",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 712",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -610,13 +855,17 @@
       "venue_name": "Lake Tradition",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:45:57",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 19,
+          "status_code": null,
           "outcome_text": "01:45:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -632,13 +881,22 @@
       "venue_name": "Washington Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "00:58:07",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 27,
+          "status_code": null,
           "outcome_text": "00:58:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 72",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -654,13 +912,22 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 68
+            }
+          ],
+          "time_text": "01:10:15",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 32,
+          "status_code": null,
           "outcome_text": "01:10:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 68",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -676,13 +943,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:28:40",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 25,
+          "status_code": null,
           "outcome_text": "01:28:40",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -698,13 +969,22 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 522
+            }
+          ],
+          "time_text": "02:21:41",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 21,
+          "status_code": null,
           "outcome_text": "02:21:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 522",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -720,13 +1000,22 @@
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 456
+            }
+          ],
+          "time_text": "00:59:58",
           "competitive": true,
           "course_name": "Course 2 - Score-O",
           "course_rank": 22,
+          "status_code": null,
           "outcome_text": "00:59:58",
           "result_notes": "24 controls",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 456",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -742,13 +1031,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:40:57",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 33,
+          "status_code": null,
           "outcome_text": "00:40:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -764,13 +1057,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 63
+            }
+          ],
+          "time_text": "01:26:18",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 37,
+          "status_code": null,
           "outcome_text": "01:26:18",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 63",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -786,13 +1088,22 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "01:27:45",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 25,
+          "status_code": null,
           "outcome_text": "01:27:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 72",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -808,13 +1119,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 365
+            }
+          ],
+          "time_text": "01:01:51",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 39,
+          "status_code": null,
           "outcome_text": "01:01:51",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 365",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -830,13 +1150,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:41:11",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "00:41:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -852,13 +1176,17 @@
       "venue_name": "Lake Sammamish State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:15:27",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "01:15:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -874,13 +1202,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:36:03",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 24,
+          "status_code": "OK",
           "outcome_text": "00:36:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -896,13 +1228,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:49",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:35:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -915,7 +1251,7 @@
   ],
   "summary": {
     "role_count": 2,
-    "event_count": 38,
+    "event_count": 40,
     "mention_count": 0
   },
   "mentions": [],

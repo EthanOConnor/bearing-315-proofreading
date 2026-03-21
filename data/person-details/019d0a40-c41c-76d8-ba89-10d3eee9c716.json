@@ -1,6 +1,84 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f49-759f-8833-4a34dcb3e71b",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2024-12-29",
+      "event_kind": "race",
+      "event_name": "2024 Choose Your Adventure #6",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:57:00",
+          "competitive": true,
+          "course_name": "Bog Jog – Open",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "01:57:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b9a-8941-88a84e57746f",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2024-12-21",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 04",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:28:23",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:28:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7070-96c2-2110e9ef3010",
+      "venue_id": "019b820a-0446-7ecd-9ceb-0235a0247f3e",
+      "event_date": "2024-08-14",
+      "event_kind": "race",
+      "event_name": "2024 Wednesday Evening #4 - Maple Valley Legacy Site",
+      "venue_name": "Maple Valley Legacy Site",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:13:21",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 28,
+          "status_code": "OK",
+          "outcome_text": "01:13:21",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4b-7cd3-9afe-3454f5e1c6ff",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2013-02-02",
@@ -9,13 +87,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:05:51",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 32,
+          "status_code": "OK",
           "outcome_text": "01:05:51",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "LWA"
@@ -33,13 +115,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:13:30",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 28,
+          "status_code": "OK",
           "outcome_text": "01:13:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "LWA"
@@ -57,13 +143,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:39:53",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:39:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "LWA"
@@ -81,13 +171,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "01:11:05",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "01:11:05",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 81",
           "additional_course": false,
           "affiliation_labels": [
             "Lake Washington"
@@ -105,13 +204,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 66
+            }
+          ],
+          "time_text": "00:57:26",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 28,
+          "status_code": "OK",
           "outcome_text": "00:57:26",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 66",
           "additional_course": false,
           "affiliation_labels": [
             "Lake Washington"
@@ -129,13 +237,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:37:47",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 19,
+          "status_code": "OK",
           "outcome_text": "00:37:47",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": [
             "Lake Washington"
@@ -148,7 +265,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

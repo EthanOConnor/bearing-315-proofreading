@@ -9,13 +9,43 @@
       "venue_name": "Bellevue College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:12:34",
           "competitive": true,
           "course_name": "Regular – Open",
-          "course_rank": null,
+          "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "01:12:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7aae-822b-277881d0c057",
+      "venue_id": "019b78aa-5904-76b8-89ba-741c8d8c7e21",
+      "event_date": "2024-02-18",
+      "event_kind": "race",
+      "event_name": "2024 Winter League Relay",
+      "venue_name": "Luther Burbank Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:27:26",
+          "competitive": true,
+          "course_name": "OPEN",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "01:27:26",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -26,7 +56,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

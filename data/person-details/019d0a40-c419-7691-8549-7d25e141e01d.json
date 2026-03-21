@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:35:56",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "01:35:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Redmond"
@@ -33,13 +37,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:47:08",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:47:08",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": [
             "Redmond"
@@ -57,13 +70,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "01:00:41",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "01:00:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 85",
           "additional_course": false,
           "affiliation_labels": [
             "Redmond"
@@ -81,13 +103,17 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 3",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Redmond"
@@ -105,13 +131,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:44:03",
           "competitive": true,
           "course_name": "WIOL 3",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:44:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": [
             "Redmond"
@@ -129,13 +164,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:56:15",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "00:56:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -151,13 +190,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:09",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "01:00:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

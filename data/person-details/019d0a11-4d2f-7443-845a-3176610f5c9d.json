@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 10
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "01:23:01",
           "competitive": true,
           "course_name": "Jr. Varsity Girls",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:23:01",
           "result_notes": "school SKT",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 10; Score 84",
           "additional_course": false,
           "affiliation_labels": []
         }

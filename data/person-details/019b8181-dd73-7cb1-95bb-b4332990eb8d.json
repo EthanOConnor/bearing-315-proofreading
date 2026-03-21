@@ -9,13 +9,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:28:56",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:28:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 55
+            }
+          ],
+          "time_text": "00:53:50",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 39,
+          "status_code": "OK",
           "outcome_text": "00:53:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 55",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +70,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:16:41",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:16:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Einstein HS"
@@ -81,13 +98,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:42:32",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:42:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Einstein"
@@ -105,13 +126,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:32:48",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 14,
+          "status_code": null,
           "outcome_text": "01:32:48",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

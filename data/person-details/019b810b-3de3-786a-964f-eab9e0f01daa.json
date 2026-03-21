@@ -9,13 +9,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 62
+            }
+          ],
+          "time_text": "01:08:33",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 41,
+          "status_code": "OK",
           "outcome_text": "01:08:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 62",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,22 @@
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 589
+            }
+          ],
+          "time_text": "00:46:26",
           "competitive": true,
           "course_name": "Course 2 - Score-O",
           "course_rank": 14,
+          "status_code": null,
           "outcome_text": "00:46:26",
           "result_notes": "24 controls",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 589",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +71,22 @@
       "venue_name": "Volunteer Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 734
+            }
+          ],
+          "time_text": "00:26:22",
           "competitive": true,
           "course_name": "Course 2 - Sprint",
           "course_rank": 5,
+          "status_code": null,
           "outcome_text": "00:26:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 734",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -77,13 +104,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "00:43:01",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 18,
+          "status_code": null,
           "outcome_text": "00:43:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 79",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -99,13 +135,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:11:30",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 1,
+          "status_code": null,
           "outcome_text": "00:11:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

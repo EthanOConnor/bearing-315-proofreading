@@ -9,13 +9,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:34:04",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 41,
+          "status_code": "OK",
           "outcome_text": "01:34:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -33,13 +37,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 69
+            }
+          ],
+          "time_text": "00:45:49",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:45:49",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 25,
+          "metric_summary": "Points 69",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +70,22 @@
       "venue_name": "Lake Sammamish State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 67
+            }
+          ],
+          "time_text": "01:25:26",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 27,
+          "status_code": "OK",
           "outcome_text": "01:25:26",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 67",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

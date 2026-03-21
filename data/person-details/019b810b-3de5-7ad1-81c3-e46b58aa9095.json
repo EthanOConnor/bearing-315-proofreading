@@ -1,6 +1,100 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "00:43:55",
+          "competitive": true,
+          "course_name": "Short Advanced Open",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "00:43:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 76",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "01:03:22",
+          "competitive": true,
+          "course_name": "Short Advanced Open",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "01:03:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 74",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-79da-a571-925b42f2b68c",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "event_date": "2025-08-13",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #6",
+      "venue_name": "Seattle Pacific University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:54:07",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 36,
+          "status_code": "OK",
+          "outcome_text": "00:54:07",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7efc-9a48-43ee67f98d99",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2018-02-17",
@@ -9,13 +103,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 17
+            }
+          ],
+          "time_text": "01:29:01",
           "competitive": true,
           "course_name": "Long Adv Men",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:29:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 17",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +136,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:11:01",
           "competitive": true,
           "course_name": "Short Advanced",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "01:11:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -57,13 +164,17 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:13",
           "competitive": true,
           "course_name": "SART 2015 - Round 4",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:32:13",
           "result_notes": "heat Heat 410",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +190,22 @@
       "venue_name": "Shoreline Community College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_rank",
+              "metric_numeric": 38
+            }
+          ],
+          "time_text": "00:26:19",
           "competitive": true,
           "course_name": "SART 2015 - Round 5",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:26:19",
           "result_notes": "heat Heat 509",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Rank 38",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -101,13 +221,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:20:09",
           "competitive": true,
           "course_name": "SART 2015 - Round 1",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:20:09",
           "result_notes": "heat Heat 105",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -123,13 +247,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:24:25",
           "competitive": true,
           "course_name": "SART 2015 - Round 2",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:24:25",
           "result_notes": "heat Heat 205",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -145,13 +273,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:23:29",
           "competitive": true,
           "course_name": "SART 2015 - Round 3",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:23:29",
           "result_notes": "heat Heat 306",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -167,13 +299,17 @@
       "venue_name": "Greenlake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:07:34",
           "competitive": true,
           "course_name": "SART 2015 - Time Trial",
           "course_rank": 36,
+          "status_code": "OK",
           "outcome_text": "00:07:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -189,13 +325,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:39",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:32:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -213,13 +353,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:46",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:25:46",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -237,13 +381,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:37:20",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:37:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -261,13 +409,17 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:33:07",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:33:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -283,13 +435,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:31",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:25:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -305,13 +461,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 753
+            }
+          ],
+          "time_text": "00:23:56",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 8,
+          "status_code": null,
           "outcome_text": "00:23:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 753",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -327,13 +492,22 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 660
+            }
+          ],
+          "time_text": "00:30:28",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 15,
+          "status_code": null,
           "outcome_text": "00:30:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 660",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -349,13 +523,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 483
+            }
+          ],
+          "time_text": "00:45:59",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 46,
+          "status_code": null,
           "outcome_text": "00:45:59",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 483",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -371,13 +554,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:27:29",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 6,
+          "status_code": null,
           "outcome_text": "01:27:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -393,13 +580,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 442
+            }
+          ],
+          "time_text": "01:24:09",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 22,
+          "status_code": null,
           "outcome_text": "01:24:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 442",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -415,13 +611,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -437,13 +637,17 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:48:27",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 8,
+          "status_code": null,
           "outcome_text": "00:48:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -456,7 +660,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 20,
+    "event_count": 23,
     "mention_count": 0
   },
   "mentions": [],

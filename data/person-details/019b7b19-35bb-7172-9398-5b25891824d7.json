@@ -9,13 +9,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:48:46",
           "competitive": true,
           "course_name": "Courses 1, 2, and 3",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "00:48:46",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Forest Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 64
+            }
+          ],
+          "time_text": "01:15:36",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 37,
+          "status_code": null,
           "outcome_text": "01:15:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 64",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -55,13 +68,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -77,13 +94,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 515
+            }
+          ],
+          "time_text": "00:43:55",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 25,
+          "status_code": null,
           "outcome_text": "00:43:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 515",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -101,13 +127,26 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 2350
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 569
+            }
+          ],
+          "time_text": "00:57:19",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:57:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 2350; Uo Points 569",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -123,13 +162,17 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:40:34",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "00:40:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -147,13 +190,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:34",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 30,
+          "status_code": "OK",
           "outcome_text": "00:47:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -169,13 +216,17 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:31:34",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:31:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

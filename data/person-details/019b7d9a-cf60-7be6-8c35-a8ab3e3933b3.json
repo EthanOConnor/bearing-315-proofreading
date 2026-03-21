@@ -9,13 +9,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:49:18",
           "competitive": true,
           "course_name": "10k",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:49:18",
           "result_notes": null,
           "category_name": "M 40+",
           "category_rank": 4,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Cle Elum Ridge",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 764
+            }
+          ],
+          "time_text": "01:31:19",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "01:31:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 764",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -55,13 +68,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 16
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Vampire O'",
           "course_rank": null,
-          "outcome_text": "",
+          "status_code": null,
+          "outcome_text": "Points 16",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 16",
           "additional_course": false,
           "affiliation_labels": []
         }

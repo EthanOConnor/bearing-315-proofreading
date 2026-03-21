@@ -9,28 +9,50 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "Middle School Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:STM",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:51:20",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:51:20",
           "result_notes": null,
           "category_name": "Middle School Female",
-          "category_rank": null,
+          "category_rank": 6,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": [
             "STM"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:51:20"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 33,
+          "status_code": null,
+          "outcome_text": "Finish 00:51:20; Points 88",
+          "result_notes": "trailing_paren:STM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:51:20; Points 88",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -44,28 +66,50 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "Middle School Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:STM",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:22:53",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:22:53",
           "result_notes": null,
           "category_name": "Middle School Female",
-          "category_rank": null,
+          "category_rank": 4,
+          "metric_summary": "Points 90",
           "additional_course": false,
           "affiliation_labels": [
             "STM"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:22:53"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 14,
+          "status_code": null,
+          "outcome_text": "Finish 00:22:53; Points 90",
+          "result_notes": "trailing_paren:STM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:22:53; Points 90",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -79,28 +123,50 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "Middle School Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:STM",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:35:07",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:35:07",
           "result_notes": null,
           "category_name": "Middle School Female",
-          "category_rank": null,
+          "category_rank": 7,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": [
             "STM"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:35:07"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 33,
+          "status_code": null,
+          "outcome_text": "Finish 00:35:07; Points 87",
+          "result_notes": "trailing_paren:STM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:35:07; Points 87",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -114,24 +180,46 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:41:09"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Middle School Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 7,
+          "status_code": null,
+          "outcome_text": "Finish 00:41:09; Points 83",
           "result_notes": "trailing_paren:STM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 00:41:09; Points 83",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:41:09",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:41:09",
           "result_notes": null,
           "category_name": "Middle School Female",
-          "category_rank": null,
+          "category_rank": 11,
+          "metric_summary": "Points 83",
           "additional_course": false,
           "affiliation_labels": [
             "STM"
@@ -139,12 +227,786 @@
         }
       ],
       "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:29:04",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:29:04",
+          "result_notes": null,
+          "category_name": "Middle School Female",
+          "category_rank": 10,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STM"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:29:04"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 15,
+          "status_code": null,
+          "outcome_text": "Finish 00:29:04; Points 84",
+          "result_notes": "trailing_paren:STM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:29:04; Points 84",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:24:29",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:24:29",
+          "result_notes": null,
+          "category_name": "Middle School Female",
+          "category_rank": 3,
+          "metric_summary": "Points 92",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STM"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:24:29"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 18,
+          "status_code": null,
+          "outcome_text": "Finish 00:24:29; Points 92",
+          "result_notes": "trailing_paren:STM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:24:29; Points 92",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:21:16",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:21:16",
+          "result_notes": null,
+          "category_name": "Middle School Female",
+          "category_rank": 2,
+          "metric_summary": "Points 95",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STM"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:21:16"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 14,
+          "status_code": null,
+          "outcome_text": "Finish 00:21:16; Points 95",
+          "result_notes": "trailing_paren:STM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:21:16; Points 95",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:32:00",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "00:32:00",
+          "result_notes": null,
+          "category_name": "Middle School Female",
+          "category_rank": 12,
+          "metric_summary": "Points 82",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STM"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:32:00"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 15,
+          "status_code": null,
+          "outcome_text": "Finish 00:32:00; Points 82",
+          "result_notes": "trailing_paren:STM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:32:00; Points 82",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-7037-8dcd-4d50bc85a95f",
+      "venue_id": "019b81f3-1f39-757b-84c7-c9e26f0fe3f3",
+      "event_date": "2025-03-29",
+      "event_kind": "race",
+      "event_name": "2025 Ultimate Orienteer #2",
+      "venue_name": "Summit Trails",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 670
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 670
+            },
+            {
+              "metric_key": "ult_score",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "00:57:56",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:57:56",
+          "result_notes": null,
+          "category_name": "16 under Female",
+          "category_rank": 1,
+          "metric_summary": "Penalty 0; Points 670; Total Time 670; Ult Score 1000",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-750d-85e5-15eb198b4193",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2025-02-22",
+      "event_kind": "race",
+      "event_name": "2024-25 Winter League Championships",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": "67:17",
+          "category_name": "Middle School Female",
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STM"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e91-9747-42d7aeb9c29d",
+      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "event_date": "2025-02-08",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 07 - Fire Mountain",
+      "venue_name": "Fire Mountain",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:27:52",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "00:27:52",
+          "result_notes": null,
+          "category_name": "Middle School Female",
+          "category_rank": 8,
+          "metric_summary": "Points 86",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STM"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:27:52"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 12,
+          "status_code": null,
+          "outcome_text": "Finish 00:27:52; Points 86",
+          "result_notes": "trailing_paren:STM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:27:52; Points 86",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-717b-bb86-32fd30609463",
+      "venue_id": "019b820a-0447-7e9e-9f43-543265489e73",
+      "event_date": "2025-02-01",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 02 (Rescheduled) - Soaring Eagle",
+      "venue_name": "Soaring Eagle",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:31:41",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:31:41",
+          "result_notes": null,
+          "category_name": "Middle School Female",
+          "category_rank": 4,
+          "metric_summary": "Points 90",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STM"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:31:41"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 7,
+          "status_code": null,
+          "outcome_text": "Finish 00:31:41; Points 90",
+          "result_notes": "trailing_paren:STM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:31:41; Points 90",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e1b-992b-88c8bd7bebc9",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2025-01-11",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 05 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:41:49",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "00:41:49",
+          "result_notes": "school STM",
+          "category_name": "Middle School Female",
+          "category_rank": 12,
+          "metric_summary": "Points 82",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b9a-8941-88a84e57746f",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2024-12-21",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 04",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": "62:03",
+          "category_name": "Middle School Female",
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STM"
+          ]
+        },
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "High School Rookie Female",
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "STM"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-70a9-9074-713ce4d9681d",
+      "venue_id": "019b81f3-1f39-7681-bca4-ff664fce647b",
+      "event_date": "2024-12-07",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 03",
+      "venue_name": "Pierce College/Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:38:18",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "00:38:18",
+          "result_notes": null,
+          "category_name": "Middle School Female",
+          "category_rank": 14,
+          "metric_summary": "Points 80",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STM"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-70ae-af21-b44b23f1b394",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2024-11-09",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 01",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:35:29",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "00:35:29",
+          "result_notes": null,
+          "category_name": "Middle School Female",
+          "category_rank": 14,
+          "metric_summary": "Points 80",
+          "additional_course": false,
+          "affiliation_labels": [
+            "STM"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:35:29"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 20,
+          "status_code": null,
+          "outcome_text": "Finish 00:35:29; Points 80",
+          "result_notes": "trailing_paren:STM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:35:29; Points 80",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7070-96c2-2110e9ef3010",
+      "venue_id": "019b820a-0446-7ecd-9ceb-0235a0247f3e",
+      "event_date": "2024-08-14",
+      "event_kind": "race",
+      "event_name": "2024 Wednesday Evening #4 - Maple Valley Legacy Site",
+      "venue_name": "Maple Valley Legacy Site",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:54:08",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "00:54:08",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7d40-ac63-10fd0399a646",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2024-02-17",
+      "event_kind": "race",
+      "event_name": "2023-24 Winter League Championships",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:25:02",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:25:02",
+          "result_notes": "school STM",
+          "category_name": "Elementary Female",
+          "category_rank": 5,
+          "metric_summary": "Points 89",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7cb9-a701-2e1f520ecb8a",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2024-02-03",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 07",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:35:01",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:35:01",
+          "result_notes": "school STM",
+          "category_name": "Elementary Female",
+          "category_rank": 5,
+          "metric_summary": "Points 89",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7039-b91c-501a674b8988",
+      "venue_id": "019b81f3-1f39-757b-84c7-c9e26f0fe3f3",
+      "event_date": "2024-01-20",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 06",
+      "venue_name": "Summit Trails",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:58:35",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "00:58:35",
+          "result_notes": "school STM",
+          "category_name": "Elementary Female",
+          "category_rank": 9,
+          "metric_summary": "Points 85",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7845-952f-5b03fd59d301",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2023-12-16",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 04",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:55:00",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "00:55:00",
+          "result_notes": "school STM",
+          "category_name": "Elementary Female",
+          "category_rank": 8,
+          "metric_summary": "Points 86",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7dbe-b1db-20c3e66a35c9",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2023-11-04",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 01",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "01:16:12",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "01:16:12",
+          "result_notes": "school STM",
+          "category_name": "Elementary Female",
+          "category_rank": 4,
+          "metric_summary": "Points 90",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 22,
     "mention_count": 0
   },
   "mentions": [],

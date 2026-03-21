@@ -9,13 +9,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:33:24",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:33:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "LAK"
@@ -33,13 +37,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:27:20",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:27:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "LAK"
@@ -57,13 +65,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:29:38",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:29:38",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "LAK"
@@ -81,13 +93,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P7M",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "LAK"
@@ -105,13 +121,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:24:45",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:24:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "LAK"
@@ -129,13 +149,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:38:48",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:38:48",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "LAK"
@@ -153,13 +177,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:15",
           "competitive": true,
           "course_name": "WIOL 6M",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:25:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "LAK"
@@ -177,13 +205,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:27",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:35:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "LAK"
@@ -201,13 +233,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:05:06",
           "competitive": true,
           "course_name": "ORANGE",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "01:05:06",
           "result_notes": "classification ISJVM",
           "category_name": "ISJVM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -225,13 +261,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:52",
           "competitive": true,
           "course_name": "ORANGE",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:00:52",
           "result_notes": null,
           "category_name": "ISJVM",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -249,13 +289,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:32:36",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:32:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -273,13 +322,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:32:25",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:32:25",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 85",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -297,52 +355,88 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:31:07",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:31:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:31:07",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:31:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:31:07",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:31:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:31:07",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:31:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"

@@ -9,13 +9,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:22:31",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:22:31",
           "result_notes": null,
           "category_name": "Elementary Male",
-          "category_rank": null,
+          "category_rank": 12,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "SCD"
@@ -33,13 +42,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:21:40",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:21:40",
           "result_notes": null,
           "category_name": "Elementary Male",
-          "category_rank": null,
+          "category_rank": 16,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "SCD"
@@ -57,13 +75,22 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "00:15:08",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:15:08",
           "result_notes": null,
           "category_name": "Elementary Male",
-          "category_rank": null,
+          "category_rank": 13,
+          "metric_summary": "Points 81",
           "additional_course": false,
           "affiliation_labels": [
             "SCD"
@@ -81,13 +108,116 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:22:06",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:22:06",
           "result_notes": null,
           "category_name": "Elementary Male",
+          "category_rank": 16,
+          "metric_summary": "Points 78",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SCD"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:20:38",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:20:38",
+          "result_notes": null,
+          "category_name": "Elementary Male",
+          "category_rank": 10,
+          "metric_summary": "Points 84",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SCD"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "00:37:05",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "00:37:05",
+          "result_notes": null,
+          "category_name": "Elementary Male",
+          "category_rank": 15,
+          "metric_summary": "Points 79",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SCD"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "",
+          "result_notes": null,
+          "category_name": "Elementary Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SCD"
@@ -100,7 +230,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

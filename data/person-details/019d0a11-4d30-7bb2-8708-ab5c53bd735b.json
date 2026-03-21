@@ -1,6 +1,130 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-702d-be8e-4520b099736b",
+      "venue_id": "019b81f3-1f39-757b-84c7-c9e26f0fe3f3",
+      "event_date": "2021-04-24",
+      "event_kind": "race",
+      "event_name": "2021 Winter League #5",
+      "venue_name": "Summit Trails",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:59:16",
+          "competitive": true,
+          "course_name": "Jr Varsity Boys",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "00:59:16",
+          "result_notes": "school TAH",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 82",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-75bd-9476-ca2c91f6ecd0",
+      "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
+      "event_date": "2021-04-17",
+      "event_kind": "race",
+      "event_name": "2021 Winter League #4",
+      "venue_name": "Ft. Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:49:05",
+          "competitive": true,
+          "course_name": "Jr Varsity Boys",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:49:05",
+          "result_notes": "school TAH",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 90",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7791-b808-56329af3f891",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2021-04-03",
+      "event_kind": "race",
+      "event_name": "2021 Winter League #3",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:48:52",
+          "competitive": true,
+          "course_name": "Jr Varsity Boys",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "00:48:52",
+          "result_notes": "school TAH",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 80",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-7c38-889f-bd8f1cec6f1e",
+      "venue_id": "019b81e3-a4f7-7c57-b325-1d58266f3d41",
+      "event_date": "2021-03-06",
+      "event_kind": "race",
+      "event_name": "2021 Winter League #1",
+      "venue_name": "Bridle Trails State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:56:43",
+          "competitive": true,
+          "course_name": "Jr Varsity Boys",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "00:56:43",
+          "result_notes": "school TAH",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 83",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7efc-9a48-43ee67f98d99",
       "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
       "event_date": "2018-02-17",
@@ -9,13 +133,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 15
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "00:39:42",
           "competitive": true,
           "course_name": "Middle School Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:39:42",
           "result_notes": "school STM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 15; Score 79",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -26,7 +163,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

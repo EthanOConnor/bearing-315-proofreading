@@ -9,20 +9,63 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:12:23",
           "competitive": true,
           "course_name": "2021 Choose Your Adventure #1: Corn Maze!",
           "course_rank": 54,
+          "status_code": "OK",
           "outcome_text": "01:12:23",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Score 24; Penalty 0; Points 24",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:12:23",
+          "competitive": true,
+          "course_name": "2021 Choose Your Adventure #1: Corn Maze!",
+          "course_rank": 54,
+          "status_code": "OK",
+          "outcome_text": "01:12:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Final Score 24; Penalty 0; Points 24",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
-      "result_row_count": 1
+      "result_row_count": 2
     },
     {
       "event_id": "019b81f3-1f4d-7d1e-bb58-50b37c500d46",
@@ -33,13 +76,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "01:42:43",
           "competitive": true,
           "course_name": "Public 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:42:43",
           "result_notes": null,
           "category_name": "Women",
           "category_rank": 12,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -57,13 +109,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "01:34:17",
           "competitive": true,
           "course_name": "Public 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:34:17",
           "result_notes": null,
           "category_name": "Women",
           "category_rank": 20,
+          "metric_summary": "Points 74",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -81,13 +142,22 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "01:08:50",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:08:50",
           "result_notes": null,
           "category_name": "Women",
           "category_rank": 22,
+          "metric_summary": "Points 72",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -103,13 +173,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:01:36",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "01:01:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -127,13 +201,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:40:33",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:40:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

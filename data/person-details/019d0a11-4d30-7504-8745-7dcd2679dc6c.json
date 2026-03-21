@@ -9,13 +9,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 60
+            }
+          ],
+          "time_text": "02:21:17",
           "competitive": true,
           "course_name": "Short Advanced Open",
-          "course_rank": null,
+          "course_rank": 34,
+          "status_code": "OK",
           "outcome_text": "02:21:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 60",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 54
+            }
+          ],
+          "time_text": "01:35:23",
           "competitive": true,
           "course_name": "Short Advanced Open",
-          "course_rank": null,
+          "course_rank": 40,
+          "status_code": "OK",
           "outcome_text": "01:35:23",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 54",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +75,340 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 59
+            }
+          ],
+          "time_text": "01:33:57",
           "competitive": true,
           "course_name": "Short Advanced Open",
-          "course_rank": null,
+          "course_rank": 35,
+          "status_code": "OK",
           "outcome_text": "01:33:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 59",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 60
+            }
+          ],
+          "time_text": "01:18:31",
+          "competitive": true,
+          "course_name": "Short Advanced Open",
+          "course_rank": 34,
+          "status_code": "OK",
+          "outcome_text": "01:18:31",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 60",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 73
+            }
+          ],
+          "time_text": "00:59:15",
+          "competitive": true,
+          "course_name": "Short Advanced Open",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "00:59:15",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 73",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-79da-a571-925b42f2b68c",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "event_date": "2025-08-13",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #6",
+      "venue_name": "Seattle Pacific University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:24:07",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:24:07",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7948-93ca-4564b79f3878",
+      "venue_id": "019b81f3-1f39-7c41-8b9c-65fad69da60e",
+      "event_date": "2025-07-23",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #5",
+      "venue_name": "Northwest University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:31:51",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "00:31:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7c71-8fec-340e7fdd32eb",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2025-06-25",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #3",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:26:01",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:26:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7640-9995-0065f809b0d4",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "event_date": "2025-04-19",
+      "event_kind": "race",
+      "event_name": "2025 Ultimate Orienteer #4",
+      "venue_name": "Putney Woods",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Short Adv",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "MSP",
+          "result_notes": "114:07",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7f92-b7fe-b7ccfd96abd9",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "event_date": "2025-04-12",
+      "event_kind": "race",
+      "event_name": "2025 Ultimate Orienteer #3",
+      "venue_name": "Green River College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:13:50",
+          "competitive": true,
+          "course_name": "Medium Rec",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:13:50",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-750d-85e5-15eb198b4193",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2025-02-22",
+      "event_kind": "race",
+      "event_name": "2024-25 Winter League Championships",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:32:49",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "01:32:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e1b-992b-88c8bd7bebc9",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2025-01-11",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 05 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:54:02",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "00:54:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b9a-8941-88a84e57746f",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2024-12-21",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 04",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "DNF",
+          "result_notes": "62:18",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-70a9-9074-713ce4d9681d",
+      "venue_id": "019b81f3-1f39-7681-bca4-ff664fce647b",
+      "event_date": "2024-12-07",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 03",
+      "venue_name": "Pierce College/Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:35:23",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "00:35:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -81,15 +426,150 @@
       "venue_name": "Bellevue College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 12
+            }
+          ],
+          "time_text": "01:20:49",
           "competitive": true,
           "course_name": "2024 Choose Your Adventure #4 – Skeleton Bones!",
           "course_rank": 87,
+          "status_code": "OK",
           "outcome_text": "01:20:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Score 12",
           "additional_course": false,
           "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-778f-814b-f8b32a8d0781",
+      "venue_id": "019b81f3-1f39-71e4-af69-aaadb4cfe14e",
+      "event_date": "2024-08-28",
+      "event_kind": "race",
+      "event_name": "2024 Wednesday Evening #5",
+      "venue_name": "North Seattle College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:27:03",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:27:03",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7466-9012-160a8fe85944",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "event_date": "2022-02-19",
+      "event_kind": "race",
+      "event_name": "2021-22 Winter League Championships",
+      "venue_name": "Fort Ebey State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "day_1_score",
+              "metric_numeric": 87.37
+            },
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:26:46"
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": null,
+          "outcome_text": "Day 1 Score 87; Day 1 Time 01:26:46",
+          "result_notes": null,
+          "category_name": "Short Adv Male",
+          "category_rank": 12,
+          "metric_summary": "Day 1 Score 87; Day 1 Time 01:26:46",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b54-b7f7-ca80b15d10eb",
+      "venue_id": "019b81f3-1f39-7620-bd15-d0f7610c8139",
+      "event_date": "2022-02-19",
+      "event_kind": "race",
+      "event_name": "2022 Lighthouse Middle NRE",
+      "venue_name": "Fort Ebey State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:26:46",
+          "competitive": true,
+          "course_name": "Male 60+",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "01:26:46",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-79ed-8fcd-e1b4fc2fcbd4",
+      "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
+      "event_date": "2021-01-09",
+      "event_kind": "race",
+      "event_name": "2021 Winter Virtual Series #1",
+      "venue_name": "Shoreview Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": null,
+          "category_name": "Male",
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "Cascade OC"
+          ]
         }
       ],
       "result_row_count": 1
@@ -103,13 +583,22 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 3
+            }
+          ],
+          "time_text": "01:58:33",
           "competitive": true,
           "course_name": "Bog Jog – Men",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:58:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 3",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -127,13 +616,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": "80:03",
           "category_name": "Short Adv Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -151,13 +644,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:20",
           "competitive": true,
           "course_name": "Short Advanced",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "01:00:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -175,13 +672,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:21:41",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 40,
+          "status_code": "OK",
           "outcome_text": "01:21:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -199,13 +700,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:34:54",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:34:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -223,13 +728,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:31:14",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:31:14",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -247,13 +756,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P3M",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -271,13 +784,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:37:28",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:37:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -295,13 +812,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:22:17",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 40,
+          "status_code": "OK",
           "outcome_text": "01:22:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -319,13 +840,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:10:58",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 31,
+          "status_code": "OK",
           "outcome_text": "01:10:58",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -343,13 +868,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:08:02",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 36,
+          "status_code": "OK",
           "outcome_text": "01:08:02",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -367,39 +896,51 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:47:18",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "01:47:18",
           "result_notes": "classification M50+",
           "category_name": "M50+",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "01:47:18",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "01:47:18",
           "result_notes": "classification M50+",
           "category_name": "M50+",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "01:47:18",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "01:47:18",
           "result_notes": "classification M50+",
           "category_name": "M50+",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -417,26 +958,34 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:22:13",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:22:13",
           "result_notes": null,
           "category_name": "M50+",
           "category_rank": 12,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "02:22:13",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:22:13",
           "result_notes": null,
           "category_name": "M50+",
           "category_rank": 12,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -454,13 +1003,17 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:59:47",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:59:47",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -478,13 +1031,17 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:36:51",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:36:51",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -502,13 +1059,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:31:04",
           "competitive": true,
           "course_name": "P4",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "01:31:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -526,52 +1087,68 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:57",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:47:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "00:47:57",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:47:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "00:47:57",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:47:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "00:47:57",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:47:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -589,13 +1166,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:31:55",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:31:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -611,13 +1192,17 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:31:45",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:31:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -633,13 +1218,17 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:52:32",
           "competitive": true,
           "course_name": "Public 3",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:52:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -655,13 +1244,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:12",
           "competitive": true,
           "course_name": "Public 2",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:25:12",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -677,13 +1270,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:14:53",
           "competitive": true,
           "course_name": "Public 1",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:14:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -693,12 +1290,103 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
-    "event_count": 26,
+    "role_count": 6,
+    "event_count": 41,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a11-4d30-7504-8745-7dcd2679dc6c",
   "individual_name": "Ken Anderson",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4d-79da-a571-925b42f2b68c",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "role_name": "Newcomer Instruction",
+      "event_date": "2025-08-13",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #6",
+      "venue_name": "Seattle Pacific University",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2025-wednesday-evening-6-seattle-pacific-university/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-7948-93ca-4564b79f3878",
+      "venue_id": "019b81f3-1f39-7c41-8b9c-65fad69da60e",
+      "role_name": "Newcomer Instruction",
+      "event_date": "2025-07-23",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #5",
+      "venue_name": "Northwest University",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2025-wednesday-evening-5-northwest-university/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4b-7d40-ac63-10fd0399a646",
+      "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
+      "role_name": "Start",
+      "event_date": "2024-02-17",
+      "event_kind": "race",
+      "event_name": "2023-24 Winter League Championships",
+      "venue_name": "Green River College",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2023-24-winter-league-championships-green-river-college/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7cb9-a701-2e1f520ecb8a",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "role_name": "Newcomer Instruction",
+      "event_date": "2024-02-03",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 07",
+      "venue_name": "Lord Hill Regional Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2023-winter-league-07-lord-hill-regional-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4d-74b5-8da1-1a1efc1998ea",
+      "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
+      "role_name": "Newcomer Instruction",
+      "event_date": "2023-11-18",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 02",
+      "venue_name": "North Seatac Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2023-winter-league-02-north-seatac-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019b81f3-1f4c-7dbe-b1db-20c3e66a35c9",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "role_name": "Info Tent",
+      "event_date": "2023-11-04",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 01",
+      "venue_name": "Lincoln Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2023-winter-league-01-lincoln-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

@@ -9,13 +9,34 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 4
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "pos",
+              "metric_numeric": 88
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 8
+            }
+          ],
+          "time_text": "01:18:25",
           "competitive": true,
           "course_name": "CYA",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:18:25",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 4; Points 12; Pos 88; Total Time 8",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +54,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "score",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Middle School Boys",
           "course_rank": null,
-          "outcome_text": "DNF",
+          "status_code": "DNF",
+          "outcome_text": "Score 0",
           "result_notes": "–:–; school STM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Score 0",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +85,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:17:55",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:17:55",
           "result_notes": null,
           "category_name": "M-18",
           "category_rank": 4,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "HOC"
@@ -79,13 +113,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:40:12",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:40:12",
           "result_notes": "us_eligible Y",
           "category_name": "M-18",
           "category_rank": 4,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "HOC"
@@ -103,13 +141,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:24:41",
           "competitive": true,
           "course_name": "Sprint",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:24:41",
           "result_notes": "classification M18",
           "category_name": "M18",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "HOC"

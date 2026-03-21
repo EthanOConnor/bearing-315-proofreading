@@ -9,17 +9,24 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "02:16:19",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "02:16:19",
           "result_notes": null,
           "category_name": "Short Advanced Female",
-          "category_rank": null,
+          "category_rank": 13,
+          "metric_summary": "Points 81",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1

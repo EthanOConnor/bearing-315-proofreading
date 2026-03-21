@@ -1,6 +1,34 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-74bc-9b52-63710942c69e",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2021-11-06",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:23:35",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:23:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-730f-92f5-cb205a16498b",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2019-12-29",
@@ -9,13 +37,30 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 22
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 22
+            }
+          ],
+          "time_text": "02:36:15",
           "competitive": true,
           "course_name": "Results:",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "02:36:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 22; Score 22",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +78,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": "92:58",
           "category_name": "Short Adv Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +106,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:54:21",
           "competitive": true,
           "course_name": "Intermediate",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:54:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -76,7 +129,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

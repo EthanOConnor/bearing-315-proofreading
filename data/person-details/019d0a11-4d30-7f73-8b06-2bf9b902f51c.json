@@ -9,17 +9,36 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 23
+            },
+            {
+              "metric_key": "pos",
+              "metric_numeric": 46
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 23
+            }
+          ],
+          "time_text": "00:26:19",
           "competitive": true,
           "course_name": "CYA",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:26:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 23; Pos 46; Total Time 23",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1
@@ -33,13 +52,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 22,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +78,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 68
+            }
+          ],
+          "time_text": "00:43:37",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:43:37",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 26,
+          "metric_summary": "Points 68",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -77,13 +109,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 63
+            }
+          ],
+          "time_text": "00:44:57",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 31,
+          "status_code": "OK",
           "outcome_text": "00:44:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 63",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -101,13 +142,22 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:32:50",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:32:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -125,13 +175,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "00:47:39",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "00:47:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 72",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

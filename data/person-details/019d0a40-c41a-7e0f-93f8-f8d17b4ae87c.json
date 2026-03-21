@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:42:25",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 25,
+          "status_code": "OK",
           "outcome_text": "01:42:25",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Bethel"
@@ -33,13 +37,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 66
+            }
+          ],
+          "time_text": "00:48:54",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 28,
+          "status_code": "OK",
           "outcome_text": "00:48:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 66",
           "additional_course": false,
           "affiliation_labels": [
             "Bethel"
@@ -57,13 +70,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 63
+            }
+          ],
+          "time_text": "00:57:22",
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": 31,
+          "status_code": "OK",
           "outcome_text": "00:57:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 63",
           "additional_course": false,
           "affiliation_labels": [
             "Bethel"
@@ -81,13 +103,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Bethel"

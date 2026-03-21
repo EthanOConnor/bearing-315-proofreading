@@ -1,6 +1,72 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-74dc-a8fe-738945f87160",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2022-01-08",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 05",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:45:49",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:45:49",
+          "result_notes": null,
+          "category_name": "Long Adv Female",
+          "category_rank": 1,
+          "metric_summary": "Points 100",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7cc6-874f-df8edb747dfa",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2021-12-18",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 04",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:35:33",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:35:33",
+          "result_notes": null,
+          "category_name": "Long Adv Female",
+          "category_rank": 1,
+          "metric_summary": "Points 100",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-70c0-aa54-f64ae7a20e09",
       "venue_id": "019b81f3-1f39-7d9a-9a28-452083a98ee1",
       "event_date": "2015-09-27",
@@ -9,13 +75,17 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:20:06",
           "competitive": true,
           "course_name": "SART 2015 - Round 4",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:20:06",
           "result_notes": "heat Heat 411",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +101,22 @@
       "venue_name": "Shoreline Community College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_rank",
+              "metric_numeric": 21
+            }
+          ],
+          "time_text": "00:18:57",
           "competitive": true,
           "course_name": "SART 2015 - Round 5",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:18:57",
           "result_notes": "heat Heat 512",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Rank 21",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +132,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:16:02",
           "competitive": true,
           "course_name": "SART 2015 - Round 1",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:16:02",
           "result_notes": "heat Heat 110",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +158,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:17:47",
           "competitive": true,
           "course_name": "SART 2015 - Round 2",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:17:47",
           "result_notes": "heat Heat 209",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -97,13 +184,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:18:29",
           "competitive": true,
           "course_name": "SART 2015 - Round 3",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:18:29",
           "result_notes": "heat Heat 310",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -119,13 +210,17 @@
       "venue_name": "Greenlake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:06:24",
           "competitive": true,
           "course_name": "SART 2015 - Time Trial",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "00:06:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -141,13 +236,17 @@
       "venue_name": "Lick Creek",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:15:43",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "01:15:43",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -165,26 +264,34 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:25:39",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "01:25:39",
           "result_notes": "classification ICVF",
           "category_name": "ICVF",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Williams College"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "01:25:39",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "01:25:39",
           "result_notes": "classification ICVF",
           "category_name": "ICVF",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Williams College"
@@ -202,26 +309,34 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:05",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:00:05",
           "result_notes": null,
           "category_name": "ICVF",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Williams College"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "01:00:05",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:00:05",
           "result_notes": null,
           "category_name": "ICVF",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Williams College"
@@ -239,13 +354,17 @@
       "venue_name": "Fishtrap Lake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:27:26",
           "competitive": true,
           "course_name": "Red",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:27:26",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "F21",
           "category_rank": 6,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -263,13 +382,17 @@
       "venue_name": "Moses Lake Sand Dunes",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:52:33",
           "competitive": true,
           "course_name": "Red",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:52:33",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "F21",
           "category_rank": 3,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -287,13 +410,17 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:34:05",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:34:05",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -309,13 +436,17 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:18:50",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:18:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -326,7 +457,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 13,
+    "event_count": 15,
     "mention_count": 0
   },
   "mentions": [],

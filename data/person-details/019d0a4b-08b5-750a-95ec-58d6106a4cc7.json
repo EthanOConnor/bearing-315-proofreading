@@ -9,24 +9,46 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "01:19:08"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "High School JV Female Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 6,
+          "status_code": null,
+          "outcome_text": "Finish 01:19:08; Points 87",
           "result_notes": "trailing_paren:LIB",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 01:19:08; Points 87",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "01:19:08",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "01:19:08",
           "result_notes": null,
           "category_name": "High School JV Female",
-          "category_rank": null,
+          "category_rank": 7,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": [
             "LIB"
@@ -44,28 +66,285 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "High School JV Female Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:LIB",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:59:26",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:59:26",
           "result_notes": null,
           "category_name": "High School JV Female",
-          "category_rank": null,
+          "category_rank": 9,
+          "metric_summary": "Points 85",
           "additional_course": false,
           "affiliation_labels": [
             "LIB"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:59:26"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School JV Female Teams",
+          "course_rank": 13,
+          "status_code": null,
+          "outcome_text": "Finish 00:59:26; Points 85",
+          "result_notes": "trailing_paren:LIB",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:59:26; Points 85",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:39:31",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "00:39:31",
+          "result_notes": null,
+          "category_name": "High School JV Female",
+          "category_rank": 9,
+          "metric_summary": "Points 85",
+          "additional_course": false,
+          "affiliation_labels": [
+            "LIB"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-750d-85e5-15eb198b4193",
+      "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
+      "event_date": "2025-02-22",
+      "event_kind": "race",
+      "event_name": "2024-25 Winter League Championships",
+      "venue_name": "Point Defiance Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:36:29",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:36:29",
+          "result_notes": null,
+          "category_name": "High School Rookie Female",
+          "category_rank": 2,
+          "metric_summary": "Points 95",
+          "additional_course": false,
+          "affiliation_labels": [
+            "LIB"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:36:29"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School Rookie Teams",
+          "course_rank": 14,
+          "status_code": null,
+          "outcome_text": "Finish 00:36:29; Points 95",
+          "result_notes": "trailing_paren:LIB",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:36:29; Points 95",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e1b-992b-88c8bd7bebc9",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2025-01-11",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 05 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 90
+            }
+          ],
+          "time_text": "00:48:05",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:48:05",
+          "result_notes": "school LIB",
+          "category_name": "Rookie Female",
+          "category_rank": 4,
+          "metric_summary": "Points 90",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b9a-8941-88a84e57746f",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2024-12-21",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 04",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:29:19",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:29:19",
+          "result_notes": null,
+          "category_name": "High School Rookie Female",
+          "category_rank": 1,
+          "metric_summary": "Points 100",
+          "additional_course": false,
+          "affiliation_labels": [
+            "LIB"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:29:19"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School Rookie Teams",
+          "course_rank": 10,
+          "status_code": null,
+          "outcome_text": "Finish 00:29:19; Points 100",
+          "result_notes": "trailing_paren:LIB",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:29:19; Points 100",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-70ae-af21-b44b23f1b394",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2024-11-09",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 01",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:18:56",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:18:56",
+          "result_notes": null,
+          "category_name": "High School Rookie Female",
+          "category_rank": 2,
+          "metric_summary": "Points 95",
+          "additional_course": false,
+          "affiliation_labels": [
+            "LIB"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:18:56"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School Rookie Teams",
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "Finish 00:18:56; Points 95",
+          "result_notes": "trailing_paren:LIB",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:18:56; Points 95",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -74,7 +353,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

@@ -1,6 +1,39 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:33:28",
+          "competitive": true,
+          "course_name": "Short Advanced Open",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:33:28",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 95",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-75b7-a784-9c4b4b752056",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2018-12-29",
@@ -9,13 +42,22 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 5
+            }
+          ],
+          "time_text": "01:57:41",
           "competitive": true,
           "course_name": "Bog Slog",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:57:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 5",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +75,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 2
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:38:50",
           "competitive": true,
           "course_name": "Varsity Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:38:50",
           "result_notes": "school OVL",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 2; Score 95",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +110,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:40:53",
           "competitive": true,
           "course_name": "High School Varsity Boys",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:40:53",
           "result_notes": "school Overlake",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -77,13 +141,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:21:45",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:21:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "WMS"
@@ -101,13 +169,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:13:26",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:13:26",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "WMS"
@@ -125,13 +197,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:17:10",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:17:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "WMS"
@@ -144,7 +220,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

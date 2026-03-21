@@ -9,13 +9,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:36",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:32:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BBL"
@@ -33,13 +37,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:11",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:25:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BBL"
@@ -57,13 +65,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:40:36",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:40:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BBL"
@@ -81,13 +93,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:38:32",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:38:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STL"
@@ -105,13 +121,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:33",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:47:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STL"
@@ -129,13 +149,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:53:07",
           "competitive": true,
           "course_name": "WIOL 3F",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "00:53:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STL"
@@ -153,13 +177,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:45:31",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:45:31",
           "result_notes": "classification ISIM",
           "category_name": "ISIM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "St. Luke Shoreline"
@@ -177,13 +205,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:45:58",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:45:58",
           "result_notes": null,
           "category_name": "ISIM",
           "category_rank": 12,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "St. Luke Shoreline"
@@ -201,13 +233,17 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:22:04",
           "competitive": true,
           "course_name": "P2",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:22:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -225,13 +261,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:39:08",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:39:08",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "St. Lukes"
@@ -249,13 +289,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:23:59",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:23:59",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": [
             "St. Lukes"
@@ -273,13 +322,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:36:14",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:36:14",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": [
             "St. Lukes"
@@ -297,13 +355,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:41:36",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:41:36",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": 10,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": [
             "St. Lukes"
@@ -321,13 +388,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:26:18",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:26:18",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": 5,
+          "metric_summary": "Points 89",
           "additional_course": false,
           "affiliation_labels": [
             "St. Lukes"
@@ -345,13 +421,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "St. Lukes"

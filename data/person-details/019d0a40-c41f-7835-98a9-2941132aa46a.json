@@ -1,6 +1,73 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7721-b0f7-e56356eb8189",
+      "venue_id": "019b81f3-1f39-7989-a3d1-6c58d89f120d",
+      "event_date": "2021-10-30",
+      "event_kind": "race",
+      "event_name": "2021 Choose Your Adventure #3",
+      "venue_name": "Robinswood Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 12
+            }
+          ],
+          "time_text": "01:11:02",
+          "competitive": true,
+          "course_name": "75 min time limit, 1 pt/minute penalty if late. Must visit pairs of checkpoints for points.",
+          "course_rank": 85,
+          "status_code": "OK",
+          "outcome_text": "01:11:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Penalty 0; Points 12; Total Time 12",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-70fd-9800-ac7856b7bacb",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "event_date": "2021-08-11",
+      "event_kind": "race",
+      "event_name": "2021 Wednesday Evening #3",
+      "venue_name": "Seattle Pacific University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:17:32",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "01:17:32",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7f1d-aa1d-e59d5082f769",
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
       "event_date": "2014-03-29",
@@ -9,13 +76,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:23:08",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:23:08",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +104,17 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:16:52",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:16:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -57,13 +132,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:24:29",
           "competitive": true,
           "course_name": "P1",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:24:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -81,13 +160,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -105,13 +188,22 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "02:14:50",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "02:14:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -129,13 +221,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:43:21",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:43:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -153,13 +249,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:22:45",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 20,
+          "status_code": "OK",
           "outcome_text": "01:22:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -177,13 +277,17 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:09:51",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "01:09:51",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -196,7 +300,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 8,
+    "event_count": 10,
     "mention_count": 0
   },
   "mentions": [],

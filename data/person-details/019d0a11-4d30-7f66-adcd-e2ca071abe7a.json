@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 19
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "01:42:05",
           "competitive": true,
           "course_name": "Varsity Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:42:05",
           "result_notes": "school OAK",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 19; Score 75",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +44,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:36:47",
           "competitive": true,
           "course_name": "High School JV Boys North",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:36:47",
           "result_notes": "school Oak Harbor",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 85",
           "additional_course": false,
           "affiliation_labels": []
         }

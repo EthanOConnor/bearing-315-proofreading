@@ -1,6 +1,72 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7d26-b685-4390bf857238",
+      "venue_id": "019b81f3-1f39-731b-92c2-66617be76e85",
+      "event_date": "2021-06-13",
+      "event_kind": "race",
+      "event_name": "2021 Ultimate Orienteer #6",
+      "venue_name": "Jack Creek Middle",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 989
+            }
+          ],
+          "time_text": "00:44:18",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:44:18",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 2,
+          "metric_summary": "Points 989",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e65-9426-e592354665ba",
+      "venue_id": "019b7b2f-bf4b-7d04-bb73-a3e7756e878a",
+      "event_date": "2021-06-12",
+      "event_kind": "race",
+      "event_name": "2021 Ultimate Orienteer #5",
+      "venue_name": "Teanaway Forks",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 765
+            }
+          ],
+          "time_text": "03:30:26",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "03:30:26",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 3,
+          "metric_summary": "Points 765",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-713d-a61d-55eafed36318",
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "2015-12-05",
@@ -9,13 +75,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:53:36",
           "competitive": true,
           "course_name": "Long Advanced Men",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:53:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -33,13 +108,17 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:15:49",
           "competitive": true,
           "course_name": "SART 2015 - Round 4",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:15:49",
           "result_notes": "heat Heat 416",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +134,22 @@
       "venue_name": "Shoreline Community College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_rank",
+              "metric_numeric": 2
+            }
+          ],
+          "time_text": "00:15:28",
           "competitive": true,
           "course_name": "SART 2015 - Round 5",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:15:28",
           "result_notes": "heat Champs",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Rank 2",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -77,13 +165,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:12:52",
           "competitive": true,
           "course_name": "SART 2015 - Round 1",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:12:52",
           "result_notes": "heat Heat 105",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -99,13 +191,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:17:09",
           "competitive": true,
           "course_name": "SART 2015 - Round 2",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:17:09",
           "result_notes": "heat Heat 205",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -121,13 +217,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:14:46",
           "competitive": true,
           "course_name": "SART 2015 - Round 3",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:14:46",
           "result_notes": "heat Heat 305",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -143,13 +243,17 @@
       "venue_name": "Greenlake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:05:29",
           "competitive": true,
           "course_name": "SART 2015 - Time Trial",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:05:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -165,13 +269,17 @@
       "venue_name": "Moses Lake Sand Dunes",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:53:55",
           "competitive": true,
           "course_name": "Long",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:53:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -189,13 +297,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:38:57",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:38:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -205,12 +317,28 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
-    "event_count": 9,
+    "role_count": 1,
+    "event_count": 11,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a40-c41c-7a52-b827-d9860d8b9f95",
   "individual_name": "Jourdan Harvey",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4c-7d26-b685-4390bf857238",
+      "venue_id": "019b81f3-1f39-731b-92c2-66617be76e85",
+      "role_name": "Control Pickup",
+      "event_date": "2021-06-13",
+      "event_kind": "race",
+      "event_name": "2021 Ultimate Orienteer #6",
+      "venue_name": "Jack Creek Middle",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2021-ultimate-orienteer-6-jack-creek-middle/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

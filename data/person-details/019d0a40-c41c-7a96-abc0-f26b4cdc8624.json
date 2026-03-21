@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:09:00",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "01:09:00",
           "result_notes": "classification ISIF",
           "category_name": "ISIF",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville Montessori"
@@ -33,13 +37,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:09:13",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:09:13",
           "result_notes": null,
           "category_name": "ISIF",
           "category_rank": 16,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville Montessori"
@@ -57,52 +65,88 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:33:52",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:33:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:33:52",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:33:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:33:52",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:33:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:33:52",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:33:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessori"
@@ -120,13 +164,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": null,
-          "outcome_text": "Blank",
+          "status_code": null,
+          "outcome_text": "",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Woodinville-Montessor MISPUNCH"
@@ -144,13 +192,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:39:41",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "00:39:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 80",
           "additional_course": false,
           "affiliation_labels": [
             "Wood-Mont"
@@ -168,13 +225,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "01:09:38",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:09:38",
           "result_notes": null,
           "category_name": "Girls",
           "category_rank": 7,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": [
             "Wood-Mont"
@@ -192,13 +258,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:32:34",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:32:34",
           "result_notes": null,
           "category_name": "Girls",
           "category_rank": 3,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Wood-Mont"

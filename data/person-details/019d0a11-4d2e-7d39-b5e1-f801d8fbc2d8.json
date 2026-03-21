@@ -9,20 +9,63 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 14
+            },
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 14
+            }
+          ],
+          "time_text": "00:44:00",
           "competitive": true,
           "course_name": "2021 Choose Your Adventure #1: Corn Maze!",
           "course_rank": 63,
+          "status_code": "OK",
           "outcome_text": "00:44:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Score 14; Penalty 0; Points 14",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 14
+            },
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 14
+            }
+          ],
+          "time_text": "00:44:00",
+          "competitive": true,
+          "course_name": "2021 Choose Your Adventure #1: Corn Maze!",
+          "course_rank": 63,
+          "status_code": "OK",
+          "outcome_text": "00:44:00",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Final Score 14; Penalty 0; Points 14",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
-      "result_row_count": 1
+      "result_row_count": 2
     },
     {
       "event_id": "019b81f3-1f4a-7ad4-8c70-4381d3449d08",
@@ -33,13 +76,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:18:09",
           "competitive": true,
           "course_name": "P1",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:18:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +102,17 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:30:36",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:30:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -79,13 +130,17 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Public 2",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -103,13 +158,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:42:20",
           "competitive": true,
           "course_name": "Public 3",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:42:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -127,13 +186,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:11",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "01:00:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -149,13 +212,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:37:29",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:37:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -171,13 +238,17 @@
       "venue_name": "Dash Point State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:46:06",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:46:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -193,13 +264,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:12",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:32:12",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -215,13 +290,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:50:42",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:50:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -237,13 +316,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:14:09",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 17,
+          "status_code": "OK",
           "outcome_text": "01:14:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 73
+            }
+          ],
+          "time_text": "00:44:03",
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "00:44:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 73",
           "additional_course": false,
           "affiliation_labels": [
             "Burlington-Edison"

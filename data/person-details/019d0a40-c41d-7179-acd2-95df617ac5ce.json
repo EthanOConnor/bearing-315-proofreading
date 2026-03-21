@@ -9,13 +9,26 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pnlty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "01:02:15",
           "competitive": true,
           "course_name": "Choose Your Adventure - Campus",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "01:02:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pnlty 0; Points 24",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +46,17 @@
       "venue_name": "Moses Lake Sand Dunes",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:45:53",
           "competitive": true,
           "course_name": "Long",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "01:45:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

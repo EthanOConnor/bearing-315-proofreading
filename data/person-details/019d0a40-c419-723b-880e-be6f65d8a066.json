@@ -9,13 +9,34 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "controls_found",
+              "metric_numeric": 21
+            },
+            {
+              "metric_key": "map_1_skips",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "mins_late",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "total_score",
+              "metric_numeric": 21
+            }
+          ],
+          "time_text": "01:12:46",
           "competitive": true,
           "course_name": "Choose Your Adventure #2 (Campus)",
           "course_rank": 42,
+          "status_code": "OK",
           "outcome_text": "01:12:46",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Controls Found 21; Map 1 Skips 0; Mins Late 0; Total Score 21",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +54,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:54:43",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:54:43",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +82,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:30:06",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "01:30:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

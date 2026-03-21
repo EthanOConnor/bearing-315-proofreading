@@ -119,6 +119,32 @@ function createEntityLink(type, id, label, className = "entity-link") {
   return link;
 }
 
+function formatCodeLabel(value) {
+  if (!value) return "—";
+  return value
+    .replace(/[_-]+/g, " ")
+    .replace(/\s+/g, " ")
+    .trim()
+    .replace(/\b\w/g, (match) => match.toUpperCase());
+}
+
+function setTableHead(target, labels) {
+  const row = document.createElement("tr");
+  labels.forEach((labelText) => {
+    const th = document.createElement("th");
+    th.textContent = labelText;
+    row.append(th);
+  });
+  target.replaceChildren(row);
+}
+
+function appendTextLine(target, text, className = "") {
+  const line = document.createElement("div");
+  if (className) line.className = className;
+  line.textContent = text;
+  target.append(line);
+}
+
 function createCompetitorNode(resultRow) {
   if (resultRow.individual_id) {
     return createEntityLink("person", resultRow.individual_id, resultRow.competitor_name || "(unnamed competitor)");
@@ -224,6 +250,90 @@ function createCourseCard(course) {
   return article;
 }
 
+function renderMetadataPanel(detail) {
+  const panel = document.getElementById("event-metadata-panel");
+  const notesWrap = document.getElementById("event-detail-notes-wrap");
+  const notesTarget = document.getElementById("event-detail-notes");
+  const linksWrap = document.getElementById("event-detail-links-wrap");
+  const linksTarget = document.getElementById("event-detail-links");
+  const rolesWrap = document.getElementById("event-detail-roles-wrap");
+  const rolesHead = document.getElementById("event-detail-roles-head");
+  const rolesBody = document.getElementById("event-detail-roles-body");
+
+  const noteBlocks = [detail.event_notes, detail.event_comments].filter(Boolean);
+  if (noteBlocks.length) {
+    notesTarget.replaceChildren();
+    noteBlocks.forEach((block) => {
+      const article = document.createElement("article");
+      article.className = "detail-note";
+      block.split(/\n{2,}/).forEach((paragraph) => {
+        const cleaned = paragraph.trim();
+        if (cleaned) appendTextLine(article, cleaned);
+      });
+      notesTarget.append(article);
+    });
+    notesWrap.hidden = false;
+  } else {
+    notesTarget.replaceChildren();
+    notesWrap.hidden = true;
+  }
+
+  const externalLinks = detail.external_links || [];
+  if (externalLinks.length) {
+    const linkNodes = externalLinks.map((linkRow) => {
+      const anchor = document.createElement("a");
+      anchor.className = "pill pill-link";
+      anchor.href = linkRow.link_url || "#";
+      anchor.target = "_blank";
+      anchor.rel = "noopener noreferrer";
+      anchor.textContent = formatCodeLabel(linkRow.link_type || "link");
+      return anchor;
+    });
+    linksTarget.replaceChildren(...linkNodes);
+    linksWrap.hidden = false;
+  } else {
+    linksTarget.replaceChildren();
+    linksWrap.hidden = true;
+  }
+
+  const volunteerRoles = detail.volunteer_roles || [];
+  if (volunteerRoles.length) {
+    setTableHead(rolesHead, ["Role", "Volunteer", "Hours", "Points", "Sources"]);
+    const rows = volunteerRoles.map((roleRow) => {
+      const tr = document.createElement("tr");
+
+      const role = document.createElement("td");
+      role.textContent = roleRow.role_name || "Unspecified role";
+
+      const volunteer = document.createElement("td");
+      volunteer.append(
+        createEntityLink("person", roleRow.individual_id, roleRow.individual_name || "(unknown volunteer)")
+      );
+
+      const hours = document.createElement("td");
+      hours.textContent = roleRow.volunteer_hours == null ? "—" : formatEventPageNumber(roleRow.volunteer_hours);
+
+      const points = document.createElement("td");
+      points.textContent = roleRow.volunteer_points == null ? "—" : formatEventPageNumber(roleRow.volunteer_points);
+
+      const sources = document.createElement("td");
+      sources.textContent = roleRow.citation_count
+        ? `${formatEventPageNumber(roleRow.citation_count)} citation(s)`
+        : "—";
+
+      tr.append(role, volunteer, hours, points, sources);
+      return tr;
+    });
+    rolesBody.replaceChildren(...rows);
+    rolesWrap.hidden = false;
+  } else {
+    rolesBody.replaceChildren();
+    rolesWrap.hidden = true;
+  }
+
+  panel.hidden = noteBlocks.length === 0 && externalLinks.length === 0 && volunteerRoles.length === 0;
+}
+
 function renderBackLinks(params) {
   const target = document.getElementById("event-back-links");
   const fromType = params.get("fromType");
@@ -245,6 +355,7 @@ function renderError(message) {
   document.getElementById("event-title").textContent = "Event Unavailable";
   document.getElementById("event-subtitle").textContent = message;
   document.getElementById("event-summary-panel").hidden = true;
+  document.getElementById("event-metadata-panel").hidden = true;
   document.getElementById("event-results-panel").hidden = true;
 }
 
@@ -306,6 +417,7 @@ async function main() {
       createDetailFact("Citations", formatEventPageNumber(detail.citation_count)),
     ];
     document.getElementById("event-summary-facts").replaceChildren(...facts);
+    renderMetadataPanel(detail);
 
     const courseCards = (detail.courses || []).map(createCourseCard);
     const courseList = document.getElementById("event-course-list");

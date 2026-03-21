@@ -9,13 +9,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:40:24",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:40:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:57:46",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:57:46",
           "result_notes": null,
           "category_name": "Women",
           "category_rank": 16,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +70,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "00:51:57",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:51:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 79",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +101,22 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "01:19:16",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "01:19:16",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -101,13 +132,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:52:49",
           "competitive": true,
           "course_name": "Orange",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:52:49",
           "result_notes": null,
           "category_name": "Recreational",
           "category_rank": 7,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "NA"
@@ -125,13 +160,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:51:13",
           "competitive": true,
           "course_name": "Orange",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:51:13",
           "result_notes": "us_eligible N",
           "category_name": "F-Orange",
           "category_rank": 3,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "NA"
@@ -149,13 +188,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:34:27",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "01:34:27",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -171,13 +214,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:26:59",
           "competitive": true,
           "course_name": "Night Course",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:26:59",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

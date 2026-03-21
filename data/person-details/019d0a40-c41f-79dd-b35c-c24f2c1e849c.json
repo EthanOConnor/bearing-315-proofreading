@@ -9,13 +9,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 42
+            }
+          ],
+          "time_text": "01:43:46",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:43:46",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 52,
+          "metric_summary": "Points 42",
           "additional_course": false,
           "affiliation_labels": []
         }

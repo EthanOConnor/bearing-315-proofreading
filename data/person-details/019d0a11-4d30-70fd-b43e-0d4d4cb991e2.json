@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 10
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "01:00:49",
           "competitive": true,
           "course_name": "Varsity Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:00:49",
           "result_notes": "school LWA",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 10; Score 84",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +44,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:41:51",
           "competitive": true,
           "course_name": "High School JV Boys North",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:41:51",
           "result_notes": "school Lake Washington",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +75,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:37:06",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:37:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "EAS"
@@ -77,13 +103,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:19:28",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:19:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "EAS"
@@ -101,13 +131,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:02:44",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "01:02:44",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "EAS"

@@ -9,13 +9,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:22:39",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:22:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +65,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:14:23",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 30,
+          "status_code": "OK",
           "outcome_text": "01:14:23",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -81,13 +93,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:42:34",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:42:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "JEF"
@@ -105,13 +121,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:41:29",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:41:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -127,13 +147,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:30:59",
           "competitive": true,
           "course_name": "WIOL 6M",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:30:59",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "JEF"
@@ -151,13 +175,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:42:46",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:42:46",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "JEF"
@@ -175,13 +203,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:05:30",
           "competitive": true,
           "course_name": "ORANGE",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "01:05:30",
           "result_notes": "classification ISJVM",
           "category_name": "ISJVM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson HS"
@@ -199,13 +231,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:22:29",
           "competitive": true,
           "course_name": "ORANGE",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:22:29",
           "result_notes": null,
           "category_name": "ISJVM",
           "category_rank": 15,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson HS"
@@ -223,13 +259,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "01:18:05",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "01:18:05",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
@@ -247,13 +292,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 70
+            }
+          ],
+          "time_text": "00:52:04",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 24,
+          "status_code": "OK",
           "outcome_text": "00:52:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 70",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
@@ -271,52 +325,88 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "01:43:33",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "01:43:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 80",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "01:43:33",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "01:43:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 80",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "01:43:33",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "01:43:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 80",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "01:43:33",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "01:43:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 80",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
@@ -334,13 +424,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:26:32",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "01:26:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
@@ -358,13 +452,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:46:34",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "00:46:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 80",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
@@ -382,13 +485,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:49:54",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:49:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 83",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
@@ -406,13 +518,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "00:51:58",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:51:58",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 79",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
@@ -430,13 +551,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "00:40:51",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:40:51",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 79",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
@@ -454,13 +584,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:35:30",
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:35:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
@@ -478,13 +617,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:19:39",
           "competitive": true,
           "course_name": "WIOL Course #4",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:19:39",
           "result_notes": "type S",
           "category_name": "Boys",
           "category_rank": 3,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jefferson"
@@ -502,13 +650,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:41",
           "competitive": true,
           "course_name": "Yellow",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:32:41",
           "result_notes": null,
           "category_name": "M-14",
           "category_rank": 3,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -526,13 +678,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:36:26",
           "competitive": true,
           "course_name": "Yellow",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:36:26",
           "result_notes": "us_eligible N",
           "category_name": "M-14",
           "category_rank": 3,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -550,13 +706,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:09:38",
           "competitive": true,
           "course_name": "Sprint",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:09:38",
           "result_notes": "classification M14",
           "category_name": "M14",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -574,13 +734,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:46:36",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "01:46:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

@@ -9,13 +9,22 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "01:22:38",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "01:22:38",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:57:24",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:57:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 89",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +75,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:46:47",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "00:46:47",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -81,13 +103,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:46:10",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "00:46:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -105,24 +136,37 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:22:57",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 23,
+          "status_code": null,
           "outcome_text": "00:22:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -138,13 +182,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:57:45",
           "competitive": true,
           "course_name": "10k",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:57:45",
           "result_notes": null,
           "category_name": "F 19-39",
           "category_rank": 5,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

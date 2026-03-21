@@ -1,6 +1,95 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f49-759f-8833-4a34dcb3e71b",
+      "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
+      "event_date": "2024-12-29",
+      "event_kind": "race",
+      "event_name": "2024 Choose Your Adventure #6",
+      "venue_name": "Lord Hill Regional Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:08:51",
+          "competitive": true,
+          "course_name": "Bog Slog – Open",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "02:08:51",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b9a-8941-88a84e57746f",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2024-12-21",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 04",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "01:07:08",
+          "competitive": true,
+          "course_name": "Long Advanced Open",
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "01:07:08",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 80",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-73e3-9737-07da8d00b576",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2021-07-14",
+      "event_kind": "race",
+      "event_name": "2021 Wednesday Evening #1",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:54:10",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:54:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-706b-b3a4-fed563f242f6",
       "venue_id": "019b81f3-1f39-7cf1-bf27-c8951097da5f",
       "event_date": "2011-01-22",
@@ -9,13 +98,17 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:49",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "01:00:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -33,13 +126,17 @@
       "venue_name": "Dash Point State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:34:36",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:34:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +152,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:19:40",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:19:40",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Meridian Park Elem"
@@ -79,13 +180,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:24:36",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:24:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Meridian Park Elem"
@@ -103,13 +208,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:53",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:25:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -125,13 +234,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -149,13 +262,17 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:33:32",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:33:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -168,7 +285,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 7,
+    "event_count": 10,
     "mention_count": 0
   },
   "mentions": [],

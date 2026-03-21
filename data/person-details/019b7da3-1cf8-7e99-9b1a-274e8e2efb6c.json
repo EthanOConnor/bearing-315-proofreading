@@ -9,13 +9,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "00:37:17",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 18,
+          "status_code": null,
           "outcome_text": "00:37:17",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 76",
           "additional_course": false,
           "affiliation_labels": [
             "BREH"
@@ -33,13 +42,17 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:11:17",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "01:11:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +68,17 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:50",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:25:50",
           "result_notes": null,
           "category_name": "WIOL - Junior High / Male",
           "category_rank": 5,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BREJ"
@@ -79,13 +96,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:12:58",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:12:58",
           "result_notes": "asterisk",
           "category_name": "WIOL - Junior High / Male",
           "category_rank": 11,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BREJ"

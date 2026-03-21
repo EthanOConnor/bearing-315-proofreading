@@ -9,13 +9,30 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "minutes_late",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "punches",
+              "metric_numeric": 23
+            },
+            {
+              "metric_key": "total_score",
+              "metric_numeric": 23
+            }
+          ],
+          "time_text": "00:44:38",
           "competitive": true,
           "course_name": "Choose Your Adventure - Vampire",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:44:38",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Minutes Late 0; Punches 23; Total Score 23",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +48,17 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:12",
           "competitive": true,
           "course_name": "SART 2015 - Round 4",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:25:12",
           "result_notes": "heat Heat 408",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +74,22 @@
       "venue_name": "Shoreline Community College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_rank",
+              "metric_numeric": 42
+            }
+          ],
+          "time_text": "00:23:26",
           "competitive": true,
           "course_name": "SART 2015 - Round 5",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:23:26",
           "result_notes": "heat Heat 508",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Rank 42",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +105,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:21:58",
           "competitive": true,
           "course_name": "SART 2015 - Round 1",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:21:58",
           "result_notes": "heat Heat 108",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -97,13 +131,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:21:29",
           "competitive": true,
           "course_name": "SART 2015 - Round 2",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:21:29",
           "result_notes": "heat Heat 208",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -119,13 +157,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:22:57",
           "competitive": true,
           "course_name": "SART 2015 - Round 3",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:22:57",
           "result_notes": "heat Heat 307",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -141,13 +183,17 @@
       "venue_name": "Greenlake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:07:55",
           "competitive": true,
           "course_name": "SART 2015 - Time Trial",
           "course_rank": 44,
+          "status_code": "OK",
           "outcome_text": "00:07:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -163,13 +209,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:21",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:25:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "NEW"
@@ -187,13 +237,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:55",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:25:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "NEW"
@@ -211,13 +265,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P7M",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "NEW"
@@ -235,13 +293,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:46:22",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:46:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "NEW"
@@ -259,13 +321,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:29:55",
           "competitive": true,
           "course_name": "WIOL 3F",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:29:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "NEW"
@@ -283,13 +349,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:29:30",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:29:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "NEW"
@@ -307,13 +377,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:26:45",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "01:26:45",
           "result_notes": "classification ISIM",
           "category_name": "ISIM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Tyee MS"
@@ -331,13 +405,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:49",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:32:49",
           "result_notes": null,
           "category_name": "ISIM",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Tyee MS"
@@ -355,13 +433,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:27:17",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:27:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 85",
           "additional_course": false,
           "affiliation_labels": [
             "Tyee MS"
@@ -379,13 +466,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:20:18",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:20:18",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Tyee MS"
@@ -403,52 +499,88 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:24:49",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:24:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Tyee MS"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:24:49",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:24:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Tyee MS"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:24:49",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:24:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Tyee MS"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:24:49",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:24:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Tyee MS"
@@ -466,13 +598,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:37:37",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:37:37",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": [
             "Tyee Middle"
@@ -490,13 +631,17 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Tyee Middle"
@@ -514,13 +659,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:36:47",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:36:47",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": 12,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "Tyee Middle"
@@ -538,13 +692,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "00:36:54",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:36:54",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": 20,
+          "metric_summary": "Points 74",
           "additional_course": false,
           "affiliation_labels": [
             "Tyee Middle"
@@ -562,13 +725,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "00:35:21",
           "competitive": true,
           "course_name": "WIOL Course #2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:35:21",
           "result_notes": "type S",
           "category_name": "Boys",
           "category_rank": 17,
+          "metric_summary": "Points 76",
           "additional_course": false,
           "affiliation_labels": [
             "Tyee Middle"

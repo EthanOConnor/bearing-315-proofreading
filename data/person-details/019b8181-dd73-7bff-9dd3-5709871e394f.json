@@ -9,24 +9,37 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:28:01",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 1,
+          "status_code": null,
           "outcome_text": "00:28:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 414
+            }
+          ],
+          "time_text": "00:43:33",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 34,
+          "status_code": null,
           "outcome_text": "00:43:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 414",
           "additional_course": false,
           "affiliation_labels": []
         }

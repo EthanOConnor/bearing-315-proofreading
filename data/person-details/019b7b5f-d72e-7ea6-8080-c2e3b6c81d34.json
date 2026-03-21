@@ -9,15 +9,21 @@
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
-          "competitive": false,
+          "metrics": [],
+          "time_text": null,
+          "competitive": true,
           "course_name": "Course 3",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
-          "result_notes": "Loop A only",
-          "category_name": null,
+          "result_notes": null,
+          "category_name": "Loop A only",
           "category_rank": null,
-          "additional_course": true,
-          "affiliation_labels": []
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "SAMM"
+          ]
         }
       ],
       "result_row_count": 1

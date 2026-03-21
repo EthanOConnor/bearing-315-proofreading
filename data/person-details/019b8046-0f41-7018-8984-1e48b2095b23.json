@@ -9,13 +9,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 161
+            }
+          ],
+          "time_text": "02:20:25",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 47,
+          "status_code": null,
           "outcome_text": "02:20:25",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 161",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,17 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:30:10",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 4,
+          "status_code": null,
           "outcome_text": "00:30:10",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

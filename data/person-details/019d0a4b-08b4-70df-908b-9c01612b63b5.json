@@ -9,13 +9,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:39:17",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:39:17",
           "result_notes": null,
           "category_name": "High School Rookie Male",
-          "category_rank": null,
+          "category_rank": 9,
+          "metric_summary": "Points 85",
           "additional_course": false,
           "affiliation_labels": [
             "PEN"
@@ -33,13 +42,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "00:35:16",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "00:35:16",
           "result_notes": null,
           "category_name": "High School Rookie Male",
-          "category_rank": null,
+          "category_rank": 18,
+          "metric_summary": "Points 76",
           "additional_course": false,
           "affiliation_labels": [
             "PEN"
@@ -57,13 +75,154 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "00:49:28",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:49:28",
           "result_notes": null,
           "category_name": "High School Rookie Male",
-          "category_rank": null,
+          "category_rank": 13,
+          "metric_summary": "Points 81",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:24:12",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:24:12",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 7,
+          "metric_summary": "Points 87",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 73
+            }
+          ],
+          "time_text": "01:10:58",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "01:10:58",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 21,
+          "metric_summary": "Points 73",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:21:57",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "00:21:57",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 11,
+          "metric_summary": "Points 83",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 77
+            }
+          ],
+          "time_text": "00:53:29",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "00:53:29",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 17,
+          "metric_summary": "Points 77",
           "additional_course": false,
           "affiliation_labels": [
             "PEN"
@@ -76,7 +235,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

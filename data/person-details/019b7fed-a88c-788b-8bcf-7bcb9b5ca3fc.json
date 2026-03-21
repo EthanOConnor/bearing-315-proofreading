@@ -9,13 +9,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:24",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:32:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:46:16",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:46:16",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +65,17 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:38:09",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:38:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +91,17 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:55:31",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 6,
+          "status_code": null,
           "outcome_text": "00:55:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -101,24 +117,37 @@
       "venue_name": "Washington Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:51:12",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 14,
+          "status_code": "OK",
           "outcome_text": "00:51:12",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "00:14:06",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:14:06",
           "result_notes": null,
           "category_name": "Public",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -1,6 +1,72 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7845-952f-5b03fd59d301",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2023-12-16",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 04",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "00:43:49",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "00:43:49",
+          "result_notes": null,
+          "category_name": "Short Adv Female",
+          "category_rank": 13,
+          "metric_summary": "Points 81",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7ea5-8041-5401af3532ce",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2023-12-02",
+      "event_kind": "race",
+      "event_name": "2023 Winter League 03",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "01:30:30",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "01:30:30",
+          "result_notes": null,
+          "category_name": "Short Adv Female",
+          "category_rank": 19,
+          "metric_summary": "Points 75",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81b3-75e2-795f-bc1c-ddd3ba942d6c",
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "2003-11-08",
@@ -9,13 +75,17 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:38:52",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:38:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +101,17 @@
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:09:28",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 25,
+          "status_code": "OK",
           "outcome_text": "01:09:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +127,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": false,
           "course_name": "Beginner Course",
           "course_rank": null,
+          "status_code": "NC",
           "outcome_text": "NC",
           "result_notes": "map hiker",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -71,17 +149,21 @@
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
       "event_date": "1999-09-11",
       "event_kind": "race",
-      "event_name": "Bo Powell Memorial - Woodland Park",
+      "event_name": "Bo Powell Memorial O' Meet",
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:42:08",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 12,
+          "status_code": null,
           "outcome_text": "00:42:08",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -92,7 +174,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

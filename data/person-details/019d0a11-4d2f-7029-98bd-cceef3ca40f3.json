@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 17
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 77
+            }
+          ],
+          "time_text": "01:18:34",
           "competitive": true,
           "course_name": "Varsity Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:18:34",
           "result_notes": "school RAV",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 17; Score 77",
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,209 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 63
+            }
+          ],
+          "time_text": "01:10:34",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 31,
+          "status_code": "OK",
           "outcome_text": "01:10:34",
           "result_notes": null,
           "category_name": "High School JV Male",
+          "category_rank": 31,
+          "metric_summary": "Points 63",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 62
+            }
+          ],
+          "time_text": "00:40:03",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 32,
+          "status_code": "OK",
+          "outcome_text": "00:40:03",
+          "result_notes": null,
+          "category_name": "High School JV Male",
+          "category_rank": 32,
+          "metric_summary": "Points 62",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 44
+            }
+          ],
+          "time_text": "00:44:22",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 50,
+          "status_code": "OK",
+          "outcome_text": "00:44:22",
+          "result_notes": null,
+          "category_name": "High School JV Male",
+          "category_rank": 50,
+          "metric_summary": "Points 44",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:32:09",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "00:32:09",
+          "result_notes": null,
+          "category_name": "High School JV Male",
+          "category_rank": 11,
+          "metric_summary": "Points 83",
+          "additional_course": false,
+          "affiliation_labels": [
+            "PEN"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:32:09"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School JV Male Teams",
+          "course_rank": 14,
+          "status_code": null,
+          "outcome_text": "Finish 00:32:09; Points 83",
+          "result_notes": "trailing_paren:PEN",
+          "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 00:32:09; Points 83",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e1b-992b-88c8bd7bebc9",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2025-01-11",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 05 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "00:30:58",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 22,
+          "status_code": "OK",
+          "outcome_text": "00:30:58",
+          "result_notes": "school PEN",
+          "category_name": "HS JV Male",
+          "category_rank": 22,
+          "metric_summary": "Points 72",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7b9a-8941-88a84e57746f",
+      "venue_id": "019b7acd-a705-77b2-b64e-f9f6b2eca93f",
+      "event_date": "2024-12-21",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 04",
+      "venue_name": "Hamlin Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": "00:52:52",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 33,
+          "status_code": "OK",
+          "outcome_text": "00:52:52",
+          "result_notes": null,
+          "category_name": "High School JV Male",
+          "category_rank": 33,
+          "metric_summary": "Points 61",
           "additional_course": false,
           "affiliation_labels": [
             "PEN"
@@ -28,7 +224,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

@@ -1,6 +1,166 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-73ce-9a94-d24f7fe127e9",
+      "venue_id": "019b820a-0443-7dfd-95ed-ab080bf13d30",
+      "event_date": "2024-03-24",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #4 - Classic, Bishops Land",
+      "venue_name": "Bishop's Land",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 728
+            }
+          ],
+          "time_text": "01:42:01",
+          "competitive": true,
+          "course_name": "Female Open",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:42:01",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 728",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7a2b-bb77-a81717d60d0d",
+      "venue_id": "019b820a-0433-7989-b481-2d59be81507f",
+      "event_date": "2024-03-22",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #2 - Middle, Frenchman Coulee",
+      "venue_name": "Frenchman Coulee",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 697
+            }
+          ],
+          "time_text": "00:46:07",
+          "competitive": true,
+          "course_name": "Female Open",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "00:46:07",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 697",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7e01-93e8-91103e62ff17",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-12",
+      "event_kind": "race",
+      "event_name": "PNWOF2022: 2022 Ultimate Orienteer #7",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": "158:31",
+          "category_name": "Open Female",
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7308-b1b6-bc1c3542da65",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "2022 Ultimate Orienteer #6",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 846
+            }
+          ],
+          "time_text": "00:40:16",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "00:40:16",
+          "result_notes": null,
+          "category_name": "Open Female",
+          "category_rank": 3,
+          "metric_summary": "Points 846",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7980-92be-eddefbcc04b4",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "PNWOF2022: Middle NRE, Fishtrap Lake",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:40:16",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "00:40:16",
+          "result_notes": null,
+          "category_name": "F-21+",
+          "category_rank": 3,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4c-7b05-8d21-7dbbd58c56c9",
       "venue_id": "019b81f3-1f39-7e9a-b15e-62ef1a8a72ea",
       "event_date": "2012-04-22",
@@ -9,13 +169,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:39:47",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:39:47",
           "result_notes": "classification ISIF",
           "category_name": "ISIF",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Crittenden MS"
@@ -33,13 +197,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:34:30",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:34:30",
           "result_notes": null,
           "category_name": "ISIF",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Crittenden MS"
@@ -57,13 +225,17 @@
       "venue_name": "Camp Sekani WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:11:06",
           "competitive": true,
           "course_name": "White",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:11:06",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "F10",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BAOC"
@@ -81,13 +253,17 @@
       "venue_name": "Fishtrap Lake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:44:24",
           "competitive": true,
           "course_name": "White",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:44:24",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "F10",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BAOC"
@@ -105,13 +281,17 @@
       "venue_name": "Moses Lake Sand Dunes",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:17:16",
           "competitive": true,
           "course_name": "White",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:17:16",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "F10",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BAOC"
@@ -129,13 +309,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:20:39",
           "competitive": true,
           "course_name": "White",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:20:39",
           "result_notes": null,
           "category_name": "F-10",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BAOC"
@@ -153,13 +337,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:22:15",
           "competitive": true,
           "course_name": "White",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:22:15",
           "result_notes": "us_eligible Y",
           "category_name": "F-10",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BAOC"
@@ -177,13 +365,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:10:15",
           "competitive": true,
           "course_name": "Sprint",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:10:15",
           "result_notes": "classification F10",
           "category_name": "F10",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BAOC"
@@ -198,7 +390,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 8,
+    "event_count": 13,
     "mention_count": 0
   },
   "mentions": [],

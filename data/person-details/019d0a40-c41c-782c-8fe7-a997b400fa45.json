@@ -9,13 +9,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:49:39",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:49:39",
           "result_notes": null,
           "category_name": "Women",
           "category_rank": 11,
+          "metric_summary": "Points 83",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "01:05:22",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "01:05:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 76",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +71,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:46:20",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:46:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

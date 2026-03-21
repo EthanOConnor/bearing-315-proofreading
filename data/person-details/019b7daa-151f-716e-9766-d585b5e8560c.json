@@ -9,13 +9,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:40:52",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 9,
+          "status_code": null,
           "outcome_text": "00:40:52",
           "result_notes": null,
           "category_name": "WIOL - High School Female",
           "category_rank": null,
+          "metric_summary": "Points 85",
           "additional_course": false,
           "affiliation_labels": [
             "TOJH"
@@ -33,13 +42,17 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:42:23",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:42:23",
           "result_notes": null,
           "category_name": "High School Women",
           "category_rank": 3,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "TOJH"

@@ -9,16 +9,116 @@
       "venue_name": "Moses Lake Sand Dunes",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_place",
+              "metric_numeric": 3
+            },
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "02:28:27"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_text": "DNS"
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Medium Advanced Rec",
           "course_rank": null,
-          "outcome_text": "DNS",
+          "status_code": "DNS",
+          "outcome_text": "Day 1 Time 02:28:27; Day 2 Time DNS",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Day 1 Time 02:28:27; Day 2 Time DNS",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7fbb-b8cb-9b5f0b277c63",
+      "venue_id": "019b81f3-1f39-710d-8e0d-1ef8ec0846cd",
+      "event_date": "2025-06-21",
+      "event_kind": "race",
+      "event_name": "2025 Ultimate Orienteer #7",
+      "venue_name": "Moses Lake Sand Dunes",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:28:27",
+          "competitive": true,
+          "course_name": "Medium Adv Rec",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "02:28:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7273-a2a6-95673c0e2d82",
+      "venue_id": "019b820a-043e-79df-b7ed-b880aaadb7c9",
+      "event_date": "2021-05-16",
+      "event_kind": "race",
+      "event_name": "2021 Ultimate Orienteer #4 - Frenchman Spring Long",
+      "venue_name": "Frenchman Spring",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:12:28",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:12:28",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-72f0-a089-01f8ffc7f881",
+      "venue_id": "019b820a-0433-7989-b481-2d59be81507f",
+      "event_date": "2021-05-15",
+      "event_kind": "race",
+      "event_name": "2021 Ultimate Orienteer #3 - Frenchman Coulee Middle",
+      "venue_name": "Frenchman Coulee",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 682
+            }
+          ],
+          "time_text": "01:10:00",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 7,
+          "status_code": "OK",
+          "outcome_text": "01:10:00",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 7,
+          "metric_summary": "Points 682",
           "additional_course": false,
           "affiliation_labels": [
-            "None"
+            "COC"
           ]
         }
       ],
@@ -28,7 +128,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

@@ -9,13 +9,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:14:39",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 40,
+          "status_code": "OK",
           "outcome_text": "01:14:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 65
+            }
+          ],
+          "time_text": "01:13:02",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "01:13:02",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 65",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +66,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:25:29",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 34,
+          "status_code": "OK",
           "outcome_text": "01:25:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

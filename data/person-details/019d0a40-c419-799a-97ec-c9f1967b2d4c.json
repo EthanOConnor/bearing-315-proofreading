@@ -9,13 +9,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:11:00",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "01:11:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,17 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -51,12 +59,28 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
+    "role_count": 1,
     "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a40-c419-799a-97ec-c9f1967b2d4c",
   "individual_name": "Bob Stratton",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4e-70b4-a910-952a0c52ca12",
+      "venue_id": "019b820a-0443-7dfd-95ed-ab080bf13d30",
+      "role_name": "Control Pickup",
+      "event_date": "2021-04-10",
+      "event_kind": "race",
+      "event_name": "2021 Ultimate Orienteer #1 - Bishop’s Land Classic",
+      "venue_name": "Bishop's Land",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/result/2021-ultimate-orienteer-1-bishops-land/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

@@ -9,13 +9,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "00:47:38",
           "competitive": true,
           "course_name": "WIOL Course #6",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:47:38",
           "result_notes": "type DOM",
           "category_name": "Boys",
           "category_rank": 15,
+          "metric_summary": "Points 79",
           "additional_course": false,
           "affiliation_labels": [
             "South Kitsap"

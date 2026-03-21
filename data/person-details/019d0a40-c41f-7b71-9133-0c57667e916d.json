@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:53:49",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:53:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascades"
@@ -33,13 +37,17 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -57,13 +65,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 44
+            }
+          ],
+          "time_text": "00:52:43",
           "competitive": true,
           "course_name": "Public 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:52:43",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 50,
+          "metric_summary": "Points 44",
           "additional_course": false,
           "affiliation_labels": []
         }

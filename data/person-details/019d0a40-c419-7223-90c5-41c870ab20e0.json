@@ -1,6 +1,58 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7e1b-992b-88c8bd7bebc9",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2025-01-11",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 05 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:43:49",
+          "competitive": true,
+          "course_name": "Adv Beginner",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "00:43:49",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4a-7024-bc5d-02026fbe65d5",
+      "venue_id": "019b81f3-1f39-72b4-9e1b-2572fc94fa8e",
+      "event_date": "2024-06-12",
+      "event_kind": "race",
+      "event_name": "2024 Wednesday Evening #1",
+      "venue_name": "Bellevue College",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:27:22",
+          "competitive": true,
+          "course_name": "Course 1",
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "00:27:22",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7f1d-aa1d-e59d5082f769",
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
       "event_date": "2014-03-29",
@@ -9,13 +61,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:20:08",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:20:08",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "UW"
@@ -33,13 +89,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:48:49",
           "competitive": true,
           "course_name": "P7G",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:48:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "UW"
@@ -57,13 +117,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:55:43",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:55:43",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "UW"
@@ -81,13 +145,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:28:19",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 35,
+          "status_code": "OK",
           "outcome_text": "01:28:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -98,7 +166,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],

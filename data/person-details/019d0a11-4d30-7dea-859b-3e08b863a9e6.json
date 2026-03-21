@@ -9,13 +9,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "score",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Middle School Girls",
           "course_rank": null,
-          "outcome_text": "MSP",
+          "status_code": "MSP",
+          "outcome_text": "Score 0",
           "result_notes": "34:45; school ESM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Score 0",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:25:20",
           "competitive": true,
           "course_name": "Elementary School Girls",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:25:20",
           "result_notes": "school Cascadia Elementary",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": []
         }

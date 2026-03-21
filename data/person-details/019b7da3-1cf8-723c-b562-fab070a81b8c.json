@@ -9,13 +9,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:24:50",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 7,
+          "status_code": null,
           "outcome_text": "00:24:50",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": [
             "BREH"
@@ -33,13 +42,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:29:29",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 8,
+          "status_code": null,
           "outcome_text": "00:29:29",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": [
             "BREH"
@@ -57,13 +75,17 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:29:34",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:29:34",
           "result_notes": null,
           "category_name": "High School Men",
           "category_rank": 10,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BREH"
@@ -81,13 +103,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:43:39",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:43:39",
           "result_notes": null,
           "category_name": "High School Men",
           "category_rank": 12,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BREH"

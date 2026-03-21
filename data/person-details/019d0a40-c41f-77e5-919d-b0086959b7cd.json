@@ -9,13 +9,17 @@
       "venue_name": "Dash Point State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:53:37",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:53:37",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,22 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:48:02",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:48:02",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +70,22 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 68
+            }
+          ],
+          "time_text": "00:58:03",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 26,
+          "status_code": "OK",
           "outcome_text": "00:58:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 68",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -81,13 +103,22 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:38:03",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:38:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -105,13 +136,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:39:11",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:39:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

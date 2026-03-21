@@ -9,13 +9,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:54:22",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 8,
+          "status_code": null,
           "outcome_text": "00:54:22",
           "result_notes": null,
           "category_name": "WIOL - High School Female",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "TOJH"
@@ -33,13 +37,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:44:55",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 16,
+          "status_code": null,
           "outcome_text": "00:44:55",
           "result_notes": "novice",
           "category_name": "WIOL - High School Female",
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "TOJH"
@@ -57,13 +70,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "00:47:18",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 14,
+          "status_code": null,
           "outcome_text": "00:47:18",
           "result_notes": "novice",
           "category_name": "WIOL - High School Female",
           "category_rank": null,
+          "metric_summary": "Points 80",
           "additional_course": false,
           "affiliation_labels": [
             "TOJH"

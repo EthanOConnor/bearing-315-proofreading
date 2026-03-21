@@ -9,20 +9,67 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 12
+            }
+          ],
+          "time_text": "00:37:06",
           "competitive": true,
           "course_name": "2021 Choose Your Adventure #1: Corn Maze!",
           "course_rank": 64,
+          "status_code": "OK",
           "outcome_text": "00:37:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Score 12; Penalty 0; Points 12",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 12
+            }
+          ],
+          "time_text": "00:37:06",
+          "competitive": true,
+          "course_name": "2021 Choose Your Adventure #1: Corn Maze!",
+          "course_rank": 64,
+          "status_code": "OK",
+          "outcome_text": "00:37:06",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Final Score 12; Penalty 0; Points 12",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         }
       ],
-      "result_row_count": 1
+      "result_row_count": 2
     }
   ],
   "aliases": [],

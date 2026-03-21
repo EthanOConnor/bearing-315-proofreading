@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 42
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 52
+            }
+          ],
+          "time_text": "01:56:44",
           "competitive": true,
           "course_name": "Jr. Varsity Boys (N)",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:56:44",
           "result_notes": "school OAK",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 42; Score 52",
           "additional_course": false,
           "affiliation_labels": []
         }

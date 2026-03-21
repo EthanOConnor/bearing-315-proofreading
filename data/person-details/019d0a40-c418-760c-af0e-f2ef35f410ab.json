@@ -9,13 +9,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:53:28",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:53:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 85",
           "additional_course": false,
           "affiliation_labels": []
         }

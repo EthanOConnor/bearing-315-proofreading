@@ -1,6 +1,39 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7606-897c-064bbbab0623",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2025-06-22",
+      "event_kind": "race",
+      "event_name": "2025 Ultimate Orienteer #8",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 728
+            }
+          ],
+          "time_text": "01:30:55",
+          "competitive": true,
+          "course_name": "Open",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:30:55",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 728",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GrizO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7e94-91e8-e51b4c02a1d1",
       "venue_id": "019b81f3-1f39-710d-8e0d-1ef8ec0846cd",
       "event_date": "2025-06-21",
@@ -9,13 +42,133 @@
       "venue_name": "Moses Lake Sand Dunes",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_place",
+              "metric_numeric": 6
+            },
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:02:05"
+            },
+            {
+              "metric_key": "day_2_place",
+              "metric_numeric": 5
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:30:55"
+            }
+          ],
+          "time_text": "02:33:00",
           "competitive": true,
           "course_name": "Open (Long Advanced)",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "02:33:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Day 1 Time 01:02:05; Day 2 Time 01:30:55",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GrizO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7fbb-b8cb-9b5f0b277c63",
+      "venue_id": "019b81f3-1f39-710d-8e0d-1ef8ec0846cd",
+      "event_date": "2025-06-21",
+      "event_kind": "race",
+      "event_name": "2025 Ultimate Orienteer #7",
+      "venue_name": "Moses Lake Sand Dunes",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 689
+            }
+          ],
+          "time_text": "01:02:05",
+          "competitive": true,
+          "course_name": "Open",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "01:02:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 689",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GrizO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7a2b-bb77-a81717d60d0d",
+      "venue_id": "019b820a-0433-7989-b481-2d59be81507f",
+      "event_date": "2024-03-22",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #2 - Middle, Frenchman Coulee",
+      "venue_name": "Frenchman Coulee",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 540
+            }
+          ],
+          "time_text": "00:51:41",
+          "competitive": true,
+          "course_name": "Open",
+          "course_rank": 22,
+          "status_code": "OK",
+          "outcome_text": "00:51:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 540",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GrizO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7d88-9239-0514a07ddc1e",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2023-06-25",
+      "event_kind": "race",
+      "event_name": "2023 Ultimate Orienteer #8",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 648
+            }
+          ],
+          "time_text": "00:52:41",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "00:52:41",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 5,
+          "metric_summary": "Points 648",
           "additional_course": false,
           "affiliation_labels": [
             "GrizO"
@@ -33,13 +186,59 @@
       "venue_name": "Fishtrap Lake",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "02:27:46"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "00:52:41"
+            }
+          ],
+          "time_text": "03:20:27",
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "03:20:27",
           "result_notes": null,
           "category_name": "M-21+",
           "category_rank": 5,
+          "metric_summary": "Day 1 Time 02:27:46; Day 2 Time 00:52:41",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GrizO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7656-b27c-6ee5fa722c9e",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2023-06-24",
+      "event_kind": "race",
+      "event_name": "2023 Ultimate Orienteer #7",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 497
+            }
+          ],
+          "time_text": "02:27:46",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "02:27:46",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 5,
+          "metric_summary": "Points 497",
           "additional_course": false,
           "affiliation_labels": [
             "GrizO"
@@ -52,7 +251,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 2,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

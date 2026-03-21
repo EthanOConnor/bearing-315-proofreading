@@ -9,13 +9,17 @@
       "venue_name": "Bellevue College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:12:47",
           "competitive": true,
           "course_name": "Beginner – Open",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:12:47",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,17 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:52:16",
           "competitive": true,
           "course_name": "Advanced Beginner",
-          "course_rank": null,
+          "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:52:16",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -55,13 +63,17 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:01:53",
           "competitive": true,
           "course_name": "Advanced Beginner",
-          "course_rank": null,
+          "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "01:01:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -79,13 +91,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:17:22",
           "competitive": true,
           "course_name": "Advanced Beginner",
-          "course_rank": null,
+          "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "01:17:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -103,13 +119,73 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:07:26",
           "competitive": true,
           "course_name": "Advanced Beginner",
-          "course_rank": null,
+          "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "01:07:26",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:10:47",
+          "competitive": true,
+          "course_name": "Advanced Beginner",
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "01:10:47",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:49:21",
+          "competitive": true,
+          "course_name": "Advanced Beginner",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "00:49:21",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -121,12 +197,28 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
-    "event_count": 5,
+    "role_count": 1,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a4b-08b4-7441-b18b-86fd38ec90c4",
   "individual_name": "Erica Johnson",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019d03c4-2dde-75d7-990a-868e788390e2",
+      "venue_id": "019b81e3-a4f7-759a-894e-b4853c099894",
+      "role_name": "Control Setting, Vetting, and Pickup",
+      "event_date": "2026-01-24",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #6",
+      "venue_name": "Putney Woods",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2025-26-winter-league-6-putney-woods/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

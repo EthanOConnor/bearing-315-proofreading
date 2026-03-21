@@ -9,13 +9,22 @@
       "venue_name": "Lynnwood Golf Course",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 939
+            }
+          ],
+          "time_text": "00:12:45",
           "competitive": true,
           "course_name": "16 and Under Open",
-          "course_rank": null,
+          "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:12:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 939",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -27,12 +36,28 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
+    "role_count": 1,
     "event_count": 1,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a4b-08b4-738a-b29a-a925ac9f7f3a",
   "individual_name": "Gabriel McIntyre",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019d03c4-2dde-7f1d-a4d9-7de35b86b286",
+      "venue_id": "019b81f3-1f39-7c27-a803-505c13916b6a",
+      "role_name": "Control Setting and Pickup",
+      "event_date": "2026-03-07",
+      "event_kind": "race",
+      "event_name": "2026 Ultimate Orienteer #1",
+      "venue_name": "Lynnwood Golf Course",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2026-ultimate-orienteer-1-lynnwood-golf-course-night-o/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

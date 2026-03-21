@@ -9,13 +9,22 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "01:21:21",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "01:21:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 79",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,22 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "02:12:50",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "02:12:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 83",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +75,17 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:28:00",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:28:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

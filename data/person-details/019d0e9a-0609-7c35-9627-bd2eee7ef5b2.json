@@ -1,0 +1,53 @@
+{
+  "events": [
+    {
+      "event_id": "019b81f3-1f4d-7926-b596-5f4839e3529d",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2023-04-01",
+      "event_kind": "race",
+      "event_name": "2023 Ultimate Orienteer #2",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 1080
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 1080
+            }
+          ],
+          "time_text": "01:13:58",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "01:13:58",
+          "result_notes": null,
+          "category_name": "Open Male",
+          "category_rank": 18,
+          "metric_summary": "Penalty 0; Points 1080; Total Time 1080",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    }
+  ],
+  "aliases": [],
+  "summary": {
+    "role_count": 0,
+    "event_count": 1,
+    "mention_count": 0
+  },
+  "mentions": [],
+  "individual_id": "019d0e9a-0609-7c35-9627-bd2eee7ef5b2",
+  "individual_name": "Josh Loehr",
+  "volunteer_roles": []
+}

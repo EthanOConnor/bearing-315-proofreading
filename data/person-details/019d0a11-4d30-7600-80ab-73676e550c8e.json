@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 5
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 89
+            }
+          ],
+          "time_text": "00:42:39",
           "competitive": true,
           "course_name": "Middle School Girls",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:42:39",
           "result_notes": "school STM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 5; Score 89",
           "additional_course": false,
           "affiliation_labels": []
         }

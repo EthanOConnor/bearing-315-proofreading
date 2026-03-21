@@ -9,17 +9,36 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "pos",
+              "metric_numeric": 8
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
+          "time_text": "00:41:30",
           "competitive": true,
           "course_name": "CYA",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:41:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 24; Pos 8; Total Time 24",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1
@@ -33,13 +52,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 20
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "00:51:33",
           "competitive": true,
           "course_name": "Middle School Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:51:33",
           "result_notes": "school STM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 20; Score 74",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +87,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:20:33",
           "competitive": true,
           "course_name": "Elementary School Boys",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:20:33",
           "result_notes": "school Shadow Lake Elementary",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": []
         }

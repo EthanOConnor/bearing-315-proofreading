@@ -9,13 +9,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:05:42",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:05:42",
           "result_notes": null,
           "category_name": "F50+",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "ORCA"
@@ -33,13 +37,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:04:39",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:04:39",
           "result_notes": "us_eligible Y",
           "category_name": "F50+",
           "category_rank": 3,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "ORCA"
@@ -57,13 +65,17 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:29:04",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 3,
+          "status_code": null,
           "outcome_text": "01:29:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +91,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:34:44",
           "competitive": true,
           "course_name": "Long Course",
           "course_rank": 12,
+          "status_code": null,
           "outcome_text": "01:34:44",
           "result_notes": null,
           "category_name": "Female",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -101,13 +117,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 21,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CROC"
@@ -125,13 +145,22 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 60
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 31,
-          "outcome_text": "",
+          "status_code": null,
+          "outcome_text": "Points 60",
           "result_notes": "raw 460",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 60",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -147,13 +176,17 @@
       "venue_name": "Lick Creek/Bullfrog Pond",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:47:41",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "01:47:41",
           "result_notes": null,
           "category_name": "F Open",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -169,13 +202,17 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": false,
           "course_name": "Green",
           "course_rank": null,
-          "outcome_text": "Blank",
+          "status_code": null,
+          "outcome_text": "",
           "result_notes": "Recreational (no time)",
           "category_name": "Recreational",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

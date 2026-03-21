@@ -9,13 +9,26 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 222
+            }
+          ],
+          "time_text": "00:58:58",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:58:58",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 1000; Uo Points 222",
           "additional_course": false,
           "affiliation_labels": []
         }

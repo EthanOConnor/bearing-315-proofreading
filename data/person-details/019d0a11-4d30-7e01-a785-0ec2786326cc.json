@@ -9,13 +9,17 @@
       "venue_name": "Bellevue College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:26:26",
           "competitive": true,
           "course_name": "Regular – Open",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:26:26",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,17 +35,32 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 4
+            },
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 4
+            }
+          ],
+          "time_text": "02:28:30",
           "competitive": true,
           "course_name": "CYA",
-          "course_rank": null,
+          "course_rank": 20,
+          "status_code": "OK",
           "outcome_text": "02:28:30",
-          "result_notes": null,
+          "result_notes": "source club token was None",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Score 4; Penalty 0; Points 4",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1
@@ -49,12 +68,28 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
+    "role_count": 1,
     "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a11-4d30-7e01-a785-0ec2786326cc",
   "individual_name": "Pam Kirson",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4d-7d5c-af4d-a9be5bb44670",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "role_name": "Finish",
+      "event_date": "2022-06-22",
+      "event_kind": "race",
+      "event_name": "Wednesday Evening #2",
+      "venue_name": "South Seattle College",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://www.cascadeoc.org/result/wednesday-evening-2-south-seattle-college/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

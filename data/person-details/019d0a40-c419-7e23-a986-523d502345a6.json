@@ -9,13 +9,22 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 79
+            }
+          ],
+          "time_text": "00:55:05",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:55:05",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 79",
           "additional_course": false,
           "affiliation_labels": []
         }

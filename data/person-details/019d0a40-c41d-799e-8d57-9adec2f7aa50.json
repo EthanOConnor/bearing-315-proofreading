@@ -9,13 +9,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:51:54",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:51:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:20:17",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 27,
+          "status_code": "OK",
           "outcome_text": "01:20:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +61,22 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 62
+            }
+          ],
+          "time_text": "01:14:50",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 32,
+          "status_code": "OK",
           "outcome_text": "01:14:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 62",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

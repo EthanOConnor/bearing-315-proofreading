@@ -9,13 +9,30 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 10
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 10
+            }
+          ],
+          "time_text": "01:54:04",
           "competitive": true,
           "course_name": "Results:",
           "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "01:54:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 10; Score 10",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

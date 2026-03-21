@@ -1,6 +1,32 @@
 {
   "events": [
     {
+      "event_id": "019d0e99-de7a-79c0-8bb3-b4bdbf3b5261",
+      "venue_id": "019d0457-2e4f-7b66-a748-3d987136f984",
+      "event_date": "2025-05-11",
+      "event_kind": "race",
+      "event_name": "2025 Forest O Training Camp Relay",
+      "venue_name": "Brooks Memorial State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:07:22",
+          "competitive": true,
+          "course_name": "Leg 2 (Beginner: 1.1k, 5 controls, 20m climb)",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:07:22",
+          "result_notes": "team Parents Are Cool",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-7e1c-9070-d4de0f8b35fa",
       "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
       "event_date": "2024-06-23",
@@ -9,13 +35,146 @@
       "venue_name": "Fisk State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "00:24:52"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "00:38:59"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 1836
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 2,
+          "status_code": null,
+          "outcome_text": "Day 1 Time 00:24:52; Day 2 Time 00:38:59; Points 1000; Total Time 1836",
           "result_notes": "ws_eligible Y",
           "category_name": "F45+",
           "category_rank": 2,
+          "metric_summary": "Day 1 Time 00:24:52; Day 2 Time 00:38:59; Points 1000; Total Time 1836",
+          "additional_course": false,
+          "affiliation_labels": [
+            "RMOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-79ea-a620-43ca77d41a38",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 3 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:38:59",
+          "competitive": true,
+          "course_name": "Female 45+",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:38:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "RMOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7466-a28e-8013795e821c",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 2 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:24:52",
+          "competitive": true,
+          "course_name": "Female 45+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:24:52",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "RMOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7ebc-92c6-b9785594331e",
+      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "event_date": "2023-02-18",
+      "event_kind": "race",
+      "event_name": "2022-23 Winter League Championships",
+      "venue_name": "Fire Mountain",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:46:01",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "00:46:01",
+          "result_notes": null,
+          "category_name": "Short Adv Female",
+          "category_rank": 2,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "RMOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7c12-aefb-9a1cc667df06",
+      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "event_date": "2023-02-18",
+      "event_kind": "race",
+      "event_name": "2023 Fire Mountain NRE",
+      "venue_name": "Fire Mountain",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:46:01",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "00:46:01",
+          "result_notes": null,
+          "category_name": "F45+",
+          "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "RMOC"
@@ -27,12 +186,43 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
-    "event_count": 1,
+    "role_count": 2,
+    "event_count": 6,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a11-4d2f-751c-ae7d-18e4a10756d9",
   "individual_name": "Ioana Fleming",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019d0e99-de7a-79c0-8bb3-b4bdbf3b5261",
+      "venue_id": "019d0457-2e4f-7b66-a748-3d987136f984",
+      "role_name": "Control setting",
+      "event_date": "2025-05-11",
+      "event_kind": "race",
+      "event_name": "2025 Forest O Training Camp Relay",
+      "venue_name": "Brooks Memorial State Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2025-forest-o-training-camp-relay-brooks-memorial-state-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "event_id": "019d0e99-de7a-79c0-8bb3-b4bdbf3b5261",
+      "venue_id": "019d0457-2e4f-7b66-a748-3d987136f984",
+      "role_name": "Kitchen Assistance",
+      "event_date": "2025-05-11",
+      "event_kind": "race",
+      "event_name": "2025 Forest O Training Camp Relay",
+      "venue_name": "Brooks Memorial State Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2025-forest-o-training-camp-relay-brooks-memorial-state-park/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

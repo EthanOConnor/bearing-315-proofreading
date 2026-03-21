@@ -9,13 +9,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:02:55",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "01:02:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -33,13 +37,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascades"
@@ -57,13 +65,22 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 55
+            }
+          ],
+          "time_text": "00:46:42",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:46:42",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 39,
+          "metric_summary": "Points 55",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +96,17 @@
       "venue_name": "Dash Point State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:59:56",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:59:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -101,24 +122,32 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:26:31",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:26:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "00:30:46",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:30:46",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -134,13 +163,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:51",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:32:51",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -156,24 +189,32 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:24:54",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:24:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "00:32:45",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:32:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

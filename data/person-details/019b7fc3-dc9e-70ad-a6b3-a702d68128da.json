@@ -9,13 +9,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:09:09",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "01:09:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Thomas Jeff."
@@ -33,13 +37,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:37:14",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:37:14",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "TJHS"
@@ -57,13 +65,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:02:43",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 12,
+          "status_code": null,
           "outcome_text": "01:02:43",
           "result_notes": null,
           "category_name": "WIOL - High School Female",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "TOJH"
@@ -81,13 +93,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:49:52",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 19,
+          "status_code": null,
           "outcome_text": "00:49:52",
           "result_notes": "novice",
           "category_name": "WIOL - High School Female",
           "category_rank": null,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": [
             "TOJH"
@@ -105,13 +126,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:38:07",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 7,
+          "status_code": null,
           "outcome_text": "00:38:07",
           "result_notes": "novice",
           "category_name": "WIOL - High School Female",
           "category_rank": null,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": [
             "TOJH"
@@ -129,13 +159,22 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "01:50:35",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 8,
+          "status_code": null,
           "outcome_text": "01:50:35",
           "result_notes": "novice",
           "category_name": "WIOL - High School Female",
           "category_rank": null,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": [
             "TOJH"
@@ -153,13 +192,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:28:55",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 2,
+          "status_code": null,
           "outcome_text": "00:28:55",
           "result_notes": "novice",
           "category_name": "WIOL - High School Female",
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "TOJH"

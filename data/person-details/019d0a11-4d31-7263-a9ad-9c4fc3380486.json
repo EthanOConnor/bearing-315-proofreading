@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 2
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:21:04",
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:21:04",
           "result_notes": "school WMS",
           "category_name": "Elementary Girls",
           "category_rank": null,
+          "metric_summary": "Pos 2; Score 95",
           "additional_course": false,
           "affiliation_labels": []
         }

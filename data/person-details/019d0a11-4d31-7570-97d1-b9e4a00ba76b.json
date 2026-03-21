@@ -9,13 +9,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 10
+            }
+          ],
+          "time_text": "02:00:02",
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:00:02",
           "result_notes": null,
           "category_name": "Short Adv Male",
           "category_rank": null,
+          "metric_summary": "Pos 10",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:57:49",
           "competitive": true,
           "course_name": "High School JV Boys South",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "00:57:49",
           "result_notes": "school Tahoma",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": []
         }

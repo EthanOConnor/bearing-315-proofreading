@@ -1,6 +1,62 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-7854-9667-7950dd7e87cf",
+      "venue_id": "019b81f3-1f39-7c41-8b9c-65fad69da60e",
+      "event_date": "2024-07-24",
+      "event_kind": "race",
+      "event_name": "2024 Wednesday Evening #3",
+      "venue_name": "Northwest University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:39:36",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "00:39:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-76e8-91db-011f5fdaec66",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2023-05-24",
+      "event_kind": "race",
+      "event_name": "2023 Wednesday Evening #1",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:48:29",
+          "competitive": true,
+          "course_name": "Course 2",
+          "course_rank": 11,
+          "status_code": "OK",
+          "outcome_text": "00:48:29",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4e-70e1-a2c0-a13b0ac2125e",
       "venue_id": "019b81f3-1f39-78b8-bda5-8f1954c144cb",
       "event_date": "2022-09-17",
@@ -9,13 +65,22 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 12
+            }
+          ],
+          "time_text": "01:08:42",
           "competitive": true,
           "course_name": "2022 Choose Your Adventure #2 – Corn Maze!",
           "course_rank": 77,
+          "status_code": "OK",
           "outcome_text": "01:08:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 12",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -26,7 +91,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 3,
     "mention_count": 0
   },
   "mentions": [],

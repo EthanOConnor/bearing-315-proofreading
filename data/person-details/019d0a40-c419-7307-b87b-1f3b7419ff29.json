@@ -9,13 +9,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:45:48",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "00:45:48",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +37,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:55:20",
           "competitive": true,
           "course_name": "P4",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "01:55:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -57,13 +65,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:04:08",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 24,
+          "status_code": "OK",
           "outcome_text": "01:04:08",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -81,13 +93,17 @@
       "venue_name": "Dash Point State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:37:43",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 50,
+          "status_code": "OK",
           "outcome_text": "01:37:43",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -105,13 +121,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:48:53",
           "competitive": true,
           "course_name": "Course 5",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:48:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -129,13 +149,17 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:46:03",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:46:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -153,13 +177,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 490
+            }
+          ],
+          "time_text": "00:45:21",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 44,
+          "status_code": null,
           "outcome_text": "00:45:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 490",
           "additional_course": false,
           "affiliation_labels": []
         }

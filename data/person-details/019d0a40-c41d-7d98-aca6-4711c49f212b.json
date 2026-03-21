@@ -1,6 +1,34 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-79da-a571-925b42f2b68c",
+      "venue_id": "019b81f3-1f39-77f3-99e6-f0b5d7ea5032",
+      "event_date": "2025-08-13",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #6",
+      "venue_name": "Seattle Pacific University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:00:27",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 43,
+          "status_code": "OK",
+          "outcome_text": "01:00:27",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-7860-9fb5-262b53288ea4",
       "venue_id": "019b81b3-75d1-7c6d-9d3f-3a8112e85fd0",
       "event_date": "2013-12-07",
@@ -9,17 +37,19 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:57:03",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 17,
+          "status_code": "OK",
           "outcome_text": "00:57:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
-          "affiliation_labels": [
-            "none"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1
@@ -28,7 +58,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

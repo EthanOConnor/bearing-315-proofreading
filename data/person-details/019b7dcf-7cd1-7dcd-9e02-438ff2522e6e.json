@@ -9,13 +9,22 @@
       "venue_name": "Cle Elum Ridge",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 609
+            }
+          ],
+          "time_text": "01:54:40",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "01:54:40",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 609",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 738
+            }
+          ],
+          "time_text": "00:51:31",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "00:51:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 738",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +75,26 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 3050
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 801
+            }
+          ],
+          "time_text": "00:55:19",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:55:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 3050; Uo Points 801",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -81,13 +112,22 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 782
+            }
+          ],
+          "time_text": "00:32:56",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:32:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 782",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -105,13 +145,17 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:16",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:35:16",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -129,13 +173,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:33:54",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:33:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -153,13 +201,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:03:28",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "01:03:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -177,13 +229,17 @@
       "venue_name": "Lake Sammamish State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:50:01",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:50:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

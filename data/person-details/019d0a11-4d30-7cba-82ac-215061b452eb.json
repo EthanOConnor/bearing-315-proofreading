@@ -9,13 +9,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 3
+            }
+          ],
+          "time_text": "01:36:23",
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:36:23",
           "result_notes": null,
           "category_name": "Intermediate Group",
           "category_rank": null,
+          "metric_summary": "Pos 3",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

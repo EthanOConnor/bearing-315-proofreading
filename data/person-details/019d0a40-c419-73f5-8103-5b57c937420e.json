@@ -9,13 +9,30 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "minutes_late",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "punches",
+              "metric_numeric": 22
+            },
+            {
+              "metric_key": "total_score",
+              "metric_numeric": 22
+            }
+          ],
+          "time_text": "00:51:56",
           "competitive": true,
           "course_name": "Choose Your Adventure - Vampire",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:51:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Minutes Late 0; Punches 22; Total Score 22",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +48,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:41:38",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:41:38",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "GAR"
@@ -55,13 +76,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:48:50",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:48:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "GAR"
@@ -79,13 +104,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:14",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:47:14",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "GAR"
@@ -103,13 +132,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:18:25",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:18:25",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "PCM"
@@ -127,13 +160,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:01",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:25:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -149,13 +186,17 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:23:40",
           "competitive": true,
           "course_name": "WIOL 2M",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:23:40",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "PCM"
@@ -173,13 +214,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:23:30",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:23:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "PCM"
@@ -197,13 +242,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:56:42",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:56:42",
           "result_notes": "classification ISIM",
           "category_name": "ISIM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Pacific Crest Montessori"
@@ -221,13 +270,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:45:18",
           "competitive": true,
           "course_name": "YELLOW",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:45:18",
           "result_notes": null,
           "category_name": "ISIM",
           "category_rank": 11,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Pacific Crest Montessori"
@@ -245,13 +298,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:27:04",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:27:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": [
             "Pacific Crest Montessor"
@@ -269,52 +331,88 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:23:50",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:23:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Pacific Crest Montesso"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:23:50",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:23:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Pacific Crest Montesso"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:23:50",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:23:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Pacific Crest Montesso"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:23:50",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:23:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Pacific Crest Montesso"
@@ -332,13 +430,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:04:53",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 21,
+          "status_code": "OK",
           "outcome_text": "01:04:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Pacific Crest Montess"
@@ -356,13 +458,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "00:24:50",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:24:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 83",
           "additional_course": false,
           "affiliation_labels": [
             "NW Montessori"
@@ -380,13 +491,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 72
+            }
+          ],
+          "time_text": "01:53:21",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 22,
+          "status_code": "OK",
           "outcome_text": "01:53:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 72",
           "additional_course": false,
           "affiliation_labels": [
             "NW Montessori"
@@ -404,13 +524,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 77
+            }
+          ],
+          "time_text": "01:02:22",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:02:22",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": 17,
+          "metric_summary": "Points 77",
           "additional_course": false,
           "affiliation_labels": [
             "NW Montessori"
@@ -428,13 +557,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:24:01",
           "competitive": true,
           "course_name": "WIOL 2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:24:01",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": 6,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": [
             "NW Montessori"
@@ -452,13 +590,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "00:23:54",
           "competitive": true,
           "course_name": "WIOL Course #2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:23:54",
           "result_notes": "type S",
           "category_name": "Boys",
           "category_rank": 12,
+          "metric_summary": "Points 81",
           "additional_course": false,
           "affiliation_labels": [
             "Pacific Crest Montessori"

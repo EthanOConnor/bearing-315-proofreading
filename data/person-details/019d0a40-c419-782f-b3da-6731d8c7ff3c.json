@@ -9,24 +9,37 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "00:48:35",
           "competitive": true,
           "course_name": "High School JV Girls",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:48:35",
           "result_notes": "school Oak Harbor",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 88",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "01:21:32",
           "competitive": false,
           "course_name": "Short Advanced",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "01:21:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"

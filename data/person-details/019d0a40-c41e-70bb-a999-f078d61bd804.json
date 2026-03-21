@@ -9,13 +9,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 52
+            }
+          ],
+          "time_text": "00:56:02",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 42,
+          "status_code": "OK",
           "outcome_text": "00:56:02",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 52",
           "additional_course": false,
           "affiliation_labels": []
         }

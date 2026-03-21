@@ -9,13 +9,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": "01:16:56",
           "competitive": true,
           "course_name": "High School Varsity Boys",
           "course_rank": 33,
+          "status_code": "OK",
           "outcome_text": "01:16:56",
           "result_notes": "school Spanaway",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 61",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:44:58",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 25,
+          "status_code": "OK",
           "outcome_text": "00:44:58",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SPA"
@@ -55,13 +68,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:06",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "00:32:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SPA"
@@ -79,13 +96,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:21",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 19,
+          "status_code": "OK",
           "outcome_text": "01:00:21",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SPA"
@@ -103,13 +124,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P7M",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SPA"

@@ -9,24 +9,46 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "01:30:45"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 53
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "High School JV Male Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 36,
+          "status_code": null,
+          "outcome_text": "Finish 01:30:45; Points 53",
           "result_notes": "trailing_paren:SPA",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 01:30:45; Points 53",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 53
+            }
+          ],
+          "time_text": "01:30:45",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 41,
+          "status_code": "OK",
           "outcome_text": "01:30:45",
           "result_notes": null,
           "category_name": "High School JV Male",
-          "category_rank": null,
+          "category_rank": 41,
+          "metric_summary": "Points 53",
           "additional_course": false,
           "affiliation_labels": [
             "SPA"
@@ -44,13 +66,22 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
-          "outcome_text": "MSP",
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
           "result_notes": "–:–",
           "category_name": "High School JV Male",
           "category_rank": null,
+          "metric_summary": "Points 0",
           "additional_course": false,
           "affiliation_labels": [
             "SPA"
@@ -68,24 +99,104 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "DNF",
+          "outcome_text": "Points 0",
+          "result_notes": "81:32",
+          "category_name": "High School JV Male",
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SPA"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "notes": "81:32",
+              "metric_key": "finish",
+              "metric_text": "DNF"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "High School JV Male Teams",
           "course_rank": null,
-          "outcome_text": "DNF",
+          "status_code": "DNF",
+          "outcome_text": "Finish DNF; Points 0",
           "result_notes": "trailing_paren:SPA",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish DNF; Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "01:03:25"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 50
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School JV Male Teams",
+          "course_rank": 39,
+          "status_code": null,
+          "outcome_text": "Finish 01:03:25; Points 50",
+          "result_notes": "trailing_paren:SPA",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 01:03:25; Points 50",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 50
+            }
+          ],
+          "time_text": "01:03:25",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
-          "outcome_text": "DNF",
-          "result_notes": "81:32",
+          "course_rank": 44,
+          "status_code": "OK",
+          "outcome_text": "01:03:25",
+          "result_notes": null,
           "category_name": "High School JV Male",
-          "category_rank": null,
+          "category_rank": 44,
+          "metric_summary": "Points 50",
           "additional_course": false,
           "affiliation_labels": [
             "SPA"
@@ -93,12 +204,199 @@
         }
       ],
       "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "01:27:12"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 34
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School JV Male Teams",
+          "course_rank": 46,
+          "status_code": null,
+          "outcome_text": "Finish 01:27:12; Points 34",
+          "result_notes": "trailing_paren:SPA",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 01:27:12; Points 34",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 34
+            }
+          ],
+          "time_text": "01:27:12",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 60,
+          "status_code": "OK",
+          "outcome_text": "01:27:12",
+          "result_notes": null,
+          "category_name": "High School JV Male",
+          "category_rank": 60,
+          "metric_summary": "Points 34",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SPA"
+          ]
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e91-9747-42d7aeb9c29d",
+      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "event_date": "2025-02-08",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 07 - Fire Mountain",
+      "venue_name": "Fire Mountain",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": "00:54:11",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 33,
+          "status_code": "OK",
+          "outcome_text": "00:54:11",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 33,
+          "metric_summary": "Points 61",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SPA"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7e1b-992b-88c8bd7bebc9",
+      "venue_id": "019b81f3-1f39-793d-8cf9-3fc5f55ec767",
+      "event_date": "2025-01-11",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 05 - Big Finn Hill",
+      "venue_name": "Big Finn Hill Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 68
+            }
+          ],
+          "time_text": "00:46:44",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 26,
+          "status_code": "OK",
+          "outcome_text": "00:46:44",
+          "result_notes": "school SPA",
+          "category_name": "Rookie Male",
+          "category_rank": 26,
+          "metric_summary": "Points 68",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-70a9-9074-713ce4d9681d",
+      "venue_id": "019b81f3-1f39-7681-bca4-ff664fce647b",
+      "event_date": "2024-12-07",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 03",
+      "venue_name": "Pierce College/Fort Steilacoom Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 58
+            }
+          ],
+          "time_text": "00:53:32",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 36,
+          "status_code": "OK",
+          "outcome_text": "00:53:32",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 36,
+          "metric_summary": "Points 58",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SPA"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-70ae-af21-b44b23f1b394",
+      "venue_id": "019b81f3-1f39-7e1d-afe3-ae19e64bef48",
+      "event_date": "2024-11-09",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 01",
+      "venue_name": "South Seattle College",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 62
+            }
+          ],
+          "time_text": "00:32:11",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 32,
+          "status_code": "OK",
+          "outcome_text": "00:32:11",
+          "result_notes": null,
+          "category_name": "High School Rookie Male",
+          "category_rank": 32,
+          "metric_summary": "Points 62",
+          "additional_course": false,
+          "affiliation_labels": [
+            "SPA"
+          ]
+        }
+      ],
+      "result_row_count": 1
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

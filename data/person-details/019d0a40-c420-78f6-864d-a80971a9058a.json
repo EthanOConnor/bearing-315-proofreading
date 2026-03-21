@@ -9,13 +9,22 @@
       "venue_name": "Moses Lake Sand Dunes",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "00:00:00",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:00:00",
           "result_notes": "classification Women",
           "category_name": "Women",
           "category_rank": null,
+          "metric_summary": "Uo Points 1000",
           "additional_course": false,
           "affiliation_labels": [
             "69.36 +"

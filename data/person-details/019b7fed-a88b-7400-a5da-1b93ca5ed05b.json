@@ -9,13 +9,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 67
+            }
+          ],
+          "time_text": "01:04:56",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 34,
+          "status_code": "OK",
           "outcome_text": "01:04:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 67",
           "additional_course": false,
           "affiliation_labels": []
         }

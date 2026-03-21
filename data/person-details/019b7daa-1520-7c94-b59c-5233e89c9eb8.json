@@ -9,13 +9,26 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1100
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 266
+            }
+          ],
+          "time_text": "00:50:57",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:50:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 1100; Uo Points 266",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +44,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:44:15",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "02:44:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 59
+            }
+          ],
+          "time_text": "01:43:42",
           "competitive": true,
           "course_name": "WIOL Course #4",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:43:42",
           "result_notes": "type S",
           "category_name": "Boys",
           "category_rank": 35,
+          "metric_summary": "Points 59",
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"

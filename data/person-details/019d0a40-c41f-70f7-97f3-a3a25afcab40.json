@@ -9,24 +9,37 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "00:35:29",
           "competitive": true,
           "course_name": "High School JV Boys North",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:35:29",
           "result_notes": "school Oak Harbor",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "01:01:36",
           "competitive": false,
           "course_name": "Short Advanced",
           "course_rank": null,
+          "status_code": "NC",
           "outcome_text": "01:01:36",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"

@@ -1,6 +1,67 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 56
+            }
+          ],
+          "time_text": "01:27:04",
+          "competitive": true,
+          "course_name": "Short Advanced Open",
+          "course_rank": 38,
+          "status_code": "OK",
+          "outcome_text": "01:27:04",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 56",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4d-7948-93ca-4564b79f3878",
+      "venue_id": "019b81f3-1f39-7c41-8b9c-65fad69da60e",
+      "event_date": "2025-07-23",
+      "event_kind": "race",
+      "event_name": "2025 Wednesday Evening #5",
+      "venue_name": "Northwest University",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "02:02:41",
+          "competitive": true,
+          "course_name": "Course 4",
+          "course_rank": 59,
+          "status_code": "OK",
+          "outcome_text": "02:02:41",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-731a-8e63-5cd3d2bcf8b7",
       "venue_id": "019b81f3-1f39-7d9a-9a28-452083a98ee1",
       "event_date": "2015-09-27",
@@ -9,13 +70,26 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pnlty",
+              "metric_numeric": -4
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 20
+            }
+          ],
+          "time_text": "01:18:19",
           "competitive": true,
           "course_name": "Choose Your Adventure - Campus",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "01:18:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pnlty -4; Points 20",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +107,34 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "controls_found",
+              "metric_numeric": 23
+            },
+            {
+              "metric_key": "map_1_skips",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "mins_late",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "total_score",
+              "metric_numeric": 23
+            }
+          ],
+          "time_text": "01:10:11",
           "competitive": true,
           "course_name": "Choose Your Adventure #2 (Campus)",
           "course_rank": 41,
+          "status_code": "OK",
           "outcome_text": "01:10:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Controls Found 23; Map 1 Skips 0; Mins Late 0; Total Score 23",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +152,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:41:28",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "00:41:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -81,13 +180,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:26:34",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "01:26:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -105,17 +208,19 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:41:26",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 47,
+          "status_code": "OK",
           "outcome_text": "01:41:26",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
-          "affiliation_labels": [
-            "none"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1
@@ -124,7 +229,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 5,
+    "event_count": 7,
     "mention_count": 0
   },
   "mentions": [],

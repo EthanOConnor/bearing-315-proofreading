@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 10
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:32:15",
           "competitive": true,
           "course_name": "Middle School Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:32:15",
           "result_notes": "school STT",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 10; Score 84",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +44,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:18:08",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:18:08",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STT"
@@ -55,13 +72,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:19:04",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:19:04",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STT"
@@ -79,13 +100,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:45",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:25:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STT"
@@ -103,13 +128,17 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:33:05",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 9,
+          "status_code": "OK",
           "outcome_text": "00:33:05",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STT"
@@ -127,13 +156,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:38:19",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:38:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "STT"
@@ -151,13 +184,17 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:31:59",
           "competitive": true,
           "course_name": "P1",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:31:59",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Other"
@@ -175,24 +212,32 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:32:33",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:32:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "01:08:30",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "01:08:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

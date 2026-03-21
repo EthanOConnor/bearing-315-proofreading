@@ -9,13 +9,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 56
+            }
+          ],
+          "time_text": "00:48:48",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 38,
+          "status_code": "OK",
           "outcome_text": "00:48:48",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 56",
           "additional_course": false,
           "affiliation_labels": [
             "Mariner"
@@ -33,13 +42,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:57:44",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 17,
+          "status_code": "OK",
           "outcome_text": "00:57:44",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Mariner"

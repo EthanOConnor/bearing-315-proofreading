@@ -9,13 +9,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 55
+            }
+          ],
+          "time_text": "01:20:53",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 39,
+          "status_code": "OK",
           "outcome_text": "01:20:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 55",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 60
+            }
+          ],
+          "time_text": "00:55:56",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 34,
+          "status_code": "OK",
           "outcome_text": "00:55:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 60",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +71,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 49
+            }
+          ],
+          "time_text": "01:16:44",
           "competitive": true,
           "course_name": "Public 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:16:44",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 46,
+          "metric_summary": "Points 49",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +102,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 393
+            }
+          ],
+          "time_text": "00:57:29",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 37,
+          "status_code": null,
           "outcome_text": "00:57:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 393",
           "additional_course": false,
           "affiliation_labels": []
         }

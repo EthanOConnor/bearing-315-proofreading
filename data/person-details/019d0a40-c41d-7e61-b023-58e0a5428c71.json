@@ -9,13 +9,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:16:42",
           "competitive": true,
           "course_name": "Elementary School Boys",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:16:42",
           "result_notes": "school St. Thomas",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": []
         }

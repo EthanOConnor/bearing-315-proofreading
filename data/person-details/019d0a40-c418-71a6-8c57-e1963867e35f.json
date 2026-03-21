@@ -9,13 +9,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 70
+            }
+          ],
+          "time_text": "01:30:00",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 24,
+          "status_code": "OK",
           "outcome_text": "01:30:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 70",
           "additional_course": false,
           "affiliation_labels": [
             "Burlington-Edison"
@@ -33,13 +42,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "00:57:17",
           "competitive": true,
           "course_name": "WIOL Course #6",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:57:17",
           "result_notes": "type S",
           "category_name": "Boys",
           "category_rank": 20,
+          "metric_summary": "Points 74",
           "additional_course": false,
           "affiliation_labels": [
             "Burlington-Edison"

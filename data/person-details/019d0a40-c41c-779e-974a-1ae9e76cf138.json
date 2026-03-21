@@ -9,24 +9,37 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:45:50",
           "competitive": true,
           "course_name": "High School Varsity Boys",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:45:50",
           "result_notes": "school Oak Harbor",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "01:49:05",
           "competitive": false,
           "course_name": "Long Advanced Men",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "01:49:05",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"

@@ -1,6 +1,100 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4b-7e01-93e8-91103e62ff17",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-12",
+      "event_kind": "race",
+      "event_name": "PNWOF2022: 2022 Ultimate Orienteer #7",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 910
+            }
+          ],
+          "time_text": "01:40:24",
+          "competitive": true,
+          "course_name": "Male 70+",
+          "course_rank": 3,
+          "status_code": "OK",
+          "outcome_text": "01:40:24",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 910",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7308-b1b6-bc1c3542da65",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "2022 Ultimate Orienteer #6",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 589
+            }
+          ],
+          "time_text": "00:59:38",
+          "competitive": true,
+          "course_name": "Male 70+",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:59:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 589",
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7980-92be-eddefbcc04b4",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "PNWOF2022: Middle NRE, Fishtrap Lake",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:59:38",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "00:59:38",
+          "result_notes": null,
+          "category_name": "M80+",
+          "category_rank": 1,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "BAOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4a-79cb-8f91-3f8c5501701b",
       "venue_id": "019b81f3-1f39-7b80-95ff-211287937388",
       "event_date": "2010-06-28",
@@ -9,13 +103,17 @@
       "venue_name": "Camp Sekani WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:13:54",
           "competitive": true,
           "course_name": "Orange",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:13:54",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "M70",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SDO"
@@ -33,13 +131,17 @@
       "venue_name": "Fishtrap Lake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:07:27",
           "competitive": true,
           "course_name": "Brown",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:07:27",
           "result_notes": "nation US; us_eligible N",
           "category_name": "M70",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SDO"
@@ -57,13 +159,17 @@
       "venue_name": "Moses Lake Sand Dunes",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:48:05",
           "competitive": true,
           "course_name": "Brown",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:48:05",
           "result_notes": "nation US; us_eligible N",
           "category_name": "M70",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SDO"
@@ -81,13 +187,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": "M60+",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SDO"
@@ -105,13 +215,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:43:16",
           "competitive": true,
           "course_name": "Brown",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:43:16",
           "result_notes": "us_eligible Y",
           "category_name": "M65+",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SDO"
@@ -129,13 +243,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:28:07",
           "competitive": true,
           "course_name": "Sprint",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "00:28:07",
           "result_notes": "classification M60",
           "category_name": "M60",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SDO"
@@ -150,7 +268,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 6,
+    "event_count": 9,
     "mention_count": 0
   },
   "mentions": [],

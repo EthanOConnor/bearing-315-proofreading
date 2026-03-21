@@ -9,13 +9,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": -200
+            }
+          ],
+          "time_text": "01:06:05",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:06:05",
           "result_notes": "raw 600",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points -200",
           "additional_course": false,
           "affiliation_labels": []
         }

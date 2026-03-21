@@ -9,13 +9,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:38:18",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 1,
+          "status_code": null,
           "outcome_text": "00:38:18",
           "result_notes": "novice",
           "category_name": "WIOL - Junior High Female",
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "BREJ"
@@ -33,13 +42,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:29:55",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 2,
+          "status_code": null,
           "outcome_text": "00:29:55",
           "result_notes": "novice",
           "category_name": "WIOL - Junior High Female",
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "BREJ"
@@ -57,13 +75,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course Two",
           "course_rank": 5,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": "novice; MSP (#6)",
           "category_name": "WIOL - Junior High Female",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BREJ"

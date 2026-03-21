@@ -9,13 +9,245 @@
       "venue_name": "Fisk State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:12:37"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "01:54:57"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 536
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 885
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 6,
+          "status_code": null,
+          "outcome_text": "Day 1 Time 01:12:37; Day 2 Time 01:54:57; Points 536; Total Time 885",
           "result_notes": null,
           "category_name": "F65+",
           "category_rank": 6,
+          "metric_summary": "Day 1 Time 01:12:37; Day 2 Time 01:54:57; Points 536; Total Time 885",
+          "additional_course": false,
+          "affiliation_labels": [
+            "EOOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-79ea-a620-43ca77d41a38",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 3 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:54:57",
+          "competitive": true,
+          "course_name": "Female 65+",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "01:54:57",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "EOOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-720f-967f-6530c455dbe4",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #9",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 349
+            }
+          ],
+          "time_text": "01:54:57",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "01:54:57",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 349",
+          "additional_course": false,
+          "affiliation_labels": [
+            "EOOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7466-a28e-8013795e821c",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 2 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:12:37",
+          "competitive": true,
+          "course_name": "Female 65+",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:12:37",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "EOOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-784b-929c-d3d1c963bef1",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #8",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 536
+            }
+          ],
+          "time_text": "01:12:37",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 12,
+          "status_code": "OK",
+          "outcome_text": "01:12:37",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 536",
+          "additional_course": false,
+          "affiliation_labels": [
+            "EOOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7266-a5da-0e61dbb38087",
+      "venue_id": "019b81f3-1f39-7521-b3fd-22e65018c621",
+      "event_date": "2024-06-21",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 1",
+      "venue_name": "Fishtrap Lake Middle",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:49:57",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 6,
+          "status_code": "OK",
+          "outcome_text": "00:49:57",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "EOOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7308-b1b6-bc1c3542da65",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "2022 Ultimate Orienteer #6",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 701
+            }
+          ],
+          "time_text": "01:04:07",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 8,
+          "status_code": "OK",
+          "outcome_text": "01:04:07",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 701",
+          "additional_course": false,
+          "affiliation_labels": [
+            "EOOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7980-92be-eddefbcc04b4",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "PNWOF2022: Middle NRE, Fishtrap Lake",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:04:07",
+          "competitive": false,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "NC",
+          "outcome_text": "01:04:07",
+          "result_notes": null,
+          "category_name": "F-Brown",
+          "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "EOOC"
@@ -28,7 +260,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

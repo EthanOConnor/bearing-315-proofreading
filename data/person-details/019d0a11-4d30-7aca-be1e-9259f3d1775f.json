@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 40
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 54
+            }
+          ],
+          "time_text": "01:51:58",
           "competitive": true,
           "course_name": "Jr. Varsity Boys (N)",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:51:58",
           "result_notes": "school EVT",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 40; Score 54",
           "additional_course": false,
           "affiliation_labels": []
         }

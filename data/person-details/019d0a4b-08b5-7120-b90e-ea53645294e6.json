@@ -9,13 +9,22 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "00:54:22",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "00:54:22",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 18,
+          "metric_summary": "Points 76",
           "additional_course": false,
           "affiliation_labels": [
             "WTM"
@@ -33,13 +42,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 74
+            }
+          ],
+          "time_text": "00:25:12",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 20,
+          "status_code": "OK",
           "outcome_text": "00:25:12",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 20,
+          "metric_summary": "Points 74",
           "additional_course": false,
           "affiliation_labels": [
             "WTM"
@@ -57,24 +75,46 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:22:44"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Middle School Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 8,
+          "status_code": null,
+          "outcome_text": "Finish 00:22:44; Points 84",
           "result_notes": "trailing_paren:WTM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 00:22:44; Points 84",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "00:22:44",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "00:22:44",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 10,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": [
             "WTM"
@@ -82,12 +122,45 @@
         }
       ],
       "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 57
+            }
+          ],
+          "time_text": "00:44:23",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 37,
+          "status_code": "OK",
+          "outcome_text": "00:44:23",
+          "result_notes": null,
+          "category_name": "Middle School Male",
+          "category_rank": 37,
+          "metric_summary": "Points 57",
+          "additional_course": false,
+          "affiliation_labels": [
+            "WTM"
+          ]
+        }
+      ],
+      "result_row_count": 1
     }
   ],
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 4,
     "mention_count": 0
   },
   "mentions": [],

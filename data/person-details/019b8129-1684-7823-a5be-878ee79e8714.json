@@ -9,24 +9,37 @@
       "venue_name": "Volunteer Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 648
+            }
+          ],
+          "time_text": "00:29:52",
           "competitive": true,
           "course_name": "Course 2 - Sprint",
           "course_rank": 11,
+          "status_code": null,
           "outcome_text": "00:29:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 648",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "00:19:57",
           "competitive": false,
           "course_name": "Course 1",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "00:19:57",
           "result_notes": "8 controls",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": true,
           "affiliation_labels": []
         }

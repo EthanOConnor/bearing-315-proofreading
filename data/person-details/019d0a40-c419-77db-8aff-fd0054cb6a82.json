@@ -9,13 +9,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:45:42",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "01:45:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CUR"
@@ -33,13 +37,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "P7M",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CUR"
@@ -57,13 +65,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:14:01",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 35,
+          "status_code": "OK",
           "outcome_text": "01:14:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +91,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:14:24",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 40,
+          "status_code": "OK",
           "outcome_text": "01:14:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CUR"
@@ -103,13 +119,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:40:21",
           "competitive": true,
           "course_name": "ORANGE",
           "course_rank": 45,
+          "status_code": "OK",
           "outcome_text": "02:40:21",
           "result_notes": "classification ISJVM",
           "category_name": "ISJVM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Curtis HS"
@@ -127,13 +147,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:31:46",
           "competitive": true,
           "course_name": "ORANGE",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:31:46",
           "result_notes": null,
           "category_name": "ISJVM",
           "category_rank": 49,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Curtis HS"
@@ -151,13 +175,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 48
+            }
+          ],
+          "time_text": "01:15:37",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 46,
+          "status_code": "OK",
           "outcome_text": "01:15:37",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 48",
           "additional_course": false,
           "affiliation_labels": [
             "Curtis"
@@ -175,13 +208,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 55
+            }
+          ],
+          "time_text": "00:49:33",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 39,
+          "status_code": "OK",
           "outcome_text": "00:49:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 55",
           "additional_course": false,
           "affiliation_labels": [
             "Curtis"
@@ -199,52 +241,88 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "00:55:41",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "00:55:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 71",
           "additional_course": false,
           "affiliation_labels": [
             "Curtis"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "00:55:41",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "00:55:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 71",
           "additional_course": false,
           "affiliation_labels": [
             "Curtis"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "00:55:41",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "00:55:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 71",
           "additional_course": false,
           "affiliation_labels": [
             "Curtis"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "00:55:41",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "00:55:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 71",
           "additional_course": false,
           "affiliation_labels": [
             "Curtis"
@@ -262,13 +340,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": "00:44:42",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 33,
+          "status_code": "OK",
           "outcome_text": "00:44:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 61",
           "additional_course": false,
           "affiliation_labels": [
             "Curtis"

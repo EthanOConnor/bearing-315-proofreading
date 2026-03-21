@@ -9,13 +9,316 @@
       "venue_name": "Fisk State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "00:38:56"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "00:40:05"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 2000
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 1,
+          "status_code": null,
+          "outcome_text": "Day 1 Time 00:38:56; Day 2 Time 00:40:05; Points 1000; Total Time 2000",
           "result_notes": null,
           "category_name": "F65+",
           "category_rank": 1,
+          "metric_summary": "Day 1 Time 00:38:56; Day 2 Time 00:40:05; Points 1000; Total Time 2000",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-79ea-a620-43ca77d41a38",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 3 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:40:05",
+          "competitive": true,
+          "course_name": "Female 65+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:40:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-720f-967f-6530c455dbe4",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-23",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #9",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "00:40:05",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:40:05",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 1000",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7466-a28e-8013795e821c",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 2 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:38:56",
+          "competitive": true,
+          "course_name": "Female 65+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:38:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-784b-929c-d3d1c963bef1",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #8",
+      "venue_name": "Fisk State Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "00:38:56",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:38:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 1000",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7266-a5da-0e61dbb38087",
+      "venue_id": "019b81f3-1f39-7521-b3fd-22e65018c621",
+      "event_date": "2024-06-21",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 1",
+      "venue_name": "Fishtrap Lake Middle",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:52:36",
+          "competitive": true,
+          "course_name": "Short Advanced",
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "00:52:36",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-73ce-9a94-d24f7fe127e9",
+      "venue_id": "019b820a-0443-7dfd-95ed-ab080bf13d30",
+      "event_date": "2024-03-24",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #4 - Classic, Bishops Land",
+      "venue_name": "Bishop's Land",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 844
+            }
+          ],
+          "time_text": "00:55:10",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:55:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 844",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-76d2-b1bc-9675f56a53fd",
+      "venue_id": "019d0435-7eca-76c2-b1dd-7af78ff1b3c5",
+      "event_date": "2024-03-23",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #3",
+      "venue_name": "South Quincy Lakes",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 721
+            }
+          ],
+          "time_text": "01:34:40",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 5,
+          "status_code": "OK",
+          "outcome_text": "01:34:40",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 721",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7a2b-bb77-a81717d60d0d",
+      "venue_id": "019b820a-0433-7989-b481-2d59be81507f",
+      "event_date": "2024-03-22",
+      "event_kind": "race",
+      "event_name": "2024 Ultimate Orienteer #2 - Middle, Frenchman Coulee",
+      "venue_name": "Frenchman Coulee",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 955
+            }
+          ],
+          "time_text": "00:42:32",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 2,
+          "status_code": "OK",
+          "outcome_text": "00:42:32",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 955",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7d88-9239-0514a07ddc1e",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2023-06-25",
+      "event_kind": "race",
+      "event_name": "2023 Ultimate Orienteer #8",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "00:51:47",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "00:51:47",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 1000",
           "additional_course": false,
           "affiliation_labels": [
             "GVOC"
@@ -33,13 +336,92 @@
       "venue_name": "Fishtrap Lake",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "day_1_time",
+              "metric_time_text": "01:11:25"
+            },
+            {
+              "metric_key": "day_2_time",
+              "metric_time_text": "00:51:47"
+            }
+          ],
+          "time_text": "02:03:12",
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:03:12",
           "result_notes": null,
           "category_name": "F60+",
           "category_rank": 1,
+          "metric_summary": "Day 1 Time 01:11:25; Day 2 Time 00:51:47",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-7656-b27c-6ee5fa722c9e",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2023-06-24",
+      "event_kind": "race",
+      "event_name": "2023 Ultimate Orienteer #7",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "01:11:25",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:11:25",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 1000",
+          "additional_course": false,
+          "affiliation_labels": [
+            "GVOC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4b-7e01-93e8-91103e62ff17",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-12",
+      "event_kind": "race",
+      "event_name": "PNWOF2022: 2022 Ultimate Orienteer #7",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 1000
+            }
+          ],
+          "time_text": "01:38:08",
+          "competitive": true,
+          "course_name": "Female 50+",
+          "course_rank": 1,
+          "status_code": "OK",
+          "outcome_text": "01:38:08",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 1000",
           "additional_course": false,
           "affiliation_labels": [
             "GVOC"
@@ -57,13 +439,17 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:26:44",
           "competitive": true,
           "course_name": "SART 2015 - Round 4",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:26:44",
           "result_notes": "heat Heat 408",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +465,22 @@
       "venue_name": "Shoreline Community College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_rank",
+              "metric_numeric": 47
+            }
+          ],
+          "time_text": "00:25:03",
           "competitive": true,
           "course_name": "SART 2015 - Round 5",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:25:03",
           "result_notes": "heat Heat 507",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Rank 47",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -101,13 +496,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:21:50",
           "competitive": true,
           "course_name": "SART 2015 - Round 1",
           "course_rank": 4,
+          "status_code": "OK",
           "outcome_text": "00:21:50",
           "result_notes": "heat Heat 103",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -123,13 +522,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:22:34",
           "competitive": true,
           "course_name": "SART 2015 - Round 2",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:22:34",
           "result_notes": "heat Heat 204",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -145,13 +548,17 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:22:34",
           "competitive": true,
           "course_name": "SART 2015 - Round 3",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:22:34",
           "result_notes": "heat Heat 303",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -167,13 +574,17 @@
       "venue_name": "Greenlake",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:08:26",
           "competitive": true,
           "course_name": "SART 2015 - Time Trial",
           "course_rank": 57,
+          "status_code": "OK",
           "outcome_text": "00:08:26",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -189,39 +600,51 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:25:41",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "01:25:41",
           "result_notes": "classification F50+",
           "category_name": "F50+",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Greater Vancouver OC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "01:25:41",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "01:25:41",
           "result_notes": "classification F50+",
           "category_name": "F50+",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Greater Vancouver OC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "01:25:41",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "01:25:41",
           "result_notes": "classification F50+",
           "category_name": "F50+",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Greater Vancouver OC"
@@ -239,26 +662,34 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:27:58",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:27:58",
           "result_notes": null,
           "category_name": "F50+",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Greater Vancouver OC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "01:27:58",
           "competitive": true,
           "course_name": "GREEN",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:27:58",
           "result_notes": null,
           "category_name": "F50+",
           "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Greater Vancouver OC"
@@ -270,12 +701,28 @@
   ],
   "aliases": [],
   "summary": {
-    "role_count": 0,
-    "event_count": 10,
+    "role_count": 1,
+    "event_count": 21,
     "mention_count": 0
   },
   "mentions": [],
   "individual_id": "019d0a11-4d30-7f45-a013-aa5603e6c1ac",
   "individual_name": "Joanne Woods",
-  "volunteer_roles": []
+  "volunteer_roles": [
+    {
+      "event_id": "019b81f3-1f4e-7466-a28e-8013795e821c",
+      "venue_id": "019b8249-3159-7488-bd6e-86e2fe06f84a",
+      "role_name": "Map collection",
+      "event_date": "2024-06-22",
+      "event_kind": "race",
+      "event_name": "2024 PNWOF Day 2 - Fisk Middle NRE",
+      "venue_name": "Fisk State Park",
+      "citation_count": 1,
+      "citation_briefs": [
+        "CascadeOC Website: https://cascadeoc.org/result/2024-pnwof-day-2-fisk-middle-nre/"
+      ],
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ]
 }

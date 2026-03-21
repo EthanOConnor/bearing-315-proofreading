@@ -9,13 +9,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 178
+            }
+          ],
+          "time_text": "00:56:24",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 42,
+          "status_code": null,
           "outcome_text": "00:56:24",
           "result_notes": "controls 8; penalty 10 controls",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 178",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,22 @@
       "venue_name": "Kelsey Creek Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 60
+            }
+          ],
+          "time_text": "00:40:24",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 41,
+          "status_code": null,
           "outcome_text": "00:40:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 60",
           "additional_course": false,
           "affiliation_labels": []
         }

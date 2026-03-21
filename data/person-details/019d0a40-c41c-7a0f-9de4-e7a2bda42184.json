@@ -9,13 +9,22 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 76
+            }
+          ],
+          "time_text": "00:56:55",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "00:56:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 76",
           "additional_course": false,
           "affiliation_labels": [
             "SAMM"
@@ -33,13 +42,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:20:48",
           "competitive": true,
           "course_name": "Brown",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:20:48",
           "result_notes": null,
           "category_name": "M-Brown",
           "category_rank": 5,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SAMM"
@@ -57,13 +70,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:10:01",
           "competitive": true,
           "course_name": "Brown",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:10:01",
           "result_notes": "us_eligible Y",
           "category_name": "M-Brown",
           "category_rank": 3,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SAMM"
@@ -81,13 +98,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:51:27",
           "competitive": true,
           "course_name": "Sprint",
           "course_rank": 56,
+          "status_code": "OK",
           "outcome_text": "00:51:27",
           "result_notes": "classification M45",
           "category_name": "M45",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "SAMM"

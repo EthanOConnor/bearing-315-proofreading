@@ -1,6 +1,37 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4d-78fc-ace3-5e6c9d35b9d2",
+      "venue_id": "019b81f3-1f39-74dd-96ff-12787b9d1ea3",
+      "event_date": "2022-12-17",
+      "event_kind": "race",
+      "event_name": "2022 Winter League 04",
+      "venue_name": "Shorecrest/Hamlin",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "01:41:38",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 23,
+          "status_code": "OK",
+          "outcome_text": "01:41:38",
+          "result_notes": null,
+          "category_name": "Long Adv Male",
+          "category_rank": 23,
+          "metric_summary": "Points 71",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4b-72cc-b9fa-1f2a907a4b97",
       "venue_id": "019b81f3-1f39-7a90-a0ac-9ab947f142c0",
       "event_date": "2012-02-04",
@@ -9,13 +40,22 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 63
+            }
+          ],
+          "time_text": "01:45:39",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 31,
+          "status_code": "OK",
           "outcome_text": "01:45:39",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 63",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -26,7 +66,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

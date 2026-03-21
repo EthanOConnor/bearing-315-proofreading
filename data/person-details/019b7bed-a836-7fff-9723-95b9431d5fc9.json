@@ -9,13 +9,23 @@
       "venue_name": "Fort Lewis - Chambers Lake Area",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "notes": "Score-O points as published.",
+              "metric_key": "points",
+              "metric_numeric": 188
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 1,
-          "outcome_text": "OK",
+          "status_code": "OK",
+          "outcome_text": "Points 188",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 188",
           "additional_course": false,
           "affiliation_labels": []
         }

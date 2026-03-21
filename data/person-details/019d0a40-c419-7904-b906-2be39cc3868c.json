@@ -9,13 +9,22 @@
       "venue_name": "Island Crest",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 44
+            }
+          ],
+          "time_text": "01:22:43",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 50,
+          "status_code": "OK",
           "outcome_text": "01:22:43",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 44",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,17 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

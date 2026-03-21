@@ -9,13 +9,30 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 13
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 13
+            }
+          ],
+          "time_text": "02:46:24",
           "competitive": true,
           "course_name": "Results:",
           "course_rank": 22,
+          "status_code": "OK",
           "outcome_text": "02:46:24",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 13; Score 13",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +50,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:22",
           "competitive": true,
           "course_name": "P2",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:47:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +78,17 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:37:12",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:37:12",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +104,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:28:17",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:28:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -101,13 +130,17 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:29:14",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:29:14",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

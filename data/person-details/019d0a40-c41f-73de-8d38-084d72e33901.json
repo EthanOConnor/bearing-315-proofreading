@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"
@@ -33,13 +37,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 58
+            }
+          ],
+          "time_text": "01:21:34",
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": 36,
+          "status_code": "OK",
           "outcome_text": "01:21:34",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 58",
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"
@@ -57,13 +70,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 49
+            }
+          ],
+          "time_text": "01:20:29",
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": 45,
+          "status_code": "OK",
           "outcome_text": "01:20:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 49",
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"

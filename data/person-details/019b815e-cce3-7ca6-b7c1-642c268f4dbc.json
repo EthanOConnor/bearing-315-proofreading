@@ -9,13 +9,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 68
+            }
+          ],
+          "time_text": "02:48:41",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": 26,
+          "status_code": "OK",
           "outcome_text": "02:48:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 68",
           "additional_course": false,
           "affiliation_labels": []
         }

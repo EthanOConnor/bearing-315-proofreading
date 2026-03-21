@@ -9,13 +9,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 7
+            }
+          ],
+          "time_text": null,
           "competitive": false,
           "course_name": "Vampire-O",
           "course_rank": null,
-          "outcome_text": "NC",
+          "status_code": "NC",
+          "outcome_text": "Points 7",
           "result_notes": "map hiker",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 7",
           "additional_course": false,
           "affiliation_labels": []
         }

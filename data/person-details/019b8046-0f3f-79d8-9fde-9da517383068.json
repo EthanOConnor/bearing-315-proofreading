@@ -9,13 +9,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:26:49",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 22,
+          "status_code": null,
           "outcome_text": "01:26:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Kelsey Creek Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 55
+            }
+          ],
+          "time_text": "00:49:23",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 48,
+          "status_code": null,
           "outcome_text": "00:49:23",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 55",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +66,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 69
+            }
+          ],
+          "time_text": "00:35:48",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 34,
+          "status_code": null,
           "outcome_text": "00:35:48",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 69",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +97,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:33:30",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 4,
+          "status_code": null,
           "outcome_text": "00:33:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -97,13 +123,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 64
+            }
+          ],
+          "time_text": "01:32:31",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 40,
+          "status_code": null,
           "outcome_text": "01:32:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 64",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

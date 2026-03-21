@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "01:16:56",
           "competitive": true,
           "course_name": "Middle School Girls",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:16:56",
           "result_notes": "school BRE",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 12; Score 82",
           "additional_course": false,
           "affiliation_labels": []
         }

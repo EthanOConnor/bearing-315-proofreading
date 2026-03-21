@@ -9,17 +9,24 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 1
+            }
+          ],
+          "time_text": "01:02:58",
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:02:58",
           "result_notes": null,
           "category_name": "Intermediate Male",
           "category_rank": null,
+          "metric_summary": "Pos 1",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1

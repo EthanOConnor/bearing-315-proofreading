@@ -3,6 +3,7 @@
     {
       "results": [
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "019b8048-74c1-7be9-a8e5-3268e97371be",
           "time_text": "00:20:18",
@@ -14,12 +15,14 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b8046-0f3e-73da-a74d-1d004d92fe96",
+          "metric_summary": null,
           "competitor_name": "Renee Lorbeski",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "019b8048-74c1-7c67-a525-ea452335e062",
           "time_text": "00:25:28",
@@ -31,12 +34,14 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b8046-0f3f-7fc3-9132-4e612893fe93",
+          "metric_summary": null,
           "competitor_name": "Michael James",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
           "team_id": "019b8046-0f61-7487-9914-6c45ecd470c8",
           "result_id": "019b8048-74c2-78b3-96e0-c74963c5f314",
           "time_text": "00:29:26",
@@ -48,12 +53,14 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": null,
           "competitor_name": "Zach Erwin/Jake McDonough",
           "competitor_type": "team",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "019b8048-74bd-7774-9c3c-b8ec2e04c8f6",
           "time_text": "00:31:16",
@@ -65,12 +72,14 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b8046-0f3e-7b54-8ea2-c22f32f22247",
+          "metric_summary": null,
           "competitor_name": "kevin Thomas",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "019b8048-74bc-79c6-b4cc-7a5752fe6e5e",
           "time_text": "00:32:17",
@@ -82,12 +91,14 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b8046-0f3e-7c79-8a48-b40cc75ece7f",
+          "metric_summary": null,
           "competitor_name": "Stephfraher",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
           "team_id": "019b8046-0f61-79fe-a5d6-dbe4b6f7f02f",
           "result_id": "019b8048-74c2-7092-9761-6a506b526225",
           "time_text": "00:55:00",
@@ -99,12 +110,14 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": null,
           "competitor_name": "Troop 294",
           "competitor_type": "team",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "019b8048-74bc-7c0a-a6c8-59acd5da0e2d",
           "time_text": "01:19:00",
@@ -116,6 +129,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b8046-0f3f-754c-ad2a-f918d5e458d3",
+          "metric_summary": null,
           "competitor_name": "Applebee",
           "competitor_type": "individual",
           "additional_course": false,
@@ -132,6 +146,7 @@
     {
       "results": [
         {
+          "metrics": [],
           "team_id": "019b8046-0f61-7a62-86b2-67f6477a600a",
           "result_id": "019b8048-74c2-7063-b6b1-65b55c50cc04",
           "time_text": "01:02:10",
@@ -143,12 +158,14 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": null,
           "competitor_name": "Troop 110",
           "competitor_type": "team",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
           "team_id": null,
           "result_id": "019b8048-74c1-75f5-93a9-0944dc6ffa39",
           "time_text": null,
@@ -160,6 +177,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b8046-0f3e-73da-a74d-1d004d92fe96",
+          "metric_summary": null,
           "competitor_name": "Renee Lorbeski",
           "competitor_type": "individual",
           "additional_course": false,
@@ -176,6 +194,16 @@
     {
       "results": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 580
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 1000
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74c0-7f2c-8ab3-aaec2a83a1c1",
           "time_text": "00:59:25",
@@ -187,6 +215,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7ac9-920b-7d2b-95da-67b1466bb647",
+          "metric_summary": "Points 580; Uo Points 1000",
           "competitor_name": "Jan Urban",
           "competitor_type": "individual",
           "additional_course": false,
@@ -195,6 +224,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 490
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 845
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74c0-7402-a9c8-06d5ab42a8a0",
           "time_text": "00:59:33",
@@ -206,6 +245,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7ac9-920b-797d-8bf4-ebd4508c4277",
+          "metric_summary": "Points 490; Uo Points 845",
           "competitor_name": "Dave Tallent",
           "competitor_type": "individual",
           "additional_course": false,
@@ -214,6 +254,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 470
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 810
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74be-799e-90a3-d1a5631a1a71",
           "time_text": "00:59:57",
@@ -225,6 +275,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b8046-0f3e-796a-ace2-04e16846b88e",
+          "metric_summary": "Points 470; Uo Points 810",
           "competitor_name": "Ernst Linder",
           "competitor_type": "individual",
           "additional_course": false,
@@ -233,6 +284,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 470
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 810
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74bb-78ad-9208-e3923984465f",
           "time_text": "00:59:57",
@@ -244,6 +305,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7dcf-7cd1-7086-92e1-a4421ef7fbe3",
+          "metric_summary": "Points 470; Uo Points 810",
           "competitor_name": "Justin Yeager",
           "competitor_type": "individual",
           "additional_course": false,
@@ -252,6 +314,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 450
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 861
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74bf-7152-b2de-0cee23291522",
           "time_text": "00:59:04",
@@ -263,6 +335,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7b32-2a92-76d3-84a4-a8328a823f1e",
+          "metric_summary": "Points 450; Uo Points 861",
           "competitor_name": "Dale Width",
           "competitor_type": "individual",
           "additional_course": false,
@@ -271,6 +344,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 450
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 861
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74bc-7fd9-8a28-5d466a437042",
           "time_text": "00:59:51",
@@ -282,6 +365,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "01913919-da03-757e-b829-aa2bdc684400",
+          "metric_summary": "Points 450; Uo Points 861",
           "competitor_name": "Debbie Newell",
           "competitor_type": "individual",
           "additional_course": false,
@@ -290,6 +374,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 420
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 724
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74be-7cf4-b989-5adebcd6a78b",
           "time_text": "00:59:56",
@@ -301,6 +395,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7acf-182c-705a-a8fe-e71bcacc38a6",
+          "metric_summary": "Points 420; Uo Points 724",
           "competitor_name": "Kean Williams",
           "competitor_type": "individual",
           "additional_course": false,
@@ -309,6 +404,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 380
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 655
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74c2-7c6d-821e-235cf4220954",
           "time_text": "00:56:54",
@@ -320,6 +425,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7ac9-920b-7ef7-909c-53557520255d",
+          "metric_summary": "Points 380; Uo Points 655",
           "competitor_name": "Don Atkinson",
           "competitor_type": "individual",
           "additional_course": false,
@@ -328,6 +434,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 340
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 586
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74c1-790b-858f-09947fc5fb75",
           "time_text": "00:55:43",
@@ -339,6 +455,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7de7-0e3a-7b92-b77c-4baa2a289c20",
+          "metric_summary": "Points 340; Uo Points 586",
           "competitor_name": "Oyvind Naess",
           "competitor_type": "individual",
           "additional_course": false,
@@ -347,6 +464,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 340
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 586
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74bb-738a-8990-db3e5ae221ad",
           "time_text": "00:58:21",
@@ -358,6 +485,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7ac9-920b-782c-bd9b-998c21d66ed8",
+          "metric_summary": "Points 340; Uo Points 586",
           "competitor_name": "Patrick Kelly",
           "competitor_type": "individual",
           "additional_course": false,
@@ -366,6 +494,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 340
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 586
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74bf-7726-9c75-a3e06abddbcf",
           "time_text": "00:58:46",
@@ -377,6 +515,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7ac9-920b-70bb-8a36-b4b700fb52d4",
+          "metric_summary": "Points 340; Uo Points 586",
           "competitor_name": "Ardis Dull",
           "competitor_type": "individual",
           "additional_course": false,
@@ -385,6 +524,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 330
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 569
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74c0-78e5-840d-3b0d9d6b0c2c",
           "time_text": "00:58:40",
@@ -396,6 +545,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7ac9-920b-738e-9c9a-52614be6cf3d",
+          "metric_summary": "Points 330; Uo Points 569",
           "competitor_name": "Eileen Breseman",
           "competitor_type": "individual",
           "additional_course": false,
@@ -404,6 +554,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 320
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 552
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74ba-7f65-88c7-fe97deab2659",
           "time_text": "00:55:02",
@@ -415,6 +575,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7ac9-920b-7095-b1a3-a5a74e352290",
+          "metric_summary": "Points 320; Uo Points 552",
           "competitor_name": "Don Denbo",
           "competitor_type": "individual",
           "additional_course": false,
@@ -423,6 +584,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 320
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 552
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74bb-76db-9091-fb65cac0646c",
           "time_text": "00:55:46",
@@ -434,6 +605,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7b13-321a-7dac-ae5d-c8ec343589f7",
+          "metric_summary": "Points 320; Uo Points 552",
           "competitor_name": "Tyler Frederickson",
           "competitor_type": "individual",
           "additional_course": false,
@@ -442,6 +614,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 300
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 517
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74c1-70a2-814f-d4c1a4cbf88e",
           "time_text": "01:00:06",
@@ -453,6 +635,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "0191394f-d748-7189-887f-793488143b6d",
+          "metric_summary": "Points 300; Uo Points 517",
           "competitor_name": "Mike Schuh",
           "competitor_type": "individual",
           "additional_course": false,
@@ -461,6 +644,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 300
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 517
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74bc-7043-99e2-cab20bf25d4c",
           "time_text": "01:01:03",
@@ -472,6 +665,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7b32-2a93-7075-8d0f-e7760341a2ec",
+          "metric_summary": "Points 300; Uo Points 517",
           "competitor_name": "Jeff Watson",
           "competitor_type": "individual",
           "additional_course": false,
@@ -480,6 +674,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 300
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 517
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74c2-77d6-90c8-324e0f41f851",
           "time_text": "01:01:39",
@@ -491,6 +695,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7ac9-920b-7101-929d-c931532d6e97",
+          "metric_summary": "Points 300; Uo Points 517",
           "competitor_name": "Rick Breseman",
           "competitor_type": "individual",
           "additional_course": false,
@@ -499,6 +704,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 270
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 467
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74c1-796a-bc07-56fd39564c8f",
           "time_text": "00:58:14",
@@ -510,6 +725,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "a38b653f-414d-4de1-a566-55f74c72c968",
+          "metric_summary": "Points 270; Uo Points 467",
           "competitor_name": "Harvey Friedman",
           "competitor_type": "individual",
           "additional_course": false,
@@ -518,6 +734,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 270
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 467
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74c0-7f1b-87e7-35f2d977d824",
           "time_text": "00:58:48",
@@ -529,12 +755,23 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b8046-0f40-77a0-9054-fe52bcdecc74",
+          "metric_summary": "Points 270; Uo Points 467",
           "competitor_name": "Walter Braun",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 260
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 448
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74bc-78b1-afac-c3f43f06b4df",
           "time_text": "00:55:08",
@@ -546,12 +783,23 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7ad9-433b-7b7a-8041-7da5f5140a95",
+          "metric_summary": "Points 260; Uo Points 448",
           "competitor_name": "Gary McCausland",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 260
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 448
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74bb-757e-9455-48efefb98fdd",
           "time_text": "00:58:22",
@@ -563,6 +811,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7fc3-dca1-7971-a0b3-23b88ea2e5c3",
+          "metric_summary": "Points 260; Uo Points 448",
           "competitor_name": "Joel Yeager",
           "competitor_type": "individual",
           "additional_course": false,
@@ -571,6 +820,16 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 180
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 310
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74ba-7d3c-bc3d-6544c3f9eff8",
           "time_text": "00:50:51",
@@ -582,6 +841,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7b20-7ab1-7dbb-8165-0c9f93d072c1",
+          "metric_summary": "Points 180; Uo Points 310",
           "competitor_name": "Matej Urban",
           "competitor_type": "individual",
           "additional_course": false,
@@ -590,6 +850,12 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 160
+            }
+          ],
           "team_id": "019b8046-0f61-7f1a-b6db-1d316b1f38f6",
           "result_id": "019b8048-74c3-749f-bff3-4e5388abf6f0",
           "time_text": "00:58:37",
@@ -601,6 +867,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": "Points 160",
           "competitor_name": "Kelsey & Ryan Breseman",
           "competitor_type": "team",
           "additional_course": false,
@@ -609,6 +876,12 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
           "team_id": null,
           "result_id": "019b8048-74bc-7d3b-99d0-24356315a605",
           "time_text": "01:14:00",
@@ -620,6 +893,7 @@
           "category_name": null,
           "category_rank": null,
           "individual_id": "019b7fc3-dca1-7d00-b1d7-47123a511b62",
+          "metric_summary": "Points 0",
           "competitor_name": "Curtis Creager",
           "competitor_type": "individual",
           "additional_course": false,
@@ -642,9 +916,78 @@
   "event_kind": "race",
   "event_name": "Priest Point Park Score-O - Ultimate Orienteer 2",
   "venue_name": "Priest Point Park",
+  "event_notes": null,
   "course_count": 3,
   "result_count": 33,
   "citation_count": 1,
+  "event_comments": null,
+  "external_links": [],
+  "volunteer_roles": [
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "01913919-da03-757e-b829-aa2bdc684400",
+      "citation_count": 1,
+      "individual_name": "Debbie Newell",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019b7da3-1cf8-753b-ad1b-fb20b8a6aaec",
+      "citation_count": 1,
+      "individual_name": "Jennifer Knowles",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "0191394f-d748-7189-887f-793488143b6d",
+      "citation_count": 1,
+      "individual_name": "Mike Schuh",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Course Setter",
+      "individual_id": "019b7da3-1cf8-753b-ad1b-fb20b8a6aaec",
+      "citation_count": 1,
+      "individual_name": "Jennifer Knowles",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Finish",
+      "individual_id": "019b7ac9-920b-7ef7-909c-53557520255d",
+      "citation_count": 1,
+      "individual_name": "Don Atkinson",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Meet Director",
+      "individual_id": "019b7acf-182c-705a-a8fe-e71bcacc38a6",
+      "citation_count": 1,
+      "individual_name": "Kean Williams",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Registration",
+      "individual_id": "01913919-da03-757e-b829-aa2bdc684400",
+      "citation_count": 1,
+      "individual_name": "Debbie Newell",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Registration",
+      "individual_id": "019b7ac9-920b-7d2b-95da-67b1466bb647",
+      "citation_count": 1,
+      "individual_name": "Jan Urban",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ],
   "result_source_brief": "Older COC Results Website: http://www.old.cascadeoc.org/Results2001/PriestPt.html",
   "organizing_club_name": "Cascade Orienteering Club"
 }

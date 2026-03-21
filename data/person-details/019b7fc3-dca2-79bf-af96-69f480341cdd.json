@@ -9,13 +9,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 6,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": "novice",
           "category_name": "WIOL - Junior High Female",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BREJ"
@@ -33,13 +37,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:38:19",
           "competitive": true,
           "course_name": "Course Two",
           "course_rank": 2,
+          "status_code": null,
           "outcome_text": "00:38:19",
           "result_notes": "novice",
           "category_name": "WIOL - Junior High Female",
           "category_rank": null,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "BREJ"

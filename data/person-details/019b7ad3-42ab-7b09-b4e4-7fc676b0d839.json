@@ -9,24 +9,32 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:41:10",
           "competitive": true,
           "course_name": "10k",
           "course_rank": null,
-          "outcome_text": "00:41:10",
-          "result_notes": null,
-          "category_name": "M 19-39",
-          "category_rank": 1,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
-          "competitive": true,
-          "course_name": "10k",
-          "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:41:10",
           "result_notes": null,
           "category_name": "MALES / Top 5 Overall",
           "category_rank": 1,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [],
+          "time_text": "00:41:10",
+          "competitive": true,
+          "course_name": "10k",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "00:41:10",
+          "result_notes": null,
+          "category_name": "M 19-39",
+          "category_rank": 1,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -42,13 +50,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 85
+            }
+          ],
+          "time_text": "00:24:22",
           "competitive": true,
           "course_name": "Course Four",
           "course_rank": 9,
+          "status_code": null,
           "outcome_text": "00:24:22",
           "result_notes": null,
           "category_name": "Winter O' Series",
           "category_rank": null,
+          "metric_summary": "Points 85",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -60,17 +77,21 @@
       "venue_id": "019b7fdb-8765-73b5-a900-be1300b39626",
       "event_date": "1999-11-13",
       "event_kind": "race",
-      "event_name": "Adventure Run",
+      "event_name": "St. Edward Adventure Run",
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:43:09",
           "competitive": true,
           "course_name": "Adventure Run",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:43:09",
           "result_notes": "classification M 20-39",
           "category_name": "M 20-39",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -82,17 +103,21 @@
       "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
       "event_date": "1998-02-07",
       "event_kind": "race",
-      "event_name": "O' Series #6 / WIOL #6",
+      "event_name": "Lincoln Park",
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:36:54",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:36:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "HUSKY"
@@ -106,30 +131,43 @@
       "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
       "event_date": "1998-01-10",
       "event_kind": "race",
-      "event_name": "O' Series #3 / WIOL #3",
+      "event_name": "Magnuson Park",
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:06:20",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:06:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "HUSKY"
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:50:54",
           "competitive": true,
           "course_name": "Course 6",
           "course_rank": 20,
+          "status_code": "OK",
           "outcome_text": "00:50:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -168,7 +206,7 @@
       "role_name": "Course Pickup",
       "event_date": "1999-11-13",
       "event_kind": "race",
-      "event_name": "Adventure Run",
+      "event_name": "St. Edward Adventure Run",
       "venue_name": "St. Edward State Park",
       "citation_count": 0,
       "citation_briefs": [],
@@ -181,7 +219,7 @@
       "role_name": "Marker Pickup",
       "event_date": "1999-11-13",
       "event_kind": "race",
-      "event_name": "Adventure Run",
+      "event_name": "St. Edward Adventure Run",
       "venue_name": "St. Edward State Park",
       "citation_count": 1,
       "citation_briefs": [

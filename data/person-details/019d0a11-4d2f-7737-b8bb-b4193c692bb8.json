@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 6
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 88
+            }
+          ],
+          "time_text": "01:08:43",
           "competitive": true,
           "course_name": "Jr. Varsity Girls",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:08:43",
           "result_notes": "school ARL",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 6; Score 88",
           "additional_course": false,
           "affiliation_labels": []
         }

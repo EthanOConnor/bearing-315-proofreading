@@ -9,13 +9,30 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 16
+            },
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 16
+            }
+          ],
+          "time_text": "01:44:09",
           "competitive": true,
           "course_name": "CYA",
-          "course_rank": null,
+          "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "01:44:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Score 16; Penalty 0; Points 16",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

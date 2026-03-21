@@ -9,13 +9,22 @@
       "venue_name": "Bellevue College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "final_score",
+              "metric_numeric": 11
+            }
+          ],
+          "time_text": "01:23:51",
           "competitive": true,
           "course_name": "2024 Choose Your Adventure #4 – Skeleton Bones!",
           "course_rank": 89,
+          "status_code": "OK",
           "outcome_text": "01:23:51",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Final Score 11",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 6
+            }
+          ],
+          "time_text": "01:31:06",
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:31:06",
           "result_notes": null,
           "category_name": "Short Adv Male",
           "category_rank": null,
+          "metric_summary": "Pos 6",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -55,13 +73,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:54:17",
           "competitive": true,
           "course_name": "Intermediate",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:54:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"

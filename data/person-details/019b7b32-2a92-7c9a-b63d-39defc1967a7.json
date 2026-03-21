@@ -9,26 +9,34 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:14:31",
           "competitive": true,
           "course_name": "RECREATIONAL COURSE",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:14:31",
           "result_notes": null,
           "category_name": "Rec",
           "category_rank": 11,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "02:14:31",
           "competitive": true,
           "course_name": "RECREATIONAL COURSE",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:14:31",
           "result_notes": null,
           "category_name": "Rec",
           "category_rank": 11,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -46,13 +54,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:43:43",
           "competitive": true,
           "course_name": "P2",
           "course_rank": 45,
+          "status_code": "OK",
           "outcome_text": "01:43:43",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -68,13 +80,22 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 420
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 23,
-          "outcome_text": "",
+          "status_code": null,
+          "outcome_text": "Points 420",
           "result_notes": "raw 520",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 420",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -90,13 +111,17 @@
       "venue_name": "Lick Creek/Bullfrog Pond",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:18:10",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "02:18:10",
           "result_notes": null,
           "category_name": "M Open",
           "category_rank": 6,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -112,13 +137,17 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:23:43",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "01:23:43",
           "result_notes": null,
           "category_name": "M Open",
           "category_rank": 3,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

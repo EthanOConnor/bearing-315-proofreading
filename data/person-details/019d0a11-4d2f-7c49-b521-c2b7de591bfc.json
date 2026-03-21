@@ -9,13 +9,22 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 2
+            }
+          ],
+          "time_text": "01:58:53",
           "competitive": true,
           "course_name": "Bog Jog – Women",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:58:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 2",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "01:19:37",
           "competitive": true,
           "course_name": "Long Advanced Women",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "01:19:37",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 100",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"

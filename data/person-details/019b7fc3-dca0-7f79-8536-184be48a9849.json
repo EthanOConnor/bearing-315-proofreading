@@ -9,13 +9,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:35:00",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 3,
+          "status_code": null,
           "outcome_text": "00:35:00",
           "result_notes": "novice",
           "category_name": "WIOL - Junior High Male",
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "BREJ"
@@ -33,13 +42,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:40:56",
           "competitive": false,
           "course_name": "Course Two",
           "course_rank": 11,
+          "status_code": null,
           "outcome_text": "00:40:56",
           "result_notes": "novice",
           "category_name": "WIOL - Non-Competitive",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "BREJ"

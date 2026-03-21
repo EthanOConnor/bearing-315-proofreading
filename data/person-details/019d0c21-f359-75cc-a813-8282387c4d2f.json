@@ -1,6 +1,67 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4c-7308-b1b6-bc1c3542da65",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "2022 Ultimate Orienteer #6",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 796
+            }
+          ],
+          "time_text": "00:44:10",
+          "competitive": true,
+          "course_name": "Male 70+",
+          "course_rank": 4,
+          "status_code": "OK",
+          "outcome_text": "00:44:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 796",
+          "additional_course": false,
+          "affiliation_labels": [
+            "UNO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7980-92be-eddefbcc04b4",
+      "venue_id": "019b81e3-a4f7-7687-b9cf-e7069f4e49c0",
+      "event_date": "2022-06-11",
+      "event_kind": "race",
+      "event_name": "PNWOF2022: Middle NRE, Fishtrap Lake",
+      "venue_name": "Fishtrap Lake",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "00:44:10",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": null,
+          "status_code": "OK",
+          "outcome_text": "00:44:10",
+          "result_notes": null,
+          "category_name": "M70+",
+          "category_rank": 3,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "UNO"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4a-79cb-8f91-3f8c5501701b",
       "venue_id": "019b81f3-1f39-7b80-95ff-211287937388",
       "event_date": "2010-06-28",
@@ -9,26 +70,34 @@
       "venue_name": "Camp Sekani WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:27",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:25:27",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "M55",
           "category_rank": 8,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "UNO"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "00:25:27",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:25:27",
           "result_notes": "nation US; us_eligible Y",
           "category_name": "M55",
           "category_rank": 8,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "UNO"
@@ -46,13 +115,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:06:47",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:06:47",
           "result_notes": null,
           "category_name": "M55+",
           "category_rank": 3,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "WCOC"
@@ -70,13 +143,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:00:28",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:00:28",
           "result_notes": "us_eligible Y",
           "category_name": "M55+",
           "category_rank": 4,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "WCOC"
@@ -91,7 +168,7 @@
   ],
   "summary": {
     "role_count": 0,
-    "event_count": 3,
+    "event_count": 5,
     "mention_count": 0
   },
   "mentions": [],

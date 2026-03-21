@@ -9,13 +9,26 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pnlty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 15
+            }
+          ],
+          "time_text": "01:02:57",
           "competitive": true,
           "course_name": "Choose Your Adventure - Campus",
           "course_rank": 30,
+          "status_code": "OK",
           "outcome_text": "01:02:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pnlty 0; Points 15",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +46,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:55:06",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "00:55:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

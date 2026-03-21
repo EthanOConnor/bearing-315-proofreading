@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:29:49",
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:29:49",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Mann Elem"
@@ -33,13 +37,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:23:58",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:23:58",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Mann Elem"
@@ -57,13 +70,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 1",
           "course_rank": null,
+          "status_code": "MSP",
           "outcome_text": "MSP",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Mann Elem"
@@ -81,13 +98,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 92
+            }
+          ],
+          "time_text": "00:19:07",
           "competitive": true,
           "course_name": "WIOL 1",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:19:07",
           "result_notes": null,
           "category_name": "Boys",
           "category_rank": 3,
+          "metric_summary": "Points 92",
           "additional_course": false,
           "affiliation_labels": [
             "Mann Elem"
@@ -105,13 +131,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:12:17",
           "competitive": true,
           "course_name": "WIOL Course #1",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:12:17",
           "result_notes": "type S",
           "category_name": "Boys",
           "category_rank": 2,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Mann Elem"

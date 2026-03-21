@@ -9,13 +9,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 3
+            }
+          ],
+          "time_text": "00:53:20",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 30,
+          "status_code": null,
           "outcome_text": "00:53:20",
           "result_notes": "penalty -8",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 3",
           "additional_course": false,
           "affiliation_labels": []
         }

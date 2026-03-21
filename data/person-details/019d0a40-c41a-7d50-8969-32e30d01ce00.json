@@ -9,13 +9,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 78
+            }
+          ],
+          "time_text": "00:33:09",
           "competitive": true,
           "course_name": "WIOL Course #2",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:33:09",
           "result_notes": "type S",
           "category_name": "Boys",
           "category_rank": 15,
+          "metric_summary": "Points 78",
           "additional_course": false,
           "affiliation_labels": [
             "St. Lukes"

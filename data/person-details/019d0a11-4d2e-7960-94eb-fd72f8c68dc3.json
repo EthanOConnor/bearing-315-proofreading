@@ -9,17 +9,24 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 12
+            }
+          ],
+          "time_text": "00:53:08",
           "competitive": true,
           "course_name": "Overall",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:53:08",
           "result_notes": null,
           "category_name": "Beginner Group",
           "category_rank": null,
+          "metric_summary": "Pos 12",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1

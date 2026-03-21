@@ -9,13 +9,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:40:32",
           "competitive": true,
           "course_name": "Red",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:40:32",
           "result_notes": null,
           "category_name": "M45+",
           "category_rank": 5,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "ORCA"
@@ -33,13 +37,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Red",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": "us_eligible Y",
           "category_name": "M45+",
           "category_rank": 12,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "ORCA"
@@ -57,13 +65,22 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 745
+            }
+          ],
+          "time_text": "01:39:25",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 9,
+          "status_code": null,
           "outcome_text": "01:39:25",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 745",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +96,26 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 300
+            },
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 517
+            }
+          ],
+          "time_text": "01:01:03",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 16,
+          "status_code": null,
           "outcome_text": "01:01:03",
           "result_notes": "penalty 200",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 300; Uo Points 517",
           "additional_course": false,
           "affiliation_labels": [
             "CROC"
@@ -103,13 +133,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:58:01",
           "competitive": true,
           "course_name": "Long Course",
           "course_rank": 8,
+          "status_code": null,
           "outcome_text": "00:58:01",
           "result_notes": null,
           "category_name": "Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -125,13 +159,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:43:03",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 14,
+          "status_code": null,
           "outcome_text": "01:43:03",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "CROC"
@@ -149,13 +187,22 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 940
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 13,
-          "outcome_text": "",
+          "status_code": null,
+          "outcome_text": "Points 940",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 940",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -171,13 +218,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:27:18",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:27:18",
           "result_notes": null,
           "category_name": "High School Men",
           "category_rank": 32,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "EVRH"
@@ -195,13 +246,17 @@
       "venue_name": "Lick Creek/Bullfrog Pond",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:47:42",
           "competitive": true,
           "course_name": "Green",
           "course_rank": null,
+          "status_code": null,
           "outcome_text": "01:47:42",
           "result_notes": null,
           "category_name": "M Open",
           "category_rank": 2,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -217,13 +272,17 @@
       "venue_name": "Teanaway Forks",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": false,
           "course_name": "Green",
           "course_rank": null,
-          "outcome_text": "Blank",
+          "status_code": null,
+          "outcome_text": "",
           "result_notes": "Recreational (no time)",
           "category_name": "Recreational",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

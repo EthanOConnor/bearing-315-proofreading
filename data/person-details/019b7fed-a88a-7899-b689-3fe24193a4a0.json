@@ -9,13 +9,22 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 551
+            }
+          ],
+          "time_text": "01:56:22",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 18,
+          "status_code": null,
           "outcome_text": "01:56:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 551",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +42,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "uo_points",
+              "metric_numeric": 492
+            }
+          ],
+          "time_text": "00:45:58",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 31,
+          "status_code": null,
           "outcome_text": "00:45:58",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Uo Points 492",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +75,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:10:13",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 20,
+          "status_code": null,
           "outcome_text": "01:10:13",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -79,13 +101,22 @@
       "venue_name": "Farrel-McWhirter Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "00:46:55",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 30,
+          "status_code": null,
           "outcome_text": "00:46:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 71",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -103,13 +134,17 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:12:19",
           "competitive": true,
           "course_name": "10k",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:12:19",
           "result_notes": null,
           "category_name": "M 40+",
           "category_rank": 26,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

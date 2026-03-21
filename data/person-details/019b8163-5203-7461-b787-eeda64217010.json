@@ -9,13 +9,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:45:37",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 2,
+          "status_code": null,
           "outcome_text": "00:45:37",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,22 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 8
+            }
+          ],
+          "time_text": "02:43:50",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 10,
+          "status_code": null,
           "outcome_text": "02:43:50",
           "result_notes": "controls 8",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 8",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

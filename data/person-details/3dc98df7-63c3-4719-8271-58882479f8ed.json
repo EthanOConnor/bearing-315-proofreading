@@ -9,13 +9,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:59:09",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 15,
+          "status_code": "OK",
           "outcome_text": "00:59:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "WIOL 8",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascades"
@@ -55,13 +63,22 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 57
+            }
+          ],
+          "time_text": "01:46:11",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 46,
+          "status_code": null,
           "outcome_text": "01:46:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 57",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -77,24 +94,32 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:21:05",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 2,
+          "status_code": null,
           "outcome_text": "00:21:05",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "00:59:28",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 8,
+          "status_code": null,
           "outcome_text": "00:59:28",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -106,17 +131,21 @@
       "venue_id": "b8959813-070b-4811-b2ce-0fc82830b0b0",
       "event_date": "1980-10-26",
       "event_kind": "race",
-      "event_name": "Seward Park Meet",
+      "event_name": "Seward Park",
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:44:35",
           "competitive": true,
           "course_name": "Orange Course",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:44:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

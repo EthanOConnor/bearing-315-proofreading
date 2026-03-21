@@ -9,26 +9,34 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:08:24",
           "competitive": true,
           "course_name": "RED",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "02:08:24",
           "result_notes": "classification ICVM",
           "category_name": "ICVM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "US Mil Acad"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "02:08:24",
           "competitive": true,
           "course_name": "RED",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "02:08:24",
           "result_notes": "classification ICVM",
           "category_name": "ICVM",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "US Mil Acad"
@@ -46,26 +54,34 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:02:02",
           "competitive": true,
           "course_name": "RED",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:02:02",
           "result_notes": null,
           "category_name": "ICVM",
           "category_rank": 19,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "US Mil Acad"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "02:02:02",
           "competitive": true,
           "course_name": "RED",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "02:02:02",
           "result_notes": null,
           "category_name": "ICVM",
           "category_rank": 19,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "US Mil Acad"
@@ -83,13 +99,22 @@
       "venue_name": "Priest Point Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "01:05:01",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "01:05:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 71",
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"
@@ -107,13 +132,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "00:45:16",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "00:45:16",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 71",
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"
@@ -131,13 +165,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 71
+            }
+          ],
+          "time_text": "01:00:44",
           "competitive": true,
           "course_name": "WIOL Course #6",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:00:44",
           "result_notes": "type S",
           "category_name": "Boys",
           "category_rank": 23,
+          "metric_summary": "Points 71",
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"

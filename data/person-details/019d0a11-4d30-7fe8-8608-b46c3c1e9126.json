@@ -9,13 +9,34 @@
       "venue_name": "Bob's Corn Maze & Pumpkin Farm",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "pos",
+              "metric_numeric": 81
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 12
+            }
+          ],
+          "time_text": "01:01:31",
           "competitive": true,
           "course_name": "CYA",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:01:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Penalty 0; Points 12; Pos 81; Total Time 12",
           "additional_course": false,
           "affiliation_labels": [
             "COC"

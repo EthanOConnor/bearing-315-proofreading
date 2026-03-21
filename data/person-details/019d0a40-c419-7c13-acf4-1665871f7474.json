@@ -9,13 +9,22 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 53
+            }
+          ],
+          "time_text": "01:06:26",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 41,
+          "status_code": "OK",
           "outcome_text": "01:06:26",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 53",
           "additional_course": false,
           "affiliation_labels": [
             "Everett"
@@ -33,13 +42,17 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:42:22",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 6,
+          "status_code": "OK",
           "outcome_text": "00:42:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Everett"
@@ -57,13 +70,22 @@
       "venue_name": "Bridle Trails State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 58
+            }
+          ],
+          "time_text": "01:23:52",
           "competitive": true,
           "course_name": "WIOL 4",
           "course_rank": 36,
+          "status_code": "OK",
           "outcome_text": "01:23:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 58",
           "additional_course": false,
           "affiliation_labels": [
             "Everett"

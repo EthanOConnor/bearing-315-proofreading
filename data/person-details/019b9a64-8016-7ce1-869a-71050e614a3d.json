@@ -9,13 +9,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "DNF",
           "outcome_text": "DNF",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:20:29",
           "competitive": true,
           "course_name": "Course 3F",
           "course_rank": 27,
+          "status_code": "OK",
           "outcome_text": "01:20:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,13 +61,22 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 57
+            }
+          ],
+          "time_text": "01:38:11",
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": 48,
+          "status_code": "OK",
           "outcome_text": "01:38:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 57",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,13 +92,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:40:47",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "00:40:47",
           "result_notes": "controls 21",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -97,24 +118,32 @@
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:10:17",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:10:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "00:49:01",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "00:49:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }

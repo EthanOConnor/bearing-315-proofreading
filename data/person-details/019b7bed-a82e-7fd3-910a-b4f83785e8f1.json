@@ -1,6 +1,32 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7e91-9747-42d7aeb9c29d",
+      "venue_id": "019b7fff-4c14-7177-9acd-872b6c46953b",
+      "event_date": "2025-02-08",
+      "event_kind": "race",
+      "event_name": "2024 Winter League 07 - Fire Mountain",
+      "venue_name": "Fire Mountain",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:14:23",
+          "competitive": true,
+          "course_name": "Intermediate",
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "01:14:23",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b7afa-bbbc-7e4d-9dd7-4ce3d41599cd",
       "venue_id": "019b7af7-a551-71f2-a306-c05975cb541e",
       "event_date": "1979-02-25",
@@ -9,13 +35,17 @@
       "venue_name": "Fort Lewis - Chambers Lake Area",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:27:00",
           "competitive": true,
           "course_name": "Novice Course",
           "course_rank": 5,
+          "status_code": "OK",
           "outcome_text": "01:27:00",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -26,7 +56,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 14
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 80
+            }
+          ],
+          "time_text": "01:09:33",
           "competitive": true,
           "course_name": "Varsity Boys",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:09:33",
           "result_notes": "school OAK",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 14; Score 80",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,28 +44,41 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "High School JV Boys North",
-          "course_rank": null,
-          "outcome_text": "MSP",
-          "result_notes": "school Oak Harbor",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [],
+          "time_text": "00:58:22",
           "competitive": false,
           "course_name": "Short Advanced",
           "course_rank": null,
+          "status_code": "NC",
           "outcome_text": "00:58:22",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Oak Harbor"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 0
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "High School JV Boys North",
+          "course_rank": null,
+          "status_code": "MSP",
+          "outcome_text": "Points 0",
+          "result_notes": "school Oak Harbor",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Points 0",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2

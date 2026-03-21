@@ -9,24 +9,46 @@
       "venue_name": "Camp River Ranch",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "01:23:17"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 64
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Middle School Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 27,
+          "status_code": null,
+          "outcome_text": "Finish 01:23:17; Points 64",
           "result_notes": "trailing_paren:CDM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 01:23:17; Points 64",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 64
+            }
+          ],
+          "time_text": "01:23:17",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 30,
+          "status_code": "OK",
           "outcome_text": "01:23:17",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 30,
+          "metric_summary": "Points 64",
           "additional_course": false,
           "affiliation_labels": [
             "CDM"
@@ -44,24 +66,46 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:31:47"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 66
+            }
+          ],
+          "time_text": null,
           "competitive": true,
           "course_name": "Middle School Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
+          "course_rank": 27,
+          "status_code": null,
+          "outcome_text": "Finish 00:31:47; Points 66",
           "result_notes": "trailing_paren:CDM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 00:31:47; Points 66",
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 66
+            }
+          ],
+          "time_text": "00:31:47",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 28,
+          "status_code": "OK",
           "outcome_text": "00:31:47",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 28,
+          "metric_summary": "Points 66",
           "additional_course": false,
           "affiliation_labels": [
             "CDM"
@@ -79,28 +123,50 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
-          "competitive": true,
-          "course_name": "Middle School Teams",
-          "course_rank": null,
-          "outcome_text": "Blank",
-          "result_notes": "trailing_paren:CDM",
-          "category_name": null,
-          "category_rank": null,
-          "additional_course": false,
-          "affiliation_labels": []
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": "00:27:46",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 19,
+          "status_code": "OK",
           "outcome_text": "00:27:46",
           "result_notes": null,
           "category_name": "Middle School Male",
-          "category_rank": null,
+          "category_rank": 19,
+          "metric_summary": "Points 75",
           "additional_course": false,
           "affiliation_labels": [
             "CDM"
           ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:27:46"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 75
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 27,
+          "status_code": null,
+          "outcome_text": "Finish 00:27:46; Points 75",
+          "result_notes": "trailing_paren:CDM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:27:46; Points 75",
+          "additional_course": false,
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 2
@@ -114,13 +180,202 @@
       "venue_name": "Summit Trails",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 66
+            }
+          ],
+          "time_text": "00:47:42",
           "competitive": true,
           "course_name": "Overall",
-          "course_rank": null,
+          "course_rank": 28,
+          "status_code": "OK",
           "outcome_text": "00:47:42",
           "result_notes": null,
           "category_name": "Middle School Male",
+          "category_rank": 28,
+          "metric_summary": "Points 66",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CDM"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4e-7c7d-90d3-72a7a0bb434b",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2025-12-20",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #4",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 65
+            }
+          ],
+          "time_text": "00:29:15",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 29,
+          "status_code": "OK",
+          "outcome_text": "00:29:15",
+          "result_notes": null,
+          "category_name": "Middle School Male",
+          "category_rank": 29,
+          "metric_summary": "Points 65",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CDM"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:29:15"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 65
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 36,
+          "status_code": null,
+          "outcome_text": "Finish 00:29:15; Points 65",
+          "result_notes": "trailing_paren:CDM",
+          "category_name": null,
           "category_rank": null,
+          "metric_summary": "Finish 00:29:15; Points 65",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4d-766e-828c-4221a52ebab4",
+      "venue_id": "019b81f3-1f39-715e-9a52-067b404498db",
+      "event_date": "2025-12-06",
+      "event_kind": "race",
+      "event_name": "2025-26 Winter League #3",
+      "venue_name": "Shoreview Park / Shoreline CC",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": "00:37:40",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 33,
+          "status_code": "OK",
+          "outcome_text": "00:37:40",
+          "result_notes": null,
+          "category_name": "Middle School Male",
+          "category_rank": 33,
+          "metric_summary": "Points 61",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CDM"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "finish",
+              "metric_time_text": "00:37:40"
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": null,
+          "competitive": true,
+          "course_name": "Middle School Teams",
+          "course_rank": 36,
+          "status_code": null,
+          "outcome_text": "Finish 00:37:40; Points 61",
+          "result_notes": "trailing_paren:CDM",
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": "Finish 00:37:40; Points 61",
+          "additional_course": false,
+          "affiliation_labels": []
+        }
+      ],
+      "result_row_count": 2
+    },
+    {
+      "event_id": "019b81f3-1f4c-7e60-92c2-49931fee8815",
+      "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
+      "event_date": "2025-11-22",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 02",
+      "venue_name": "Lincoln Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 48
+            }
+          ],
+          "time_text": "01:12:10",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 46,
+          "status_code": "OK",
+          "outcome_text": "01:12:10",
+          "result_notes": null,
+          "category_name": "Middle School Male",
+          "category_rank": 46,
+          "metric_summary": "Points 48",
+          "additional_course": false,
+          "affiliation_labels": [
+            "CDM"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
+      "event_id": "019b81f3-1f4c-75ac-a1cc-a0f35c7992e1",
+      "venue_id": "019b7ad1-4135-7808-afac-e32475bea25f",
+      "event_date": "2025-11-08",
+      "event_kind": "race",
+      "event_name": "2025 Winter League 01",
+      "venue_name": "Magnuson Park",
+      "result_rows": [
+        {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 52
+            }
+          ],
+          "time_text": "01:28:50",
+          "competitive": true,
+          "course_name": "Overall",
+          "course_rank": 42,
+          "status_code": "OK",
+          "outcome_text": "01:28:50",
+          "result_notes": null,
+          "category_name": "Middle School Male",
+          "category_rank": 42,
+          "metric_summary": "Points 52",
           "additional_course": false,
           "affiliation_labels": [
             "CDM"
@@ -133,7 +388,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 4,
+    "event_count": 8,
     "mention_count": 0
   },
   "mentions": [],

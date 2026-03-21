@@ -3,36 +3,32 @@
     {
       "results": [
         {
-          "team_id": "019d0a11-4d4f-754b-b632-f0be229879f2",
-          "result_id": "019d0a11-4cec-7866-8ccc-296c06bdeb8c",
-          "time_text": "01:27:54",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "01:27:54",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "Gina Nuss_Group",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
           "team_id": "019d0a11-4d4f-7cab-88e5-a7d80cc9d242",
-          "result_id": "019d0a11-4ceb-7e2e-ad44-0b5f3921b8a8",
+          "result_id": "019d0e99-fa84-7b34-b817-18c9a835ff85",
           "time_text": "01:40:47",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 1,
           "status_code": "OK",
           "outcome_text": "01:40:47",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": "Penalty 0; Points 24; Total Time 24",
           "competitor_name": "Jordan Olson_Group",
           "competitor_type": "team",
           "additional_course": false,
@@ -41,112 +37,32 @@
           ]
         },
         {
-          "team_id": "019d0a11-4d50-73f0-87f7-ad667cd3e69b",
-          "result_id": "019d0a11-4cec-79e9-ab58-066eb8cf4924",
-          "time_text": "01:41:37",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "01:41:37",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "Sergiy Goncharenko_Group",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
-          "team_id": "019d0a11-4d4f-7727-844f-c2b199c337ca",
-          "result_id": "019d0a11-4cec-7657-af71-1fc7fb58326e",
-          "time_text": "01:41:59",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "01:41:59",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "Isabella Olson_Group",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
           "team_id": null,
-          "result_id": "019d0a11-4cec-7241-bde6-13f18022a70b",
-          "time_text": "01:49:10",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "01:49:10",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": "019d0a11-4d2f-7374-aa33-4171e80134bc",
-          "competitor_name": "Gavin Cooper",
-          "competitor_type": "individual",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
-          "team_id": "019d0a11-4d50-7e16-9b40-f6c8db581b7a",
-          "result_id": "019d0a11-4cec-71c4-8e43-5f88d71c1971",
-          "time_text": "01:59:56",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "01:59:56",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "Gwynne Crowder_Group",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
-          "team_id": null,
-          "result_id": "019d0a11-4cec-70b2-bb41-1c27659a7246",
-          "time_text": "02:01:38",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "02:01:38",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": "019d0a11-4d30-7f32-bdf0-17c54041a265",
-          "competitor_name": "Oleg Slyusarchuk",
-          "competitor_type": "individual",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
-          "team_id": null,
-          "result_id": "019d0a11-4ceb-76e1-914f-b0103718f9a3",
+          "result_id": "019d0e99-fa84-720f-9ff2-8ae64856b7df",
           "time_text": "02:15:32",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 2,
           "status_code": "OK",
           "outcome_text": "02:15:32",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a11-4d30-79a5-8f17-42e4440bedab",
+          "metric_summary": "Penalty 0; Points 24; Total Time 24",
           "competitor_name": "Maksym Goncharenko",
           "competitor_type": "individual",
           "additional_course": false,
@@ -155,55 +71,96 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
           "team_id": null,
-          "result_id": "019d0a11-4ceb-7250-9544-b31963feb2fe",
+          "result_id": "019d0e99-fa84-7f12-8158-ffa362ca83cb",
           "time_text": "02:15:42",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 3,
           "status_code": "OK",
           "outcome_text": "02:15:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a11-4d31-7f36-8e1f-bfcde91309e4",
+          "metric_summary": "Penalty 0; Points 24; Total Time 24",
           "competitor_name": "Wes Cooper",
           "competitor_type": "individual",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
           "team_id": null,
-          "result_id": "019d0a11-4ceb-756e-8bfa-37daf24c57b0",
+          "result_id": "019d0e99-fa84-79dd-bc03-2fc81cb92c71",
           "time_text": "02:15:45",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 4,
           "status_code": "OK",
           "outcome_text": "02:15:45",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a11-4d30-7876-8157-48eaa4f635a7",
+          "metric_summary": "Penalty 0; Points 24; Total Time 24",
           "competitor_name": "Ryan Stueber",
           "competitor_type": "individual",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
           "team_id": null,
-          "result_id": "019d0a11-4cec-7d27-9775-7a752613274e",
+          "result_id": "019d0e99-fa84-7f97-b077-b631941ae76a",
           "time_text": "02:16:54",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 5,
           "status_code": "OK",
           "outcome_text": "02:16:54",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a11-4d30-7ce7-b30f-f990fafac5bf",
+          "metric_summary": "Penalty 0; Points 24; Total Time 24",
           "competitor_name": "Scott Behmer",
           "competitor_type": "individual",
           "additional_course": false,
@@ -212,17 +169,32 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
           "team_id": "019d0a11-4d4f-734d-be03-d2087470dd8b",
-          "result_id": "019d0a11-4cec-7a3b-934d-223f27c8c154",
+          "result_id": "019d0e99-fa84-75c0-ad18-f19792abfd74",
           "time_text": "02:22:58",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 6,
           "status_code": "OK",
           "outcome_text": "02:22:58",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": "Penalty 0; Points 24; Total Time 24",
           "competitor_name": "Cynthia Bartok_Group",
           "competitor_type": "team",
           "additional_course": false,
@@ -231,18 +203,33 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 24
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 24
+            }
+          ],
           "team_id": null,
-          "result_id": "019d0a11-4cec-7282-935e-1986c0b3d161",
+          "result_id": "019d0e99-fa84-70d6-b716-3c1ca18905e9",
           "time_text": "02:24:52",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 7,
           "status_code": "OK",
           "outcome_text": "02:24:52",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
-          "individual_id": "0191391d-36c8-7efb-902e-0defd7a1317e",
-          "competitor_name": "Dave Enger",
+          "individual_id": "019d0a11-4d2f-7d39-8ef5-a7ebd3031d1b",
+          "metric_summary": "Penalty 0; Points 24; Total Time 24",
+          "competitor_name": "David Enger",
           "competitor_type": "individual",
           "additional_course": false,
           "affiliation_labels": [
@@ -250,112 +237,32 @@
           ]
         },
         {
-          "team_id": "019d0a11-4d4f-70e6-8ca3-60d7ca151715",
-          "result_id": "019d0a11-4cec-7fe5-a696-ba27217cf945",
-          "time_text": "02:29:35",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "02:29:35",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "Jennifer Schwegler_Group",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
-        },
-        {
-          "team_id": "019d0a11-4d50-71ef-a792-8166db875d7a",
-          "result_id": "019d0a11-4cec-7273-b390-42f702cb80d4",
-          "time_text": "02:29:38",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "02:29:38",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "Anna Caruso_Group",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 20
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 20
+            }
+          ],
           "team_id": null,
-          "result_id": "019d0a11-4cec-7e52-91f9-a9e9d6e22bc8",
-          "time_text": "02:34:03",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "02:34:03",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": "019d0a11-4d30-744b-a7ee-a0c2b03bd506",
-          "competitor_name": "Kirill Vagin",
-          "competitor_type": "individual",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
-          "team_id": null,
-          "result_id": "019d0a11-4cec-7237-9358-73217f697c17",
-          "time_text": "02:44:02",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "02:44:02",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": "019b7ac9-920b-70bb-8a36-b4b700fb52d4",
-          "competitor_name": "Ardis Dull",
-          "competitor_type": "individual",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
-          "team_id": null,
-          "result_id": "019d0a11-4cec-770e-b140-5f9a00a0c64b",
-          "time_text": "02:46:12",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "02:46:12",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": "019b8181-dd74-72a8-a4af-7152519b772f",
-          "competitor_name": "Sabina Havkins",
-          "competitor_type": "individual",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
-          "team_id": null,
-          "result_id": "019d0a11-4cec-7b27-8fe5-a033e54add3a",
+          "result_id": "019d0e99-fa84-7ba1-823b-e1e9116a5d6d",
           "time_text": "02:50:17",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 8,
           "status_code": "OK",
           "outcome_text": "02:50:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a11-4d2f-7428-b37a-cfce372eea74",
+          "metric_summary": "Penalty 0; Points 20; Total Time 20",
           "competitor_name": "Daniel Sibthorp",
           "competitor_type": "individual",
           "additional_course": false,
@@ -364,55 +271,100 @@
           ]
         },
         {
-          "team_id": "019d0a11-4d50-7f09-bb52-d01e7c5b3998",
-          "result_id": "019d0a11-4cec-7542-a974-a55db28af5de",
-          "time_text": "02:50:33",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "02:50:33",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "Richard Infusino_Group",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
-          "team_id": "019d0a11-4d4f-7d63-943b-b859ff678218",
-          "result_id": "019d0a11-4cec-7753-8903-9fd2cfe1e6d8",
-          "time_text": "02:53:11",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "02:53:11",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": null,
-          "competitor_name": "Jeffrey Westhead_Group",
-          "competitor_type": "team",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 19
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 19
+            }
+          ],
           "team_id": null,
-          "result_id": "019d0a11-4cec-73bd-833b-7ee136acfd78",
+          "result_id": "019d0e99-fa84-7da8-b8de-308a0af4f288",
+          "time_text": "02:01:38",
+          "competitive": true,
+          "course_rank": 9,
+          "status_code": "OK",
+          "outcome_text": "02:01:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7f32-bdf0-17c54041a265",
+          "metric_summary": "Penalty 0; Points 19; Total Time 19",
+          "competitor_name": "Oleg Slyusarchuk",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 19
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 19
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa84-7500-86d9-2f72961ebf53",
+          "time_text": "02:44:02",
+          "competitive": true,
+          "course_rank": 10,
+          "status_code": "OK",
+          "outcome_text": "02:44:02",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b7ac9-920b-70bb-8a36-b4b700fb52d4",
+          "metric_summary": "Penalty 0; Points 19; Total Time 19",
+          "competitor_name": "Ardis Dull",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 19
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 19
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa84-7360-8813-82c25208f115",
           "time_text": "02:55:31",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 11,
           "status_code": "OK",
           "outcome_text": "02:55:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a11-4d30-7dab-aeee-d7b027114c50",
+          "metric_summary": "Penalty 0; Points 19; Total Time 19",
           "competitor_name": "Olga Illarionova",
           "competitor_type": "individual",
           "additional_course": false,
@@ -421,36 +373,32 @@
           ]
         },
         {
-          "team_id": null,
-          "result_id": "019d0a11-4cec-72d8-a525-a6d00cf18881",
-          "time_text": "02:58:47",
-          "competitive": true,
-          "course_rank": null,
-          "status_code": "OK",
-          "outcome_text": "02:58:47",
-          "result_notes": null,
-          "category_name": null,
-          "category_rank": null,
-          "individual_id": "019d0a11-4d30-7c58-b1e5-844f8b33c193",
-          "competitor_name": "Sarah Keyt",
-          "competitor_type": "individual",
-          "additional_course": false,
-          "affiliation_labels": [
-            "COC"
-          ]
-        },
-        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 18
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 18
+            }
+          ],
           "team_id": "019d0a11-4d4f-77f3-98e1-11a448604cab",
-          "result_id": "019d0a11-4cec-723a-af05-f7baddce35fa",
+          "result_id": "019d0e99-fa84-7308-9144-61f7de720485",
           "time_text": "02:58:50",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 12,
           "status_code": "OK",
           "outcome_text": "02:58:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": "Penalty 0; Points 18; Total Time 18",
           "competitor_name": "Anna Zaster_Group",
           "competitor_type": "team",
           "additional_course": false,
@@ -459,17 +407,436 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 17
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 17
+            }
+          ],
+          "team_id": "019d0a11-4d50-7f09-bb52-d01e7c5b3998",
+          "result_id": "019d0e99-fa84-7455-a561-33e8afdf7d5b",
+          "time_text": "02:50:33",
+          "competitive": true,
+          "course_rank": 13,
+          "status_code": "OK",
+          "outcome_text": "02:50:33",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": "Penalty 0; Points 17; Total Time 17",
+          "competitor_name": "Richard Infusino_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 17
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 17
+            }
+          ],
+          "team_id": "019d0a11-4d4f-7d63-943b-b859ff678218",
+          "result_id": "019d0e99-fa84-7939-a141-031b3f5b0d7b",
+          "time_text": "02:53:11",
+          "competitive": true,
+          "course_rank": 14,
+          "status_code": "OK",
+          "outcome_text": "02:53:11",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": "Penalty 0; Points 17; Total Time 17",
+          "competitor_name": "Jeffrey Westhead_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 14
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 14
+            }
+          ],
+          "team_id": "019d0a11-4d4f-70e6-8ca3-60d7ca151715",
+          "result_id": "019d0e99-fa84-773d-a9d0-6f380a233b5e",
+          "time_text": "02:29:35",
+          "competitive": true,
+          "course_rank": 15,
+          "status_code": "OK",
+          "outcome_text": "02:29:35",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": "Penalty 0; Points 14; Total Time 14",
+          "competitor_name": "Jennifer Schwegler_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 14
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 14
+            }
+          ],
+          "team_id": "019d0a11-4d50-71ef-a792-8166db875d7a",
+          "result_id": "019d0e99-fa84-798a-95e1-4df54db33c2c",
+          "time_text": "02:29:38",
+          "competitive": true,
+          "course_rank": 16,
+          "status_code": "OK",
+          "outcome_text": "02:29:38",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": "Penalty 0; Points 14; Total Time 14",
+          "competitor_name": "Anna Caruso_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": []
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 13
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 13
+            }
+          ],
+          "team_id": "019d0a11-4d4f-7727-844f-c2b199c337ca",
+          "result_id": "019d0e99-fa84-70aa-9308-0c45072b5edf",
+          "time_text": "01:41:59",
+          "competitive": true,
+          "course_rank": 17,
+          "status_code": "OK",
+          "outcome_text": "01:41:59",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": "Penalty 0; Points 13; Total Time 13",
+          "competitor_name": "Isabella Olson_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 13
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 13
+            }
+          ],
           "team_id": null,
-          "result_id": "019d0a11-4cec-785d-9adb-9fd41cabe4b7",
+          "result_id": "019d0e99-fa84-7b3b-a2be-11f0012bb644",
+          "time_text": "02:58:47",
+          "competitive": true,
+          "course_rank": 18,
+          "status_code": "OK",
+          "outcome_text": "02:58:47",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-7c58-b1e5-844f8b33c193",
+          "metric_summary": "Penalty 0; Points 13; Total Time 13",
+          "competitor_name": "Sarah Keyt",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 12
+            }
+          ],
+          "team_id": "019d0a11-4d50-73f0-87f7-ad667cd3e69b",
+          "result_id": "019d0e99-fa84-7733-a00c-12cc89a7b974",
+          "time_text": "01:41:37",
+          "competitive": true,
+          "course_rank": 19,
+          "status_code": "OK",
+          "outcome_text": "01:41:37",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": "Penalty 0; Points 12; Total Time 12",
+          "competitor_name": "Sergiy Goncharenko_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 12
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa84-7f15-9a01-19bdd754c5f9",
+          "time_text": "01:49:10",
+          "competitive": true,
+          "course_rank": 20,
+          "status_code": "OK",
+          "outcome_text": "01:49:10",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d2f-7374-aa33-4171e80134bc",
+          "metric_summary": "Penalty 0; Points 12; Total Time 12",
+          "competitor_name": "Gavin Cooper",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 9
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 9
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa84-7458-8855-2b9bbb6933b0",
+          "time_text": "02:46:12",
+          "competitive": true,
+          "course_rank": 21,
+          "status_code": "OK",
+          "outcome_text": "02:46:12",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019b8181-dd74-72a8-a4af-7152519b772f",
+          "metric_summary": "Penalty 0; Points 9; Total Time 9",
+          "competitor_name": "Sabina Havkins",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 8
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 8
+            }
+          ],
+          "team_id": "019d0a11-4d4f-754b-b632-f0be229879f2",
+          "result_id": "019d0e99-fa84-71ae-ade6-1c0013e9464d",
+          "time_text": "01:27:54",
+          "competitive": true,
+          "course_rank": 22,
+          "status_code": "OK",
+          "outcome_text": "01:27:54",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": "Penalty 0; Points 8; Total Time 8",
+          "competitor_name": "Gina Nuss_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 7
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 7
+            }
+          ],
+          "team_id": "019d0a11-4d50-7e16-9b40-f6c8db581b7a",
+          "result_id": "019d0e99-fa84-7bb4-9bba-a54cb7462258",
+          "time_text": "01:59:56",
+          "competitive": true,
+          "course_rank": 23,
+          "status_code": "OK",
+          "outcome_text": "01:59:56",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": null,
+          "metric_summary": "Penalty 0; Points 7; Total Time 7",
+          "competitor_name": "Gwynne Crowder_Group",
+          "competitor_type": "team",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 6
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 6
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa84-7398-973e-fc90337873db",
+          "time_text": "02:34:03",
+          "competitive": true,
+          "course_rank": 24,
+          "status_code": "OK",
+          "outcome_text": "02:34:03",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "individual_id": "019d0a11-4d30-744b-a7ee-a0c2b03bd506",
+          "metric_summary": "Penalty 0; Points 6; Total Time 6",
+          "competitor_name": "Kirill Vagin",
+          "competitor_type": "individual",
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        },
+        {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 10
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 11
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 1
+            }
+          ],
+          "team_id": null,
+          "result_id": "019d0e99-fa84-7e10-a131-0f4f9a90c80c",
           "time_text": "03:09:59",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 25,
           "status_code": "OK",
           "outcome_text": "03:09:59",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": "019d0a11-4d30-7810-811d-715b2680b55f",
+          "metric_summary": "Penalty 10; Points 11; Total Time 1",
           "competitor_name": "Mary Zoppi",
           "competitor_type": "individual",
           "additional_course": false,
@@ -478,23 +845,36 @@
           ]
         },
         {
+          "metrics": [
+            {
+              "metric_key": "penalty",
+              "metric_numeric": 17
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 18
+            },
+            {
+              "metric_key": "total_time",
+              "metric_numeric": 1
+            }
+          ],
           "team_id": "019d0a11-4d50-7bc8-9138-b6b50d70fd32",
-          "result_id": "019d0a11-4cec-7cff-a2c0-3895b0905df6",
+          "result_id": "019d0e99-fa84-7bd0-855f-fec4dc6cd661",
           "time_text": "03:16:11",
           "competitive": true,
-          "course_rank": null,
+          "course_rank": 26,
           "status_code": "OK",
           "outcome_text": "03:16:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
           "individual_id": null,
+          "metric_summary": "Penalty 17; Points 18; Total Time 1",
           "competitor_name": "Raya Klein_Group",
           "competitor_type": "team",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "course_id": "019d0a11-4d1c-78b7-8682-80078e6a8314",
@@ -511,9 +891,403 @@
   "event_kind": "race",
   "event_name": "2022 Choose Your Adventure #5 - Bog Slog! CYA Score-O",
   "venue_name": "Lord Hill Regional Park",
+  "event_notes": null,
   "course_count": 1,
   "result_count": 26,
   "citation_count": 3,
+  "event_comments": "2022 Choose Your Adventure #5 – Bog Slog and Bog Jog\nWe had one control #117 that could not handle the wet weather and stopped working (at least that seems to be the reason). The runners who visited this control before it was replaced and punched their map instead have received credit for this control. To prepare the event on RouteGadget, I had to guess where on routes the inserted control 117 was and give it an approximate punch time. So you may find that control 117 is in the wrong order or the split time to it or the proceeding control is wrong, but I hope that you can live with it.\nEvent Classes\nCYA\nPos.\nName\nClub\nPoints\nPenalty\nTotal\nTime\n1\nJordan Olson_Group\nCOC\n24\n0\n2\nMaksym Goncharenko\n3\nWes Cooper\nNone\n4\nRyan Stueber\n5\nScott Behmer\n6\nCynthia Bartok_Group\n7\nDavid Enger\n8\nDaniel Sibthorp\n20\n9\nOleg Slyusarchuk\n19\n10\nArdis Dull\n11\nOlga Illarionova\n12\nAnna Zaster_Group\n18\n13\nRichard Infusino_Group\n17\n14\nJeffrey Westhead_Group\n15\nJennifer Schwegler_Group\n16\nAnna Caruso_Group\nIsabella Olson_Group\nSarah Keyt\nSergiy Goncharenko_Group\nGavin Cooper\n21\nSabina Havkins\n22\nGina Nuss_Group\n23\nGwynne Crowder_Group\nKirill Vagin\n25\nMary Zoppi\n26\nRaya Klein_Group\nMenu\nResult Status Codes\na control was skipped or taken out of order\na control or set of controls at the end of the course were skipped\nthe competitor is not eligible for standings, such as when running a second course\nbreaking competition rules, such as conferring with another competitor or entering an out of bounds area\nreturning after the course closure time\nthe competitor did not start\n<time>*\nthe star indicates course completion status was not reported and may be valid, msp, or dnf\nABOUT\nCONTACT\nREGISTRATION\nWIOL REGISTRATION\nDocument Library\nDocument Library (Old)\nOld website '09-16\nOlder website '00-09\nCOC is a non-profit\nMember of Orienteering USA\nMember of International Orienteering Federation\nDesign by Rebecca Jensen\nof Fox Jump Design\n© Cascade Orienteering 2026\nAdmin log in",
+  "external_links": [
+    {
+      "link_url": "https://cascadeoc.org/event/bogslog2022/",
+      "link_type": "event_page"
+    },
+    {
+      "link_url": "http://rg.cascadeoc.org/rg2/#349",
+      "link_type": "routegadget"
+    },
+    {
+      "link_url": "https://cascadeoc.org/series/adventure/",
+      "link_type": "series"
+    }
+  ],
+  "volunteer_roles": [
+    {
+      "role_name": "100",
+      "individual_id": "019d0e9a-2743-7a1b-a059-6b799baff726",
+      "citation_count": 1,
+      "individual_name": "47",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "101",
+      "individual_id": "019d0e9a-2742-7361-b72d-55e0d13ff215",
+      "citation_count": 1,
+      "individual_name": "37",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "101",
+      "individual_id": "019d0e9a-2743-735c-909b-500837fd0a29",
+      "citation_count": 1,
+      "individual_name": "59",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "109",
+      "individual_id": "019d0e9a-2742-74c0-b08b-da2e7704b32a",
+      "citation_count": 1,
+      "individual_name": "10",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "119",
+      "individual_id": "019d0e9a-2742-7e06-9cfe-6f5539fb5843",
+      "citation_count": 1,
+      "individual_name": "56",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "121",
+      "individual_id": "019d0e9a-2743-76dc-b896-3615744c62b3",
+      "citation_count": 1,
+      "individual_name": "38",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "135",
+      "individual_id": "019d0e9a-2742-73ef-880b-d1acc28f135b",
+      "citation_count": 1,
+      "individual_name": "32",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "135",
+      "individual_id": "019d0e9a-2743-7acb-912d-f77373dcffee",
+      "citation_count": 1,
+      "individual_name": "42",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "135",
+      "individual_id": "019d0e9a-2742-785e-8946-8d1893341c8b",
+      "citation_count": 1,
+      "individual_name": "45",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "136",
+      "individual_id": "019d0e9a-2742-764c-adcc-12fa012c975b",
+      "citation_count": 1,
+      "individual_name": "54",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "142",
+      "individual_id": "019d0e9a-2743-7fa1-8460-442772352f7a",
+      "citation_count": 1,
+      "individual_name": "58",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "144",
+      "individual_id": "019d0e9a-2742-7ed2-b4a2-2c12ef3dece6",
+      "citation_count": 1,
+      "individual_name": "52",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "149",
+      "individual_id": "019d0e9a-2743-7748-8de9-4d43b2bd2029",
+      "citation_count": 1,
+      "individual_name": "35",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "149",
+      "individual_id": "019d0e9a-2743-76dc-b896-3615744c62b3",
+      "citation_count": 1,
+      "individual_name": "38",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "154",
+      "individual_id": "019d0e9a-2742-78ef-a5c5-0bded12f6390",
+      "citation_count": 1,
+      "individual_name": "03",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "164",
+      "individual_id": "019d0e9a-2743-7ae7-b761-e82ac4901244",
+      "citation_count": 1,
+      "individual_name": "02",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "166",
+      "individual_id": "019d0e9a-2742-75f4-b57d-82f90d3dfd9b",
+      "citation_count": 1,
+      "individual_name": "12",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "170",
+      "individual_id": "019d0e9a-2742-7868-bd81-550802f8838b",
+      "citation_count": 1,
+      "individual_name": "17",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "170",
+      "individual_id": "019d0e9a-2743-7d80-a6a1-0ec75569a285",
+      "citation_count": 1,
+      "individual_name": "33",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "173",
+      "individual_id": "019d0e9a-2742-7e70-a600-71b803e52cfe",
+      "citation_count": 1,
+      "individual_name": "11",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "175",
+      "individual_id": "019d0e9a-2742-7b43-a632-2d90406cbc9f",
+      "citation_count": 1,
+      "individual_name": "31",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "178",
+      "individual_id": "019d0e9a-2743-7a1b-a059-6b799baff726",
+      "citation_count": 1,
+      "individual_name": "47",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "178",
+      "individual_id": "019d0e9a-2743-70bb-a971-c6bd2ca5f988",
+      "citation_count": 1,
+      "individual_name": "50",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "189",
+      "individual_id": "019d0e9a-2743-735c-909b-500837fd0a29",
+      "citation_count": 1,
+      "individual_name": "59",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "196",
+      "individual_id": "019d0e9a-2742-7e70-a600-71b803e52cfe",
+      "citation_count": 1,
+      "individual_name": "11",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "87",
+      "individual_id": "019d0e9a-2742-764c-adcc-12fa012c975b",
+      "citation_count": 1,
+      "individual_name": "54",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Check In",
+      "individual_id": "019b7ac9-920b-70bb-8a36-b4b700fb52d4",
+      "citation_count": 1,
+      "individual_name": "Ardis Dull",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Check In",
+      "individual_id": "019d0a11-4d30-77ad-907a-e92e9e01e2f0",
+      "citation_count": 1,
+      "individual_name": "Sunshine Rupe",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019d0a11-4d2f-7987-a6fe-0032c4240ecb",
+      "citation_count": 1,
+      "individual_name": "Chris Milsted",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019d0a11-4d2f-76e5-828f-b0ac6a885df4",
+      "citation_count": 1,
+      "individual_name": "Ingrid Salmon",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019d0a11-4d2f-7542-936b-a60bfd9e4486",
+      "citation_count": 1,
+      "individual_name": "Jackson Rupe",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Pickup",
+      "individual_id": "019d0a11-4d30-76bd-9f88-296000621d49",
+      "citation_count": 1,
+      "individual_name": "Patrick Nuss",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Setters",
+      "individual_id": "019b7b20-7ab2-7846-b657-3dade4d53276",
+      "citation_count": 1,
+      "individual_name": "Bob Forgrave",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Setters",
+      "individual_id": "019b7ac9-920b-797d-8bf4-ebd4508c4277",
+      "citation_count": 1,
+      "individual_name": "Dave Tallent",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Control Setters",
+      "individual_id": "019d0a11-4d30-76bd-9f88-296000621d49",
+      "citation_count": 1,
+      "individual_name": "Patrick Nuss",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Course Designer(s)",
+      "individual_id": "019d0a11-4d30-76bd-9f88-296000621d49",
+      "citation_count": 1,
+      "individual_name": "Patrick Nuss",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Epunch Coordinator",
+      "individual_id": "019d0a11-4d2f-736d-863f-5e546e61e969",
+      "citation_count": 1,
+      "individual_name": "Ing Uhlin",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Finish",
+      "individual_id": "019d0a11-4d2f-78a9-8722-6f8ceafbfa42",
+      "citation_count": 1,
+      "individual_name": "Gina Nuss",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Finish",
+      "individual_id": "019d0a11-4d2f-736d-863f-5e546e61e969",
+      "citation_count": 1,
+      "individual_name": "Ing Uhlin",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Meet Director",
+      "individual_id": "019d0a11-4d30-76bd-9f88-296000621d49",
+      "citation_count": 1,
+      "individual_name": "Patrick Nuss",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "Parking",
+      "individual_id": "019b810b-3de3-7b31-a4c6-3221eaa84e1a",
+      "citation_count": 1,
+      "individual_name": "Rob Knudsen",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "dnf",
+      "individual_id": "019d0e9a-2743-7997-9ec7-e7822531d402",
+      "citation_count": 1,
+      "individual_name": "did not finish",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "dns",
+      "individual_id": "019d0e9a-2743-7e51-a73a-fd78fbbd40f4",
+      "citation_count": 1,
+      "individual_name": "did not start",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "dq",
+      "individual_id": "019d0e9a-2743-73b2-a7a1-8c4bd04aee23",
+      "citation_count": 1,
+      "individual_name": "disqualified",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "msp",
+      "individual_id": "019d0e9a-2742-78af-bf3a-6708642283d1",
+      "citation_count": 1,
+      "individual_name": "missing punch",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "nc",
+      "individual_id": "019d0e9a-2742-72f9-91a4-e89ac5ae82a9",
+      "citation_count": 1,
+      "individual_name": "not competing",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    },
+    {
+      "role_name": "ovt",
+      "individual_id": "019d0e9a-2743-704d-88f7-a3916e227080",
+      "citation_count": 1,
+      "individual_name": "overtime",
+      "volunteer_hours": null,
+      "volunteer_points": null
+    }
+  ],
   "result_source_brief": "CascadeOC Results Website: https://cascadeoc.org/result/2022-choose-your-adventure-5-bog-slog-cya-score-o/",
   "organizing_club_name": "Cascade Orienteering Club"
 }

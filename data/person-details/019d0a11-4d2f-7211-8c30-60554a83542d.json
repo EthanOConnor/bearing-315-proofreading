@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 1
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 100
+            }
+          ],
+          "time_text": "00:51:23",
           "competitive": true,
           "course_name": "Varsity Girls",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:51:23",
           "result_notes": "school LWA",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 1; Score 100",
           "additional_course": false,
           "affiliation_labels": []
         }

@@ -9,13 +9,17 @@
       "venue_name": "Ft. Steilacoom Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:46:53",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 23,
+          "status_code": null,
           "outcome_text": "00:46:53",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "MPHS"
@@ -33,13 +37,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 82
+            }
+          ],
+          "time_text": "00:31:29",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 12,
+          "status_code": null,
           "outcome_text": "00:31:29",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 82",
           "additional_course": false,
           "affiliation_labels": [
             "MPHS"
@@ -57,13 +70,22 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": "01:01:18",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 33,
+          "status_code": null,
           "outcome_text": "01:01:18",
           "result_notes": null,
           "category_name": "WIOL - High School Male",
           "category_rank": null,
+          "metric_summary": "Points 61",
           "additional_course": false,
           "affiliation_labels": [
             "MPHS"
@@ -81,13 +103,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:18:54",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:18:54",
           "result_notes": "asterisk",
           "category_name": "High School Men",
           "category_rank": 28,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "MPHS"

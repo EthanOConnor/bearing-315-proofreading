@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 11
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "01:23:21",
           "competitive": true,
           "course_name": "Jr. Varsity Girls",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:23:21",
           "result_notes": "school HOM",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 11; Score 83",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,17 +44,36 @@
       "venue_name": "North Seattle College",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "controls_found",
+              "metric_numeric": 12
+            },
+            {
+              "metric_key": "map_1_skips",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "mins_late",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "total_score",
+              "metric_numeric": 12
+            }
+          ],
+          "time_text": "01:14:35",
           "competitive": true,
           "course_name": "Choose Your Adventure #2 (Campus)",
           "course_rank": 49,
+          "status_code": "OK",
           "outcome_text": "01:14:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Controls Found 12; Map 1 Skips 0; Mins Late 0; Total Score 12",
           "additional_course": false,
-          "affiliation_labels": [
-            "None"
-          ]
+          "affiliation_labels": []
         }
       ],
       "result_row_count": 1

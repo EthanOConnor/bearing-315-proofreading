@@ -9,13 +9,26 @@
       "venue_name": "Shoreview",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pnlty",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "points",
+              "metric_numeric": 20
+            }
+          ],
+          "time_text": "01:14:56",
           "competitive": true,
           "course_name": "Choose Your Adventure - Campus",
           "course_rank": 22,
+          "status_code": "OK",
           "outcome_text": "01:14:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pnlty 0; Points 20",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -33,13 +46,17 @@
       "venue_name": "Robinswood Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": true,
           "course_name": "Course 4",
           "course_rank": null,
+          "status_code": "DNS",
           "outcome_text": "DNS",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -55,13 +72,17 @@
       "venue_name": "Lick Creek",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:14:23",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 18,
+          "status_code": "OK",
           "outcome_text": "02:14:23",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -79,13 +100,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:29",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:47:29",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -103,13 +128,17 @@
       "venue_name": "Putney Woods",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:37:56",
           "competitive": true,
           "course_name": "P2",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:37:56",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -127,13 +156,17 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:57:35",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 17,
+          "status_code": "OK",
           "outcome_text": "00:57:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -151,13 +184,17 @@
       "venue_name": "Salmon La Sac",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:43:41",
           "competitive": true,
           "course_name": "P2",
           "course_rank": 12,
+          "status_code": "OK",
           "outcome_text": "01:43:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -175,13 +212,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:36:50",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 29,
+          "status_code": "OK",
           "outcome_text": "01:36:50",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -199,13 +240,17 @@
       "venue_name": "Green River College",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:06:19",
           "competitive": true,
           "course_name": "P5",
           "course_rank": 23,
+          "status_code": "OK",
           "outcome_text": "02:06:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -223,13 +268,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:06:53",
           "competitive": true,
           "course_name": "P2",
           "course_rank": 16,
+          "status_code": "OK",
           "outcome_text": "01:06:53",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -247,13 +296,22 @@
       "venue_name": "North Seatac Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 53
+            }
+          ],
+          "time_text": "01:26:48",
           "competitive": true,
           "course_name": "P7M",
           "course_rank": 41,
+          "status_code": "OK",
           "outcome_text": "01:26:48",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 53",
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"

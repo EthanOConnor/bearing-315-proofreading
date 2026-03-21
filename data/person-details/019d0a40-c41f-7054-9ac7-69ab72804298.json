@@ -9,13 +9,17 @@
       "venue_name": "Lord Hill Regional Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:21:44",
           "competitive": true,
           "course_name": "ORANGE",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "01:21:44",
           "result_notes": "classification ISJVF",
           "category_name": "ISJVF",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -33,13 +37,17 @@
       "venue_name": "Fort Ebey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:44:29",
           "competitive": true,
           "course_name": "ORANGE",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:44:29",
           "result_notes": null,
           "category_name": "ISJVF",
           "category_rank": 4,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -57,13 +65,22 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 83
+            }
+          ],
+          "time_text": "01:20:35",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 11,
+          "status_code": "OK",
           "outcome_text": "01:20:35",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 83",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -81,13 +98,22 @@
       "venue_name": "Shoreview Park - Shoreline, WA",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 81
+            }
+          ],
+          "time_text": "01:26:31",
           "competitive": true,
           "course_name": "WIOL 6",
           "course_rank": 13,
+          "status_code": "OK",
           "outcome_text": "01:26:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 81",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -105,13 +131,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 86
+            }
+          ],
+          "time_text": "00:47:15",
           "competitive": true,
           "course_name": "WIOL 3",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:47:15",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 86",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"
@@ -129,13 +164,22 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 95
+            }
+          ],
+          "time_text": "00:36:30",
           "competitive": true,
           "course_name": "WIOL Course #3",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:36:30",
           "result_notes": "type DOM",
           "category_name": "Girls",
           "category_rank": 2,
+          "metric_summary": "Points 95",
           "additional_course": false,
           "affiliation_labels": [
             "Lakeside"

@@ -9,13 +9,17 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "02:20:42",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 57,
+          "status_code": "OK",
           "outcome_text": "02:20:42",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Cascade OC"
@@ -33,13 +37,22 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 61
+            }
+          ],
+          "time_text": "00:49:14",
           "competitive": true,
           "course_name": "Course 7",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:49:14",
           "result_notes": null,
           "category_name": "Men",
           "category_rank": 33,
+          "metric_summary": "Points 61",
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -57,13 +70,17 @@
       "venue_name": "University of Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:51:33",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 62,
+          "status_code": "OK",
           "outcome_text": "01:51:33",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Inglemoor"
@@ -81,13 +98,17 @@
       "venue_name": "Lincoln Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:12:41",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 42,
+          "status_code": "OK",
           "outcome_text": "01:12:41",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Inglemoor HS"
@@ -105,13 +126,17 @@
       "venue_name": "Marymoor Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:15:19",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 58,
+          "status_code": "OK",
           "outcome_text": "01:15:19",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "Inglemoor HS"
@@ -129,13 +154,17 @@
       "venue_name": "Seward Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:20:17",
           "competitive": true,
           "course_name": "Course 3M",
           "course_rank": 42,
+          "status_code": "OK",
           "outcome_text": "01:20:17",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -151,13 +180,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:47:01",
           "competitive": true,
           "course_name": "Score-O",
           "course_rank": 49,
+          "status_code": "OK",
           "outcome_text": "00:47:01",
           "result_notes": "controls 7",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -173,13 +206,17 @@
       "venue_name": "Hamlin Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:45:05",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 5,
+          "status_code": null,
           "outcome_text": "00:45:05",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

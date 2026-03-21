@@ -9,13 +9,26 @@
       "venue_name": "Fire Mountain",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "pos",
+              "metric_numeric": 38
+            },
+            {
+              "metric_key": "score",
+              "metric_numeric": 56
+            }
+          ],
+          "time_text": "01:37:23",
           "competitive": true,
           "course_name": "Jr. Varsity Boys (N)",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "01:37:23",
           "result_notes": "school BRE",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Pos 38; Score 56",
           "additional_course": false,
           "affiliation_labels": []
         }

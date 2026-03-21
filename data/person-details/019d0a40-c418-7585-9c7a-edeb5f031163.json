@@ -9,24 +9,37 @@
       "venue_name": "Shoreview Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:57:30",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:57:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "01:15:06",
           "competitive": true,
           "course_name": "WIOL 2011",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "01:15:06",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -42,24 +55,32 @@
       "venue_name": "Kenmore, Washington",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:45:20",
           "competitive": true,
           "course_name": "P2",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:45:20",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "01:05:01",
           "competitive": true,
           "course_name": "P3",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "01:05:01",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -75,35 +96,52 @@
       "venue_name": "Auburn, WA",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:23:12",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 1,
+          "status_code": "OK",
           "outcome_text": "00:23:12",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [],
+          "time_text": "00:55:11",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 3,
+          "status_code": "OK",
           "outcome_text": "00:55:11",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         },
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 87
+            }
+          ],
+          "time_text": "01:02:57",
           "competitive": true,
           "course_name": "WIOL 7",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "01:02:57",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 87",
           "additional_course": false,
           "affiliation_labels": []
         }

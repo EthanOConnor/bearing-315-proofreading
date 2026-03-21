@@ -9,13 +9,22 @@
       "venue_name": "St. Edward State Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "points",
+              "metric_numeric": 84
+            }
+          ],
+          "time_text": "01:00:50",
           "competitive": true,
           "course_name": "High School JV Girls",
           "course_rank": 10,
+          "status_code": "OK",
           "outcome_text": "01:00:50",
           "result_notes": "school Tesla STEM school",
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Points 84",
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +40,30 @@
       "venue_name": "Lynndale Park",
       "result_rows": [
         {
+          "metrics": [
+            {
+              "metric_key": "minutes_late",
+              "metric_numeric": 0
+            },
+            {
+              "metric_key": "punches",
+              "metric_numeric": 22
+            },
+            {
+              "metric_key": "total_score",
+              "metric_numeric": 22
+            }
+          ],
+          "time_text": "00:58:07",
           "competitive": true,
           "course_name": "Choose Your Adventure - Vampire",
           "course_rank": null,
+          "status_code": "OK",
           "outcome_text": "00:58:07",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": "Minutes Late 0; Punches 22; Total Score 22",
           "additional_course": false,
           "affiliation_labels": []
         }

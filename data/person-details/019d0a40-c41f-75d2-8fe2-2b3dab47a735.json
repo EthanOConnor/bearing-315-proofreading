@@ -1,6 +1,34 @@
 {
   "events": [
     {
+      "event_id": "019b81f3-1f4e-7cc6-874f-df8edb747dfa",
+      "venue_id": "019b7b43-5d8c-7e71-8a6e-fb7e4dcf19cf",
+      "event_date": "2021-12-18",
+      "event_kind": "race",
+      "event_name": "2021 Winter League 04",
+      "venue_name": "University of Washington",
+      "result_rows": [
+        {
+          "metrics": [],
+          "time_text": "01:01:34",
+          "competitive": true,
+          "course_name": "Short Advanced",
+          "course_rank": 29,
+          "status_code": "OK",
+          "outcome_text": "01:01:34",
+          "result_notes": null,
+          "category_name": null,
+          "category_rank": null,
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "COC"
+          ]
+        }
+      ],
+      "result_row_count": 1
+    },
+    {
       "event_id": "019b81f3-1f4d-7c1f-b8a9-b6257b6dceaf",
       "venue_id": "019b81f3-1f39-7eb3-be76-b649cbdcb6e0",
       "event_date": "2013-01-05",
@@ -9,13 +37,17 @@
       "venue_name": "Point Defiance Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:38:43",
           "competitive": true,
           "course_name": "P1",
           "course_rank": 2,
+          "status_code": "OK",
           "outcome_text": "00:38:43",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
@@ -28,7 +60,7 @@
   "aliases": [],
   "summary": {
     "role_count": 0,
-    "event_count": 1,
+    "event_count": 2,
     "mention_count": 0
   },
   "mentions": [],

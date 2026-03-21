@@ -9,13 +9,17 @@
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:20:30",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 1,
+          "status_code": null,
           "outcome_text": "00:20:30",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -31,13 +35,17 @@
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:25:34",
           "competitive": true,
           "course_name": "Course Two",
           "course_rank": 8,
+          "status_code": null,
           "outcome_text": "00:25:34",
           "result_notes": null,
           "category_name": "Public",
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -53,15 +61,21 @@
       "venue_name": "Fort Casey State Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": null,
           "competitive": false,
           "course_name": "Course 3",
           "course_rank": null,
+          "status_code": "NC",
           "outcome_text": "NC",
-          "result_notes": "Loop A only; maphike",
-          "category_name": null,
+          "result_notes": "Map hiker",
+          "category_name": "Loop A only",
           "category_rank": null,
-          "additional_course": true,
-          "affiliation_labels": []
+          "metric_summary": null,
+          "additional_course": false,
+          "affiliation_labels": [
+            "SAMM"
+          ]
         }
       ],
       "result_row_count": 1
@@ -71,17 +85,21 @@
       "venue_id": "019b7b49-37d2-7212-8bf6-6997937763c9",
       "event_date": "1999-09-11",
       "event_kind": "race",
-      "event_name": "Bo Powell Memorial - Woodland Park",
+      "event_name": "Bo Powell Memorial O' Meet",
       "venue_name": "Woodland Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "01:14:55",
           "competitive": true,
           "course_name": "Course 3",
           "course_rank": 18,
+          "status_code": null,
           "outcome_text": "01:14:55",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": []
         }
@@ -97,26 +115,34 @@
       "venue_name": "Magnuson Park",
       "result_rows": [
         {
+          "metrics": [],
+          "time_text": "00:35:09",
           "competitive": true,
           "course_name": "Course 1",
           "course_rank": 7,
+          "status_code": "OK",
           "outcome_text": "00:35:09",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"
           ]
         },
         {
+          "metrics": [],
+          "time_text": "00:47:31",
           "competitive": true,
           "course_name": "Course 2",
           "course_rank": 8,
+          "status_code": "OK",
           "outcome_text": "00:47:31",
           "result_notes": null,
           "category_name": null,
           "category_rank": null,
+          "metric_summary": null,
           "additional_course": false,
           "affiliation_labels": [
             "COC"

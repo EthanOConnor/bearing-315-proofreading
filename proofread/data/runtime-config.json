@@ -1,5 +1,7 @@
 {
-  "submissionMode": "github_issue",
+  "submissionMode": "api",
+  "apiBaseUrl": "",
+  "apiKey": "",
   "googleClientId": "",
   "googleHostedDomain": "",
   "projectLabel": "Bearing 315 Proofreading Project",
@@ -8,10 +10,5 @@
   "cacheReviewerNameKey": "bearing-315-proofread-reviewer-name",
   "cacheReviewerEmailKey": "bearing-315-proofread-reviewer-email",
   "cacheSessionKey": "bearing-315-proofread-session",
-  "showReviewLinks": false,
-  "githubRepoOwner": "EthanOConnor",
-  "githubRepoName": "bearing-315-proofreading",
-  "githubIssueLabel": "proofread-report",
-  "githubProblemLabel": "report-problem",
-  "githubCorrectLabel": "mark-correct"
+  "showReviewLinks": false
 }

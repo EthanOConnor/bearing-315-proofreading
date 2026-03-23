@@ -16,6 +16,29 @@ function formatEntityDate(value) {
   return Number.isNaN(date.getTime()) ? value : entityDateFormatter.format(date);
 }
 
+function formatEntityEventStatusLabel(value) {
+  switch (value) {
+    case "canceled":
+      return "Cancelled";
+    case "rescheduled":
+      return "Rescheduled";
+    case "postponed":
+      return "Postponed";
+    case "delayed":
+      return "Delayed";
+    default:
+      return null;
+  }
+}
+
+function formatEntityEventResultsValue(row) {
+  const statusLabel = formatEntityEventStatusLabel(row?.event_status);
+  if (statusLabel && Number(row?.result_count || row?.result_row_count || 0) === 0) {
+    return statusLabel;
+  }
+  return formatEntityNumber(row?.result_count ?? row?.result_row_count);
+}
+
 function getEntityUrl(type, id) {
   return `./entity.html?type=${encodeURIComponent(type)}&id=${encodeURIComponent(id)}`;
 }
@@ -45,7 +68,11 @@ function getDataCandidates(relativePath) {
 }
 
 function getDetailCandidates(type, id) {
-  const folder = type === "person" ? "person-details" : "venue-details";
+  const folder = type === "person"
+    ? "person-details"
+    : type === "organization"
+      ? "organization-details"
+      : "venue-details";
   return getDataCandidates(`${folder}/${id}.json`);
 }
 
@@ -154,6 +181,33 @@ function appendTextLine(target, text, className = "") {
   target.append(line);
 }
 
+function appendDelimitedNodes(target, nodes, delimiter = ", ") {
+  nodes.forEach((node, index) => {
+    if (index > 0) target.append(document.createTextNode(delimiter));
+    target.append(node);
+  });
+}
+
+function createAffiliationNodes(resultRow) {
+  const affiliations = Array.isArray(resultRow.affiliations) ? resultRow.affiliations : [];
+  if (affiliations.length) {
+    return affiliations.map((affiliation) => {
+      if (affiliation?.organization_id) {
+        return createEntityLink("organization", affiliation.organization_id, affiliation.label || "—");
+      }
+      const span = document.createElement("span");
+      span.textContent = affiliation?.label || "—";
+      return span;
+    });
+  }
+
+  return (resultRow.affiliation_labels || []).map((label) => {
+    const span = document.createElement("span");
+    span.textContent = label;
+    return span;
+  });
+}
+
 function renderAliases(aliases) {
   const target = document.getElementById("entity-aliases");
   if (!aliases?.length) {
@@ -229,12 +283,29 @@ function renderPerson(detail) {
 
       const pieces = [resultRow.course_name || "Unnamed course"];
       if (resultRow.category_name) pieces.push(resultRow.category_name);
-      if (resultRow.course_rank != null) pieces.push(`#${formatEntityNumber(resultRow.course_rank)}`);
+      if (resultRow.overall_rank != null) {
+        pieces.push(`Overall #${formatEntityNumber(resultRow.overall_rank)}`);
+      } else if (resultRow.course_rank != null) {
+        pieces.push(`#${formatEntityNumber(resultRow.course_rank)}`);
+      }
+      if (resultRow.category_rank != null) {
+        pieces.push(`Category #${formatEntityNumber(resultRow.category_rank)}`);
+      }
       if (resultRow.outcome_text) pieces.push(resultRow.outcome_text);
       appendTextLine(summary, pieces.join(" · "), "cell-title");
+      if (resultRow.metric_summary && resultRow.metric_summary !== resultRow.outcome_text) {
+        appendTextLine(summary, resultRow.metric_summary, "muted");
+      }
+
+      const affiliationNodes = createAffiliationNodes(resultRow);
+      if (affiliationNodes.length) {
+        const flagLine = document.createElement("div");
+        flagLine.className = "muted";
+        appendDelimitedNodes(flagLine, affiliationNodes);
+        summary.append(flagLine);
+      }
 
       const flags = [];
-      if (resultRow.affiliation_labels?.length) flags.push(resultRow.affiliation_labels.join(", "));
       if (resultRow.competitive === false) flags.push("Non-competitive");
       if (resultRow.additional_course) flags.push("Additional course");
       if (flags.length) appendTextLine(summary, flags.join(" · "), "muted");
@@ -422,10 +493,12 @@ function renderVenue(detail) {
     kind.append(createStatusChip(eventRow.event_kind || "unknown"));
 
     const club = document.createElement("td");
-    club.textContent = eventRow.organizing_club_name || "Unknown club";
+    club.append(
+      createEntityLink("organization", eventRow.organizing_club_id, eventRow.organizing_club_name || "Unknown club")
+    );
 
     const results = document.createElement("td");
-    results.textContent = formatEntityNumber(eventRow.result_count);
+    results.textContent = formatEntityEventResultsValue(eventRow);
 
     tr.append(date, eventName, kind, club, results);
     return tr;
@@ -446,6 +519,186 @@ function renderVenue(detail) {
 
   document.getElementById("entity-roles-panel").hidden = true;
   document.getElementById("entity-mentions-panel").hidden = true;
+}
+
+function renderOrganization(detail) {
+  document.title = `${detail.organization_name} · Project '77`;
+
+  const title = document.getElementById("entity-title");
+  const subtitle = document.getElementById("entity-subtitle");
+  const meta = document.getElementById("entity-meta");
+  const description = document.getElementById("entity-description");
+
+  title.textContent = detail.organization_name;
+  subtitle.textContent = "Static organization detail from the current snapshot export.";
+
+  const activeYears = detail.summary.first_result_year && detail.summary.last_result_year
+    ? `${detail.summary.first_result_year}–${detail.summary.last_result_year}`
+    : null;
+  const metaNodes = [
+    createStatusChip(`${formatEntityNumber(detail.summary.result_count)} affiliated results`),
+    createStatusChip(`${formatEntityNumber(detail.summary.organized_event_count)} organized events`, "subtle"),
+  ];
+  if (activeYears) {
+    metaNodes.push(createStatusChip(activeYears, "subtle"));
+  }
+  meta.replaceChildren(...metaNodes);
+
+  if (detail.organization_type || activeYears) {
+    description.textContent = [detail.organization_type, activeYears ? `Result years active: ${activeYears}` : null]
+      .filter(Boolean)
+      .join(" · ");
+    description.hidden = false;
+  } else {
+    description.hidden = true;
+    description.textContent = "";
+  }
+
+  renderSummaryCards([
+    createStatCard("Affiliated Results", formatEntityNumber(detail.summary.result_count), "Resolved affiliation-labeled result rows"),
+    createStatCard("Affiliated Events", formatEntityNumber(detail.summary.result_event_count), "Distinct events with resolved affiliation rows"),
+    createStatCard("Organized Events", formatEntityNumber(detail.summary.organized_event_count), "Events whose organizing club is this organization"),
+    createStatCard("Competitors", formatEntityNumber(detail.summary.competitor_count), "Individuals with resolved affiliated results"),
+    createStatCard("Teams", formatEntityNumber(detail.summary.team_count), "Teams with resolved affiliated results"),
+    createStatCard("Documented Members", formatEntityNumber(detail.summary.documented_member_count), "Rows in affiliation tables"),
+  ]);
+  renderAliases(detail.aliases);
+
+  document.getElementById("entity-events-heading").textContent = "Affiliated Result Events";
+  document.getElementById("entity-events-copy").textContent =
+    "Events where exported result affiliations resolve to this organization.";
+  setTableHead(document.getElementById("entity-events-head"), ["Date", "Event", "Venue", "Affiliated Results"]);
+
+  const resultEventRows = (detail.result_events || []).map((eventRow) => {
+    const tr = document.createElement("tr");
+
+    const date = document.createElement("td");
+    date.textContent = formatEntityDate(eventRow.event_date);
+
+    const eventName = document.createElement("td");
+    appendTextLine(eventName, "", "cell-title");
+    eventName.firstChild.replaceWith(
+      createEventLink(eventRow.event_id, eventRow.event_name || "Untitled event", {
+        fromType: "organization",
+        fromId: detail.organization_id,
+      })
+    );
+    appendTextLine(eventName, eventRow.event_kind || "unknown kind", "muted");
+
+    const venue = document.createElement("td");
+    venue.append(createEntityLink("venue", eventRow.venue_id, eventRow.venue_name || "Unknown venue"));
+
+    const results = document.createElement("td");
+    results.textContent = formatEntityNumber(eventRow.result_count);
+
+    tr.append(date, eventName, venue, results);
+    return tr;
+  });
+
+  const eventsBody = document.getElementById("entity-events-body");
+  const eventsWrap = document.getElementById("entity-events-wrap");
+  const eventsEmpty = document.getElementById("entity-events-empty");
+  if (resultEventRows.length) {
+    eventsBody.replaceChildren(...resultEventRows);
+    eventsWrap.hidden = false;
+    eventsEmpty.hidden = true;
+  } else {
+    eventsBody.replaceChildren();
+    eventsWrap.hidden = true;
+    eventsEmpty.hidden = false;
+  }
+
+  const rolesPanel = document.getElementById("entity-roles-panel");
+  rolesPanel.hidden = false;
+  rolesPanel.querySelector(".panel-head h2").textContent = "Organized Events";
+  rolesPanel.querySelector(".panel-head p").textContent =
+    "Events currently attributed to this organization as the organizing club.";
+  setTableHead(document.getElementById("entity-roles-head"), ["Date", "Event", "Venue", "Results"]);
+
+  const organizedEventRows = (detail.organized_events || []).map((eventRow) => {
+    const tr = document.createElement("tr");
+
+    const date = document.createElement("td");
+    date.textContent = formatEntityDate(eventRow.event_date);
+
+    const eventName = document.createElement("td");
+    appendTextLine(eventName, "", "cell-title");
+    eventName.firstChild.replaceWith(
+      createEventLink(eventRow.event_id, eventRow.event_name || "Untitled event", {
+        fromType: "organization",
+        fromId: detail.organization_id,
+      })
+    );
+    appendTextLine(eventName, eventRow.event_kind || "unknown kind", "muted");
+
+    const venue = document.createElement("td");
+    venue.append(createEntityLink("venue", eventRow.venue_id, eventRow.venue_name || "Unknown venue"));
+
+    const results = document.createElement("td");
+    results.textContent = formatEntityEventResultsValue(eventRow);
+
+    tr.append(date, eventName, venue, results);
+    return tr;
+  });
+
+  const rolesBody = document.getElementById("entity-roles-body");
+  const rolesWrap = document.getElementById("entity-roles-wrap");
+  const rolesEmpty = document.getElementById("entity-roles-empty");
+  if (organizedEventRows.length) {
+    rolesBody.replaceChildren(...organizedEventRows);
+    rolesWrap.hidden = false;
+    rolesEmpty.hidden = true;
+  } else {
+    rolesBody.replaceChildren();
+    rolesWrap.hidden = true;
+    rolesEmpty.hidden = false;
+  }
+
+  const mentionsPanel = document.getElementById("entity-mentions-panel");
+  mentionsPanel.hidden = false;
+  mentionsPanel.querySelector(".panel-head h2").textContent = "Affiliation Roster";
+  mentionsPanel.querySelector(".panel-head p").textContent =
+    "Competitors and teams seen with this organization in resolved result affiliations.";
+  setTableHead(document.getElementById("entity-mentions-head"), ["Competitor", "Type", "Years", "Results", "Events"]);
+
+  const rosterRows = (detail.roster || []).map((row) => {
+    const tr = document.createElement("tr");
+
+    const competitor = document.createElement("td");
+    if (row.individual_id) {
+      competitor.append(createEntityLink("person", row.individual_id, row.competitor_name || "(unnamed competitor)"));
+    } else {
+      competitor.textContent = row.competitor_name || "(unnamed team)";
+    }
+
+    const type = document.createElement("td");
+    type.textContent = formatCodeLabel(row.competitor_type);
+
+    const years = document.createElement("td");
+    years.textContent = row.first_year && row.last_year ? `${row.first_year}–${row.last_year}` : "—";
+
+    const results = document.createElement("td");
+    results.textContent = formatEntityNumber(row.result_count);
+
+    const events = document.createElement("td");
+    events.textContent = formatEntityNumber(row.event_count);
+
+    tr.append(competitor, type, years, results, events);
+    return tr;
+  });
+
+  const mentionsBody = document.getElementById("entity-mentions-body");
+  const mentionsWrap = document.getElementById("entity-mentions-wrap");
+  const mentionsEmpty = document.getElementById("entity-mentions-empty");
+  if (rosterRows.length) {
+    mentionsBody.replaceChildren(...rosterRows);
+    mentionsWrap.hidden = false;
+    mentionsEmpty.hidden = true;
+  } else {
+    mentionsBody.replaceChildren();
+    mentionsWrap.hidden = true;
+    mentionsEmpty.hidden = false;
+  }
 }
 
 function renderError(message) {
@@ -471,7 +724,7 @@ async function main() {
   const type = params.get("type");
   const id = params.get("id");
 
-  if (!id || (type !== "person" && type !== "venue")) {
+  if (!id || (type !== "person" && type !== "venue" && type !== "organization")) {
     renderError("Missing or invalid detail parameters.");
     return;
   }
@@ -480,6 +733,8 @@ async function main() {
     const detail = await fetchEntityDetail(type, id);
     if (type === "person") {
       renderPerson(detail);
+    } else if (type === "organization") {
+      renderOrganization(detail);
     } else {
       renderVenue(detail);
     }

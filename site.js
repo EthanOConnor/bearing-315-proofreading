@@ -49,7 +49,30 @@ function formatClimbMeters(value) {
   return value == null ? null : `${formatNumber(value)} m climb`;
 }
 
-function createStatCard(label, value, detail) {
+function formatEventStatusLabel(value) {
+  switch (value) {
+    case "canceled":
+      return "Cancelled";
+    case "rescheduled":
+      return "Rescheduled";
+    case "postponed":
+      return "Postponed";
+    case "delayed":
+      return "Delayed";
+    default:
+      return null;
+  }
+}
+
+function formatEventResultsValue(row) {
+  const statusLabel = formatEventStatusLabel(row?.event_status);
+  if (statusLabel && Number(row?.result_count || 0) === 0) {
+    return statusLabel;
+  }
+  return formatNumber(row?.result_count);
+}
+
+function createStatCard(label, value, detail, href = null) {
   const card = document.createElement("article");
   card.className = "stat-card";
 
@@ -70,7 +93,20 @@ function createStatCard(label, value, detail) {
     card.append(detailNode);
   }
 
-  return card;
+  if (!href) {
+    return card;
+  }
+
+  const link = document.createElement("a");
+  link.className = "stat-card-link";
+  link.href = href;
+  link.setAttribute("aria-label", `${label} (${value})`);
+  link.append(card);
+  return link;
+}
+
+function getSnapshotListUrl(kind) {
+  return `./snapshot-list.html?kind=${encodeURIComponent(kind)}`;
 }
 
 function createDetailFact(label, value) {
@@ -133,8 +169,152 @@ function createEntityLink(type, id, label, className = "entity-link") {
   return link;
 }
 
+function appendDelimitedNodes(target, nodes, delimiter = ", ") {
+  nodes.forEach((node, index) => {
+    if (index > 0) target.append(document.createTextNode(delimiter));
+    target.append(node);
+  });
+}
+
+function createAffiliationNodes(resultRow) {
+  const affiliations = Array.isArray(resultRow.affiliations) ? resultRow.affiliations : [];
+  if (affiliations.length) {
+    return affiliations.map((affiliation) => {
+      if (affiliation?.organization_id) {
+        return createEntityLink("organization", affiliation.organization_id, affiliation.label || "—");
+      }
+      const span = document.createElement("span");
+      span.textContent = affiliation?.label || "—";
+      return span;
+    });
+  }
+
+  return (resultRow.affiliation_labels || []).map((label) => {
+    const span = document.createElement("span");
+    span.textContent = label;
+    return span;
+  });
+}
+
+function hasCategoryRankedResults(results = []) {
+  return results.some((resultRow) => resultRow.category_rank != null);
+}
+
+function groupResultsByCategory(results = []) {
+  const buckets = [];
+  const bucketMap = new Map();
+  results.forEach((resultRow) => {
+    const label = resultRow.category_name || "Unspecified";
+    if (!bucketMap.has(label)) {
+      const bucket = { label, rows: [] };
+      bucketMap.set(label, bucket);
+      buckets.push(bucket);
+    }
+    bucketMap.get(label).rows.push(resultRow);
+  });
+  return buckets;
+}
+
+function buildEventResultsTable(resultRows, { showOverallRank = false, showCategoryRank = false, showDivision = true } = {}) {
+  const table = document.createElement("table");
+  table.className = "event-results-table";
+
+  const labels = [];
+  if (showOverallRank) {
+    labels.push("Overall");
+  } else {
+    labels.push("Place");
+  }
+  if (showCategoryRank) labels.push("Category");
+  labels.push("Competitor");
+  if (showDivision) labels.push("Division");
+  labels.push("Outcome", "Affiliation");
+
+  const thead = document.createElement("thead");
+  const headRow = document.createElement("tr");
+  labels.forEach((labelText) => {
+    const th = document.createElement("th");
+    th.textContent = labelText;
+    headRow.append(th);
+  });
+  thead.append(headRow);
+
+  const tbody = document.createElement("tbody");
+  resultRows.forEach((resultRow) => {
+    const tr = document.createElement("tr");
+
+    const overallRank = resultRow.overall_rank ?? resultRow.course_rank;
+    const place = document.createElement("td");
+    place.className = "is-numeric";
+    place.textContent = overallRank == null ? "—" : formatNumber(overallRank);
+    tr.append(place);
+
+    if (showCategoryRank) {
+      const categoryRank = document.createElement("td");
+      categoryRank.className = "is-numeric";
+      categoryRank.textContent = resultRow.category_rank == null ? "—" : formatNumber(resultRow.category_rank);
+      tr.append(categoryRank);
+    }
+
+    const competitor = document.createElement("td");
+    const competitorName = document.createElement("div");
+    competitorName.append(
+      resultRow.individual_id
+        ? createEntityLink("person", resultRow.individual_id, resultRow.competitor_name || "(unnamed competitor)")
+        : document.createTextNode(resultRow.competitor_name || "(unnamed competitor)")
+    );
+    competitor.append(competitorName);
+    if (resultRow.competitive === false) {
+      competitor.append(createStatusChip("Non-competitive", "subtle"));
+    }
+    if (resultRow.additional_course) {
+      competitor.append(createStatusChip("Additional course", "subtle"));
+    }
+    if (resultRow.result_notes) {
+      const notes = document.createElement("span");
+      notes.className = "event-result-notes";
+      notes.textContent = resultRow.result_notes;
+      competitor.append(notes);
+    }
+    tr.append(competitor);
+
+    if (showDivision) {
+      const division = document.createElement("td");
+      division.textContent = resultRow.category_name || "—";
+      tr.append(division);
+    }
+
+    const outcome = document.createElement("td");
+    outcome.className = "is-numeric";
+    const outcomeValue = document.createElement("div");
+    outcomeValue.textContent = resultRow.outcome_text || "—";
+    outcome.append(outcomeValue);
+    if (resultRow.metric_summary && resultRow.metric_summary !== resultRow.outcome_text) {
+      const metricSummary = document.createElement("div");
+      metricSummary.className = "event-result-notes";
+      metricSummary.textContent = resultRow.metric_summary;
+      outcome.append(metricSummary);
+    }
+    tr.append(outcome);
+
+    const affiliation = document.createElement("td");
+    const affiliationNodes = createAffiliationNodes(resultRow);
+    if (affiliationNodes.length) {
+      appendDelimitedNodes(affiliation, affiliationNodes);
+    } else {
+      affiliation.textContent = "—";
+    }
+    tr.append(affiliation);
+
+    tbody.append(tr);
+  });
+
+  table.append(thead, tbody);
+  return table;
+}
+
 function isEventInlineNavigable(row) {
-  return Boolean(row?.event_id) && Number(row?.result_count || 0) > 0;
+  return Boolean(row?.event_id);
 }
 
 function createEventNameNode(row, onToggle) {
@@ -172,18 +352,23 @@ function renderStats(summary) {
     createStatCard(
       "Competitions",
       formatNumber(summary.competitions),
-      `${summary.competition_event_date_min} to ${summary.competition_event_date_max}`
+      `${summary.competition_event_date_min} to ${summary.competition_event_date_max}`,
+      getSnapshotListUrl("competitions")
     ),
-    createStatCard("Events", formatNumber(summary.events), `${summary.event_date_min} to ${summary.event_date_max}`),
     createStatCard("Results", formatNumber(summary.results), `${summary.result_event_date_min} to ${summary.result_event_date_max}`),
-    createStatCard("Documents", formatNumber(summary.documents), `${formatNumber(summary.web_snapshots)} web snapshots`),
     createStatCard("Newsletter Issues", formatNumber(summary.newsletter_issues), `${summary.newsletter_date_min} to ${summary.newsletter_date_max}`),
-    createStatCard("People", formatNumber(summary.individuals), `${formatNumber(summary.teams)} teams`),
+    createStatCard(
+      "People",
+      formatNumber(summary.individuals),
+      `${formatNumber(summary.teams)} teams`,
+      getSnapshotListUrl("people")
+    ),
     createStatCard(
       "Competition Venues",
       formatNumber(summary.competition_venues),
-      `${formatNumber(summary.competition_only_venues)} competition-only, ${formatNumber(summary.mixed_use_venues)} mixed-use`
-    ),
+      `${formatNumber(summary.competition_only_venues)} competition-only, ${formatNumber(summary.mixed_use_venues)} mixed-use`,
+      getSnapshotListUrl("competition-venues")
+    )
   ];
 
   statsGrid.replaceChildren(...cards);
@@ -376,7 +561,7 @@ function renderCoverage(rows) {
           date.textContent = formatDate(eventRow.event_date);
 
           const results = document.createElement("td");
-          results.textContent = formatNumber(eventRow.result_count);
+          results.textContent = formatEventResultsValue(eventRow);
 
           tr.append(eventName, venue, date, results);
           tbody.append(tr);
@@ -481,7 +666,7 @@ function renderRecentEventTable(targetId, rows) {
     venue.append(createEntityLink("venue", row.venue_id, row.venue_name || "Unknown venue"));
 
     const results = document.createElement("td");
-    results.textContent = formatNumber(row.result_count);
+    results.textContent = formatEventResultsValue(row);
 
     tr.append(date, eventName, venue, results);
     return tr;
@@ -712,6 +897,10 @@ function buildSearchSubtitle(entry, aliasMatch) {
     if (entry.event_count) parts.push(`${formatNumber(entry.event_count)} events`);
     if (entry.role_count) parts.push(`${formatNumber(entry.role_count)} roles`);
     if (entry.mention_count) parts.push(`${formatNumber(entry.mention_count)} mentions`);
+  } else if (entry.type === "organization") {
+    if (entry.result_count) parts.push(`${formatNumber(entry.result_count)} results`);
+    if (entry.event_count) parts.push(`${formatNumber(entry.event_count)} affiliated events`);
+    if (entry.organized_event_count) parts.push(`${formatNumber(entry.organized_event_count)} organized events`);
   } else {
     if (entry.event_count) parts.push(`${formatNumber(entry.event_count)} events`);
     if (entry.mention_count) parts.push(`${formatNumber(entry.mention_count)} mentions`);
@@ -755,7 +944,7 @@ function setupHeroSearch(entries) {
     if (!state.results.length) {
       const empty = document.createElement("div");
       empty.className = "search-empty";
-      empty.textContent = "No matching person or venue.";
+      empty.textContent = "No matching person, venue, or club.";
       results.replaceChildren(empty);
       results.hidden = false;
       return;
@@ -785,7 +974,13 @@ function setupHeroSearch(entries) {
       const nameMatch = result.matches?.find((match) => match.key === "name");
       title.append(createHighlightedText(result.item.name, nameMatch?.indices));
 
-      const badge = createStatusChip(result.item.type === "person" ? "Person" : "Venue", "subtle");
+      const badgeLabel =
+        result.item.type === "person"
+          ? "Person"
+          : result.item.type === "organization"
+            ? "Club"
+            : "Venue";
+      const badge = createStatusChip(badgeLabel, "subtle");
       head.append(title, badge);
 
       const meta = document.createElement("div");
@@ -978,81 +1173,62 @@ function createCourseCard(course) {
     return article;
   }
 
+  const categoryRanked = hasCategoryRankedResults(course.results);
   const tableWrap = document.createElement("div");
   tableWrap.className = "table-wrap";
-
-  const table = document.createElement("table");
-  table.className = "event-results-table";
-
-  const thead = document.createElement("thead");
-  const headRow = document.createElement("tr");
-  ["Place", "Competitor", "Category", "Outcome", "Affiliation"].forEach((labelText) => {
-    const th = document.createElement("th");
-    th.textContent = labelText;
-    headRow.append(th);
-  });
-  thead.append(headRow);
-
-  const tbody = document.createElement("tbody");
-  course.results.forEach((resultRow) => {
-    const tr = document.createElement("tr");
-
-    const place = document.createElement("td");
-    place.className = "is-numeric";
-    place.textContent = resultRow.course_rank == null ? "—" : formatNumber(resultRow.course_rank);
-
-    const competitor = document.createElement("td");
-    const competitorName = document.createElement("div");
-    competitorName.append(
-      resultRow.individual_id
-        ? createEntityLink("person", resultRow.individual_id, resultRow.competitor_name || "(unnamed competitor)")
-        : document.createTextNode(resultRow.competitor_name || "(unnamed competitor)")
-    );
-    competitor.append(competitorName);
-    if (resultRow.competitive === false) {
-      competitor.append(createStatusChip("Non-competitive", "subtle"));
-    }
-    if (resultRow.additional_course) {
-      competitor.append(createStatusChip("Additional course", "subtle"));
-    }
-    if (resultRow.result_notes) {
-      const notes = document.createElement("span");
-      notes.className = "event-result-notes";
-      notes.textContent = resultRow.result_notes;
-      competitor.append(notes);
-    }
-
-    const category = document.createElement("td");
-    category.textContent = resultRow.category_name || "—";
-
-    const outcome = document.createElement("td");
-    outcome.className = "is-numeric";
-    outcome.textContent = resultRow.outcome_text || "—";
-
-    const affiliation = document.createElement("td");
-    affiliation.textContent = resultRow.affiliation_labels?.length
-      ? resultRow.affiliation_labels.join(", ")
-      : "—";
-
-    tr.append(place, competitor, category, outcome, affiliation);
-    tbody.append(tr);
-  });
-
-  table.append(thead, tbody);
-  tableWrap.append(table);
+  tableWrap.append(
+    buildEventResultsTable(course.results, {
+      showOverallRank: categoryRanked,
+      showCategoryRank: categoryRanked,
+      showDivision: true,
+    })
+  );
   article.append(tableWrap);
+
+  if (categoryRanked) {
+    const groupedWrap = document.createElement("div");
+
+    const groupedTitle = document.createElement("h4");
+    groupedTitle.textContent = "By Category";
+    groupedWrap.append(groupedTitle);
+
+    groupResultsByCategory(course.results).forEach((bucket) => {
+      const bucketTitle = document.createElement("h5");
+      bucketTitle.textContent = bucket.label;
+      groupedWrap.append(bucketTitle);
+
+      const bucketTableWrap = document.createElement("div");
+      bucketTableWrap.className = "table-wrap";
+      bucketTableWrap.append(
+        buildEventResultsTable(bucket.rows, {
+          showOverallRank: true,
+          showCategoryRank: true,
+          showDivision: false,
+        })
+      );
+      groupedWrap.append(bucketTableWrap);
+    });
+
+    article.append(groupedWrap);
+  }
+
   return article;
 }
 
 function buildEventDetailShell(detail, onClose) {
+  const statusLabel = formatEventStatusLabel(detail.event_status);
   const facts = [
     createDetailFact("Date", formatDate(detail.event_date)),
     createDetailFact(
       "Venue",
       createEntityLink("venue", detail.venue_id, detail.venue_name || "Unknown venue")
     ),
-    createDetailFact("Club", detail.organizing_club_name || "Unknown club"),
-    createDetailFact("Results", formatNumber(detail.result_count)),
+    createDetailFact(
+      "Club",
+      createEntityLink("organization", detail.organizing_club_id, detail.organizing_club_name || "Unknown club")
+    ),
+    ...(statusLabel ? [createDetailFact("Status", statusLabel)] : []),
+    createDetailFact("Results", formatEventResultsValue(detail)),
     createDetailFact("Courses", formatNumber(detail.course_count)),
     createDetailFact("Citations", formatNumber(detail.citation_count)),
   ];
@@ -1068,16 +1244,25 @@ function buildEventDetailShell(detail, onClose) {
     [
       formatDate(detail.event_date),
       detail.event_kind || "unknown kind",
+      ...(statusLabel ? [`Status: ${statusLabel}`] : []),
       detail.venue_name || "Unknown venue",
-      `Results from: ${detail.result_source_brief || "source not yet linked"}`,
+      Number(detail.result_count || 0) > 0
+        ? `Results from: ${detail.result_source_brief || "source not yet linked"}`
+        : statusLabel
+          ? "No result rows expected in the current snapshot"
+          : "No result rows captured yet",
     ].join(" · "),
     {
       metaNodes: facts,
       bodyNodes: courseCards,
       bodyText:
         Number(detail.result_count || 0) > 0
-          ? "No result rows exported for this event."
-          : "This event is in inventory, but no result rows are captured in the current snapshot.",
+          ? null
+          : statusLabel === "Cancelled"
+            ? "This event was cancelled. No result rows are expected in the current snapshot."
+            : statusLabel
+              ? `This event is marked ${statusLabel.toLowerCase()} in the source archive, and no result rows are exported in the current snapshot.`
+              : "This event is in inventory, but no result rows are captured in the current snapshot.",
       onClose,
       headControls: [openLink],
     }

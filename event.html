@@ -10,14 +10,11 @@
     <script src="./search.js" defer></script>
     <script src="./event.js" defer></script>
   </head>
-  <body>
+  <body class="event-page">
     <div class="page-shell">
       <header class="hero hero-detail">
         <div class="hero-layout">
           <div class="hero-copy">
-            <div class="hero-meta" id="event-back-links">
-              <a class="pill pill-link" href="./index.html">Back To Snapshot</a>
-            </div>
             <h1 id="event-title">Loading Event…</h1>
             <p class="hero-subtitle" id="event-subtitle">Fetching static event detail export.</p>
           </div>
@@ -85,6 +82,11 @@
           <p class="muted" id="event-results-empty" hidden>No result rows exported for this event.</p>
         </section>
       </main>
+      <footer class="event-page-footer">
+        <div class="event-page-footer-inner">
+          <div class="event-footer-links" id="event-footer-links" hidden></div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>

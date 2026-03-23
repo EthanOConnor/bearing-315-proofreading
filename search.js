@@ -161,6 +161,10 @@
       if (entry.event_count) parts.push(`${formatNumber(entry.event_count)} events`);
       if (entry.role_count) parts.push(`${formatNumber(entry.role_count)} roles`);
       if (entry.mention_count) parts.push(`${formatNumber(entry.mention_count)} mentions`);
+    } else if (entry.type === "organization") {
+      if (entry.result_count) parts.push(`${formatNumber(entry.result_count)} results`);
+      if (entry.event_count) parts.push(`${formatNumber(entry.event_count)} affiliated events`);
+      if (entry.organized_event_count) parts.push(`${formatNumber(entry.organized_event_count)} organized events`);
     } else {
       if (entry.event_count) parts.push(`${formatNumber(entry.event_count)} events`);
       if (entry.mention_count) parts.push(`${formatNumber(entry.mention_count)} mentions`);
@@ -202,7 +206,7 @@
       if (!state.results.length) {
         const empty = document.createElement("div");
         empty.className = "search-empty";
-        empty.textContent = "No matching person or venue.";
+        empty.textContent = "No matching person, venue, or club.";
         results.replaceChildren(empty);
         results.hidden = false;
         return;
@@ -232,7 +236,13 @@
         const nameMatch = result.matches?.find((match) => match.key === "name");
         title.append(createHighlightedText(result.item.name, nameMatch?.indices));
 
-        const badge = createStatusChip(result.item.type === "person" ? "Person" : "Venue", "subtle");
+        const badgeLabel =
+          result.item.type === "person"
+            ? "Person"
+            : result.item.type === "organization"
+              ? "Club"
+              : "Venue";
+        const badge = createStatusChip(badgeLabel, "subtle");
         head.append(title, badge);
 
         const meta = document.createElement("div");

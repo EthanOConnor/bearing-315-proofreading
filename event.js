@@ -213,9 +213,9 @@ function renderCompetitionNavigation(params, events = []) {
   const next = hasOrderedEvents ? (events[currentIndex + 1] || null) : null;
 
   const links = [];
-  if (next) {
-    const nextLink = createCompetitionNavLink(next, "Next Meet", "Next", params);
-    if (nextLink) links.push(nextLink);
+  if (previous) {
+    const previousLink = createCompetitionNavLink(previous, "Previous Meet", "Prev", params);
+    if (previousLink) links.push(previousLink);
   }
 
   const backToSnapshot = document.createElement("a");
@@ -231,9 +231,9 @@ function renderCompetitionNavigation(params, events = []) {
   backToSnapshot.setAttribute("aria-label", "Back To Snapshot");
   links.push(backToSnapshot);
 
-  if (previous) {
-    const previousLink = createCompetitionNavLink(previous, "Previous Meet", "Prev", params);
-    if (previousLink) links.push(previousLink);
+  if (next) {
+    const nextLink = createCompetitionNavLink(next, "Next Meet", "Next", params);
+    if (nextLink) links.push(nextLink);
   }
 
   container.replaceChildren(...links);

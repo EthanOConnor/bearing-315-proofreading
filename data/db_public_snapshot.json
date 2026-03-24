@@ -1,17 +1,17 @@
 {
     "summary": {
         "pages": 1628,
-        "teams": 4373,
-        "events": 1968,
+        "teams": 4481,
+        "events": 1972,
         "series": 11,
-        "venues": 502,
-        "courses": 3652,
-        "results": 90880,
+        "venues": 503,
+        "courses": 3732,
+        "results": 91995,
         "artifacts": 1327,
         "citations": 5541,
         "documents": 1095,
-        "individuals": 12622,
-        "competitions": 1565,
+        "individuals": 12661,
+        "competitions": 1562,
         "event_groups": 6,
         "access_points": 2,
         "organizations": 68,
@@ -19,42 +19,42 @@
         "web_snapshots": 936,
         "delayed_events": 0,
         "event_date_max": "2026-05-17",
-        "event_date_min": "1978-01-09",
+        "event_date_min": "1975-10-17",
         "page_artifacts": 0,
-        "venue_rows_raw": 705,
+        "venue_rows_raw": 706,
         "canceled_events": 3,
-        "mixed_use_venues": 62,
+        "mixed_use_venues": 61,
         "postponed_events": 0,
         "series_standings": 54,
         "newsletter_issues": 159,
-        "venue_rows_active": 512,
+        "venue_rows_active": 513,
         "competition_venues": 112,
         "rescheduled_events": 1,
-        "individual_rows_raw": 13444,
+        "individual_rows_raw": 13483,
         "newsletter_date_max": "2009-10-01",
         "newsletter_date_min": "1978-01-01",
         "result_event_date_max": "2026-03-07",
         "result_event_date_min": "1978-05-21",
         "status_flagged_events": 4,
         "venue_rows_redirected": 193,
-        "individual_rows_active": 12622,
-        "competition_only_venues": 50,
+        "individual_rows_active": 12661,
+        "competition_only_venues": 51,
         "competition_event_date_max": "2026-05-17",
         "competition_event_date_min": "1978-01-14",
         "individual_rows_redirected": 822,
-        "noncompetition_only_venues": 307
+        "noncompetition_only_venues": 308
     },
     "event_kinds": [
         {
-            "count": 1565,
+            "count": 1562,
             "event_kind": "race"
         },
         {
-            "count": 214,
+            "count": 216,
             "event_kind": "meet"
         },
         {
-            "count": 188,
+            "count": 193,
             "event_kind": "session"
         },
         {
@@ -62,7 +62,7 @@
             "event_kind": "aggregate"
         }
     ],
-    "generated_at": "2026-03-23T22:00:07Z",
+    "generated_at": "2026-03-24T04:26:07Z",
     "recent_events": [
         {
             "event_id": "019d0ed4-1271-7332-b2b7-8c813ff32598",
@@ -331,35 +331,35 @@
     ],
     "result_statuses": [
         {
-            "count": 71428,
+            "count": 72442,
             "status": "OK"
         },
         {
-            "count": 8016,
+            "count": 8025,
             "status": "(unmapped)"
         },
         {
-            "count": 3972,
+            "count": 4018,
             "status": "MSP"
         },
         {
-            "count": 3700,
+            "count": 3744,
             "status": "DNF"
         },
         {
-            "count": 3238,
+            "count": 3214,
             "status": "Blank"
         },
         {
-            "count": 265,
+            "count": 276,
             "status": "NC"
         },
         {
-            "count": 128,
+            "count": 138,
             "status": "DNS"
         },
         {
-            "count": 113,
+            "count": 115,
             "status": "DQ"
         },
         {
@@ -369,9 +369,117 @@
         {
             "count": 8,
             "status": "Not Complete"
+        },
+        {
+            "count": 3,
+            "status": "Invalid Result"
         }
     ],
     "coverage_by_year": [
+        {
+            "year": 1975,
+            "events": [
+                {
+                    "event_id": "019d1e14-bb8b-7cbc-910d-bc15c6352ef3",
+                    "venue_id": null,
+                    "event_date": "1975-10-17",
+                    "event_name": "Organizational meeting",
+                    "venue_name": "Unknown venue",
+                    "event_status": null,
+                    "result_count": 0,
+                    "coverage_section": "coc_noncompetition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                }
+            ],
+            "event_count": 1,
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
+        },
+        {
+            "year": 1976,
+            "events": [
+            ],
+            "event_count": 0,
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
+        },
+        {
+            "year": 1977,
+            "events": [
+                {
+                    "event_id": "019d1e14-bb8c-7d1c-ba50-0242ecd9258a",
+                    "venue_id": "019d1e14-bb73-7da0-b39c-adf7811fa9c7",
+                    "event_date": "1977-06-04",
+                    "event_name": "Orienteering meet at Fort Lewis - Area 1",
+                    "venue_name": "Fort Lewis - Area 1",
+                    "event_status": null,
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "019d1e14-bb8b-7ee0-949a-e93c0e5205d4",
+                    "venue_id": null,
+                    "event_date": "1977-06-24",
+                    "event_name": "Organizational meeting",
+                    "venue_name": "Unknown venue",
+                    "event_status": null,
+                    "result_count": 0,
+                    "coverage_section": "coc_noncompetition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "019d1e14-bb8b-705d-be6a-cffb43b4dd66",
+                    "venue_id": null,
+                    "event_date": "1977-08-11",
+                    "event_name": "Organizational meeting",
+                    "venue_name": "Unknown venue",
+                    "event_status": null,
+                    "result_count": 0,
+                    "coverage_section": "coc_noncompetition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "019d1e14-bb88-7b97-8756-61b2dd533c97",
+                    "venue_id": null,
+                    "event_date": "1977-09-01",
+                    "event_name": "Cascade Orienteering Club founded",
+                    "venue_name": "Unknown venue",
+                    "event_status": null,
+                    "result_count": 0,
+                    "coverage_section": "coc_noncompetition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "019d1e14-bb8c-7456-be5a-b51edc965f0f",
+                    "venue_id": "019b78aa-590a-7ca5-b8fa-b4f5196a90e5",
+                    "event_date": "1977-09-01",
+                    "event_name": "Orienteering meet at Fort Lewis - Area 21",
+                    "venue_name": "Fort Lewis - Area 21",
+                    "event_status": null,
+                    "result_count": 0,
+                    "coverage_section": "coc_competition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                },
+                {
+                    "event_id": "019d1e14-bb8a-7c78-af33-8e4fe6a4bfff",
+                    "venue_id": null,
+                    "event_date": "1977-11-07",
+                    "event_name": "Organizational meeting",
+                    "venue_name": "Unknown venue",
+                    "event_status": null,
+                    "result_count": 0,
+                    "coverage_section": "coc_noncompetition",
+                    "organizing_club_name": "Cascade Orienteering Club"
+                }
+            ],
+            "event_count": 6,
+            "result_count": 0,
+            "competition_event_count": 0,
+            "competition_result_event_count": 0
+        },
         {
             "year": 1978,
             "events": [
@@ -18546,7 +18654,7 @@
                     "event_name": "Winter O' Series/WIOL #5",
                     "venue_name": "Shoreview Park",
                     "event_status": null,
-                    "result_count": 337,
+                    "result_count": 339,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -18568,7 +18676,7 @@
                     "event_name": "Winter O' Series/WIOL #7",
                     "venue_name": "Point Defiance Park",
                     "event_status": null,
-                    "result_count": 10,
+                    "result_count": 278,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -18579,7 +18687,7 @@
                     "event_name": "Winter O' Series/WIOL Championship",
                     "venue_name": "Camp River Ranch",
                     "event_status": null,
-                    "result_count": 20,
+                    "result_count": 327,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -18893,7 +19001,7 @@
                 }
             ],
             "event_count": 32,
-            "result_count": 2605,
+            "result_count": 3182,
             "competition_event_count": 32,
             "competition_result_event_count": 32
         },
@@ -18956,24 +19064,13 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
                 {
-                    "event_id": "019b81f3-1f4c-7065-99b7-f69746b3a88d",
-                    "venue_id": "019b81f3-1f39-771c-b188-7405b0c44c91",
-                    "event_date": "2016-03-05",
-                    "event_name": "Ultimate Series #1 (Long-O’, NOCI Day 1)",
-                    "venue_name": "Lincoln Tree Farm",
-                    "event_status": null,
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
                     "event_id": "019b81f3-1f4b-7903-a19e-37871535d428",
                     "venue_id": "019b7ad6-e22e-76b0-9111-fe01c6239c39",
                     "event_date": "2016-03-06",
                     "event_name": "Ultimate Orienteer #2 - Middle (NOCI Day 2)",
                     "venue_name": "Fort Steilacoom Park",
                     "event_status": null,
-                    "result_count": 0,
+                    "result_count": 475,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -18984,18 +19081,7 @@
                     "event_name": "Ultimate Orienteer #3 - Night-O'",
                     "venue_name": "Lincoln Park",
                     "event_status": null,
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
-                    "event_id": "019b81f3-1f4c-75f5-ae23-c26ea1c9f4c0",
-                    "venue_id": "019b7adc-aecc-7982-9cba-e6c418079605",
-                    "event_date": "2016-03-12",
-                    "event_name": "Ultimate Series #3 (Night-O’)",
-                    "venue_name": "Lincoln Park",
-                    "event_status": null,
-                    "result_count": 0,
+                    "result_count": 63,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19006,18 +19092,7 @@
                     "event_name": "Ultimate Orienteer #4 (Sprint)",
                     "venue_name": "Shoreview Park / Shoreline CC",
                     "event_status": null,
-                    "result_count": 0,
-                    "coverage_section": "coc_competition",
-                    "organizing_club_name": "Cascade Orienteering Club"
-                },
-                {
-                    "event_id": "019b81f3-1f4d-7055-81ea-a16d1f424d58",
-                    "venue_id": "019b7dc7-3a04-7952-bcef-fe86785dfdd4",
-                    "event_date": "2016-04-16",
-                    "event_name": "Ultimate Series #4 (Sprint)",
-                    "venue_name": "Shoreview Park",
-                    "event_status": null,
-                    "result_count": 156,
+                    "result_count": 92,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19028,7 +19103,7 @@
                     "event_name": "Ultimate Series #5 (Relay)",
                     "venue_name": "Shoreview Park",
                     "event_status": null,
-                    "result_count": 44,
+                    "result_count": 204,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19039,7 +19114,7 @@
                     "event_name": "Ultimate Series #6 (Classic)",
                     "venue_name": "Teanaway Forks",
                     "event_status": null,
-                    "result_count": 192,
+                    "result_count": 96,
                     "coverage_section": "coc_competition",
                     "organizing_club_name": "Cascade Orienteering Club"
                 },
@@ -19319,10 +19394,10 @@
                     "organizing_club_name": "Cascade Orienteering Club"
                 }
             ],
-            "event_count": 38,
-            "result_count": 7224,
-            "competition_event_count": 38,
-            "competition_result_event_count": 33
+            "event_count": 35,
+            "result_count": 7762,
+            "competition_event_count": 35,
+            "competition_result_event_count": 35
         },
         {
             "year": 2017,

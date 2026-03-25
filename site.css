@@ -607,6 +607,26 @@ code {
   display: none;
 }
 
+.series-group {
+  margin-bottom: 1.5em;
+}
+.series-group-title {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+
+.event-course-category {
+  margin-top: 1em;
+}
+.event-course-category h4 {
+  font-size: 0.95em;
+  color: var(--accent);
+  margin-bottom: 0.3em;
+}
+.event-course-category + .event-course-category {
+  margin-top: 1.2em;
+}
+
 .coverage-events-table th,
 .coverage-events-table td {
   padding-left: 0;

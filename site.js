@@ -591,6 +591,135 @@ function renderCoverage(rows) {
       sections.append(sectionWrap);
     });
 
+    // Series subsections
+    const yearSeries = row.series || [];
+    if (yearSeries.length > 0) {
+      const seriesWrap = document.createElement("section");
+      seriesWrap.className = "coverage-subsection";
+
+      const seriesHead = document.createElement("button");
+      seriesHead.type = "button";
+      seriesHead.className = "coverage-subsection-head";
+      seriesHead.setAttribute("aria-expanded", "false");
+
+      const seriesBody = document.createElement("div");
+      seriesBody.className = "coverage-subsection-body";
+      seriesBody.id = `coverage-events-${row.year}-series`;
+      seriesBody.hidden = true;
+      seriesHead.setAttribute("aria-controls", seriesBody.id);
+
+      const seriesTitle = document.createElement("h3");
+      seriesTitle.textContent = "Event Series";
+
+      const seriesMeta = document.createElement("span");
+      seriesMeta.className = "coverage-subsection-meta";
+      const seriesCount = document.createElement("span");
+      seriesCount.className = "coverage-subsection-count";
+      seriesCount.textContent = `${yearSeries.length} series`;
+      const seriesCaret = document.createElement("span");
+      seriesCaret.className = "coverage-subsection-caret";
+      seriesCaret.setAttribute("aria-hidden", "true");
+      seriesCaret.textContent = "▾";
+
+      seriesMeta.append(seriesCount, seriesCaret);
+      seriesHead.append(seriesTitle, seriesMeta);
+      seriesWrap.append(seriesHead, seriesBody);
+
+      yearSeries
+        .sort((a, b) => (a.series_name || "").localeCompare(b.series_name || ""))
+        .forEach((seriesInfo) => {
+          const seriesSection = document.createElement("div");
+          seriesSection.className = "series-group";
+
+          const groupTitle = document.createElement("h4");
+          groupTitle.className = "series-group-title";
+          groupTitle.textContent = seriesInfo.series_name;
+
+          const groupMeta = document.createElement("span");
+          groupMeta.className = "muted";
+          groupMeta.textContent = ` — ${formatNumber(seriesInfo.event_count)} events, ${formatNumber(seriesInfo.result_count)} results`;
+          groupTitle.append(groupMeta);
+
+          seriesSection.append(groupTitle);
+
+          // Get events for this series from the year's events
+          const seriesEvents = events
+            .filter((e) => e.series_name === seriesInfo.series_name)
+            .sort((a, b) => (a.event_date || "").localeCompare(b.event_date || ""));
+
+          if (seriesEvents.length > 0) {
+            const tableWrap = document.createElement("div");
+            tableWrap.className = "table-wrap";
+
+            const table = document.createElement("table");
+            table.className = "coverage-events-table";
+
+            const thead = document.createElement("thead");
+            const headRow = document.createElement("tr");
+            ["#", "Event Name", "Venue", "Date", "Results"].forEach((labelText) => {
+              const th = document.createElement("th");
+              th.textContent = labelText;
+              headRow.append(th);
+            });
+            thead.append(headRow);
+
+            const tbody = document.createElement("tbody");
+            seriesEvents.forEach((eventRow) => {
+              const tr = document.createElement("tr");
+              tr.className = "event-summary-row";
+
+              const num = document.createElement("td");
+              num.textContent = eventRow.series_number != null ? `#${eventRow.series_number}` : "";
+
+              const eventName = document.createElement("td");
+              eventName.append(
+                createEventNameNode(eventRow, (button) => {
+                  void toggleInlineEventDetail({
+                    button,
+                    eventId: eventRow.event_id,
+                    hostRow: tr,
+                    colspan: 5,
+                  });
+                })
+              );
+
+              const venue = document.createElement("td");
+              venue.append(
+                createEntityLink("venue", eventRow.venue_id, eventRow.venue_name || "Unknown venue")
+              );
+
+              const date = document.createElement("td");
+              date.textContent = formatDate(eventRow.event_date);
+
+              const results = document.createElement("td");
+              results.textContent = formatEventResultsValue(eventRow);
+
+              tr.append(num, eventName, venue, date, results);
+              tbody.append(tr);
+            });
+
+            table.append(thead, tbody);
+            tableWrap.append(table);
+            seriesSection.append(tableWrap);
+          }
+
+          seriesBody.append(seriesSection);
+        });
+
+      seriesHead.addEventListener("click", () => {
+        const expanded = seriesHead.getAttribute("aria-expanded") === "true";
+        const nextExpanded = !expanded;
+        if (!nextExpanded) {
+          closeInlineDetailWithin(seriesBody);
+        }
+        seriesHead.setAttribute("aria-expanded", String(nextExpanded));
+        seriesBody.hidden = !nextExpanded;
+        seriesWrap.classList.toggle("is-expanded", nextExpanded);
+      });
+
+      sections.append(seriesWrap);
+    }
+
     detail.append(sections);
 
     toggle.addEventListener("click", () => {
@@ -1174,42 +1303,45 @@ function createCourseCard(course) {
   }
 
   const categoryRanked = hasCategoryRankedResults(course.results);
-  const tableWrap = document.createElement("div");
-  tableWrap.className = "table-wrap";
-  tableWrap.append(
-    buildEventResultsTable(course.results, {
-      showOverallRank: categoryRanked,
-      showCategoryRank: categoryRanked,
-      showDivision: true,
-    })
-  );
-  article.append(tableWrap);
 
   if (categoryRanked) {
-    const groupedWrap = document.createElement("div");
+    const buckets = groupResultsByCategory(course.results);
+    buckets.forEach((b) => { if (b.label === "Unspecified") b.label = "Public"; });
+    buckets.sort((a, b) => {
+      if (a.label === "Public") return -1;
+      if (b.label === "Public") return 1;
+      return a.label.localeCompare(b.label);
+    });
 
-    const groupedTitle = document.createElement("h4");
-    groupedTitle.textContent = "By Category";
-    groupedWrap.append(groupedTitle);
-
-    groupResultsByCategory(course.results).forEach((bucket) => {
-      const bucketTitle = document.createElement("h5");
+    buckets.forEach((bucket) => {
+      const bucketSection = document.createElement("div");
+      bucketSection.className = "event-course-category";
+      const bucketTitle = document.createElement("h4");
       bucketTitle.textContent = bucket.label;
-      groupedWrap.append(bucketTitle);
-
+      bucketSection.append(bucketTitle);
       const bucketTableWrap = document.createElement("div");
       bucketTableWrap.className = "table-wrap";
       bucketTableWrap.append(
         buildEventResultsTable(bucket.rows, {
-          showOverallRank: true,
-          showCategoryRank: true,
+          showOverallRank: false,
+          showCategoryRank: bucket.label !== "Public",
           showDivision: false,
         })
       );
-      groupedWrap.append(bucketTableWrap);
+      bucketSection.append(bucketTableWrap);
+      article.append(bucketSection);
     });
-
-    article.append(groupedWrap);
+  } else {
+    const tableWrap = document.createElement("div");
+    tableWrap.className = "table-wrap";
+    tableWrap.append(
+      buildEventResultsTable(course.results, {
+        showOverallRank: false,
+        showCategoryRank: false,
+        showDivision: true,
+      })
+    );
+    article.append(tableWrap);
   }
 
   return article;

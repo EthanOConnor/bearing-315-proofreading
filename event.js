@@ -511,42 +511,53 @@ function createCourseCard(course) {
   }
 
   const categoryRanked = hasCategoryRankedResults(course.results);
-  const tableWrap = document.createElement("div");
-  tableWrap.className = "table-wrap";
-  tableWrap.append(
-    buildResultsTable(course.results, {
-      showOverallRank: categoryRanked,
-      showCategoryRank: categoryRanked,
-      showDivision: true,
-    })
-  );
-  article.append(tableWrap);
 
   if (categoryRanked) {
-    const groupedWrap = document.createElement("div");
+    // Mixed public + category results (e.g., WIOL + public on same course).
+    // Show grouped by category as the primary view — matching the source
+    // presentation where public results appear first, then WIOL categories.
+    const buckets = groupResultsByCategory(course.results);
 
-    const groupedTitle = document.createElement("h4");
-    groupedTitle.textContent = "By Category";
-    groupedWrap.append(groupedTitle);
+    // Rename "Unspecified" to "Public" and sort so it comes first
+    buckets.forEach((b) => { if (b.label === "Unspecified") b.label = "Public"; });
+    buckets.sort((a, b) => {
+      if (a.label === "Public") return -1;
+      if (b.label === "Public") return 1;
+      return a.label.localeCompare(b.label);
+    });
 
-    groupResultsByCategory(course.results).forEach((bucket) => {
-      const bucketTitle = document.createElement("h5");
+    buckets.forEach((bucket) => {
+      const bucketSection = document.createElement("div");
+      bucketSection.className = "event-course-category";
+
+      const bucketTitle = document.createElement("h4");
       bucketTitle.textContent = bucket.label;
-      groupedWrap.append(bucketTitle);
+      bucketSection.append(bucketTitle);
 
       const bucketTableWrap = document.createElement("div");
       bucketTableWrap.className = "table-wrap";
       bucketTableWrap.append(
         buildResultsTable(bucket.rows, {
-          showOverallRank: true,
-          showCategoryRank: true,
+          showOverallRank: false,
+          showCategoryRank: bucket.label !== "Public",
           showDivision: false,
         })
       );
-      groupedWrap.append(bucketTableWrap);
+      bucketSection.append(bucketTableWrap);
+      article.append(bucketSection);
     });
-
-    article.append(groupedWrap);
+  } else {
+    // Single-category course — show flat results table
+    const tableWrap = document.createElement("div");
+    tableWrap.className = "table-wrap";
+    tableWrap.append(
+      buildResultsTable(course.results, {
+        showOverallRank: false,
+        showCategoryRank: false,
+        showDivision: true,
+      })
+    );
+    article.append(tableWrap);
   }
 
   return article;

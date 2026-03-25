@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project '77 - Snapshot Lists</title>
+    <link rel="icon" href="./favicon.ico">
+    <link rel="stylesheet" href="./site.css">
+    <script src="./snapshot-list.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <div class="hero-meta">
+            <a class="pill pill-link" href="./index.html">Back To Snapshot</a>
+          </div>
+          <h1 id="list-title">Snapshot List</h1>
+          <p class="hero-subtitle" id="list-subtitle">Choose a list from snapshot totals on the snapshot home page.</p>
+          <div class="hero-meta">
+            <span class="pill" id="generated-at">Loading list…</span>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel panel-wide">
+          <div class="panel-head">
+            <h2 id="list-heading">Loading…</h2>
+            <p id="list-description">Building snapshot list view.</p>
+          </div>
+          <p id="list-empty" class="muted" hidden></p>
+          <div class="table-wrap">
+            <table>
+              <thead id="list-head"></thead>
+              <tbody id="list-body"></tbody>
+            </table>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>

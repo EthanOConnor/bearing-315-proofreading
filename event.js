@@ -747,6 +747,18 @@ async function main() {
       courseList.replaceChildren();
       empty.hidden = false;
     }
+
+    // Historical (cumulative) notes at the very bottom
+    const histPanel = document.getElementById("event-historical-notes-panel");
+    const histTarget = document.getElementById("event-historical-notes");
+    if (detail.cumulative_event_comments) {
+      histTarget.replaceChildren();
+      detail.cumulative_event_comments.split(/\n{2,}/).forEach((paragraph) => {
+        const cleaned = paragraph.trim();
+        if (cleaned) appendTextLine(histTarget, cleaned);
+      });
+      histPanel.hidden = false;
+    }
   } catch (error) {
     console.error(error);
     renderError(error.message);

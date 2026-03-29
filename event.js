@@ -619,9 +619,14 @@ function renderMetadataPanel(detail) {
       role.textContent = roleRow.role_name || "Unspecified role";
 
       const volunteer = document.createElement("td");
-      volunteer.append(
-        createEntityLink("person", roleRow.individual_id, roleRow.individual_name || "(unknown volunteer)")
-      );
+      if (roleRow.team_id) {
+        // Teams don't have detail pages — show name as plain text
+        volunteer.textContent = roleRow.team_name || "(unknown team)";
+      } else {
+        volunteer.append(
+          createEntityLink("person", roleRow.individual_id, roleRow.individual_name || "(unknown volunteer)")
+        );
+      }
 
       const hours = document.createElement("td");
       hours.textContent = roleRow.volunteer_hours == null ? "—" : formatEventPageNumber(roleRow.volunteer_hours);

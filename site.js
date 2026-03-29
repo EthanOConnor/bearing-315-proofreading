@@ -350,12 +350,12 @@ function renderStats(summary) {
   const statsGrid = document.getElementById("stats-grid");
   const cards = [
     createStatCard(
-      "Competitions",
+      "COC Competitions",
       formatNumber(summary.competitions),
       `${summary.competition_event_date_min} to ${summary.competition_event_date_max}`,
       getSnapshotListUrl("competitions")
     ),
-    createStatCard("Results", formatNumber(summary.results), `${summary.result_event_date_min} to ${summary.result_event_date_max}`),
+    createStatCard("COC Results", formatNumber(summary.results), `${summary.result_event_date_min} to ${summary.result_event_date_max}`),
     createStatCard("Newsletter Issues", formatNumber(summary.newsletter_issues), `${summary.newsletter_date_min} to ${summary.newsletter_date_max}`),
     createStatCard(
       "People",

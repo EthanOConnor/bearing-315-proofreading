@@ -31,6 +31,37 @@ function formatClimbMeters(value) {
   return value == null ? null : `${formatEventPageNumber(value)} m climb`;
 }
 
+function formatCentiseconds(value) {
+  if (value == null || value === "") return "—";
+  const numeric = Number(value);
+  if (!Number.isFinite(numeric)) return "—";
+
+  const sign = numeric < 0 ? "-" : "";
+  let total = Math.abs(Math.round(numeric));
+  const hundredths = total % 100;
+  total = Math.floor(total / 100);
+  const seconds = total % 60;
+  const minutesTotal = Math.floor(total / 60);
+  const minutes = minutesTotal % 60;
+  const hours = Math.floor(minutesTotal / 60);
+  const time = hours > 0
+    ? `${hours}:${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`
+    : `${minutes}:${String(seconds).padStart(2, "0")}`;
+
+  return hundredths ? `${sign}${time}.${String(hundredths).padStart(2, "0")}` : `${sign}${time}`;
+}
+
+function createSplitTimeCell(value, estimated) {
+  const cell = document.createElement("td");
+  cell.className = "is-numeric";
+  cell.textContent = formatCentiseconds(value);
+  if (estimated) {
+    cell.classList.add("is-estimated");
+    cell.title = "WinSplits Online estimated value";
+  }
+  return cell;
+}
+
 function formatEventStatusLabel(value) {
   switch (value) {
     case "canceled":
@@ -330,6 +361,9 @@ function createCompetitorNode(resultRow) {
   if (resultRow.individual_id) {
     return createEntityLink("person", resultRow.individual_id, resultRow.competitor_name || "(unnamed competitor)");
   }
+  if (resultRow.team_id) {
+    return createEntityLink("team", resultRow.team_id, resultRow.competitor_name || "(unnamed team)");
+  }
 
   const span = document.createElement("span");
   span.textContent = resultRow.competitor_name || "(unnamed competitor)";
@@ -382,9 +416,60 @@ function groupResultsByCategory(results = []) {
   return buckets;
 }
 
+function createSplitsTable(resultRow) {
+  const splits = Array.isArray(resultRow.splits) ? resultRow.splits : [];
+  const container = document.createElement("div");
+  container.className = "split-detail";
+
+  if (resultRow.split_source_label || resultRow.split_source_kind) {
+    const source = document.createElement("div");
+    source.className = "split-source-label";
+    source.textContent = [resultRow.split_source_label, formatCodeLabel(resultRow.split_source_kind)]
+      .filter(Boolean)
+      .join(" · ");
+    container.append(source);
+  }
+
+  const table = document.createElement("table");
+  table.className = "split-table";
+
+  const thead = document.createElement("thead");
+  setTableHead(thead, ["#", "Code", "Split", "Leg"]);
+
+  const tbody = document.createElement("tbody");
+  splits.forEach((splitRow) => {
+    const tr = document.createElement("tr");
+
+    const sequence = document.createElement("td");
+    sequence.className = "is-numeric";
+    sequence.textContent = splitRow.sequence == null ? "—" : formatEventPageNumber(splitRow.sequence);
+
+    const code = document.createElement("td");
+    code.textContent = splitRow.control_code || "—";
+
+    const cumulative = createSplitTimeCell(
+      splitRow.cumulative_centiseconds,
+      Boolean(splitRow.cumulative_estimated),
+    );
+
+    const leg = createSplitTimeCell(
+      splitRow.leg_centiseconds,
+      Boolean(splitRow.leg_estimated),
+    );
+
+    tr.append(sequence, code, cumulative, leg);
+    tbody.append(tr);
+  });
+
+  table.append(thead, tbody);
+  container.append(table);
+  return container;
+}
+
 function buildResultsTable(resultRows, { showOverallRank = false, showCategoryRank = false, showDivision = true } = {}) {
   const table = document.createElement("table");
   table.className = "event-results-table";
+  const showSplits = resultRows.some((resultRow) => Array.isArray(resultRow.splits) && resultRow.splits.length);
 
   const labels = [];
   if (showOverallRank) {
@@ -395,7 +480,9 @@ function buildResultsTable(resultRows, { showOverallRank = false, showCategoryRa
   if (showCategoryRank) labels.push("Category");
   labels.push("Competitor");
   if (showDivision) labels.push("Division");
-  labels.push("Outcome", "Affiliation");
+  labels.push("Outcome");
+  if (showSplits) labels.push("Splits");
+  labels.push("Affiliation");
 
   const thead = document.createElement("thead");
   const headRow = document.createElement("tr");
@@ -407,8 +494,9 @@ function buildResultsTable(resultRows, { showOverallRank = false, showCategoryRa
   thead.append(headRow);
 
   const tbody = document.createElement("tbody");
-  resultRows.forEach((resultRow) => {
+  resultRows.forEach((resultRow, rowIndex) => {
     const tr = document.createElement("tr");
+    const splits = Array.isArray(resultRow.splits) ? resultRow.splits : [];
 
     const overallRank = resultRow.overall_rank ?? resultRow.course_rank;
     const place = document.createElement("td");
@@ -461,6 +549,41 @@ function buildResultsTable(resultRows, { showOverallRank = false, showCategoryRa
     }
     tr.append(outcome);
 
+    let splitDetailRow = null;
+    if (showSplits) {
+      const splitCell = document.createElement("td");
+      if (splits.length) {
+        const detailId = `split-detail-${resultRow.result_id || rowIndex}`;
+        const toggle = document.createElement("button");
+        toggle.type = "button";
+        toggle.className = "split-toggle";
+        toggle.textContent = `Splits (${formatEventPageNumber(splits.length)})`;
+        toggle.setAttribute("aria-expanded", "false");
+        toggle.setAttribute("aria-controls", detailId);
+
+        splitDetailRow = document.createElement("tr");
+        splitDetailRow.className = "split-detail-row";
+        splitDetailRow.id = detailId;
+        splitDetailRow.hidden = true;
+
+        const splitDetailCell = document.createElement("td");
+        splitDetailCell.colSpan = labels.length;
+        splitDetailCell.append(createSplitsTable(resultRow));
+        splitDetailRow.append(splitDetailCell);
+
+        toggle.addEventListener("click", () => {
+          const expanded = toggle.getAttribute("aria-expanded") === "true";
+          toggle.setAttribute("aria-expanded", expanded ? "false" : "true");
+          splitDetailRow.hidden = expanded;
+        });
+
+        splitCell.append(toggle);
+      } else {
+        splitCell.textContent = "—";
+      }
+      tr.append(splitCell);
+    }
+
     const affiliation = document.createElement("td");
     const affiliationNodes = createAffiliationNodes(resultRow);
     if (affiliationNodes.length) {
@@ -471,6 +594,7 @@ function buildResultsTable(resultRows, { showOverallRank = false, showCategoryRa
     tr.append(affiliation);
 
     tbody.append(tr);
+    if (splitDetailRow) tbody.append(splitDetailRow);
   });
 
   table.append(thead, tbody);
@@ -490,6 +614,9 @@ function createCourseCard(course) {
   const stats = document.createElement("div");
   stats.className = "event-course-stats";
   stats.append(createStatusChip(`${formatEventPageNumber(course.result_count)} results`));
+  if (Number(course.split_result_count || 0) > 0) {
+    stats.append(createStatusChip(`${formatEventPageNumber(course.split_result_count)} with splits`, "subtle"));
+  }
 
   const distance = formatDistanceKm(course.distance_km);
   if (distance) stats.append(createStatusChip(distance, "subtle"));
@@ -668,6 +795,13 @@ function buildEventSubtitle(detail) {
     detail.venue_name || "Unknown venue",
   ];
 
+  if (detail.event_kind === "aggregate") {
+    parts.push("Combined results from multiple races");
+  }
+  if (detail.scoring_alias_of) {
+    parts.push(`Same race as: ${detail.scoring_alias_of_name || "another event"}`);
+  }
+
   const statusLabel = formatEventStatusLabel(detail.event_status);
   if (statusLabel) {
     parts.push(`Status: ${statusLabel}`);
@@ -684,6 +818,9 @@ function buildEventSubtitle(detail) {
 
 function buildEventResultsCopy(detail) {
   if (Number(detail.result_count || 0) > 0) {
+    if (Number(detail.split_result_count || 0) > 0) {
+      return "Course-by-course results with split details exported for this event.";
+    }
     return "Course-by-course results exported for this event.";
   }
 
@@ -736,6 +873,9 @@ async function main() {
     ),
       ...(detail.event_status ? [createDetailFact("Status", formatEventStatusLabel(detail.event_status))] : []),
       createDetailFact("Results", formatEventResultsValue(detail)),
+      ...(Number(detail.split_result_count || 0) > 0
+        ? [createDetailFact("Splits", `${formatEventPageNumber(detail.split_result_count)} result rows`)]
+        : []),
       createDetailFact("Courses", formatEventPageNumber(detail.course_count)),
       createDetailFact("Citations", formatEventPageNumber(detail.citation_count)),
     ];

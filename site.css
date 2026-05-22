@@ -838,6 +838,64 @@ code {
   white-space: nowrap;
 }
 
+.event-results-table .split-toggle {
+  padding: 3px 0;
+  border: 0;
+  background: transparent;
+  color: var(--accent);
+  font: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 0.14em;
+  cursor: pointer;
+}
+
+.event-results-table .split-toggle:hover {
+  color: var(--signal);
+}
+
+.event-results-table .split-toggle:focus-visible {
+  outline: 2px solid rgba(40, 89, 67, 0.35);
+  outline-offset: 3px;
+}
+
+.split-detail-row > td {
+  padding: 0 10px 14px;
+  background: rgba(255, 255, 255, 0.32);
+}
+
+.split-detail {
+  display: grid;
+  gap: 8px;
+  max-width: 42rem;
+  padding-top: 10px;
+}
+
+.split-source-label {
+  color: var(--muted);
+  font-size: 0.82rem;
+}
+
+.split-table {
+  font-size: 0.86rem;
+}
+
+.split-table th,
+.split-table td {
+  padding: 6px 8px;
+}
+
+.split-table td.is-numeric {
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+
+.split-table td.is-estimated {
+  color: var(--muted);
+  font-style: italic;
+}
+
 .status-chip.subtle {
   background: rgba(31, 43, 33, 0.08);
   color: var(--muted);

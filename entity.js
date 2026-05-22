@@ -72,7 +72,11 @@ function getDetailCandidates(type, id) {
     ? "person-details"
     : type === "organization"
       ? "organization-details"
-      : "venue-details";
+      : type === "series"
+        ? "series-details"
+        : type === "team"
+          ? "team-details"
+          : "venue-details";
   return getDataCandidates(`${folder}/${id}.json`);
 }
 
@@ -269,7 +273,10 @@ function renderPerson(detail) {
         fromId: detail.individual_id,
       })
     );
-    appendTextLine(eventName, eventRow.event_kind || "unknown kind", "muted");
+    const kindParts = [eventRow.event_kind || "unknown kind"];
+    if (eventRow.event_kind === "aggregate") kindParts.push("(combined results)");
+    if (eventRow.scoring_alias_of) kindParts.push("(same race, different scoring)");
+    appendTextLine(eventName, kindParts.join(" "), "muted");
 
     const venue = document.createElement("td");
     venue.append(createEntityLink("venue", eventRow.venue_id, eventRow.venue_name || "Unknown venue"));
@@ -491,6 +498,7 @@ function renderVenue(detail) {
 
     const kind = document.createElement("td");
     kind.append(createStatusChip(eventRow.event_kind || "unknown"));
+    if (eventRow.scoring_alias_of) kind.append(document.createTextNode(" "), createStatusChip("scoring alias"));
 
     const club = document.createElement("td");
     club.append(
@@ -701,6 +709,341 @@ function renderOrganization(detail) {
   }
 }
 
+function renderSeries(detail) {
+  document.title = `${detail.series_name} · Project '77`;
+
+  const title = document.getElementById("entity-title");
+  const subtitle = document.getElementById("entity-subtitle");
+  const meta = document.getElementById("entity-meta");
+
+  title.textContent = detail.series_name;
+  subtitle.textContent = "Series standings from archived web pages.";
+
+  const yearRange = detail.summary?.year_range || "";
+  if (yearRange) {
+    const chip = createStatusChip(yearRange, "subtle");
+    meta.replaceChildren(chip);
+  }
+
+  renderSummaryCards([
+    createStatCard("Seasons", formatEntityNumber(detail.summary?.season_count)),
+    createStatCard("Standings", formatEntityNumber(detail.summary?.standing_count)),
+  ]);
+
+  document.getElementById("entity-aliases").hidden = true;
+  document.getElementById("entity-description").hidden = true;
+
+  // Render seasons as expandable sections in the events panel
+  const eventsHeading = document.getElementById("entity-events-heading");
+  const eventsCopy = document.getElementById("entity-events-copy");
+  eventsHeading.textContent = "Seasons";
+  eventsCopy.textContent = "Click a season to view standings.";
+
+  const eventsWrap = document.getElementById("entity-events-wrap");
+  const eventsEmpty = document.getElementById("entity-events-empty");
+  const eventsBody = document.getElementById("entity-events-body");
+
+  const seasons = (detail.seasons || []).filter(
+    (s) => s.categories?.some((c) => c.standings?.length > 0)
+  );
+
+  if (!seasons.length) {
+    eventsWrap.hidden = true;
+    eventsEmpty.textContent = "No standings data available for this series.";
+    eventsEmpty.hidden = false;
+  } else {
+    setTableHead(document.getElementById("entity-events-head"), [
+      "Season", "Best N", "Events", "Standings", ""
+    ]);
+
+    const rows = [];
+    seasons.forEach((season) => {
+      const standingCount = season.categories?.reduce((sum, c) => sum + (c.standings?.length || 0), 0) || 0;
+      const eventCount = season.events?.length || 0;
+
+      const tr = document.createElement("tr");
+      tr.style.cursor = "pointer";
+
+      const labelTd = document.createElement("td");
+      labelTd.innerHTML = `<strong>${season.season_label}</strong>`;
+
+      const bestNTd = document.createElement("td");
+      bestNTd.textContent = season.best_n_count ? `Best ${season.best_n_count}` : "—";
+
+      const eventsTd = document.createElement("td");
+      eventsTd.textContent = formatEntityNumber(eventCount);
+
+      const standingsTd = document.createElement("td");
+      standingsTd.textContent = formatEntityNumber(standingCount);
+
+      const toggleTd = document.createElement("td");
+      toggleTd.textContent = "\u25B6";
+      toggleTd.style.transition = "transform 0.2s";
+
+      tr.append(labelTd, bestNTd, eventsTd, standingsTd, toggleTd);
+      rows.push(tr);
+
+      // Detail row (hidden by default)
+      const detailTr = document.createElement("tr");
+      detailTr.hidden = true;
+      const detailTd = document.createElement("td");
+      detailTd.colSpan = 5;
+      detailTd.style.padding = "0.5rem 1rem 1rem";
+      detailTd.style.background = "var(--bg-inset, #f5f5f5)";
+
+      // Event list
+      if (season.events?.length) {
+        const evHead = document.createElement("h4");
+        evHead.textContent = "Events";
+        evHead.style.margin = "0.5rem 0 0.25rem";
+        detailTd.append(evHead);
+
+        const evTable = document.createElement("table");
+        evTable.style.width = "100%";
+        evTable.style.fontSize = "0.85rem";
+        const evThead = document.createElement("thead");
+        const evHeaderRow = document.createElement("tr");
+        ["#", "Date", "Venue", "Results"].forEach((h) => {
+          const th = document.createElement("th");
+          th.textContent = h;
+          th.style.textAlign = "left";
+          evHeaderRow.append(th);
+        });
+        evThead.append(evHeaderRow);
+        evTable.append(evThead);
+
+        const evBody = document.createElement("tbody");
+        season.events.forEach((ev) => {
+          const evRow = document.createElement("tr");
+          const numTd = document.createElement("td");
+          numTd.textContent = ev.series_event_number;
+          const dateTd = document.createElement("td");
+          dateTd.textContent = formatEntityDate(ev.event_date);
+          const venueTd = document.createElement("td");
+          if (ev.venue_id) {
+            venueTd.append(createEntityLink("venue", ev.venue_id, ev.venue_name || ev.event_name));
+          } else {
+            venueTd.textContent = ev.venue_name || ev.event_name;
+          }
+          const resTd = document.createElement("td");
+          if (ev.event_id) {
+            const link = document.createElement("a");
+            link.href = getEventUrl(ev.event_id);
+            link.textContent = formatEntityEventResultsValue(ev);
+            resTd.append(link);
+          } else {
+            resTd.textContent = formatEntityEventResultsValue(ev);
+          }
+          evRow.append(numTd, dateTd, venueTd, resTd);
+          evBody.append(evRow);
+        });
+        evTable.append(evBody);
+        detailTd.append(evTable);
+      }
+
+      // Standings by category
+      (season.categories || []).forEach((cat) => {
+        if (!cat.standings?.length) return;
+
+        const catHead = document.createElement("h4");
+        catHead.textContent = cat.category_name;
+        catHead.style.margin = "1rem 0 0.25rem";
+        detailTd.append(catHead);
+
+        const eventNums = season.events?.map((e) => e.series_event_number) || [];
+
+        const sTable = document.createElement("table");
+        sTable.style.width = "100%";
+        sTable.style.fontSize = "0.85rem";
+        const sThead = document.createElement("thead");
+        const sHeaderRow = document.createElement("tr");
+        const headers = ["#", "Name"];
+        eventNums.forEach((n) => {
+          headers.push(String(n));
+        });
+        headers.push("Total");
+        headers.forEach((h) => {
+          const th = document.createElement("th");
+          th.textContent = h;
+          th.style.textAlign = h === "Name" ? "left" : "right";
+          if (h !== "#" && h !== "Name") th.style.minWidth = "2.5rem";
+          sHeaderRow.append(th);
+        });
+        sThead.append(sHeaderRow);
+        sTable.append(sThead);
+
+        const sBody = document.createElement("tbody");
+        cat.standings.forEach((st, idx) => {
+          const sRow = document.createElement("tr");
+          const rankTd = document.createElement("td");
+          rankTd.textContent = st.rank ?? (idx + 1);
+          rankTd.style.textAlign = "right";
+
+          const nameTd = document.createElement("td");
+          if (st.individual_id) {
+            nameTd.append(createEntityLink("person", st.individual_id, st.competitor_name || "(unknown)"));
+          } else {
+            nameTd.textContent = st.competitor_name || "(unknown)";
+          }
+
+          sRow.append(rankTd, nameTd);
+
+          eventNums.forEach((n) => {
+            const ptsTd = document.createElement("td");
+            ptsTd.style.textAlign = "right";
+            const pts = st.event_points?.[String(n)];
+            ptsTd.textContent = pts != null ? formatEntityNumber(pts) : "–";
+            if (pts == null) ptsTd.style.color = "#aaa";
+            sRow.append(ptsTd);
+          });
+
+          const totalTd = document.createElement("td");
+          totalTd.style.textAlign = "right";
+          totalTd.innerHTML = `<strong>${formatEntityNumber(st.total_points)}</strong>`;
+          sRow.append(totalTd);
+
+          sBody.append(sRow);
+        });
+        sTable.append(sBody);
+        detailTd.append(sTable);
+      });
+
+      detailTr.append(detailTd);
+      rows.push(detailTr);
+
+      // Toggle handler
+      tr.addEventListener("click", () => {
+        const isExpanding = detailTr.hidden;
+        detailTr.hidden = !isExpanding;
+        toggleTd.textContent = isExpanding ? "\u25BC" : "\u25B6";
+      });
+    });
+
+    eventsBody.replaceChildren(...rows);
+    eventsWrap.hidden = false;
+    eventsEmpty.hidden = true;
+  }
+
+  // Hide unused panels
+  document.getElementById("entity-roles-panel").hidden = true;
+  document.getElementById("entity-mentions-panel").hidden = true;
+}
+
+function renderTeam(detail) {
+  document.title = `${detail.team_name} · Project '77`;
+
+  const title = document.getElementById("entity-title");
+  const subtitle = document.getElementById("entity-subtitle");
+  const meta = document.getElementById("entity-meta");
+
+  title.textContent = detail.team_name;
+  subtitle.textContent = detail.relay_team ? "Relay team" : "Team";
+
+  const chips = [];
+  if (detail.summary?.first_year && detail.summary?.last_year) {
+    chips.push(createStatusChip(
+      detail.summary.first_year === detail.summary.last_year
+        ? String(detail.summary.first_year)
+        : `${detail.summary.first_year}–${detail.summary.last_year}`,
+      "subtle"
+    ));
+  }
+  (detail.affiliations || []).forEach((aff) => {
+    if (aff.organization_id) {
+      const link = document.createElement("a");
+      link.href = getEntityUrl("organization", aff.organization_id);
+      link.textContent = aff.organization_name || "org";
+      link.className = "pill pill-link";
+      chips.push(link);
+    }
+  });
+  meta.replaceChildren(...chips);
+
+  renderSummaryCards([
+    createStatCard("Results", formatEntityNumber(detail.summary?.result_count)),
+    createStatCard("Events", formatEntityNumber(detail.summary?.event_count)),
+    createStatCard("Members", formatEntityNumber((detail.members || []).length)),
+  ]);
+
+  // Members as aliases area
+  const aliasesEl = document.getElementById("entity-aliases");
+  if (detail.members?.length) {
+    const memberNodes = detail.members.map((m) => {
+      if (m.individual_id) {
+        const link = document.createElement("a");
+        link.href = getEntityUrl("person", m.individual_id);
+        link.textContent = m.individual_name || "(unnamed)";
+        link.className = "status-chip subtle";
+        return link;
+      }
+      return createStatusChip(m.individual_name || "(unnamed)", "subtle");
+    });
+    aliasesEl.replaceChildren(...memberNodes);
+    aliasesEl.hidden = false;
+  } else {
+    aliasesEl.hidden = true;
+  }
+
+  document.getElementById("entity-description").hidden = true;
+
+  // Events table
+  const eventsHeading = document.getElementById("entity-events-heading");
+  const eventsCopy = document.getElementById("entity-events-copy");
+  eventsHeading.textContent = "Results";
+  eventsCopy.textContent = "Event results for this team.";
+
+  setTableHead(document.getElementById("entity-events-head"), [
+    "Date", "Event", "Course", "Time", "Rank"
+  ]);
+
+  const eventRows = (detail.events || []).map((ev) => {
+    const tr = document.createElement("tr");
+
+    const dateTd = document.createElement("td");
+    dateTd.textContent = formatEntityDate(ev.event_date);
+
+    const eventTd = document.createElement("td");
+    if (ev.event_id) {
+      const link = document.createElement("a");
+      link.href = getEventUrl(ev.event_id);
+      link.textContent = ev.event_name || "(event)";
+      eventTd.append(link);
+    } else {
+      eventTd.textContent = ev.event_name || "—";
+    }
+
+    const courseTd = document.createElement("td");
+    courseTd.textContent = ev.course_name || "—";
+
+    const timeTd = document.createElement("td");
+    timeTd.textContent = ev.time || "—";
+
+    const rankTd = document.createElement("td");
+    rankTd.textContent = ev.course_rank != null ? `#${ev.course_rank}` : "—";
+
+    tr.append(dateTd, eventTd, courseTd, timeTd, rankTd);
+    return tr;
+  });
+
+  const eventsBody = document.getElementById("entity-events-body");
+  const eventsWrap = document.getElementById("entity-events-wrap");
+  const eventsEmpty = document.getElementById("entity-events-empty");
+
+  if (eventRows.length) {
+    eventsBody.replaceChildren(...eventRows);
+    eventsWrap.hidden = false;
+    eventsEmpty.hidden = true;
+  } else {
+    eventsBody.replaceChildren();
+    eventsWrap.hidden = true;
+    eventsEmpty.textContent = "No results exported for this team.";
+    eventsEmpty.hidden = false;
+  }
+
+  document.getElementById("entity-roles-panel").hidden = true;
+  document.getElementById("entity-mentions-panel").hidden = true;
+}
+
 function renderError(message) {
   document.title = "Entity Unavailable · Project '77";
   document.getElementById("entity-title").textContent = "Detail Unavailable";
@@ -724,7 +1067,7 @@ async function main() {
   const type = params.get("type");
   const id = params.get("id");
 
-  if (!id || (type !== "person" && type !== "venue" && type !== "organization")) {
+  if (!id || !["person", "venue", "organization", "series", "team"].includes(type)) {
     renderError("Missing or invalid detail parameters.");
     return;
   }
@@ -735,6 +1078,10 @@ async function main() {
       renderPerson(detail);
     } else if (type === "organization") {
       renderOrganization(detail);
+    } else if (type === "series") {
+      renderSeries(detail);
+    } else if (type === "team") {
+      renderTeam(detail);
     } else {
       renderVenue(detail);
     }

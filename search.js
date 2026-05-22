@@ -165,6 +165,9 @@
       if (entry.result_count) parts.push(`${formatNumber(entry.result_count)} results`);
       if (entry.event_count) parts.push(`${formatNumber(entry.event_count)} affiliated events`);
       if (entry.organized_event_count) parts.push(`${formatNumber(entry.organized_event_count)} organized events`);
+    } else if (entry.type === "team") {
+      if (entry.result_count) parts.push(`${formatNumber(entry.result_count)} results`);
+      if (entry.event_count) parts.push(`${formatNumber(entry.event_count)} events`);
     } else {
       if (entry.event_count) parts.push(`${formatNumber(entry.event_count)} events`);
       if (entry.mention_count) parts.push(`${formatNumber(entry.mention_count)} mentions`);
@@ -241,7 +244,9 @@
             ? "Person"
             : result.item.type === "organization"
               ? "Club"
-              : "Venue";
+              : result.item.type === "team"
+                ? "Team"
+                : "Venue";
         const badge = createStatusChip(badgeLabel, "subtle");
         head.append(title, badge);
 

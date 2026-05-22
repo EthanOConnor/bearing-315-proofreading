@@ -140,8 +140,12 @@ function getCocCompetitionEvents(events = []) {
   return events.filter((eventRow) => (eventRow.coverage_section || "non_coc") === "coc_competition");
 }
 
+function getOccurredCocCompetitionEvents(events = []) {
+  return getCocCompetitionEvents(events).filter((eventRow) => eventRow.event_status !== "canceled");
+}
+
 function getCocCompetitionResultCount(events = []) {
-  return getCocCompetitionEvents(events).reduce(
+  return getOccurredCocCompetitionEvents(events).reduce(
     (sum, eventRow) => sum + Number(eventRow.result_count || 0),
     0
   );
@@ -412,7 +416,7 @@ function renderStackList(targetId, rows, labelKey, valueKey) {
 function renderCoverage(rows) {
   const target = document.getElementById("coverage-chart");
   const maxEvents = Math.max(
-    ...rows.map((row) => getCocCompetitionEvents(row.events || []).length),
+    ...rows.map((row) => getOccurredCocCompetitionEvents(row.events || []).length),
     1
   );
   const coverageSections = [
@@ -424,7 +428,11 @@ function renderCoverage(rows) {
     { key: "non_coc", label: "Non-COC Events" },
   ];
 
-  const items = rows.map((row) => {
+  const orderedRows = rows
+    .slice()
+    .sort((a, b) => Number(b.year) - Number(a.year));
+
+  const items = orderedRows.map((row) => {
     const wrapper = document.createElement("section");
     wrapper.className = "coverage-year";
 
@@ -447,7 +455,7 @@ function renderCoverage(rows) {
     bars.className = "coverage-bars";
 
     const events = row.events || [];
-    const cocCompetitionEvents = getCocCompetitionEvents(events);
+    const cocCompetitionEvents = getOccurredCocCompetitionEvents(events);
     const competitionEventCount = cocCompetitionEvents.length;
     const competitionEventsWithResultsCount = cocCompetitionEvents.filter(
       (eventRow) => Number(eventRow.result_count || 0) > 0
@@ -633,7 +641,14 @@ function renderCoverage(rows) {
 
           const groupTitle = document.createElement("h4");
           groupTitle.className = "series-group-title";
-          groupTitle.textContent = seriesInfo.series_name;
+          if (seriesInfo.series_id) {
+            const seriesLink = document.createElement("a");
+            seriesLink.href = `./entity.html?type=series&id=${encodeURIComponent(seriesInfo.series_id)}`;
+            seriesLink.textContent = seriesInfo.series_name;
+            groupTitle.append(seriesLink);
+          } else {
+            groupTitle.textContent = seriesInfo.series_name;
+          }
 
           const groupMeta = document.createElement("span");
           groupMeta.className = "muted";

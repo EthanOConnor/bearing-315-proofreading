@@ -937,11 +937,19 @@ code {
 }
 
 .event-load-summary {
+  cursor: pointer;
+}
+
+.event-load-summary-copy,
+.event-load-summary-title {
+  min-width: 0;
+}
+
+.event-load-summary-title {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 18px;
-  cursor: pointer;
+  justify-content: flex-start;
+  gap: 12px;
 }
 
 .event-load-summary:focus-visible {
@@ -962,7 +970,6 @@ code {
 
 .event-load-credit {
   color: var(--ink);
-  font-weight: 650;
   white-space: nowrap;
 }
 
@@ -978,7 +985,7 @@ code {
 }
 
 .event-load-toggle::before {
-  content: "Show charts";
+  content: "Show Charts";
 }
 
 .event-load-toggle::after {
@@ -986,7 +993,7 @@ code {
 }
 
 .event-load-disclosure[open] .event-load-toggle::before {
-  content: "Hide charts";
+  content: "Hide Charts";
 }
 
 .event-load-disclosure[open] .event-load-toggle::after {
@@ -1503,8 +1510,11 @@ mark {
   }
 
   .event-load-summary {
+    display: block;
+  }
+
+  .event-load-summary-title {
     align-items: flex-start;
-    flex-direction: column;
   }
 
   .event-load-credit {

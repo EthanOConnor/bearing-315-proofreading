@@ -49,11 +49,15 @@
         </section>
 
         <section class="panel panel-wide" id="event-load-panel" hidden>
-          <div class="panel-head">
-            <h2>Course, Start, And Finish Load</h2>
-            <p id="event-load-copy">How many runners were on course and how quickly they started and finished.</p>
-          </div>
-          <div class="event-load-charts">
+          <details class="event-load-disclosure">
+            <summary class="event-load-summary">
+              <div class="event-load-summary-copy">
+                <h2>Course, Start, Finish, And Control Load</h2>
+                <p><span id="event-load-copy">Explore runner and control load over the course of the event.</span> <span class="event-load-credit">Analysis by Mike Schuh.</span></p>
+              </div>
+              <span class="event-load-toggle" aria-hidden="true"></span>
+            </summary>
+            <div class="event-load-charts">
             <article class="event-load-chart-card">
               <div class="event-load-chart-head">
                 <div>
@@ -82,12 +86,13 @@
               <div class="event-load-chart-head">
                 <div>
                   <h3>Control Punch Load</h3>
-                  <p>Recorded punches at each control in five-minute periods; darker cells mean more punches.</p>
+                  <p id="event-control-copy">Recorded punches at each control in five-minute periods; darker cells mean more punches.</p>
                 </div>
               </div>
               <div class="event-load-chart event-control-chart" id="event-control-chart"></div>
             </article>
-          </div>
+            </div>
+          </details>
         </section>
 
         <section class="panel panel-wide" id="event-metadata-panel" hidden>

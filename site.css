@@ -928,6 +928,75 @@ code {
   gap: 16px;
 }
 
+.event-load-disclosure > summary {
+  list-style: none;
+}
+
+.event-load-disclosure > summary::-webkit-details-marker {
+  display: none;
+}
+
+.event-load-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  cursor: pointer;
+}
+
+.event-load-summary:focus-visible {
+  outline: 2px solid rgba(40, 89, 67, 0.35);
+  outline-offset: 8px;
+  border-radius: 10px;
+}
+
+.event-load-summary-copy h2 {
+  margin: 0;
+}
+
+.event-load-summary-copy p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.event-load-credit {
+  color: var(--ink);
+  font-weight: 650;
+  white-space: nowrap;
+}
+
+.event-load-toggle {
+  flex: 0 0 auto;
+  padding: 9px 13px;
+  border: 1px solid rgba(40, 89, 67, 0.2);
+  border-radius: 999px;
+  background: rgba(255, 252, 246, 0.72);
+  color: var(--accent);
+  font-size: 0.86rem;
+  font-weight: 700;
+}
+
+.event-load-toggle::before {
+  content: "Show charts";
+}
+
+.event-load-toggle::after {
+  content: " ↓";
+}
+
+.event-load-disclosure[open] .event-load-toggle::before {
+  content: "Hide charts";
+}
+
+.event-load-disclosure[open] .event-load-toggle::after {
+  content: " ↑";
+}
+
+.event-load-disclosure[open] .event-load-summary {
+  margin-bottom: 18px;
+}
+
 .event-load-chart-card {
   min-width: 0;
   padding: 18px;
@@ -1431,6 +1500,15 @@ mark {
   .event-inline-shell,
   .event-course {
     padding: 16px;
+  }
+
+  .event-load-summary {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .event-load-credit {
+    white-space: normal;
   }
 
   .entity-result-summaries {

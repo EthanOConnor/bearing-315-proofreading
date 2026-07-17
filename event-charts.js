@@ -536,11 +536,20 @@
     const timedCount = intervals.reduce((sum, row) => sum + row.count, 0);
     const courseCount = new Set(intervals.map((row) => row.courseId || row.courseName)).size;
     document.getElementById("event-load-copy").textContent = (
-      `Based on ${timedCount.toLocaleString("en-US")} results with paired electronic start and finish times across `
+      `Based on ${timedCount.toLocaleString("en-US")} electronic timing records across `
       + `${courseCount.toLocaleString("en-US")} course${courseCount === 1 ? "" : "s"}. Hover for course detail.`
     );
 
     const domain = getTimeDomain(intervals);
+    const controlResultCount = Number(detail?.control_timed_result_count || 0);
+    const controlCourseCount = Number(detail?.control_timed_course_count || 0);
+    const controlCopy = document.getElementById("event-control-copy");
+    if (controlCopy && controlResultCount > 0) {
+      controlCopy.textContent = (
+        `${controlResultCount.toLocaleString("en-US")} electronic punch records across `
+        + `${controlCourseCount.toLocaleString("en-US")} course${controlCourseCount === 1 ? "" : "s"}, grouped into five-minute periods; darker cells mean more punches.`
+      );
+    }
     renderOccupancyChart(document.getElementById("event-occupancy-chart"), intervals, domain);
     renderRateChart(document.getElementById("event-rate-chart"), intervals, domain);
     renderControlChart(

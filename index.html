@@ -57,13 +57,23 @@
         <section class="panel panel-wide">
           <div class="panel-head">
             <h2>Coverage By Year</h2>
-            <p>Competition coverage at a glance, with full grouped event lists behind each year. Year bars count competitions only; opening a year shows all currently attached events.</p>
+            <p>Competition coverage at a glance, with full grouped event lists behind each year. Year bars count COC events only; opening a year shows all currently attached events.</p>
           </div>
           <div class="coverage-legend">
-            <span><i class="legend-swatch events"></i> COC Competitions</span>
-            <span><i class="legend-swatch results"></i> COC Competitions With Results</span>
+            <span><i class="legend-swatch events"></i> COC Events</span>
+            <span><i class="legend-swatch results"></i> COC Events With Results</span>
           </div>
           <div id="coverage-chart" class="coverage-chart"></div>
+        </section>
+
+        <section class="panel panel-wide">
+          <div class="panel-head">
+            <h2>Series Coverage</h2>
+            <p>Known season membership and result coverage by series season start year.</p>
+          </div>
+          <div class="stats-grid compact" id="series-coverage-summary"></div>
+          <div class="series-coverage-shell" id="series-coverage-matrix"></div>
+          <div class="series-incomplete" id="series-incomplete-list"></div>
         </section>
 
         <section class="panel">

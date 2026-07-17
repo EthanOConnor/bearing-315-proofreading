@@ -784,6 +784,7 @@ function renderError(message) {
   document.getElementById("event-title").textContent = "Event Unavailable";
   document.getElementById("event-subtitle").textContent = message;
   document.getElementById("event-summary-panel").hidden = true;
+  document.getElementById("event-load-panel").hidden = true;
   document.getElementById("event-metadata-panel").hidden = true;
   document.getElementById("event-results-panel").hidden = true;
 }
@@ -880,6 +881,7 @@ async function main() {
       createDetailFact("Citations", formatEventPageNumber(detail.citation_count)),
     ];
     document.getElementById("event-summary-facts").replaceChildren(...facts);
+    window.Project77EventCharts?.renderMeetLoadCharts(detail);
     renderMetadataPanel(detail);
 
     const courseCards = (detail.courses || []).map(createCourseCard);

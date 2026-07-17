@@ -413,6 +413,33 @@ function renderStackList(targetId, rows, labelKey, valueKey) {
   target.replaceChildren(...items);
 }
 
+function getEventSeriesMemberships(eventRow) {
+  if (Array.isArray(eventRow.series_memberships) && eventRow.series_memberships.length > 0) {
+    return eventRow.series_memberships;
+  }
+  if (eventRow.series_name) {
+    return [{
+      series_id: eventRow.series_id || null,
+      series_name: eventRow.series_name,
+      series_number: eventRow.series_number,
+    }];
+  }
+  return [];
+}
+
+function findEventSeriesMembership(eventRow, seriesInfo) {
+  return getEventSeriesMemberships(eventRow).find((membership) => (
+    (seriesInfo.series_id && membership.series_id === seriesInfo.series_id)
+    || membership.series_name === seriesInfo.series_name
+  ));
+}
+
+function formatSeriesEventNumber(membership) {
+  if (!membership) return "";
+  if (membership.series_number != null) return `#${membership.series_number}`;
+  return membership.series_label || "";
+}
+
 function renderCoverage(rows) {
   const target = document.getElementById("coverage-chart");
   const maxEvents = Math.max(
@@ -420,7 +447,7 @@ function renderCoverage(rows) {
     1
   );
   const coverageSections = [
-    { key: "coc_competition", label: "COC Competitions" },
+    { key: "coc_competition", label: "COC Events" },
     {
       key: "coc_noncompetition",
       label: "COC Meetings/Trainings/Socials/etc",
@@ -474,7 +501,7 @@ function renderCoverage(rows) {
 
     const meta = document.createElement("div");
     meta.className = "bar-meta";
-    meta.textContent = `COC Competitions: ${formatNumber(competitionEventCount)} ; With Results: ${formatNumber(competitionEventsWithResultsCount)} ; Result Count: ${formatNumber(cocCompetitionResultCount)}`;
+    meta.textContent = `COC Events: ${formatNumber(competitionEventCount)} ; With Results: ${formatNumber(competitionEventsWithResultsCount)} ; Result Count: ${formatNumber(cocCompetitionResultCount)}`;
 
     const caret = document.createElement("span");
     caret.className = "coverage-caret";
@@ -657,10 +684,16 @@ function renderCoverage(rows) {
 
           seriesSection.append(groupTitle);
 
-          // Get events for this series from the year's events
           const seriesEvents = events
-            .filter((e) => e.series_name === seriesInfo.series_name)
-            .sort((a, b) => (a.event_date || "").localeCompare(b.event_date || ""));
+            .map((eventRow) => ({
+              eventRow,
+              membership: findEventSeriesMembership(eventRow, seriesInfo),
+            }))
+            .filter((entry) => entry.membership)
+            .sort((a, b) => (
+              (a.eventRow.event_date || "").localeCompare(b.eventRow.event_date || "")
+              || (a.eventRow.event_name || "").localeCompare(b.eventRow.event_name || "")
+            ));
 
           if (seriesEvents.length > 0) {
             const tableWrap = document.createElement("div");
@@ -679,12 +712,12 @@ function renderCoverage(rows) {
             thead.append(headRow);
 
             const tbody = document.createElement("tbody");
-            seriesEvents.forEach((eventRow) => {
+            seriesEvents.forEach(({ eventRow, membership }) => {
               const tr = document.createElement("tr");
               tr.className = "event-summary-row";
 
               const num = document.createElement("td");
-              num.textContent = eventRow.series_number != null ? `#${eventRow.series_number}` : "";
+              num.textContent = formatSeriesEventNumber(membership);
 
               const eventName = document.createElement("td");
               eventName.append(
@@ -766,6 +799,182 @@ function renderCoverage(rows) {
   });
 
   target.replaceChildren(...items);
+}
+
+function summarizeSeriesCoverage(rows = []) {
+  const seasonCount = rows.length;
+  const seriesIds = new Set(rows.map((row) => row.series_id).filter(Boolean));
+  const knownEvents = rows.reduce((sum, row) => sum + Number(row.known_event_count || 0), 0);
+  const resultEvents = rows.reduce((sum, row) => sum + Number(row.events_with_results || 0), 0);
+  const completeSeasons = rows.filter((row) => {
+    const known = Number(row.known_event_count || 0);
+    const withResults = Number(row.events_with_results || 0);
+    const canceled = Number(row.canceled_event_count || 0);
+    return known > 0 && withResults >= known - canceled;
+  }).length;
+
+  return {
+    seriesCount: seriesIds.size,
+    seasonCount,
+    knownEvents,
+    resultEvents,
+    completeSeasons,
+  };
+}
+
+function createSeriesCell(row) {
+  const cell = document.createElement("td");
+  cell.className = "series-coverage-cell";
+
+  if (!row) {
+    cell.textContent = "—";
+    cell.classList.add("is-empty");
+    return cell;
+  }
+
+  const known = Number(row.known_event_count || 0);
+  const withResults = Number(row.events_with_results || 0);
+  const canceled = Number(row.canceled_event_count || 0);
+  const missing = Number(row.missing_result_event_count || 0);
+
+  const primary = document.createElement("span");
+  primary.className = "series-coverage-value";
+  primary.textContent = `${formatNumber(withResults)}/${formatNumber(known)}`;
+
+  const detail = document.createElement("span");
+  detail.className = "series-coverage-detail";
+  const detailParts = [`${formatNumber(row.result_count || 0)} rows`];
+  if (canceled) detailParts.push(`${formatNumber(canceled)} canceled`);
+  detail.textContent = detailParts.join(" · ");
+
+  if (missing > 0) {
+    cell.classList.add("has-gap");
+  } else if (known > 0) {
+    cell.classList.add("is-complete");
+  }
+
+  cell.append(primary, detail);
+  return cell;
+}
+
+function renderSeriesCoverage(rows = []) {
+  const summaryTarget = document.getElementById("series-coverage-summary");
+  const matrixTarget = document.getElementById("series-coverage-matrix");
+  const incompleteTarget = document.getElementById("series-incomplete-list");
+  if (!summaryTarget || !matrixTarget || !incompleteTarget) return;
+
+  if (!rows.length) {
+    summaryTarget.replaceChildren();
+    matrixTarget.textContent = "No series seasons are exported yet.";
+    incompleteTarget.replaceChildren();
+    return;
+  }
+
+  const summary = summarizeSeriesCoverage(rows);
+  summaryTarget.replaceChildren(
+    createStatCard("Series", formatNumber(summary.seriesCount)),
+    createStatCard("Seasons", formatNumber(summary.seasonCount)),
+    createStatCard("Known Events", formatNumber(summary.knownEvents), `${formatNumber(summary.resultEvents)} with results`),
+    createStatCard("Complete Seasons", formatNumber(summary.completeSeasons))
+  );
+
+  const seriesMap = new Map();
+  const yearSet = new Set();
+  rows.forEach((row) => {
+    if (!row.series_id || !row.series_name || row.season_start_year == null) return;
+    yearSet.add(Number(row.season_start_year));
+    if (!seriesMap.has(row.series_id)) {
+      seriesMap.set(row.series_id, {
+        id: row.series_id,
+        name: row.series_name,
+        totalEvents: 0,
+      });
+    }
+    seriesMap.get(row.series_id).totalEvents += Number(row.known_event_count || 0);
+  });
+
+  const seriesList = [...seriesMap.values()]
+    .sort((a, b) => b.totalEvents - a.totalEvents || a.name.localeCompare(b.name));
+  const years = [...yearSet].sort((a, b) => b - a);
+  const byYearSeries = new Map();
+  rows.forEach((row) => {
+    if (!row.series_id || row.season_start_year == null) return;
+    byYearSeries.set(`${row.season_start_year}:${row.series_id}`, row);
+  });
+
+  const table = document.createElement("table");
+  table.className = "series-coverage-table";
+
+  const thead = document.createElement("thead");
+  const headRow = document.createElement("tr");
+  const yearHead = document.createElement("th");
+  yearHead.textContent = "Season";
+  yearHead.className = "series-year-head";
+  headRow.append(yearHead);
+
+  seriesList.forEach((series) => {
+    const th = document.createElement("th");
+    const link = document.createElement("a");
+    link.href = getEntityUrl("series", series.id);
+    link.textContent = series.name;
+    th.append(link);
+    headRow.append(th);
+  });
+
+  thead.append(headRow);
+  table.append(thead);
+
+  const tbody = document.createElement("tbody");
+  years.forEach((year) => {
+    const tr = document.createElement("tr");
+    const yearCell = document.createElement("th");
+    yearCell.scope = "row";
+    yearCell.textContent = year;
+    tr.append(yearCell);
+
+    seriesList.forEach((series) => {
+      tr.append(createSeriesCell(byYearSeries.get(`${year}:${series.id}`)));
+    });
+
+    tbody.append(tr);
+  });
+  table.append(tbody);
+
+  matrixTarget.replaceChildren(table);
+
+  const incompleteRows = rows
+    .filter((row) => Number(row.missing_result_event_count || 0) > 0)
+    .sort((a, b) => {
+      const yearDiff = Number(b.season_start_year || 0) - Number(a.season_start_year || 0);
+      return yearDiff || (a.series_name || "").localeCompare(b.series_name || "");
+    });
+
+  if (!incompleteRows.length) {
+    incompleteTarget.replaceChildren();
+    return;
+  }
+
+  const heading = document.createElement("h3");
+  heading.textContent = "Known Seasons Still Missing Results";
+
+  const list = document.createElement("div");
+  list.className = "series-incomplete-grid";
+  incompleteRows.slice(0, 8).forEach((row) => {
+    const item = document.createElement("article");
+    item.className = "series-incomplete-item";
+
+    const title = document.createElement("a");
+    title.href = getEntityUrl("series", row.series_id);
+    title.textContent = `${row.series_name} ${row.season_label}`;
+
+    const meta = document.createElement("span");
+    meta.textContent = `${formatNumber(row.events_with_results)}/${formatNumber(row.known_event_count)} events with results`;
+
+    item.append(title, meta);
+    list.append(item);
+  });
+
+  incompleteTarget.replaceChildren(heading, list);
 }
 
 function createEmptyTableRow(colspan, message) {
@@ -1535,6 +1744,7 @@ async function main() {
 
     renderStats(data.summary);
     renderCoverage(data.coverage_by_year);
+    renderSeriesCoverage(data.series_coverage || []);
     renderStackList("source-documents", data.source_documents, "document_type", "count");
     renderStackList("result-statuses", data.result_statuses, "status", "count");
     renderRecentEvents(data.recent_events);

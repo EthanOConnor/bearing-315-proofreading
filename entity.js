@@ -717,7 +717,7 @@ function renderSeries(detail) {
   const meta = document.getElementById("entity-meta");
 
   title.textContent = detail.series_name;
-  subtitle.textContent = "Series standings from archived web pages.";
+  subtitle.textContent = "Series seasons, event membership, and standings from archived sources.";
 
   const yearRange = detail.summary?.year_range || "";
   if (yearRange) {
@@ -727,6 +727,7 @@ function renderSeries(detail) {
 
   renderSummaryCards([
     createStatCard("Seasons", formatEntityNumber(detail.summary?.season_count)),
+    createStatCard("Events", formatEntityNumber(detail.summary?.event_count), `${formatEntityNumber(detail.summary?.result_event_count)} with results`),
     createStatCard("Standings", formatEntityNumber(detail.summary?.standing_count)),
   ]);
 
@@ -737,19 +738,17 @@ function renderSeries(detail) {
   const eventsHeading = document.getElementById("entity-events-heading");
   const eventsCopy = document.getElementById("entity-events-copy");
   eventsHeading.textContent = "Seasons";
-  eventsCopy.textContent = "Click a season to view standings.";
+  eventsCopy.textContent = "Click a season to view events and standings.";
 
   const eventsWrap = document.getElementById("entity-events-wrap");
   const eventsEmpty = document.getElementById("entity-events-empty");
   const eventsBody = document.getElementById("entity-events-body");
 
-  const seasons = (detail.seasons || []).filter(
-    (s) => s.categories?.some((c) => c.standings?.length > 0)
-  );
+  const seasons = detail.seasons || [];
 
   if (!seasons.length) {
     eventsWrap.hidden = true;
-    eventsEmpty.textContent = "No standings data available for this series.";
+    eventsEmpty.textContent = "No season data available for this series.";
     eventsEmpty.hidden = false;
   } else {
     setTableHead(document.getElementById("entity-events-head"), [

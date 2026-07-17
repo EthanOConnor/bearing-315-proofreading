@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./site.css">
     <script src="./vendor/fuse.min.js" defer></script>
     <script src="./search.js" defer></script>
+    <script src="./event-charts.js" defer></script>
     <script src="./event.js" defer></script>
   </head>
   <body class="event-page">
@@ -45,6 +46,48 @@
             <p>Static event details, citations, and exported results when available.</p>
           </div>
           <div class="event-detail-meta" id="event-summary-facts"></div>
+        </section>
+
+        <section class="panel panel-wide" id="event-load-panel" hidden>
+          <div class="panel-head">
+            <h2>Course, Start, And Finish Load</h2>
+            <p id="event-load-copy">How many runners were on course and how quickly they started and finished.</p>
+          </div>
+          <div class="event-load-charts">
+            <article class="event-load-chart-card">
+              <div class="event-load-chart-head">
+                <div>
+                  <h3>Runners On Course</h3>
+                  <p>Simultaneous runners based on paired electronic start and finish times.</p>
+                </div>
+              </div>
+              <div class="event-load-chart" id="event-occupancy-chart"></div>
+            </article>
+
+            <article class="event-load-chart-card">
+              <div class="event-load-chart-head">
+                <div>
+                  <h3>Start And Finish Rate</h3>
+                  <p>Starts and finishes per minute, each measured over the preceding 10 minutes.</p>
+                </div>
+                <div class="event-load-legend" aria-label="Chart legend">
+                  <span><i class="event-load-legend-line starts"></i>Starts</span>
+                  <span><i class="event-load-legend-line finishes"></i>Finishes</span>
+                </div>
+              </div>
+              <div class="event-load-chart" id="event-rate-chart"></div>
+            </article>
+
+            <article class="event-load-chart-card">
+              <div class="event-load-chart-head">
+                <div>
+                  <h3>Control Punch Load</h3>
+                  <p>Recorded punches at each control in five-minute periods; darker cells mean more punches.</p>
+                </div>
+              </div>
+              <div class="event-load-chart event-control-chart" id="event-control-chart"></div>
+            </article>
+          </div>
         </section>
 
         <section class="panel panel-wide" id="event-metadata-panel" hidden>

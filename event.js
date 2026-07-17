@@ -85,6 +85,19 @@ function formatEventResultsValue(detail) {
   return formatEventPageNumber(detail?.result_count);
 }
 
+function formatExternalLinkLabel(linkRow) {
+  const explicitLabel = String(linkRow?.link_label || linkRow?.label || "").trim();
+  if (explicitLabel) return explicitLabel;
+
+  const linkUrl = String(linkRow?.link_url || "").toLowerCase();
+  if (linkUrl.includes("livelox.com")) return "Livelox";
+  if (linkUrl.includes("winsplits") || linkUrl.includes("obasen.orientering.se")) return "WinSplits";
+  if (linkUrl.includes("attackpoint.org")) return "Attackpoint";
+  if (linkUrl.includes("routegadget") || linkUrl.includes("rg.cascadeoc.org")) return "RouteGadget";
+
+  return formatCodeLabel(linkRow?.link_type || "link");
+}
+
 function getEntityUrl(type, id) {
   return `./entity.html?type=${encodeURIComponent(type)}&id=${encodeURIComponent(id)}`;
 }
@@ -726,7 +739,7 @@ function renderMetadataPanel(detail) {
       anchor.href = linkRow.link_url || "#";
       anchor.target = "_blank";
       anchor.rel = "noopener noreferrer";
-      anchor.textContent = formatCodeLabel(linkRow.link_type || "link");
+      anchor.textContent = formatExternalLinkLabel(linkRow);
       return anchor;
     });
     linksTarget.replaceChildren(...linkNodes);
